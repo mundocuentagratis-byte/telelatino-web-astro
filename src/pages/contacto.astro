@@ -1,0 +1,119 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Contacto | TeleLatino Oficial"
+  description="Contacta con TeleLatino Oficial para información, soporte o consultas generales."
+>
+  <section class="contact-page">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <span class="badge">Contacto</span>
+
+        <h1>¿Necesitas más información?</h1>
+
+        <p>
+          Puedes contactar con TeleLatino Oficial para consultas generales,
+          información sobre el sitio, colaboraciones o soporte relacionado con
+          el contenido publicado.
+        </p>
+
+        <div class="contact-list">
+          <div class="card">
+            <strong>Correo</strong>
+            <span>contacto@telelatinoficial.xyz</span>
+          </div>
+
+          <div class="card">
+            <strong>Sitio web</strong>
+            <span>telelatinoficial.xyz</span>
+          </div>
+
+          <div class="card">
+            <strong>Horario</strong>
+            <span>Atención según disponibilidad</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-card card">
+        <h2>Mensaje rápido</h2>
+
+        <p>
+          Próximamente podremos agregar un formulario real conectado a correo,
+          WhatsApp o una base de datos. Por ahora esta página funciona como
+          sección informativa de contacto.
+        </p>
+
+        <a href="/" class="btn btn-primary">Volver al inicio</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .contact-page {
+    padding: 90px 0;
+  }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 0.8fr;
+    gap: 48px;
+    align-items: start;
+  }
+
+  .contact-info h1 {
+    margin: 22px 0 18px;
+    font-size: clamp(2.5rem, 5vw, 4.4rem);
+    line-height: 1;
+    letter-spacing: -0.06em;
+  }
+
+  .contact-info p {
+    max-width: 680px;
+    color: var(--color-muted);
+    font-size: 1.08rem;
+  }
+
+  .contact-list {
+    display: grid;
+    gap: 16px;
+    margin-top: 32px;
+  }
+
+  .contact-list .card {
+    padding: 20px;
+  }
+
+  .contact-list strong {
+    display: block;
+    margin-bottom: 6px;
+    color: var(--color-primary);
+  }
+
+  .contact-list span {
+    color: var(--color-muted);
+  }
+
+  .contact-card {
+    padding: 34px;
+  }
+
+  .contact-card h2 {
+    margin: 0 0 14px;
+    font-size: 2rem;
+  }
+
+  .contact-card p {
+    color: var(--color-muted);
+    margin-bottom: 28px;
+  }
+
+  @media (max-width: 880px) {
+    .contact-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

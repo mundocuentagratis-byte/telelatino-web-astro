@@ -1,0 +1,94 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Términos y condiciones | TeleLatino Oficial"
+  description="Consulta los términos y condiciones de uso del sitio web TeleLatino Oficial."
+>
+  <section class="legal-page">
+    <div class="container legal-box card">
+      <span class="badge">Legal</span>
+
+      <h1>Términos y condiciones</h1>
+
+      <p>
+        Bienvenido a TeleLatino Oficial. Al acceder y utilizar este sitio web,
+        aceptas los presentes términos y condiciones de uso.
+      </p>
+
+      <h2>1. Uso del sitio</h2>
+      <p>
+        Este sitio tiene fines informativos y promocionales relacionados con
+        entretenimiento digital, noticias, guías y contenido para usuarios.
+      </p>
+
+      <h2>2. Contenido publicado</h2>
+      <p>
+        El contenido publicado en este sitio busca ofrecer información general.
+        Nos reservamos el derecho de modificar, actualizar o eliminar contenido
+        cuando sea necesario.
+      </p>
+
+      <h2>3. Enlaces externos</h2>
+      <p>
+        El sitio puede incluir enlaces hacia servicios, plataformas o páginas de
+        terceros. TeleLatino Oficial no se hace responsable por el contenido,
+        disponibilidad o políticas de dichos sitios externos.
+      </p>
+
+      <h2>4. Responsabilidad del usuario</h2>
+      <p>
+        El usuario es responsable del uso que haga de la información publicada
+        en este sitio y de verificar las condiciones de cualquier servicio externo.
+      </p>
+
+      <h2>5. Cambios en los términos</h2>
+      <p>
+        Podemos actualizar estos términos en cualquier momento. La versión vigente
+        será la publicada en esta página.
+      </p>
+
+      <p class="updated">Última actualización: 17 de junio de 2026.</p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .legal-page {
+    padding: 90px 0;
+  }
+
+  .legal-box {
+    max-width: 900px;
+    padding: 44px;
+  }
+
+  .legal-box h1 {
+    margin: 22px 0 18px;
+    font-size: clamp(2.4rem, 5vw, 4.2rem);
+    line-height: 1;
+    letter-spacing: -0.06em;
+  }
+
+  .legal-box h2 {
+    margin: 34px 0 10px;
+    font-size: 1.45rem;
+  }
+
+  .legal-box p {
+    color: var(--color-muted);
+    font-size: 1.04rem;
+  }
+
+  .updated {
+    margin-top: 34px;
+    font-weight: 700;
+  }
+
+  @media (max-width: 680px) {
+    .legal-box {
+      padding: 28px;
+    }
+  }
+</style>
