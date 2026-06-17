@@ -1,0 +1,25 @@
+﻿{
+  "sports": {
+    "enabled": true,
+    "type": "listing",
+    "targetCollection": "noticias",
+    "sourceName": "Mundo Deportivo",
+    "category": "Deportes",
+    "dailyLimit": 4,
+    "urls": [
+      "https://www.mundodeportivo.com/futbol"
+    ]
+  },
+  "movies": {
+    "enabled": true,
+    "type": "rss",
+    "targetCollection": "blog",
+    "sourceName": "SensaCine",
+    "category": "Películas",
+    "dailyLimit": 1,
+    "urls": [
+      "https://www.sensacine.com/rss/noticias-cine.xml",
+      "https://www.sensacine.com/rss/noticias.xml"
+    ]
+  }
+}
