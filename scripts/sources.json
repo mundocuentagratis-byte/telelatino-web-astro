@@ -1,25 +1,30 @@
 {
   "sports": {
     "enabled": true,
-    "type": "listing",
+    "type": "sports_listing",
     "targetCollection": "noticias",
     "sourceName": "Mundo Deportivo",
     "category": "Deportes",
     "dailyLimit": 4,
+    "requiresImage": true,
     "urls": [
       "https://www.mundodeportivo.com/futbol"
     ]
   },
   "movies": {
     "enabled": true,
-    "type": "rss",
+    "type": "movies_listing",
     "targetCollection": "blog",
     "sourceName": "SensaCine",
     "category": "Películas",
-    "dailyLimit": 1,
+    "initialTarget": 10,
+    "dailyLimitAfterInitial": 1,
+    "requiresImage": true,
+    "requiresTrailer": true,
     "urls": [
-      "https://www.sensacine.com/rss/noticias-cine.xml",
-      "https://www.sensacine.com/rss/noticias.xml"
+      "https://www.sensacine.com/peliculas/estrenos/es/",
+      "https://www.sensacine.com/peliculas/estrenos/mas-esperadas/",
+      "https://www.sensacine.com/videos/trailers/peliculas-cartelera/"
     ]
   }
 }

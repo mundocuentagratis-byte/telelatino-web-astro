@@ -8,7 +8,6 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
-import feedparser
 import requests
 from bs4 import BeautifulSoup
 from google import genai
@@ -28,8 +27,6 @@ NEWS_DIR = ROOT / "src" / "content" / "noticias"
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
-
-DEFAULT_IMAGE = "/images/telelatino-app.jpg"
 
 BLOCKED_TOPICS = [
     "agresión sexual",
@@ -57,37 +54,17 @@ BLOCKED_TOPICS = [
     "tribunal",
     "acusado",
     "acusada",
-    "polémica grave",
-    "polemicagrave",
     "cromos",
     "apuestas",
     "ganar dinero",
 ]
 
-MOVIE_ALLOWED_KEYWORDS = [
-    "película",
-    "pelicula",
-    "cine",
-    "estreno",
-    "estrenos",
-    "tráiler",
-    "trailer",
-    "cartelera",
-    "sinopsis",
-    "saga",
-    "director",
-    "actriz",
-    "actor",
+SPORT_ALLOWED_PATHS = [
+    "/futbol",
 ]
 
-MOVIE_BLOCKED_KEYWORDS = [
-    "serie",
-    "series",
-    "temporada",
-    "capítulo",
-    "capitulo",
-    "programa",
-    "reality",
+MOVIE_ALLOWED_PATHS = [
+    "/peliculas/pelicula-",
 ]
 
 HEADERS = {
@@ -180,7 +157,7 @@ def url_hash(url: str) -> str:
 
 
 def request_text(url: str) -> str:
-    response = requests.get(url, headers=HEADERS, timeout=25)
+    response = requests.get(url, headers=HEADERS, timeout=30)
     response.raise_for_status()
     return response.text
 
@@ -190,23 +167,10 @@ def is_blocked_topic(candidate: dict, extra_text: str = "") -> bool:
     text = normalize_text(text)
 
     for blocked in BLOCKED_TOPICS:
-        blocked_clean = normalize_text(blocked)
-        if blocked_clean in text:
+        if normalize_text(blocked) in text:
             return True
 
     return False
-
-
-def is_good_movie_candidate(candidate: dict) -> bool:
-    text = normalize_text(f"{candidate.get('title', '')} {candidate.get('summary', '')}")
-
-    has_movie_keyword = any(normalize_text(keyword) in text for keyword in MOVIE_ALLOWED_KEYWORDS)
-    has_blocked_keyword = any(normalize_text(keyword) in text for keyword in MOVIE_BLOCKED_KEYWORDS)
-
-    if has_blocked_keyword and not has_movie_keyword:
-        return False
-
-    return has_movie_keyword
 
 
 def should_skip_paragraph(text: str) -> bool:
@@ -250,7 +214,7 @@ def extract_meta_image(soup: BeautifulSoup, page_url: str) -> tuple[str, str]:
 
             return image_url, image_alt
 
-    image = soup.select_one("article img, main img")
+    image = soup.select_one("article img, main img, img")
     if image and image.get("src"):
         image_url = urljoin(page_url, clean_text(image.get("src")))
         image_alt = clean_text(image.get("alt", ""))
@@ -271,7 +235,6 @@ def extract_article_data(url: str) -> dict:
         }
 
     soup = BeautifulSoup(html, "html.parser")
-
     image, image_alt = extract_meta_image(soup, url)
 
     for tag in soup(["script", "style", "noscript", "iframe", "svg", "form"]):
@@ -305,7 +268,7 @@ def extract_article_data(url: str) -> dict:
     for paragraph in paragraphs:
         paragraph = clean_text(paragraph)
 
-        if len(paragraph) < 60:
+        if len(paragraph) < 45:
             continue
 
         if should_skip_paragraph(paragraph):
@@ -316,43 +279,17 @@ def extract_article_data(url: str) -> dict:
     text = "\n\n".join(cleaned)
 
     return {
-        "text": text[:4500],
+        "text": text[:5000],
         "image": image,
         "imageAlt": image_alt,
     }
 
 
-def extract_image_from_rss_entry(entry) -> tuple[str, str]:
-    title = clean_text(getattr(entry, "title", ""))
-
-    media_content = getattr(entry, "media_content", None)
-    if media_content and isinstance(media_content, list):
-        for media in media_content:
-            if isinstance(media, dict) and media.get("url"):
-                return clean_text(media.get("url")), title
-
-    media_thumbnail = getattr(entry, "media_thumbnail", None)
-    if media_thumbnail and isinstance(media_thumbnail, list):
-        for media in media_thumbnail:
-            if isinstance(media, dict) and media.get("url"):
-                return clean_text(media.get("url")), title
-
-    links = getattr(entry, "links", [])
-    for link in links:
-        if isinstance(link, dict):
-            href = clean_text(link.get("href", ""))
-            link_type = clean_text(link.get("type", ""))
-            if href and link_type.startswith("image/"):
-                return href, title
-
-    return "", ""
-
-
-def get_listing_candidates(url: str, source_name: str, category: str) -> list[dict]:
+def get_sports_candidates(url: str, source_name: str, category: str) -> list[dict]:
     try:
         html = request_text(url)
     except Exception as error:
-        write_report(f"[ERROR] No se pudo leer listado: {url} | {error}")
+        write_report(f"[ERROR] No se pudo leer listado deportivo: {url} | {error}")
         return []
 
     soup = BeautifulSoup(html, "html.parser")
@@ -370,7 +307,6 @@ def get_listing_candidates(url: str, source_name: str, category: str) -> list[di
     ]
 
     links = []
-
     for selector in selectors:
         links.extend(soup.select(selector))
 
@@ -387,7 +323,7 @@ def get_listing_candidates(url: str, source_name: str, category: str) -> list[di
         if "mundodeportivo.com" not in parsed.netloc:
             continue
 
-        if "/futbol" not in parsed.path:
+        if not any(path in parsed.path for path in SPORT_ALLOWED_PATHS):
             continue
 
         if len(title) < 35:
@@ -409,134 +345,189 @@ def get_listing_candidates(url: str, source_name: str, category: str) -> list[di
         }
 
         if is_blocked_topic(candidate):
-            write_report(f"[SKIP] Candidato bloqueado desde listado: {title}")
+            write_report(f"[SKIP] Deporte bloqueado por tema delicado: {title}")
             continue
 
         candidates.append(candidate)
 
-    write_report(f"[INFO] Candidatos encontrados en listado {source_name}: {len(candidates)}")
+    write_report(f"[INFO] Candidatos fútbol encontrados en {source_name}: {len(candidates)}")
 
     return candidates
 
 
-def get_rss_candidates(url: str, source_name: str, category: str) -> list[dict]:
+def get_movies_candidates(url: str, source_name: str, category: str) -> list[dict]:
     try:
-        response = requests.get(url, headers=HEADERS, timeout=25)
-        response.raise_for_status()
-        feed = feedparser.parse(response.content)
+        html = request_text(url)
     except Exception as error:
-        write_report(f"[ERROR] No se pudo leer RSS: {url} | {error}")
+        write_report(f"[ERROR] No se pudo leer listado de películas: {url} | {error}")
         return []
 
+    soup = BeautifulSoup(html, "html.parser")
     candidates = []
     seen = set()
 
-    for entry in feed.entries:
-        title = clean_text(getattr(entry, "title", ""))
-        link = clean_text(getattr(entry, "link", ""))
-        summary = clean_text(getattr(entry, "summary", ""))
+    selectors = [
+        "a.meta-title-link",
+        "h2 a",
+        "h3 a",
+        ".meta-title a",
+        ".card h2 a",
+        ".card a",
+        "article a",
+        "a",
+    ]
 
-        if not title or not link:
+    links = []
+    for selector in selectors:
+        links.extend(soup.select(selector))
+
+    for link in links:
+        title = clean_text(link.get_text(" ", strip=True))
+        href = link.get("href")
+
+        if not title or not href:
             continue
 
-        if link in seen:
+        full_url = urljoin(url, href)
+        parsed = urlparse(full_url)
+
+        if "sensacine.com" not in parsed.netloc:
             continue
 
-        seen.add(link)
+        if not any(path in parsed.path for path in MOVIE_ALLOWED_PATHS):
+            continue
 
-        image, image_alt = extract_image_from_rss_entry(entry)
+        if len(title) < 2 or len(title) > 95:
+            continue
+
+        if full_url in seen:
+            continue
+
+        seen.add(full_url)
 
         candidate = {
             "title": title,
-            "url": link,
-            "summary": summary,
+            "url": full_url,
+            "summary": "",
             "sourceName": source_name,
             "category": category,
-            "image": image,
-            "imageAlt": image_alt or title,
+            "image": "",
+            "imageAlt": title,
         }
 
         if is_blocked_topic(candidate):
-            write_report(f"[SKIP] Candidato bloqueado desde RSS: {title}")
+            write_report(f"[SKIP] Película bloqueada por tema delicado: {title}")
             continue
 
         candidates.append(candidate)
 
-    write_report(f"[INFO] Candidatos encontrados en RSS {source_name}: {len(candidates)}")
+    write_report(f"[INFO] Candidatos de películas encontrados en {source_name}: {len(candidates)}")
 
     return candidates
+
+
+def count_existing_movie_posts() -> int:
+    if not BLOG_DIR.exists():
+        return 0
+
+    total = 0
+
+    for path in BLOG_DIR.glob("*.md"):
+        try:
+            text = path.read_text(encoding="utf-8")
+        except Exception:
+            continue
+
+        normalized = normalize_text(text)
+
+        is_movie = "category: \"peliculas\"" in normalized or "category: \"peliculas\"" in normalized.replace("é", "e")
+        has_source = "sourcename: \"sensacine\"" in normalized
+        has_trailer = "youtubevideoid:" in normalized
+        has_image = "image:" in normalized
+
+        if is_movie and has_source and has_trailer and has_image:
+            total += 1
+
+    return total
+
+
+def get_dynamic_daily_limit(name: str, config: dict) -> int:
+    if name != "movies":
+        return int(config.get("dailyLimit", 1))
+
+    current_movies = count_existing_movie_posts()
+    initial_target = int(config.get("initialTarget", 10))
+    after_initial = int(config.get("dailyLimitAfterInitial", 1))
+
+    if current_movies < initial_target:
+        needed = initial_target - current_movies
+        write_report(f"[INFO] Películas actuales con imagen y tráiler: {current_movies}. Faltan {needed} para llegar a {initial_target}.")
+        return needed
+
+    write_report(f"[INFO] Ya hay {current_movies} películas con imagen y tráiler. Se intentará publicar máximo {after_initial} nueva.")
+    return after_initial
 
 
 def build_prompt(candidate: dict, source_text: str, content_type: str) -> str:
     app_context = """
 TELELATINO es una app de entretenimiento para Android con canales en vivo,
 eventos deportivos, películas y estrenos. Tiene 7 días de prueba gratis al
-registrarse y plan VIP de 6 meses por 6 USD. La web usa artículos informativos
-para atraer usuarios y al final de cada artículo ya existe un CTA automático
-para descargar la app.
+registrarse y plan VIP de 6 meses por 6 USD.
 """
 
     base_rules = """
-Reglas importantes:
+Reglas:
 - No copies frases literales de la fuente.
 - No publiques el artículo como exclusiva propia.
-- Redacta con estructura nueva, valor añadido y tono natural.
-- No agregues el CTA de descarga, porque la web ya lo inserta automáticamente.
-- No uses markdown H1.
+- No agregues CTA de descarga, la web ya lo inserta automáticamente.
+- No uses H1.
 - Usa subtítulos H2.
 - Escribe entre 450 y 750 palabras.
-- No inventes datos concretos, resultados, fechas o declaraciones si no aparecen en la fuente.
-- Mantén un estilo informativo, claro y útil.
-- Responde SOLO JSON válido, sin markdown externo.
+- No inventes datos concretos si no aparecen en la fuente.
+- Responde SOLO JSON válido.
 """
 
     if content_type == "movies":
         type_instructions = """
-Tipo de artículo: cine, películas o estrenos.
+Tipo de artículo: película de estreno, cartelera o próximo estreno.
 
 Objetivo:
-Crear un artículo útil para usuarios interesados en películas, estrenos,
-tráilers, cartelera y sinopsis.
-
-Estructura recomendada:
+Crear un artículo de película, no de series ni de noticias generales.
+Debe incluir:
 - Introducción breve.
-- Sinopsis o explicación de la película si hay una película concreta.
+- Sinopsis reescrita.
+- De qué trata la película.
 - Por qué puede llamar la atención.
-- Qué tipo de público puede disfrutarla.
+- Qué público puede disfrutarla.
 - Cierre informativo.
 
-Importante:
-Si la fuente habla de una película concreta, marca is_specific_movie como true,
-coloca el nombre de esa película en main_movie_title y genera una búsqueda exacta
-para YouTube.
-
-Si la fuente habla de muchas películas, plataforma, industria, series o proyectos
-generales, marca is_specific_movie como false y deja youtube_search_query vacío.
+Obligatorio:
+- is_specific_movie debe ser true.
+- main_movie_title debe ser el nombre exacto de la película.
+- youtube_search_query debe buscar el tráiler oficial de esa película.
 """
     else:
         type_instructions = """
-Tipo de artículo: noticia deportiva de fútbol.
+Tipo de artículo: fútbol reciente.
 
 Objetivo:
-Crear una noticia deportiva clara y útil. Explica el contexto, el punto principal
-y por qué puede ser relevante para usuarios que siguen fútbol, jugadores,
-clubes, selecciones o torneos.
+Crear una noticia deportiva sobre fútbol, jugadores, clubes, selecciones,
+torneos, partidos o actualidad futbolística.
 """
 
     return f"""
 Eres redactor SEO para la web TELELATINO.
 
-Contexto de TELELATINO:
+Contexto:
 {app_context}
 
-Fuente consultada:
+Fuente:
 Nombre: {candidate["sourceName"]}
 URL: {candidate["url"]}
 Título original: {candidate["title"]}
-Resumen de la fuente: {candidate.get("summary", "")}
 
-Texto de apoyo de la fuente, solo para entender contexto:
-{source_text[:3000]}
+Texto de apoyo:
+{source_text[:3200]}
 
 {type_instructions}
 
@@ -545,7 +536,7 @@ Texto de apoyo de la fuente, solo para entender contexto:
 Formato JSON exacto:
 {{
   "title": "Título SEO propio",
-  "description": "Meta descripción de máximo 155 caracteres",
+  "description": "Meta descripción máximo 155 caracteres",
   "body": "Contenido en Markdown, sin H1",
   "tags": ["tag1", "tag2", "tag3"],
   "is_specific_movie": false,
@@ -590,9 +581,7 @@ def generate_with_gemini(candidate: dict, source_text: str, content_type: str) -
 
             data = parse_json_response(response.text or "")
 
-            required = ["title", "description", "body"]
-
-            for key in required:
+            for key in ["title", "description", "body"]:
                 if key not in data or not clean_text(str(data.get(key, ""))):
                     raise ValueError(f"Respuesta de Gemini incompleta. Falta: {key}")
 
@@ -612,7 +601,7 @@ def generate_with_gemini(candidate: dict, source_text: str, content_type: str) -
 
             if not data["tags"]:
                 if content_type == "movies":
-                    data["tags"] = ["películas", "estrenos", "entretenimiento"]
+                    data["tags"] = ["películas", "estrenos", "cartelera"]
                 else:
                     data["tags"] = ["deportes", "fútbol", "noticias"]
 
@@ -644,7 +633,7 @@ def search_youtube_trailer(query: str) -> dict | None:
         "part": "snippet",
         "q": f"{query} trailer oficial español",
         "type": "video",
-        "maxResults": 1,
+        "maxResults": 3,
         "videoEmbeddable": "true",
         "safeSearch": "moderate",
         "key": YOUTUBE_API_KEY,
@@ -668,20 +657,33 @@ def search_youtube_trailer(query: str) -> dict | None:
         write_report(f"[WARN] No se encontró tráiler para: {query}")
         return None
 
-    item = items[0]
-    video_id = item.get("id", {}).get("videoId")
-    title = item.get("snippet", {}).get("title", "")
+    for item in items:
+        video_id = item.get("id", {}).get("videoId")
+        title = clean_text(item.get("snippet", {}).get("title", ""))
+
+        if not video_id:
+            continue
+
+        title_norm = normalize_text(title)
+
+        if "trailer" in title_norm or "trailer" in normalize_text(query):
+            write_report(f"[OK] Tráiler encontrado: {title}")
+            return {
+                "youtubeVideoId": video_id,
+                "youtubeVideoTitle": title or "Tráiler oficial",
+            }
+
+    first = items[0]
+    video_id = first.get("id", {}).get("videoId")
+    title = clean_text(first.get("snippet", {}).get("title", ""))
 
     if not video_id:
         return None
 
-    title_clean = clean_text(title)
-
-    write_report(f"[OK] Tráiler encontrado: {title_clean}")
-
+    write_report(f"[OK] Video encontrado para tráiler: {title}")
     return {
         "youtubeVideoId": video_id,
-        "youtubeVideoTitle": title_clean or "Tráiler oficial",
+        "youtubeVideoTitle": title or "Tráiler oficial",
     }
 
 
@@ -696,30 +698,32 @@ def write_markdown(
     article_data: dict,
     youtube_data: dict | None,
 ) -> Path:
-    today = datetime.now(timezone.utc).date().isoformat()
+    now = datetime.now(timezone.utc)
+    pub_date = now.strftime("%Y-%m-%dT%H:%M:%SZ")
 
     base_slug = slugify(article["title"])
     short_hash = url_hash(candidate["url"])[:6]
 
-    filename = f"{base_slug}-{today}-{short_hash}.md"
+    filename = f"{base_slug}-{now.strftime('%Y-%m-%d')}-{short_hash}.md"
 
     target_dir = NEWS_DIR if collection == "noticias" else BLOG_DIR
     target_dir.mkdir(parents=True, exist_ok=True)
 
     target_path = target_dir / filename
 
-    tags = article.get("tags") or []
-    if not tags:
-        tags = ["telelatino"]
-
-    image = article_data.get("image") or candidate.get("image") or DEFAULT_IMAGE
+    image = article_data.get("image") or candidate.get("image")
     image_alt = article_data.get("imageAlt") or candidate.get("imageAlt") or article["title"]
+
+    if not image:
+        raise RuntimeError("No se puede publicar sin imagen destacada.")
+
+    tags = article.get("tags") or ["telelatino"]
 
     frontmatter = [
         "---",
         f"title: {yaml_string(article['title'])}",
         f"description: {yaml_string(article['description'])}",
-        f"pubDate: {today}",
+        f"pubDate: {pub_date}",
         f"category: {yaml_string(candidate['category'])}",
         'author: "TELELATINO"',
         f"tags: {json.dumps(tags, ensure_ascii=False)}",
@@ -751,10 +755,10 @@ def collect_candidates(name: str, config: dict) -> list[dict]:
     all_candidates = []
 
     for url in config.get("urls", []):
-        if source_type == "rss":
-            all_candidates.extend(get_rss_candidates(url, source_name, category))
-        elif source_type == "listing":
-            all_candidates.extend(get_listing_candidates(url, source_name, category))
+        if source_type == "sports_listing":
+            all_candidates.extend(get_sports_candidates(url, source_name, category))
+        elif source_type == "movies_listing":
+            all_candidates.extend(get_movies_candidates(url, source_name, category))
         else:
             write_report(f"[WARN] Tipo de fuente desconocido: {source_type}")
 
@@ -767,7 +771,7 @@ def run_group(name: str, config: dict, processed: dict) -> int:
         return 0
 
     collection = config.get("targetCollection", "blog")
-    daily_limit = int(config.get("dailyLimit", 1))
+    daily_limit = get_dynamic_daily_limit(name, config)
 
     content_type = "movies" if name == "movies" else "sports"
 
@@ -798,20 +802,15 @@ def run_group(name: str, config: dict, processed: dict) -> int:
             }
             continue
 
-        if content_type == "movies" and not is_good_movie_candidate(candidate):
-            write_report(f"[SKIP] No parece artículo de película concreta/cine: {candidate['title']}")
-            processed.setdefault("processed", {})[article_key] = {
-                "url": candidate["url"],
-                "status": "skipped_not_movie",
-                "date": datetime.now(timezone.utc).isoformat(),
-            }
-            continue
-
         write_report(f"[INFO] Procesando: {candidate['title']}")
         write_report(f"[INFO] URL: {candidate['url']}")
 
         article_data = extract_article_data(candidate["url"])
         source_text = article_data.get("text", "")
+
+        if not article_data.get("image"):
+            write_report(f"[SKIP] Sin imagen destacada, no se publica: {candidate['title']}")
+            continue
 
         if is_blocked_topic(candidate, source_text):
             write_report(f"[SKIP] Tema delicado bloqueado después de leer: {candidate['title']}")
@@ -824,11 +823,6 @@ def run_group(name: str, config: dict, processed: dict) -> int:
 
         if not source_text and not candidate.get("summary"):
             write_report("[SKIP] No hay texto suficiente para generar artículo.")
-            processed.setdefault("processed", {})[article_key] = {
-                "url": candidate["url"],
-                "status": "skipped_no_text",
-                "date": datetime.now(timezone.utc).isoformat(),
-            }
             continue
 
         try:
@@ -840,10 +834,17 @@ def run_group(name: str, config: dict, processed: dict) -> int:
         youtube_data = None
 
         if content_type == "movies":
-            if article.get("is_specific_movie") and article.get("youtube_search_query"):
-                youtube_data = search_youtube_trailer(article["youtube_search_query"])
-            else:
-                write_report("[INFO] Sin tráiler: el artículo no trata una película concreta.")
+            if not article.get("is_specific_movie"):
+                write_report(f"[SKIP] Gemini no lo identificó como película concreta: {candidate['title']}")
+                continue
+
+            youtube_query = article.get("youtube_search_query") or article.get("main_movie_title")
+
+            youtube_data = search_youtube_trailer(youtube_query)
+
+            if config.get("requiresTrailer", True) and not youtube_data:
+                write_report(f"[SKIP] Sin tráiler, no se publica la película: {candidate['title']}")
+                continue
 
         try:
             path = write_markdown(
@@ -862,7 +863,8 @@ def run_group(name: str, config: dict, processed: dict) -> int:
             "sourceTitle": candidate["title"],
             "generatedTitle": article["title"],
             "generatedFile": str(path.relative_to(ROOT)),
-            "image": article_data.get("image") or candidate.get("image") or DEFAULT_IMAGE,
+            "image": article_data.get("image"),
+            "hasTrailer": bool(youtube_data),
             "date": datetime.now(timezone.utc).isoformat(),
         }
 
