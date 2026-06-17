@@ -1,0 +1,68 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Página no encontrada | TeleLatino Oficial"
+  description="La página que buscas no existe o fue movida."
+>
+  <section class="not-found">
+    <div class="container not-found-box card">
+      <span class="badge">Error 404</span>
+
+      <h1>Página no encontrada</h1>
+
+      <p>
+        La página que estás buscando no existe, fue eliminada o cambió de dirección.
+        Puedes volver al inicio o revisar las noticias recientes.
+      </p>
+
+      <div class="actions">
+        <a href="/" class="btn btn-primary">Volver al inicio</a>
+        <a href="/noticias/" class="btn btn-secondary">Ver noticias</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .not-found {
+    min-height: 70vh;
+    display: grid;
+    place-items: center;
+    padding: 90px 0;
+  }
+
+  .not-found-box {
+    max-width: 820px;
+    padding: 54px 34px;
+    text-align: center;
+  }
+
+  .not-found-box h1 {
+    margin: 22px 0 16px;
+    font-size: clamp(2.5rem, 6vw, 5rem);
+    line-height: 1;
+    letter-spacing: -0.07em;
+  }
+
+  .not-found-box p {
+    max-width: 620px;
+    margin: 0 auto;
+    color: var(--color-muted);
+    font-size: 1.08rem;
+  }
+
+  .actions {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 32px;
+  }
+
+  @media (max-width: 680px) {
+    .actions {
+      flex-direction: column;
+    }
+  }
+</style>

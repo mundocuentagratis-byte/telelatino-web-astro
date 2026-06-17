@@ -1,0 +1,119 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection, render } from "astro:content";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("blog", ({ data }) => !data.draft);
+
+  return posts.map((post) => ({
+    params: { slug: post.id },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+---
+
+<BaseLayout
+  title={`${post.data.title} | TeleLatino Oficial`}
+  description={post.data.description}
+>
+  <article class="article-page">
+    <header class="article-header container">
+      <a href="/blog/" class="back-link">← Volver al blog</a>
+      <span class="badge">{post.data.category}</span>
+      <h1>{post.data.title}</h1>
+      <p>{post.data.description}</p>
+
+      <div class="article-meta">
+        <span>{post.data.author}</span>
+        <span>
+          {post.data.pubDate.toLocaleDateString("es-ES", {
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+          })}
+        </span>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="article-content card">
+        <Content />
+      </div>
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .article-page {
+    padding: 80px 0;
+  }
+
+  .article-header {
+    max-width: 880px;
+    text-align: center;
+  }
+
+  .back-link {
+    display: inline-flex;
+    margin-bottom: 22px;
+    color: var(--color-muted);
+    font-weight: 800;
+  }
+
+  .article-header h1 {
+    margin: 24px 0 18px;
+    font-size: clamp(2.3rem, 5vw, 4.4rem);
+    line-height: 1;
+    letter-spacing: -0.065em;
+  }
+
+  .article-header p {
+    max-width: 740px;
+    margin: 0 auto;
+    color: var(--color-muted);
+    font-size: 1.08rem;
+  }
+
+  .article-meta {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    color: var(--color-muted);
+    font-size: 0.95rem;
+  }
+
+  .article-content {
+    max-width: 850px;
+    margin: 48px auto 0;
+    padding: 44px;
+  }
+
+  .article-content :global(h2) {
+    margin-top: 34px;
+    margin-bottom: 12px;
+    font-size: 1.8rem;
+    line-height: 1.15;
+  }
+
+  .article-content :global(p),
+  .article-content :global(li) {
+    color: var(--color-muted);
+    font-size: 1.04rem;
+  }
+
+  .article-content :global(a) {
+    color: var(--color-primary);
+    font-weight: 800;
+  }
+
+  @media (max-width: 680px) {
+    .article-content {
+      padding: 28px;
+    }
+  }
+</style>

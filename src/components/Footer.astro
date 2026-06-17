@@ -1,0 +1,154 @@
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="/" class="brand">
+        <span class="brand-icon">▶</span>
+        <span>
+          <strong>TeleLatino</strong>
+          <small>Oficial</small>
+        </span>
+      </a>
+
+      <p>
+        Plataforma informativa y promocional para conocer opciones de entretenimiento,
+        televisión, deportes y contenido digital.
+      </p>
+    </div>
+
+    <div class="footer-links">
+      <div>
+        <h3>Sitio</h3>
+        <a href="/">Inicio</a>
+        <a href="/noticias/">Noticias</a>
+        <a href="/blog/">Blog</a>
+      </div>
+
+      <div>
+        <h3>Secciones</h3>
+        <a href="/#beneficios">Beneficios</a>
+        <a href="/#contenido">Contenido</a>
+        <a href="/#planes">Planes</a>
+      </div>
+
+      <div>
+        <h3>Legal</h3>
+        <a href="#">Términos</a>
+        <a href="#">Privacidad</a>
+        <a href="#">Contacto</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <p>© {new Date().getFullYear()} TeleLatino Oficial. Todos los derechos reservados.</p>
+    <p>Diseñado para una experiencia rápida, moderna y optimizada para buscadores.</p>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    padding: 70px 0 26px;
+    background: rgba(3, 9, 18, 0.72);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .footer-inner {
+    display: grid;
+    grid-template-columns: 1.1fr 1.4fr;
+    gap: 60px;
+    align-items: start;
+  }
+
+  .brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .brand-icon {
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+    border-radius: 14px;
+    background: linear-gradient(135deg, var(--color-primary), #ffb000);
+    color: #1a1204;
+    font-weight: 900;
+  }
+
+  .brand span:last-child {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.05;
+  }
+
+  .brand strong {
+    font-size: 1.05rem;
+  }
+
+  .brand small {
+    color: var(--color-muted);
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .footer-brand p {
+    max-width: 420px;
+    margin: 20px 0 0;
+    color: var(--color-muted);
+  }
+
+  .footer-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+  }
+
+  .footer-links h3 {
+    margin: 0 0 14px;
+    font-size: 0.95rem;
+  }
+
+  .footer-links a {
+    display: block;
+    margin: 10px 0;
+    color: var(--color-muted);
+    font-size: 0.95rem;
+    transition: color 0.2s ease;
+  }
+
+  .footer-links a:hover {
+    color: var(--color-text);
+  }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 50px;
+    padding-top: 22px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    color: var(--color-muted);
+    font-size: 0.88rem;
+  }
+
+  .footer-bottom p {
+    margin: 0;
+  }
+
+  @media (max-width: 820px) {
+    .footer-inner {
+      grid-template-columns: 1fr;
+    }
+
+    .footer-links {
+      grid-template-columns: 1fr;
+    }
+
+    .footer-bottom {
+      flex-direction: column;
+    }
+  }
+</style>
