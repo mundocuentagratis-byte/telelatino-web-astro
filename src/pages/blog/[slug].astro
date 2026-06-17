@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { getCollection, render } from "astro:content";
 import ArticleCTA from "../../components/ArticleCTA.astro";
+import { getCollection, render } from "astro:content";
 
 export async function getStaticPaths() {
   const posts = await getCollection("blog", ({ data }) => !data.draft);
@@ -14,17 +14,24 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = await render(post);
+
+const fallbackImage = "/images/telelatino-app.jpg";
+const articleImage = post.data.image || fallbackImage;
+const articleImageAlt = post.data.imageAlt || post.data.title;
 ---
 
 <BaseLayout
-  title={`${post.data.title} | TeleLatino Oficial`}
+  title={`${post.data.title} | TELELATINO`}
   description={post.data.description}
 >
   <article class="article-page">
     <header class="article-header container">
       <a href="/blog/" class="back-link">← Volver al blog</a>
+
       <span class="badge">{post.data.category}</span>
+
       <h1>{post.data.title}</h1>
+
       <p>{post.data.description}</p>
 
       <div class="article-meta">
@@ -40,103 +47,58 @@ const { Content } = await render(post);
     </header>
 
     <div class="container">
+      <figure class="featured-image">
+        <img src={articleImage} alt={articleImageAlt} loading="eager" />
+      </figure>
+
       <div class="article-content card">
-       <Content />
+        <Content />
 
-{
-  post.data.youtubeVideoId && (
-    <section class="trailer-box">
-      <div class="trailer-header">
-        <span>Tráiler oficial</span>
-        <h2>{post.data.youtubeVideoTitle || "Mira el tráiler"}</h2>
-      </div>
+        {
+          post.data.youtubeVideoId && (
+            <section class="trailer-box">
+              <div class="trailer-header">
+                <span>Tráiler oficial</span>
+                <h2>{post.data.youtubeVideoTitle || "Mira el tráiler"}</h2>
+              </div>
 
-      <div class="video-frame">
-        <iframe
-          src={`https://www.youtube.com/embed/${post.data.youtubeVideoId}`}
-          title={post.data.youtubeVideoTitle || post.data.title}
-          loading="lazy"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </section>
-  )
-}
+              <div class="video-frame">
+                <iframe
+                  src={`https://www.youtube.com/embed/${post.data.youtubeVideoId}`}
+                  title={post.data.youtubeVideoTitle || post.data.title}
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </section>
+          )
+        }
 
-{
-  post.data.sourceName && post.data.sourceUrl && (
-    <p class="source-note">
-      Fuente consultada:
-      {" "}
-      <a href={post.data.sourceUrl} target="_blank" rel="noopener">
-        {post.data.sourceName}
-      </a>
-    </p>
-  )
-}
+        {
+          post.data.sourceName && post.data.sourceUrl && (
+            <p class="source-note">
+              Fuente consultada:{" "}
+              <a href={post.data.sourceUrl} target="_blank" rel="noopener">
+                {post.data.sourceName}
+              </a>
+            </p>
+          )
+        }
 
-<ArticleCTA />
+        <ArticleCTA />
       </div>
     </div>
   </article>
 </BaseLayout>
 
 <style>
-  .trailer-box {
-  margin-top: 42px;
-}
-
-.trailer-header span {
-  display: inline-flex;
-  margin-bottom: 10px;
-  color: var(--color-primary);
-  font-size: 0.78rem;
-  font-weight: 900;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.trailer-header h2 {
-  margin: 0 0 18px;
-  font-size: clamp(1.7rem, 3vw, 2.4rem);
-  line-height: 1.05;
-}
-
-.video-frame {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  border-radius: 24px;
-  background: #000;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-}
-
-.video-frame iframe {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-
-.source-note {
-  margin-top: 32px !important;
-  font-size: 0.95rem !important;
-  color: var(--color-muted);
-}
-
-.source-note a {
-  color: var(--color-primary);
-  font-weight: 800;
-}
   .article-page {
     padding: 80px 0;
   }
 
   .article-header {
-    max-width: 880px;
+    max-width: 920px;
     text-align: center;
   }
 
@@ -145,17 +107,18 @@ const { Content } = await render(post);
     margin-bottom: 22px;
     color: var(--color-muted);
     font-weight: 800;
+    text-decoration: none;
   }
 
   .article-header h1 {
     margin: 24px 0 18px;
-    font-size: clamp(2.3rem, 5vw, 4.4rem);
+    font-size: clamp(2.3rem, 5vw, 4.6rem);
     line-height: 1;
     letter-spacing: -0.065em;
   }
 
   .article-header p {
-    max-width: 740px;
+    max-width: 760px;
     margin: 0 auto;
     color: var(--color-muted);
     font-size: 1.08rem;
@@ -169,11 +132,32 @@ const { Content } = await render(post);
     margin-top: 24px;
     color: var(--color-muted);
     font-size: 0.95rem;
+    font-weight: 800;
+  }
+
+  .featured-image {
+    max-width: 980px;
+    margin: 48px auto 0;
+    overflow: hidden;
+    border-radius: 32px;
+    aspect-ratio: 16 / 9;
+    background:
+      radial-gradient(circle at top left, rgba(255, 198, 41, 0.24), transparent 38%),
+      rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 28px 100px rgba(0, 0, 0, 0.28);
+  }
+
+  .featured-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
   }
 
   .article-content {
     max-width: 850px;
-    margin: 48px auto 0;
+    margin: 36px auto 0;
     padding: 44px;
   }
 
@@ -195,7 +179,65 @@ const { Content } = await render(post);
     font-weight: 800;
   }
 
+  .trailer-box {
+    margin-top: 42px;
+  }
+
+  .trailer-header span {
+    display: inline-flex;
+    margin-bottom: 10px;
+    color: var(--color-primary);
+    font-size: 0.78rem;
+    font-weight: 900;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .trailer-header h2 {
+    margin: 0 0 18px;
+    font-size: clamp(1.7rem, 3vw, 2.4rem);
+    line-height: 1.05;
+  }
+
+  .video-frame {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 24px;
+    background: #000;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+  }
+
+  .video-frame iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+  .source-note {
+    margin-top: 32px !important;
+    font-size: 0.95rem !important;
+    color: var(--color-muted);
+  }
+
+  .source-note a {
+    color: var(--color-primary);
+    font-weight: 800;
+  }
+
   @media (max-width: 680px) {
+    .article-page {
+      padding: 60px 0;
+    }
+
+    .featured-image {
+      border-radius: 24px;
+      margin-top: 34px;
+    }
+
     .article-content {
       padding: 28px;
     }

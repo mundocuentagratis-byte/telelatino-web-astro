@@ -13,6 +13,9 @@ const articleSchema = z.object({
   sourceName: z.string().optional(),
   sourceUrl: z.string().url().optional(),
 
+  image: z.string().optional(),
+  imageAlt: z.string().optional(),
+
   youtubeVideoId: z.string().optional(),
   youtubeVideoTitle: z.string().optional(),
 });

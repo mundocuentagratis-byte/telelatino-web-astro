@@ -2,125 +2,242 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
 
-const posts = (await getCollection("noticias", ({ data }) => !data.draft)).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+const posts = await getCollection("noticias", ({ data }) => !data.draft);
+
+const sortedPosts = posts.sort(
+  (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
 );
+
+const fallbackImage = "/images/telelatino-app.jpg";
 ---
 
 <BaseLayout
-  title="Noticias | TeleLatino Oficial"
-  description="Noticias y novedades sobre deportes, entretenimiento digital, televisión online y contenido para usuarios."
+  title="Noticias | TELELATINO"
+  description="Noticias recientes sobre deportes, fútbol, entretenimiento y novedades digitales relacionadas con TELELATINO."
 >
-  <section class="section page-hero">
+  <section class="news-hero">
     <div class="container">
       <span class="badge">Noticias</span>
-      <h1>Novedades sobre deportes y entretenimiento digital.</h1>
+
+      <h1>Noticias recientes para estar al día</h1>
+
       <p>
-        Una sección pensada para publicar contenido frecuente, atraer tráfico orgánico
-        y mantener el portal actualizado.
+        Actualidad deportiva, fútbol, novedades digitales y contenido relevante
+        para usuarios que buscan entretenimiento desde Android.
       </p>
     </div>
   </section>
 
-  <section class="section">
-    <div class="container posts-grid">
+  <section class="news-section">
+    <div class="container">
       {
-        posts.map((post) => (
-          <article class="post-card card">
-            <span>{post.data.category}</span>
+        sortedPosts.length > 0 ? (
+          <div class="news-grid">
+            {sortedPosts.map((post) => (
+              <article class="news-card">
+                <a href={`/noticias/${post.id}/`} class="image-link">
+                  <img
+                    src={post.data.image || fallbackImage}
+                    alt={post.data.imageAlt || post.data.title}
+                    loading="lazy"
+                  />
+                </a>
 
-            <h2>
-              <a href={`/noticias/${post.id}/`}>{post.data.title}</a>
-            </h2>
+                <div class="news-card-content">
+                  <span class="category">{post.data.category}</span>
 
-            <p>{post.data.description}</p>
+                  <h2>
+                    <a href={`/noticias/${post.id}/`}>{post.data.title}</a>
+                  </h2>
 
-            <small>
-              {post.data.pubDate.toLocaleDateString("es-ES", {
-                year: "numeric",
-                month: "long",
-                day: "numeric",
-              })}
-            </small>
+                  <p>{post.data.description}</p>
 
-            <a class="read-more" href={`/noticias/${post.id}/`}>
-              Leer noticia →
-            </a>
-          </article>
-        ))
+                  <div class="news-meta">
+                    <span>
+                      {post.data.pubDate.toLocaleDateString("es-ES", {
+                        year: "numeric",
+                        month: "long",
+                        day: "numeric",
+                      })}
+                    </span>
+                  </div>
+
+                  <a href={`/noticias/${post.id}/`} class="read-more">
+                    Leer noticia →
+                  </a>
+                </div>
+              </article>
+            ))}
+          </div>
+        ) : (
+          <div class="empty-state card">
+            <h2>Muy pronto habrá nuevas noticias</h2>
+            <p>
+              Estamos preparando contenido informativo relacionado con deportes,
+              entretenimiento y TELELATINO.
+            </p>
+          </div>
+        )
       }
     </div>
   </section>
 </BaseLayout>
 
 <style>
-  .page-hero {
-    padding-bottom: 40px;
+  .news-hero {
+    padding: 90px 0 48px;
     text-align: center;
   }
 
-  .page-hero h1 {
-    max-width: 850px;
-    margin: 22px auto 16px;
-    font-size: clamp(2.4rem, 5vw, 4.4rem);
-    line-height: 1;
-    letter-spacing: -0.06em;
+  .news-hero h1 {
+    max-width: 860px;
+    margin: 24px auto 18px;
+    font-size: clamp(2.5rem, 6vw, 5rem);
+    line-height: 0.96;
+    letter-spacing: -0.07em;
   }
 
-  .page-hero p {
-    max-width: 720px;
+  .news-hero p {
+    max-width: 740px;
     margin: 0 auto;
     color: var(--color-muted);
     font-size: 1.08rem;
   }
 
-  .posts-grid {
+  .news-section {
+    padding: 30px 0 90px;
+  }
+
+  .news-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 26px;
   }
 
-  .post-card {
-    padding: 28px;
+  .news-card {
+    overflow: hidden;
+    border-radius: 28px;
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.045)),
+      rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    box-shadow: 0 24px 80px rgba(0, 0, 0, 0.18);
+    transition:
+      transform 0.22s ease,
+      border-color 0.22s ease,
+      box-shadow 0.22s ease;
   }
 
-  .post-card span {
+  .news-card:hover {
+    transform: translateY(-6px);
+    border-color: rgba(255, 198, 41, 0.32);
+    box-shadow: 0 30px 90px rgba(0, 0, 0, 0.28);
+  }
+
+  .image-link {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 16 / 9;
+    background:
+      radial-gradient(circle at top left, rgba(255, 198, 41, 0.28), transparent 42%),
+      rgba(255, 255, 255, 0.06);
+  }
+
+  .image-link img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transform: scale(1.01);
+    transition: transform 0.35s ease;
+  }
+
+  .news-card:hover .image-link img {
+    transform: scale(1.06);
+  }
+
+  .news-card-content {
+    padding: 24px;
+  }
+
+  .category {
     display: inline-flex;
-    margin-bottom: 16px;
+    margin-bottom: 14px;
     color: var(--color-primary);
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
     font-size: 0.75rem;
+    font-weight: 900;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
   }
 
-  .post-card h2 {
+  .news-card h2 {
     margin: 0 0 12px;
     font-size: 1.45rem;
-    line-height: 1.15;
+    line-height: 1.08;
+    letter-spacing: -0.04em;
   }
 
-  .post-card p {
-    margin: 0 0 18px;
-    color: var(--color-muted);
+  .news-card h2 a {
+    color: var(--color-text);
+    text-decoration: none;
   }
 
-  .post-card small {
-    display: block;
+  .news-card p {
+    margin: 0;
     color: var(--color-muted);
-    font-size: 0.85rem;
+    font-size: 0.98rem;
+  }
+
+  .news-meta {
+    margin-top: 18px;
+    color: var(--color-muted);
+    font-size: 0.88rem;
+    font-weight: 700;
   }
 
   .read-more {
     display: inline-flex;
-    margin-top: 22px;
+    margin-top: 20px;
     color: var(--color-primary);
-    font-weight: 800;
+    font-weight: 900;
+    text-decoration: none;
   }
 
-  @media (max-width: 920px) {
-    .posts-grid {
+  .empty-state {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 44px;
+    text-align: center;
+  }
+
+  .empty-state h2 {
+    margin: 0 0 12px;
+    font-size: 2rem;
+  }
+
+  .empty-state p {
+    margin: 0;
+    color: var(--color-muted);
+  }
+
+  @media (max-width: 980px) {
+    .news-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 640px) {
+    .news-hero {
+      padding-top: 70px;
+    }
+
+    .news-grid {
       grid-template-columns: 1fr;
+    }
+
+    .news-card-content {
+      padding: 22px;
     }
   }
 </style>
