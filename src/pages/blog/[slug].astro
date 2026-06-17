@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection, render } from "astro:content";
+import ArticleCTA from "../../components/ArticleCTA.astro";
 
 export async function getStaticPaths() {
   const posts = await getCollection("blog", ({ data }) => !data.draft);
@@ -41,6 +42,7 @@ const { Content } = await render(post);
     <div class="container">
       <div class="article-content card">
         <Content />
+        <ArticleCTA />
       </div>
     </div>
   </article>

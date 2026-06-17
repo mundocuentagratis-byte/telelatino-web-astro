@@ -1,0 +1,130 @@
+---
+import { appConfig } from "../data/app";
+---
+
+<section class="article-cta">
+  <div class="cta-content">
+    <img src={appConfig.image} alt="Logo de TELELATINO" />
+
+    <div>
+      <span>TELELATINO para Android</span>
+
+      <h2>Disfruta canales en vivo, deportes, películas y estrenos.</h2>
+
+      <p>
+        Descarga TELELATINO y empieza con {appConfig.trial.text}. También puedes
+        consultar por WhatsApp o Telegram si necesitas ayuda.
+      </p>
+
+      <div class="cta-badges">
+        <strong>{appConfig.trial.days} días gratis</strong>
+        <strong>{appConfig.vipPlan.duration} por {appConfig.vipPlan.price}</strong>
+        <strong>Solo Android</strong>
+      </div>
+
+      <div class="cta-actions">
+        <a href={appConfig.apkUrl} class="btn btn-primary" target="_blank" rel="noopener">
+          Descargar APK
+        </a>
+
+        <a href={appConfig.whatsappUrl} class="btn btn-secondary" target="_blank" rel="noopener">
+          WhatsApp
+        </a>
+
+        <a href={appConfig.telegramUrl} class="btn btn-secondary" target="_blank" rel="noopener">
+          Telegram
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .article-cta {
+    margin-top: 42px;
+    padding: 28px;
+    border-radius: 26px;
+    background:
+      radial-gradient(circle at top right, rgba(255, 138, 0, 0.24), transparent 34%),
+      rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 138, 0, 0.22);
+  }
+
+  .cta-content {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 24px;
+    align-items: center;
+  }
+
+  .cta-content img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 28px;
+    box-shadow: 0 24px 60px rgba(255, 138, 0, 0.22);
+  }
+
+  .cta-content span {
+    display: inline-flex;
+    margin-bottom: 10px;
+    color: var(--color-primary);
+    font-size: 0.78rem;
+    font-weight: 900;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .cta-content h2 {
+    margin: 0 0 12px;
+    font-size: clamp(1.7rem, 3vw, 2.4rem);
+    line-height: 1.05;
+    letter-spacing: -0.04em;
+  }
+
+  .cta-content p {
+    margin: 0;
+    color: var(--color-muted);
+  }
+
+  .cta-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 18px;
+  }
+
+  .cta-badges strong {
+    padding: 8px 12px;
+    border-radius: 999px;
+    background: rgba(255, 138, 0, 0.13);
+    color: #ffd8a8;
+    font-size: 0.82rem;
+  }
+
+  .cta-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 24px;
+  }
+
+  @media (max-width: 680px) {
+    .cta-content {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+
+    .cta-content img {
+      margin: 0 auto;
+    }
+
+    .cta-actions {
+      flex-direction: column;
+    }
+
+    .cta-badges {
+      justify-content: center;
+    }
+  }
+</style>
