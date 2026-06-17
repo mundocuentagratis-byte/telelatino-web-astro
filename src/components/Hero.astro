@@ -1,77 +1,86 @@
+---
+import { appConfig } from "../data/app";
+---
+
 <section class="hero" id="inicio">
   <div class="container hero-grid">
     <div class="hero-content">
-      <span class="badge">Entretenimiento digital en un solo lugar</span>
+      <span class="badge">Disponible para Android</span>
 
       <h1>
-        Disfruta televisión, deportes y contenido online con una experiencia moderna.
+        Canales en vivo, deportes y películas en una sola app.
       </h1>
 
       <p>
-        TeleLatino Oficial es un portal informativo y promocional diseñado para que los
-        usuarios conozcan opciones de entretenimiento, novedades, guías y noticias
-        relacionadas con contenido digital.
+        {appConfig.name} es una app de entretenimiento para Android pensada para
+        encontrar rápido lo que más buscas: canales principales, eventos deportivos,
+        películas y estrenos, sin contenido excesivo ni complicaciones.
       </p>
 
       <div class="hero-actions">
-        <a href="#descargar" class="btn btn-primary">
-          Conocer la app
+        <a href={appConfig.apkUrl} class="btn btn-primary" target="_blank" rel="noopener">
+          Descargar APK
         </a>
 
-        <a href="/noticias/" class="btn btn-secondary">
-          Ver noticias
+        <a href={appConfig.whatsappUrl} class="btn btn-secondary" target="_blank" rel="noopener">
+          WhatsApp
+        </a>
+
+        <a href={appConfig.telegramUrl} class="btn btn-secondary" target="_blank" rel="noopener">
+          Telegram
         </a>
       </div>
 
       <div class="hero-stats" aria-label="Beneficios destacados">
         <div>
-          <strong>24/7</strong>
-          <span>Contenido disponible</span>
+          <strong>7 días</strong>
+          <span>Prueba gratis</span>
         </div>
 
         <div>
-          <strong>SEO</strong>
-          <span>Noticias y guías</span>
+          <strong>6 USD</strong>
+          <span>VIP por 6 meses</span>
         </div>
 
         <div>
-          <strong>Web</strong>
-          <span>Rápida y moderna</span>
+          <strong>Android</strong>
+          <span>App móvil</span>
         </div>
       </div>
     </div>
 
     <div class="hero-preview card">
-      <div class="preview-top">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+      <div class="phone-frame">
+        <div class="phone-top"></div>
 
-      <div class="screen">
-        <div class="play-circle">▶</div>
+        <div class="app-screen">
+          <img src={appConfig.image} alt="Logo de la app TELELATINO" />
 
-        <div class="screen-content">
-          <span>TeleLatino Oficial</span>
-          <h2>TV, deportes y entretenimiento</h2>
-          <p>Una experiencia visual optimizada para informar, promocionar y posicionar.</p>
+          <div class="screen-content">
+            <span>{appConfig.name}</span>
+            <h2>Entretenimiento fácil desde tu móvil</h2>
+            <p>
+              Canales en vivo, deportes, películas y estrenos en una experiencia
+              simple para Android.
+            </p>
+          </div>
         </div>
       </div>
 
       <div class="preview-list">
         <div>
           <span class="dot"></span>
-          <p>Guías para usuarios</p>
+          <p>Canales principales en vivo</p>
         </div>
 
         <div>
           <span class="dot"></span>
-          <p>Noticias de deportes</p>
+          <p>Eventos deportivos destacados</p>
         </div>
 
         <div>
           <span class="dot"></span>
-          <p>Contenido optimizado para Google</p>
+          <p>Películas y estrenos fáciles de encontrar</p>
         </div>
       </div>
     </div>
@@ -107,8 +116,8 @@
 
   .hero-content h1 {
     margin: 22px 0 20px;
-    max-width: 760px;
-    font-size: clamp(2.7rem, 6vw, 5.4rem);
+    max-width: 780px;
+    font-size: clamp(2.7rem, 6vw, 5.3rem);
     line-height: 0.96;
     letter-spacing: -0.075em;
   }
@@ -158,65 +167,64 @@
 
   .hero-preview {
     position: relative;
-    padding: 16px;
+    padding: 18px;
     border-radius: var(--radius-lg);
     transform: rotate(1deg);
   }
 
-  .preview-top {
-    display: flex;
-    gap: 8px;
-    padding: 4px 4px 14px;
+  .phone-frame {
+    overflow: hidden;
+    border-radius: 32px;
+    background: linear-gradient(180deg, #101b2c, #050a12);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    padding: 14px;
   }
 
-  .preview-top span {
-    width: 11px;
-    height: 11px;
+  .phone-top {
+    width: 88px;
+    height: 6px;
+    margin: 0 auto 14px;
     border-radius: 999px;
     background: rgba(255, 255, 255, 0.25);
   }
 
-  .screen {
-    min-height: 390px;
+  .app-screen {
+    min-height: 430px;
     position: relative;
     display: flex;
-    align-items: end;
+    flex-direction: column;
+    justify-content: flex-end;
     padding: 26px;
     overflow: hidden;
     border-radius: 24px;
     background:
-      linear-gradient(to top, rgba(0, 0, 0, 0.82), transparent 58%),
-      radial-gradient(circle at 75% 20%, rgba(255, 138, 0, 0.72), transparent 22%),
-      linear-gradient(135deg, #123a65, #07111f 64%);
+      linear-gradient(to top, rgba(0, 0, 0, 0.92), transparent 55%),
+      radial-gradient(circle at 75% 18%, rgba(255, 138, 0, 0.58), transparent 24%),
+      linear-gradient(135deg, #10243d, #06111f 65%);
   }
 
-  .screen::before {
+  .app-screen::before {
     content: "";
     position: absolute;
     inset: 0;
     background:
-      linear-gradient(120deg, rgba(255, 255, 255, 0.16), transparent 36%),
-      radial-gradient(circle at 20% 20%, rgba(0, 212, 255, 0.24), transparent 28%);
+      linear-gradient(120deg, rgba(255, 255, 255, 0.12), transparent 36%),
+      radial-gradient(circle at 18% 22%, rgba(0, 212, 255, 0.18), transparent 28%);
   }
 
-  .play-circle {
-    position: absolute;
-    top: 28px;
-    right: 28px;
-    width: 66px;
-    height: 66px;
-    display: grid;
-    place-items: center;
-    border-radius: 999px;
-    background: linear-gradient(135deg, var(--color-primary), #ffb000);
-    color: #1a1204;
-    font-weight: 900;
-    box-shadow: 0 20px 48px rgba(255, 138, 0, 0.34);
+  .app-screen img {
+    position: relative;
+    z-index: 1;
+    width: min(78%, 330px);
+    margin: 0 auto 28px;
+    border-radius: 32px;
+    box-shadow: 0 30px 80px rgba(255, 138, 0, 0.22);
   }
 
   .screen-content {
     position: relative;
     z-index: 1;
+    text-align: center;
   }
 
   .screen-content span {
@@ -228,8 +236,8 @@
   }
 
   .screen-content h2 {
-    max-width: 360px;
-    margin: 10px 0;
+    max-width: 380px;
+    margin: 10px auto;
     font-size: clamp(1.9rem, 4vw, 3rem);
     line-height: 1;
     letter-spacing: -0.05em;
@@ -237,7 +245,7 @@
 
   .screen-content p {
     max-width: 380px;
-    margin: 0;
+    margin: 0 auto;
     color: rgba(255, 255, 255, 0.74);
   }
 
@@ -294,13 +302,13 @@
       grid-template-columns: 1fr;
     }
 
-    .screen {
-      min-height: 330px;
-      padding: 22px;
-    }
-
     .hero-actions {
       flex-direction: column;
+    }
+
+    .app-screen {
+      min-height: 360px;
+      padding: 20px;
     }
   }
 </style>

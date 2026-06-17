@@ -1,52 +1,65 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { appConfig } from "../data/app";
 ---
 
 <BaseLayout
-  title="Contacto | TeleLatino Oficial"
-  description="Contacta con TeleLatino Oficial para información, soporte o consultas generales."
+  title="Contacto | TELELATINO"
+  description="Contacta con TELELATINO por WhatsApp o Telegram para información sobre la app, prueba gratis, descarga APK y plan VIP."
 >
   <section class="contact-page">
     <div class="container contact-grid">
       <div class="contact-info">
-        <span class="badge">Contacto</span>
+        <span class="badge">Contacto TELELATINO</span>
 
-        <h1>¿Necesitas más información?</h1>
+        <h1>¿Tienes dudas sobre la app?</h1>
 
         <p>
-          Puedes contactar con TeleLatino Oficial para consultas generales,
-          información sobre el sitio, colaboraciones o soporte relacionado con
-          el contenido publicado.
+          Puedes comunicarte con TELELATINO para recibir información sobre la descarga
+          del APK, la prueba gratis de 7 días, el plan VIP y el uso de la app en Android.
         </p>
 
         <div class="contact-list">
-          <div class="card">
-            <strong>Correo</strong>
-            <span>contacto@telelatinoficial.xyz</span>
-          </div>
+          <a class="card contact-item" href={appConfig.whatsappUrl} target="_blank" rel="noopener">
+            <strong>WhatsApp</strong>
+            <span>{appConfig.whatsappNumber}</span>
+          </a>
 
-          <div class="card">
-            <strong>Sitio web</strong>
-            <span>telelatinoficial.xyz</span>
-          </div>
+          <a class="card contact-item" href={appConfig.telegramUrl} target="_blank" rel="noopener">
+            <strong>Telegram</strong>
+            <span>{appConfig.telegramUser}</span>
+          </a>
 
-          <div class="card">
-            <strong>Horario</strong>
-            <span>Atención según disponibilidad</span>
-          </div>
+          <a class="card contact-item" href={appConfig.apkUrl} target="_blank" rel="noopener">
+            <strong>Descarga</strong>
+            <span>APK oficial para Android</span>
+          </a>
         </div>
       </div>
 
       <div class="contact-card card">
-        <h2>Mensaje rápido</h2>
+        <img src={appConfig.image} alt="Imagen de TELELATINO" />
+
+        <h2>Descarga TELELATINO</h2>
 
         <p>
-          Próximamente podremos agregar un formulario real conectado a correo,
-          WhatsApp o una base de datos. Por ahora esta página funciona como
-          sección informativa de contacto.
+          Accede a canales en vivo, eventos deportivos, películas y estrenos desde
+          tu móvil Android. Empieza con {appConfig.trial.text}.
         </p>
 
-        <a href="/" class="btn btn-primary">Volver al inicio</a>
+        <div class="actions">
+          <a href={appConfig.apkUrl} class="btn btn-primary" target="_blank" rel="noopener">
+            Descargar APK
+          </a>
+
+          <a href={appConfig.whatsappUrl} class="btn btn-secondary" target="_blank" rel="noopener">
+            Hablar por WhatsApp
+          </a>
+        </div>
+
+        <p class="small-note">
+          {appConfig.vipPlan.text}. Disponible solo para Android.
+        </p>
       </div>
     </div>
   </section>
@@ -83,22 +96,31 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     margin-top: 32px;
   }
 
-  .contact-list .card {
+  .contact-item {
+    display: block;
     padding: 20px;
   }
 
-  .contact-list strong {
+  .contact-item strong {
     display: block;
     margin-bottom: 6px;
     color: var(--color-primary);
   }
 
-  .contact-list span {
+  .contact-item span {
     color: var(--color-muted);
   }
 
   .contact-card {
     padding: 34px;
+    text-align: center;
+  }
+
+  .contact-card img {
+    width: min(260px, 80%);
+    border-radius: 34px;
+    margin-bottom: 26px;
+    box-shadow: 0 30px 90px rgba(255, 138, 0, 0.18);
   }
 
   .contact-card h2 {
@@ -109,6 +131,16 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   .contact-card p {
     color: var(--color-muted);
     margin-bottom: 28px;
+  }
+
+  .actions {
+    display: grid;
+    gap: 14px;
+  }
+
+  .small-note {
+    margin: 22px 0 0 !important;
+    font-size: 0.9rem !important;
   }
 
   @media (max-width: 880px) {

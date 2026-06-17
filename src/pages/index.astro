@@ -1,11 +1,12 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Hero from "../components/Hero.astro";
+import { appConfig } from "../data/app";
 ---
 
 <BaseLayout
-  title="TeleLatino Oficial | Entretenimiento, TV y noticias digitales"
-  description="Portal promocional e informativo sobre entretenimiento digital, televisión, deportes, guías y novedades para usuarios."
+  title="TELELATINO | Canales en Vivo, Deportes y Películas para Android"
+  description="Descarga TELELATINO para Android y disfruta canales en vivo, eventos deportivos, películas y estrenos. Obtén 7 días de prueba gratis y plan VIP de 6 meses por 6 USD."
 >
   <Hero />
 
@@ -13,37 +14,24 @@ import Hero from "../components/Hero.astro";
     <div class="container">
       <div class="section-title">
         <span>Beneficios</span>
-        <h2>Una web pensada para promocionar, informar y posicionar.</h2>
+        <h2>Entretenimiento simple, rápido y pensado para móviles.</h2>
         <p>
-          El objetivo es tener una página rápida, moderna y preparada para aparecer mejor
-          en buscadores con contenido útil y bien organizado.
+          TELELATINO está enfocada en lo que más se busca: canales principales,
+          eventos deportivos, películas y estrenos, sin llenar la app de contenido
+          innecesario.
         </p>
       </div>
 
       <div class="benefits-grid">
-        <article class="benefit-card card">
-          <div class="icon">⚡</div>
-          <h3>Carga rápida</h3>
-          <p>
-            Construida con Astro para obtener una web liviana, veloz y optimizada para SEO.
-          </p>
-        </article>
-
-        <article class="benefit-card card">
-          <div class="icon">📈</div>
-          <h3>SEO escalable</h3>
-          <p>
-            Estructura lista para blog, noticias, sitemap, RSS y contenido indexable.
-          </p>
-        </article>
-
-        <article class="benefit-card card">
-          <div class="icon">📱</div>
-          <h3>Promoción de app</h3>
-          <p>
-            Página enfocada en explicar la propuesta de valor y dirigir usuarios hacia la app.
-          </p>
-        </article>
+        {
+          appConfig.benefits.map((benefit) => (
+            <article class="benefit-card card">
+              <div class="icon">▶</div>
+              <h3>{benefit.title}</h3>
+              <p>{benefit.description}</p>
+            </article>
+          ))
+        }
       </div>
     </div>
   </section>
@@ -51,53 +39,57 @@ import Hero from "../components/Hero.astro";
   <section class="section content-section" id="contenido">
     <div class="container content-grid">
       <div>
-        <span class="badge">Contenido digital</span>
-        <h2>Noticias, guías y novedades para atraer tráfico orgánico.</h2>
+        <span class="badge">Contenido destacado</span>
+
+        <h2>Encuentra rápido canales, deportes, películas y estrenos.</h2>
+
         <p>
-          La web no será solo una página bonita. También funcionará como un portal de
-          contenido para crear artículos, publicar noticias y mejorar el posicionamiento
-          en Google de forma ordenada.
+          La experiencia de TELELATINO está pensada para usuarios que quieren abrir
+          la app y encontrar lo importante sin perder tiempo. Todo está orientado a
+          móviles Android, con acceso a contenido popular y secciones fáciles de usar.
         </p>
 
         <div class="content-list">
           <div>
             <strong>01</strong>
-            <span>Noticias deportivas y entretenimiento</span>
+            <span>Canales principales en vivo</span>
           </div>
 
           <div>
             <strong>02</strong>
-            <span>Guías para usuarios nuevos</span>
+            <span>Eventos deportivos destacados</span>
           </div>
 
           <div>
             <strong>03</strong>
-            <span>Artículos optimizados para buscadores</span>
+            <span>Películas, estrenos y entretenimiento</span>
           </div>
         </div>
       </div>
 
       <div class="content-card card">
-        <h3>Portal preparado para crecer</h3>
+        <h3>Diseñada para Android</h3>
+
         <p>
-          Más adelante podremos conectar generación automática de noticias, categorías,
-          artículos relacionados y páginas especiales para campañas.
+          TELELATINO está disponible para dispositivos Android. Su objetivo es ofrecer
+          una experiencia móvil sencilla, directa y enfocada en el entretenimiento que
+          más buscan los usuarios.
         </p>
 
         <div class="mini-dashboard">
           <div>
-            <span>SEO</span>
-            <strong>Activo</strong>
+            <span>Plataforma</span>
+            <strong>{appConfig.platform}</strong>
           </div>
 
           <div>
-            <span>Noticias</span>
-            <strong>Listas</strong>
+            <span>Prueba gratis</span>
+            <strong>{appConfig.trial.days} días</strong>
           </div>
 
           <div>
-            <span>Blog</span>
-            <strong>Escalable</strong>
+            <span>Plan VIP</span>
+            <strong>{appConfig.vipPlan.price}</strong>
           </div>
         </div>
       </div>
@@ -108,41 +100,126 @@ import Hero from "../components/Hero.astro";
     <div class="container">
       <div class="section-title">
         <span>Planes</span>
-        <h2>Una sección clara para explicar la oferta principal.</h2>
+        <h2>Empieza con prueba gratis y continúa con el plan VIP.</h2>
         <p>
-          Aquí podremos ajustar los textos reales de tu app, beneficios, precio, prueba,
-          contacto o botón de descarga cuando lo tengas definido.
+          Al registrarte en TELELATINO puedes obtener 7 días de prueba gratis.
+          Después tienes la opción de acceder al plan VIP de 6 meses por solo 6 USD.
         </p>
       </div>
 
       <div class="pricing-card card">
         <div>
-          <span class="badge">Acceso promocional</span>
-          <h3>Conoce la experiencia completa</h3>
+          <span class="badge">Plan VIP</span>
+
+          <h3>{appConfig.vipPlan.text}</h3>
+
           <p>
-            Espacio listo para presentar tu producto, mostrar beneficios y llevar al usuario
-            al canal de descarga o contacto.
+            Una opción económica para seguir disfrutando canales en vivo, eventos
+            deportivos, películas y estrenos desde tu móvil Android.
           </p>
         </div>
 
-        <a href="#descargar" class="btn btn-primary">Ver información</a>
+        <div class="pricing-actions">
+          <a href={appConfig.apkUrl} class="btn btn-primary" target="_blank" rel="noopener">
+            Descargar APK
+          </a>
+
+          <a href={appConfig.whatsappUrl} class="btn btn-secondary" target="_blank" rel="noopener">
+            Consultar por WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section news-section">
+    <div class="container content-grid">
+      <div class="content-card card">
+        <h3>Noticias y guías</h3>
+
+        <p>
+          En el sitio también encontrarás noticias de deportes, películas y
+          entretenimiento. Cada artículo estará pensado para informar y orientar a
+          los usuarios, además de recomendar la descarga de TELELATINO.
+        </p>
+
+        <div class="mini-dashboard">
+          <div>
+            <span>Deportes</span>
+            <strong>Noticias</strong>
+          </div>
+
+          <div>
+            <span>Películas</span>
+            <strong>Estrenos</strong>
+          </div>
+
+          <div>
+            <span>SEO</span>
+            <strong>Activo</strong>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <span class="badge">Portal informativo</span>
+
+        <h2>Contenido diario para atraer usuarios hacia la app.</h2>
+
+        <p>
+          La web funcionará como un portal informativo para publicar artículos sobre
+          deportes, películas y novedades. Después de cada artículo se invitará al
+          usuario a descargar TELELATINO para Android.
+        </p>
+
+        <div class="content-list">
+          <div>
+            <strong>Blog</strong>
+            <span>Guías, películas y entretenimiento</span>
+          </div>
+
+          <div>
+            <strong>Noticias</strong>
+            <span>Deportes, eventos y actualidad</span>
+          </div>
+
+          <div>
+            <strong>App</strong>
+            <span>Descarga directa para Android</span>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <section class="section download-section" id="descargar">
     <div class="container download-box card">
-      <span class="badge">TeleLatino Oficial</span>
-      <h2>Tu landing quedará lista para promocionar la app y trabajar SEO.</h2>
+      <span class="badge">TELELATINO para Android</span>
+
+      <h2>Descarga TELELATINO y empieza con 7 días de prueba gratis.</h2>
+
       <p>
-        Este será el punto principal para enviar usuarios desde Google, redes sociales,
-        campañas o enlaces directos hacia la información de tu aplicación.
+        Disfruta canales en vivo, eventos deportivos, películas y estrenos desde tu
+        móvil Android. Si tienes dudas, puedes comunicarte por WhatsApp o Telegram.
       </p>
 
       <div class="download-actions">
-        <a href="/blog/" class="btn btn-secondary">Leer guías</a>
-        <a href="/noticias/" class="btn btn-primary">Ver noticias</a>
+        <a href={appConfig.apkUrl} class="btn btn-primary" target="_blank" rel="noopener">
+          Descargar APK
+        </a>
+
+        <a href={appConfig.whatsappUrl} class="btn btn-secondary" target="_blank" rel="noopener">
+          WhatsApp
+        </a>
+
+        <a href={appConfig.telegramUrl} class="btn btn-secondary" target="_blank" rel="noopener">
+          Telegram
+        </a>
       </div>
+
+      <p class="small-note">
+        Disponible solo para Android. La prueba gratis y los planes pueden estar sujetos a cambios.
+      </p>
     </div>
   </section>
 </BaseLayout>
@@ -150,7 +227,7 @@ import Hero from "../components/Hero.astro";
 <style>
   .benefits-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 24px;
   }
 
@@ -166,12 +243,14 @@ import Hero from "../components/Hero.astro";
     margin-bottom: 22px;
     border-radius: 18px;
     background: rgba(255, 138, 0, 0.14);
-    font-size: 1.6rem;
+    color: var(--color-primary);
+    font-size: 1.3rem;
+    font-weight: 900;
   }
 
   .benefit-card h3 {
     margin: 0 0 10px;
-    font-size: 1.35rem;
+    font-size: 1.25rem;
   }
 
   .benefit-card p {
@@ -179,7 +258,8 @@ import Hero from "../components/Hero.astro";
     color: var(--color-muted);
   }
 
-  .content-section {
+  .content-section,
+  .news-section {
     background: rgba(255, 255, 255, 0.025);
   }
 
@@ -219,6 +299,7 @@ import Hero from "../components/Hero.astro";
   }
 
   .content-list strong {
+    min-width: 44px;
     color: var(--color-primary);
   }
 
@@ -279,13 +360,20 @@ import Hero from "../components/Hero.astro";
     color: var(--color-muted);
   }
 
+  .pricing-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    min-width: 230px;
+  }
+
   .download-box {
     padding: 54px 34px;
     text-align: center;
   }
 
   .download-box h2 {
-    max-width: 820px;
+    max-width: 860px;
     margin: 22px auto 16px;
     font-size: clamp(2rem, 4vw, 3.3rem);
     line-height: 1.05;
@@ -305,8 +393,18 @@ import Hero from "../components/Hero.astro";
     margin-top: 32px;
   }
 
+  .small-note {
+    margin-top: 22px !important;
+    font-size: 0.9rem !important;
+  }
+
+  @media (max-width: 1050px) {
+    .benefits-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
   @media (max-width: 900px) {
-    .benefits-grid,
     .content-grid {
       grid-template-columns: 1fr;
     }
@@ -316,8 +414,18 @@ import Hero from "../components/Hero.astro";
       align-items: flex-start;
     }
 
+    .pricing-actions {
+      width: 100%;
+    }
+
     .download-actions {
       flex-direction: column;
+    }
+  }
+
+  @media (max-width: 620px) {
+    .benefits-grid {
+      grid-template-columns: 1fr;
     }
   }
 </style>
