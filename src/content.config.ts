@@ -6,9 +6,15 @@ const articleSchema = z.object({
   description: z.string(),
   pubDate: z.coerce.date(),
   category: z.string(),
-  author: z.string().default("TeleLatino Oficial"),
+  author: z.string().default("TELELATINO"),
   tags: z.array(z.string()).default([]),
   draft: z.boolean().default(false),
+
+  sourceName: z.string().optional(),
+  sourceUrl: z.string().url().optional(),
+
+  youtubeVideoId: z.string().optional(),
+  youtubeVideoTitle: z.string().optional(),
 });
 
 const blog = defineCollection({

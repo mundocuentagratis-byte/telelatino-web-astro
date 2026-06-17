@@ -1,10 +1,13 @@
 ---
 title: "El contenido deportivo online sigue ganando popularidad"
 description: "Cada vez más usuarios buscan información, horarios, novedades y guías para seguir eventos deportivos desde plataformas digitales."
-pubDate: "2026-06-17"
+pubDate: 2026-06-17
 category: "Deportes"
 author: "TeleLatino Oficial"
-tags: ["deportes", "fútbol", "contenido online"]
+tags:
+  - deportes
+  - fútbol
+  - contenido online
 draft: false
 ---
 
