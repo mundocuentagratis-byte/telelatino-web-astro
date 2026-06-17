@@ -67,7 +67,7 @@ def load_json(path: Path, fallback):
         return fallback
 
     try:
-        return json.loads(path.read_text(encoding="utf-8"))
+       return json.loads(path.read_text(encoding="utf-8-sig"))
     except Exception as error:
         write_report(f"[WARN] No se pudo leer JSON {path}: {error}")
         return fallback
