@@ -1,23 +1,41 @@
 ---
-import "../styles/global.css";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import { appConfig } from "../data/app";
 
-interface Props {
+type Props = {
   title?: string;
   description?: string;
   image?: string;
   canonical?: string;
-}
+  noindex?: boolean;
+};
 
 const {
-  title = "TeleLatino Oficial | TV Premium, fútbol y entretenimiento",
-  description = "Disfruta una experiencia premium de entretenimiento con canales en vivo, fútbol, películas y contenido para toda la familia.",
-  image = "/images/og-image.jpg",
-  canonical = Astro.url.href,
+  title = "TELELATINO | TV y Películas Android",
+  description = "Descarga TELELATINO para Android. Disfruta canales en vivo, deportes, películas y 7 días de prueba gratis.",
+  image = appConfig.image,
+  canonical,
+  noindex = false,
 } = Astro.props;
 
-const siteName = "TeleLatino Oficial";
+const siteUrl = appConfig.domain.replace(/\/$/, "");
+const canonicalUrl = canonical || `${siteUrl}${Astro.url.pathname}`;
+const fullImage = image.startsWith("http") ? image : `${siteUrl}${image}`;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  name: appConfig.name,
+  operatingSystem: "Android",
+  applicationCategory: "EntertainmentApplication",
+  description,
+  offers: {
+    "@type": "Offer",
+    price: "6",
+    priceCurrency: "USD",
+  },
+};
 ---
 
 <!doctype html>
@@ -28,30 +46,123 @@ const siteName = "TeleLatino Oficial";
 
     <title>{title}</title>
     <meta name="description" content={description} />
-    <meta name="robots" content="index, follow" />
-    <link rel="canonical" href={canonical} />
+
+    {noindex ? (
+      <meta name="robots" content="noindex, nofollow" />
+    ) : (
+      <meta name="robots" content="index, follow" />
+    )}
+
+    <link rel="canonical" href={canonicalUrl} />
+
+    <link rel="icon" href="/images/telelatino-app.jpg" />
+    <link rel="apple-touch-icon" href="/images/telelatino-app.jpg" />
+    <meta name="theme-color" content="#07111f" />
 
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content={siteName} />
+    <meta property="og:site_name" content={appConfig.name} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content={new URL(image, Astro.site)} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={fullImage} />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={new URL(image, Astro.site)} />
+    <meta name="twitter:image" content={fullImage} />
 
-    <meta name="theme-color" content="#06111f" />
+    <link rel="preconnect" href="https://www.youtube.com" />
+    <link rel="preconnect" href="https://i.ytimg.com" />
+
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   </head>
 
   <body>
     <Header />
 
-    <main>
-      <slot />
-    </main>
+    <slot />
 
     <Footer />
   </body>
 </html>
+
+<style is:global>
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    margin: 0;
+    padding: 0;
+    background: #07111f;
+    color: #ffffff;
+    scroll-behavior: auto;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background:
+      linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+      #07111f;
+    background-size: 44px 44px;
+    font-family:
+      Inter,
+      system-ui,
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      sans-serif;
+  }
+
+  img,
+  video,
+  iframe {
+    max-width: 100%;
+  }
+
+  img {
+    height: auto;
+  }
+
+  a,
+  button {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  main section {
+    content-visibility: auto;
+    contain-intrinsic-size: 1px 760px;
+  }
+
+  @media (max-width: 768px) {
+    body {
+      background-size: 34px 34px;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+</style>

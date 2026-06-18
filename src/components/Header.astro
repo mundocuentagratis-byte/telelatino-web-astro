@@ -32,7 +32,7 @@ const navItems = [
 <header class="site-header">
   <div class="header-inner">
     <a href="/" class="brand" aria-label="Ir al inicio">
-      <img src={appConfig.image} alt="Logo de TELELATINO" />
+      <img src={appConfig.image} alt="TELELATINO Android" width="46" height="46" />
       <span>
         <strong>{appConfig.name}</strong>
         <small>Android</small>
@@ -62,19 +62,18 @@ const navItems = [
     position: sticky;
     top: 0;
     z-index: 50;
-    background: rgba(7, 14, 28, 0.82);
+    background: rgba(7, 14, 28, 0.96);
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-    backdrop-filter: blur(18px);
   }
 
   .header-inner {
-    width: min(1120px, calc(100% - 36px));
-    min-height: 74px;
+    width: min(1120px, calc(100% - 32px));
+    min-height: 72px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 22px;
+    gap: 18px;
   }
 
   .brand {
@@ -83,29 +82,29 @@ const navItems = [
     gap: 12px;
     color: #ffffff;
     text-decoration: none;
+    flex: 0 0 auto;
   }
 
   .brand img {
-    width: 42px;
-    height: 42px;
-    border-radius: 12px;
+    width: 46px;
+    height: 46px;
+    border-radius: 14px;
     object-fit: cover;
-    box-shadow: 0 10px 28px rgba(255, 196, 68, 0.22);
   }
 
   .brand span {
     display: grid;
-    gap: 1px;
     line-height: 1;
   }
 
   .brand strong {
-    font-size: 0.92rem;
+    font-size: 0.95rem;
     font-weight: 950;
     letter-spacing: -0.03em;
   }
 
   .brand small {
+    margin-top: 4px;
     color: #ffd56d;
     font-size: 0.72rem;
     font-weight: 900;
@@ -116,25 +115,21 @@ const navItems = [
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 22px;
+    gap: 20px;
     flex: 1;
   }
 
   .desktop-nav a,
   .mobile-nav a {
-    color: rgba(255, 255, 255, 0.82);
+    color: rgba(255, 255, 255, 0.84);
     text-decoration: none;
     font-size: 0.9rem;
     font-weight: 850;
-    transition:
-      color 0.2s ease,
-      transform 0.2s ease;
   }
 
   .desktop-nav a:hover,
   .mobile-nav a:hover {
     color: #ffd56d;
-    transform: translateY(-1px);
   }
 
   .download-btn {
@@ -150,31 +145,28 @@ const navItems = [
     font-weight: 950;
     text-decoration: none;
     white-space: nowrap;
-    box-shadow: 0 12px 28px rgba(255, 198, 69, 0.28);
-    transition:
-      transform 0.2s ease,
-      box-shadow 0.2s ease;
-  }
-
-  .download-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 18px 36px rgba(255, 198, 69, 0.34);
+    box-shadow: 0 8px 22px rgba(255, 198, 69, 0.22);
   }
 
   .mobile-nav {
     display: none;
-    width: min(1120px, calc(100% - 36px));
+    width: min(1120px, calc(100% - 32px));
     margin: 0 auto;
     padding: 0 0 14px;
-    gap: 12px;
+    gap: 10px;
     overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .mobile-nav::-webkit-scrollbar {
+    display: none;
   }
 
   .mobile-nav a {
     flex: 0 0 auto;
-    padding: 9px 12px;
+    padding: 9px 13px;
     border-radius: 999px;
-    background: rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.09);
   }
 
   @media (max-width: 860px) {
@@ -192,17 +184,28 @@ const navItems = [
   }
 
   @media (max-width: 520px) {
-    .download-btn {
-      padding: 10px 14px;
-      font-size: 0.78rem;
+    .header-inner {
+      width: min(100% - 24px, 1120px);
+      gap: 12px;
+    }
+
+    .mobile-nav {
+      width: min(100% - 24px, 1120px);
+    }
+
+    .brand img {
+      width: 44px;
+      height: 44px;
     }
 
     .brand strong {
-      font-size: 0.82rem;
+      font-size: 0.84rem;
     }
 
-    .brand small {
-      font-size: 0.66rem;
+    .download-btn {
+      min-height: 40px;
+      padding: 10px 15px;
+      font-size: 0.78rem;
     }
   }
 </style>
