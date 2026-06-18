@@ -27,20 +27,18 @@
     "enabled": true,
     "type": "movies_listing",
     "targetCollection": "blog",
-    "sourceName": "SensaCine",
+    "sourceName": "Fuentes de cine",
     "category": "Películas",
     "initialTarget": 10,
     "dailyLimitAfterInitial": 1,
     "requiresImage": true,
-    "requiresTrailer": false,
+    "requiresTrailer": true,
     "minReleaseYear": 2026,
     "urls": [
-      "https://www.sensacine.com/",
       "https://www.sensacine.com/peliculas/estrenos/",
-      "https://www.sensacine.com/peliculas/estrenos/es/",
-      "https://www.sensacine.com/peliculas/estrenos/es/mes/",
-      "https://www.sensacine.com/peliculas/estrenos/mas-esperadas/",
-      "https://www.sensacine.com/peliculas/en-cartelera/cines/"
+      "https://www.sensacine.com/peliculas/en-cartelera/cines/",
+      "https://www.espinof.com/categoria/Estrenos",
+      "https://decine21.com/estrenos/cine/"
     ]
   }
 }
