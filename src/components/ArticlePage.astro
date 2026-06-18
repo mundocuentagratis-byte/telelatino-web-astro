@@ -33,6 +33,10 @@ const formatDate = (date: Date) =>
     month: "long",
     year: "numeric",
   }).format(date);
+
+const youtubeThumb = youtubeVideoId
+  ? `https://i.ytimg.com/vi/${youtubeVideoId}/hqdefault.jpg`
+  : "";
 ---
 
 <main class="article-page">
@@ -71,22 +75,66 @@ const formatDate = (date: Date) =>
           <h2>{youtubeVideoTitle || "Tráiler o video relacionado"}</h2>
         </div>
 
-        <div class="video-wrapper">
-          <iframe
-            src={`https://www.youtube.com/embed/${youtubeVideoId}`}
-            title={youtubeVideoTitle || `Video relacionado con ${title}`}
+        <button
+          class="youtube-lite"
+          type="button"
+          data-video-id={youtubeVideoId}
+          data-title={youtubeVideoTitle || `Video relacionado con ${title}`}
+          aria-label={`Reproducir ${youtubeVideoTitle || "video relacionado"}`}
+        >
+          <img
+            src={youtubeThumb}
+            alt={youtubeVideoTitle || `Video relacionado con ${title}`}
             loading="lazy"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          >
-          </iframe>
-        </div>
+          />
+
+          <span class="play-button" aria-hidden="true">
+            <span>▶</span>
+          </span>
+        </button>
+
+        <noscript>
+          <p class="video-noscript">
+            Ver video en YouTube:
+            <a href={`https://www.youtube.com/watch?v=${youtubeVideoId}`} target="_blank" rel="noopener">
+              {youtubeVideoTitle || "Abrir video"}
+            </a>
+          </p>
+        </noscript>
       </section>
     )}
 
     <ArticleCTA />
   </article>
 </main>
+
+<script>
+  const videos = document.querySelectorAll<HTMLButtonElement>(".youtube-lite");
+
+  videos.forEach((button) => {
+    button.addEventListener("click", () => {
+      const videoId = button.dataset.videoId;
+      const title = button.dataset.title || "Video relacionado";
+
+      if (!videoId) return;
+
+      const iframe = document.createElement("iframe");
+
+      iframe.src = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&rel=0`;
+      iframe.title = title;
+      iframe.loading = "lazy";
+      iframe.allow =
+        "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+      iframe.allowFullscreen = true;
+
+      const wrapper = document.createElement("div");
+      wrapper.className = "video-wrapper";
+      wrapper.appendChild(iframe);
+
+      button.replaceWith(wrapper);
+    });
+  });
+</script>
 
 <style>
   .article-page {
@@ -277,14 +325,63 @@ const formatDate = (date: Date) =>
     letter-spacing: -0.035em;
   }
 
+  .youtube-lite,
   .video-wrapper {
     position: relative;
     overflow: hidden;
+    display: block;
     width: 100%;
     border-radius: 22px;
     background: rgba(0, 0, 0, 0.28);
     border: 1px solid rgba(255, 255, 255, 0.16);
     aspect-ratio: 16 / 9;
+  }
+
+  .youtube-lite {
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .youtube-lite img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.86;
+    transition: opacity 0.2s ease;
+  }
+
+  .youtube-lite:hover img {
+    opacity: 1;
+  }
+
+  .youtube-lite::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(circle at center, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.35)),
+      linear-gradient(180deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.28));
+  }
+
+  .play-button {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    display: grid;
+    place-items: center;
+  }
+
+  .play-button span {
+    display: grid;
+    place-items: center;
+    width: 72px;
+    height: 52px;
+    padding-left: 4px;
+    border-radius: 16px;
+    background: #ff0033;
+    color: #ffffff;
+    font-size: 1.6rem;
+    box-shadow: 0 14px 36px rgba(0, 0, 0, 0.34);
   }
 
   .video-wrapper iframe {
@@ -293,6 +390,16 @@ const formatDate = (date: Date) =>
     width: 100%;
     height: 100%;
     border: 0;
+  }
+
+  .video-noscript {
+    margin: 16px 0 0;
+    color: rgba(235, 241, 255, 0.76);
+  }
+
+  .video-noscript a {
+    color: #ffd978;
+    font-weight: 900;
   }
 
   @media (max-width: 620px) {
@@ -324,8 +431,16 @@ const formatDate = (date: Date) =>
       border-radius: 22px;
     }
 
+    .youtube-lite,
     .video-wrapper {
       border-radius: 18px;
+    }
+
+    .play-button span {
+      width: 62px;
+      height: 46px;
+      font-size: 1.3rem;
+      border-radius: 14px;
     }
   }
 </style>
