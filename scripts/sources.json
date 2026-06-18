@@ -5,19 +5,22 @@
     "targetCollection": "noticias",
     "sourceName": "Mundo Deportivo",
     "category": "Deportes",
-    "dailyLimit": 4,
+    "initialTarget": 10,
+    "dailyLimit": 2,
+    "dailyLimitPerDay": 6,
     "requiresImage": true,
     "maxAgeDays": 7,
     "urls": [
-      "https://www.mundodeportivo.com/loultimo",
       "https://www.mundodeportivo.com/futbol",
+      "https://www.mundodeportivo.com/loultimo",
+      "https://www.mundodeportivo.com/futbol/mundial",
       "https://www.mundodeportivo.com/futbol/internacional",
       "https://www.mundodeportivo.com/futbol/fc-barcelona",
       "https://www.mundodeportivo.com/futbol/real-madrid",
       "https://www.mundodeportivo.com/futbol/atletico-madrid",
       "https://www.mundodeportivo.com/futbol/premier-league",
-      "https://www.mundodeportivo.com/futbol/real-sociedad",
-      "https://www.mundodeportivo.com/ufc"
+      "https://www.mundodeportivo.com/futbol/fichajes",
+      "https://www.mundodeportivo.com/futbol/femenino"
     ]
   },
   "movies": {
@@ -29,12 +32,14 @@
     "initialTarget": 10,
     "dailyLimitAfterInitial": 1,
     "requiresImage": true,
-    "requiresTrailer": true,
+    "requiresTrailer": false,
     "minReleaseYear": 2026,
     "urls": [
+      "https://www.sensacine.com/",
+      "https://www.sensacine.com/peliculas/estrenos/",
       "https://www.sensacine.com/peliculas/estrenos/es/",
-      "https://www.sensacine.com/peliculas/estrenos/mas-esperadas/",
       "https://www.sensacine.com/peliculas/estrenos/es/mes/",
+      "https://www.sensacine.com/peliculas/estrenos/mas-esperadas/",
       "https://www.sensacine.com/peliculas/en-cartelera/cines/"
     ]
   }

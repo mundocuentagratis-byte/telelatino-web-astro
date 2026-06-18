@@ -111,6 +111,71 @@ BAD_MOVIE_PATH_PARTS = {
     "/streaming/",
 }
 
+SPORTS_TEXT_HINTS = {
+    "futbol",
+    "fútbol",
+    "mundial",
+    "copa",
+    "liga",
+    "champions",
+    "europa league",
+    "conference league",
+    "barcelona",
+    "barça",
+    "barca",
+    "real madrid",
+    "atletico",
+    "atlético",
+    "seleccion",
+    "selección",
+    "partido",
+    "jugador",
+    "equipo",
+    "entrenador",
+    "fichaje",
+    "lesion",
+    "lesión",
+    "debut",
+    "goleador",
+    "delantero",
+    "defensa",
+    "portero",
+    "centrocampista",
+    "balonmano",
+    "baloncesto",
+    "tenis",
+    "formula 1",
+    "fórmula 1",
+    "motogp",
+    "ciclismo",
+    "tour de francia",
+    "clasificacion",
+    "clasificación",
+}
+
+NON_SPORTS_TEXT_HINTS = {
+    "tecnologia",
+    "tecnología",
+    "auricular",
+    "traductor",
+    "viajes",
+    "cobertura asegurada",
+    "amazon",
+    "oferta",
+    "descuento",
+    "compra",
+    "smartphone",
+    "movil",
+    "móvil",
+    "horoscopo",
+    "horóscopo",
+    "receta",
+    "salud",
+    "moda",
+    "television",
+    "televisión",
+}
+
 REPORT_LINES: list[str] = []
 
 
@@ -150,7 +215,7 @@ def clean_text(value: str) -> str:
     if not value:
         return ""
 
-    text = BeautifulSoup(value, "html.parser").get_text(" ")
+    text = BeautifulSoup(str(value), "html.parser").get_text(" ")
     text = text.replace("\xa0", " ")
     text = re.sub(r"\s+", " ", text)
     return text.strip()
@@ -362,7 +427,7 @@ def extract_article_data(url: str) -> dict:
     if description:
         text_parts.append(description)
 
-    text_parts.extend(unique_paragraphs[:28])
+    text_parts.extend(unique_paragraphs[:30])
 
     return {
         "title": title,
@@ -408,6 +473,25 @@ def is_recent_news_url(url: str, max_age_days: int) -> bool:
     return min_date <= article_date <= today + timedelta(days=1)
 
 
+def looks_like_sports_article(title: str, url: str, text: str = "") -> bool:
+    normalized = normalize_text(f"{title} {url} {text[:700]}")
+
+    if any(bad in normalized for bad in NON_SPORTS_TEXT_HINTS):
+        return False
+
+    return any(hint in normalized for hint in SPORTS_TEXT_HINTS)
+
+
+def is_latest_listing_url(url: str) -> bool:
+    normalized_url = url.lower()
+    return (
+        "/loultimo" in normalized_url
+        or "/ultimo" in normalized_url
+        or "/ultima-hora" in normalized_url
+        or "/ultimas" in normalized_url
+    )
+
+
 def movie_title_is_invalid(title: str) -> bool:
     normalized = normalize_text(title)
 
@@ -421,7 +505,7 @@ def extract_movie_release_year(text: str) -> int | None:
     if not text:
         return None
 
-    compact = clean_text(text)[:5000]
+    compact = clean_text(text)[:6000]
     lowered = compact.lower()
 
     patterns = [
@@ -429,6 +513,8 @@ def extract_movie_release_year(text: str) -> int | None:
         r"estreno en cines[^\d]*(20\d{2})",
         r"estreno[^\d]*(20\d{2})",
         r"en cartelera[^\d]*(20\d{2})",
+        r"proximamente[^\d]*(20\d{2})",
+        r"próximamente[^\d]*(20\d{2})",
         r"lanzamiento[^\d]*(20\d{2})",
     ]
 
@@ -438,7 +524,7 @@ def extract_movie_release_year(text: str) -> int | None:
         if match:
             return int(match.group(1))
 
-    match = re.search(r"\b(20\d{2})\b", compact[:3000])
+    match = re.search(r"\b(20\d{2})\b", compact[:4000])
 
     if match:
         return int(match.group(1))
@@ -483,6 +569,8 @@ def get_sports_candidates(group: dict) -> list[dict]:
     target_collection = group.get("targetCollection", "noticias")
 
     for listing_url in group.get("urls", []):
+        listing_is_latest = is_latest_listing_url(listing_url)
+
         try:
             links = get_listing_links(listing_url)
         except Exception as exc:
@@ -500,8 +588,17 @@ def get_sports_candidates(group: dict) -> list[dict]:
             if parsed.netloc and urlparse(listing_url).netloc not in parsed.netloc:
                 continue
 
-            if not is_recent_news_url(url, max_age_days=max_age_days):
+            if not looks_like_sports_article(title_hint, url):
                 continue
+
+            article_date = extract_date_from_url(url)
+
+            if article_date:
+                if not is_recent_news_url(url, max_age_days=max_age_days):
+                    continue
+            else:
+                if not listing_is_latest:
+                    continue
 
             if is_blocked_topic(f"{title_hint} {url}"):
                 continue
@@ -516,7 +613,10 @@ def get_sports_candidates(group: dict) -> list[dict]:
             text = data.get("text", "")
             image = data.get("image", "")
 
-            if not title or len(text) < 350:
+            if not title or len(text) < 300:
+                continue
+
+            if not looks_like_sports_article(title, url, text):
                 continue
 
             if is_blocked_topic(f"{title} {text[:800]}"):
@@ -591,7 +691,7 @@ def get_movies_candidates(group: dict) -> list[dict]:
             if movie_title_is_invalid(title):
                 continue
 
-            if len(text) < 320:
+            if len(text) < 300:
                 continue
 
             if requires_image and not image:
@@ -620,29 +720,99 @@ def get_movies_candidates(group: dict) -> list[dict]:
     return candidates
 
 
-def count_existing_movie_posts() -> int:
-    blog_dir = CONTENT_DIR / "blog"
+def extract_frontmatter_value(text: str, key: str) -> str:
+    pattern = rf"^{re.escape(key)}:\s*(.+?)\s*$"
+    match = re.search(pattern, text, flags=re.MULTILINE)
 
-    if not blog_dir.exists():
+    if not match:
+        return ""
+
+    value = match.group(1).strip().strip('"').strip("'")
+    return value
+
+
+def extract_pub_date(text: str) -> date | None:
+    value = extract_frontmatter_value(text, "pubDate")
+
+    if not value:
+        return None
+
+    value = value.replace("Z", "+00:00")
+
+    try:
+        return datetime.fromisoformat(value).date()
+    except Exception:
+        match = re.search(r"(20\d{2})-(\d{2})-(\d{2})", value)
+
+        if match:
+            try:
+                return date(int(match.group(1)), int(match.group(2)), int(match.group(3)))
+            except ValueError:
+                return None
+
+    return None
+
+
+def post_matches_category(path: Path, category: str, target_collection: str) -> bool:
+    try:
+        text = path.read_text(encoding="utf-8")
+    except Exception:
+        return False
+
+    normalized = normalize_text(text[:2500])
+    category_norm = normalize_text(category)
+
+    if target_collection == "blog" or category_norm == "peliculas":
+        return (
+            "category peliculas" in normalized
+            or "sensacine" in normalized
+            or "youtubevideoid" in normalized
+        )
+
+    if target_collection == "noticias" or category_norm == "deportes":
+        return "category deportes" in normalized or "mundo deportivo" in normalized
+
+    return category_norm in normalized
+
+
+def count_existing_posts(group: dict) -> int:
+    target_collection = group.get("targetCollection", "blog")
+    category = group.get("category", "")
+    collection_dir = CONTENT_DIR / target_collection
+
+    if not collection_dir.exists():
         return 0
 
     count = 0
 
-    for path in blog_dir.glob("*.md"):
+    for path in list(collection_dir.glob("*.md")) + list(collection_dir.glob("*.mdx")):
+        if post_matches_category(path, category, target_collection):
+            count += 1
+
+    return count
+
+
+def count_posts_today(group: dict) -> int:
+    target_collection = group.get("targetCollection", "blog")
+    category = group.get("category", "")
+    collection_dir = CONTENT_DIR / target_collection
+    today = datetime.now(timezone.utc).date()
+
+    if not collection_dir.exists():
+        return 0
+
+    count = 0
+
+    for path in list(collection_dir.glob("*.md")) + list(collection_dir.glob("*.mdx")):
+        if not post_matches_category(path, category, target_collection):
+            continue
+
         try:
             text = path.read_text(encoding="utf-8")
         except Exception:
             continue
 
-        normalized = normalize_text(text[:2000])
-        frontmatter = text[:2000]
-
-        has_category = "category peliculas" in normalized or "category peliculas" in normalized.replace(":", " ")
-        has_source = "sensacine" in normalized
-        has_image = "image:" in frontmatter
-        has_video = "youtubeVideoId:" in frontmatter
-
-        if has_category or has_source or (has_image and has_video):
+        if extract_pub_date(text) == today:
             count += 1
 
     return count
@@ -652,17 +822,49 @@ def get_dynamic_daily_limit(group: dict) -> int:
     target_collection = group.get("targetCollection", "")
     category = normalize_text(group.get("category", ""))
 
+    existing = count_existing_posts(group)
+    today_count = count_posts_today(group)
+
+    # Sirve para el arranque inicial de cada sección.
+    # Ejemplo: 10 noticias y 10 películas cuando la web está vacía.
+    initial_target = int(group.get("initialTarget", 0) or 0)
+
+    if initial_target > 0 and existing < initial_target:
+        return max(0, initial_target - existing)
+
     if target_collection == "blog" or category == "peliculas":
-        existing = count_existing_movie_posts()
-        initial_target = int(group.get("initialTarget", 10))
         after_initial = int(group.get("dailyLimitAfterInitial", 1))
+        return max(0, after_initial - today_count)
 
-        if existing < initial_target:
-            return max(0, initial_target - existing)
+    per_run = int(group.get("dailyLimit", 1))
+    per_day = int(group.get("dailyLimitPerDay", per_run))
+    remaining_today = max(0, per_day - today_count)
 
-        return max(0, after_initial)
+    return max(0, min(per_run, remaining_today))
 
-    return max(0, int(group.get("dailyLimit", 1)))
+
+def editorial_seed_options(candidate: dict) -> dict:
+    seed = f"{candidate.get('url', '')}-{datetime.now(timezone.utc).date().isoformat()}"
+    number = int(hashlib.sha256(seed.encode("utf-8")).hexdigest()[:8], 16)
+
+    movie_hooks = [
+        "un arranque directo que presente por qué esta película puede interesar al público",
+        "una entrada con tono de recomendación, sin exagerar ni vender humo",
+        "una introducción que ubique al lector antes de hablar de la historia",
+        "un inicio cercano, como alguien que comenta un estreno que vale la pena mirar",
+    ]
+
+    sports_hooks = [
+        "un arranque con el dato más importante de la noticia",
+        "una entrada con lectura deportiva clara y sin dramatizar",
+        "un inicio que explique por qué el tema está moviendo conversación",
+        "un primer párrafo directo, como una nota de actualidad deportiva",
+    ]
+
+    return {
+        "movie_hook": movie_hooks[number % len(movie_hooks)],
+        "sports_hook": sports_hooks[number % len(sports_hooks)],
+    }
 
 
 def build_prompt(candidate: dict, group: dict) -> str:
@@ -672,6 +874,7 @@ def build_prompt(candidate: dict, group: dict) -> str:
     category = group.get("category", "Entretenimiento")
     source_name = group.get("sourceName", "").strip()
     target_collection = group.get("targetCollection", "").strip()
+    seed_options = editorial_seed_options(candidate)
 
     is_movie = target_collection == "blog" or normalize_text(category) == "peliculas"
     is_sports = target_collection == "noticias" or normalize_text(category) == "deportes"
@@ -679,6 +882,7 @@ def build_prompt(candidate: dict, group: dict) -> str:
     if is_movie:
         article_type = "película o estreno"
         word_range = "800 a 1100 palabras"
+        intro_style = seed_options["movie_hook"]
         editorial_focus = """
 Este artículo es para la sección de Películas de TELELATINO.
 
@@ -703,12 +907,15 @@ Puedes usar subtítulos naturales y variados como:
 - Qué esperar antes de verla
 - El punto fuerte de la propuesta
 - Una mirada rápida al estreno
+- El detalle que puede marcar la diferencia
+- Para quién puede funcionar esta película
 
 No uses todos esos subtítulos a la vez. Elige de 3 a 5 según el contenido.
 """
     elif is_sports:
         article_type = "noticia deportiva"
         word_range = "650 a 900 palabras"
+        intro_style = seed_options["sports_hook"]
         editorial_focus = """
 Este artículo es para la sección de Noticias deportivas de TELELATINO.
 
@@ -734,12 +941,15 @@ Puedes usar subtítulos naturales y variados como:
 - Por qué conviene seguirlo
 - El ambiente alrededor del partido
 - La reacción que marca la noticia
+- Un movimiento que puede pesar
+- El detalle que explica la situación
 
 No uses todos esos subtítulos a la vez. Elige de 3 a 5 según el contenido.
 """
     else:
         article_type = "artículo informativo"
         word_range = "700 a 950 palabras"
+        intro_style = "una introducción clara, humana y útil"
         editorial_focus = """
 Este artículo debe sentirse como una nota informativa clara, útil y humana.
 Evita estructuras repetitivas y subtítulos genéricos.
@@ -763,6 +973,11 @@ INFORMACIÓN DISPONIBLE:
 
 ESTILO EDITORIAL TELELATINO:
 {editorial_focus}
+
+DIRECCIÓN DE ESTE ARTÍCULO:
+- Usa {intro_style}.
+- El artículo debe tener personalidad propia, no parecer una plantilla repetida.
+- Mantén una línea editorial coherente con TELELATINO, pero evita que todos los artículos suenen iguales.
 
 REGLAS DE CALIDAD:
 - Escribe en español neutro.
@@ -858,7 +1073,6 @@ def sanitize_body(body: str) -> str:
     skip_next = False
 
     for line in body.split("\n"):
-        original_line = line
         stripped = line.strip()
 
         if not stripped:
@@ -893,7 +1107,7 @@ def sanitize_body(body: str) -> str:
             heading = heading.replace("Sinopsis reescrita", "Sinopsis")
             stripped = "## " + heading
 
-        lines.append(stripped if original_line.strip() else original_line)
+        lines.append(stripped)
 
     body = "\n".join(lines)
     body = re.sub(r"\n{3,}", "\n\n", body).strip()
@@ -1259,8 +1473,9 @@ def trailer_matches_movie(
 ) -> bool:
     movie_words = meaningful_words(movie_title)
     video_words = meaningful_words(video_title)
+    normalized_video = normalize_text(video_title)
 
-    if "trailer" not in normalize_text(video_title) and "tráiler" not in normalize_text(video_title):
+    if "trailer" not in normalized_video and "trailer" not in strip_accents(normalized_video):
         return False
 
     if not movie_words:
@@ -1548,6 +1763,9 @@ def main() -> int:
 
     write_report("=== TELELATINO Auto News ===")
     write_report(f"Fecha UTC: {datetime.now(timezone.utc).isoformat()}")
+
+    (CONTENT_DIR / "blog").mkdir(parents=True, exist_ok=True)
+    (CONTENT_DIR / "noticias").mkdir(parents=True, exist_ok=True)
 
     sources = load_json(SOURCES_FILE, {})
     processed_data = load_json(PROCESSED_FILE, [])

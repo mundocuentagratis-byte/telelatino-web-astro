@@ -46,8 +46,25 @@ jobs:
           mkdir -p src/content/blog
           mkdir -p src/content/noticias
           mkdir -p scripts/reports
+          test -f scripts/processed_articles.json || echo "[]" > scripts/processed_articles.json
 
-      - name: Generate articles
+      - name: Sync latest main
+        run: |
+          git config user.name "telelatino-bot"
+          git config user.email "actions@github.com"
+          git pull --rebase --autostash origin main
+
+      - name: Generate sports news
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          COHERE_API_KEY: ${{ secrets.COHERE_API_KEY }}
+        run: |
+          python scripts/generate_sports_news.py
+
+      - name: Generate movies
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
@@ -56,7 +73,7 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           COHERE_API_KEY: ${{ secrets.COHERE_API_KEY }}
         run: |
-          python scripts/generate_news.py
+          python scripts/generate_movies.py
 
       - name: Build Astro site
         run: |
@@ -67,12 +84,7 @@ jobs:
           git config user.name "telelatino-bot"
           git config user.email "actions@github.com"
 
-          echo "Estado antes de sincronizar:"
-          git status --short
-
-          git pull --rebase --autostash origin main
-
-          git add -A
+          git add src/content scripts/processed_articles.json scripts/reports
 
           echo "Estado antes del commit:"
           git status --short
@@ -81,5 +93,6 @@ jobs:
             echo "No hay artículos nuevos para publicar."
           else
             git commit -m "Publicar noticias automáticas"
+            git pull --rebase --autostash origin main
             git push
           fi
