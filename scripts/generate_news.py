@@ -40,6 +40,8 @@ REPORT_FILE = REPORTS_DIR / "auto_news_report.txt"
 REPORT_PATH = REPORT_FILE
 
 CONTENT_DIR = ROOT / "src" / "content"
+BLOG_DIR = CONTENT_DIR / "blog"
+NEWS_DIR = CONTENT_DIR / "noticias"
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
@@ -60,7 +62,7 @@ USER_AGENT = (
     "Chrome/126.0 Safari/537.36"
 )
 
-REQUEST_HEADERS = {
+HEADERS = {
     "User-Agent": USER_AGENT,
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "es-ES,es;q=0.9,en;q=0.6",
@@ -92,84 +94,6 @@ BLOCKED_TOPIC_WORDS = {
     "onlyfans",
 }
 
-BAD_MOVIE_TITLE_WORDS = {
-    "cartelera",
-    "cartelera y entrada",
-    "entrada",
-    "entradas",
-    "sesiones",
-    "trailer",
-    "tráiler",
-    "videos",
-    "vídeos",
-    "reparto",
-    "críticas",
-    "criticas",
-    "fotos",
-    "streaming",
-    "serie",
-    "series",
-    "temporada",
-    "netflix cancela",
-    "cancela",
-    "crunchyroll",
-    "anime",
-    "animes",
-    "prime video",
-    "disney+",
-    "hbo",
-    "max",
-    "apple tv",
-}
-
-BAD_MOVIE_PATH_PARTS = {
-    "/sesiones/",
-    "/videos/",
-    "/video/",
-    "/trailer/",
-    "/trailers/",
-    "/criticas/",
-    "/critica/",
-    "/fotos/",
-    "/streaming/",
-    "/series/",
-    "/serie/",
-    "/tv/",
-}
-
-MOVIE_NEWS_BLOCK_WORDS = {
-    "streaming",
-    "netflix",
-    "crunchyroll",
-    "anime",
-    "animes",
-    "serie",
-    "series",
-    "temporada",
-    "temporadas",
-    "cancelada",
-    "cancela",
-    "cancelan",
-    "prime video",
-    "disney",
-    "hbo",
-    "max",
-    "apple tv",
-}
-
-MOVIE_NEWS_REQUIRED_WORDS = {
-    "película",
-    "pelicula",
-    "cine",
-    "estreno",
-    "estrena",
-    "tráiler",
-    "trailer",
-    "rodaje",
-    "taquilla",
-    "reparto",
-}
-
 SPORTS_TEXT_HINTS = {
     "futbol",
     "fútbol",
@@ -177,8 +101,6 @@ SPORTS_TEXT_HINTS = {
     "copa",
     "liga",
     "champions",
-    "europa league",
-    "conference league",
     "barcelona",
     "barça",
     "barca",
@@ -234,16 +156,95 @@ NON_SPORTS_TEXT_HINTS = {
     "televisión",
 }
 
+BAD_MOVIE_TITLE_WORDS = {
+    "cartelera",
+    "cartelera y entrada",
+    "entrada",
+    "entradas",
+    "sesiones",
+    "trailer",
+    "tráiler",
+    "videos",
+    "vídeos",
+    "reparto completo",
+    "críticas",
+    "criticas",
+    "fotos",
+    "streaming",
+    "serie",
+    "series",
+    "temporada",
+    "netflix cancela",
+    "cancela",
+    "crunchyroll",
+    "anime",
+    "animes",
+    "prime video",
+    "disney+",
+    "hbo",
+    "max",
+    "apple tv",
+}
+
+BAD_MOVIE_PATH_PARTS = {
+    "/sesiones/",
+    "/videos/",
+    "/video/",
+    "/trailer/",
+    "/trailers/",
+    "/criticas/",
+    "/critica/",
+    "/fotos/",
+    "/streaming/",
+    "/series/",
+    "/serie/",
+    "/tv/",
+}
+
+MOVIE_NEWS_BLOCK_WORDS = {
+    "streaming",
+    "netflix",
+    "crunchyroll",
+    "anime",
+    "animes",
+    "serie",
+    "series",
+    "temporada",
+    "temporadas",
+    "cancelada",
+    "cancela",
+    "cancelan",
+    "prime video",
+    "disney",
+    "hbo",
+    "max",
+    "apple tv",
+    "reality",
+    "telecinco",
+    "rtve",
+    "grand prix",
+    "pasapalabra",
+    "supervivientes",
+}
+
+MOVIE_NEWS_REQUIRED_WORDS = {
+    "película",
+    "pelicula",
+    "cine",
+    "estreno",
+    "estrena",
+    "tráiler",
+    "trailer",
+    "rodaje",
+    "taquilla",
+}
+
 REPORT_LINES: list[str] = []
 
 
 def ensure_dirs() -> None:
-    (CONTENT_DIR / "blog").mkdir(parents=True, exist_ok=True)
-    (CONTENT_DIR / "noticias").mkdir(parents=True, exist_ok=True)
-    REPORTS_DIR.mkdir(parents=True, exist_ok=True)
-
-
-def ensure_reports_dir() -> None:
+    BLOG_DIR.mkdir(parents=True, exist_ok=True)
+    NEWS_DIR.mkdir(parents=True, exist_ok=True)
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
 
 
@@ -256,7 +257,7 @@ def reset_report() -> None:
 def write_report(message: str) -> None:
     print(message)
     REPORT_LINES.append(message)
-    ensure_reports_dir()
+    ensure_dirs()
     REPORT_FILE.write_text("\n".join(REPORT_LINES) + "\n", encoding="utf-8")
 
 
@@ -318,7 +319,7 @@ def url_hash(value: str) -> str:
 
 
 def request_text(url: str, timeout: int = 25) -> str:
-    response = requests.get(url, headers=REQUEST_HEADERS, timeout=timeout)
+    response = requests.get(url, headers=HEADERS, timeout=timeout)
     response.raise_for_status()
     response.encoding = response.apparent_encoding or response.encoding
     return response.text
@@ -327,6 +328,7 @@ def request_text(url: str, timeout: int = 25) -> str:
 def absolute_url(base_url: str, maybe_url: str) -> str:
     if not maybe_url:
         return ""
+
     return urljoin(base_url, maybe_url.strip())
 
 
@@ -570,7 +572,7 @@ def extract_movie_release_year(text: str) -> int | None:
         return None
 
     compact = clean_text(text)[:7000]
-    lowered = normalize_text(compact)
+    normalized = normalize_text(compact)
 
     patterns = [
         r"fecha de estreno[^\d]*(20\d{2})",
@@ -585,7 +587,7 @@ def extract_movie_release_year(text: str) -> int | None:
     ]
 
     for pattern in patterns:
-        match = re.search(pattern, lowered)
+        match = re.search(pattern, normalized)
 
         if match:
             return int(match.group(1))
@@ -597,22 +599,64 @@ def get_listing_links(url: str) -> list[dict]:
     html = request_text(url)
     soup = BeautifulSoup(html, "html.parser")
     links: list[dict] = []
+    seen: set[str] = set()
 
     for anchor in soup.find_all("a", href=True):
         href = anchor.get("href", "")
-        link = absolute_url(url, href)
+        link = absolute_url(url, href).split("#")[0].strip()
+
+        if not link or link in seen:
+            continue
+
+        seen.add(link)
+
         title = clean_text(anchor.get_text(" "))
 
         if not title:
-            title = clean_text(anchor.get("title", ""))
+            title = clean_text(anchor.get("title", "") or anchor.get("aria-label", ""))
 
-        if not link:
-            continue
+        image = ""
+        img = anchor.find("img")
+
+        if img:
+            src = img.get("src") or img.get("data-src") or img.get("data-lazy-src")
+            if src:
+                image = absolute_url(url, src)
+
+        context_parts = []
+        parent = anchor
+
+        for _ in range(4):
+            if not parent:
+                break
+
+            parent = parent.parent
+
+            if not parent:
+                break
+
+            context_text = clean_text(parent.get_text(" "))
+
+            if context_text:
+                context_parts.append(context_text)
+
+            if not image:
+                img = parent.find("img") if hasattr(parent, "find") else None
+
+                if img:
+                    src = img.get("src") or img.get("data-src") or img.get("data-lazy-src")
+                    if src:
+                        image = absolute_url(url, src)
+
+        context = " ".join(context_parts[:4])[:3000]
 
         links.append(
             {
                 "title": title,
                 "url": link,
+                "context": context,
+                "image": image,
+                "listingUrl": url,
             }
         )
 
@@ -783,11 +827,15 @@ def get_movies_candidates(group: dict) -> list[dict]:
             if url in seen:
                 continue
 
-            is_release_card = is_sensacine_movie_detail_url(url)
+            is_release_card = listing_is_releases and is_sensacine_movie_detail_url(url)
             is_movie_news = listing_is_news and is_sensacine_movie_news_url(url)
 
             if not is_release_card and not is_movie_news:
                 continue
+
+            listing_context = item.get("context", "")
+            listing_title = item.get("title", "")
+            listing_image = item.get("image", "")
 
             try:
                 data = extract_article_data(url)
@@ -795,20 +843,21 @@ def get_movies_candidates(group: dict) -> list[dict]:
                 write_report(f"[movies] No se pudo extraer {url}: {exc}")
                 continue
 
-            title = get_movie_identity(data.get("title", "") or item.get("title", ""))
+            title = get_movie_identity(data.get("title", "") or listing_title)
             text = data.get("text", "")
-            image = data.get("image", "")
+            image = data.get("image", "") or listing_image
 
             if movie_title_is_invalid(title):
                 continue
 
-            if len(text) < 250:
+            if len(text) < 220:
                 continue
 
             if requires_image and not image:
                 continue
 
-            release_year = extract_movie_release_year(f"{title}\n{text}\n{url}")
+            combined_context = f"{listing_title}\n{listing_context}\n{title}\n{text}\n{url}"
+            release_year = extract_movie_release_year(combined_context)
 
             if release_year != only_release_year:
                 write_report(
@@ -817,7 +866,7 @@ def get_movies_candidates(group: dict) -> list[dict]:
                 )
                 continue
 
-            if is_movie_news and not movie_news_is_valid(title, text, url):
+            if is_movie_news and not movie_news_is_valid(title, combined_context, url):
                 write_report(f"[movies] Saltado noticia no apta para películas: {title}")
                 continue
 
@@ -827,7 +876,7 @@ def get_movies_candidates(group: dict) -> list[dict]:
                 {
                     "title": title,
                     "url": url,
-                    "text": text,
+                    "text": f"{listing_context}\n\n{text}".strip(),
                     "image": image,
                     "sourceName": "SensaCine",
                     "category": category,
@@ -845,8 +894,6 @@ def get_movies_candidates(group: dict) -> list[dict]:
 
 def get_movie_candidates(group: dict, processed=None) -> list[dict]:
     return get_movies_candidates(group)
-
-
 def extract_frontmatter_value(text: str, key: str) -> str:
     pattern = rf"^{re.escape(key)}:\s*(.+?)\s*$"
     match = re.search(pattern, text, flags=re.MULTILINE)
@@ -892,7 +939,6 @@ def post_matches_category(path: Path, category: str, target_collection: str) -> 
     if target_collection == "blog" or category_norm == "peliculas":
         return (
             "category peliculas" in normalized
-            or "category peliculas" in normalized.replace(":", "")
             or "sensacine" in normalized
             or "youtubevideoid" in normalized
         )
@@ -920,32 +966,6 @@ def count_existing_posts(group: dict) -> int:
     return count
 
 
-def count_posts_today(group: dict) -> int:
-    target_collection = group.get("targetCollection", "blog")
-    category = group.get("category", "")
-    collection_dir = CONTENT_DIR / target_collection
-    today = datetime.now(timezone.utc).date()
-
-    if not collection_dir.exists():
-        return 0
-
-    count = 0
-
-    for path in list(collection_dir.glob("*.md")) + list(collection_dir.glob("*.mdx")):
-        if not post_matches_category(path, category, target_collection):
-            continue
-
-        try:
-            text = path.read_text(encoding="utf-8")
-        except Exception:
-            continue
-
-        if extract_pub_date(text) == today:
-            count += 1
-
-    return count
-
-
 def get_dynamic_daily_limit(group: dict) -> int:
     target_collection = group.get("targetCollection", "")
     category = normalize_text(group.get("category", ""))
@@ -960,7 +980,6 @@ def get_dynamic_daily_limit(group: dict) -> int:
         after_initial = int(group.get("dailyLimitAfterInitial", 1))
         return max(0, after_initial)
 
-    # Para deportes: cada ejecución publica 1 o 2 noticias recientes si hay candidatos.
     per_run = int(group.get("dailyLimit", 2))
     return max(0, per_run)
 
@@ -1531,6 +1550,7 @@ def meaningful_words(value: str) -> set[str]:
         "pelicula",
         "peliculas",
         "trailer",
+        "teaser",
         "oficial",
         "estreno",
         "2026",
@@ -1558,7 +1578,11 @@ def trailer_matches_movie(
     video_words = meaningful_words(video_title)
     normalized_video = normalize_text(video_title)
 
-    if "trailer" not in normalized_video and "avance" not in normalized_video:
+    if (
+        "trailer" not in normalized_video
+        and "teaser" not in normalized_video
+        and "avance" not in normalized_video
+    ):
         return False
 
     if not movie_words:
@@ -1587,46 +1611,49 @@ def search_youtube_trailer(
         write_report("[YouTube] No existe YOUTUBE_API_KEY; se omite tráiler.")
         return None
 
-    query_parts = [movie_title, "trailer oficial"]
+    queries = [
+        f"{movie_title} trailer oficial {release_year or ''}".strip(),
+        f"{movie_title} official trailer {release_year or ''}".strip(),
+        f"{movie_title} teaser trailer {release_year or ''}".strip(),
+        f"{movie_title} avance oficial {release_year or ''}".strip(),
+    ]
 
-    if release_year:
-        query_parts.append(str(release_year))
+    for query in queries:
+        params = {
+            "part": "snippet",
+            "q": query,
+            "type": "video",
+            "maxResults": 8,
+            "key": YOUTUBE_API_KEY,
+            "relevanceLanguage": "es",
+            "safeSearch": "moderate",
+        }
 
-    params = {
-        "part": "snippet",
-        "q": " ".join(query_parts),
-        "type": "video",
-        "maxResults": 8,
-        "key": YOUTUBE_API_KEY,
-        "relevanceLanguage": "es",
-        "safeSearch": "moderate",
-    }
+        try:
+            response = requests.get(
+                "https://www.googleapis.com/youtube/v3/search",
+                params=params,
+                timeout=25,
+            )
+            response.raise_for_status()
+            data = response.json()
+        except Exception as exc:
+            write_report(f"[YouTube] Error buscando tráiler para {movie_title}: {exc}")
+            return None
 
-    try:
-        response = requests.get(
-            "https://www.googleapis.com/youtube/v3/search",
-            params=params,
-            timeout=25,
-        )
-        response.raise_for_status()
-        data = response.json()
-    except Exception as exc:
-        write_report(f"[YouTube] Error buscando tráiler para {movie_title}: {exc}")
-        return None
+        for item in data.get("items", []):
+            video_id = item.get("id", {}).get("videoId")
+            snippet = item.get("snippet", {})
+            video_title = clean_text(snippet.get("title", ""))
 
-    for item in data.get("items", []):
-        video_id = item.get("id", {}).get("videoId")
-        snippet = item.get("snippet", {})
-        video_title = clean_text(snippet.get("title", ""))
+            if not video_id or not video_title:
+                continue
 
-        if not video_id or not video_title:
-            continue
-
-        if trailer_matches_movie(movie_title, video_title, release_year):
-            return {
-                "youtubeVideoId": video_id,
-                "youtubeVideoTitle": video_title,
-            }
+            if trailer_matches_movie(movie_title, video_title, release_year):
+                return {
+                    "youtubeVideoId": video_id,
+                    "youtubeVideoTitle": video_title,
+                }
 
     write_report(f"[YouTube] No se encontró tráiler confiable para {movie_title}")
 
