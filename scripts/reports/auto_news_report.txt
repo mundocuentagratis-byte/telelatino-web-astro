@@ -1,151 +1,92 @@
-[2026-06-18 01:49:22 UTC] >>> INICIANDO GENERADOR AUTOMÁTICO DE NOTICIAS TELELATINO <<<
-[2026-06-18 01:49:22 UTC] --- Procesando grupo: sports ---
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Contundente comunicado de Rafa Mir tras ser condenado a 8 años y medio de cárcel por agresión sexual
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Que no cunda el pánico
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Puedes ganar mucho dinero: los cromos del Mundial que debes conseguir y guardar bajo llave
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Rafa Mir no podrá jugar en LaLiga española durante dos años
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Rafa Mir, condenado a 8 años y medio de cárcel por agresión sexual
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: De Burgos, a corazón abierto: “Lloré mucho porque no estuve a la altura en mi primer Clásico”
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Ez Abde se tratará en Francia de su lesión de rodilla
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Muniain escala un peldaño en su carrera como entrenador: este es su nuevo club
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: El Betis retoma el interés por Fran García
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Enner Valencia lo tiene claro: "No vamos a cambiar"
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Beccacece; "Es el comienzo y hay que seguir trabajando"
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: ¡Cambio de fecha de la Supercopa de España hasta la temporada 2029-2030!
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Saibari: "Si perdonas contra un grande, lo pagas caro"
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: De Jong: "No estamos en crisis, mañana tendrán razones para ser optimistas"
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Advocaat: "Sigo entrenando porque me gusta, no por el dinero"
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Koeman: "Nosotros mismos nos ponemos el listón alto"
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Contundente comunicado de Rafa Mir tras ser condenado a 8 años y medio de cárcel por agresión sexual
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Que no cunda el pánico
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Puedes ganar mucho dinero: los cromos del Mundial que debes conseguir y guardar bajo llave
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Rafa Mir no podrá jugar en LaLiga española durante dos años
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Rafa Mir, condenado a 8 años y medio de cárcel por agresión sexual
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: De Burgos, a corazón abierto: “Lloré mucho porque no estuve a la altura en mi primer Clásico”
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Ez Abde se tratará en Francia de su lesión de rodilla
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Muniain escala un peldaño en su carrera como entrenador: este es su nuevo club
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: El Betis retoma el interés por Fran García
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Enner Valencia lo tiene claro: "No vamos a cambiar"
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Beccacece; "Es el comienzo y hay que seguir trabajando"
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: ¡Cambio de fecha de la Supercopa de España hasta la temporada 2029-2030!
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Saibari: "Si perdonas contra un grande, lo pagas caro"
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: De Jong: "No estamos en crisis, mañana tendrán razones para ser optimistas"
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Advocaat: "Sigo entrenando porque me gusta, no por el dinero"
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Koeman: "Nosotros mismos nos ponemos el listón alto"
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Contundente comunicado de Rafa Mir tras ser condenado a 8 años y medio de cárcel por agresión sexual
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Que no cunda el pánico
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Puedes ganar mucho dinero: los cromos del Mundial que debes conseguir y guardar bajo llave
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Rafa Mir no podrá jugar en LaLiga española durante dos años
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Rafa Mir, condenado a 8 años y medio de cárcel por agresión sexual
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: De Burgos, a corazón abierto: “Lloré mucho porque no estuve a la altura en mi primer Clásico”
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Ez Abde se tratará en Francia de su lesión de rodilla
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Muniain escala un peldaño en su carrera como entrenador: este es su nuevo club
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: El Betis retoma el interés por Fran García
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Enner Valencia lo tiene claro: "No vamos a cambiar"
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Beccacece; "Es el comienzo y hay que seguir trabajando"
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: ¡Cambio de fecha de la Supercopa de España hasta la temporada 2029-2030!
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Saibari: "Si perdonas contra un grande, lo pagas caro"
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: De Jong: "No estamos en crisis, mañana tendrán razones para ser optimistas"
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Advocaat: "Sigo entrenando porque me gusta, no por el dinero"
-[2026-06-18 01:49:23 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Koeman: "Nosotros mismos nos ponemos el listón alto"
-[2026-06-18 01:49:23 UTC] [INFO] Candidatos fútbol recientes encontrados en Mundo Deportivo: 3
-[2026-06-18 01:49:23 UTC] [SKIP] Ya procesado: Dalic:"Sabíamos que las jugadas a balón parado iban a ser un peligro"
-[2026-06-18 01:49:23 UTC] [SKIP] Ya procesado: El Cornellà de Messi crea su primer equipo femenino
-[2026-06-18 01:49:23 UTC] [SKIP] Ya procesado: "Hay nervios por el lado de Cristiano Ronaldo"
-[2026-06-18 01:49:23 UTC] [INFO] Grupo sports: 0 artículos creados
-[2026-06-18 01:49:23 UTC] --- Procesando grupo: movies ---
-[2026-06-18 01:49:23 UTC] [INFO] Películas actuales con imagen y tráiler: 1. Faltan 9 para llegar a 10.
-[2026-06-18 01:49:23 UTC] [INFO] Candidatos de películas encontrados en SensaCine: 33
-[2026-06-18 01:49:23 UTC] [INFO] Candidatos de películas encontrados en SensaCine: 25
-[2026-06-18 01:49:23 UTC] [SKIP] Ya procesado: Toy Story 5
-[2026-06-18 01:49:23 UTC] [INFO] Procesando: El día de la revelación
-[2026-06-18 01:49:23 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-1000001453/
-[2026-06-18 01:49:24 UTC] [OK] Tráiler encontrado: EL DÍA DE LA REVELACIÓN - Tráiler Oficial (Universal Pictures) HD
-[2026-06-18 01:49:24 UTC] [IA] Intentando con MISTRAL...
-[2026-06-18 01:49:33 UTC] [IA OK] Artículo generado con MISTRAL
-[2026-06-18 01:49:33 UTC] [OK] Artículo creado: src/content/blog/el-dia-de-la-revelacion-pelicula-de-ciencia-ficcion-2026-sobre-extraterrestres-y-2026-06-18-b38a08.md
-[2026-06-18 01:49:33 UTC] [SKIP] Ya procesado: Pioneras: Solo querían jugar
-[2026-06-18 01:49:33 UTC] [SKIP] Ya procesado: Un talento único
-[2026-06-18 01:49:33 UTC] [INFO] Procesando: Una pistola, una bala y un oso panda
-[2026-06-18 01:49:33 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-1000025611/
-[2026-06-18 01:49:34 UTC] [OK] Tráiler encontrado: UNA PISTOLA, UNA BALA Y UN OSO PANDA - TRÁILER OFICIAL (HD)
-[2026-06-18 01:49:34 UTC] [IA] Intentando con MISTRAL...
-[2026-06-18 01:49:43 UTC] [IA OK] Artículo generado con MISTRAL
-[2026-06-18 01:49:43 UTC] [OK] Artículo creado: src/content/blog/una-pistola-una-bala-y-un-oso-panda-estreno-2026-sinopsis-y-detalles-de-la-pelic-2026-06-18-ab540e.md
-[2026-06-18 01:49:43 UTC] [INFO] Procesando: Iván & Hadoum
-[2026-06-18 01:49:43 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-308545/
-[2026-06-18 01:49:43 UTC] [OK] Tráiler encontrado: Iván &amp; Hadoum | Tráiler oficial | Avalon
-[2026-06-18 01:49:43 UTC] [IA] Intentando con MISTRAL...
-[2026-06-18 01:49:53 UTC] [IA OK] Artículo generado con MISTRAL
-[2026-06-18 01:49:53 UTC] [OK] Artículo creado: src/content/blog/ivan-hadoum-2026-estreno-de-cine-sinopsis-y-donde-verla-en-streaming-2026-06-18-38a7f5.md
-[2026-06-18 01:49:53 UTC] [SKIP] Ya procesado: El guardián del árbol de alcanfor
-[2026-06-18 01:49:53 UTC] [INFO] Procesando: Eleonora Duse: La Divina
-[2026-06-18 01:49:53 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-1000004748/
-[2026-06-18 01:49:53 UTC] [SKIP] Película antigua (2025), mínimo permitido 2026: Eleonora Duse: La Divina
-[2026-06-18 01:49:53 UTC] [INFO] Procesando: Todos los colores
-[2026-06-18 01:49:53 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-1000027086/
-[2026-06-18 01:49:54 UTC] [OK] Tráiler encontrado: TODOS LOS COLORES | Tráiler oficial HD | 12 de junio solo en cines.
-[2026-06-18 01:49:54 UTC] [IA] Intentando con MISTRAL...
-[2026-06-18 01:50:04 UTC] [IA OK] Artículo generado con MISTRAL
-[2026-06-18 01:50:04 UTC] [OK] Artículo creado: src/content/blog/todos-los-colores-2026-estreno-de-pelicula-adolescente-con-drama-y-emociones-int-2026-06-18-da314e.md
-[2026-06-18 01:50:04 UTC] [INFO] Procesando: Solomamma
-[2026-06-18 01:50:04 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-1000016431/
-[2026-06-18 01:50:04 UTC] [SKIP] Película antigua (2025), mínimo permitido 2026: Solomamma
-[2026-06-18 01:50:04 UTC] [INFO] Procesando: Joika
-[2026-06-18 01:50:04 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-284411/
-[2026-06-18 01:50:05 UTC] [SKIP] Película antigua (2024), mínimo permitido 2026: Joika
-[2026-06-18 01:50:05 UTC] [INFO] Procesando: El colegio de los animales mágicos 4
-[2026-06-18 01:50:05 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-310400/
-[2026-06-18 01:50:06 UTC] [SKIP] Película antigua (2025), mínimo permitido 2026: El colegio de los animales mágicos 4
-[2026-06-18 01:50:06 UTC] [INFO] Procesando: Los Pérez-Osos
-[2026-06-18 01:50:06 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-321823/
-[2026-06-18 01:50:06 UTC] [SKIP] Película antigua (2024), mínimo permitido 2026: Los Pérez-Osos
-[2026-06-18 01:50:06 UTC] [INFO] Procesando: La memoria de las mariposas
-[2026-06-18 01:50:06 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-1000047290/
-[2026-06-18 01:50:07 UTC] [OK] Tráiler encontrado: Trailer oficial en catalán La Memòria de les Papallones 4K | La Memoria de las Mariposas 4K
-[2026-06-18 01:50:07 UTC] [IA] Intentando con MISTRAL...
-[2026-06-18 01:50:17 UTC] [IA OK] Artículo generado con MISTRAL
-[2026-06-18 01:50:17 UTC] [OK] Artículo creado: src/content/blog/la-memoria-de-las-mariposas-estreno-2026-sinopsis-y-donde-ver-la-pelicula-online-2026-06-18-0e7242.md
-[2026-06-18 01:50:17 UTC] [INFO] Procesando: Un hombre de verdad
-[2026-06-18 01:50:17 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-1000029277/
-[2026-06-18 01:50:18 UTC] [SKIP] Película antigua (2025), mínimo permitido 2026: Un hombre de verdad
-[2026-06-18 01:50:18 UTC] [INFO] Procesando: The Furious
-[2026-06-18 01:50:18 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-1000002042/
-[2026-06-18 01:50:19 UTC] [SKIP] Película antigua (2025), mínimo permitido 2026: The Furious
-[2026-06-18 01:50:19 UTC] [INFO] Procesando: Fuze
-[2026-06-18 01:50:19 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-326598/
-[2026-06-18 01:50:20 UTC] [OK] Tráiler encontrado: The Fuze: Zona De Riesgo | Tráiler oficial | Doblado
-[2026-06-18 01:50:20 UTC] [IA] Intentando con MISTRAL...
-[2026-06-18 01:50:29 UTC] [IA OK] Artículo generado con MISTRAL
-[2026-06-18 01:50:29 UTC] [OK] Artículo creado: src/content/blog/fuze-2026-estreno-de-pelicula-de-accion-y-suspense-en-telelatino-2026-06-18-307f91.md
-[2026-06-18 01:50:29 UTC] [SKIP] Ya procesado: Obsession
-[2026-06-18 01:50:29 UTC] [INFO] Procesando: Bernie
-[2026-06-18 01:50:29 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-184456/
-[2026-06-18 01:50:31 UTC] [SKIP] Película antigua (2011), mínimo permitido 2026: Bernie
-[2026-06-18 01:50:31 UTC] [INFO] Procesando: La acompañante
-[2026-06-18 01:50:31 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-313075/
-[2026-06-18 01:50:31 UTC] [SKIP] Película antigua (2024), mínimo permitido 2026: La acompañante
-[2026-06-18 01:50:31 UTC] [INFO] Procesando: Ballerina
-[2026-06-18 01:50:31 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-257724/
-[2026-06-18 01:50:33 UTC] [SKIP] Película antigua (2025), mínimo permitido 2026: Ballerina
-[2026-06-18 01:50:33 UTC] [INFO] Procesando: La constelación del perro
-[2026-06-18 01:50:33 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-1000014969/
-[2026-06-18 01:50:33 UTC] [OK] Tráiler encontrado: LA CONSTELACIÓN DEL PERRO Tráiler Oficial Español (2026) Ridley Scott
-[2026-06-18 01:50:33 UTC] [IA] Intentando con MISTRAL...
-[2026-06-18 01:50:44 UTC] [IA OK] Artículo generado con MISTRAL
-[2026-06-18 01:50:44 UTC] [OK] Artículo creado: src/content/blog/la-constelacion-del-perro-2026-sinopsis-estreno-y-donde-verla-en-telelatino-2026-06-18-87a8e6.md
-[2026-06-18 01:50:44 UTC] [INFO] Procesando: La Odisea
-[2026-06-18 01:50:44 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-1000013045/
-[2026-06-18 01:50:45 UTC] [OK] Tráiler encontrado: La Odisea | Nuevo Tráiler Oficial DUB (Universal Pictures) - HD
-[2026-06-18 01:50:45 UTC] [IA] Intentando con MISTRAL...
-[2026-06-18 01:50:53 UTC] [IA OK] Artículo generado con MISTRAL
-[2026-06-18 01:50:53 UTC] [OK] Artículo creado: src/content/blog/la-odisea-2026-estreno-sinopsis-y-donde-ver-la-pelicula-en-vivo-2026-06-18-fa9103.md
-[2026-06-18 01:50:53 UTC] [SKIP] Ya procesado: Supergirl
-[2026-06-18 01:50:53 UTC] [INFO] Procesando: Spider-Man: Brand New Day
-[2026-06-18 01:50:53 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-276608/
-[2026-06-18 01:50:54 UTC] [OK] Tráiler encontrado: SPIDER-MAN: BRAND NEW DAY | Tráiler oficial en español HD. 29 de julio en cines.
-[2026-06-18 01:50:54 UTC] [IA] Intentando con MISTRAL...
-[2026-06-18 01:51:05 UTC] [IA OK] Artículo generado con MISTRAL
-[2026-06-18 01:51:05 UTC] [OK] Artículo creado: src/content/blog/spider-man-brand-new-day-2026-estreno-sinopsis-y-detalles-del-nuevo-filme-de-spi-2026-06-18-037e88.md
-[2026-06-18 01:51:05 UTC] [INFO] Grupo movies: 9 artículos creados
-[2026-06-18 01:51:05 UTC] >>> PROCESO FINALIZADO. ARTÍCULOS CREADOS: 9 <<<
+[2026-06-18 03:19:06 UTC] >>> INICIANDO GENERADOR AUTOMÁTICO DE NOTICIAS TELELATINO <<<
+[2026-06-18 03:19:06 UTC] --- Procesando grupo: sports ---
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Contundente comunicado de Rafa Mir tras ser condenado a 8 años y medio de cárcel por agresión sexual
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Que no cunda el pánico
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Puedes ganar mucho dinero: los cromos del Mundial que debes conseguir y guardar bajo llave
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Rafa Mir no podrá jugar en LaLiga española durante dos años
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Rafa Mir, condenado a 8 años y medio de cárcel por agresión sexual
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: De Burgos, a corazón abierto: “Lloré mucho porque no estuve a la altura en mi primer Clásico”
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Ez Abde se tratará en Francia de su lesión de rodilla
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Muniain escala un peldaño en su carrera como entrenador: este es su nuevo club
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: El Betis retoma el interés por Fran García
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Enner Valencia lo tiene claro: "No vamos a cambiar"
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Beccacece; "Es el comienzo y hay que seguir trabajando"
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: ¡Cambio de fecha de la Supercopa de España hasta la temporada 2029-2030!
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Saibari: "Si perdonas contra un grande, lo pagas caro"
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: De Jong: "No estamos en crisis, mañana tendrán razones para ser optimistas"
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Advocaat: "Sigo entrenando porque me gusta, no por el dinero"
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Koeman: "Nosotros mismos nos ponemos el listón alto"
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Contundente comunicado de Rafa Mir tras ser condenado a 8 años y medio de cárcel por agresión sexual
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Que no cunda el pánico
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Puedes ganar mucho dinero: los cromos del Mundial que debes conseguir y guardar bajo llave
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Rafa Mir no podrá jugar en LaLiga española durante dos años
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Rafa Mir, condenado a 8 años y medio de cárcel por agresión sexual
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: De Burgos, a corazón abierto: “Lloré mucho porque no estuve a la altura en mi primer Clásico”
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Ez Abde se tratará en Francia de su lesión de rodilla
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Muniain escala un peldaño en su carrera como entrenador: este es su nuevo club
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: El Betis retoma el interés por Fran García
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Enner Valencia lo tiene claro: "No vamos a cambiar"
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Beccacece; "Es el comienzo y hay que seguir trabajando"
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: ¡Cambio de fecha de la Supercopa de España hasta la temporada 2029-2030!
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Saibari: "Si perdonas contra un grande, lo pagas caro"
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: De Jong: "No estamos en crisis, mañana tendrán razones para ser optimistas"
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Advocaat: "Sigo entrenando porque me gusta, no por el dinero"
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Koeman: "Nosotros mismos nos ponemos el listón alto"
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Contundente comunicado de Rafa Mir tras ser condenado a 8 años y medio de cárcel por agresión sexual
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Que no cunda el pánico
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Puedes ganar mucho dinero: los cromos del Mundial que debes conseguir y guardar bajo llave
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Rafa Mir no podrá jugar en LaLiga española durante dos años
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Rafa Mir, condenado a 8 años y medio de cárcel por agresión sexual
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: De Burgos, a corazón abierto: “Lloré mucho porque no estuve a la altura en mi primer Clásico”
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Ez Abde se tratará en Francia de su lesión de rodilla
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Muniain escala un peldaño en su carrera como entrenador: este es su nuevo club
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: El Betis retoma el interés por Fran García
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Enner Valencia lo tiene claro: "No vamos a cambiar"
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Beccacece; "Es el comienzo y hay que seguir trabajando"
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: ¡Cambio de fecha de la Supercopa de España hasta la temporada 2029-2030!
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Saibari: "Si perdonas contra un grande, lo pagas caro"
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: De Jong: "No estamos en crisis, mañana tendrán razones para ser optimistas"
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Advocaat: "Sigo entrenando porque me gusta, no por el dinero"
+[2026-06-18 03:19:07 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Koeman: "Nosotros mismos nos ponemos el listón alto"
+[2026-06-18 03:19:07 UTC] [INFO] Candidatos fútbol recientes encontrados en Mundo Deportivo: 3
+[2026-06-18 03:19:07 UTC] [SKIP] Ya procesado: Dalic:"Sabíamos que las jugadas a balón parado iban a ser un peligro"
+[2026-06-18 03:19:07 UTC] [SKIP] Ya procesado: El Cornellà de Messi crea su primer equipo femenino
+[2026-06-18 03:19:07 UTC] [SKIP] Ya procesado: "Hay nervios por el lado de Cristiano Ronaldo"
+[2026-06-18 03:19:07 UTC] [INFO] Grupo sports: 0 artículos creados
+[2026-06-18 03:19:07 UTC] --- Procesando grupo: movies ---
+[2026-06-18 03:19:07 UTC] [INFO] Ya hay 10 películas con imagen y tráiler. Se intentará publicar máximo 1 nueva.
+[2026-06-18 03:19:07 UTC] [INFO] Candidatos de películas encontrados en SensaCine: 33
+[2026-06-18 03:19:07 UTC] [INFO] Candidatos de películas encontrados en SensaCine: 25
+[2026-06-18 03:19:07 UTC] [SKIP] Ya procesado: El día de la revelación
+[2026-06-18 03:19:07 UTC] [SKIP] Ya procesado: Toy Story 5
+[2026-06-18 03:19:07 UTC] [SKIP] Ya procesado: Pioneras: Solo querían jugar
+[2026-06-18 03:19:07 UTC] [SKIP] Ya procesado: Un talento único
+[2026-06-18 03:19:07 UTC] [SKIP] Ya procesado: Una pistola, una bala y un oso panda
+[2026-06-18 03:19:07 UTC] [SKIP] Ya procesado: Iván & Hadoum
+[2026-06-18 03:19:07 UTC] [SKIP] Ya procesado: El guardián del árbol de alcanfor
+[2026-06-18 03:19:07 UTC] [SKIP] Ya procesado: Eleonora Duse: La Divina
+[2026-06-18 03:19:07 UTC] [SKIP] Ya procesado: Todos los colores
+[2026-06-18 03:19:07 UTC] [SKIP] Ya procesado: Solomamma
+[2026-06-18 03:19:07 UTC] [SKIP] Ya procesado: Joika
+[2026-06-18 03:19:07 UTC] [SKIP] Ya procesado: El colegio de los animales mágicos 4
+[2026-06-18 03:19:07 UTC] [SKIP] Ya procesado: Los Pérez-Osos
+[2026-06-18 03:19:07 UTC] [SKIP] Ya procesado: La memoria de las mariposas
+[2026-06-18 03:19:07 UTC] [SKIP] Ya procesado: The Furious
+[2026-06-18 03:19:07 UTC] [SKIP] Ya procesado: Un hombre de verdad
+[2026-06-18 03:19:07 UTC] [SKIP] Ya procesado: Fuze
+[2026-06-18 03:19:07 UTC] [SKIP] Ya procesado: Obsession
+[2026-06-18 03:19:07 UTC] [SKIP] Ya procesado: Bernie
+[2026-06-18 03:19:07 UTC] [SKIP] Ya procesado: La acompañante
+[2026-06-18 03:19:07 UTC] [SKIP] Ya procesado: Ballerina
+[2026-06-18 03:19:07 UTC] [SKIP] Ya procesado: La Odisea
+[2026-06-18 03:19:07 UTC] [SKIP] Ya procesado: La constelación del perro
+[2026-06-18 03:19:07 UTC] [SKIP] Ya procesado: Supergirl
+[2026-06-18 03:19:07 UTC] [SKIP] Ya procesado: Spider-Man: Brand New Day
+[2026-06-18 03:19:07 UTC] [INFO] Procesando: México 86
+[2026-06-18 03:19:07 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-1000031269/
+[2026-06-18 03:19:08 UTC] [OK] Tráiler encontrado: México 86 | Tráiler oficial | Netflix
+[2026-06-18 03:19:08 UTC] [IA] Intentando con MISTRAL...
+[2026-06-18 03:19:15 UTC] [IA OK] Artículo generado con MISTRAL
+[2026-06-18 03:19:15 UTC] [OK] Artículo creado: src/content/blog/mexico-86-pelicula-2026-sobre-el-sueno-de-albergar-el-mundial-de-futbol-2026-06-18-56d007.md
+[2026-06-18 03:19:15 UTC] [INFO] Grupo movies: 1 artículos creados
+[2026-06-18 03:19:15 UTC] >>> PROCESO FINALIZADO. ARTÍCULOS CREADOS: 1 <<<
