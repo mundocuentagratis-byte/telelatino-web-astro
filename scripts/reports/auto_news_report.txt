@@ -1,6 +1,325 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-18T14:29:46.013151+00:00
-[movies] Candidatos encontrados: 1 | Límite: 9
-[movies] Publicados: 0
-Total películas publicadas: 0
+Fecha UTC: 2026-06-18T16:05:39.733015+00:00
+[movies] Saltado sin año claro: Bernie
+[movies] Saltado sin año claro: La acompañante
+[movies] Saltado por año 2025: Ballerina
+[movies] Saltado sin año claro: El día de la revelación
+[movies] Saltado sin año claro: Toy Story 5
+[movies] Saltado sin año claro: Pioneras: Solo querían jugar
+[movies] Saltado sin año claro: Un talento único
+[movies] Saltado sin año claro: Una pistola, una bala y un oso panda
+[movies] Saltado sin año claro: Iván & Hadoum
+[movies] Saltado sin año claro: El guardián del árbol de alcanfor
+[movies] Saltado sin año claro: Eleonora Duse: La Divina
+[movies] Saltado sin año claro: Todos los colores
+[movies] Saltado sin año claro: Solomamma
+[movies] Saltado sin año claro: Joika
+[movies] Saltado sin año claro: El colegio de los animales mágicos 4
+[movies] Saltado sin año claro: Los Pérez-Osos
+[movies] Saltado sin año claro: La memoria de las mariposas
+[movies] Saltado sin año claro: The Furious
+[movies] Saltado sin año claro: Un hombre de verdad
+[movies] Saltado sin año claro: Fuze
+[movies] Saltado sin año claro: Obsession
+[movies] Saltado sin año claro: La Odisea
+[movies] Saltado sin año claro: La constelación del perro
+[movies] Saltado sin año claro: Spider-Man: Brand New Day
+[movies] Saltado sin año claro: Supergirl
+[movies] Saltado sin año claro: México 86
+[movies] Saltado sin año claro: Minions & Monsters
+[movies] Saltado sin año claro: Dreams
+[movies] Saltado sin año claro: Normal
+[movies] Saltado sin año claro: La bola negra
+[movies] Saltado sin año claro: Scary Movie
+[movies] Saltado sin año claro: Backrooms
+[movies] Saltado sin año claro: He-Man y los Masters Del Universo
+[movies] Saltado sin año claro: Buffalo Kids
+[movies] Saltado sin año claro: Queer
+[movies] Saltado sin año claro: Karate Kid: Legends
+[movies] Saltado sin año claro: Dreams
+[movies] Saltado sin año claro: Antes del amor
+[movies] Saltado sin año claro: Habitación nº13
+[movies] Saltado sin año claro: El placer es mío
+[movies] Saltado sin año claro: Viva
+[movies] Saltado sin año claro: Caso 137
+[movies] Saltado sin año claro: 15 Pruebas de amor
+[movies] Saltado sin año claro: Bajo el mismo sol
+[movies] Saltado sin año claro: La quinta
+[movies] Saltado sin año claro: Obsession
+[movies] Saltado sin año claro: La Odisea
+[movies] Saltado sin año claro: La constelación del perro
+[movies] Saltado sin año claro: Supergirl
+[movies] Saltado sin año claro: Spider-Man: Brand New Day
+[movies] Saltado sin año claro: México 86
+[movies] Saltado sin año claro: Minions & Monsters
+[movies] Saltado sin año claro: Normal
+[movies] Saltado sin año claro: La bola negra
+[movies] Saltado sin año claro: Backrooms
+[movies] Saltado sin año claro: He-Man y los Masters Del Universo
+[movies] Saltado sin año claro: Scary Movie
+[movies] Saltado sin año claro: Todo lo que nunca fuimos
+[movies] Saltado sin año claro: La luz
+[movies] Saltado sin año claro: Cada día nace un listo
+[movies] Saltado sin año claro: Rebuilding
+[movies] Saltado sin año claro: La ironía del amor
+[movies] Saltado sin año claro: Mi cielo tu infierno
+[movies] Saltado sin año claro: Palestine 36
+[movies] Saltado sin año claro: N.I.M.: Inteligencia Artificial
+[movies] Saltado sin año claro: Una película de miedo
+[movies] Saltado sin año claro: Recen por mí: La historia de Francisco
+[movies] Saltado sin año claro: El día de la revelación
+[movies] Saltado sin año claro: The Furious
+[movies] Saltado sin año claro: Toy Story 5
+[movies] Saltado sin año claro: Todos los colores
+[movies] Saltado sin año claro: Pioneras: Solo querían jugar
+[movies] Saltado sin año claro: Un talento único
+[movies] Saltado sin año claro: Una pistola, una bala y un oso panda
+[movies] Saltado sin año claro: Fuze
+[movies] Saltado sin año claro: Iván & Hadoum
+[movies] Saltado sin año claro: Eleonora Duse: La Divina
+[movies] Saltado sin año claro: Un hombre de verdad
+[movies] Saltado sin año claro: El guardián del árbol de alcanfor
+[movies] Saltado sin año claro: Solomamma
+[movies] Saltado sin año claro: Joika
+[movies] Saltado sin año claro: El colegio de los animales mágicos 4
+[movies] Saltado sin año claro: Los Pérez-Osos
+[movies] Saltado sin año claro: La memoria de las mariposas
+[movies] Saltado sin año claro: Antes del amor
+[movies] Saltado sin año claro: Dreams
+[movies] Saltado sin año claro: Viva
+[movies] Saltado sin año claro: El placer es mío
+[movies] Saltado sin año claro: Habitación nº13
+[movies] Saltado sin año claro: Caso 137
+[movies] Saltado sin año claro: Bajo el mismo sol
+[movies] Saltado sin año claro: 15 Pruebas de amor
+[movies] Saltado sin año claro: La quinta
+[movies] Saltado sin año claro: Obsession
+[movies] Saltado sin año claro: Supergirl
+[movies] Saltado sin año claro: Minions & Monsters
+[movies] Saltado sin año claro: Normal
+[movies] Saltado sin año claro: Viaje al país de los blancos
+[movies] Saltado sin año claro: Jackass: Lo mejor para el final
+[movies] Saltado sin año claro: Morir no siempre sale bien
+[movies] Saltado sin año claro: Nino
+[movies] Saltado sin año claro: Letras robadas
+[movies] Saltado sin año claro: Pálida luz en las colinas
+[movies] Saltado sin año claro: Gladiator II
+[movies] Saltado sin año claro: Dune: Parte dos
+[movies] Saltado sin año claro: Sonic 3. La película
+[movies] Saltado sin año claro: Obsession
+[movies] Saltado sin año claro: La Odisea
+[movies] Saltado sin año claro: La constelación del perro
+[movies] Saltado sin año claro: Supergirl
+[movies] Saltado sin año claro: Spider-Man: Brand New Day
+[movies] Saltado sin año claro: México 86
+[movies] Saltado sin año claro: Minions & Monsters
+[movies] Saltado sin año claro: Dreams
+[movies] Saltado sin año claro: Normal
+[movies] Saltado sin año claro: La bola negra
+[movies] Saltado sin año claro: Vengadores: Doomsday
+[movies] Saltado sin año claro: Antes del amor
+[movies] Saltado sin año claro: Habitación nº13
+[movies] Saltado sin año claro: El placer es mío
+[movies] Saltado sin año claro: En la zona gris
+[movies] Saltado sin año claro: El día de la revelación
+[movies] Saltado sin año claro: Toy Story 5
+[movies] Saltado sin año claro: Pioneras: Solo querían jugar
+[movies] Saltado sin año claro: Un talento único
+[movies] Saltado sin año claro: Una pistola, una bala y un oso panda
+[movies] Saltado sin año claro: Iván & Hadoum
+[movies] Saltado sin año claro: El guardián del árbol de alcanfor
+[movies] Saltado sin año claro: Eleonora Duse: La Divina
+[movies] Saltado sin año claro: Todos los colores
+[movies] Saltado sin año claro: Solomamma
+[movies] Saltado sin año claro: Michael
+[movies] Saltado sin año claro: Super Mario Galaxy: La película
+[movies] Saltado sin año claro: El drama
+[movies] Saltado sin año claro: Backrooms
+[movies] Saltado sin año claro: Star Wars: The Mandalorian and Grogu
+[movies] Saltado sin año claro: Todo lo que nunca fuimos
+[movies] Saltado sin año claro: Cronos
+[movies] Saltado sin año claro: Hipnosis
+[movies] Saltado sin año claro: Juego de ladrones 2: Pantera
+[movies] Saltado sin año claro: El día de la revelación
+[movies] Saltado sin año claro: Toy Story 5
+[movies] Saltado sin año claro: Backrooms
+[movies] Saltado sin año claro: Scary Movie
+[movies] Saltado sin año claro: He-Man y los Masters Del Universo
+[movies] Saltado sin año claro: Michael
+[movies] Saltado sin año claro: Star Wars: The Mandalorian and Grogu
+[movies] Saltado sin año claro: Todo lo que nunca fuimos
+[movies] Saltado sin año claro: Pioneras: Solo querían jugar
+[movies] Saltado sin año claro: Un talento único
+[movies] Saltado sin año claro: El drama
+[movies] Saltado sin año claro: La luz
+[movies] Saltado sin año claro: Obsession
+[movies] Saltado sin año claro: La Odisea
+[movies] Saltado sin año claro: La constelación del perro
+[movies] Saltado sin año claro: Spider-Man: Brand New Day
+[movies] Saltado sin año claro: Supergirl
+[movies] Saltado sin año claro: México 86
+[movies] Saltado sin año claro: Minions & Monsters
+[movies] Saltado sin año claro: Dreams
+[movies] Saltado sin año claro: Normal
+[movies] Saltado sin año claro: La bola negra
+[movies] Saltado sin año claro: Los rankings de lo mejor del cine
+[movies] Saltado por año 2099: Los mejores rankings de series
+[movies] Saltado por año 2020: Videoteca Sensacine
+[movies] Saltado sin año claro: 'Encuentros en la tercera fase' y 'E.T' fueron solo los dos primeros actos. Para Steven Spielberg, sus historias de alienígenas se cierran en 'El Día de la Revelación'
+[movies] Saltado sin año claro: 'Supervivientes' tendrá una adaptación animada absolutamente imposible. Paramount ya prepara una película del reality cambiando a los concursantes por adorables animalillos
+[movies] Saltado sin año claro: Cómo la escena poscréditos de 'Toy Story 5' resuelve una de las grandes incógnitas que deja la película tras su intenso final
+[movies] Saltado sin año claro: Steven Spielberg acostumbra a estrenar dos películas en un año. En 2005 entregó una sesión doble de ciencia ficción y drama que sigue dejando el cuerpo del revés
+[movies] Saltado sin año claro: 'Encuentros en la tercera fase' y 'E.T' fueron solo los dos primeros actos. Para Steven Spielberg, sus historias de alienígenas se cierran en 'El Día de la Revelación'
+[movies] Saltado sin año claro: 'Encuentros en la tercera fase' y 'E.T' fueron solo los dos primeros actos. Para Steven Spielberg, sus historias de alienígenas se cierran en 'El Día de la Revelación'
+[movies] Saltado sin año claro: 'Encuentros en la tercera fase' y 'E.T' fueron solo los dos primeros actos. Para Steven Spielberg, sus historias de alienígenas se cierran en 'El Día de la Revelación'
+[movies] Saltado sin año claro: 'Encuentros en la tercera fase' y 'E.T' fueron solo los dos primeros actos. Para Steven Spielberg, sus historias de alienígenas se cierran en 'El Día de la Revelación'
+[movies] Saltado por año 2025: Randy Meeks
+[movies] Saltado por año 2025: Belén Prieto
+[movies] Saltado sin año claro: Por qué 'Toy Story 5' funciona pero sigue siendo innecesaria tras haber hecho el cierre perfecto: "Es una fotocopia de la fotocopia"
+[movies] Saltado sin año claro: Por qué 'Toy Story 5' funciona pero sigue siendo innecesaria tras haber hecho el cierre perfecto: "Es una fotocopia de la fotocopia"
+[movies] Saltado sin año claro: Por qué 'Toy Story 5' funciona pero sigue siendo innecesaria tras haber hecho el cierre perfecto: "Es una fotocopia de la fotocopia"
+[movies] Saltado sin año claro: Steven Spielberg exploró su pasado y se reconcilió con su familia hace años. Gracias a ello pudo hacer 'El día de la revelación' tan personal y emocionante
+[movies] Saltado sin año claro: Steven Spielberg exploró su pasado y se reconcilió con su familia hace años. Gracias a ello pudo hacer 'El día de la revelación' tan personal y emocionante
+[movies] Saltado sin año claro: Steven Spielberg exploró su pasado y se reconcilió con su familia hace años. Gracias a ello pudo hacer 'El día de la revelación' tan personal y emocionante
+[movies] Saltado sin año claro: Steven Spielberg exploró su pasado y se reconcilió con su familia hace años. Gracias a ello pudo hacer 'El día de la revelación' tan personal y emocionante
+[movies] Saltado sin año claro: 'El Día de la Revelación' tiene un agujero de guion que no pude pasar por alto. Creo que Steven Spielberg no explica bien sus reglas internas
+[movies] Saltado sin año claro: 'El Día de la Revelación' tiene un agujero de guion que no pude pasar por alto. Creo que Steven Spielberg no explica bien sus reglas internas
+[movies] Saltado sin año claro: 'El Día de la Revelación' tiene un agujero de guion que no pude pasar por alto. Creo que Steven Spielberg no explica bien sus reglas internas
+[movies] Saltado sin año claro: 'El Día de la Revelación' tiene un agujero de guion que no pude pasar por alto. Creo que Steven Spielberg no explica bien sus reglas internas
+[movies] Saltado por año 2025: Randy Meeks
+[movies] Saltado por año 2023: La temporada 2 de 'Black Clover' confirma su estreno para este mismo año y el anime de fantasía viene con novedades muy prometedoras
+[movies] Saltado por año 2023: La temporada 2 de 'Black Clover' confirma su estreno para este mismo año y el anime de fantasía viene con novedades muy prometedoras
+[movies] Saltado por año 2023: La temporada 2 de 'Black Clover' confirma su estreno para este mismo año y el anime de fantasía viene con novedades muy prometedoras
+[movies] Saltado por año 2023: La temporada 2 de 'Black Clover' confirma su estreno para este mismo año y el anime de fantasía viene con novedades muy prometedoras
+[movies] Saltado por año 2002: El público dicta sentencia sobre 'El día de la revelación' y afirma que es la segunda peor película de Steven Spielberg. No estoy para nada de acuerdo
+[movies] Saltado por año 2002: El público dicta sentencia sobre 'El día de la revelación' y afirma que es la segunda peor película de Steven Spielberg. No estoy para nada de acuerdo
+[movies] Saltado por año 2002: El público dicta sentencia sobre 'El día de la revelación' y afirma que es la segunda peor película de Steven Spielberg. No estoy para nada de acuerdo
+[movies] Saltado por año 2002: El público dicta sentencia sobre 'El día de la revelación' y afirma que es la segunda peor película de Steven Spielberg. No estoy para nada de acuerdo
+[movies] Saltado por año 2025: Randy Meeks
+[movies] Saltado sin año claro: Vuelve el mejor Steven Spielberg, no podemos pedir más. Lo mejor y lo peor de los estrenos de cine
+[movies] Saltado sin año claro: Vuelve el mejor Steven Spielberg, no podemos pedir más. Lo mejor y lo peor de los estrenos de cine
+[movies] Saltado sin año claro: Vuelve el mejor Steven Spielberg, no podemos pedir más. Lo mejor y lo peor de los estrenos de cine
+[movies] Saltado sin año claro: Vuelve el mejor Steven Spielberg, no podemos pedir más. Lo mejor y lo peor de los estrenos de cine
+[movies] Saltado por año 2025: Randy Meeks
+[movies] Saltado sin año claro: Una canción que se llevaba esperando más de 10 años cierra 'Backrooms': su historia es clave para comprender la película de terror del momento
+[movies] Saltado sin año claro: Una canción que se llevaba esperando más de 10 años cierra 'Backrooms': su historia es clave para comprender la película de terror del momento
+[movies] Saltado sin año claro: Una canción que se llevaba esperando más de 10 años cierra 'Backrooms': su historia es clave para comprender la película de terror del momento
+[movies] Saltado sin año claro: Una canción que se llevaba esperando más de 10 años cierra 'Backrooms': su historia es clave para comprender la película de terror del momento
+[movies] Saltado por año 2025: Belén Prieto
+[movies] Saltado por año 2025: Randy Meeks
+[movies] Saltado por año 2025: Randy Meeks
+[movies] Saltado por año 2027: 'Los testamentos'. Todo lo que sabemos de la temporada 2 de la soberbia secuela de 'El cuento de la criada' en Disney+
+[movies] Saltado por año 2027: 'Los testamentos'. Todo lo que sabemos de la temporada 2 de la soberbia secuela de 'El cuento de la criada' en Disney+
+[movies] Saltado por año 2027: 'Daredevil: Born Again'. Todo lo que sabemos de la temporada 3 de la estupenda serie de superhéroes de Disney+
+[movies] Saltado por año 2027: 'Daredevil: Born Again'. Todo lo que sabemos de la temporada 3 de la estupenda serie de superhéroes de Disney+
+[movies] Saltado por año 2025: En 7 días llega a Disney+ uno de los mayores fenómenos del cine de 2025. Un despliegue visual impresionante rodado por un visionario
+[movies] Saltado por año 2025: En 7 días llega a Disney+ uno de los mayores fenómenos del cine de 2025. Un despliegue visual impresionante rodado por un visionario
+[movies] Saltado sin año claro: Esta serie fue un éxito de referencia hace 20 años, con deporte y emoción juvenil: ahora se estrena en Prime Video
+[movies] Saltado sin año claro: Esta serie fue un éxito de referencia hace 20 años, con deporte y emoción juvenil: ahora se estrena en Prime Video
+[movies] Saltado por año 2025: Apple TV
+[movies] Saltado por año 2025: HBO Max
+[movies] Saltado por año 2025: He-Man y los Masters del Universo
+[movies] Saltado por año 2025: Apple TV
+[movies] Saltado por año 2025: HBO Max
+[movies] Saltado por año 2025: He-Man y los Masters del Universo
+[movies] Saltado por año 2025: The Mandalorian & Grogu
+[movies] Saltado por año 2025: Prime Video
+[movies] Saltado por año 2025: Apple TV
+[movies] Saltado por año 2025: HBO Max
+[movies] Saltado por año 2025: He-Man y los Masters del Universo
+[movies] Saltado por año 2025: The Mandalorian & Grogu
+[movies] Saltado por año 2025: Prime Video
+[movies] Saltado por año 2025: Quiénes somos
+[movies] Saltado sin año claro: Contacta con Espinof
+[movies] Saltado sin año claro: Steven Spielberg fue expulsado de un rodaje por un director legendario de la historia del cine, pero no le guarda rencor: "Es un genio, sólo tenía preguntas para él"
+[movies] Saltado sin año claro: 'Backrooms' se popularizó en Reddit y ha sido el taquillazo de la temporada. Así que Hollywood ya está buscando sus próximos éxitos ahí
+[movies] Saltado por año 2027: 'Shrek 5' recuperará a sus voces de siempre para el doblaje en España. En Latinoamérica no han tenido la misma suerte y los fans están que trinan
+[movies] Saltado sin año claro: Taylor Sheridan admite que le ha sorprendido lo mucho que se parece su realidad a la de John Dutton: "Eres como un rey y no se aplica la moral"
+[movies] Saltado sin año claro: 'Encuentros en la tercera fase' y 'E.T' fueron solo los dos primeros actos. Para Steven Spielberg, sus historias de alienígenas se cierran en 'El Día de la Revelación'
+[movies] Saltado sin año claro: 'Supervivientes' tendrá una adaptación animada absolutamente imposible. Paramount ya prepara una película del reality cambiando a los concursantes por adorables animalillos
+[movies] Saltado por año 2099: Los mejores rankings de series
+[movies] Saltado por año 2020: Videoteca Sensacine
+[movies] Saltado por año 2019: 'Vengadores: Doomsday', todo lo que sabemos de la película de superhéroes de Marvel con el regreso de Robert Downey Jr y los hermanos Russo
+[movies] Saltado por año 2008: Orden definitivo para ver todas las películas y series del Universo Marvel
+[movies] Saltado por año 2011: 'Star Wars', en qué orden conviene ver todas las películas y series de la saga
+[movies] Saltado por año 2025: Las 35 mejores películas de acción de la historia
+[movies] Saltado por año 2018: Torrente Presidente
+[movies] Saltado por año 2025: Las 13 mejores series de 2026... por ahora
+[movies] No se pudo extraer https://www.espinof.com/listas/mejores-anime: 404 Client Error: Not Found for url: https://www.espinof.com/listas/mejores-anime
+[movies] Saltado por año 2008: Orden definitivo para ver todas las películas y series del Universo Marvel
+[movies] Saltado por año 2025: Las 35 mejores series españolas de todos los tiempos y dónde verlas
+[movies] Saltado por año 2025: Las 41 mejores películas de terror de todos los tiempos
+[movies] Saltado por año 2025: Las 41 mejores películas de terror de todos los tiempos
+[movies] Saltado por año 2020: Las 15 mejores películas de Amazon Prime Video de los últimos años
+[movies] Saltado por año 2025: Quiénes somos
+[movies] No se pudo leer listado https://decine21.com/estrenos/cine: 403 Client Error: Forbidden for url: https://decine21.com/estrenos/cine
+[movies] No se pudo leer listado https://decine21.com/estrenos/cine?fecha=202601: 403 Client Error: Forbidden for url: https://decine21.com/estrenos/cine?fecha=202601
+[movies] No se pudo leer listado https://decine21.com/estrenos/cine?fecha=202602: 403 Client Error: Forbidden for url: https://decine21.com/estrenos/cine?fecha=202602
+[movies] No se pudo leer listado https://decine21.com/estrenos/cine?fecha=202603: 403 Client Error: Forbidden for url: https://decine21.com/estrenos/cine?fecha=202603
+[movies] No se pudo leer listado https://decine21.com/estrenos/cine?fecha=202604: 403 Client Error: Forbidden for url: https://decine21.com/estrenos/cine?fecha=202604
+[movies] No se pudo leer listado https://decine21.com/estrenos/cine?fecha=202605: 403 Client Error: Forbidden for url: https://decine21.com/estrenos/cine?fecha=202605
+[movies] No se pudo leer listado https://decine21.com/estrenos/cine?fecha=202606: 403 Client Error: Forbidden for url: https://decine21.com/estrenos/cine?fecha=202606
+[movies] No se pudo leer listado https://decine21.com/estrenos/cine?fecha=202607: 403 Client Error: Forbidden for url: https://decine21.com/estrenos/cine?fecha=202607
+[movies] No se pudo leer listado https://decine21.com/estrenos/cine?fecha=202608: 403 Client Error: Forbidden for url: https://decine21.com/estrenos/cine?fecha=202608
+[movies] No se pudo leer listado https://decine21.com/estrenos/cine?fecha=202609: 403 Client Error: Forbidden for url: https://decine21.com/estrenos/cine?fecha=202609
+[movies] No se pudo leer listado https://decine21.com/estrenos/cine?fecha=202610: 403 Client Error: Forbidden for url: https://decine21.com/estrenos/cine?fecha=202610
+[movies] No se pudo leer listado https://decine21.com/estrenos/cine?fecha=202611: 403 Client Error: Forbidden for url: https://decine21.com/estrenos/cine?fecha=202611
+[movies] No se pudo leer listado https://decine21.com/estrenos/cine?fecha=202612: 403 Client Error: Forbidden for url: https://decine21.com/estrenos/cine?fecha=202612
+[movies] Candidatos encontrados: 126 | Límite: 9
+[IA] Probando proveedor groq: El diablo viste de Prada 2
+[IA] Artículo generado con groq
+[OK] Publicado: src/content/blog/el-diablo-viste-de-prada-2-2026-06-18-9adb8f.md
+[YouTube] No se encontró tráiler confiable para Espinof
+[movies] Sin tráiler, pero se permite para completar las 10 iniciales: Espinof
+[IA] Probando proveedor mistral: Espinof
+[IA] Artículo generado con mistral
+[OK] Publicado: src/content/blog/peliculas-animes-y-estrenos-que-no-te-puedes-perder-este-verano-2026-06-18-4de57d.md
+[YouTube] No se encontró tráiler confiable para Netflix me acaba de decepcionar profundamente al negarse a estrenar en cines la nueva película de ciencia ficción de Brad Bird
+[movies] Sin tráiler, pero se permite para completar las 10 iniciales: Netflix me acaba de decepcionar profundamente al negarse a estrenar en cines la nueva película de ciencia ficción de Brad Bird
+[IA] Probando proveedor groq: Netflix me acaba de decepcionar profundamente al negarse a estrenar en cines la 
+[IA] Artículo generado con groq
+[OK] Publicado: src/content/blog/netflix-decepciona-a-brad-bird-2026-06-18-03305b.md
+[IA] Probando proveedor cohere: Netflix cancela la nueva serie de ciencia ficción de los creadores de 'Stranger 
+[IA] cohere falló (error): Cohere error 404: {"id":"82e538ee-aa02-46f0-a766-03ec59288fe5","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Netflix cancela la nueva serie de ciencia ficción de los creadores de 'Stranger 
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/netflix-cancela-the-boroughs-otro-golpe-a-la-ciencia-ficcion-2026-06-18-36e41a.md
+[movies] Saltado por tema bloqueado: Anthony Hopkins, a sus 88 años, se sincera sobre su única hija: "Nunca fue capaz de perdonarme que abandonara a la familia cuando era niña. Me rompe el corazón"
+[YouTube] No se encontró tráiler confiable para Kurt Russell, sobre la nueva serie del creador de 'Yellowstone': "Nunca había hecho nada parecido"
+[movies] Sin tráiler, pero se permite para completar las 10 iniciales: Kurt Russell, sobre la nueva serie del creador de 'Yellowstone': "Nunca había hecho nada parecido"
+[IA] Probando proveedor gemini: Kurt Russell, sobre la nueva serie del creador de 'Yellowstone': "Nunca había he
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/kurt-russell-sobre-the-madison-nunca-habia-hecho-nada-parecido-2026-06-18-e7756a.md
+[YouTube] No se encontró tráiler confiable para En 8 días llega a Netflix la película que se estrenó en cines hace solo tres meses y se convirtió en el mayor fenómeno del año
+[movies] Sin tráiler, pero se permite para completar las 10 iniciales: En 8 días llega a Netflix la película que se estrenó en cines hace solo tres meses y se convirtió en el mayor fenómeno del año
+[IA] Probando proveedor cohere: En 8 días llega a Netflix la película que se estrenó en cines hace solo tres mes
+[IA] cohere falló (error): Cohere error 404: {"id":"ebfb83be-af5e-4739-bf75-f4a6340997d6","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: En 8 días llega a Netflix la película que se estrenó en cines hace solo tres mes
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/torrente-presidente-en-netflix-el-fenomeno-espanol-llega-en-tiempo-record-2026-06-18-fef05b.md
+[YouTube] No se encontró tráiler confiable para En 8 días llega a Netflix la película que se estrenó en cines hace solo tres meses y se convirtió en el mayor fenómeno del año
+[movies] Sin tráiler, pero se permite para completar las 10 iniciales: En 8 días llega a Netflix la película que se estrenó en cines hace solo tres meses y se convirtió en el mayor fenómeno del año
+[IA] Probando proveedor openai: En 8 días llega a Netflix la película que se estrenó en cines hace solo tres mes
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+[IA] Probando proveedor mistral: En 8 días llega a Netflix la película que se estrenó en cines hace solo tres mes
+[IA] Artículo generado con mistral
+[OK] Publicado: src/content/blog/torrente-presidente-llega-a-netflix-el-fenomeno-que-arraso-en-taquilla-2026-06-18-d142ee.md
+[YouTube] No se encontró tráiler confiable para Mikel Zorrilla
+[movies] Sin tráiler, pero se permite para completar las 10 iniciales: Mikel Zorrilla
+[IA] Probando proveedor cohere: Mikel Zorrilla
+[IA] cohere falló (error): Cohere error 404: {"id":"12c99fbd-5838-4d96-9a70-3a8174d52f37","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Mikel Zorrilla
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/el-radar-de-mikel-zorrilla-peliculas-y-series-que-marcan-tendencia-2026-06-18-fa3fea.md
+[YouTube] No se encontró tráiler confiable para Pedro Gallego
+[movies] Sin tráiler, pero se permite para completar las 10 iniciales: Pedro Gallego
+[IA] Probando proveedor cohere: Pedro Gallego
+[IA] cohere falló (error): Cohere error 404: {"id":"fd6f3d0f-930c-4ac1-ba6e-a49cbb99c756","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Pedro Gallego
+[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 2542 (char 2801)
+[IA] Probando proveedor groq: Pedro Gallego
+[IA] Artículo generado con groq
+[OK] Publicado: src/content/blog/nuevos-estrenos-en-streaming-2026-06-18-23a090.md
+[movies] Publicados: 9
+Total películas publicadas: 9
 === Fin Movies ===
