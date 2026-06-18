@@ -1,79 +1,8 @@
-[2026-06-18 11:17:22 UTC] >>> INICIANDO GENERADOR AUTOMÁTICO DE NOTICIAS TELELATINO <<<
-[2026-06-18 11:17:22 UTC] --- Procesando grupo: sports ---
-[2026-06-18 11:17:22 UTC] [SKIP] Deporte bloqueado por tema delicado: Contundente comunicado de Rafa Mir tras ser condenado a 8 años y medio de cárcel por agresión sexual
-[2026-06-18 11:17:22 UTC] [SKIP] Deporte bloqueado por tema delicado: Puedes ganar mucho dinero: los cromos del Mundial que debes conseguir y guardar bajo llave
-[2026-06-18 11:17:22 UTC] [SKIP] Deporte bloqueado por tema delicado: Rafa Mir, condenado a 8 años y medio de cárcel por agresión sexual
-[2026-06-18 11:17:22 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: ¡Cambio de fecha de la Supercopa de España hasta la temporada 2029-2030!
-[2026-06-18 11:17:22 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Saibari: "Si perdonas contra un grande, lo pagas caro"
-[2026-06-18 11:17:22 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: De Jong: "No estamos en crisis, mañana tendrán razones para ser optimistas"
-[2026-06-18 11:17:22 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Advocaat: "Sigo entrenando porque me gusta, no por el dinero"
-[2026-06-18 11:17:22 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: ¡Cambio de fecha de la Supercopa de España hasta la temporada 2029-2030!
-[2026-06-18 11:17:22 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Saibari: "Si perdonas contra un grande, lo pagas caro"
-[2026-06-18 11:17:22 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: De Jong: "No estamos en crisis, mañana tendrán razones para ser optimistas"
-[2026-06-18 11:17:22 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Advocaat: "Sigo entrenando porque me gusta, no por el dinero"
-[2026-06-18 11:17:22 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: ¡Cambio de fecha de la Supercopa de España hasta la temporada 2029-2030!
-[2026-06-18 11:17:22 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Saibari: "Si perdonas contra un grande, lo pagas caro"
-[2026-06-18 11:17:22 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: De Jong: "No estamos en crisis, mañana tendrán razones para ser optimistas"
-[2026-06-18 11:17:22 UTC] [SKIP] Noticia deportiva antigua o sin fecha del día: Advocaat: "Sigo entrenando porque me gusta, no por el dinero"
-[2026-06-18 11:17:22 UTC] [INFO] Candidatos fútbol recientes encontrados en Mundo Deportivo: 11
-[2026-06-18 11:17:22 UTC] [SKIP] Ya procesado: Los revolucionarios cambios que afectarán al fútbol español
-[2026-06-18 11:17:22 UTC] [SKIP] Ya procesado: Dalic:"Sabíamos que las jugadas a balón parado iban a ser un peligro"
-[2026-06-18 11:17:22 UTC] [SKIP] Ya procesado: El Cornellà de Messi crea su primer equipo femenino
-[2026-06-18 11:17:22 UTC] [SKIP] Ya procesado: "Hay nervios por el lado de Cristiano Ronaldo"
-[2026-06-18 11:17:22 UTC] [SKIP] Ya procesado: Rafa Mir no podrá jugar en LaLiga española durante dos años
-[2026-06-18 11:17:22 UTC] [SKIP] Ya procesado: De Burgos, a corazón abierto: “Lloré mucho porque no estuve a la altura en mi primer Clásico”
-[2026-06-18 11:17:22 UTC] [SKIP] Ya procesado: Ez Abde se tratará en Francia de su lesión de rodilla
-[2026-06-18 11:17:22 UTC] [INFO] Procesando: Muniain escala un peldaño en su carrera como entrenador: este es su nuevo club
-[2026-06-18 11:17:22 UTC] [INFO] URL: https://www.mundodeportivo.com/futbol/20260615/1004195287/muniain-escala-peldano-carrera-entrenador-nuevo-club.html
-[2026-06-18 11:17:23 UTC] [IA] Intentando con GROQ...
-[2026-06-18 11:17:25 UTC] [IA OK] Artículo generado con GROQ
-[2026-06-18 11:17:25 UTC] [OK] Artículo creado: src/content/noticias/muniain-comienza-una-nueva-etapa-como-entrenador-en-el-salamanca-cf-uds-2026-06-18-eae583.md
-[2026-06-18 11:17:25 UTC] [INFO] Procesando: El Betis retoma el interés por Fran García
-[2026-06-18 11:17:25 UTC] [INFO] URL: https://www.mundodeportivo.com/futbol/20260615/1004195208/betis-retoma-interes-fran-garcia.html
-[2026-06-18 11:17:25 UTC] [IA] Intentando con GROQ...
-[2026-06-18 11:17:27 UTC] [IA OK] Artículo generado con GROQ
-[2026-06-18 11:17:27 UTC] [OK] Artículo creado: src/content/noticias/el-betis-retoma-su-interes-en-fran-garcia-tras-el-fichaje-de-marc-cucurella-2026-06-18-830dad.md
-[2026-06-18 11:17:27 UTC] [INFO] Procesando: Enner Valencia lo tiene claro: "No vamos a cambiar"
-[2026-06-18 11:17:27 UTC] [INFO] URL: https://www.mundodeportivo.com/futbol/20260615/1004195156/enner-valencia-claro-no-cambiar.html
-[2026-06-18 11:17:28 UTC] [IA] Intentando con GROQ...
-[2026-06-18 11:17:30 UTC] [IA OK] Artículo generado con GROQ
-[2026-06-18 11:17:30 UTC] [OK] Artículo creado: src/content/noticias/enner-valencia-confia-en-la-estrategia-de-ecuador-para-el-mundial-2026-06-18-95eabe.md
-[2026-06-18 11:17:30 UTC] [INFO] Grupo sports: 3 artículos creados
-[2026-06-18 11:17:30 UTC] --- Procesando grupo: movies ---
-[2026-06-18 11:17:30 UTC] [INFO] Ya hay 11 películas con imagen y tráiler. Se intentará publicar máximo 1 nueva.
-[2026-06-18 11:17:30 UTC] [INFO] Candidatos de películas encontrados en SensaCine: 33
-[2026-06-18 11:17:30 UTC] [INFO] Candidatos de películas encontrados en SensaCine: 25
-[2026-06-18 11:17:30 UTC] [SKIP] Ya procesado: El día de la revelación
-[2026-06-18 11:17:30 UTC] [SKIP] Ya procesado: Toy Story 5
-[2026-06-18 11:17:30 UTC] [SKIP] Ya procesado: Pioneras: Solo querían jugar
-[2026-06-18 11:17:30 UTC] [SKIP] Ya procesado: Un talento único
-[2026-06-18 11:17:30 UTC] [SKIP] Ya procesado: Una pistola, una bala y un oso panda
-[2026-06-18 11:17:30 UTC] [SKIP] Ya procesado: Iván & Hadoum
-[2026-06-18 11:17:30 UTC] [SKIP] Ya procesado: El guardián del árbol de alcanfor
-[2026-06-18 11:17:30 UTC] [SKIP] Ya procesado: Eleonora Duse: La Divina
-[2026-06-18 11:17:30 UTC] [SKIP] Ya procesado: Todos los colores
-[2026-06-18 11:17:30 UTC] [SKIP] Ya procesado: Solomamma
-[2026-06-18 11:17:30 UTC] [SKIP] Ya procesado: Joika
-[2026-06-18 11:17:30 UTC] [SKIP] Ya procesado: El colegio de los animales mágicos 4
-[2026-06-18 11:17:30 UTC] [SKIP] Ya procesado: Los Pérez-Osos
-[2026-06-18 11:17:30 UTC] [SKIP] Ya procesado: La memoria de las mariposas
-[2026-06-18 11:17:30 UTC] [SKIP] Ya procesado: The Furious
-[2026-06-18 11:17:30 UTC] [SKIP] Ya procesado: Un hombre de verdad
-[2026-06-18 11:17:30 UTC] [SKIP] Ya procesado: Fuze
-[2026-06-18 11:17:30 UTC] [SKIP] Ya procesado: Obsession
-[2026-06-18 11:17:30 UTC] [SKIP] Ya procesado: Bernie
-[2026-06-18 11:17:30 UTC] [SKIP] Ya procesado: La acompañante
-[2026-06-18 11:17:30 UTC] [SKIP] Ya procesado: Ballerina
-[2026-06-18 11:17:30 UTC] [SKIP] Ya procesado: La Odisea
-[2026-06-18 11:17:30 UTC] [SKIP] Ya procesado: La constelación del perro
-[2026-06-18 11:17:30 UTC] [SKIP] Ya procesado: Spider-Man: Brand New Day
-[2026-06-18 11:17:30 UTC] [SKIP] Ya procesado: Supergirl
-[2026-06-18 11:17:30 UTC] [SKIP] Ya procesado: México 86
-[2026-06-18 11:17:30 UTC] [INFO] Procesando: Minions & Monsters
-[2026-06-18 11:17:30 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-315380/
-[2026-06-18 11:17:30 UTC] [OK] Tráiler encontrado: MINIONS &amp; MONSTERS - Tráiler Oficial
-[2026-06-18 11:17:30 UTC] [IA] Intentando con MISTRAL...
-[2026-06-18 11:17:37 UTC] [IA OK] Artículo generado con MISTRAL
-[2026-06-18 11:17:37 UTC] [OK] Artículo creado: src/content/blog/minions-monsters-el-caos-animado-de-los-minions-llega-a-los-cines-en-2026-2026-06-18-2c51b0.md
-[2026-06-18 11:17:37 UTC] [INFO] Grupo movies: 1 artículos creados
-[2026-06-18 11:17:37 UTC] >>> PROCESO FINALIZADO. ARTÍCULOS CREADOS: 4 <<<
+=== TELELATINO Auto News ===
+Fecha UTC: 2026-06-18T13:28:17.282640+00:00
+[sports] Candidatos encontrados: 0 | Límite: 3
+[sports] Publicados: 0
+[movies] Candidatos encontrados: 0 | Límite: 10
+[movies] Publicados: 0
+Total publicados: 0
+=== Fin ===
