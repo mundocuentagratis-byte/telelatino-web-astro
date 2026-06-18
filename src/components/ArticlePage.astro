@@ -1,0 +1,331 @@
+---
+import ArticleCTA from "./ArticleCTA.astro";
+
+type Props = {
+  backHref: string;
+  backLabel: string;
+  category: string;
+  title: string;
+  description: string;
+  pubDate: Date;
+  image?: string;
+  imageAlt?: string;
+  youtubeVideoId?: string;
+  youtubeVideoTitle?: string;
+};
+
+const {
+  backHref,
+  backLabel,
+  category,
+  title,
+  description,
+  pubDate,
+  image,
+  imageAlt,
+  youtubeVideoId,
+  youtubeVideoTitle,
+} = Astro.props;
+
+const formatDate = (date: Date) =>
+  new Intl.DateTimeFormat("es-ES", {
+    day: "2-digit",
+    month: "long",
+    year: "numeric",
+  }).format(date);
+---
+
+<main class="article-page">
+  <article class="article-container">
+    <header class="article-header">
+      <a href={backHref} class="back-link">{backLabel}</a>
+
+      <div class="article-meta">
+        <span>{category}</span>
+        <span>{formatDate(pubDate)}</span>
+      </div>
+
+      <h1>{title}</h1>
+
+      <p>{description}</p>
+    </header>
+
+    {image && (
+      <figure class="featured-media">
+        <img
+          src={image}
+          alt={imageAlt || title}
+          loading="eager"
+        />
+      </figure>
+    )}
+
+    <section class="article-body">
+      <slot />
+    </section>
+
+    {youtubeVideoId && (
+      <section class="video-section" aria-label="Video relacionado">
+        <div class="section-title">
+          <span>Video relacionado</span>
+          <h2>{youtubeVideoTitle || "Tráiler o video relacionado"}</h2>
+        </div>
+
+        <div class="video-wrapper">
+          <iframe
+            src={`https://www.youtube.com/embed/${youtubeVideoId}`}
+            title={youtubeVideoTitle || `Video relacionado con ${title}`}
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+      </section>
+    )}
+
+    <ArticleCTA />
+  </article>
+</main>
+
+<style>
+  .article-page {
+    padding: 58px 0 82px;
+  }
+
+  .article-container {
+    width: min(900px, calc(100% - 32px));
+    margin: 0 auto;
+  }
+
+  .back-link {
+    display: inline-flex;
+    margin-bottom: 20px;
+    color: #ffd978;
+    font-weight: 900;
+    text-decoration: none;
+  }
+
+  .back-link:hover {
+    text-decoration: underline;
+  }
+
+  .article-header {
+    text-align: center;
+  }
+
+  .article-meta {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 18px;
+  }
+
+  .article-meta span {
+    display: inline-flex;
+    padding: 8px 13px;
+    border-radius: 999px;
+    background: rgba(255, 216, 111, 0.15);
+    color: #ffd978;
+    font-size: 0.78rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .article-header h1 {
+    max-width: 920px;
+    margin: 0 auto 18px;
+    color: #ffffff;
+    font-size: clamp(2rem, 4.8vw, 4rem);
+    line-height: 1.04;
+    letter-spacing: -0.052em;
+  }
+
+  .article-header p {
+    max-width: 760px;
+    margin: 0 auto;
+    color: rgba(235, 241, 255, 0.74);
+    font-size: clamp(1rem, 2.3vw, 1.12rem);
+    line-height: 1.72;
+  }
+
+  .featured-media {
+    margin: 36px auto 30px;
+    padding: 12px;
+    border-radius: 28px;
+    background: rgba(255, 255, 255, 0.075);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+  .featured-media img {
+    display: block;
+    width: 100%;
+    max-height: 560px;
+    object-fit: contain;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.18);
+  }
+
+  .article-body {
+    margin-top: 28px;
+    padding: clamp(24px, 4vw, 40px);
+    border-radius: 28px;
+    background: rgba(255, 255, 255, 0.072);
+    border: 1px solid rgba(255, 255, 255, 0.13);
+  }
+
+  .article-body :global(*) {
+    max-width: 100%;
+  }
+
+  .article-body :global(h2) {
+    margin: 34px 0 14px;
+    color: #ffffff;
+    font-size: clamp(1.55rem, 3.8vw, 2.35rem);
+    line-height: 1.14;
+    letter-spacing: -0.035em;
+  }
+
+  .article-body :global(h2:first-child) {
+    margin-top: 0;
+  }
+
+  .article-body :global(h3) {
+    margin: 28px 0 12px;
+    color: #ffffff;
+    font-size: clamp(1.28rem, 3.2vw, 1.85rem);
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+  }
+
+  .article-body :global(p) {
+    margin: 0 0 18px;
+    color: rgba(235, 241, 255, 0.76);
+    font-size: clamp(1rem, 2.6vw, 1.08rem);
+    line-height: 1.82;
+  }
+
+  .article-body :global(ul),
+  .article-body :global(ol) {
+    margin: 0 0 22px;
+    padding-left: 22px;
+    color: rgba(235, 241, 255, 0.76);
+    font-size: clamp(1rem, 2.6vw, 1.08rem);
+    line-height: 1.82;
+  }
+
+  .article-body :global(li) {
+    margin-bottom: 8px;
+  }
+
+  .article-body :global(strong) {
+    color: rgba(255, 255, 255, 0.92);
+    font-weight: 900;
+  }
+
+  .article-body :global(a) {
+    color: #ffd978;
+    font-weight: 900;
+  }
+
+  .article-body :global(img) {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    object-fit: contain;
+    margin: 30px auto;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+  .article-body :global(hr) {
+    margin: 30px 0;
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.16);
+  }
+
+  .video-section {
+    margin: 34px 0;
+    padding: clamp(20px, 3vw, 28px);
+    border-radius: 28px;
+    background: rgba(255, 255, 255, 0.072);
+    border: 1px solid rgba(255, 255, 255, 0.13);
+  }
+
+  .section-title {
+    margin-bottom: 18px;
+  }
+
+  .section-title span {
+    display: inline-flex;
+    margin-bottom: 10px;
+    color: #ffd978;
+    font-size: 0.78rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .section-title h2 {
+    margin: 0;
+    color: #ffffff;
+    font-size: clamp(1.35rem, 3vw, 2rem);
+    line-height: 1.16;
+    letter-spacing: -0.035em;
+  }
+
+  .video-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 22px;
+    background: rgba(0, 0, 0, 0.28);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    aspect-ratio: 16 / 9;
+  }
+
+  .video-wrapper iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+  @media (max-width: 620px) {
+    .article-page {
+      padding: 38px 0 68px;
+    }
+
+    .article-container {
+      width: min(100% - 24px, 900px);
+    }
+
+    .featured-media {
+      padding: 8px;
+      border-radius: 22px;
+    }
+
+    .featured-media img {
+      border-radius: 16px;
+      max-height: none;
+    }
+
+    .article-body {
+      padding: 22px;
+      border-radius: 22px;
+    }
+
+    .video-section {
+      padding: 18px;
+      border-radius: 22px;
+    }
+
+    .video-wrapper {
+      border-radius: 18px;
+    }
+  }
+</style>

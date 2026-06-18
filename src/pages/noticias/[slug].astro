@@ -2,7 +2,7 @@
 import { getCollection, render } from "astro:content";
 import type { CollectionEntry } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import ArticleCTA from "../../components/ArticleCTA.astro";
+import ArticlePage from "../../components/ArticlePage.astro";
 import { appConfig } from "../../data/app";
 
 export async function getStaticPaths() {
@@ -26,254 +26,21 @@ type Props = {
 
 const { post } = Astro.props;
 const { Content } = await render(post);
-
-const formatDate = (date: Date) =>
-  new Intl.DateTimeFormat("es-ES", {
-    day: "2-digit",
-    month: "long",
-    year: "numeric",
-  }).format(date);
 ---
 
 <BaseLayout title={`${post.data.title} | ${appConfig.name}`} description={post.data.description}>
-  <main class="article-page">
-    <article class="article-container">
-      <header class="article-header">
-        <a href="/noticias/" class="back-link">← Ver todas las noticias</a>
-
-        <div class="article-meta">
-          <span>{post.data.category || "Noticias"}</span>
-          <span>{formatDate(post.data.pubDate)}</span>
-        </div>
-
-        <h1>{post.data.title}</h1>
-
-        <p>{post.data.description}</p>
-      </header>
-
-      {post.data.image && (
-        <figure class="featured-media">
-          <img
-            src={post.data.image}
-            alt={post.data.imageAlt || post.data.title}
-            loading="eager"
-          />
-        </figure>
-      )}
-
-      {post.data.youtubeVideoId && (
-        <section class="video-section" aria-label="Video relacionado">
-          <div class="video-wrapper">
-            <iframe
-              src={`https://www.youtube.com/embed/${post.data.youtubeVideoId}`}
-              title={post.data.youtubeVideoTitle || `Video de ${post.data.title}`}
-              loading="lazy"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            >
-            </iframe>
-          </div>
-        </section>
-      )}
-
-      <section class="article-body">
-        <Content />
-      </section>
-
-      <ArticleCTA />
-    </article>
-  </main>
+  <ArticlePage
+    backHref="/noticias/"
+    backLabel="← Ver todas las noticias"
+    category={post.data.category || "Noticias"}
+    title={post.data.title}
+    description={post.data.description}
+    pubDate={post.data.pubDate}
+    image={post.data.image}
+    imageAlt={post.data.imageAlt || post.data.title}
+    youtubeVideoId={post.data.youtubeVideoId}
+    youtubeVideoTitle={post.data.youtubeVideoTitle}
+  >
+    <Content />
+  </ArticlePage>
 </BaseLayout>
-
-<style>
-  .article-page {
-    padding: 72px 0 88px;
-  }
-
-  .article-container {
-    width: min(920px, calc(100% - 32px));
-    margin: 0 auto;
-  }
-
-  .back-link {
-    display: inline-flex;
-    margin-bottom: 22px;
-    color: #ffd978;
-    font-weight: 900;
-    text-decoration: none;
-  }
-
-  .back-link:hover {
-    text-decoration: underline;
-  }
-
-  .article-header {
-    text-align: center;
-  }
-
-  .article-meta {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 12px;
-    margin-bottom: 18px;
-  }
-
-  .article-meta span {
-    display: inline-flex;
-    padding: 8px 13px;
-    border-radius: 999px;
-    background: rgba(255, 216, 111, 0.16);
-    color: #ffd978;
-    font-size: 0.82rem;
-    font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-  }
-
-  .article-header h1 {
-    margin: 0 auto 18px;
-    max-width: 980px;
-    color: #ffffff;
-    font-size: clamp(2.4rem, 6vw, 5.2rem);
-    line-height: 0.98;
-    letter-spacing: -0.065em;
-  }
-
-  .article-header p {
-    max-width: 780px;
-    margin: 0 auto;
-    color: rgba(255, 255, 255, 0.74);
-    font-size: 1.08rem;
-    line-height: 1.75;
-  }
-
-  .featured-media {
-    margin: 42px auto 34px;
-    padding: 14px;
-    border-radius: 30px;
-    background: rgba(255, 255, 255, 0.075);
-    border: 1px solid rgba(255, 255, 255, 0.16);
-  }
-
-  .featured-media img {
-    display: block;
-    width: 100%;
-    max-height: 680px;
-    object-fit: contain;
-    border-radius: 22px;
-    background: rgba(0, 0, 0, 0.18);
-  }
-
-  .video-section {
-    margin: 34px 0;
-  }
-
-  .video-wrapper {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    border-radius: 26px;
-    background: rgba(0, 0, 0, 0.28);
-    border: 1px solid rgba(255, 255, 255, 0.16);
-    aspect-ratio: 16 / 9;
-  }
-
-  .video-wrapper iframe {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-  }
-
-  .article-body {
-    margin-top: 34px;
-    padding: clamp(26px, 4vw, 46px);
-    border-radius: 30px;
-    background: rgba(255, 255, 255, 0.075);
-    border: 1px solid rgba(255, 255, 255, 0.14);
-  }
-
-  .article-body :global(*) {
-    max-width: 100%;
-  }
-
-  .article-body :global(h2) {
-    margin: 42px 0 18px;
-    color: #ffffff;
-    font-size: clamp(1.9rem, 5vw, 3.3rem);
-    line-height: 1.05;
-    letter-spacing: -0.045em;
-  }
-
-  .article-body :global(h2:first-child) {
-    margin-top: 0;
-  }
-
-  .article-body :global(h3) {
-    margin: 34px 0 14px;
-    color: #ffffff;
-    font-size: clamp(1.5rem, 4vw, 2.3rem);
-    line-height: 1.15;
-    letter-spacing: -0.035em;
-  }
-
-  .article-body :global(p) {
-    margin: 0 0 22px;
-    color: rgba(235, 241, 255, 0.76);
-    font-size: clamp(1.02rem, 3.8vw, 1.18rem);
-    line-height: 1.85;
-  }
-
-  .article-body :global(strong) {
-    color: rgba(255, 255, 255, 0.92);
-  }
-
-  .article-body :global(a) {
-    color: #ffd978;
-    font-weight: 900;
-  }
-
-  .article-body :global(img) {
-    display: block;
-    width: 100%;
-    height: auto;
-    max-height: 720px;
-    object-fit: contain;
-    margin: 34px auto;
-    border-radius: 22px;
-    background: rgba(0, 0, 0, 0.2);
-  }
-
-  .article-body :global(hr) {
-    margin: 36px 0;
-    border: 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.18);
-  }
-
-  @media (max-width: 620px) {
-    .article-page {
-      padding: 42px 0 70px;
-    }
-
-    .article-container {
-      width: min(100% - 24px, 920px);
-    }
-
-    .featured-media {
-      padding: 8px;
-      border-radius: 22px;
-    }
-
-    .featured-media img {
-      border-radius: 16px;
-      max-height: none;
-    }
-
-    .article-body {
-      padding: 24px;
-      border-radius: 24px;
-    }
-  }
-</style>

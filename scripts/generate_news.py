@@ -38,6 +38,8 @@ MISTRAL_MODEL = os.getenv("MISTRAL_MODEL", "mistral-small-latest")
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 COHERE_MODEL = os.getenv("COHERE_MODEL", "command-r")
 
+AUTHOR_NAME = "Redacción TELELATINO"
+
 BLOCKED_TOPICS = [
     "agresión sexual",
     "agresion sexual",
@@ -649,8 +651,8 @@ def get_dynamic_daily_limit(name: str, config: dict) -> int:
 def build_prompt(candidate: dict, source_text: str, content_type: str) -> str:
     app_context = """
 TELELATINO es una app de entretenimiento para Android con canales en vivo,
-eventos deportivos, películas y estrenos. Tiene 7 días de prueba gratis al
-registrarse y plan VIP de 6 meses por 6 USD.
+eventos deportivos, películas y estrenos. La web funciona como portal
+informativo y también orienta al usuario hacia la descarga de la app.
 """
 
     release_year = candidate.get("releaseYear")
@@ -659,19 +661,26 @@ registrarse y plan VIP de 6 meses por 6 USD.
     if release_year:
         release_year_text = f"Año de estreno detectado: {release_year}"
 
-    base_rules = """
-Reglas:
+    editorial_rules = """
+Manual editorial obligatorio:
+- Escribe como una sola redacción profesional: clara, natural y confiable.
+- Usa tono informativo, neutral y ordenado.
+- No uses lenguaje exagerado como "imperdible", "lo mejor de todos los tiempos" o "revolucionario" si la fuente no lo sustenta.
+- No digas "sinopsis reescrita"; usa solo "Sinopsis".
+- No escribas "Fuente consultada", "fuente original" ni enlaces dentro del cuerpo.
 - No copies frases literales de la fuente.
-- No publiques el artículo como exclusiva propia.
-- No agregues CTA de descarga, la web ya lo inserta automáticamente.
-- No uses H1.
-- Usa subtítulos H2.
-- Escribe entre 450 y 750 palabras.
-- No inventes datos concretos si no aparecen en la fuente.
+- No publiques como exclusiva propia.
+- No uses H1 dentro del body.
+- Usa solo subtítulos H2 con formato Markdown.
+- Los subtítulos deben ser breves, profesionales y sin exceso de signos.
+- Escribe párrafos de 2 a 4 oraciones.
+- Evita párrafos demasiado largos.
+- No inventes datos concretos que no estén en la fuente.
+- No prometas que una película o evento está disponible dentro de la app si la fuente no lo confirma.
+- Puedes mencionar TELELATINO solo al cierre, de forma natural, como opción para usuarios que buscan entretenimiento desde Android.
+- El artículo debe tener entre 450 y 650 palabras.
 - Responde SOLO JSON válido.
 - El campo body debe ser un string JSON válido.
-- No uses saltos de línea sin escapar dentro del JSON.
-- Nunca uses la frase "Sinopsis reescrita"; usa solo "Sinopsis".
 """
 
     if content_type == "movies":
@@ -682,15 +691,21 @@ Condición:
 La película debe ser del año 2026 o posterior.
 {release_year_text}
 
-Objetivo:
-Crear un artículo de película, no de series ni de noticias generales.
-Debe incluir:
-- Introducción breve.
-- Sinopsis clara y natural.
-- De qué trata la película.
-- Por qué puede llamar la atención.
-- Qué público puede disfrutarla.
-- Cierre informativo.
+Estructura obligatoria del body:
+## Contexto de la película
+Explica brevemente qué película es y por qué puede llamar la atención.
+
+## Sinopsis
+Cuenta de qué trata la película con lenguaje claro, sin copiar la fuente.
+
+## Lo más destacado
+Explica los elementos que pueden interesar al público: género, tono, reparto, historia o propuesta visual, solo si aparece en la fuente.
+
+## Por qué puede interesar
+Explica qué tipo de público podría verla y qué la hace relevante como estreno.
+
+## Cierre
+Cierra de forma natural conectando con el interés por películas, estrenos y entretenimiento desde Android.
 
 Obligatorio:
 - is_specific_movie debe ser true.
@@ -699,17 +714,32 @@ Obligatorio:
 """
     else:
         type_instructions = """
-Tipo de artículo: noticia de fútbol reciente.
+Tipo de artículo: noticia deportiva reciente.
 
-Objetivo:
-Crear una noticia deportiva actual sobre fútbol, jugadores, clubes, selecciones,
-torneos, partidos o actualidad futbolística del día.
+Estructura obligatoria del body:
+## Contexto de la noticia
+Explica qué ocurrió y quiénes son los protagonistas.
+
+## Qué se sabe hasta ahora
+Resume los datos principales sin exagerar ni copiar la fuente.
+
+## Por qué es importante
+Explica el impacto deportivo o informativo de la noticia.
+
+## Qué puede pasar ahora
+Cierra con una mirada prudente sobre lo que puede venir, sin inventar resultados.
+
+Obligatorio:
+- is_specific_movie debe ser false.
+- main_movie_title debe quedar vacío.
+- youtube_search_query debe quedar vacío.
 """
 
     return f"""
-Eres redactor SEO para la web TELELATINO.
+Eres la Redacción TELELATINO. Tu trabajo es redactar artículos SEO en español
+con una voz editorial uniforme, profesional y confiable.
 
-Contexto:
+Contexto del sitio:
 {app_context}
 
 Fuente:
@@ -722,13 +752,13 @@ Texto de apoyo:
 
 {type_instructions}
 
-{base_rules}
+{editorial_rules}
 
 Formato JSON exacto:
 {{
-  "title": "Título SEO propio",
+  "title": "Título SEO propio, claro y profesional",
   "description": "Meta descripción máximo 155 caracteres",
-  "body": "Contenido en Markdown, sin H1",
+  "body": "Artículo completo en Markdown, sin H1",
   "tags": ["tag1", "tag2", "tag3"],
   "is_specific_movie": false,
   "main_movie_title": "",
@@ -756,6 +786,37 @@ def parse_json_response(text: str) -> dict:
         return json.loads(match.group(0), strict=False)
 
 
+def sanitize_markdown_body(body: str) -> str:
+    text = str(body or "").strip()
+
+    replacements = {
+        "Sinopsis reescrita:": "Sinopsis:",
+        "Sinopsis reescrita": "Sinopsis",
+        "sinopsis reescrita": "sinopsis",
+        "SINOPSIS REESCRITA": "SINOPSIS",
+    }
+
+    for old, new in replacements.items():
+        text = text.replace(old, new)
+
+    text = re.sub(r"(?im)^\s*#\s+", "## ", text)
+
+    source_patterns = [
+        r"(?im)^\s*fuente consultada\s*:.*$",
+        r"(?im)^\s*fuente original\s*:.*$",
+        r"(?im)^\s*fuente\s*:.*$",
+        r"(?im)^\s*consultado en\s*:.*$",
+    ]
+
+    for pattern in source_patterns:
+        text = re.sub(pattern, "", text)
+
+    text = re.sub(r"\n{4,}", "\n\n\n", text)
+    text = text.strip()
+
+    return text
+
+
 def normalize_article_data(data: dict, content_type: str) -> dict:
     for key in ["title", "description", "body"]:
         if key not in data or not clean_text(str(data.get(key, ""))):
@@ -763,7 +824,7 @@ def normalize_article_data(data: dict, content_type: str) -> dict:
 
     data["title"] = clean_text(data["title"])[:120]
     data["description"] = clean_text(data["description"])[:165]
-    data["body"] = str(data["body"]).strip()
+    data["body"] = sanitize_markdown_body(str(data["body"]))
 
     tags = data.get("tags", [])
 
@@ -814,14 +875,14 @@ def call_openai_provider(prompt: str) -> str:
         messages=[
             {
                 "role": "system",
-                "content": "Eres un redactor SEO. Responde únicamente JSON válido.",
+                "content": "Eres la Redacción TELELATINO. Responde únicamente JSON válido.",
             },
             {
                 "role": "user",
                 "content": prompt,
             },
         ],
-        temperature=0.5,
+        temperature=0.35,
         response_format={"type": "json_object"},
     )
 
@@ -842,14 +903,14 @@ def call_groq(prompt: str) -> str:
         messages=[
             {
                 "role": "system",
-                "content": "Eres un redactor SEO. Responde únicamente JSON válido.",
+                "content": "Eres la Redacción TELELATINO. Responde únicamente JSON válido.",
             },
             {
                 "role": "user",
                 "content": prompt,
             },
         ],
-        temperature=0.3,
+        temperature=0.25,
         response_format={"type": "json_object"},
     )
 
@@ -867,14 +928,14 @@ def call_mistral(prompt: str) -> str:
         messages=[
             {
                 "role": "system",
-                "content": "Eres un redactor SEO. Responde únicamente JSON válido.",
+                "content": "Eres la Redacción TELELATINO. Responde únicamente JSON válido.",
             },
             {
                 "role": "user",
                 "content": prompt,
             },
         ],
-        temperature=0.5,
+        temperature=0.35,
         response_format={"type": "json_object"},
     )
 
@@ -898,14 +959,14 @@ def call_cohere(prompt: str) -> str:
         "messages": [
             {
                 "role": "system",
-                "content": "Eres un redactor SEO. Responde únicamente JSON válido.",
+                "content": "Eres la Redacción TELELATINO. Responde únicamente JSON válido.",
             },
             {
                 "role": "user",
                 "content": prompt,
             },
         ],
-        "temperature": 0.4,
+        "temperature": 0.35,
         "response_format": {
             "type": "json_object"
         },
@@ -1178,7 +1239,7 @@ def write_markdown(
         f"description: {yaml_string(article['description'])}",
         f"pubDate: {pub_date}",
         f"category: {yaml_string(candidate['category'])}",
-        'author: "TELELATINO"',
+        f"author: {yaml_string(AUTHOR_NAME)}",
         f"tags: {json.dumps(tags, ensure_ascii=False)}",
         "draft: false",
         f"sourceName: {yaml_string(candidate['sourceName'])}",
