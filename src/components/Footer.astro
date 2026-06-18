@@ -1,12 +1,85 @@
 ---
 import { appConfig } from "../data/app";
+
+const siteLinks = [
+  {
+    label: "Inicio",
+    href: "/",
+  },
+  {
+    label: "Noticias",
+    href: "/noticias/",
+  },
+  {
+    label: "Películas",
+    href: "/blog/",
+  },
+  {
+    label: "Contacto",
+    href: "/contacto/",
+  },
+];
+
+const sectionLinks = [
+  {
+    label: "Beneficios",
+    href: "/#beneficios",
+  },
+  {
+    label: "Contenido",
+    href: "/#contenido",
+  },
+  {
+    label: "Planes",
+    href: "/#planes",
+  },
+  {
+    label: "Descargar",
+    href: appConfig.apkUrl,
+    external: true,
+  },
+];
+
+const legalLinks = [
+  {
+    label: "Términos",
+    href: "/terminos/",
+  },
+  {
+    label: "Privacidad",
+    href: "/privacidad/",
+  },
+  {
+    label: "Contacto",
+    href: "/contacto/",
+  },
+];
 ---
 
 <footer class="site-footer">
-  <div class="container footer-grid">
+  <div class="footer-cta">
+    <span>TELELATINO para Android</span>
+    <h2>Descarga TELELATINO y empieza con 7 días de prueba gratis.</h2>
+    <p>
+      Canales en vivo, eventos deportivos, películas y estrenos desde tu móvil
+      Android.
+    </p>
+
+    <div class="footer-cta-actions">
+      <a href={appConfig.apkUrl} class="footer-primary" target="_blank" rel="noopener">
+        Descargar APK
+      </a>
+
+      <a href={appConfig.whatsappUrl} class="footer-secondary" target="_blank" rel="noopener">
+        WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <div class="footer-inner">
     <div class="footer-brand">
       <a href="/" class="brand">
-        <img src={appConfig.image} alt="Logo TELELATINO" />
+        <img src={appConfig.image} alt="Logo de TELELATINO" />
         <span>
           <strong>{appConfig.name}</strong>
           <small>Entretenimiento para Android</small>
@@ -14,77 +87,168 @@ import { appConfig } from "../data/app";
       </a>
 
       <p>
-        {appConfig.name} es una app de entretenimiento para Android con canales en vivo,
-        eventos deportivos, películas y estrenos. Diseñada para encontrar rápido lo que
-        más buscas desde tu móvil.
+        {appConfig.name} es una app de entretenimiento para Android con canales
+        en vivo, eventos deportivos, películas y estrenos. Diseñada para
+        encontrar rápido lo que más buscas desde tu móvil.
       </p>
 
       <div class="footer-actions">
-        <a href={appConfig.apkUrl} class="btn btn-primary" target="_blank" rel="noopener">
+        <a href={appConfig.apkUrl} target="_blank" rel="noopener">
           Descargar APK
         </a>
 
-        <a href={appConfig.whatsappUrl} class="btn btn-secondary" target="_blank" rel="noopener">
+        <a href={appConfig.whatsappUrl} target="_blank" rel="noopener">
           WhatsApp
         </a>
       </div>
     </div>
 
-    <div class="footer-links">
+    <div class="footer-column">
       <h3>Sitio</h3>
-      <a href="/">Inicio</a>
-      <a href="/noticias/">Noticias</a>
-      <a href="/blog/">Blog</a>
-      <a href="/contacto/">Contacto</a>
+
+      {siteLinks.map((link) => (
+        <a href={link.href}>{link.label}</a>
+      ))}
     </div>
 
-    <div class="footer-links">
+    <div class="footer-column">
       <h3>Secciones</h3>
-      <a href="/#beneficios">Beneficios</a>
-      <a href="/#contenido">Contenido</a>
-      <a href="/#planes">Planes</a>
-      <a href="/#descargar">Descargar</a>
+
+      {sectionLinks.map((link) => (
+        <a
+          href={link.href}
+          target={link.external ? "_blank" : undefined}
+          rel={link.external ? "noopener" : undefined}
+        >
+          {link.label}
+        </a>
+      ))}
     </div>
 
-    <div class="footer-links">
+    <div class="footer-column">
       <h3>Legal</h3>
-      <a href="/terminos/">Términos</a>
-      <a href="/privacidad/">Privacidad</a>
-      <a href="/contacto/">Contacto</a>
+
+      {legalLinks.map((link) => (
+        <a href={link.href}>{link.label}</a>
+      ))}
     </div>
   </div>
 
-  <div class="container footer-bottom">
-    <p>© 2026 {appConfig.name}. Todos los derechos reservados.</p>
-    <p>Disponible para Android · {appConfig.trial.text} · {appConfig.vipPlan.text}</p>
+  <div class="footer-bottom">
+    <p>© {new Date().getFullYear()} {appConfig.name}. Todos los derechos reservados.</p>
+    <p>Disponible para Android.</p>
   </div>
 </footer>
 
 <style>
   .site-footer {
     padding: 72px 0 28px;
+    background:
+      radial-gradient(circle at top left, rgba(255, 196, 68, 0.12), transparent 28%),
+      rgba(4, 10, 22, 0.96);
     border-top: 1px solid rgba(255, 255, 255, 0.08);
-    background: rgba(3, 7, 13, 0.9);
   }
 
-  .footer-grid {
+  .footer-cta,
+  .footer-inner,
+  .footer-bottom {
+    width: min(1120px, calc(100% - 36px));
+    margin: 0 auto;
+  }
+
+  .footer-cta {
+    margin-bottom: 58px;
+    padding: 48px 30px;
+    border-radius: 30px;
+    background:
+      radial-gradient(circle at top right, rgba(255, 216, 111, 0.18), transparent 30%),
+      rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    text-align: center;
+  }
+
+  .footer-cta span {
+    display: inline-flex;
+    margin-bottom: 16px;
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: rgba(255, 216, 111, 0.82);
+    color: #151515;
+    font-size: 0.78rem;
+    font-weight: 950;
+    text-transform: uppercase;
+  }
+
+  .footer-cta h2 {
+    max-width: 860px;
+    margin: 0 auto 16px;
+    color: #ffffff;
+    font-size: clamp(2.2rem, 5vw, 4.6rem);
+    line-height: 0.98;
+    letter-spacing: -0.065em;
+  }
+
+  .footer-cta p {
+    max-width: 620px;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.74);
+    line-height: 1.7;
+  }
+
+  .footer-cta-actions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 26px;
+  }
+
+  .footer-primary,
+  .footer-secondary,
+  .footer-actions a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding: 12px 22px;
+    border-radius: 999px;
+    font-weight: 900;
+    text-decoration: none;
+  }
+
+  .footer-primary,
+  .footer-actions a:first-child {
+    background: linear-gradient(180deg, #ffe47c 0%, #f1c344 100%);
+    color: #171717;
+    box-shadow: 0 12px 28px rgba(255, 198, 69, 0.24);
+  }
+
+  .footer-secondary,
+  .footer-actions a:last-child {
+    background: rgba(255, 255, 255, 0.12);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+  }
+
+  .footer-inner {
     display: grid;
-    grid-template-columns: 1.4fr 0.7fr 0.7fr 0.7fr;
-    gap: 38px;
+    grid-template-columns: 1.6fr 0.7fr 0.7fr 0.7fr;
+    gap: 42px;
   }
 
   .brand {
     display: inline-flex;
     align-items: center;
     gap: 12px;
+    color: #ffffff;
+    text-decoration: none;
   }
 
   .brand img {
     width: 48px;
     height: 48px;
+    border-radius: 14px;
     object-fit: cover;
-    border-radius: 15px;
-    box-shadow: 0 12px 28px rgba(255, 138, 0, 0.2);
   }
 
   .brand span {
@@ -93,83 +257,97 @@ import { appConfig } from "../data/app";
   }
 
   .brand strong {
-    color: var(--color-text);
     font-size: 1rem;
+    font-weight: 950;
   }
 
   .brand small {
-    margin-top: 5px;
-    color: var(--color-primary);
-    font-size: 0.75rem;
-    font-weight: 800;
+    margin-top: 4px;
+    color: #ffd56d;
+    font-size: 0.78rem;
+    font-weight: 850;
   }
 
   .footer-brand p {
-    max-width: 520px;
-    margin: 22px 0 0;
-    color: var(--color-muted);
+    max-width: 440px;
+    margin: 20px 0 0;
+    color: rgba(255, 255, 255, 0.72);
+    line-height: 1.7;
   }
 
   .footer-actions {
     display: flex;
     flex-wrap: wrap;
-    gap: 14px;
-    margin-top: 26px;
+    gap: 10px;
+    margin-top: 22px;
   }
 
-  .footer-links {
+  .footer-column {
     display: grid;
     align-content: start;
     gap: 12px;
   }
 
-  .footer-links h3 {
+  .footer-column h3 {
     margin: 0 0 8px;
-    color: var(--color-text);
+    color: #ffffff;
     font-size: 1rem;
   }
 
-  .footer-links a {
-    color: var(--color-muted);
-    font-weight: 700;
+  .footer-column a {
+    color: rgba(255, 255, 255, 0.68);
+    text-decoration: none;
+    font-weight: 800;
+    transition: color 0.2s ease;
   }
 
-  .footer-links a:hover {
-    color: var(--color-primary);
+  .footer-column a:hover {
+    color: #ffd56d;
   }
 
   .footer-bottom {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-    margin-top: 54px;
+    gap: 18px;
+    margin-top: 48px;
     padding-top: 24px;
     border-top: 1px solid rgba(255, 255, 255, 0.08);
+    color: rgba(255, 255, 255, 0.52);
+    font-size: 0.9rem;
   }
 
   .footer-bottom p {
     margin: 0;
-    color: var(--color-muted);
-    font-size: 0.9rem;
   }
 
-  @media (max-width: 900px) {
-    .footer-grid {
+  @media (max-width: 860px) {
+    .footer-inner {
       grid-template-columns: 1fr 1fr;
+    }
+
+    .footer-brand {
+      grid-column: 1 / -1;
+    }
+  }
+
+  @media (max-width: 560px) {
+    .footer-inner {
+      grid-template-columns: 1fr;
     }
 
     .footer-bottom {
       flex-direction: column;
     }
-  }
 
-  @media (max-width: 620px) {
-    .footer-grid {
-      grid-template-columns: 1fr;
-    }
-
+    .footer-cta-actions,
     .footer-actions {
       flex-direction: column;
+    }
+
+    .footer-primary,
+    .footer-secondary,
+    .footer-actions a {
+      width: 100%;
     }
   }
 </style>

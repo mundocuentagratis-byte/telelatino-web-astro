@@ -1,431 +1,858 @@
 ---
+import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import Hero from "../components/Hero.astro";
 import { appConfig } from "../data/app";
+
+const movies = (await getCollection("blog"))
+  .filter((post) => !post.data.draft)
+  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+
+const news = (await getCollection("noticias"))
+  .filter((post) => !post.data.draft)
+  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+
+const featuredMovie = movies[0] || null;
+const featuredNews = news[0] || null;
+
+const formatDate = (date: Date) =>
+  new Intl.DateTimeFormat("es-ES", {
+    day: "2-digit",
+    month: "short",
+    year: "numeric",
+  }).format(date);
 ---
 
 <BaseLayout
-  title="TELELATINO | Canales en Vivo, Deportes y Películas para Android"
-  description="Descarga TELELATINO para Android y disfruta canales en vivo, eventos deportivos, películas y estrenos. Obtén 7 días de prueba gratis y plan VIP de 6 meses por 6 USD."
+  title={`${appConfig.name} | Canales en vivo, deportes y películas para Android`}
+  description={appConfig.description}
 >
-  <Hero />
+  <main>
+    <section class="hero-section">
+      <div class="hero-bg"></div>
 
-  <section class="section" id="beneficios">
-    <div class="container">
-      <div class="section-title">
-        <span>Beneficios</span>
-        <h2>Entretenimiento simple, rápido y pensado para móviles.</h2>
-        <p>
-          TELELATINO está enfocada en lo que más se busca: canales principales,
-          eventos deportivos, películas y estrenos, sin llenar la app de contenido
-          innecesario.
-        </p>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Disponible para Android</span>
+
+          <h1>Canales en vivo, deportes y películas en una sola app.</h1>
+
+          <p>
+            {appConfig.name} es una app de entretenimiento para Android pensada
+            para encontrar rápido lo que más buscas: canales principales, eventos
+            deportivos, películas y estrenos, sin contenido excesivo ni
+            complicaciones.
+          </p>
+
+          <div class="hero-actions">
+            <a href={appConfig.apkUrl} class="btn btn-primary" target="_blank" rel="noopener">
+              Descargar APK
+            </a>
+
+            <a href={appConfig.whatsappUrl} class="btn btn-secondary" target="_blank" rel="noopener">
+              WhatsApp
+            </a>
+
+            <a href={appConfig.telegramUrl} class="btn btn-secondary" target="_blank" rel="noopener">
+              Telegram
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div>
+              <strong>{appConfig.trial.days} días</strong>
+              <span>Prueba gratis</span>
+            </div>
+
+            <div>
+              <strong>{appConfig.vipPlan.price}</strong>
+              <span>VIP por {appConfig.vipPlan.duration}</span>
+            </div>
+
+            <div>
+              <strong>Android</strong>
+              <span>App móvil</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card" aria-label="Presentación de TELELATINO">
+          <div class="phone-frame">
+            <img src={appConfig.image} alt="TELELATINO para Android" />
+            <h2>Entretenimiento fácil desde tu móvil</h2>
+            <p>
+              Canales en vivo, deportes, películas y estrenos en una experiencia
+              simple para Android.
+            </p>
+          </div>
+
+          <ul class="hero-list">
+            <li>Canales principales en vivo</li>
+            <li>Eventos deportivos destacados</li>
+            <li>Películas y estrenos fáciles de encontrar</li>
+          </ul>
+        </div>
       </div>
+    </section>
 
-      <div class="benefits-grid">
-        {
-          appConfig.benefits.map((benefit) => (
-            <article class="benefit-card card">
-              <div class="icon">▶</div>
+    <section id="contenido" class="preview-section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Contenido actualizado</span>
+          <h2>Películas y noticias destacadas.</h2>
+          <p>
+            Entra rápido a las secciones principales: películas recientes y
+            noticias deportivas. Cada tarjeta te lleva a la sección completa, no
+            a un solo artículo.
+          </p>
+        </div>
+
+        <div class="preview-grid">
+          <a class="preview-card movie-preview" href="/blog/" aria-label="Ver películas">
+            <div class="preview-image">
+              <img
+                src={featuredMovie?.data.image || appConfig.image}
+                alt={featuredMovie?.data.imageAlt || "Películas en TELELATINO"}
+              />
+              <span>Películas</span>
+            </div>
+
+            <div class="preview-content">
+              <small>
+                {featuredMovie ? formatDate(featuredMovie.data.pubDate) : "Actualizado"}
+              </small>
+
+              <h3>
+                {featuredMovie?.data.title || "Películas recientes y estrenos"}
+              </h3>
+
+              <p>
+                {featuredMovie?.data.description ||
+                  "Encuentra películas recientes, estrenos y recomendaciones para disfrutar desde Android."}
+              </p>
+
+              <strong>Ver películas</strong>
+            </div>
+          </a>
+
+          <a class="preview-card news-preview" href="/noticias/" aria-label="Ver noticias">
+            <div class="preview-image">
+              <img
+                src={featuredNews?.data.image || appConfig.image}
+                alt={featuredNews?.data.imageAlt || "Noticias en TELELATINO"}
+              />
+              <span>Noticias</span>
+            </div>
+
+            <div class="preview-content">
+              <small>
+                {featuredNews ? formatDate(featuredNews.data.pubDate) : "Actualizado"}
+              </small>
+
+              <h3>
+                {featuredNews?.data.title || "Noticias deportivas recientes"}
+              </h3>
+
+              <p>
+                {featuredNews?.data.description ||
+                  "Consulta noticias deportivas, eventos destacados y novedades del mundo del fútbol."}
+              </p>
+
+              <strong>Ver noticias</strong>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="beneficios" class="benefits-section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Beneficios</span>
+          <h2>Entretenimiento simple, rápido y pensado para móviles.</h2>
+          <p>
+            TELELATINO está enfocada en lo que más se busca: canales principales,
+            eventos deportivos, películas y estrenos, sin llenar la app de
+            contenido innecesario.
+          </p>
+        </div>
+
+        <div class="benefits-grid">
+          {appConfig.benefits.map((benefit) => (
+            <article class="benefit-card">
+              <div class="benefit-icon">▶</div>
               <h3>{benefit.title}</h3>
               <p>{benefit.description}</p>
             </article>
-          ))
-        }
-      </div>
-    </div>
-  </section>
-
-  <section class="section content-section" id="contenido">
-    <div class="container content-grid">
-      <div>
-        <span class="badge">Contenido destacado</span>
-
-        <h2>Encuentra rápido canales, deportes, películas y estrenos.</h2>
-
-        <p>
-          La experiencia de TELELATINO está pensada para usuarios que quieren abrir
-          la app y encontrar lo importante sin perder tiempo. Todo está orientado a
-          móviles Android, con acceso a contenido popular y secciones fáciles de usar.
-        </p>
-
-        <div class="content-list">
-          <div>
-            <strong>01</strong>
-            <span>Canales principales en vivo</span>
-          </div>
-
-          <div>
-            <strong>02</strong>
-            <span>Eventos deportivos destacados</span>
-          </div>
-
-          <div>
-            <strong>03</strong>
-            <span>Películas, estrenos y entretenimiento</span>
-          </div>
+          ))}
         </div>
       </div>
+    </section>
 
-      <div class="content-card card">
-        <h3>Diseñada para Android</h3>
+    <section class="content-section">
+      <div class="container content-grid">
+        <div>
+          <span class="eyebrow">Contenido destacado</span>
+          <h2>Encuentra rápido canales, deportes, películas y estrenos.</h2>
+          <p>
+            La experiencia de TELELATINO está pensada para usuarios que quieren
+            abrir la app y encontrar lo importante sin perder tiempo. Todo está
+            orientado a móviles Android, con acceso a contenido popular y
+            secciones fáciles de usar.
+          </p>
 
-        <p>
-          TELELATINO está disponible para dispositivos Android. Su objetivo es ofrecer
-          una experiencia móvil sencilla, directa y enfocada en el entretenimiento que
-          más buscan los usuarios.
-        </p>
+          <div class="feature-list">
+            <div>
+              <span>01</span>
+              <strong>Canales principales en vivo</strong>
+            </div>
 
-        <div class="mini-dashboard">
-          <div>
+            <div>
+              <span>02</span>
+              <strong>Eventos deportivos destacados</strong>
+            </div>
+
+            <div>
+              <span>03</span>
+              <strong>Películas, estrenos y entretenimiento</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <h3>Diseñada para Android</h3>
+
+          <p>
+            TELELATINO está disponible para dispositivos Android. Su objetivo es
+            ofrecer una experiencia móvil sencilla, directa y enfocada en el
+            entretenimiento que más buscan los usuarios.
+          </p>
+
+          <div class="info-row">
             <span>Plataforma</span>
             <strong>{appConfig.platform}</strong>
           </div>
 
-          <div>
+          <div class="info-row">
             <span>Prueba gratis</span>
             <strong>{appConfig.trial.days} días</strong>
           </div>
 
-          <div>
+          <div class="info-row">
             <span>Plan VIP</span>
             <strong>{appConfig.vipPlan.price}</strong>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="section" id="planes">
-    <div class="container">
-      <div class="section-title">
-        <span>Planes</span>
-        <h2>Empieza con prueba gratis y continúa con el plan VIP.</h2>
-        <p>
-          Al registrarte en TELELATINO puedes obtener 7 días de prueba gratis.
-          Después tienes la opción de acceder al plan VIP de 6 meses por solo 6 USD.
-        </p>
-      </div>
-
-      <div class="pricing-card card">
-        <div>
-          <span class="badge">Plan VIP</span>
-
-          <h3>{appConfig.vipPlan.text}</h3>
-
+    <section id="planes" class="plans-section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Planes</span>
+          <h2>Empieza con prueba gratis y continúa con el plan VIP.</h2>
           <p>
-            Una opción económica para seguir disfrutando canales en vivo, eventos
-            deportivos, películas y estrenos desde tu móvil Android.
+            Al registrarte en TELELATINO puedes obtener {appConfig.trial.text}.
+            Después tienes la opción de acceder al plan VIP de {appConfig.vipPlan.duration}
+            por solo {appConfig.vipPlan.price}.
           </p>
         </div>
 
-        <div class="pricing-actions">
-          <a href={appConfig.apkUrl} class="btn btn-primary" target="_blank" rel="noopener">
-            Descargar APK
-          </a>
-
-          <a href={appConfig.whatsappUrl} class="btn btn-secondary" target="_blank" rel="noopener">
-            Consultar por WhatsApp
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section news-section">
-    <div class="container content-grid">
-      <div class="content-card card">
-        <h3>Noticias y guías</h3>
-
-        <p>
-          En el sitio también encontrarás noticias de deportes, películas y
-          entretenimiento. Cada artículo estará pensado para informar y orientar a
-          los usuarios, además de recomendar la descarga de TELELATINO.
-        </p>
-
-        <div class="mini-dashboard">
+        <div class="plan-card">
           <div>
-            <span>Deportes</span>
-            <strong>Noticias</strong>
+            <span class="plan-badge">Plan VIP</span>
+            <h3>{appConfig.vipPlan.text}</h3>
+            <p>
+              Una opción económica para seguir disfrutando canales en vivo,
+              eventos deportivos, películas y estrenos desde tu móvil Android.
+            </p>
           </div>
 
-          <div>
-            <span>Películas</span>
-            <strong>Estrenos</strong>
-          </div>
+          <div class="plan-actions">
+            <a href={appConfig.apkUrl} class="btn btn-primary" target="_blank" rel="noopener">
+              Descargar APK
+            </a>
 
-          <div>
-            <span>SEO</span>
-            <strong>Activo</strong>
+            <a href={appConfig.whatsappUrl} class="btn btn-secondary" target="_blank" rel="noopener">
+              Consultar por WhatsApp
+            </a>
           </div>
         </div>
       </div>
+    </section>
 
-      <div>
-        <span class="badge">Portal informativo</span>
+    <section class="final-cta-section">
+      <div class="container">
+        <div class="final-cta">
+          <span class="eyebrow">TELELATINO para Android</span>
+          <h2>Descarga TELELATINO y empieza con 7 días de prueba gratis.</h2>
+          <p>
+            Disfruta canales en vivo, eventos deportivos, películas y estrenos
+            desde tu móvil Android. Si tienes dudas, puedes comunicarte por
+            WhatsApp o Telegram.
+          </p>
 
-        <h2>Contenido diario para atraer usuarios hacia la app.</h2>
+          <div class="hero-actions center">
+            <a href={appConfig.apkUrl} class="btn btn-primary" target="_blank" rel="noopener">
+              Descargar APK
+            </a>
 
-        <p>
-          La web funcionará como un portal informativo para publicar artículos sobre
-          deportes, películas y novedades. Después de cada artículo se invitará al
-          usuario a descargar TELELATINO para Android.
-        </p>
+            <a href={appConfig.whatsappUrl} class="btn btn-secondary" target="_blank" rel="noopener">
+              WhatsApp
+            </a>
 
-        <div class="content-list">
-          <div>
-            <strong>Blog</strong>
-            <span>Guías, películas y entretenimiento</span>
+            <a href={appConfig.telegramUrl} class="btn btn-secondary" target="_blank" rel="noopener">
+              Telegram
+            </a>
           </div>
 
-          <div>
-            <strong>Noticias</strong>
-            <span>Deportes, eventos y actualidad</span>
-          </div>
-
-          <div>
-            <strong>App</strong>
-            <span>Descarga directa para Android</span>
-          </div>
+          <small>
+            Disponible solo para Android. La prueba gratis y los planes pueden
+            estar sujetos a cambios.
+          </small>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section class="section download-section" id="descargar">
-    <div class="container download-box card">
-      <span class="badge">TELELATINO para Android</span>
-
-      <h2>Descarga TELELATINO y empieza con 7 días de prueba gratis.</h2>
-
-      <p>
-        Disfruta canales en vivo, eventos deportivos, películas y estrenos desde tu
-        móvil Android. Si tienes dudas, puedes comunicarte por WhatsApp o Telegram.
-      </p>
-
-      <div class="download-actions">
-        <a href={appConfig.apkUrl} class="btn btn-primary" target="_blank" rel="noopener">
-          Descargar APK
-        </a>
-
-        <a href={appConfig.whatsappUrl} class="btn btn-secondary" target="_blank" rel="noopener">
-          WhatsApp
-        </a>
-
-        <a href={appConfig.telegramUrl} class="btn btn-secondary" target="_blank" rel="noopener">
-          Telegram
-        </a>
-      </div>
-
-      <p class="small-note">
-        Disponible solo para Android. La prueba gratis y los planes pueden estar sujetos a cambios.
-      </p>
-    </div>
-  </section>
+    </section>
+  </main>
 </BaseLayout>
 
 <style>
+  .container {
+    width: min(1120px, calc(100% - 36px));
+    margin: 0 auto;
+  }
+
+  .hero-section {
+    position: relative;
+    overflow: hidden;
+    padding: 92px 0 76px;
+  }
+
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(circle at 78% 18%, rgba(255, 197, 71, 0.18), transparent 30%),
+      radial-gradient(circle at 20% 28%, rgba(46, 201, 255, 0.13), transparent 32%),
+      linear-gradient(180deg, rgba(6, 27, 47, 0.35), rgba(4, 13, 28, 0.1));
+    pointer-events: none;
+  }
+
+  .hero-grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1.05fr 0.95fr;
+    gap: 54px;
+    align-items: center;
+  }
+
+  .eyebrow {
+    display: inline-flex;
+    width: fit-content;
+    margin-bottom: 18px;
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: rgba(255, 197, 71, 0.2);
+    color: #ffd77a;
+    font-size: 0.78rem;
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  h1,
+  h2,
+  h3,
+  p {
+    margin-top: 0;
+  }
+
+  .hero-copy h1 {
+    max-width: 660px;
+    margin-bottom: 20px;
+    font-size: clamp(3.1rem, 7vw, 6.7rem);
+    line-height: 0.9;
+    letter-spacing: -0.085em;
+  }
+
+  .hero-copy p {
+    max-width: 650px;
+    color: rgba(255, 255, 255, 0.76);
+    font-size: 1.03rem;
+    line-height: 1.7;
+  }
+
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 28px;
+  }
+
+  .hero-actions.center {
+    justify-content: center;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    padding: 13px 24px;
+    border-radius: 999px;
+    font-weight: 900;
+    text-decoration: none;
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease,
+      background 0.2s ease;
+  }
+
+  .btn:hover {
+    transform: translateY(-2px);
+  }
+
+  .btn-primary {
+    background: linear-gradient(180deg, #ffe47c 0%, #f3c747 100%);
+    color: #171717;
+    box-shadow: 0 14px 32px rgba(255, 198, 69, 0.28);
+  }
+
+  .btn-secondary {
+    background: rgba(255, 255, 255, 0.16);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+
+  .hero-stats {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+    margin-top: 30px;
+    max-width: 560px;
+  }
+
+  .hero-stats div {
+    padding: 16px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+  }
+
+  .hero-stats strong {
+    display: block;
+    color: #ffd66c;
+    font-size: 1.25rem;
+    line-height: 1.1;
+  }
+
+  .hero-stats span {
+    display: block;
+    margin-top: 4px;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 0.86rem;
+  }
+
+  .hero-card {
+    padding: 24px;
+    border-radius: 34px;
+    background:
+      radial-gradient(circle at top right, rgba(255, 216, 111, 0.2), transparent 30%),
+      rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    box-shadow: 0 24px 80px rgba(0, 0, 0, 0.28);
+  }
+
+  .phone-frame {
+    padding: 30px 24px;
+    border-radius: 30px;
+    background:
+      linear-gradient(180deg, rgba(7, 31, 53, 0.35), rgba(4, 15, 31, 0.86)),
+      radial-gradient(circle at 50% 0%, rgba(255, 197, 71, 0.22), transparent 42%);
+    text-align: center;
+  }
+
+  .phone-frame img {
+    width: 150px;
+    height: 150px;
+    border-radius: 34px;
+    object-fit: cover;
+    box-shadow: 0 20px 60px rgba(255, 198, 69, 0.24);
+  }
+
+  .phone-frame h2 {
+    margin: 24px auto 10px;
+    max-width: 360px;
+    font-size: clamp(2rem, 4vw, 3.1rem);
+    line-height: 0.98;
+    letter-spacing: -0.055em;
+  }
+
+  .phone-frame p {
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.72);
+  }
+
+  .hero-list {
+    display: grid;
+    gap: 12px;
+    margin: 18px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .hero-list li {
+    padding: 14px 16px;
+    border-radius: 16px;
+    background: rgba(111, 214, 255, 0.12);
+    color: rgba(255, 255, 255, 0.88);
+    font-weight: 800;
+  }
+
+  .preview-section,
+  .benefits-section,
+  .content-section,
+  .plans-section,
+  .final-cta-section {
+    padding: 82px 0;
+  }
+
+  .preview-section {
+    background:
+      radial-gradient(circle at top left, rgba(255, 197, 71, 0.12), transparent 32%),
+      rgba(255, 255, 255, 0.025);
+  }
+
+  .section-heading {
+    max-width: 840px;
+    margin: 0 auto 42px;
+    text-align: center;
+  }
+
+  .section-heading h2 {
+    margin-bottom: 16px;
+    font-size: clamp(2.4rem, 5vw, 4.8rem);
+    line-height: 0.98;
+    letter-spacing: -0.065em;
+  }
+
+  .section-heading p {
+    color: rgba(255, 255, 255, 0.76);
+    font-size: 1.03rem;
+    line-height: 1.7;
+  }
+
+  .preview-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px;
+  }
+
+  .preview-card {
+    overflow: hidden;
+    border-radius: 30px;
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.07));
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    text-decoration: none;
+    color: #ffffff;
+    box-shadow: 0 22px 70px rgba(0, 0, 0, 0.2);
+    transition:
+      transform 0.2s ease,
+      border-color 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+
+  .preview-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(255, 214, 108, 0.55);
+    box-shadow: 0 28px 80px rgba(0, 0, 0, 0.28);
+  }
+
+  .preview-image {
+    position: relative;
+    height: 260px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  .preview-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.82;
+    transform: scale(1.02);
+  }
+
+  .preview-image::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, transparent 20%, rgba(5, 14, 29, 0.72));
+  }
+
+  .preview-image span {
+    position: absolute;
+    left: 18px;
+    bottom: 18px;
+    z-index: 2;
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: rgba(255, 215, 116, 0.92);
+    color: #151515;
+    font-size: 0.82rem;
+    font-weight: 950;
+  }
+
+  .preview-content {
+    padding: 26px;
+  }
+
+  .preview-content small {
+    display: block;
+    margin-bottom: 10px;
+    color: #ffd978;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .preview-content h3 {
+    margin-bottom: 12px;
+    font-size: clamp(1.65rem, 3vw, 2.6rem);
+    line-height: 1;
+    letter-spacing: -0.05em;
+  }
+
+  .preview-content p {
+    color: rgba(255, 255, 255, 0.74);
+    line-height: 1.65;
+  }
+
+  .preview-content strong {
+    display: inline-flex;
+    margin-top: 10px;
+    color: #ffd978;
+  }
+
   .benefits-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 18px;
+  }
+
+  .benefit-card,
+  .info-card,
+  .plan-card,
+  .final-cta {
+    border-radius: 26px;
+    background: rgba(255, 255, 255, 0.09);
+    border: 1px solid rgba(255, 255, 255, 0.16);
   }
 
   .benefit-card {
-    padding: 28px;
+    padding: 26px;
   }
 
-  .icon {
-    width: 54px;
-    height: 54px;
-    display: grid;
-    place-items: center;
+  .benefit-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
     margin-bottom: 22px;
-    border-radius: 18px;
-    background: rgba(255, 138, 0, 0.14);
-    color: var(--color-primary);
-    font-size: 1.3rem;
-    font-weight: 900;
+    border-radius: 16px;
+    background: rgba(255, 216, 111, 0.9);
+    color: #121212;
+    font-weight: 950;
   }
 
   .benefit-card h3 {
-    margin: 0 0 10px;
+    margin-bottom: 12px;
     font-size: 1.25rem;
+    letter-spacing: -0.03em;
   }
 
   .benefit-card p {
-    margin: 0;
-    color: var(--color-muted);
-  }
-
-  .content-section,
-  .news-section {
-    background: rgba(255, 255, 255, 0.025);
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.72);
+    line-height: 1.6;
   }
 
   .content-grid {
     display: grid;
-    grid-template-columns: 1fr 0.85fr;
-    gap: 56px;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 50px;
     align-items: center;
   }
 
   .content-grid h2 {
-    margin: 22px 0 16px;
-    font-size: clamp(2rem, 4vw, 3.4rem);
-    line-height: 1.05;
-    letter-spacing: -0.055em;
+    max-width: 680px;
+    margin-bottom: 18px;
+    font-size: clamp(2.5rem, 5vw, 5rem);
+    line-height: 0.98;
+    letter-spacing: -0.065em;
   }
 
   .content-grid p {
-    color: var(--color-muted);
-    font-size: 1.05rem;
+    color: rgba(255, 255, 255, 0.76);
+    line-height: 1.75;
   }
 
-  .content-list {
+  .feature-list {
     display: grid;
-    gap: 14px;
+    gap: 12px;
     margin-top: 28px;
   }
 
-  .content-list div {
+  .feature-list div,
+  .info-row {
     display: flex;
     align-items: center;
-    gap: 16px;
-    padding: 16px;
-    border-radius: 18px;
-    background: rgba(255, 255, 255, 0.06);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-  }
-
-  .content-list strong {
-    min-width: 44px;
-    color: var(--color-primary);
-  }
-
-  .content-list span {
-    color: var(--color-muted);
-    font-weight: 700;
-  }
-
-  .content-card {
-    padding: 34px;
-  }
-
-  .content-card h3 {
-    margin: 0 0 12px;
-    font-size: 1.7rem;
-  }
-
-  .mini-dashboard {
-    display: grid;
-    gap: 14px;
-    margin-top: 28px;
-  }
-
-  .mini-dashboard div {
-    display: flex;
     justify-content: space-between;
-    gap: 16px;
-    padding: 16px;
+    gap: 14px;
+    padding: 16px 18px;
     border-radius: 16px;
-    background: rgba(255, 255, 255, 0.06);
+    background: rgba(111, 214, 255, 0.12);
   }
 
-  .mini-dashboard span {
-    color: var(--color-muted);
+  .feature-list span {
+    color: #ffd978;
+    font-weight: 950;
   }
 
-  .mini-dashboard strong {
-    color: var(--color-success);
+  .feature-list strong,
+  .info-row strong {
+    color: #ffffff;
   }
 
-  .pricing-card {
+  .info-card {
+    padding: 30px;
+  }
+
+  .info-card h3 {
+    font-size: 2rem;
+    letter-spacing: -0.045em;
+  }
+
+  .info-row {
+    margin-top: 12px;
+  }
+
+  .info-row span {
+    color: rgba(255, 255, 255, 0.72);
+    font-weight: 800;
+  }
+
+  .plans-section {
+    background: rgba(255, 255, 255, 0.025);
+  }
+
+  .plan-card {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 32px;
+    gap: 24px;
     padding: 34px;
   }
 
-  .pricing-card h3 {
-    margin: 18px 0 10px;
-    font-size: clamp(1.7rem, 3vw, 2.4rem);
-    line-height: 1.1;
+  .plan-badge {
+    display: inline-flex;
+    margin-bottom: 16px;
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: rgba(255, 216, 111, 0.85);
+    color: #151515;
+    font-weight: 950;
+    font-size: 0.82rem;
   }
 
-  .pricing-card p {
+  .plan-card h3 {
+    margin-bottom: 12px;
+    font-size: clamp(1.8rem, 3vw, 3rem);
+    letter-spacing: -0.05em;
+  }
+
+  .plan-card p {
     max-width: 680px;
-    margin: 0;
-    color: var(--color-muted);
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.74);
+    line-height: 1.65;
   }
 
-  .pricing-actions {
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-    min-width: 230px;
+  .plan-actions {
+    display: grid;
+    gap: 12px;
+    min-width: 240px;
   }
 
-  .download-box {
-    padding: 54px 34px;
+  .final-cta {
+    padding: 56px 32px;
     text-align: center;
   }
 
-  .download-box h2 {
-    max-width: 860px;
-    margin: 22px auto 16px;
-    font-size: clamp(2rem, 4vw, 3.3rem);
-    line-height: 1.05;
+  .final-cta h2 {
+    max-width: 920px;
+    margin: 0 auto 18px;
+    font-size: clamp(2.4rem, 5vw, 5rem);
+    line-height: 0.98;
+    letter-spacing: -0.065em;
   }
 
-  .download-box p {
+  .final-cta p {
     max-width: 720px;
     margin: 0 auto;
-    color: var(--color-muted);
-    font-size: 1.05rem;
+    color: rgba(255, 255, 255, 0.76);
+    line-height: 1.7;
   }
 
-  .download-actions {
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-    margin-top: 32px;
-  }
-
-  .small-note {
-    margin-top: 22px !important;
-    font-size: 0.9rem !important;
-  }
-
-  @media (max-width: 1050px) {
-    .benefits-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
+  .final-cta small {
+    display: block;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.58);
   }
 
   @media (max-width: 900px) {
+    .hero-grid,
+    .preview-grid,
     .content-grid {
       grid-template-columns: 1fr;
     }
 
-    .pricing-card {
-      flex-direction: column;
+    .benefits-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .plan-card {
       align-items: flex-start;
-    }
-
-    .pricing-actions {
-      width: 100%;
-    }
-
-    .download-actions {
       flex-direction: column;
+    }
+
+    .plan-actions {
+      width: 100%;
     }
   }
 
   @media (max-width: 620px) {
+    .hero-section {
+      padding-top: 62px;
+    }
+
+    .hero-stats,
     .benefits-grid {
       grid-template-columns: 1fr;
+    }
+
+    .hero-actions,
+    .hero-actions.center {
+      flex-direction: column;
+    }
+
+    .btn {
+      width: 100%;
+    }
+
+    .preview-image {
+      height: 220px;
     }
   }
 </style>

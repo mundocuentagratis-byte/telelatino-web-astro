@@ -1,30 +1,60 @@
 ---
 import { appConfig } from "../data/app";
+
+const navItems = [
+  {
+    label: "Beneficios",
+    href: "/#beneficios",
+  },
+  {
+    label: "Contenido",
+    href: "/#contenido",
+  },
+  {
+    label: "Planes",
+    href: "/#planes",
+  },
+  {
+    label: "Noticias",
+    href: "/noticias/",
+  },
+  {
+    label: "Películas",
+    href: "/blog/",
+  },
+  {
+    label: "Contacto",
+    href: "/contacto/",
+  },
+];
 ---
 
 <header class="site-header">
-  <div class="container header-inner">
-    <a href="/" class="brand" aria-label="Ir al inicio de TELELATINO">
-      <img src={appConfig.image} alt="Logo TELELATINO" />
+  <div class="header-inner">
+    <a href="/" class="brand" aria-label="Ir al inicio">
+      <img src={appConfig.image} alt="Logo de TELELATINO" />
       <span>
         <strong>{appConfig.name}</strong>
         <small>Android</small>
       </span>
     </a>
 
-    <nav class="nav-links" aria-label="Navegación principal">
-      <a href="/#beneficios">Beneficios</a>
-      <a href="/#contenido">Contenido</a>
-      <a href="/#planes">Planes</a>
-      <a href="/noticias/">Noticias</a>
-      <a href="/blog/">Blog</a>
-      <a href="/contacto/">Contacto</a>
+    <nav class="desktop-nav" aria-label="Navegación principal">
+      {navItems.map((item) => (
+        <a href={item.href}>{item.label}</a>
+      ))}
     </nav>
 
-    <a href={appConfig.apkUrl} class="btn btn-primary header-cta" target="_blank" rel="noopener">
+    <a href={appConfig.apkUrl} class="download-btn" target="_blank" rel="noopener">
       Descargar APK
     </a>
   </div>
+
+  <nav class="mobile-nav" aria-label="Navegación móvil">
+    {navItems.map((item) => (
+      <a href={item.href}>{item.label}</a>
+    ))}
+  </nav>
 </header>
 
 <style>
@@ -32,95 +62,147 @@ import { appConfig } from "../data/app";
     position: sticky;
     top: 0;
     z-index: 50;
+    background: rgba(7, 14, 28, 0.82);
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-    background: rgba(5, 10, 18, 0.78);
     backdrop-filter: blur(18px);
   }
 
   .header-inner {
-    min-height: 82px;
+    width: min(1120px, calc(100% - 36px));
+    min-height: 74px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 24px;
+    gap: 22px;
   }
 
   .brand {
     display: inline-flex;
     align-items: center;
     gap: 12px;
-    min-width: max-content;
+    color: #ffffff;
+    text-decoration: none;
   }
 
   .brand img {
-    width: 46px;
-    height: 46px;
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
     object-fit: cover;
-    border-radius: 14px;
-    box-shadow: 0 12px 28px rgba(255, 138, 0, 0.2);
+    box-shadow: 0 10px 28px rgba(255, 196, 68, 0.22);
   }
 
   .brand span {
     display: grid;
+    gap: 1px;
     line-height: 1;
   }
 
   .brand strong {
-    color: var(--color-text);
-    font-size: 1rem;
-    letter-spacing: -0.02em;
+    font-size: 0.92rem;
+    font-weight: 950;
+    letter-spacing: -0.03em;
   }
 
   .brand small {
-    margin-top: 5px;
-    color: var(--color-primary);
+    color: #ffd56d;
     font-size: 0.72rem;
-    font-weight: 800;
+    font-weight: 900;
     text-transform: uppercase;
-    letter-spacing: 0.12em;
   }
 
-  .nav-links {
+  .desktop-nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 26px;
+    gap: 22px;
     flex: 1;
   }
 
-  .nav-links a {
-    color: rgba(255, 255, 255, 0.78);
-    font-size: 0.95rem;
-    font-weight: 800;
+  .desktop-nav a,
+  .mobile-nav a {
+    color: rgba(255, 255, 255, 0.82);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 850;
+    transition:
+      color 0.2s ease,
+      transform 0.2s ease;
   }
 
-  .nav-links a:hover {
-    color: var(--color-primary);
+  .desktop-nav a:hover,
+  .mobile-nav a:hover {
+    color: #ffd56d;
+    transform: translateY(-1px);
   }
 
-  .header-cta {
-    min-width: max-content;
+  .download-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 42px;
+    padding: 11px 20px;
+    border-radius: 999px;
+    background: linear-gradient(180deg, #ffe47c 0%, #f1c344 100%);
+    color: #171717;
+    font-size: 0.86rem;
+    font-weight: 950;
+    text-decoration: none;
+    white-space: nowrap;
+    box-shadow: 0 12px 28px rgba(255, 198, 69, 0.28);
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
   }
 
-  @media (max-width: 980px) {
-    .nav-links {
+  .download-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 18px 36px rgba(255, 198, 69, 0.34);
+  }
+
+  .mobile-nav {
+    display: none;
+    width: min(1120px, calc(100% - 36px));
+    margin: 0 auto;
+    padding: 0 0 14px;
+    gap: 12px;
+    overflow-x: auto;
+  }
+
+  .mobile-nav a {
+    flex: 0 0 auto;
+    padding: 9px 12px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  @media (max-width: 860px) {
+    .header-inner {
+      min-height: 68px;
+    }
+
+    .desktop-nav {
       display: none;
     }
+
+    .mobile-nav {
+      display: flex;
+    }
   }
 
-  @media (max-width: 560px) {
-    .header-inner {
-      min-height: 74px;
+  @media (max-width: 520px) {
+    .download-btn {
+      padding: 10px 14px;
+      font-size: 0.78rem;
     }
 
-    .brand img {
-      width: 42px;
-      height: 42px;
+    .brand strong {
+      font-size: 0.82rem;
     }
 
-    .header-cta {
-      padding-inline: 16px;
-      font-size: 0.85rem;
+    .brand small {
+      font-size: 0.66rem;
     }
   }
 </style>
