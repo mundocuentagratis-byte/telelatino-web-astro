@@ -1,4 +1,4 @@
----
+﻿---
 import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { appConfig } from "../data/app";
@@ -23,8 +23,8 @@ const formatDate = (date: Date) =>
 ---
 
 <BaseLayout
-  title={`${appConfig.name} | Canales en vivo, deportes y películas para Android`}
-  description={appConfig.description}
+  title={`${appConfig.name} | Canales en vivo, deportes y pelÃ­culas para Android`}
+  description="Descarga TELELATINO para Android. Disfruta canales en vivo, deportes, películas y 7 días de prueba gratis."
 >
   <main>
     <section class="hero-section">
@@ -34,12 +34,12 @@ const formatDate = (date: Date) =>
         <div class="hero-copy">
           <span class="eyebrow">Disponible para Android</span>
 
-          <h1>Canales en vivo, deportes y películas en una sola app.</h1>
+          <h1>Canales en vivo, deportes y pelÃ­culas en una sola app.</h1>
 
           <p>
             {appConfig.name} es una app de entretenimiento para Android pensada
-            para encontrar rápido lo que más buscas: canales principales, eventos
-            deportivos, películas y estrenos, sin contenido excesivo ni
+            para encontrar rÃ¡pido lo que mÃ¡s buscas: canales principales, eventos
+            deportivos, pelÃ­culas y estrenos, sin contenido excesivo ni
             complicaciones.
           </p>
 
@@ -59,7 +59,7 @@ const formatDate = (date: Date) =>
 
           <div class="hero-stats">
             <div>
-              <strong>{appConfig.trial.days} días</strong>
+              <strong>{appConfig.trial.days} dÃ­as</strong>
               <span>Prueba gratis</span>
             </div>
 
@@ -70,17 +70,17 @@ const formatDate = (date: Date) =>
 
             <div>
               <strong>Android</strong>
-              <span>App móvil</span>
+              <span>App mÃ³vil</span>
             </div>
           </div>
         </div>
 
-        <div class="hero-card" aria-label="Presentación de TELELATINO">
+        <div class="hero-card" aria-label="PresentaciÃ³n de TELELATINO">
           <div class="phone-frame">
             <img src={appConfig.image} alt="TELELATINO para Android" />
-            <h2>Entretenimiento fácil desde tu móvil</h2>
+            <h2>Entretenimiento fÃ¡cil desde tu mÃ³vil</h2>
             <p>
-              Canales en vivo, deportes, películas y estrenos en una experiencia
+              Canales en vivo, deportes, pelÃ­culas y estrenos en una experiencia
               simple para Android.
             </p>
           </div>
@@ -88,7 +88,7 @@ const formatDate = (date: Date) =>
           <ul class="hero-list">
             <li>Canales principales en vivo</li>
             <li>Eventos deportivos destacados</li>
-            <li>Películas y estrenos fáciles de encontrar</li>
+            <li>PelÃ­culas y estrenos fÃ¡ciles de encontrar</li>
           </ul>
         </div>
       </div>
@@ -98,22 +98,22 @@ const formatDate = (date: Date) =>
       <div class="container">
         <div class="section-heading">
           <span class="eyebrow">Contenido actualizado</span>
-          <h2>Películas y noticias destacadas.</h2>
+          <h2>PelÃ­culas y noticias destacadas.</h2>
           <p>
-            Entra rápido a las secciones principales: películas recientes y
-            noticias deportivas. Cada tarjeta te lleva a la sección completa, no
-            a un solo artículo.
+            Entra rÃ¡pido a las secciones principales: pelÃ­culas recientes y
+            noticias deportivas. Cada tarjeta te lleva a la secciÃ³n completa, no
+            a un solo artÃ­culo.
           </p>
         </div>
 
         <div class="preview-grid">
-          <a class="preview-card movie-preview" href="/blog/" aria-label="Ver películas">
+          <a class="preview-card movie-preview" href="/blog/" aria-label="Ver pelÃ­culas">
             <div class="preview-image">
               <img
                 src={featuredMovie?.data.image || appConfig.image}
-                alt={featuredMovie?.data.imageAlt || "Películas en TELELATINO"}
+                alt={featuredMovie?.data.imageAlt || "PelÃ­culas en TELELATINO"}
               />
-              <span>Películas</span>
+              <span>PelÃ­culas</span>
             </div>
 
             <div class="preview-content">
@@ -122,15 +122,15 @@ const formatDate = (date: Date) =>
               </small>
 
               <h3>
-                {featuredMovie?.data.title || "Películas recientes y estrenos"}
+                {featuredMovie?.data.title || "PelÃ­culas recientes y estrenos"}
               </h3>
 
               <p>
                 {featuredMovie?.data.description ||
-                  "Encuentra películas recientes, estrenos y recomendaciones para disfrutar desde Android."}
+                  "Encuentra pelÃ­culas recientes, estrenos y recomendaciones para disfrutar desde Android."}
               </p>
 
-              <strong>Ver películas</strong>
+              <strong>Ver pelÃ­culas</strong>
             </div>
           </a>
 
@@ -154,7 +154,7 @@ const formatDate = (date: Date) =>
 
               <p>
                 {featuredNews?.data.description ||
-                  "Consulta noticias deportivas, eventos destacados y novedades del mundo del fútbol."}
+                  "Consulta noticias deportivas, eventos destacados y novedades del mundo del fÃºtbol."}
               </p>
 
               <strong>Ver noticias</strong>
@@ -168,10 +168,10 @@ const formatDate = (date: Date) =>
       <div class="container">
         <div class="section-heading">
           <span class="eyebrow">Beneficios</span>
-          <h2>Entretenimiento simple, rápido y pensado para móviles.</h2>
+          <h2>Entretenimiento simple, rÃ¡pido y pensado para mÃ³viles.</h2>
           <p>
-            TELELATINO está enfocada en lo que más se busca: canales principales,
-            eventos deportivos, películas y estrenos, sin llenar la app de
+            TELELATINO estÃ¡ enfocada en lo que mÃ¡s se busca: canales principales,
+            eventos deportivos, pelÃ­culas y estrenos, sin llenar la app de
             contenido innecesario.
           </p>
         </div>
@@ -179,7 +179,7 @@ const formatDate = (date: Date) =>
         <div class="benefits-grid">
           {appConfig.benefits.map((benefit) => (
             <article class="benefit-card">
-              <div class="benefit-icon">▶</div>
+              <div class="benefit-icon">â–¶</div>
               <h3>{benefit.title}</h3>
               <p>{benefit.description}</p>
             </article>
@@ -192,12 +192,12 @@ const formatDate = (date: Date) =>
       <div class="container content-grid">
         <div>
           <span class="eyebrow">Contenido destacado</span>
-          <h2>Encuentra rápido canales, deportes, películas y estrenos.</h2>
+          <h2>Encuentra rÃ¡pido canales, deportes, pelÃ­culas y estrenos.</h2>
           <p>
-            La experiencia de TELELATINO está pensada para usuarios que quieren
-            abrir la app y encontrar lo importante sin perder tiempo. Todo está
-            orientado a móviles Android, con acceso a contenido popular y
-            secciones fáciles de usar.
+            La experiencia de TELELATINO estÃ¡ pensada para usuarios que quieren
+            abrir la app y encontrar lo importante sin perder tiempo. Todo estÃ¡
+            orientado a mÃ³viles Android, con acceso a contenido popular y
+            secciones fÃ¡ciles de usar.
           </p>
 
           <div class="feature-list">
@@ -213,18 +213,18 @@ const formatDate = (date: Date) =>
 
             <div>
               <span>03</span>
-              <strong>Películas, estrenos y entretenimiento</strong>
+              <strong>PelÃ­culas, estrenos y entretenimiento</strong>
             </div>
           </div>
         </div>
 
         <div class="info-card">
-          <h3>Diseñada para Android</h3>
+          <h3>DiseÃ±ada para Android</h3>
 
           <p>
-            TELELATINO está disponible para dispositivos Android. Su objetivo es
-            ofrecer una experiencia móvil sencilla, directa y enfocada en el
-            entretenimiento que más buscan los usuarios.
+            TELELATINO estÃ¡ disponible para dispositivos Android. Su objetivo es
+            ofrecer una experiencia mÃ³vil sencilla, directa y enfocada en el
+            entretenimiento que mÃ¡s buscan los usuarios.
           </p>
 
           <div class="info-row">
@@ -234,7 +234,7 @@ const formatDate = (date: Date) =>
 
           <div class="info-row">
             <span>Prueba gratis</span>
-            <strong>{appConfig.trial.days} días</strong>
+            <strong>{appConfig.trial.days} dÃ­as</strong>
           </div>
 
           <div class="info-row">
@@ -249,10 +249,10 @@ const formatDate = (date: Date) =>
       <div class="container">
         <div class="section-heading">
           <span class="eyebrow">Planes</span>
-          <h2>Empieza con prueba gratis y continúa con el plan VIP.</h2>
+          <h2>Empieza con prueba gratis y continÃºa con el plan VIP.</h2>
           <p>
             Al registrarte en TELELATINO puedes obtener {appConfig.trial.text}.
-            Después tienes la opción de acceder al plan VIP de {appConfig.vipPlan.duration}
+            DespuÃ©s tienes la opciÃ³n de acceder al plan VIP de {appConfig.vipPlan.duration}
             por solo {appConfig.vipPlan.price}.
           </p>
         </div>
@@ -262,8 +262,8 @@ const formatDate = (date: Date) =>
             <span class="plan-badge">Plan VIP</span>
             <h3>{appConfig.vipPlan.text}</h3>
             <p>
-              Una opción económica para seguir disfrutando canales en vivo,
-              eventos deportivos, películas y estrenos desde tu móvil Android.
+              Una opciÃ³n econÃ³mica para seguir disfrutando canales en vivo,
+              eventos deportivos, pelÃ­culas y estrenos desde tu mÃ³vil Android.
             </p>
           </div>
 
