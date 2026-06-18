@@ -1,32 +1,38 @@
-import sys
 from datetime import datetime, timezone
 
 import generate_news as core
 
 
 def main() -> int:
-    core.reset_report()
-    core.write_report("=== TELELATINO Movies ===")
-    core.write_report(f"Fecha UTC: {datetime.now(timezone.utc).isoformat()}")
+    core.ensure_dirs()
+    core.ensure_reports_dir()
 
-    (core.CONTENT_DIR / "blog").mkdir(parents=True, exist_ok=True)
-    (core.CONTENT_DIR / "noticias").mkdir(parents=True, exist_ok=True)
+    core.log("=== TELELATINO Movies ===")
+    core.log(f"Fecha UTC: {datetime.now(timezone.utc).isoformat()}")
 
-    sources = core.load_json(core.SOURCES_FILE, {})
-    group = sources.get("movies")
+    sources = core.load_json(core.SOURCES_PATH, {})
+    processed = core.load_json(core.PROCESSED_PATH, {"urls": [], "items": []})
 
-    if not group:
-        core.write_report("[ERROR] No existe el grupo 'movies' en scripts/sources.json")
-        return 1
+    if not isinstance(processed, dict):
+        processed = {"urls": [], "items": []}
 
-    processed_data = core.load_json(core.PROCESSED_FILE, [])
-    processed = core.get_processed_set(processed_data)
+    processed.setdefault("urls", [])
+    processed.setdefault("items", [])
 
-    total = core.run_group("movies", group, processed)
-    core.save_processed_set(processed)
+    movies_group = sources.get("movies")
 
-    core.write_report(f"Total películas publicadas: {total}")
-    core.write_report("=== Fin Movies ===")
+    if not isinstance(movies_group, dict):
+        core.log("[movies] No existe configuración movies en scripts/sources.json")
+        core.save_json(core.PROCESSED_PATH, processed)
+        return 0
+
+    total = core.handle_movies(movies_group, processed)
+
+    core.save_json(core.PROCESSED_PATH, processed)
+
+    core.log(f"Total películas publicadas: {total}")
+    core.log("=== Fin Movies ===")
+
     return 0
 
 
