@@ -1,11 +1,6 @@
-=== TELELATINO Auto News ===
-Fecha UTC: 2026-06-18T14:08:27.271353+00:00
-[sports] Candidatos encontrados: 0 | Límite: 4
-[sports] Publicados: 0
-[movies] Candidatos encontrados: 1 | Límite: 10
-[IA] Probando proveedor groq: El diablo viste de Prada 2
-[IA] Artículo generado con groq
-[OK] Publicado: src/content/blog/el-diablo-viste-de-prada-2-2026-06-18-9adb8f.md
-[movies] Publicados: 1
-Total publicados: 1
-=== Fin ===
+=== TELELATINO Movies ===
+Fecha UTC: 2026-06-18T14:29:46.013151+00:00
+[movies] Candidatos encontrados: 1 | Límite: 9
+[movies] Publicados: 0
+Total películas publicadas: 0
+=== Fin Movies ===
