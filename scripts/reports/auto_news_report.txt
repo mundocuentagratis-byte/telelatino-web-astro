@@ -1,0 +1,160 @@
+[2026-06-18 01:06:30 UTC] >>> INICIANDO GENERADOR AUTOMÁTICO DE NOTICIAS TELELATINO <<<
+[2026-06-18 01:06:30 UTC] --- Procesando grupo: sports ---
+[2026-06-18 01:06:31 UTC] [SKIP] Deporte bloqueado por tema delicado: Contundente comunicado de Rafa Mir tras ser condenado a 8 años y medio de cárcel por agresión sexual
+[2026-06-18 01:06:31 UTC] [SKIP] Deporte bloqueado por tema delicado: Puedes ganar mucho dinero: los cromos del Mundial que debes conseguir y guardar bajo llave
+[2026-06-18 01:06:31 UTC] [SKIP] Deporte bloqueado por tema delicado: Rafa Mir, condenado a 8 años y medio de cárcel por agresión sexual
+[2026-06-18 01:06:31 UTC] [INFO] Candidatos fútbol encontrados en Mundo Deportivo: 15
+[2026-06-18 01:06:31 UTC] [SKIP] Ya procesado: Dalic:"Sabíamos que las jugadas a balón parado iban a ser un peligro"
+[2026-06-18 01:06:31 UTC] [SKIP] Ya procesado: El Cornellà de Messi crea su primer equipo femenino
+[2026-06-18 01:06:31 UTC] [SKIP] Ya procesado: "Hay nervios por el lado de Cristiano Ronaldo"
+[2026-06-18 01:06:31 UTC] [SKIP] Ya procesado: Rafa Mir no podrá jugar en LaLiga española durante dos años
+[2026-06-18 01:06:31 UTC] [SKIP] Ya procesado: De Burgos, a corazón abierto: “Lloré mucho porque no estuve a la altura en mi primer Clásico”
+[2026-06-18 01:06:31 UTC] [SKIP] Ya procesado: Ez Abde se tratará en Francia de su lesión de rodilla
+[2026-06-18 01:06:31 UTC] [SKIP] Ya procesado: Muniain escala un peldaño en su carrera como entrenador: este es su nuevo club
+[2026-06-18 01:06:31 UTC] [SKIP] Ya procesado: El Betis retoma el interés por Fran García
+[2026-06-18 01:06:31 UTC] [SKIP] Ya procesado: Enner Valencia lo tiene claro: "No vamos a cambiar"
+[2026-06-18 01:06:31 UTC] [SKIP] Ya procesado: Beccacece; "Es el comienzo y hay que seguir trabajando"
+[2026-06-18 01:06:31 UTC] [SKIP] Ya procesado: ¡Cambio de fecha de la Supercopa de España hasta la temporada 2029-2030!
+[2026-06-18 01:06:31 UTC] [INFO] Procesando: Saibari: "Si perdonas contra un grande, lo pagas caro"
+[2026-06-18 01:06:31 UTC] [INFO] URL: https://www.mundodeportivo.com/futbol/20260614/1004194839/saibari-perdonas-grande-pagas-caro.html
+[2026-06-18 01:06:31 UTC] [IA] Intentando con GROQ...
+[2026-06-18 01:06:33 UTC] [IA ERROR] GROQ falló: Invalid control character at: line 4 column 12 (char 134)
+[2026-06-18 01:06:33 UTC] [IA] Intentando con MISTRAL...
+[2026-06-18 01:06:44 UTC] [IA OK] Artículo generado con MISTRAL
+[2026-06-18 01:06:44 UTC] [OK] Artículo creado: src/content/noticias/saibari-analiza-el-empate-de-marruecos-con-brasil-en-el-mundial-2026-y-advierte--2026-06-18-da12a3.md
+[2026-06-18 01:06:44 UTC] [INFO] Procesando: De Jong: "No estamos en crisis, mañana tendrán razones para ser optimistas"
+[2026-06-18 01:06:44 UTC] [INFO] URL: https://www.mundodeportivo.com/futbol/20260614/1004194832/jong-no-crisis-manana-tendran-razones-optimistas.html
+[2026-06-18 01:06:44 UTC] [IA] Intentando con GROQ...
+[2026-06-18 01:06:46 UTC] [IA ERROR] GROQ falló: Invalid control character at: line 4 column 12 (char 139)
+[2026-06-18 01:06:46 UTC] [IA] Intentando con MISTRAL...
+[2026-06-18 01:06:54 UTC] [IA OK] Artículo generado con MISTRAL
+[2026-06-18 01:06:54 UTC] [OK] Artículo creado: src/content/noticias/frenkie-de-jong-defiende-a-paises-bajos-no-hay-crisis-manana-tendran-razones-par-2026-06-18-3dbb6f.md
+[2026-06-18 01:06:54 UTC] [INFO] Procesando: Advocaat: "Sigo entrenando porque me gusta, no por el dinero"
+[2026-06-18 01:06:54 UTC] [INFO] URL: https://www.mundodeportivo.com/futbol/20260614/1004194831/advocaat-sigo-entrenando-me-gusta-no-dinero.html
+[2026-06-18 01:06:55 UTC] [IA] Intentando con GROQ...
+[2026-06-18 01:06:57 UTC] [IA ERROR] GROQ falló: Invalid control character at: line 4 column 12 (char 164)
+[2026-06-18 01:06:57 UTC] [IA] Intentando con MISTRAL...
+[2026-06-18 01:07:06 UTC] [IA OK] Artículo generado con MISTRAL
+[2026-06-18 01:07:06 UTC] [OK] Artículo creado: src/content/noticias/dick-advocaat-a-sus-78-anos-entreno-por-pasion-no-por-el-dinero-en-el-mundial-20-2026-06-18-04a9e9.md
+[2026-06-18 01:07:06 UTC] [INFO] Procesando: Koeman: "Nosotros mismos nos ponemos el listón alto"
+[2026-06-18 01:07:06 UTC] [INFO] URL: https://www.mundodeportivo.com/futbol/20260614/1004194828/koeman-ponemos-liston-alto.html
+[2026-06-18 01:07:07 UTC] [IA] Intentando con GROQ...
+[2026-06-18 01:07:09 UTC] [IA ERROR] GROQ falló: Invalid control character at: line 4 column 12 (char 174)
+[2026-06-18 01:07:09 UTC] [IA] Intentando con MISTRAL...
+[2026-06-18 01:07:16 UTC] [IA OK] Artículo generado con MISTRAL
+[2026-06-18 01:07:16 UTC] [OK] Artículo creado: src/content/noticias/koeman-nos-ponemos-el-liston-alto-en-el-mundial-2026-con-paises-bajos-2026-06-18-1b523e.md
+[2026-06-18 01:07:16 UTC] [INFO] Grupo sports: 4 artículos creados
+[2026-06-18 01:07:16 UTC] --- Procesando grupo: movies ---
+[2026-06-18 01:07:16 UTC] [INFO] Películas actuales con imagen y tráiler: 3. Faltan 7 para llegar a 10.
+[2026-06-18 01:07:16 UTC] [INFO] Candidatos de películas encontrados en SensaCine: 28
+[2026-06-18 01:07:16 UTC] [INFO] Candidatos de películas encontrados en SensaCine: 35
+[2026-06-18 01:07:16 UTC] [INFO] Candidatos de películas encontrados en SensaCine: 24
+[2026-06-18 01:07:16 UTC] [INFO] Procesando: Dreams
+[2026-06-18 01:07:16 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-320123/
+[2026-06-18 01:07:17 UTC] [OK] Tráiler encontrado: Dreams - Trailer español
+[2026-06-18 01:07:17 UTC] [IA] Intentando con GEMINI...
+[2026-06-18 01:07:17 UTC] [IA QUOTA] GEMINI sin cuota o con límite: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 42.416401563s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '42s'}]}}
+[2026-06-18 01:07:17 UTC] [IA] Intentando con OPENAI...
+[2026-06-18 01:07:20 UTC] [IA QUOTA] OPENAI sin cuota o con límite: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+[2026-06-18 01:07:20 UTC] [IA] Intentando con MISTRAL...
+[2026-06-18 01:07:29 UTC] [IA OK] Artículo generado con MISTRAL
+[2026-06-18 01:07:29 UTC] [OK] Artículo creado: src/content/blog/dreams-2023-pelicula-de-estreno-sobre-amor-sacrificio-y-ambicion-en-el-ballet-te-2026-06-18-0422b7.md
+[2026-06-18 01:07:29 UTC] [SKIP] Ya procesado: Habitación nº13
+[2026-06-18 01:07:29 UTC] [INFO] Procesando: El placer es mío
+[2026-06-18 01:07:29 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-1000027807/
+[2026-06-18 01:07:29 UTC] [OK] Tráiler encontrado: El placer es mío | Tráiler oficial en español | 19 de junio en cines
+[2026-06-18 01:07:29 UTC] [IA] Intentando con GEMINI...
+[2026-06-18 01:07:29 UTC] [IA QUOTA] GEMINI sin cuota o con límite: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 30.20317321s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '30s'}]}}
+[2026-06-18 01:07:29 UTC] [IA] Intentando con OPENAI...
+[2026-06-18 01:07:31 UTC] [IA QUOTA] OPENAI sin cuota o con límite: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+[2026-06-18 01:07:31 UTC] [IA] Intentando con MISTRAL...
+[2026-06-18 01:07:40 UTC] [IA OK] Artículo generado con MISTRAL
+[2026-06-18 01:07:40 UTC] [OK] Artículo creado: src/content/blog/el-placer-es-mio-una-comedia-romantica-sobre-el-amor-los-secretos-y-la-intimidad-2026-06-18-0652fe.md
+[2026-06-18 01:07:40 UTC] [SKIP] Ya procesado: Viva
+[2026-06-18 01:07:40 UTC] [INFO] Procesando: Antes del amor
+[2026-06-18 01:07:40 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-1000040583/
+[2026-06-18 01:07:40 UTC] [OK] Tráiler encontrado: ANTES DEL AMOR - TRAILER
+[2026-06-18 01:07:40 UTC] [IA] Intentando con GEMINI...
+[2026-06-18 01:07:40 UTC] [IA QUOTA] GEMINI sin cuota o con límite: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 19.24745776s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '19s'}]}}
+[2026-06-18 01:07:40 UTC] [IA] Intentando con OPENAI...
+[2026-06-18 01:07:42 UTC] [IA QUOTA] OPENAI sin cuota o con límite: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+[2026-06-18 01:07:42 UTC] [IA] Intentando con MISTRAL...
+[2026-06-18 01:07:52 UTC] [IA OK] Artículo generado con MISTRAL
+[2026-06-18 01:07:52 UTC] [OK] Artículo creado: src/content/blog/antes-del-amor-drama-romantico-que-cuestiona-la-fidelidad-y-el-deseo-telelatino-2026-06-18-f56d2b.md
+[2026-06-18 01:07:52 UTC] [INFO] Procesando: Caso 137
+[2026-06-18 01:07:52 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-1000008860/
+[2026-06-18 01:07:52 UTC] [OK] Tráiler encontrado: Trailer de Caso 137 subtitulado en español (HD)
+[2026-06-18 01:07:52 UTC] [IA] Intentando con GEMINI...
+[2026-06-18 01:07:52 UTC] [IA QUOTA] GEMINI sin cuota o con límite: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 7.263227275s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '7s'}]}}
+[2026-06-18 01:07:52 UTC] [IA] Intentando con OPENAI...
+[2026-06-18 01:07:54 UTC] [IA QUOTA] OPENAI sin cuota o con límite: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+[2026-06-18 01:07:54 UTC] [IA] Intentando con MISTRAL...
+[2026-06-18 01:08:02 UTC] [IA ERROR] MISTRAL falló: Expecting property name enclosed in double quotes: line 4 column 3932 (char 4182)
+[2026-06-18 01:08:02 UTC] [IA] Intentando con GROQ...
+[2026-06-18 01:08:04 UTC] [IA ERROR] GROQ falló: Invalid control character at: line 4 column 12 (char 166)
+[2026-06-18 01:08:04 UTC] [ERROR] Todas las IA fallaron: Ningún proveedor de IA pudo generar el artículo. Último error: Invalid control character at: line 4 column 12 (char 166)
+[2026-06-18 01:08:04 UTC] [INFO] Procesando: 15 Pruebas de amor
+[2026-06-18 01:08:04 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-317105/
+[2026-06-18 01:08:05 UTC] [OK] Tráiler encontrado: 15 PRUEBAS DE AMOR | Tráiler Oficial VOSE
+[2026-06-18 01:08:05 UTC] [IA] Intentando con GEMINI...
+[2026-06-18 01:08:05 UTC] [IA QUOTA] GEMINI sin cuota o con límite: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 54.722404296s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '54s'}]}}
+[2026-06-18 01:08:05 UTC] [IA] Intentando con OPENAI...
+[2026-06-18 01:08:06 UTC] [IA QUOTA] OPENAI sin cuota o con límite: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+[2026-06-18 01:08:06 UTC] [IA] Intentando con MISTRAL...
+[2026-06-18 01:08:16 UTC] [IA OK] Artículo generado con MISTRAL
+[2026-06-18 01:08:16 UTC] [OK] Artículo creado: src/content/blog/15-pruebas-de-amor-una-pelicula-conmovedora-sobre-maternidad-y-aceptacion-telela-2026-06-18-de3f5b.md
+[2026-06-18 01:08:16 UTC] [SKIP] Ya procesado: Bajo el mismo sol
+[2026-06-18 01:08:16 UTC] [INFO] Procesando: La quinta
+[2026-06-18 01:08:16 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-1000016382/
+[2026-06-18 01:08:16 UTC] [OK] Tráiler encontrado: LA QUINTA OLA - Tráiler Oficial en ESPAÑOL | Sony Pictures España
+[2026-06-18 01:08:16 UTC] [IA] Intentando con GEMINI...
+[2026-06-18 01:08:16 UTC] [IA QUOTA] GEMINI sin cuota o con límite: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 43.15105214s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '43s'}]}}
+[2026-06-18 01:08:16 UTC] [IA] Intentando con OPENAI...
+[2026-06-18 01:08:18 UTC] [IA QUOTA] OPENAI sin cuota o con límite: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+[2026-06-18 01:08:18 UTC] [IA] Intentando con MISTRAL...
+[2026-06-18 01:08:26 UTC] [IA OK] Artículo generado con MISTRAL
+[2026-06-18 01:08:26 UTC] [OK] Artículo creado: src/content/blog/la-quinta-estreno-de-terror-psicologico-con-intriga-familiar-en-telelatino-2026-06-18-44b86b.md
+[2026-06-18 01:08:26 UTC] [SKIP] Ya procesado: Obsession
+[2026-06-18 01:08:26 UTC] [INFO] Procesando: Cartelera y Entrada (52)
+[2026-06-18 01:08:26 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-320123/sesiones/
+[2026-06-18 01:08:27 UTC] [SKIP] No hay texto suficiente para generar artículo.
+[2026-06-18 01:08:27 UTC] [INFO] Procesando: Cartelera y Entrada (30)
+[2026-06-18 01:08:27 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-1000021585/sesiones/
+[2026-06-18 01:08:29 UTC] [SKIP] No hay texto suficiente para generar artículo.
+[2026-06-18 01:08:29 UTC] [INFO] Procesando: Cartelera y Entrada (72)
+[2026-06-18 01:08:29 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-1000027807/sesiones/
+[2026-06-18 01:08:30 UTC] [SKIP] No hay texto suficiente para generar artículo.
+[2026-06-18 01:08:30 UTC] [INFO] Procesando: Cartelera y Entrada (70)
+[2026-06-18 01:08:30 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-1000029139/sesiones/
+[2026-06-18 01:08:30 UTC] [SKIP] No hay texto suficiente para generar artículo.
+[2026-06-18 01:08:30 UTC] [INFO] Procesando: Cartelera y Entrada (15)
+[2026-06-18 01:08:30 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-1000008860/sesiones/
+[2026-06-18 01:08:31 UTC] [SKIP] No hay texto suficiente para generar artículo.
+[2026-06-18 01:08:31 UTC] [INFO] Procesando: Cartelera y Entrada (7)
+[2026-06-18 01:08:31 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-317105/sesiones/
+[2026-06-18 01:08:32 UTC] [SKIP] No hay texto suficiente para generar artículo.
+[2026-06-18 01:08:32 UTC] [INFO] Procesando: Cartelera y Entrada (10)
+[2026-06-18 01:08:32 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-1000028847/sesiones/
+[2026-06-18 01:08:33 UTC] [SKIP] No hay texto suficiente para generar artículo.
+[2026-06-18 01:08:33 UTC] [INFO] Procesando: Buffalo Kids
+[2026-06-18 01:08:33 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-1000002107/
+[2026-06-18 01:08:34 UTC] [OK] Tráiler encontrado: Buffalo Kids (2024) Tráiler Oficial Español
+[2026-06-18 01:08:34 UTC] [IA] Intentando con GEMINI...
+[2026-06-18 01:08:34 UTC] [IA QUOTA] GEMINI sin cuota o con límite: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 25.74657054s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '25s'}]}}
+[2026-06-18 01:08:34 UTC] [IA] Intentando con OPENAI...
+[2026-06-18 01:08:35 UTC] [IA QUOTA] OPENAI sin cuota o con límite: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+[2026-06-18 01:08:35 UTC] [IA] Intentando con MISTRAL...
+[2026-06-18 01:08:43 UTC] [IA OK] Artículo generado con MISTRAL
+[2026-06-18 01:08:43 UTC] [OK] Artículo creado: src/content/blog/buffalo-kids-una-aventura-del-salvaje-oeste-en-la-gran-pantalla-2026-06-18-2be88a.md
+[2026-06-18 01:08:43 UTC] [INFO] Procesando: Queer
+[2026-06-18 01:08:43 UTC] [INFO] URL: https://www.sensacine.com/peliculas/pelicula-199453/
+[2026-06-18 01:08:44 UTC] [OK] Tráiler encontrado: Queer | Official Trailer HD | A24
+[2026-06-18 01:08:44 UTC] [IA] Intentando con GEMINI...
+[2026-06-18 01:08:44 UTC] [IA QUOTA] GEMINI sin cuota o con límite: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 15.459913809s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '15s'}]}}
+[2026-06-18 01:08:44 UTC] [IA] Intentando con OPENAI...
+[2026-06-18 01:08:46 UTC] [IA QUOTA] OPENAI sin cuota o con límite: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+[2026-06-18 01:08:46 UTC] [IA] Intentando con MISTRAL...
+[2026-06-18 01:08:55 UTC] [IA OK] Artículo generado con MISTRAL
+[2026-06-18 01:08:55 UTC] [OK] Artículo creado: src/content/blog/pelicula-queer-2024-sinopsis-estreno-y-donde-verla-en-streaming-2026-06-18-100c73.md
+[2026-06-18 01:08:55 UTC] [INFO] Grupo movies: 7 artículos creados
+[2026-06-18 01:08:55 UTC] >>> PROCESO FINALIZADO. ARTÍCULOS CREADOS: 11 <<<
