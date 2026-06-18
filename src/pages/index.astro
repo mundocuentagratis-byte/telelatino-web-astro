@@ -1,6 +1,7 @@
 ﻿---
 import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import HomeSeoContent from "../components/HomeSeoContent.astro";
 import { appConfig } from "../data/app";
 
 const movies = (await getCollection("blog"))
@@ -23,7 +24,7 @@ const formatDate = (date: Date) =>
 ---
 
 <BaseLayout
-  title={`${appConfig.name} | Canales en vivo, deportes y pelÃ­culas para Android`}
+  title="TELELATINO | TV y Películas Android"
   description="Descarga TELELATINO para Android. Disfruta canales en vivo, deportes, películas y 7 días de prueba gratis."
 >
   <main>
@@ -34,12 +35,12 @@ const formatDate = (date: Date) =>
         <div class="hero-copy">
           <span class="eyebrow">Disponible para Android</span>
 
-          <h1>Canales en vivo, deportes y pelÃ­culas en una sola app.</h1>
+          <h1>Canales en vivo, deportes y películas en una sola app.</h1>
 
           <p>
             {appConfig.name} es una app de entretenimiento para Android pensada
-            para encontrar rÃ¡pido lo que mÃ¡s buscas: canales principales, eventos
-            deportivos, pelÃ­culas y estrenos, sin contenido excesivo ni
+            para encontrar rápido lo que más buscas: canales principales, eventos
+            deportivos, películas y estrenos, sin contenido excesivo ni
             complicaciones.
           </p>
 
@@ -59,7 +60,7 @@ const formatDate = (date: Date) =>
 
           <div class="hero-stats">
             <div>
-              <strong>{appConfig.trial.days} dÃ­as</strong>
+              <strong>{appConfig.trial.days} días</strong>
               <span>Prueba gratis</span>
             </div>
 
@@ -70,17 +71,17 @@ const formatDate = (date: Date) =>
 
             <div>
               <strong>Android</strong>
-              <span>App mÃ³vil</span>
+              <span>App móvil</span>
             </div>
           </div>
         </div>
 
-        <div class="hero-card" aria-label="PresentaciÃ³n de TELELATINO">
+        <div class="hero-card" aria-label="Presentación de TELELATINO">
           <div class="phone-frame">
             <img src={appConfig.image} alt="TELELATINO para Android" />
-            <h2>Entretenimiento fÃ¡cil desde tu mÃ³vil</h2>
+            <h2>Entretenimiento fácil desde tu móvil</h2>
             <p>
-              Canales en vivo, deportes, pelÃ­culas y estrenos en una experiencia
+              Canales en vivo, deportes, películas y estrenos en una experiencia
               simple para Android.
             </p>
           </div>
@@ -88,7 +89,7 @@ const formatDate = (date: Date) =>
           <ul class="hero-list">
             <li>Canales principales en vivo</li>
             <li>Eventos deportivos destacados</li>
-            <li>PelÃ­culas y estrenos fÃ¡ciles de encontrar</li>
+            <li>Películas y estrenos fáciles de encontrar</li>
           </ul>
         </div>
       </div>
@@ -98,22 +99,22 @@ const formatDate = (date: Date) =>
       <div class="container">
         <div class="section-heading">
           <span class="eyebrow">Contenido actualizado</span>
-          <h2>PelÃ­culas y noticias destacadas.</h2>
+          <h2>Películas y noticias destacadas.</h2>
           <p>
-            Entra rÃ¡pido a las secciones principales: pelÃ­culas recientes y
-            noticias deportivas. Cada tarjeta te lleva a la secciÃ³n completa, no
-            a un solo artÃ­culo.
+            Entra rápido a las secciones principales: películas recientes y
+            noticias deportivas. Cada tarjeta te lleva a la sección completa, no
+            a un solo artículo.
           </p>
         </div>
 
         <div class="preview-grid">
-          <a class="preview-card movie-preview" href="/blog/" aria-label="Ver pelÃ­culas">
+          <a class="preview-card movie-preview" href="/blog/" aria-label="Ver películas">
             <div class="preview-image">
               <img
                 src={featuredMovie?.data.image || appConfig.image}
-                alt={featuredMovie?.data.imageAlt || "PelÃ­culas en TELELATINO"}
+                alt={featuredMovie?.data.imageAlt || "Películas en TELELATINO"}
               />
-              <span>PelÃ­culas</span>
+              <span>Películas</span>
             </div>
 
             <div class="preview-content">
@@ -122,15 +123,15 @@ const formatDate = (date: Date) =>
               </small>
 
               <h3>
-                {featuredMovie?.data.title || "PelÃ­culas recientes y estrenos"}
+                {featuredMovie?.data.title || "Películas recientes y estrenos"}
               </h3>
 
               <p>
                 {featuredMovie?.data.description ||
-                  "Encuentra pelÃ­culas recientes, estrenos y recomendaciones para disfrutar desde Android."}
+                  "Encuentra películas recientes, estrenos y recomendaciones para disfrutar desde Android."}
               </p>
 
-              <strong>Ver pelÃ­culas</strong>
+              <strong>Ver películas</strong>
             </div>
           </a>
 
@@ -154,7 +155,7 @@ const formatDate = (date: Date) =>
 
               <p>
                 {featuredNews?.data.description ||
-                  "Consulta noticias deportivas, eventos destacados y novedades del mundo del fÃºtbol."}
+                  "Consulta noticias deportivas, eventos destacados y novedades del mundo del fútbol."}
               </p>
 
               <strong>Ver noticias</strong>
@@ -168,10 +169,10 @@ const formatDate = (date: Date) =>
       <div class="container">
         <div class="section-heading">
           <span class="eyebrow">Beneficios</span>
-          <h2>Entretenimiento simple, rÃ¡pido y pensado para mÃ³viles.</h2>
+          <h2>Entretenimiento simple, rápido y pensado para móviles.</h2>
           <p>
-            TELELATINO estÃ¡ enfocada en lo que mÃ¡s se busca: canales principales,
-            eventos deportivos, pelÃ­culas y estrenos, sin llenar la app de
+            TELELATINO está enfocada en lo que más se busca: canales principales,
+            eventos deportivos, películas y estrenos, sin llenar la app de
             contenido innecesario.
           </p>
         </div>
@@ -179,7 +180,7 @@ const formatDate = (date: Date) =>
         <div class="benefits-grid">
           {appConfig.benefits.map((benefit) => (
             <article class="benefit-card">
-              <div class="benefit-icon">â–¶</div>
+              <div class="benefit-icon">▶</div>
               <h3>{benefit.title}</h3>
               <p>{benefit.description}</p>
             </article>
@@ -192,12 +193,12 @@ const formatDate = (date: Date) =>
       <div class="container content-grid">
         <div>
           <span class="eyebrow">Contenido destacado</span>
-          <h2>Encuentra rÃ¡pido canales, deportes, pelÃ­culas y estrenos.</h2>
+          <h2>Encuentra rápido canales, deportes, películas y estrenos.</h2>
           <p>
-            La experiencia de TELELATINO estÃ¡ pensada para usuarios que quieren
-            abrir la app y encontrar lo importante sin perder tiempo. Todo estÃ¡
-            orientado a mÃ³viles Android, con acceso a contenido popular y
-            secciones fÃ¡ciles de usar.
+            La experiencia de TELELATINO está pensada para usuarios que quieren
+            abrir la app y encontrar lo importante sin perder tiempo. Todo está
+            orientado a móviles Android, con acceso a contenido popular y
+            secciones fáciles de usar.
           </p>
 
           <div class="feature-list">
@@ -213,18 +214,18 @@ const formatDate = (date: Date) =>
 
             <div>
               <span>03</span>
-              <strong>PelÃ­culas, estrenos y entretenimiento</strong>
+              <strong>Películas, estrenos y entretenimiento</strong>
             </div>
           </div>
         </div>
 
         <div class="info-card">
-          <h3>DiseÃ±ada para Android</h3>
+          <h3>Diseñada para Android</h3>
 
           <p>
-            TELELATINO estÃ¡ disponible para dispositivos Android. Su objetivo es
-            ofrecer una experiencia mÃ³vil sencilla, directa y enfocada en el
-            entretenimiento que mÃ¡s buscan los usuarios.
+            TELELATINO está disponible para dispositivos Android. Su objetivo es
+            ofrecer una experiencia móvil sencilla, directa y enfocada en el
+            entretenimiento que más buscan los usuarios.
           </p>
 
           <div class="info-row">
@@ -234,7 +235,7 @@ const formatDate = (date: Date) =>
 
           <div class="info-row">
             <span>Prueba gratis</span>
-            <strong>{appConfig.trial.days} dÃ­as</strong>
+            <strong>{appConfig.trial.days} días</strong>
           </div>
 
           <div class="info-row">
@@ -245,14 +246,16 @@ const formatDate = (date: Date) =>
       </div>
     </section>
 
+    <HomeSeoContent />
+
     <section id="planes" class="plans-section">
       <div class="container">
         <div class="section-heading">
           <span class="eyebrow">Planes</span>
-          <h2>Empieza con prueba gratis y continÃºa con el plan VIP.</h2>
+          <h2>Empieza con prueba gratis y continúa con el plan VIP.</h2>
           <p>
             Al registrarte en TELELATINO puedes obtener {appConfig.trial.text}.
-            DespuÃ©s tienes la opciÃ³n de acceder al plan VIP de {appConfig.vipPlan.duration}
+            Después tienes la opción de acceder al plan VIP de {appConfig.vipPlan.duration}
             por solo {appConfig.vipPlan.price}.
           </p>
         </div>
@@ -262,8 +265,8 @@ const formatDate = (date: Date) =>
             <span class="plan-badge">Plan VIP</span>
             <h3>{appConfig.vipPlan.text}</h3>
             <p>
-              Una opciÃ³n econÃ³mica para seguir disfrutando canales en vivo,
-              eventos deportivos, pelÃ­culas y estrenos desde tu mÃ³vil Android.
+              Una opción económica para seguir disfrutando canales en vivo,
+              eventos deportivos, películas y estrenos desde tu móvil Android.
             </p>
           </div>
 
@@ -298,9 +301,9 @@ const formatDate = (date: Date) =>
     position: absolute;
     inset: 0;
     background:
-      radial-gradient(circle at 78% 18%, rgba(255, 197, 71, 0.18), transparent 30%),
-      radial-gradient(circle at 20% 28%, rgba(46, 201, 255, 0.13), transparent 32%),
-      linear-gradient(180deg, rgba(6, 27, 47, 0.35), rgba(4, 13, 28, 0.1));
+      radial-gradient(circle at 78% 18%, rgba(255, 197, 71, 0.14), transparent 30%),
+      radial-gradient(circle at 20% 28%, rgba(46, 201, 255, 0.1), transparent 32%),
+      linear-gradient(180deg, rgba(6, 27, 47, 0.28), rgba(4, 13, 28, 0.08));
     pointer-events: none;
   }
 
@@ -336,9 +339,9 @@ const formatDate = (date: Date) =>
   .hero-copy h1 {
     max-width: 660px;
     margin-bottom: 20px;
-    font-size: clamp(3.1rem, 7vw, 6.7rem);
-    line-height: 0.9;
-    letter-spacing: -0.085em;
+    font-size: clamp(3rem, 6.4vw, 6rem);
+    line-height: 0.93;
+    letter-spacing: -0.075em;
   }
 
   .hero-copy p {
@@ -364,26 +367,18 @@ const formatDate = (date: Date) =>
     border-radius: 999px;
     font-weight: 900;
     text-decoration: none;
-    transition:
-      transform 0.2s ease,
-      box-shadow 0.2s ease,
-      background 0.2s ease;
-  }
-
-  .btn:hover {
-    transform: translateY(-2px);
   }
 
   .btn-primary {
     background: linear-gradient(180deg, #ffe47c 0%, #f3c747 100%);
     color: #171717;
-    box-shadow: 0 14px 32px rgba(255, 198, 69, 0.28);
+    box-shadow: 0 10px 26px rgba(255, 198, 69, 0.22);
   }
 
   .btn-secondary {
-    background: rgba(255, 255, 255, 0.16);
+    background: rgba(255, 255, 255, 0.14);
     color: #ffffff;
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    border: 1px solid rgba(255, 255, 255, 0.16);
   }
 
   .hero-stats {
@@ -397,8 +392,8 @@ const formatDate = (date: Date) =>
   .hero-stats div {
     padding: 16px;
     border-radius: 18px;
-    background: rgba(255, 255, 255, 0.12);
-    border: 1px solid rgba(255, 255, 255, 0.16);
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.14);
   }
 
   .hero-stats strong {
@@ -419,10 +414,9 @@ const formatDate = (date: Date) =>
     padding: 24px;
     border-radius: 34px;
     background:
-      radial-gradient(circle at top right, rgba(255, 216, 111, 0.2), transparent 30%),
-      rgba(255, 255, 255, 0.08);
-    border: 1px solid rgba(255, 255, 255, 0.16);
-    box-shadow: 0 24px 80px rgba(0, 0, 0, 0.28);
+      radial-gradient(circle at top right, rgba(255, 216, 111, 0.16), transparent 30%),
+      rgba(255, 255, 255, 0.075);
+    border: 1px solid rgba(255, 255, 255, 0.15);
   }
 
   .phone-frame {
@@ -430,7 +424,7 @@ const formatDate = (date: Date) =>
     border-radius: 30px;
     background:
       linear-gradient(180deg, rgba(7, 31, 53, 0.35), rgba(4, 15, 31, 0.86)),
-      radial-gradient(circle at 50% 0%, rgba(255, 197, 71, 0.22), transparent 42%);
+      radial-gradient(circle at 50% 0%, rgba(255, 197, 71, 0.18), transparent 42%);
     text-align: center;
   }
 
@@ -439,14 +433,13 @@ const formatDate = (date: Date) =>
     height: 150px;
     border-radius: 34px;
     object-fit: cover;
-    box-shadow: 0 20px 60px rgba(255, 198, 69, 0.24);
   }
 
   .phone-frame h2 {
     margin: 24px auto 10px;
     max-width: 360px;
-    font-size: clamp(2rem, 4vw, 3.1rem);
-    line-height: 0.98;
+    font-size: clamp(2rem, 4vw, 3rem);
+    line-height: 1;
     letter-spacing: -0.055em;
   }
 
@@ -466,7 +459,7 @@ const formatDate = (date: Date) =>
   .hero-list li {
     padding: 14px 16px;
     border-radius: 16px;
-    background: rgba(111, 214, 255, 0.12);
+    background: rgba(111, 214, 255, 0.1);
     color: rgba(255, 255, 255, 0.88);
     font-weight: 800;
   }
@@ -480,8 +473,8 @@ const formatDate = (date: Date) =>
 
   .preview-section {
     background:
-      radial-gradient(circle at top left, rgba(255, 197, 71, 0.12), transparent 32%),
-      rgba(255, 255, 255, 0.025);
+      radial-gradient(circle at top left, rgba(255, 197, 71, 0.1), transparent 32%),
+      rgba(255, 255, 255, 0.022);
   }
 
   .section-heading {
@@ -492,9 +485,9 @@ const formatDate = (date: Date) =>
 
   .section-heading h2 {
     margin-bottom: 16px;
-    font-size: clamp(2.4rem, 5vw, 4.8rem);
-    line-height: 0.98;
-    letter-spacing: -0.065em;
+    font-size: clamp(2.2rem, 4.5vw, 4rem);
+    line-height: 1.04;
+    letter-spacing: -0.058em;
   }
 
   .section-heading p {
@@ -513,26 +506,15 @@ const formatDate = (date: Date) =>
     overflow: hidden;
     border-radius: 30px;
     background:
-      linear-gradient(180deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.07));
-    border: 1px solid rgba(255, 255, 255, 0.16);
+      linear-gradient(180deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.065));
+    border: 1px solid rgba(255, 255, 255, 0.15);
     text-decoration: none;
     color: #ffffff;
-    box-shadow: 0 22px 70px rgba(0, 0, 0, 0.2);
-    transition:
-      transform 0.2s ease,
-      border-color 0.2s ease,
-      box-shadow 0.2s ease;
-  }
-
-  .preview-card:hover {
-    transform: translateY(-4px);
-    border-color: rgba(255, 214, 108, 0.55);
-    box-shadow: 0 28px 80px rgba(0, 0, 0, 0.28);
   }
 
   .preview-image {
     position: relative;
-    height: 260px;
+    height: 250px;
     overflow: hidden;
     background: rgba(255, 255, 255, 0.08);
   }
@@ -541,8 +523,7 @@ const formatDate = (date: Date) =>
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.82;
-    transform: scale(1.02);
+    opacity: 0.84;
   }
 
   .preview-image::after {
@@ -580,9 +561,9 @@ const formatDate = (date: Date) =>
 
   .preview-content h3 {
     margin-bottom: 12px;
-    font-size: clamp(1.65rem, 3vw, 2.6rem);
-    line-height: 1;
-    letter-spacing: -0.05em;
+    font-size: clamp(1.55rem, 3vw, 2.25rem);
+    line-height: 1.08;
+    letter-spacing: -0.045em;
   }
 
   .preview-content p {
@@ -606,8 +587,8 @@ const formatDate = (date: Date) =>
   .info-card,
   .plan-card {
     border-radius: 26px;
-    background: rgba(255, 255, 255, 0.09);
-    border: 1px solid rgba(255, 255, 255, 0.16);
+    background: rgba(255, 255, 255, 0.075);
+    border: 1px solid rgba(255, 255, 255, 0.14);
   }
 
   .benefit-card {
@@ -649,9 +630,9 @@ const formatDate = (date: Date) =>
   .content-grid h2 {
     max-width: 680px;
     margin-bottom: 18px;
-    font-size: clamp(2.5rem, 5vw, 5rem);
-    line-height: 0.98;
-    letter-spacing: -0.065em;
+    font-size: clamp(2.2rem, 4.6vw, 4.3rem);
+    line-height: 1.04;
+    letter-spacing: -0.058em;
   }
 
   .content-grid p {
@@ -673,7 +654,7 @@ const formatDate = (date: Date) =>
     gap: 14px;
     padding: 16px 18px;
     border-radius: 16px;
-    background: rgba(111, 214, 255, 0.12);
+    background: rgba(111, 214, 255, 0.1);
   }
 
   .feature-list span {
