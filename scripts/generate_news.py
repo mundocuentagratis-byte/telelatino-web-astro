@@ -3,30 +3,41 @@ import os
 import re
 import hashlib
 import unicodedata
-from datetime import datetime, timezone, date
+from datetime import datetime, timezone, date, timedelta
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
-from google import genai
-from openai import OpenAI
-from mistralai import Mistral
+
+try:
+    from google import genai
+except Exception:
+    genai = None
+
+try:
+    from openai import OpenAI
+except Exception:
+    OpenAI = None
+
+try:
+    from mistralai import Mistral
+except Exception:
+    Mistral = None
 
 
 ROOT = Path(__file__).resolve().parents[1]
-
-SOURCES_PATH = ROOT / "scripts" / "sources.json"
-PROCESSED_PATH = ROOT / "scripts" / "processed_articles.json"
-REPORTS_DIR = ROOT / "scripts" / "reports"
-REPORT_PATH = REPORTS_DIR / "auto_news_report.txt"
-
+SCRIPTS_DIR = ROOT / "scripts"
+SOURCES_FILE = SCRIPTS_DIR / "sources.json"
+PROCESSED_FILE = SCRIPTS_DIR / "processed_articles.json"
+REPORTS_DIR = SCRIPTS_DIR / "reports"
+REPORT_FILE = REPORTS_DIR / "auto_news_report.txt"
 CONTENT_DIR = ROOT / "src" / "content"
-BLOG_DIR = CONTENT_DIR / "blog"
-NEWS_DIR = CONTENT_DIR / "noticias"
 
-SITE_NAME = "TELELATINO"
-AUTHOR = "TELELATINO"
+# Alias de compatibilidad para los scripts separados antiguos/nuevos.
+SOURCES_PATH = SOURCES_FILE
+PROCESSED_PATH = PROCESSED_FILE
+REPORT_PATH = REPORT_FILE
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
@@ -41,124 +52,176 @@ MISTRAL_MODEL = os.getenv("MISTRAL_MODEL", "mistral-small-latest")
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 COHERE_MODEL = os.getenv("COHERE_MODEL", "command-r")
 
-REQUEST_HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/125.0.0.0 Safari/537.36"
-    ),
-    "Accept-Language": "es-ES,es;q=0.9,en;q=0.7",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-}
+USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/126.0 Safari/537.36"
+)
 
-BLOCKED_TOPICS = [
+BLOCKED_TOPIC_WORDS = {
+    "abuso",
     "agresión sexual",
     "agresion sexual",
-    "abuso sexual",
     "violación",
     "violacion",
-    "condenado",
-    "condena",
     "cárcel",
     "carcel",
     "prisión",
     "prision",
-    "muerte",
-    "muere",
+    "condena",
+    "condenado",
     "fallece",
+    "falleció",
+    "murió",
+    "muerte",
     "asesinato",
-    "asesinado",
+    "violencia",
+    "apuesta",
     "apuestas",
     "casino",
+    "gambling",
     "cromos",
-    "lotería",
-    "loteria",
-    "onlyfans",
-]
+    "dinero",
+    "millones por",
+}
 
-MOVIE_BAD_TITLE_WORDS = [
-    "cartelera y entradas",
+BAD_MOVIE_TITLE_WORDS = {
     "cartelera",
+    "cartelera y entrada",
+    "entrada",
     "entradas",
     "sesiones",
-    "horarios",
-    "cines",
-    "tráiler",
     "trailer",
-    "vídeo",
-    "video",
+    "tráiler",
     "videos",
+    "vídeos",
+    "reparto",
     "críticas",
     "criticas",
     "fotos",
     "noticias",
     "streaming",
-    "reparto completo",
-    "taquilla",
-]
+}
 
-SPORTS_ALLOWED_DOMAINS = [
-    "mundodeportivo.com",
-]
+BAD_MOVIE_PATH_PARTS = {
+    "/sesiones/",
+    "/videos/",
+    "/video/",
+    "/trailer/",
+    "/trailers/",
+    "/criticas/",
+    "/critica/",
+    "/fotos/",
+    "/noticias/",
+    "/streaming/",
+    "/series/",
+    "/tv/",
+    "/cartelera/",
+}
 
-MOVIE_ALLOWED_DOMAINS = [
-    "sensacine.com",
-    "espinof.com",
-    "decine21.com",
-]
+SPORTS_TEXT_HINTS = {
+    "futbol",
+    "fútbol",
+    "mundial",
+    "copa",
+    "liga",
+    "champions",
+    "europa league",
+    "conference league",
+    "barcelona",
+    "barça",
+    "barca",
+    "real madrid",
+    "atletico",
+    "atlético",
+    "seleccion",
+    "selección",
+    "partido",
+    "jugador",
+    "equipo",
+    "entrenador",
+    "fichaje",
+    "lesion",
+    "lesión",
+    "debut",
+    "goleador",
+    "delantero",
+    "defensa",
+    "portero",
+    "centrocampista",
+    "balonmano",
+    "baloncesto",
+    "tenis",
+    "formula 1",
+    "fórmula 1",
+    "motogp",
+    "ciclismo",
+    "tour de francia",
+    "clasificacion",
+    "clasificación",
+}
 
-MOVIE_2026_HINTS = [
-    "2026",
-    "estreno 2026",
-    "película 2026",
-    "pelicula 2026",
-    "cine 2026",
-    "próximamente",
-    "proximamente",
+NON_SPORTS_TEXT_HINTS = {
+    "tecnologia",
+    "tecnología",
+    "auricular",
+    "traductor",
+    "viajes",
+    "cobertura asegurada",
+    "amazon",
+    "oferta",
+    "descuento",
+    "compra",
+    "smartphone",
+    "movil",
+    "móvil",
+    "horoscopo",
+    "horóscopo",
+    "receta",
+    "salud",
+    "moda",
+    "television",
+    "televisión",
+}
+
+MOVIE_LISTING_HINTS = {
     "estrenos",
-]
+    "peliculas-esperadas-2026",
+    "películas-esperadas-2026",
+    "mas-esperadas",
+    "más-esperadas",
+    "en-cartelera",
+}
 
-SPORTS_STYLE_OPENERS = [
-    "El fútbol vuelve a dejar una noticia con lectura clara para los aficionados.",
-    "La actualidad deportiva se mueve rápido y este tema ya empieza a generar conversación.",
-    "En una semana cargada de fútbol, esta noticia suma un nuevo detalle al panorama deportivo.",
-    "No todas las noticias deportivas pesan igual, pero algunas ayudan a entender el momento de un equipo.",
-    "La jornada deja un movimiento interesante dentro del fútbol y vale la pena mirarlo con calma.",
-]
-
-MOVIE_STYLE_OPENERS = [
-    "El calendario de cine sigue tomando forma y esta película empieza a ganar espacio entre los estrenos a seguir.",
-    "Cada temporada trae títulos que despiertan curiosidad antes de llegar a salas o plataformas.",
-    "Entre los próximos estrenos, esta película aparece como una de esas propuestas que vale la pena tener en el radar.",
-    "El cine de 2026 empieza a perfilar varios títulos llamativos, y este es uno de ellos.",
-    "Hay películas que llaman la atención no solo por su reparto o su historia, sino por la expectativa que generan antes del estreno.",
-]
-
-
-def ensure_dirs() -> None:
-    BLOG_DIR.mkdir(parents=True, exist_ok=True)
-    NEWS_DIR.mkdir(parents=True, exist_ok=True)
-    REPORTS_DIR.mkdir(parents=True, exist_ok=True)
-
-
-def reset_report() -> None:
-    ensure_dirs()
-    REPORT_PATH.write_text("", encoding="utf-8")
-
-
-def log(message: str) -> None:
-    print(message)
-    REPORTS_DIR.mkdir(parents=True, exist_ok=True)
-    with REPORT_PATH.open("a", encoding="utf-8") as f:
-        f.write(message + "\n")
-
-
-def write_report(message: str) -> None:
-    log(message)
+REPORT_LINES: list[str] = []
 
 
 def ensure_reports_dir() -> None:
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+
+
+def ensure_dirs() -> None:
+    ensure_reports_dir()
+    (CONTENT_DIR / "blog").mkdir(parents=True, exist_ok=True)
+    (CONTENT_DIR / "noticias").mkdir(parents=True, exist_ok=True)
+
+
+def reset_report() -> None:
+    ensure_reports_dir()
+    REPORT_LINES.clear()
+    REPORT_FILE.write_text("", encoding="utf-8")
+
+
+def write_report(message: str) -> None:
+    print(message)
+    REPORT_LINES.append(message)
+    ensure_reports_dir()
+    REPORT_FILE.write_text("\n".join(REPORT_LINES) + "\n", encoding="utf-8")
+
+
+# Alias para scripts que llaman core.log(...)
+def log(message: str) -> None:
+    write_report(message)
 
 
 def load_json(path: Path, default):
@@ -173,271 +236,241 @@ def load_json(path: Path, default):
 
 def save_json(path: Path, data) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(
-        json.dumps(data, ensure_ascii=False, indent=2),
-        encoding="utf-8",
-    )
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def clean_text(text: str) -> str:
-    if not text:
+def clean_text(value: str) -> str:
+    if not value:
         return ""
 
-    text = str(text)
+    text = BeautifulSoup(str(value), "html.parser").get_text(" ")
     text = text.replace("\xa0", " ")
     text = re.sub(r"\s+", " ", text)
-
     return text.strip()
 
 
-def strip_accents(text: str) -> str:
-    if not text:
-        return ""
-
-    text = unicodedata.normalize("NFD", text)
-    text = "".join(ch for ch in text if unicodedata.category(ch) != "Mn")
-
-    return text
+def strip_accents(value: str) -> str:
+    normalized = unicodedata.normalize("NFD", value or "")
+    return "".join(char for char in normalized if unicodedata.category(char) != "Mn")
 
 
-def normalize_text(text: str) -> str:
-    text = clean_text(text).lower()
-    text = strip_accents(text)
-
-    return text
-
-
-def slugify(text: str, max_length: int = 82) -> str:
-    text = normalize_text(text)
-    text = re.sub(r"[^a-z0-9\s-]", "", text)
-    text = re.sub(r"\s+", "-", text)
-    text = re.sub(r"-+", "-", text)
-    text = text.strip("-")
-
-    if not text:
-        text = "telelatino-articulo"
-
-    return text[:max_length].strip("-")
+def normalize_text(value: str) -> str:
+    value = strip_accents(value or "")
+    value = value.lower()
+    value = re.sub(r"[^a-z0-9ñ\s-]", " ", value)
+    value = re.sub(r"\s+", " ", value)
+    return value.strip()
 
 
-def url_hash(url: str, length: int = 8) -> str:
-    return hashlib.sha1(url.encode("utf-8")).hexdigest()[:length]
+def slugify(value: str, max_length: int = 88) -> str:
+    value = normalize_text(value)
+    value = re.sub(r"[^a-z0-9]+", "-", value).strip("-")
+    value = re.sub(r"-+", "-", value)
+
+    if not value:
+        value = "articulo"
+
+    return value[:max_length].strip("-")
 
 
-def today_utc() -> date:
-    return datetime.now(timezone.utc).date()
-
-
-def now_iso() -> str:
-    return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+def url_hash(value: str) -> str:
+    return hashlib.sha256((value or "").encode("utf-8")).hexdigest()[:12]
 
 
 def request_text(url: str, timeout: int = 25) -> str:
-    response = requests.get(url, headers=REQUEST_HEADERS, timeout=timeout)
-    response.raise_for_status()
+    headers = {
+        "User-Agent": USER_AGENT,
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "es-ES,es;q=0.9,en;q=0.6",
+    }
 
-    if not response.encoding or response.encoding.lower() in {"iso-8859-1", "ascii"}:
-        response.encoding = response.apparent_encoding or "utf-8"
+    response = requests.get(url, headers=headers, timeout=timeout)
+    response.raise_for_status()
+    response.encoding = response.apparent_encoding or response.encoding
 
     return response.text
 
 
-def get_domain(url: str) -> str:
-    return urlparse(url).netloc.lower().replace("www.", "")
+def absolute_url(base_url: str, maybe_url: str) -> str:
+    if not maybe_url:
+        return ""
+
+    return urljoin(base_url, maybe_url.strip())
 
 
-def same_or_allowed_domain(url: str, allowed_domains: list[str]) -> bool:
-    domain = get_domain(url)
-    return any(domain == allowed or domain.endswith("." + allowed) for allowed in allowed_domains)
-
-
-def extract_meta(soup: BeautifulSoup, name: str) -> str:
-    selectors = [
-        ("property", name),
-        ("name", name),
-    ]
-
-    for attr, value in selectors:
-        tag = soup.find("meta", attrs={attr: value})
-        if tag and tag.get("content"):
-            return clean_text(tag["content"])
-
-    return ""
-
-
-def extract_meta_title(soup: BeautifulSoup) -> str:
-    title = extract_meta(soup, "og:title")
-    if title:
-        return title
-
-    if soup.title and soup.title.string:
-        return clean_text(soup.title.string)
-
-    h1 = soup.find("h1")
-    if h1:
-        return clean_text(h1.get_text(" ", strip=True))
-
-    return ""
-
-
-def extract_meta_description(soup: BeautifulSoup) -> str:
-    description = extract_meta(soup, "description")
-    if description:
-        return description
-
-    description = extract_meta(soup, "og:description")
-    if description:
-        return description
-
-    paragraphs = [
-        clean_text(p.get_text(" ", strip=True))
-        for p in soup.find_all("p")
-    ]
-    paragraphs = [p for p in paragraphs if len(p) > 80]
-
-    return paragraphs[0] if paragraphs else ""
-
-
-def extract_meta_image(soup: BeautifulSoup, base_url: str) -> str:
-    candidates = [
-        extract_meta(soup, "og:image"),
-        extract_meta(soup, "twitter:image"),
-    ]
-
-    for item in soup.find_all(["img", "source"]):
-        src = (
-            item.get("src")
-            or item.get("data-src")
-            or item.get("data-original")
-            or item.get("data-lazy-src")
-            or item.get("srcset")
-        )
-
-        if not src:
-            continue
-
-        src = str(src).split(",")[0].strip().split(" ")[0]
-
-        if src and not src.startswith("data:"):
-            candidates.append(src)
-
-    for image in candidates:
-        if not image:
-            continue
-
-        image = image.strip()
-
-        if image.startswith("//"):
-            image = "https:" + image
-
-        image = urljoin(base_url, image)
-
-        lowered = image.lower()
-
-        if not image.startswith("http"):
-            continue
-
-        if any(bad in lowered for bad in ["logo", "icon", "avatar", "sprite"]):
-            continue
-
-        return image
-
-    return ""
+def is_blocked_topic(text: str) -> bool:
+    normalized = normalize_text(text)
+    return any(word in normalized for word in BLOCKED_TOPIC_WORDS)
 
 
 def should_skip_paragraph(text: str) -> bool:
-    n = normalize_text(text)
+    normalized = normalize_text(text)
 
-    if len(n) < 45:
+    if len(normalized) < 45:
         return True
 
-    bad_phrases = [
-        "suscríbete",
+    skip_phrases = [
         "suscribete",
         "newsletter",
         "publicidad",
         "cookies",
-        "política de privacidad",
-        "politica de privacidad",
-        "aceptar",
-        "iniciar sesión",
-        "iniciar sesion",
-        "regístrate",
-        "registrate",
-        "síguenos",
-        "siguenos",
-        "comparte",
-        "haz clic",
-        "leer también",
-        "lee también",
-        "también puedes leer",
+        "aceptar cookies",
+        "leer tambien",
         "tambien puedes leer",
+        "comparte en",
         "todos los derechos reservados",
+        "iniciar sesion",
+        "registrate",
+        "haz clic",
     ]
 
-    return any(item in n for item in bad_phrases)
+    return any(phrase in normalized for phrase in skip_phrases)
 
 
-def extract_article_text(soup: BeautifulSoup) -> str:
-    for bad in soup(["script", "style", "noscript", "svg", "form", "button", "iframe"]):
-        bad.decompose()
+def extract_meta_content(soup: BeautifulSoup, selectors: list[tuple[str, str]]) -> str:
+    for attr_name, attr_value in selectors:
+        tag = soup.find("meta", attrs={attr_name: attr_value})
 
-    content_blocks = []
+        if tag and tag.get("content"):
+            return clean_text(tag.get("content", ""))
 
+    return ""
+
+
+def extract_meta_image(soup: BeautifulSoup, base_url: str) -> str:
     selectors = [
-        "article",
-        "main",
-        ".article",
-        ".article-content",
-        ".news-content",
-        ".entry-content",
-        ".post-content",
-        ".content",
+        ("property", "og:image"),
+        ("name", "twitter:image"),
+        ("property", "og:image:secure_url"),
     ]
 
-    for selector in selectors:
-        found = soup.select(selector)
-        for block in found:
-            text = block.get_text(" ", strip=True)
-            if len(text) > 500:
-                content_blocks.append(block)
+    for attr_name, attr_value in selectors:
+        tag = soup.find("meta", attrs={attr_name: attr_value})
 
-    if content_blocks:
-        block = max(content_blocks, key=lambda b: len(b.get_text(" ", strip=True)))
-        paragraphs = [
-            clean_text(p.get_text(" ", strip=True))
-            for p in block.find_all(["p", "li"])
-        ]
+        if tag and tag.get("content"):
+            image_url = absolute_url(base_url, tag["content"])
+
+            if image_url:
+                return image_url
+
+    for img in soup.find_all("img"):
+        src = img.get("src") or img.get("data-src") or img.get("data-lazy-src")
+        alt = normalize_text(img.get("alt", ""))
+
+        if not src:
+            continue
+
+        src_norm = normalize_text(src)
+
+        if any(bad in src_norm for bad in ["logo", "icon", "sprite", "avatar", "blank"]):
+            continue
+
+        if any(bad in alt for bad in ["logo", "icon", "avatar"]):
+            continue
+
+        return absolute_url(base_url, src)
+
+    return ""
+
+
+def extract_title(soup: BeautifulSoup) -> str:
+    h1 = soup.find("h1")
+
+    if h1:
+        title = clean_text(h1.get_text(" "))
+
+        if title:
+            return title
+
+    meta_title = extract_meta_content(
+        soup,
+        [
+            ("property", "og:title"),
+            ("name", "twitter:title"),
+        ],
+    )
+
+    if meta_title:
+        return meta_title
+
+    if soup.title:
+        return clean_text(soup.title.get_text(" "))
+
+    return ""
+
+
+def extract_description(soup: BeautifulSoup) -> str:
+    return extract_meta_content(
+        soup,
+        [
+            ("name", "description"),
+            ("property", "og:description"),
+            ("name", "twitter:description"),
+        ],
+    )
+
+
+def extract_article_data(url: str) -> dict:
+    html = request_text(url)
+    soup = BeautifulSoup(html, "html.parser")
+
+    for tag in soup(["script", "style", "noscript", "svg", "form", "nav", "footer", "aside"]):
+        tag.decompose()
+
+    title = extract_title(soup)
+    description = extract_description(soup)
+    image = extract_meta_image(soup, url)
+
+    containers = soup.find_all(["article", "main"])
+    paragraphs: list[str] = []
+
+    if containers:
+        for container in containers:
+            for p in container.find_all(["p", "li"]):
+                paragraph = clean_text(p.get_text(" "))
+
+                if paragraph and not should_skip_paragraph(paragraph):
+                    paragraphs.append(paragraph)
     else:
-        paragraphs = [
-            clean_text(p.get_text(" ", strip=True))
-            for p in soup.find_all(["p", "li"])
-        ]
+        for p in soup.find_all(["p", "li"]):
+            paragraph = clean_text(p.get_text(" "))
 
-    paragraphs = [p for p in paragraphs if not should_skip_paragraph(p)]
+            if paragraph and not should_skip_paragraph(paragraph):
+                paragraphs.append(paragraph)
 
-    if not paragraphs:
-        text = soup.get_text(" ", strip=True)
-        text = clean_text(text)
+    seen = set()
+    unique_paragraphs: list[str] = []
 
-        return text[:3500]
+    for paragraph in paragraphs:
+        key = normalize_text(paragraph)[:140]
 
-    text = "\n\n".join(paragraphs)
+        if key in seen:
+            continue
 
-    return text[:7000]
+        seen.add(key)
+        unique_paragraphs.append(paragraph)
+
+    text_parts = []
+
+    if description:
+        text_parts.append(description)
+
+    text_parts.extend(unique_paragraphs[:30])
+
+    return {
+        "title": title,
+        "url": url,
+        "description": description,
+        "text": "\n\n".join(text_parts).strip(),
+        "image": image,
+    }
 
 
-def is_blocked_topic(title: str, description: str = "", body: str = "") -> bool:
-    combined = normalize_text(f"{title} {description} {body}")
-
-    return any(normalize_text(item) in combined for item in BLOCKED_TOPICS)
-
-
-def extract_date_from_url(url: str):
+def extract_date_from_url(url: str) -> date | None:
     patterns = [
-        r"/(20\d{2})/(\d{2})/(\d{2})/",
-        r"-(20\d{2})-(\d{2})-(\d{2})",
-        r"/(20\d{2})(\d{2})(\d{2})/",
+        r"/(20\d{2})/(\d{1,2})/(\d{1,2})/",
+        r"/(20\d{2})-(\d{1,2})-(\d{1,2})(?:/|-)",
+        r"(20\d{2})-(\d{1,2})-(\d{1,2})",
     ]
 
     for pattern in patterns:
@@ -446,175 +479,210 @@ def extract_date_from_url(url: str):
         if not match:
             continue
 
+        year, month, day = map(int, match.groups())
+
         try:
-            year, month, day = map(int, match.groups())
             return date(year, month, day)
-        except Exception:
+        except ValueError:
             continue
 
     return None
 
 
-def is_recent_url(url: str, max_age_days: int) -> bool:
-    found_date = extract_date_from_url(url)
+def is_recent_news_url(url: str, max_age_days: int) -> bool:
+    article_date = extract_date_from_url(url)
 
-    if not found_date:
+    if not article_date:
+        return False
+
+    today = datetime.now(timezone.utc).date()
+    min_date = today - timedelta(days=max_age_days)
+
+    return min_date <= article_date <= today + timedelta(days=1)
+
+
+def looks_like_sports_article(title: str, url: str, text: str = "") -> bool:
+    normalized = normalize_text(f"{title} {url} {text[:700]}")
+
+    if any(bad in normalized for bad in NON_SPORTS_TEXT_HINTS):
+        return False
+
+    return any(hint in normalized for hint in SPORTS_TEXT_HINTS)
+
+
+def is_latest_listing_url(url: str) -> bool:
+    normalized_url = url.lower()
+    return (
+        "/loultimo" in normalized_url
+        or "/ultimo" in normalized_url
+        or "/ultima-hora" in normalized_url
+        or "/ultimas" in normalized_url
+    )
+
+
+def movie_title_is_invalid(title: str) -> bool:
+    normalized = normalize_text(title)
+
+    if not normalized or len(normalized) < 3:
         return True
 
-    age = (today_utc() - found_date).days
-
-    return -2 <= age <= max_age_days
+    return any(word in normalized for word in BAD_MOVIE_TITLE_WORDS)
 
 
-def get_source_name_from_url(url: str, default_name: str) -> str:
-    domain = get_domain(url)
+def extract_movie_release_year(text: str) -> int | None:
+    if not text:
+        return None
 
-    if "mundodeportivo" in domain:
-        return "Mundo Deportivo"
+    compact = clean_text(text)[:9000]
+    lowered = compact.lower()
 
-    if "sensacine" in domain:
-        return "SensaCine"
+    patterns = [
+        r"fecha de estreno[^\d]*(20\d{2})",
+        r"estreno en cines[^\d]*(20\d{2})",
+        r"estreno[^\d]*(20\d{2})",
+        r"en cartelera[^\d]*(20\d{2})",
+        r"proximamente[^\d]*(20\d{2})",
+        r"próximamente[^\d]*(20\d{2})",
+        r"lanzamiento[^\d]*(20\d{2})",
+        r"peliculas esperadas[^\d]*(20\d{2})",
+        r"películas esperadas[^\d]*(20\d{2})",
+    ]
 
-    if "espinof" in domain:
-        return "Espinof"
+    for pattern in patterns:
+        match = re.search(pattern, lowered)
 
-    if "decine21" in domain:
-        return "Decine21"
+        if match:
+            return int(match.group(1))
 
-    return default_name
+    years = [int(y) for y in re.findall(r"\b(20\d{2})\b", compact[:6000])]
+
+    if 2026 in years:
+        return 2026
+
+    future_years = [year for year in years if 2025 <= year <= 2035]
+
+    if future_years:
+        return min(future_years)
+
+    return None
 
 
-def extract_links_from_listing(url: str) -> list[dict]:
+def get_listing_links(url: str) -> list[dict]:
     html = request_text(url)
     soup = BeautifulSoup(html, "html.parser")
+    links: list[dict] = []
 
-    candidates = []
-    seen = set()
-
-    for a in soup.find_all("a", href=True):
-        href = a.get("href", "")
-
-        if not href:
-            continue
-
-        full_url = urljoin(url, href)
-        full_url = full_url.split("#")[0].strip()
-
-        if not full_url.startswith("http"):
-            continue
-
-        if full_url in seen:
-            continue
-
-        seen.add(full_url)
-
-        title = clean_text(a.get_text(" ", strip=True))
+    for anchor in soup.find_all("a", href=True):
+        href = anchor.get("href", "")
+        link = absolute_url(url, href)
+        title = clean_text(anchor.get_text(" "))
 
         if not title:
-            title = clean_text(a.get("title", "") or a.get("aria-label", ""))
+            title = clean_text(anchor.get("title", ""))
 
-        image = ""
-        img = a.find("img")
+        if not link:
+            continue
 
-        if img:
-            src = (
-                img.get("src")
-                or img.get("data-src")
-                or img.get("data-original")
-                or img.get("data-lazy-src")
-            )
-
-            if src:
-                image = urljoin(url, src)
-
-        parent = a.parent
-
-        for _ in range(3):
-            if parent and not image:
-                img = parent.find("img") if hasattr(parent, "find") else None
-
-                if img:
-                    src = (
-                        img.get("src")
-                        or img.get("data-src")
-                        or img.get("data-original")
-                        or img.get("data-lazy-src")
-                    )
-
-                    if src:
-                        image = urljoin(url, src)
-
-            parent = parent.parent if parent else None
-
-        candidates.append(
+        links.append(
             {
-                "url": full_url,
                 "title": title,
-                "image": image,
-                "listing": url,
+                "url": link,
             }
         )
+
+    return links
+
+
+def get_sports_candidates(group: dict) -> list[dict]:
+    candidates: list[dict] = []
+    seen: set[str] = set()
+
+    max_age_days = int(group.get("maxAgeDays", 1))
+    requires_image = bool(group.get("requiresImage", True))
+    source_name = group.get("sourceName", "")
+    category = group.get("category", "Deportes")
+    target_collection = group.get("targetCollection", "noticias")
+
+    for listing_url in group.get("urls", []):
+        listing_is_latest = is_latest_listing_url(listing_url)
+
+        try:
+            links = get_listing_links(listing_url)
+        except Exception as exc:
+            write_report(f"[sports] No se pudo leer listado {listing_url}: {exc}")
+            continue
+
+        for item in links:
+            url = item.get("url", "")
+            title_hint = item.get("title", "")
+            parsed = urlparse(url)
+
+            if url in seen:
+                continue
+
+            if parsed.netloc and urlparse(listing_url).netloc not in parsed.netloc:
+                continue
+
+            if not looks_like_sports_article(title_hint, url):
+                continue
+
+            article_date = extract_date_from_url(url)
+
+            if article_date:
+                if not is_recent_news_url(url, max_age_days=max_age_days):
+                    continue
+            else:
+                if not listing_is_latest:
+                    continue
+
+            if is_blocked_topic(f"{title_hint} {url}"):
+                continue
+
+            try:
+                data = extract_article_data(url)
+            except Exception as exc:
+                write_report(f"[sports] No se pudo extraer {url}: {exc}")
+                continue
+
+            title = data.get("title") or title_hint
+            text = data.get("text", "")
+            image = data.get("image", "")
+
+            if not title or len(text) < 300:
+                continue
+
+            if not looks_like_sports_article(title, url, text):
+                continue
+
+            if is_blocked_topic(f"{title} {text[:800]}"):
+                continue
+
+            if requires_image and not image:
+                continue
+
+            seen.add(url)
+
+            candidates.append(
+                {
+                    "title": title,
+                    "url": url,
+                    "text": text,
+                    "image": image,
+                    "sourceName": source_name,
+                    "category": category,
+                    "targetCollection": target_collection,
+                }
+            )
 
     return candidates
 
 
-def is_sports_candidate_url(url: str) -> bool:
-    if not same_or_allowed_domain(url, SPORTS_ALLOWED_DOMAINS):
-        return False
-
+def is_movie_detail_url(url: str) -> bool:
     parsed = urlparse(url)
+    domain = parsed.netloc.lower().replace("www.", "")
     path = parsed.path.lower()
 
-    if any(x in path for x in ["/videos/", "/video/", "/album/", "/fotos/", "/directo/"]):
-        return False
-
-    allowed_paths = [
-        "/futbol",
-        "/loultimo",
-        "/mundial",
-        "/fc-barcelona",
-        "/real-madrid",
-        "/atletico-madrid",
-        "/premier-league",
-        "/fichajes",
-        "/femenino",
-    ]
-
-    if not any(item in path for item in allowed_paths):
-        return False
-
-    if path.count("/") < 2:
-        return False
-
-    return True
-
-
-def is_movie_candidate_url(url: str) -> bool:
-    if not same_or_allowed_domain(url, MOVIE_ALLOWED_DOMAINS):
-        return False
-
-    parsed = urlparse(url)
-    path = parsed.path.lower()
-    domain = get_domain(url)
-
-    blocked_paths = [
-        "/videos/",
-        "/video/",
-        "/trailer/",
-        "/trailers/",
-        "/criticas/",
-        "/critica/",
-        "/fotos/",
-        "/noticias/",
-        "/streaming/",
-        "/series/",
-        "/tv/",
-        "/cartelera/",
-        "/sesiones/",
-        "/bandas-sonoras/",
-    ]
-
-    if any(item in path for item in blocked_paths):
+    if any(bad in path for bad in BAD_MOVIE_PATH_PARTS):
         return False
 
     if "sensacine.com" in domain:
@@ -623,533 +691,590 @@ def is_movie_candidate_url(url: str) -> bool:
     if "espinof.com" in domain:
         if "/categoria/" in path:
             return False
-
-        return len(path.strip("/").split("/")) >= 1
+        return "/listas/" in path or len(path.strip("/").split("/")) >= 1
 
     if "decine21.com" in domain:
-        if "/estrenos/cine" in path:
+        if path.rstrip("/") == "/estrenos/cine":
             return False
-
-        if any(x in path for x in ["/peliculas/", "/estrenos/", "/cine/"]):
+        if any(part in path for part in ["/peliculas/", "/pelicula/", "/cine/"]):
             return True
-
         return len(path.strip("/").split("/")) >= 1
 
     return False
 
 
-def movie_title_is_invalid(title: str) -> bool:
-    n = normalize_text(title)
-
-    if not n or len(n) < 4:
-        return True
-
-    if any(bad in n for bad in MOVIE_BAD_TITLE_WORDS):
-        return True
-
-    invalid_exact = {
-        "peliculas",
-        "películas",
-        "estrenos",
-        "cine",
-        "sensa cine",
-        "sensacine",
-        "espinof",
-        "decine21",
-    }
-
-    if n in invalid_exact:
-        return True
-
-    return False
+def listing_suggests_2026(url: str) -> bool:
+    normalized = normalize_text(url)
+    return "2026" in normalized or "fecha 2026" in normalized or "fecha=2026" in url.lower()
 
 
-def extract_movie_release_year(title: str, description: str, body: str, url: str = ""):
-    combined = f"{title}\n{description}\n{body}\n{url}"
+def is_movie_listing_url(url: str) -> bool:
+    normalized = normalize_text(url)
+    return any(hint in normalized for hint in MOVIE_LISTING_HINTS) or listing_suggests_2026(url)
 
-    patterns = [
-        r"(?:estreno|estrena|lanzamiento|llega|programada|prevista|previsto|película|pelicula)[^\n\.]{0,100}\b(20\d{2})\b",
-        r"\b(20\d{2})\b",
-    ]
 
-    years = []
+def get_movies_candidates(group: dict) -> list[dict]:
+    candidates: list[dict] = []
+    seen: set[str] = set()
 
-    for pattern in patterns:
-        for match in re.finditer(pattern, combined, flags=re.I):
+    source_name = group.get("sourceName", "")
+    category = group.get("category", "Películas")
+    target_collection = group.get("targetCollection", "blog")
+    requires_image = bool(group.get("requiresImage", True))
+    min_release_year = int(group.get("minReleaseYear", 2026))
+    max_release_year = int(group.get("maxReleaseYear", 2026))
+
+    for listing_url in group.get("urls", []):
+        try:
+            links = get_listing_links(listing_url)
+        except Exception as exc:
+            write_report(f"[movies] No se pudo leer listado {listing_url}: {exc}")
+            continue
+
+        # También evaluamos el propio listado cuando es una lista editorial tipo Espinof 2026.
+        listing_items = []
+        if is_movie_listing_url(listing_url):
+            listing_items.append({"title": "", "url": listing_url})
+
+        for item in listing_items + links:
+            url = item.get("url", "")
+
+            if url in seen:
+                continue
+
+            if not is_movie_detail_url(url):
+                continue
+
             try:
-                years.append(int(match.group(1)))
-            except Exception:
-                pass
+                data = extract_article_data(url)
+            except Exception as exc:
+                write_report(f"[movies] No se pudo extraer {url}: {exc}")
+                continue
 
-    if not years:
-        return None
+            title = data.get("title", "") or item.get("title", "")
+            text = data.get("text", "")
+            image = data.get("image", "")
+            listing_is_2026 = listing_suggests_2026(listing_url) or listing_suggests_2026(url)
 
-    future_years = [year for year in years if 2025 <= year <= 2035]
+            if movie_title_is_invalid(title):
+                continue
 
-    if not future_years:
-        return None
+            if len(text) < 220:
+                continue
 
-    if 2026 in future_years:
-        return 2026
+            if requires_image and not image:
+                continue
 
-    return min(future_years)
+            release_year = extract_movie_release_year(f"{title}\n{text}\n{url}\n{listing_url}")
+
+            if release_year is None and listing_is_2026:
+                release_year = 2026
+
+            if release_year is None:
+                write_report(f"[movies] Saltado sin año claro: {title}")
+                continue
+
+            if release_year < min_release_year or release_year > max_release_year:
+                write_report(f"[movies] Saltado por año {release_year}: {title}")
+                continue
+
+            seen.add(url)
+
+            candidates.append(
+                {
+                    "title": title,
+                    "url": url,
+                    "text": text,
+                    "image": image,
+                    "sourceName": source_name,
+                    "category": category,
+                    "targetCollection": target_collection,
+                    "releaseYear": release_year,
+                }
+            )
+
+    return candidates
 
 
-def parse_frontmatter_value(text: str, key: str) -> str:
-    pattern = rf"^{re.escape(key)}:\s*(.+)$"
-    match = re.search(pattern, text, flags=re.M)
+# Alias para scripts que todavía llaman get_movie_candidates.
+def get_movie_candidates(group: dict, processed=None) -> list[dict]:
+    return get_movies_candidates(group)
+
+
+def extract_frontmatter_value(text: str, key: str) -> str:
+    pattern = rf"^{re.escape(key)}:\s*(.+?)\s*$"
+    match = re.search(pattern, text, flags=re.MULTILINE)
 
     if not match:
         return ""
 
-    value = match.group(1).strip()
-    value = value.strip('"').strip("'")
-
+    value = match.group(1).strip().strip('"').strip("'")
     return value
 
 
-def existing_posts(collection_dir: Path) -> list[dict]:
-    posts = []
+def extract_pub_date(text: str) -> date | None:
+    value = extract_frontmatter_value(text, "pubDate")
+
+    if not value:
+        return None
+
+    value = value.replace("Z", "+00:00")
+
+    try:
+        return datetime.fromisoformat(value).date()
+    except Exception:
+        match = re.search(r"(20\d{2})-(\d{2})-(\d{2})", value)
+
+        if match:
+            try:
+                return date(int(match.group(1)), int(match.group(2)), int(match.group(3)))
+            except ValueError:
+                return None
+
+    return None
+
+
+def post_matches_category(path: Path, category: str, target_collection: str) -> bool:
+    try:
+        text = path.read_text(encoding="utf-8")
+    except Exception:
+        return False
+
+    normalized = normalize_text(text[:2500])
+    category_norm = normalize_text(category)
+
+    if target_collection == "blog" or category_norm == "peliculas":
+        return (
+            "category peliculas" in normalized
+            or "sensacine" in normalized
+            or "espinof" in normalized
+            or "decine21" in normalized
+            or "youtubevideoid" in normalized
+        )
+
+    if target_collection == "noticias" or category_norm == "deportes":
+        return "category deportes" in normalized or "mundo deportivo" in normalized
+
+    return category_norm in normalized
+
+
+def count_existing_posts(group: dict) -> int:
+    target_collection = group.get("targetCollection", "blog")
+    category = group.get("category", "")
+    collection_dir = CONTENT_DIR / target_collection
 
     if not collection_dir.exists():
-        return posts
+        return 0
 
-    for path in collection_dir.glob("*.md"):
+    count = 0
+
+    for path in list(collection_dir.glob("*.md")) + list(collection_dir.glob("*.mdx")):
+        if post_matches_category(path, category, target_collection):
+            count += 1
+
+    return count
+
+
+def count_posts_today(group: dict) -> int:
+    target_collection = group.get("targetCollection", "blog")
+    category = group.get("category", "")
+    collection_dir = CONTENT_DIR / target_collection
+    today = datetime.now(timezone.utc).date()
+
+    if not collection_dir.exists():
+        return 0
+
+    count = 0
+
+    for path in list(collection_dir.glob("*.md")) + list(collection_dir.glob("*.mdx")):
+        if not post_matches_category(path, category, target_collection):
+            continue
+
         try:
             text = path.read_text(encoding="utf-8")
         except Exception:
             continue
 
-        posts.append(
-            {
-                "path": path,
-                "title": parse_frontmatter_value(text, "title"),
-                "category": parse_frontmatter_value(text, "category"),
-                "pubDate": parse_frontmatter_value(text, "pubDate"),
-                "sourceUrl": parse_frontmatter_value(text, "sourceUrl"),
-                "image": parse_frontmatter_value(text, "image"),
-                "youtubeVideoId": parse_frontmatter_value(text, "youtubeVideoId"),
-            }
-        )
+        if extract_pub_date(text) == today:
+            count += 1
 
-    return posts
+    return count
 
 
-def count_existing_movies() -> int:
-    posts = existing_posts(BLOG_DIR)
-    total = 0
+def get_dynamic_daily_limit(group: dict) -> int:
+    target_collection = group.get("targetCollection", "")
+    category = normalize_text(group.get("category", ""))
 
-    for post in posts:
-        category = normalize_text(post.get("category", ""))
+    existing = count_existing_posts(group)
+    today_count = count_posts_today(group)
 
-        if "pelicula" in category:
-            total += 1
+    initial_target = int(group.get("initialTarget", 0) or 0)
 
-    return total
+    if initial_target > 0 and existing < initial_target:
+        return max(0, initial_target - existing)
 
-
-def count_existing_sports_news() -> int:
-    posts = existing_posts(NEWS_DIR)
-    total = 0
-
-    for post in posts:
-        category = normalize_text(post.get("category", ""))
-
-        if "deporte" in category or "futbol" in category:
-            total += 1
-
-    return total
-
-
-def count_today_posts(collection_dir: Path) -> int:
-    posts = existing_posts(collection_dir)
-    today_str = today_utc().isoformat()
-    total = 0
-
-    for post in posts:
-        pub = post.get("pubDate", "")
-
-        if pub.startswith(today_str):
-            total += 1
-
-    return total
-
-
-def existing_source_urls() -> set[str]:
-    urls = set()
-
-    for collection in [BLOG_DIR, NEWS_DIR]:
-        for post in existing_posts(collection):
-            url = post.get("sourceUrl", "")
-
-            if url:
-                urls.add(url)
-
-    return urls
-
-
-def should_skip_existing_title(title: str, collection_dir: Path) -> bool:
-    target = normalize_text(title)
-
-    if not target:
-        return False
-
-    for post in existing_posts(collection_dir):
-        current = normalize_text(post.get("title", ""))
-
-        if not current:
-            continue
-
-        if current == target:
-            return True
-
-        if target[:70] and target[:70] in current:
-            return True
-
-        if current[:70] and current[:70] in target:
-            return True
-
-    return False
-
-
-def get_dynamic_limit(group_name: str, group: dict) -> int:
-    if group_name == "movies":
-        current = count_existing_movies()
-        initial_target = int(group.get("initialTarget", 10))
+    if target_collection == "blog" or category == "peliculas":
         after_initial = int(group.get("dailyLimitAfterInitial", 1))
+        return max(0, after_initial - today_count)
 
-        if current < initial_target:
-            return max(initial_target - current, 0)
+    per_run = int(group.get("dailyLimit", 1))
+    per_day = int(group.get("dailyLimitPerDay", per_run))
+    remaining_today = max(0, per_day - today_count)
 
-        return after_initial
-
-    if group_name == "sports":
-        current = count_existing_sports_news()
-        initial_target = int(group.get("initialTarget", 10))
-        daily_limit = int(group.get("dailyLimit", 2))
-        daily_limit_per_day = int(group.get("dailyLimitPerDay", 6))
-        today_count = count_today_posts(NEWS_DIR)
-
-        if current < initial_target:
-            return max(initial_target - current, 0)
-
-        remaining_today = max(daily_limit_per_day - today_count, 0)
-
-        return min(daily_limit, remaining_today)
-
-    return int(group.get("dailyLimit", 1))
+    return max(0, min(per_run, remaining_today))
 
 
-def meaningful_words(text: str) -> list[str]:
-    n = normalize_text(text)
-    words = re.findall(r"[a-z0-9]+", n)
+def editorial_seed_options(candidate: dict) -> dict:
+    seed = f"{candidate.get('url', '')}-{datetime.now(timezone.utc).date().isoformat()}"
+    number = int(hashlib.sha256(seed.encode("utf-8")).hexdigest()[:8], 16)
 
-    stop = {
-        "de",
-        "la",
-        "el",
-        "los",
-        "las",
-        "un",
-        "una",
-        "y",
-        "o",
-        "en",
-        "para",
-        "con",
-        "por",
-        "del",
-        "al",
-        "que",
-        "se",
-        "su",
-        "sus",
-        "es",
-        "sobre",
-        "pelicula",
-        "peliculas",
-        "estreno",
-        "trailer",
-        "oficial",
-        "cine",
-        "noticia",
-        "futbol",
-        "mundial",
+    movie_hooks = [
+        "un arranque directo que presente por qué esta película puede interesar al público",
+        "una entrada con tono de recomendación, sin exagerar ni vender humo",
+        "una introducción que ubique al lector antes de hablar de la historia",
+        "un inicio cercano, como alguien que comenta un estreno que vale la pena mirar",
+    ]
+
+    sports_hooks = [
+        "un arranque con el dato más importante de la noticia",
+        "una entrada con lectura deportiva clara y sin dramatizar",
+        "un inicio que explique por qué el tema está moviendo conversación",
+        "un primer párrafo directo, como una nota de actualidad deportiva",
+    ]
+
+    return {
+        "movie_hook": movie_hooks[number % len(movie_hooks)],
+        "sports_hook": sports_hooks[number % len(sports_hooks)],
     }
 
-    return [word for word in words if word not in stop and len(word) >= 3]
+
+def build_prompt(candidate: dict, group: dict) -> str:
+    title = candidate.get("title", "").strip()
+    url = candidate.get("url", "").strip()
+    text = candidate.get("text", "").strip()
+    category = group.get("category", "Entretenimiento")
+    source_name = group.get("sourceName", "").strip()
+    target_collection = group.get("targetCollection", "").strip()
+    seed_options = editorial_seed_options(candidate)
+
+    is_movie = target_collection == "blog" or normalize_text(category) == "peliculas"
+    is_sports = target_collection == "noticias" or normalize_text(category) == "deportes"
+
+    if is_movie:
+        article_type = "película o estreno"
+        word_range = "800 a 1100 palabras"
+        intro_style = seed_options["movie_hook"]
+        editorial_focus = """
+Este artículo es para la sección de Películas de TELELATINO.
+
+La redacción debe sentirse como una nota de entretenimiento escrita por una persona real:
+- clara,
+- cercana,
+- profesional,
+- con ritmo,
+- sin sonar a ficha técnica,
+- sin sonar a texto automático.
+
+No escribas “Sinopsis reescrita”.
+No uses subtítulos repetitivos como “Contexto de la película” en todos los artículos.
+No inventes datos de reparto, fecha, plataforma o trama si no aparecen en la información entregada.
+
+Puedes usar subtítulos naturales y variados como:
+- De qué trata la película
+- Qué hace interesante este estreno
+- El tono de la historia
+- Por qué puede llamar la atención
+- Una película para tener en el radar
+- Qué esperar antes de verla
+- El punto fuerte de la propuesta
+- Una mirada rápida al estreno
+- El detalle que puede marcar la diferencia
+- Para quién puede funcionar esta película
+
+No uses todos esos subtítulos a la vez. Elige de 3 a 5 según el contenido.
+"""
+    elif is_sports:
+        article_type = "noticia deportiva"
+        word_range = "650 a 900 palabras"
+        intro_style = seed_options["sports_hook"]
+        editorial_focus = """
+Este artículo es para la sección de Noticias deportivas de TELELATINO.
+
+La redacción debe sentirse como una nota deportiva escrita por un redactor real:
+- directa,
+- informativa,
+- con lectura humana,
+- sin exagerar,
+- sin repetir estructuras idénticas,
+- sin titulares artificiales.
+
+No uses siempre “Contexto de la noticia”, “Qué se sabe hasta ahora”, “Por qué es importante” y “Qué puede pasar ahora”.
+No inventes declaraciones, resultados, lesiones, fichajes o fechas si no aparecen en la información entregada.
+No conviertas la noticia en una crónica falsa si solo hay pocos datos.
+
+Puedes usar subtítulos naturales y variados como:
+- La clave del momento
+- Lo que deja esta noticia
+- El dato que no pasa desapercibido
+- Qué cambia para el equipo
+- Una lectura del caso
+- Lo que viene ahora
+- Por qué conviene seguirlo
+- El ambiente alrededor del partido
+- La reacción que marca la noticia
+- Un movimiento que puede pesar
+- El detalle que explica la situación
+
+No uses todos esos subtítulos a la vez. Elige de 3 a 5 según el contenido.
+"""
+    else:
+        article_type = "artículo informativo"
+        word_range = "700 a 950 palabras"
+        intro_style = "una introducción clara, humana y útil"
+        editorial_focus = """
+Este artículo debe sentirse como una nota informativa clara, útil y humana.
+Evita estructuras repetitivas y subtítulos genéricos.
+No inventes datos que no estén en la información entregada.
+"""
+
+    return f"""
+Eres el redactor editorial de TELELATINO, una web enfocada en entretenimiento para Android, películas, deportes, noticias y contenido digital.
+
+Tu tarea es convertir la información entregada en un artículo original, útil y natural para lectores reales.
+
+DATOS DE ENTRADA:
+Título original: {title}
+Fuente: {source_name}
+URL de referencia: {url}
+Categoría: {category}
+Tipo de artículo: {article_type}
+
+INFORMACIÓN DISPONIBLE:
+{text[:9000]}
+
+ESTILO EDITORIAL TELELATINO:
+{editorial_focus}
+
+DIRECCIÓN DE ESTE ARTÍCULO:
+- Usa {intro_style}.
+- El artículo debe tener personalidad propia, no parecer una plantilla repetida.
+- Mantén una línea editorial coherente con TELELATINO, pero evita que todos los artículos suenen iguales.
+
+REGLAS DE CALIDAD:
+- Escribe en español neutro.
+- Usa una voz humana, profesional y cercana.
+- Evita frases robóticas como “en este artículo exploraremos”, “en conclusión”, “sin duda alguna”, “cabe destacar que” repetida muchas veces.
+- No repitas siempre la misma estructura entre artículos.
+- No uses párrafos enormes.
+- Alterna frases cortas y frases medianas para que se sienta natural.
+- No uses emojis dentro del artículo.
+- No uses mayúsculas excesivas.
+- No escribas contenido sensacionalista.
+- No inventes datos.
+- No menciones que el texto fue reescrito.
+- No menciones inteligencia artificial.
+- No pongas “Fuente consultada”.
+- No pongas enlaces externos dentro del cuerpo.
+- No pongas una lista larga si no aporta valor.
+- El contenido debe tener aproximadamente {word_range}, pero si la información disponible no alcanza, prioriza calidad y claridad antes que relleno.
+
+ESTRUCTURA RECOMENDADA:
+1. Una introducción natural de 2 o 3 párrafos.
+2. Entre 3 y 5 secciones con subtítulos H2 variados y humanos.
+3. Un cierre breve, natural, conectado con TELELATINO, sin sonar forzado.
+
+IMPORTANTE PARA EL CUERPO:
+- Usa Markdown.
+- Usa subtítulos con "##".
+- No uses "#".
+- No uses el subtítulo “Sinopsis reescrita”.
+- No uses el subtítulo “Fuente consultada”.
+- No repitas el título exacto dentro de todos los subtítulos.
+- El primer párrafo debe enganchar sin exagerar.
+- El cierre puede mencionar TELELATINO de forma natural, pero no debe sonar como anuncio repetitivo.
+
+DEVUELVE ÚNICAMENTE JSON VÁLIDO con esta estructura exacta:
+{{
+  "title": "Título SEO natural, máximo 70 caracteres",
+  "description": "Meta descripción clara, máximo 155 caracteres",
+  "body": "Artículo completo en Markdown",
+  "tags": ["tag1", "tag2", "tag3", "tag4"],
+  "imageAlt": "Texto alternativo claro para la imagen"
+}}
+""".strip()
 
 
-def trailer_matches_movie(movie_title: str, video_title: str, release_year=None) -> bool:
-    movie_words = meaningful_words(movie_title)
-    video = normalize_text(video_title)
+def parse_json_response(text: str) -> dict:
+    if not text:
+        raise ValueError("Respuesta vacía de la IA")
 
-    if not movie_words:
-        return False
-
-    hits = sum(1 for word in movie_words[:6] if word in video)
-
-    if hits < max(1, min(3, len(movie_words))):
-        return False
-
-    if "trailer" not in video and "avance" not in video:
-        return False
-
-    if release_year:
-        years = re.findall(r"\b20\d{2}\b", video)
-
-        if years and str(release_year) not in years:
-            return False
-
-    return True
-
-
-def search_youtube_trailer(movie_title: str, release_year=None):
-    if not YOUTUBE_API_KEY:
-        return None
-
-    query = f"{movie_title} trailer oficial español {release_year or 2026}"
-
-    params = {
-        "part": "snippet",
-        "q": query,
-        "type": "video",
-        "maxResults": 6,
-        "key": YOUTUBE_API_KEY,
-        "safeSearch": "moderate",
-        "relevanceLanguage": "es",
-    }
+    cleaned = text.strip()
+    cleaned = re.sub(r"^```(?:json)?\s*", "", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\s*```$", "", cleaned)
 
     try:
-        response = requests.get(
-            "https://www.googleapis.com/youtube/v3/search",
-            params=params,
-            timeout=20,
-        )
-        response.raise_for_status()
-        data = response.json()
-    except Exception as e:
-        log(f"[youtube] No se pudo buscar trailer para {movie_title}: {e}")
-        return None
+        return json.loads(cleaned, strict=False)
+    except json.JSONDecodeError:
+        start = cleaned.find("{")
+        end = cleaned.rfind("}")
 
-    for item in data.get("items", []):
-        video_id = item.get("id", {}).get("videoId")
-        snippet = item.get("snippet", {})
-        title = clean_text(snippet.get("title", ""))
+        if start >= 0 and end > start:
+            return json.loads(cleaned[start : end + 1], strict=False)
 
-        if not video_id or not title:
+        raise
+
+
+def remove_markdown_links(text: str) -> str:
+    return re.sub(r"\[([^\]]+)\]\((https?://[^)]+)\)", r"\1", text)
+
+
+def sanitize_body(body: str) -> str:
+    body = body or ""
+    body = body.replace("\r\n", "\n")
+    body = remove_markdown_links(body)
+
+    replacements = {
+        "Sinopsis reescrita:": "Sinopsis:",
+        "Sinopsis reescrita": "Sinopsis",
+        "Fuente consultada:": "",
+        "Fuente consultada": "",
+        "Fuentes consultadas:": "",
+        "Fuentes consultadas": "",
+        "En este artículo exploraremos": "En esta nota revisamos",
+        "En conclusión,": "Para cerrar,",
+        "En conclusión": "Para cerrar",
+        "Cabe destacar que": "También es importante señalar que",
+        "Sin duda alguna": "Sin exagerar",
+    }
+
+    for bad, good in replacements.items():
+        body = body.replace(bad, good)
+
+    lines = []
+    skip_next = False
+
+    for line in body.split("\n"):
+        stripped = line.strip()
+
+        if not stripped:
+            lines.append("")
             continue
 
-        if trailer_matches_movie(movie_title, title, release_year):
-            return {
-                "id": video_id,
-                "title": title,
-            }
+        normalized = normalize_text(stripped)
 
-    return None
+        if normalized in {"fuente", "fuentes", "fuente consultada", "fuentes consultadas"}:
+            skip_next = True
+            continue
 
+        if skip_next and ("http" in stripped or len(stripped) < 120):
+            skip_next = False
+            continue
 
-def provider_available(provider: str) -> bool:
-    if provider == "gemini":
-        return bool(GEMINI_API_KEY)
+        skip_next = False
 
-    if provider == "groq":
-        return bool(GROQ_API_KEY)
+        if stripped.startswith("# "):
+            stripped = "## " + stripped[2:].strip()
+        elif stripped.startswith("### "):
+            stripped = "## " + stripped[4:].strip()
 
-    if provider == "mistral":
-        return bool(MISTRAL_API_KEY)
+        if stripped.startswith("## "):
+            heading = stripped[3:].strip()
+            heading = re.sub(
+                r"^Sinopsis de\s+(.+?):\s*Sinopsis",
+                r"Sinopsis de \1",
+                heading,
+                flags=re.IGNORECASE,
+            )
+            heading = heading.replace("Sinopsis reescrita", "Sinopsis")
+            stripped = "## " + heading
 
-    if provider == "openai":
-        return bool(OPENAI_API_KEY)
+        lines.append(stripped)
 
-    if provider == "cohere":
-        return bool(COHERE_API_KEY)
+    body = "\n".join(lines)
+    body = re.sub(r"\n{3,}", "\n\n", body).strip()
 
-    return False
-
-
-def rotate_list(items: list[str], seed: str) -> list[str]:
-    if not items:
-        return items
-
-    index = int(hashlib.sha1(seed.encode("utf-8")).hexdigest(), 16) % len(items)
-
-    return items[index:] + items[:index]
-
-
-def get_ai_provider_order(article_type: str, seed: str) -> list[str]:
-    if article_type == "movie":
-        base = ["mistral", "cohere", "gemini", "groq", "openai"]
-    else:
-        base = ["groq", "mistral", "cohere", "gemini", "openai"]
-
-    base = rotate_list(base, seed)
-
-    return [provider for provider in base if provider_available(provider)]
+    return body
 
 
-def extract_json_from_text(text: str) -> dict:
-    text = text.strip()
-
-    text = re.sub(r"^```(?:json)?", "", text, flags=re.I).strip()
-    text = re.sub(r"```$", "", text).strip()
-
-    try:
-        return json.loads(text, strict=False)
-    except Exception:
-        pass
-
-    start = text.find("{")
-    end = text.rfind("}")
-
-    if start != -1 and end != -1 and end > start:
-        candidate = text[start:end + 1]
-
-        try:
-            return json.loads(candidate, strict=False)
-        except Exception:
-            pass
-
-    raise ValueError("La IA no devolvió JSON válido.")
-
-
-def normalize_article_data(data: dict, fallback_title: str, article_type: str) -> dict:
-    title = clean_text(str(data.get("title", "") or fallback_title))
-    description = clean_text(str(data.get("description", "")))
-    intro = clean_text(str(data.get("intro", "")))
+def normalize_article_data(data: dict, candidate: dict) -> dict:
+    title = clean_text(str(data.get("title", "")))[:90]
+    description = clean_text(str(data.get("description", "")))[:180]
     body = str(data.get("body", "")).strip()
-    tags = data.get("tags", [])
 
-    if isinstance(tags, str):
-        tags = [tag.strip() for tag in tags.split(",") if tag.strip()]
+    if not title:
+        title = clean_text(candidate.get("title", ""))[:90]
+
+    if not description:
+        description = clean_text(candidate.get("text", ""))[:155]
+
+    tags = data.get("tags", [])
 
     if not isinstance(tags, list):
         tags = []
 
-    tags = [clean_text(str(tag)) for tag in tags if clean_text(str(tag))]
-    tags = tags[:6]
+    clean_tags: list[str] = []
 
-    body = body.replace("Sinopsis reescrita", "Sinopsis")
-    body = body.replace("sinopsis reescrita", "sinopsis")
-    body = body.replace("Fuente consultada", "")
-    body = body.replace("Fuentes consultadas", "")
-    body = body.replace("Como modelo de lenguaje", "")
-    body = body.replace("Como IA", "")
+    for tag in tags:
+        tag_text = clean_text(str(tag))
 
-    if article_type == "movie":
-        category = "Películas"
-    else:
-        category = "Deportes"
+        if not tag_text:
+            continue
 
-    if not description:
-        description = intro[:155] if intro else title[:155]
+        if tag_text.lower() in {t.lower() for t in clean_tags}:
+            continue
+
+        clean_tags.append(tag_text[:30])
+
+        if len(clean_tags) >= 5:
+            break
+
+    if not clean_tags:
+        clean_tags = [candidate.get("category", "Entretenimiento"), "TELELATINO"]
+
+    image_alt = clean_text(str(data.get("imageAlt", "")))
+
+    if not image_alt:
+        image_alt = f"Imagen relacionada con {title}"
+
+    body = sanitize_body(body)
+
+    if len(body) < 900:
+        raise ValueError("El cuerpo generado es demasiado corto o vacío")
 
     return {
         "title": title,
-        "description": description[:180],
-        "intro": intro,
+        "description": description,
         "body": body,
-        "tags": tags,
-        "category": category,
+        "tags": clean_tags,
+        "imageAlt": image_alt[:160],
     }
 
 
-def build_prompt(
-    article_type: str,
-    source_title: str,
-    source_description: str,
-    source_body: str,
-    source_url: str,
-    source_name: str,
-    release_year=None,
-) -> str:
-    if article_type == "movie":
-        opener_seed = MOVIE_STYLE_OPENERS[int(url_hash(source_url, 2), 16) % len(MOVIE_STYLE_OPENERS)]
-        word_target = "700 a 950 palabras"
-        article_kind = "artículo de película"
-        category_notes = f"""
-El artículo es para la sección Películas de TELELATINO.
-La película debe tratarse como estreno o título de 2026.
-Año detectado: {release_year or "2026"}.
+def is_quota_error(exc: Exception) -> bool:
+    text = str(exc).lower()
 
-Objetivo:
-- Que se lea como una recomendación editorial natural.
-- Explicar por qué puede interesar.
-- Incluir una sección llamada "Sinopsis".
-- No uses jamás "Sinopsis reescrita".
-- No digas que la película está disponible en TELELATINO si la fuente no lo confirma.
-- Puedes cerrar invitando al lector a descargar TELELATINO para descubrir entretenimiento desde Android.
-"""
-    else:
-        opener_seed = SPORTS_STYLE_OPENERS[int(url_hash(source_url, 2), 16) % len(SPORTS_STYLE_OPENERS)]
-        word_target = "650 a 900 palabras"
-        article_kind = "noticia deportiva"
-        category_notes = """
-El artículo es para la sección Noticias de TELELATINO.
-Debe sentirse actual, claro y útil para aficionados al fútbol.
-
-Objetivo:
-- Explicar qué pasó.
-- Dar contexto.
-- Contar por qué importa.
-- Evitar sonar robótico o repetitivo.
-- No inventes resultados, fichajes cerrados, lesiones o declaraciones que no estén en la fuente.
-- Puedes cerrar invitando al lector a seguir noticias y entretenimiento desde TELELATINO.
-"""
-
-    return f"""
-Eres el redactor principal de TELELATINO. Escribes en español neutro, profesional, humano y con personalidad.
-
-Necesito que redactes un {article_kind} para una web pública.
-
-Estilo obligatorio:
-- Redacción natural, como un solo escritor real.
-- Profesional, clara, humana y fácil de leer.
-- Nada robótico, nada repetitivo, nada genérico.
-- No uses frases como "en este artículo exploraremos", "sinopsis reescrita", "fuente consultada", "según la fuente consultada".
-- No menciones que usas inteligencia artificial.
-- No copies literalmente el texto original.
-- No inventes datos.
-- Evita títulos de secciones repetidos en todos los artículos.
-- Usa subtítulos H2 en Markdown con personalidad, pero sin exagerar.
-- Usa párrafos medianos, no bloques enormes.
-- Mantén una estructura ordenada.
-- Extensión aproximada: {word_target}.
-- Tono: cercano, editorial y confiable.
-- Incluye una llamada suave hacia TELELATINO al final, sin prometer que ese evento o película específica está disponible si no consta.
-
-Frase de arranque sugerida para inspirar el tono, no la copies obligatoriamente:
-"{opener_seed}"
-
-{category_notes}
-
-Devuelve únicamente JSON válido con esta estructura exacta:
-{{
-  "title": "Título SEO natural, sin comillas raras, máximo 70 caracteres",
-  "description": "Meta descripción clara, máximo 155 caracteres",
-  "intro": "Entradilla breve, atractiva y humana",
-  "body": "Artículo completo en Markdown. Usa ## para subtítulos. No incluyas el H1 porque el título ya existe.",
-  "tags": ["tag1", "tag2", "tag3", "tag4"]
-}}
-
-Datos de la fuente:
-Fuente: {source_name}
-URL: {source_url}
-
-Título original:
-{source_title}
-
-Descripción original:
-{source_description}
-
-Texto base:
-{source_body[:6000]}
-""".strip()
+    return any(
+        phrase in text
+        for phrase in [
+            "quota",
+            "insufficient_quota",
+            "rate limit",
+            "rate_limit",
+            "too many requests",
+            "429",
+            "billing",
+            "credits",
+            "exceeded",
+        ]
+    )
 
 
 def call_gemini(prompt: str) -> str:
     if not GEMINI_API_KEY:
         raise RuntimeError("No existe GEMINI_API_KEY.")
+
+    if genai is None:
+        raise RuntimeError("No está instalado google-genai.")
 
     client = genai.Client(api_key=GEMINI_API_KEY)
     response = client.models.generate_content(
@@ -1157,33 +1282,35 @@ def call_gemini(prompt: str) -> str:
         contents=prompt,
     )
 
-    text = getattr(response, "text", None)
+    text = getattr(response, "text", "") or ""
 
-    if not text:
+    if not text.strip():
         raise RuntimeError("Gemini no devolvió texto.")
 
-    return text
+    return text.strip()
 
 
 def call_openai_provider(prompt: str) -> str:
     if not OPENAI_API_KEY:
         raise RuntimeError("No existe OPENAI_API_KEY.")
 
-    client = OpenAI(api_key=OPENAI_API_KEY)
+    if OpenAI is None:
+        raise RuntimeError("No está instalado openai.")
 
+    client = OpenAI(api_key=OPENAI_API_KEY)
     response = client.chat.completions.create(
         model=OPENAI_MODEL,
         messages=[
             {
                 "role": "system",
-                "content": "Eres un redactor SEO profesional. Responde únicamente JSON válido.",
+                "content": "Eres un redactor SEO. Responde únicamente JSON válido.",
             },
             {
                 "role": "user",
                 "content": prompt,
             },
         ],
-        temperature=0.55,
+        temperature=0.45,
         response_format={"type": "json_object"},
     )
 
@@ -1193,6 +1320,9 @@ def call_openai_provider(prompt: str) -> str:
 def call_groq(prompt: str) -> str:
     if not GROQ_API_KEY:
         raise RuntimeError("No existe GROQ_API_KEY.")
+
+    if OpenAI is None:
+        raise RuntimeError("No está instalado openai.")
 
     client = OpenAI(
         api_key=GROQ_API_KEY,
@@ -1204,14 +1334,14 @@ def call_groq(prompt: str) -> str:
         messages=[
             {
                 "role": "system",
-                "content": "Eres un redactor SEO profesional. Responde únicamente JSON válido.",
+                "content": "Eres un redactor SEO. Responde únicamente JSON válido.",
             },
             {
                 "role": "user",
                 "content": prompt,
             },
         ],
-        temperature=0.55,
+        temperature=0.45,
         response_format={"type": "json_object"},
     )
 
@@ -1222,21 +1352,23 @@ def call_mistral(prompt: str) -> str:
     if not MISTRAL_API_KEY:
         raise RuntimeError("No existe MISTRAL_API_KEY.")
 
-    client = Mistral(api_key=MISTRAL_API_KEY)
+    if Mistral is None:
+        raise RuntimeError("No está instalado mistralai.")
 
+    client = Mistral(api_key=MISTRAL_API_KEY)
     response = client.chat.complete(
         model=MISTRAL_MODEL,
         messages=[
             {
                 "role": "system",
-                "content": "Eres un redactor SEO profesional. Responde únicamente JSON válido.",
+                "content": "Eres un redactor SEO. Responde únicamente JSON válido.",
             },
             {
                 "role": "user",
                 "content": prompt,
             },
         ],
-        temperature=0.55,
+        temperature=0.45,
         response_format={"type": "json_object"},
     )
 
@@ -1260,20 +1392,25 @@ def call_cohere(prompt: str) -> str:
         "messages": [
             {
                 "role": "system",
-                "content": "Eres un redactor SEO profesional. Responde únicamente JSON válido.",
+                "content": "Eres un redactor SEO. Responde únicamente JSON válido.",
             },
             {
                 "role": "user",
                 "content": prompt,
             },
         ],
-        "temperature": 0.55,
+        "temperature": 0.45,
+        "response_format": {
+            "type": "json_object",
+        },
     }
 
-    response = requests.post(url, headers=headers, json=payload, timeout=80)
+    response = requests.post(url, headers=headers, json=payload, timeout=75)
 
     if response.status_code >= 400:
-        raise RuntimeError(f"Cohere error {response.status_code}: {response.text[:1000]}")
+        raise RuntimeError(
+            f"Cohere error {response.status_code}: {response.text[:1200]}"
+        )
 
     data = response.json()
     message = data.get("message", {})
@@ -1299,12 +1436,19 @@ def call_cohere(prompt: str) -> str:
     if data.get("text"):
         return str(data["text"]).strip()
 
-    raise RuntimeError("Cohere no devolvió texto válido.")
+    raise RuntimeError(
+        f"Cohere no devolvió texto válido: {json.dumps(data)[:1000]}"
+    )
 
 
 def call_ai_provider(provider: str, prompt: str) -> str:
+    provider = provider.lower()
+
     if provider == "gemini":
         return call_gemini(prompt)
+
+    if provider == "openai":
+        return call_openai_provider(prompt)
 
     if provider == "groq":
         return call_groq(prompt)
@@ -1312,459 +1456,465 @@ def call_ai_provider(provider: str, prompt: str) -> str:
     if provider == "mistral":
         return call_mistral(prompt)
 
-    if provider == "openai":
-        return call_openai_provider(prompt)
-
     if provider == "cohere":
         return call_cohere(prompt)
 
     raise RuntimeError(f"Proveedor no soportado: {provider}")
 
 
-def is_quota_error(error: Exception) -> bool:
-    text = normalize_text(str(error))
+def rotate_list(items: list[str], seed: str) -> list[str]:
+    if not items:
+        return []
 
-    patterns = [
-        "quota",
-        "rate limit",
-        "insufficient_quota",
-        "too many requests",
-        "429",
-        "exceeded",
-    ]
+    number = int(hashlib.sha256(seed.encode("utf-8")).hexdigest()[:8], 16)
+    offset = number % len(items)
 
-    return any(pattern in text for pattern in patterns)
+    return items[offset:] + items[:offset]
 
 
-def generate_with_ai_router(
-    article_type: str,
-    prompt: str,
-    fallback_title: str,
-    seed: str,
-) -> tuple[dict, str]:
-    providers = get_ai_provider_order(article_type, seed)
+def provider_has_key(provider: str) -> bool:
+    if provider == "gemini":
+        return bool(GEMINI_API_KEY)
+    if provider == "openai":
+        return bool(OPENAI_API_KEY)
+    if provider == "groq":
+        return bool(GROQ_API_KEY)
+    if provider == "mistral":
+        return bool(MISTRAL_API_KEY)
+    if provider == "cohere":
+        return bool(COHERE_API_KEY)
+    return False
 
-    if not providers:
-        raise RuntimeError("No hay proveedores IA configurados.")
 
-    last_error = None
+def get_ai_provider_order(group: dict, candidate: dict) -> list[str]:
+    category = normalize_text(group.get("category", ""))
+    target_collection = group.get("targetCollection", "")
 
-    for provider in providers:
+    if target_collection == "blog" or category == "peliculas":
+        base_order = ["mistral", "cohere", "gemini", "groq", "openai"]
+    elif target_collection == "noticias" or category == "deportes":
+        base_order = ["groq", "mistral", "cohere", "gemini", "openai"]
+    else:
+        base_order = ["mistral", "cohere", "groq", "gemini", "openai"]
+
+    seed = (
+        f"{datetime.now(timezone.utc).date().isoformat()}-"
+        f"{candidate.get('url', '')}-"
+        f"{candidate.get('title', '')}"
+    )
+
+    return [provider for provider in rotate_list(base_order, seed) if provider_has_key(provider)]
+
+
+def generate_with_ai_router(candidate: dict, group: dict) -> dict:
+    prompt = build_prompt(candidate, group)
+    errors: list[str] = []
+
+    for provider in get_ai_provider_order(group, candidate):
         try:
+            write_report(
+                f"[IA] Probando proveedor {provider}: "
+                f"{candidate.get('title', '')[:80]}"
+            )
+
             raw = call_ai_provider(provider, prompt)
-            parsed = extract_json_from_text(raw)
-            normalized = normalize_article_data(parsed, fallback_title, article_type)
+            parsed = parse_json_response(raw)
+            article = normalize_article_data(parsed, candidate)
+            article["provider"] = provider
 
-            return normalized, provider
-        except Exception as e:
-            last_error = e
+            write_report(f"[IA] Artículo generado con {provider}")
 
-            if is_quota_error(e):
-                log(f"[IA] {provider} sin cuota o con límite: {str(e)[:240]}")
-            else:
-                log(f"[IA] Falló {provider}: {str(e)[:240]}")
-
+            return article
+        except Exception as exc:
+            label = "cuota" if is_quota_error(exc) else "error"
+            message = f"[IA] {provider} falló ({label}): {str(exc)[:500]}"
+            write_report(message)
+            errors.append(message)
             continue
 
-    raise RuntimeError(f"Ningún proveedor IA funcionó. Último error: {last_error}")
+    raise RuntimeError(
+        "Todos los proveedores de IA fallaron. " + " | ".join(errors[-3:])
+    )
+
+
+def meaningful_words(value: str) -> set[str]:
+    normalized = normalize_text(value)
+    words = {word for word in normalized.split() if len(word) >= 4}
+
+    stopwords = {
+        "pelicula",
+        "peliculas",
+        "trailer",
+        "oficial",
+        "estreno",
+        "2026",
+        "cine",
+        "cines",
+        "nuevo",
+        "nueva",
+        "spanish",
+        "latino",
+        "subtitulado",
+        "doblado",
+    }
+
+    return words - stopwords
+
+
+def trailer_matches_movie(
+    movie_title: str,
+    video_title: str,
+    release_year: int | None,
+) -> bool:
+    movie_words = meaningful_words(movie_title)
+    video_words = meaningful_words(video_title)
+    normalized_video = normalize_text(video_title)
+
+    if "trailer" not in normalized_video and "trailer" not in strip_accents(normalized_video):
+        return False
+
+    if not movie_words:
+        return False
+
+    matches = len(movie_words & video_words)
+    required = 1 if len(movie_words) <= 2 else 2
+
+    if matches < required:
+        return False
+
+    if release_year:
+        years = re.findall(r"\b(20\d{2})\b", video_title)
+
+        if years and str(release_year) not in years:
+            return False
+
+    return True
+
+
+def search_youtube_trailer(
+    movie_title: str,
+    release_year: int | None = None,
+) -> dict | None:
+    if not YOUTUBE_API_KEY:
+        write_report("[YouTube] No existe YOUTUBE_API_KEY; se omite tráiler.")
+        return None
+
+    query_parts = [movie_title, "trailer oficial"]
+
+    if release_year:
+        query_parts.append(str(release_year))
+
+    params = {
+        "part": "snippet",
+        "q": " ".join(query_parts),
+        "type": "video",
+        "maxResults": 8,
+        "key": YOUTUBE_API_KEY,
+        "relevanceLanguage": "es",
+        "safeSearch": "moderate",
+    }
+
+    try:
+        response = requests.get(
+            "https://www.googleapis.com/youtube/v3/search",
+            params=params,
+            timeout=25,
+        )
+        response.raise_for_status()
+        data = response.json()
+    except Exception as exc:
+        write_report(f"[YouTube] Error buscando tráiler para {movie_title}: {exc}")
+        return None
+
+    for item in data.get("items", []):
+        video_id = item.get("id", {}).get("videoId")
+        snippet = item.get("snippet", {})
+        video_title = clean_text(snippet.get("title", ""))
+
+        if not video_id or not video_title:
+            continue
+
+        if trailer_matches_movie(movie_title, video_title, release_year):
+            return {
+                "youtubeVideoId": video_id,
+                "youtubeVideoTitle": video_title,
+            }
+
+    write_report(f"[YouTube] No se encontró tráiler confiable para {movie_title}")
+
+    return None
 
 
 def yaml_string(value: str) -> str:
-    value = "" if value is None else str(value)
+    value = str(value or "")
     value = value.replace("\\", "\\\\").replace('"', '\\"')
     value = value.replace("\n", " ").strip()
 
     return f'"{value}"'
 
 
-def markdown_frontmatter(data: dict) -> str:
-    lines = ["---"]
+def yaml_list(values: list[str]) -> str:
+    if not values:
+        return "[]"
 
-    for key, value in data.items():
-        if value is None or value == "":
-            continue
-
-        if isinstance(value, list):
-            lines.append(f"{key}:")
-
-            for item in value:
-                lines.append(f"  - {yaml_string(item)}")
-        elif key == "pubDate":
-            lines.append(f"{key}: {yaml_string(value)}")
-        else:
-            lines.append(f"{key}: {yaml_string(value)}")
-
-    lines.append("---")
-
-    return "\n".join(lines)
+    return "[" + ", ".join(yaml_string(value) for value in values) + "]"
 
 
-def clean_generated_body(body: str) -> str:
-    body = body.strip()
-
-    body = re.sub(r"^# .+\n+", "", body)
-    body = body.replace("###", "##")
-
-    body = body.replace("Sinopsis reescrita:", "Sinopsis:")
-    body = body.replace("Sinopsis reescrita", "Sinopsis")
-    body = body.replace("sinopsis reescrita", "sinopsis")
-    body = body.replace("Fuente consultada:", "")
-    body = body.replace("Fuentes consultadas:", "")
-    body = body.replace("Fuente:", "")
-
-    body = re.sub(r"\n{3,}", "\n\n", body)
-
-    return body.strip()
-
-
-def write_markdown(
-    collection: str,
-    article: dict,
-    source_data: dict,
-    source_name: str,
-    source_url: str,
-    image: str,
-    trailer: dict | None = None,
-) -> Path:
-    if collection == "blog":
-        target_dir = BLOG_DIR
-    else:
-        target_dir = NEWS_DIR
-
-    target_dir.mkdir(parents=True, exist_ok=True)
-
-    pub_date = now_iso()
-    slug_base = slugify(article["title"])
-    filename = f"{slug_base}-{today_utc().isoformat()}-{url_hash(source_url, 6)}.md"
-    path = target_dir / filename
-
-    if path.exists():
-        filename = f"{slug_base}-{today_utc().isoformat()}-{url_hash(source_url, 10)}.md"
-        path = target_dir / filename
-
-    frontmatter = {
-        "title": article["title"],
-        "description": article["description"],
-        "pubDate": pub_date,
-        "category": article["category"],
-        "author": AUTHOR,
-        "tags": article.get("tags", []),
-        "draft": False,
-        "sourceName": source_name,
-        "sourceUrl": source_url,
-        "image": image,
-        "imageAlt": article["title"],
-    }
-
-    if trailer:
-        frontmatter["youtubeVideoId"] = trailer.get("id", "")
-        frontmatter["youtubeVideoTitle"] = trailer.get("title", "")
-
-    intro = article.get("intro", "").strip()
-    body = clean_generated_body(article.get("body", ""))
-
-    content_parts = [markdown_frontmatter(frontmatter), ""]
-
-    if intro:
-        content_parts.append(intro)
-        content_parts.append("")
-
-    content_parts.append(body)
-    content_parts.append("")
-    content_parts.append(
-        "Si quieres seguir descubriendo entretenimiento, noticias deportivas y películas desde tu móvil, puedes descargar TELELATINO para Android y revisar sus opciones disponibles."
+def write_markdown(article: dict, candidate: dict, group: dict) -> Path:
+    target_collection = group.get(
+        "targetCollection",
+        candidate.get("targetCollection", "blog"),
     )
-    content_parts.append("")
 
-    path.write_text("\n".join(content_parts), encoding="utf-8")
+    collection_dir = CONTENT_DIR / target_collection
+    collection_dir.mkdir(parents=True, exist_ok=True)
+
+    now = datetime.now(timezone.utc)
+    pub_date = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+
+    slug_base = slugify(article["title"])
+    slug = f"{slug_base}-{now.strftime('%Y-%m-%d')}-{url_hash(candidate.get('url', ''))[:6]}"
+    path = collection_dir / f"{slug}.md"
+
+    image = candidate.get("image", "")
+    category = group.get("category", candidate.get("category", "Entretenimiento"))
+    source_name = group.get("sourceName", candidate.get("sourceName", ""))
+    source_url = candidate.get("url", "")
+    author = "TELELATINO"
+
+    frontmatter_lines = [
+        "---",
+        f"title: {yaml_string(article['title'])}",
+        f"description: {yaml_string(article['description'])}",
+        f"pubDate: {yaml_string(pub_date)}",
+        f"category: {yaml_string(category)}",
+        f"author: {yaml_string(author)}",
+        f"tags: {yaml_list(article.get('tags', []))}",
+        "draft: false",
+        f"sourceName: {yaml_string(source_name)}",
+        f"sourceUrl: {yaml_string(source_url)}",
+    ]
+
+    if image:
+        frontmatter_lines.append(f"image: {yaml_string(image)}")
+        frontmatter_lines.append(
+            f"imageAlt: {yaml_string(article.get('imageAlt', article['title']))}"
+        )
+
+    if article.get("youtubeVideoId"):
+        frontmatter_lines.append(
+            f"youtubeVideoId: {yaml_string(article['youtubeVideoId'])}"
+        )
+        frontmatter_lines.append(
+            f"youtubeVideoTitle: {yaml_string(article.get('youtubeVideoTitle', 'Tráiler oficial'))}"
+        )
+
+    frontmatter_lines.append("---")
+
+    content = (
+        "\n".join(frontmatter_lines)
+        + "\n\n"
+        + article["body"].strip()
+        + "\n"
+    )
+
+    path.write_text(content, encoding="utf-8")
+
+    write_report(f"[OK] Publicado: {path.relative_to(ROOT)}")
 
     return path
 
 
-def mark_processed(processed: dict, url: str, path: Path, title: str) -> None:
-    processed.setdefault("urls", [])
-    processed.setdefault("items", [])
+def get_processed_set(data) -> set[str]:
+    if isinstance(data, list):
+        return {str(item) for item in data}
 
-    if url not in processed["urls"]:
-        processed["urls"].append(url)
+    if isinstance(data, dict):
+        values: set[str] = set()
 
-    processed["items"].append(
-        {
-            "url": url,
-            "path": str(path.relative_to(ROOT)) if isinstance(path, Path) and path.exists() else str(path),
-            "title": title,
-            "date": now_iso(),
-        }
+        for key in ["urls", "hashes", "processed", "items"]:
+            current = data.get(key, [])
+
+            if isinstance(current, list):
+                for item in current:
+                    if isinstance(item, dict):
+                        if item.get("url"):
+                            values.add(str(item["url"]))
+                        if item.get("hash"):
+                            values.add(str(item["hash"]))
+                    else:
+                        values.add(str(item))
+
+        return values
+
+    return set()
+
+
+def save_processed_set(values: set[str]) -> None:
+    save_json(PROCESSED_FILE, sorted(values))
+
+
+def collect_candidates(group_key: str, group: dict) -> list[dict]:
+    group_type = group.get("type", "")
+
+    if group_type == "sports_listing":
+        return get_sports_candidates(group)
+
+    if group_type == "movies_listing":
+        return get_movies_candidates(group)
+
+    write_report(f"[AVISO] Tipo de fuente no soportado para {group_key}: {group_type}")
+
+    return []
+
+
+def enrich_candidate_before_ai(candidate: dict, group: dict) -> dict | None:
+    requires_trailer = bool(group.get("requiresTrailer", False))
+    target_collection = group.get("targetCollection", "")
+    category = normalize_text(group.get("category", ""))
+    is_movie = target_collection == "blog" or category == "peliculas"
+
+    if requires_trailer and is_movie:
+        existing = count_existing_posts(group)
+        initial_target = int(group.get("initialTarget", 0) or 0)
+        filling_initial = initial_target > 0 and existing < initial_target
+
+        trailer = search_youtube_trailer(
+            candidate.get("title", ""),
+            candidate.get("releaseYear"),
+        )
+
+        if not trailer and not filling_initial:
+            return None
+
+        if not trailer and filling_initial:
+            write_report(
+                f"[movies] Sin tráiler, pero se permite para completar las 10 iniciales: "
+                f"{candidate.get('title', '')}"
+            )
+            return candidate
+
+        candidate = dict(candidate)
+        candidate.update(trailer)
+
+    return candidate
+
+
+def run_group(group_key: str, group: dict, processed: set[str]) -> int:
+    if not group.get("enabled", False):
+        write_report(f"[{group_key}] Fuente desactivada.")
+        return 0
+
+    limit = get_dynamic_daily_limit(group)
+
+    if limit <= 0:
+        write_report(f"[{group_key}] Límite diario en 0. No se publica nada.")
+        return 0
+
+    candidates = collect_candidates(group_key, group)
+
+    write_report(
+        f"[{group_key}] Candidatos encontrados: {len(candidates)} | Límite: {limit}"
     )
 
-    processed["urls"] = processed["urls"][-3000:]
-    processed["items"] = processed["items"][-3000:]
-
-
-def handle_sports(group: dict, processed: dict) -> int:
-    if not group.get("enabled", True):
-        log("[sports] Desactivado.")
-        return 0
-
-    limit = get_dynamic_limit("sports", group)
-
-    if limit <= 0:
-        log("[sports] Límite del día completado.")
-        return 0
-
-    candidates = get_sports_candidates(group, processed)
-    log(f"[sports] Candidatos encontrados: {len(candidates)} | Límite: {limit}")
-
     published = 0
-    existing_urls = existing_source_urls()
 
     for candidate in candidates:
         if published >= limit:
             break
 
-        url = candidate["url"]
+        candidate_hash = url_hash(candidate.get("url", ""))
 
-        if url in existing_urls:
+        if candidate_hash in processed or candidate.get("url", "") in processed:
             continue
 
-        try:
-            source_data = extract_article_data(url, candidate.get("imageHint", ""))
-        except Exception as e:
-            log(f"[sports] No se pudo leer artículo {url}: {e}")
-            continue
-
-        title = source_data.get("title", "") or candidate.get("titleHint", "")
-        description = source_data.get("description", "")
-        body = source_data.get("body", "")
-        image = source_data.get("image", "")
-
-        if not title or len(title) < 12:
-            log(f"[sports] Saltado por título inválido: {url}")
-            continue
-
-        if is_blocked_topic(title, description, body):
-            log(f"[sports] Saltado por tema sensible: {title}")
-            mark_processed(processed, url, Path("saltado"), title)
-            continue
-
-        if group.get("requiresImage", True) and not image:
-            log(f"[sports] Saltado sin imagen: {title}")
-            continue
-
-        if should_skip_existing_title(title, NEWS_DIR):
-            log(f"[sports] Saltado por título duplicado: {title}")
-            mark_processed(processed, url, Path("duplicado"), title)
-            continue
-
-        prompt = build_prompt(
-            article_type="sports",
-            source_title=title,
-            source_description=description,
-            source_body=body,
-            source_url=url,
-            source_name=candidate.get("sourceName", group.get("sourceName", "Mundo Deportivo")),
-        )
-
-        try:
-            article, provider = generate_with_ai_router(
-                article_type="sports",
-                prompt=prompt,
-                fallback_title=title,
-                seed=url,
+        if is_blocked_topic(
+            f"{candidate.get('title', '')} {candidate.get('text', '')[:900]}"
+        ):
+            write_report(
+                f"[{group_key}] Saltado por tema bloqueado: {candidate.get('title', '')}"
             )
-            log(f"[IA] Noticia generada con {provider}: {article['title']}")
-        except Exception as e:
-            log(f"[sports] IA falló para {title}: {e}")
+            processed.add(candidate_hash)
+            processed.add(candidate.get("url", ""))
+            continue
+
+        enriched_candidate = enrich_candidate_before_ai(candidate, group)
+
+        if enriched_candidate is None:
+            write_report(
+                f"[{group_key}] Saltado por falta de tráiler confiable: "
+                f"{candidate.get('title', '')}"
+            )
             continue
 
         try:
-            path = write_markdown(
-                collection=group.get("targetCollection", "noticias"),
-                article=article,
-                source_data=source_data,
-                source_name=candidate.get("sourceName", group.get("sourceName", "Mundo Deportivo")),
-                source_url=url,
-                image=image,
-                trailer=None,
+            article = generate_with_ai_router(enriched_candidate, group)
+
+            if enriched_candidate.get("youtubeVideoId"):
+                article["youtubeVideoId"] = enriched_candidate.get("youtubeVideoId")
+                article["youtubeVideoTitle"] = enriched_candidate.get("youtubeVideoTitle")
+
+            write_markdown(article, enriched_candidate, group)
+
+            processed.add(candidate_hash)
+            processed.add(candidate.get("url", ""))
+            save_processed_set(processed)
+
+            published += 1
+        except Exception as exc:
+            write_report(
+                f"[{group_key}] Error generando artículo "
+                f"{candidate.get('title', '')}: {exc}"
             )
-        except Exception as e:
-            log(f"[sports] No se pudo escribir Markdown: {e}")
             continue
 
-        mark_processed(processed, url, path, article["title"])
-        existing_urls.add(url)
-        published += 1
-
-        log(f"[OK] Noticia publicada: {path.relative_to(ROOT)}")
-
-    log(f"[sports] Publicados: {published}")
+    write_report(f"[{group_key}] Publicados: {published}")
 
     return published
 
 
-def handle_movies(group: dict, processed: dict) -> int:
-    if not group.get("enabled", True):
-        log("[movies] Desactivado.")
-        return 0
+# Funciones de compatibilidad para wrappers nuevos.
+def handle_movies(group: dict, processed) -> int:
+    processed_set = get_processed_set(processed)
+    total = run_group("movies", group, processed_set)
+    save_processed_set(processed_set)
+    return total
 
-    limit = get_dynamic_limit("movies", group)
 
-    if limit <= 0:
-        log("[movies] Límite completado.")
-        return 0
-
-    min_release_year = int(group.get("minReleaseYear", 2026))
-    candidates = get_movie_candidates(group, processed)
-    log(f"[movies] Candidatos encontrados: {len(candidates)} | Límite: {limit}")
-
-    published = 0
-    existing_urls = existing_source_urls()
-
-    current_movies = count_existing_movies()
-    initial_target = int(group.get("initialTarget", 10))
-    filling_initial = current_movies < initial_target
-
-    for candidate in candidates:
-        if published >= limit:
-            break
-
-        url = candidate["url"]
-
-        if url in existing_urls:
-            continue
-
-        try:
-            source_data = extract_article_data(url, candidate.get("imageHint", ""))
-        except Exception as e:
-            log(f"[movies] No se pudo leer película {url}: {e}")
-            continue
-
-        title = source_data.get("title", "") or candidate.get("titleHint", "")
-        description = source_data.get("description", "")
-        body = source_data.get("body", "")
-        image = source_data.get("image", "")
-
-        if movie_title_is_invalid(title):
-            log(f"[movies] Saltado por título inválido: {title}")
-            continue
-
-        release_year = extract_movie_release_year(title, description, body, url)
-
-        if not release_year:
-            log(f"[movies] Saltado sin año claro: {title}")
-            continue
-
-        if release_year < min_release_year:
-            log(f"[movies] Saltado por año {release_year}: {title}")
-            continue
-
-        if release_year != 2026:
-            log(f"[movies] Saltado porque no es 2026: {title} ({release_year})")
-            continue
-
-        if group.get("requiresImage", True) and not image:
-            log(f"[movies] Saltado sin imagen: {title}")
-            continue
-
-        if should_skip_existing_title(title, BLOG_DIR):
-            log(f"[movies] Saltado por título duplicado: {title}")
-            mark_processed(processed, url, Path("duplicado"), title)
-            continue
-
-        trailer = search_youtube_trailer(title, release_year)
-
-        if group.get("requiresTrailer", False) and not trailer and not filling_initial:
-            log(f"[movies] Saltado sin trailer oficial: {title}")
-            continue
-
-        if group.get("requiresTrailer", False) and not trailer and filling_initial:
-            log(f"[movies] Sin trailer, pero se permite para completar las 10 iniciales: {title}")
-
-        prompt = build_prompt(
-            article_type="movie",
-            source_title=title,
-            source_description=description,
-            source_body=body,
-            source_url=url,
-            source_name=candidate.get("sourceName", group.get("sourceName", "Fuentes de cine")),
-            release_year=release_year,
-        )
-
-        try:
-            article, provider = generate_with_ai_router(
-                article_type="movie",
-                prompt=prompt,
-                fallback_title=title,
-                seed=url,
-            )
-            log(f"[IA] Película generada con {provider}: {article['title']}")
-        except Exception as e:
-            log(f"[movies] IA falló para {title}: {e}")
-            continue
-
-        try:
-            path = write_markdown(
-                collection=group.get("targetCollection", "blog"),
-                article=article,
-                source_data=source_data,
-                source_name=candidate.get("sourceName", group.get("sourceName", "Fuentes de cine")),
-                source_url=url,
-                image=image,
-                trailer=trailer,
-            )
-        except Exception as e:
-            log(f"[movies] No se pudo escribir Markdown: {e}")
-            continue
-
-        mark_processed(processed, url, path, article["title"])
-        existing_urls.add(url)
-        published += 1
-
-        log(f"[OK] Película publicada: {path.relative_to(ROOT)}")
-
-    log(f"[movies] Publicados: {published}")
-
-    return published
+def handle_sports(group: dict, processed) -> int:
+    processed_set = get_processed_set(processed)
+    total = run_group("sports", group, processed_set)
+    save_processed_set(processed_set)
+    return total
 
 
 def main() -> int:
-    ensure_dirs()
     reset_report()
+    ensure_dirs()
 
-    log("=== TELELATINO Auto News ===")
-    log(f"Fecha UTC: {datetime.now(timezone.utc).isoformat()}")
+    write_report("=== TELELATINO Auto News ===")
+    write_report(f"Fecha UTC: {datetime.now(timezone.utc).isoformat()}")
 
-    sources = load_json(SOURCES_PATH, {})
-    processed = load_json(PROCESSED_PATH, {"urls": [], "items": []})
+    sources = load_json(SOURCES_FILE, {})
+    processed_data = load_json(PROCESSED_FILE, [])
+    processed = get_processed_set(processed_data)
 
-    if not isinstance(processed, dict):
-        processed = {"urls": [], "items": []}
+    if not sources:
+        write_report("[ERROR] No se encontró configuración en scripts/sources.json")
+        return 1
 
-    processed.setdefault("urls", [])
-    processed.setdefault("items", [])
+    total_published = 0
 
-    total = 0
-
-    sports_group = sources.get("sports")
-
-    if isinstance(sports_group, dict):
+    for group_key, group in sources.items():
         try:
-            total += handle_sports(sports_group, processed)
-        except Exception as e:
-            log(f"[sports] Error general: {e}")
+            total_published += run_group(group_key, group, processed)
+        except Exception as exc:
+            write_report(f"[ERROR] Falló grupo {group_key}: {exc}")
 
-    movies_group = sources.get("movies")
+    save_processed_set(processed)
 
-    if isinstance(movies_group, dict):
-        try:
-            total += handle_movies(movies_group, processed)
-        except Exception as e:
-            log(f"[movies] Error general: {e}")
-
-    save_json(PROCESSED_PATH, processed)
-
-    log(f"Total publicados: {total}")
-    log("=== Fin ===")
+    write_report(f"Total publicados: {total_published}")
+    write_report("=== Fin ===")
 
     return 0
 
