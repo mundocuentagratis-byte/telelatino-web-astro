@@ -11,6 +11,8 @@ from urllib.parse import urljoin, urlparse
 import requests
 from bs4 import BeautifulSoup
 from google import genai
+from openai import OpenAI
+from mistralai import Mistral
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -24,9 +26,16 @@ REPORT_FILE = REPORTS_DIR / "auto_news_report.txt"
 BLOG_DIR = ROOT / "src" / "content" / "blog"
 NEWS_DIR = ROOT / "src" / "content" / "noticias"
 
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
+MISTRAL_MODEL = os.getenv("MISTRAL_MODEL", "mistral-small-latest")
+OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 
 BLOCKED_TOPICS = [
     "agresión sexual",
@@ -162,6 +171,24 @@ def request_text(url: str) -> str:
     return response.text
 
 
+def is_quota_error(error: Exception) -> bool:
+    text = str(error).lower()
+
+    quota_fragments = [
+        "429",
+        "resource_exhausted",
+        "rate limit",
+        "rate_limit",
+        "quota",
+        "too many requests",
+        "requests per",
+        "insufficient_quota",
+        "exceeded your current quota",
+    ]
+
+    return any(fragment in text for fragment in quota_fragments)
+
+
 def is_blocked_topic(candidate: dict, extra_text: str = "") -> bool:
     text = f"{candidate.get('title', '')} {candidate.get('summary', '')} {extra_text}"
     text = normalize_text(text)
@@ -204,6 +231,7 @@ def extract_meta_image(soup: BeautifulSoup, page_url: str) -> tuple[str, str]:
 
     for attr, value in selectors:
         tag = soup.find("meta", attrs={attr: value})
+
         if tag and tag.get("content"):
             image_url = urljoin(page_url, clean_text(tag.get("content")))
             image_alt = ""
@@ -215,6 +243,7 @@ def extract_meta_image(soup: BeautifulSoup, page_url: str) -> tuple[str, str]:
             return image_url, image_alt
 
     image = soup.select_one("article img, main img, img")
+
     if image and image.get("src"):
         image_url = urljoin(page_url, clean_text(image.get("src")))
         image_alt = clean_text(image.get("alt", ""))
@@ -307,6 +336,7 @@ def get_sports_candidates(url: str, source_name: str, category: str) -> list[dic
     ]
 
     links = []
+
     for selector in selectors:
         links.extend(soup.select(selector))
 
@@ -378,6 +408,7 @@ def get_movies_candidates(url: str, source_name: str, category: str) -> list[dic
     ]
 
     links = []
+
     for selector in selectors:
         links.extend(soup.select(selector))
 
@@ -440,8 +471,8 @@ def count_existing_movie_posts() -> int:
 
         normalized = normalize_text(text)
 
-        is_movie = "category: \"peliculas\"" in normalized or "category: \"peliculas\"" in normalized.replace("é", "e")
-        has_source = "sourcename: \"sensacine\"" in normalized
+        is_movie = 'category: "peliculas"' in normalized
+        has_source = 'sourcename: "sensacine"' in normalized
         has_trailer = "youtubevideoid:" in normalized
         has_image = "image:" in normalized
 
@@ -461,10 +492,17 @@ def get_dynamic_daily_limit(name: str, config: dict) -> int:
 
     if current_movies < initial_target:
         needed = initial_target - current_movies
-        write_report(f"[INFO] Películas actuales con imagen y tráiler: {current_movies}. Faltan {needed} para llegar a {initial_target}.")
+        write_report(
+            f"[INFO] Películas actuales con imagen y tráiler: {current_movies}. "
+            f"Faltan {needed} para llegar a {initial_target}."
+        )
         return needed
 
-    write_report(f"[INFO] Ya hay {current_movies} películas con imagen y tráiler. Se intentará publicar máximo {after_initial} nueva.")
+    write_report(
+        f"[INFO] Ya hay {current_movies} películas con imagen y tráiler. "
+        f"Se intentará publicar máximo {after_initial} nueva."
+    )
+
     return after_initial
 
 
@@ -563,62 +601,179 @@ def parse_json_response(text: str) -> dict:
         return json.loads(match.group(0))
 
 
-def generate_with_gemini(candidate: dict, source_text: str, content_type: str) -> dict:
+def normalize_article_data(data: dict, content_type: str) -> dict:
+    for key in ["title", "description", "body"]:
+        if key not in data or not clean_text(str(data.get(key, ""))):
+            raise ValueError(f"Respuesta de IA incompleta. Falta: {key}")
+
+    data["title"] = clean_text(data["title"])[:120]
+    data["description"] = clean_text(data["description"])[:165]
+    data["body"] = str(data["body"]).strip()
+
+    tags = data.get("tags", [])
+
+    if not isinstance(tags, list):
+        tags = []
+
+    data["tags"] = [
+        clean_text(str(tag)).lower()
+        for tag in tags
+        if clean_text(str(tag))
+    ][:6]
+
+    if not data["tags"]:
+        if content_type == "movies":
+            data["tags"] = ["películas", "estrenos", "cartelera"]
+        else:
+            data["tags"] = ["deportes", "fútbol", "noticias"]
+
+    data["is_specific_movie"] = bool(data.get("is_specific_movie", False))
+    data["main_movie_title"] = clean_text(data.get("main_movie_title", ""))
+    data["youtube_search_query"] = clean_text(data.get("youtube_search_query", ""))
+
+    return data
+
+
+def call_gemini(prompt: str) -> str:
     if not GEMINI_API_KEY:
-        raise RuntimeError("Falta GEMINI_API_KEY en variables de entorno o GitHub Secrets.")
+        raise RuntimeError("No existe GEMINI_API_KEY.")
 
     client = genai.Client(api_key=GEMINI_API_KEY)
+
+    response = client.models.generate_content(
+        model=GEMINI_MODEL,
+        contents=prompt,
+    )
+
+    return response.text or ""
+
+
+def call_openai_provider(prompt: str) -> str:
+    if not OPENAI_API_KEY:
+        raise RuntimeError("No existe OPENAI_API_KEY.")
+
+    client = OpenAI(api_key=OPENAI_API_KEY)
+
+    response = client.chat.completions.create(
+        model=OPENAI_MODEL,
+        messages=[
+            {
+                "role": "system",
+                "content": "Eres un redactor SEO. Responde únicamente JSON válido.",
+            },
+            {
+                "role": "user",
+                "content": prompt,
+            },
+        ],
+        temperature=0.6,
+    )
+
+    return response.choices[0].message.content or ""
+
+
+def call_groq(prompt: str) -> str:
+    if not GROQ_API_KEY:
+        raise RuntimeError("No existe GROQ_API_KEY.")
+
+    client = OpenAI(
+        api_key=GROQ_API_KEY,
+        base_url="https://api.groq.com/openai/v1",
+    )
+
+    response = client.chat.completions.create(
+        model=GROQ_MODEL,
+        messages=[
+            {
+                "role": "system",
+                "content": "Eres un redactor SEO. Responde únicamente JSON válido.",
+            },
+            {
+                "role": "user",
+                "content": prompt,
+            },
+        ],
+        temperature=0.6,
+    )
+
+    return response.choices[0].message.content or ""
+
+
+def call_mistral(prompt: str) -> str:
+    if not MISTRAL_API_KEY:
+        raise RuntimeError("No existe MISTRAL_API_KEY.")
+
+    client = Mistral(api_key=MISTRAL_API_KEY)
+
+    response = client.chat.complete(
+        model=MISTRAL_MODEL,
+        messages=[
+            {
+                "role": "system",
+                "content": "Eres un redactor SEO. Responde únicamente JSON válido.",
+            },
+            {
+                "role": "user",
+                "content": prompt,
+            },
+        ],
+        temperature=0.6,
+    )
+
+    return response.choices[0].message.content or ""
+
+
+def call_ai_provider(provider: str, prompt: str) -> str:
+    if provider == "gemini":
+        return call_gemini(prompt)
+
+    if provider == "openai":
+        return call_openai_provider(prompt)
+
+    if provider == "groq":
+        return call_groq(prompt)
+
+    if provider == "mistral":
+        return call_mistral(prompt)
+
+    raise RuntimeError(f"Proveedor desconocido: {provider}")
+
+
+def get_ai_provider_order(content_type: str) -> list[str]:
+    if content_type == "movies":
+        return ["gemini", "openai", "mistral", "groq"]
+
+    return ["groq", "mistral", "openai", "gemini"]
+
+
+def generate_with_ai_router(candidate: dict, source_text: str, content_type: str) -> dict:
     prompt = build_prompt(candidate, source_text, content_type)
+    providers = get_ai_provider_order(content_type)
 
     last_error = None
 
-    for attempt in range(1, 4):
+    for provider in providers:
         try:
-            response = client.models.generate_content(
-                model=GEMINI_MODEL,
-                contents=prompt,
-            )
+            write_report(f"[IA] Intentando con {provider.upper()}...")
 
-            data = parse_json_response(response.text or "")
+            raw_text = call_ai_provider(provider, prompt)
+            parsed = parse_json_response(raw_text)
+            article = normalize_article_data(parsed, content_type)
 
-            for key in ["title", "description", "body"]:
-                if key not in data or not clean_text(str(data.get(key, ""))):
-                    raise ValueError(f"Respuesta de Gemini incompleta. Falta: {key}")
-
-            data["title"] = clean_text(data["title"])[:120]
-            data["description"] = clean_text(data["description"])[:165]
-            data["body"] = str(data["body"]).strip()
-
-            tags = data.get("tags", [])
-            if not isinstance(tags, list):
-                tags = []
-
-            data["tags"] = [
-                clean_text(str(tag)).lower()
-                for tag in tags
-                if clean_text(str(tag))
-            ][:6]
-
-            if not data["tags"]:
-                if content_type == "movies":
-                    data["tags"] = ["películas", "estrenos", "cartelera"]
-                else:
-                    data["tags"] = ["deportes", "fútbol", "noticias"]
-
-            data["is_specific_movie"] = bool(data.get("is_specific_movie", False))
-            data["main_movie_title"] = clean_text(data.get("main_movie_title", ""))
-            data["youtube_search_query"] = clean_text(data.get("youtube_search_query", ""))
-
-            return data
+            write_report(f"[IA OK] Artículo generado con {provider.upper()}")
+            return article
 
         except Exception as error:
             last_error = error
-            write_report(f"[WARN] Gemini intento {attempt}/3 falló: {error}")
 
-            if attempt < 3:
-                time.sleep(8 * attempt)
+            if is_quota_error(error):
+                write_report(f"[IA QUOTA] {provider.upper()} sin cuota o con límite: {error}")
+            else:
+                write_report(f"[IA ERROR] {provider.upper()} falló: {error}")
 
-    raise RuntimeError(f"Gemini falló después de 3 intentos: {last_error}")
+            continue
+
+    raise RuntimeError(f"Ningún proveedor de IA pudo generar el artículo. Último error: {last_error}")
 
 
 def search_youtube_trailer(query: str) -> dict | None:
@@ -681,6 +836,7 @@ def search_youtube_trailer(query: str) -> dict | None:
         return None
 
     write_report(f"[OK] Video encontrado para tráiler: {title}")
+
     return {
         "youtubeVideoId": video_id,
         "youtubeVideoTitle": title or "Tráiler oficial",
@@ -825,25 +981,32 @@ def run_group(name: str, config: dict, processed: dict) -> int:
             write_report("[SKIP] No hay texto suficiente para generar artículo.")
             continue
 
-        try:
-            article = generate_with_gemini(candidate, source_text, content_type)
-        except Exception as error:
-            write_report(f"[ERROR] Gemini falló: {error}")
-            continue
-
         youtube_data = None
 
         if content_type == "movies":
-            if not article.get("is_specific_movie"):
-                write_report(f"[SKIP] Gemini no lo identificó como película concreta: {candidate['title']}")
-                continue
-
-            youtube_query = article.get("youtube_search_query") or article.get("main_movie_title")
-
-            youtube_data = search_youtube_trailer(youtube_query)
+            youtube_data = search_youtube_trailer(candidate["title"])
 
             if config.get("requiresTrailer", True) and not youtube_data:
                 write_report(f"[SKIP] Sin tráiler, no se publica la película: {candidate['title']}")
+                continue
+
+        try:
+            article = generate_with_ai_router(candidate, source_text, content_type)
+        except Exception as error:
+            write_report(f"[ERROR] Todas las IA fallaron: {error}")
+            continue
+
+        if content_type == "movies":
+            if not article.get("is_specific_movie"):
+                write_report(f"[SKIP] La IA no lo identificó como película concreta: {candidate['title']}")
+                continue
+
+            if not youtube_data:
+                youtube_query = article.get("youtube_search_query") or article.get("main_movie_title")
+                youtube_data = search_youtube_trailer(youtube_query)
+
+            if config.get("requiresTrailer", True) and not youtube_data:
+                write_report(f"[SKIP] Sin tráiler final, no se publica la película: {candidate['title']}")
                 continue
 
         try:
