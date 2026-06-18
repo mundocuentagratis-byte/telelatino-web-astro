@@ -18,11 +18,14 @@ const gaId = import.meta.env.PUBLIC_GA_ID;
       gtag("js", new Date());
 
       gtag("config", gaId, {
-        send_page_view: true
+        send_page_view: true,
+        transport_type: "beacon"
       });
     </script>
 
     <script is:inline>
+      const trackedClicks = new WeakSet();
+
       function getTrackingData(element) {
         const manualEvent = element.getAttribute("data-track");
         const manualLabel = element.getAttribute("data-label");
@@ -99,9 +102,7 @@ const gaId = import.meta.env.PUBLIC_GA_ID;
         return null;
       }
 
-      document.addEventListener("click", function (event) {
-        const element = event.target.closest("a, button");
-
+      function sendTrackingEvent(element) {
         if (!element || !window.gtag) return;
 
         const data = getTrackingData(element);
@@ -113,9 +114,50 @@ const gaId = import.meta.env.PUBLIC_GA_ID;
           event_label: data.label,
           link_url: data.url,
           page_location: window.location.href,
-          page_title: document.title
+          page_title: document.title,
+          transport_type: "beacon"
         });
-      });
+      }
+
+      document.addEventListener(
+        "pointerdown",
+        function (event) {
+          const element = event.target.closest("a, button");
+
+          if (!element) return;
+
+          if (trackedClicks.has(element)) return;
+
+          trackedClicks.add(element);
+
+          sendTrackingEvent(element);
+
+          setTimeout(function () {
+            trackedClicks.delete(element);
+          }, 1500);
+        },
+        true
+      );
+
+      document.addEventListener(
+        "click",
+        function (event) {
+          const element = event.target.closest("a, button");
+
+          if (!element) return;
+
+          if (trackedClicks.has(element)) return;
+
+          trackedClicks.add(element);
+
+          sendTrackingEvent(element);
+
+          setTimeout(function () {
+            trackedClicks.delete(element);
+          }, 1500);
+        },
+        true
+      );
     </script>
   </>
 )}
