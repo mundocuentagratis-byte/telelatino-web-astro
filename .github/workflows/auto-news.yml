@@ -41,6 +41,12 @@ jobs:
         run: |
           npm ci
 
+      - name: Prepare content folders
+        run: |
+          mkdir -p src/content/blog
+          mkdir -p src/content/noticias
+          mkdir -p scripts/reports
+
       - name: Generate articles
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -61,7 +67,7 @@ jobs:
           git config user.name "telelatino-bot"
           git config user.email "actions@github.com"
 
-          git add src/content scripts/processed_articles.json scripts/reports
+          git add -A
 
           if git diff --cached --quiet; then
             echo "No hay artículos nuevos para publicar."
