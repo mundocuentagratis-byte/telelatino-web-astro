@@ -67,12 +67,19 @@ jobs:
           git config user.name "telelatino-bot"
           git config user.email "actions@github.com"
 
-          git add -A src/content scripts/processed_articles.json
+          echo "Estado antes de sincronizar:"
+          git status --short
+
+          git pull --rebase --autostash origin main
+
+          git add -A
+
+          echo "Estado antes del commit:"
+          git status --short
 
           if git diff --cached --quiet; then
             echo "No hay artículos nuevos para publicar."
           else
             git commit -m "Publicar noticias automáticas"
-            git pull --rebase origin main
             git push
           fi
