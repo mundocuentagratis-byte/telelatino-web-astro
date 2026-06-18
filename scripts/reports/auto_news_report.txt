@@ -1,10 +1,15 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-18T17:45:13.587014+00:00
+Fecha UTC: 2026-06-18T18:35:04.290921+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
 [movies] Saltado porque no es estreno 2026: Obsession (None)
+[movies] Saltado noticia no apta para películas: La palomitera de 'Toy Story 5' de Cinépolis y Cines Yelmo está completamente agotada: tu única opción es pagar el doble de segunda mano
+[movies] Saltado noticia no apta para películas: En un deporte donde los atletas se retiran antes de los 30, Sandra Sánchez consiguió el oro a los 39 años: llega a cines "la historia de la mejor karateka de todos los tiempos"
 [movies] Saltado porque no es estreno 2026: Rochus Misch, guardaespaldas de Hitler, vio 'El hundimiento' y la tachó de exagerada: "La realidad es que era un búnker de la muerte" (2005)
+[movies] Saltado noticia no apta para películas: El inicio de uno de los mayores universos de acción vuelve a los cines 25 años después: Comenzó una saga de 10 películas y una nueva secuela está en camino
+[movies] Saltado noticia no apta para películas: Tras un año sin estrenar una película, Marvel vuelve con su mejor superhéroe: Es la aventura más oscura del personaje hasta la fecha
+[movies] Saltado noticia no apta para películas: Sorpresa para los fans de 'Vaiana': la Vaiana original finalmente está en el 'remake' de acción real, pero no de la forma en que piensas
 [movies] Saltado porque no es estreno 2026: 72 años de carrera y cuatro Oscar: hoy cumple 96 años la mayor leyenda de la historia de Hollywood (2024)
 [movies] Saltado noticia no apta para películas: La audiencia dicta sentencia a 'El perro andaluz' de Manu Sánchez en RTVE: su punto fuerte se ha convertido en la crítica más repetida
 [movies] Saltado noticia no apta para películas: El concursante de 'Pasapalabra' que fue condenado a dos años y cuatro meses de prisión tras ganar el bote
@@ -15,44 +20,11 @@ Fecha UTC: 2026-06-18T17:45:13.587014+00:00
 [movies] Saltado noticia no apta para películas: Por qué Atresmedia ha eliminado de Atresplayer todos los programas de 'Pasapalabra'
 [movies] Saltado noticia no apta para películas: RTVE escucha a la audiencia del 'Grand Prix 2026' y recupera una de las pruebas más pedidas
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 10' sorprendió en su debate final con una inesperada ruptura y una aplaudida reconciliación
-[movies] Candidatos encontrados: 40 | Límite: 10
-[IA] Probando proveedor openai: Backrooms
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
-[IA] Probando proveedor mistral: Backrooms
-[IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/backrooms-la-pelicula-de-terror-basada-en-los-famosos-videos-virales-2026-06-18-7fd2c5.md
-[IA] Probando proveedor mistral: Dreams
-[IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/dreams-el-drama-que-explora-el-precio-de-los-suenos-y-el-amor-2026-06-18-0422b7.md
-[IA] Probando proveedor groq: El colegio de los animales mágicos 4
+[movies] Candidatos encontrados: 36 | Límite: 1
+[duplicado] Saltado por tema parecido: La Odisea ~= En el Corazón de la Bestia: La Dura Odisea de Brad Pitt en Alaska
+[IA] Probando proveedor groq: La constelación del perro
 [IA] Artículo generado con groq
-[OK] Publicado: src/content/blog/el-colegio-de-los-animales-magicos-4-2026-06-18-f8b23c.md
-[IA] Probando proveedor groq: El día de la revelación
-[IA] Artículo generado con groq
-[OK] Publicado: src/content/blog/el-dia-de-la-revelacion-2026-06-18-b38a08.md
-[movies] Saltado por tema bloqueado: El guardián del árbol de alcanfor
-[IA] Probando proveedor mistral: Eleonora Duse: La Divina
-[IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/eleonora-duse-la-divina-llega-en-2026-con-valeria-bruni-tedeschi-2026-06-18-f72fce.md
-[IA] Probando proveedor cohere: En el corazón de la bestia
-[IA] cohere falló (error): Cohere error 404: {"id":"c51f4a75-d389-44a7-941a-e02b71dde98b","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: En el corazón de la bestia
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/en-el-corazon-de-la-bestia-la-dura-odisea-de-brad-pitt-en-alaska-2026-06-18-a5bb39.md
-[IA] Probando proveedor cohere: Fuze
-[IA] cohere falló (error): Cohere error 404: {"id":"4e69dc75-1278-4377-b53c-51a9791521ea","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Fuze
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/fuze-bombas-caos-y-un-atraco-audaz-en-el-corazon-de-londres-2026-06-18-307f91.md
-[IA] Probando proveedor mistral: He-Man y los Masters Del Universo
-[IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/he-man-y-los-masters-del-universo-llega-al-cine-el-regreso-epico-del-heroe-de-eternia-2026-06-18-85c3b4.md
-[IA] Probando proveedor gemini: Iván & Hadoum
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/ivan-hadoum-un-drama-romantico-que-desafia-amor-y-ambicion-2026-06-18-38a7f5.md
-[IA] Probando proveedor groq: Joika
-[IA] Artículo generado con groq
-[OK] Publicado: src/content/blog/joika-la-historia-de-joy-womack-2026-06-18-10331f.md
-[movies] Publicados: 10
-Total películas publicadas: 10
+[OK] Publicado: src/content/blog/la-constelacion-del-perro-2026-06-18-87a8e6.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
