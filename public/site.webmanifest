@@ -1,0 +1,24 @@
+{
+  "name": "TELELATINO",
+  "short_name": "TELELATINO",
+  "description": "TELELATINO para Android con canales en vivo, deportes, películas y 7 días de prueba gratis.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#07111f",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "/images/telelatino-app.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/telelatino-app.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}
