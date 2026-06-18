@@ -1,32 +1,38 @@
-import sys
 from datetime import datetime, timezone
 
 import generate_news as core
 
 
 def main() -> int:
+    core.ensure_dirs()
     core.reset_report()
-    core.write_report("=== TELELATINO Sports News ===")
-    core.write_report(f"Fecha UTC: {datetime.now(timezone.utc).isoformat()}")
 
-    (core.CONTENT_DIR / "noticias").mkdir(parents=True, exist_ok=True)
-    (core.CONTENT_DIR / "blog").mkdir(parents=True, exist_ok=True)
+    core.log("=== TELELATINO Sports News ===")
+    core.log(f"Fecha UTC: {datetime.now(timezone.utc).isoformat()}")
 
-    sources = core.load_json(core.SOURCES_FILE, {})
-    group = sources.get("sports")
+    sources = core.load_json(core.SOURCES_PATH, {})
+    processed = core.load_json(core.PROCESSED_PATH, {"urls": [], "items": []})
 
-    if not group:
-        core.write_report("[ERROR] No existe el grupo 'sports' en scripts/sources.json")
-        return 1
+    if not isinstance(processed, dict):
+        processed = {"urls": [], "items": []}
 
-    processed_data = core.load_json(core.PROCESSED_FILE, [])
-    processed = core.get_processed_set(processed_data)
+    processed.setdefault("urls", [])
+    processed.setdefault("items", [])
 
-    total = core.run_group("sports", group, processed)
-    core.save_processed_set(processed)
+    sports_group = sources.get("sports")
 
-    core.write_report(f"Total noticias publicadas: {total}")
-    core.write_report("=== Fin Sports ===")
+    if not isinstance(sports_group, dict):
+        core.log("[sports] No existe configuración sports en scripts/sources.json")
+        core.save_json(core.PROCESSED_PATH, processed)
+        return 0
+
+    total = core.handle_sports(sports_group, processed)
+
+    core.save_json(core.PROCESSED_PATH, processed)
+
+    core.log(f"Total noticias deportivas publicadas: {total}")
+    core.log("=== Fin Sports ===")
+
     return 0
 
 
