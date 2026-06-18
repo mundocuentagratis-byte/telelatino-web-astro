@@ -1,0 +1,89 @@
+---
+import { appConfig } from "../data/app";
+---
+
+<div class="floating-contact" aria-label="Contactos rápidos">
+  <a
+    class="floating-btn whatsapp"
+    href={appConfig.whatsappUrl}
+    target="_blank"
+    rel="noopener"
+    aria-label="Contactar por WhatsApp"
+  >
+    <svg viewBox="0 0 32 32" aria-hidden="true">
+      <path
+        fill="currentColor"
+        d="M16.01 3.2A12.74 12.74 0 0 0 5.03 22.4L3.5 28.8l6.55-1.48A12.76 12.76 0 1 0 16.01 3.2Zm0 23.25c-1.96 0-3.77-.55-5.33-1.5l-.38-.23-3.88.88.9-3.78-.25-.4a10.44 10.44 0 1 1 8.94 5.03Zm5.72-7.8c-.31-.16-1.85-.91-2.14-1.01-.29-.11-.5-.16-.7.16-.21.31-.81 1.01-.99 1.22-.18.21-.37.23-.68.08-.31-.16-1.31-.48-2.49-1.53-.92-.82-1.54-1.83-1.72-2.14-.18-.31-.02-.48.14-.64.14-.14.31-.37.47-.55.16-.18.21-.31.31-.52.1-.21.05-.39-.03-.55-.08-.16-.7-1.69-.96-2.32-.25-.6-.51-.52-.7-.53h-.6c-.21 0-.55.08-.84.39-.29.31-1.1 1.07-1.1 2.61s1.13 3.03 1.29 3.24c.16.21 2.22 3.39 5.38 4.76.75.32 1.34.52 1.8.67.76.24 1.45.21 1.99.13.61-.09 1.85-.76 2.11-1.49.26-.73.26-1.36.18-1.49-.08-.13-.29-.21-.6-.37Z"
+      />
+    </svg>
+  </a>
+
+  <a
+    class="floating-btn telegram"
+    href={appConfig.telegramUrl}
+    target="_blank"
+    rel="noopener"
+    aria-label="Contactar por Telegram"
+  >
+    <svg viewBox="0 0 32 32" aria-hidden="true">
+      <path
+        fill="currentColor"
+        d="M27.74 5.26c.36 2.05-2.65 15.65-3.78 20.46-.48 2.04-1.43 2.72-2.34 2.79-1.99.18-3.5-1.31-5.43-2.58-3.02-1.98-4.73-3.21-7.66-5.14-3.39-2.23-1.19-3.46.74-5.46.5-.52 9.29-8.52 9.46-9.24.02-.09.04-.43-.16-.61-.2-.18-.49-.12-.7-.07-.3.07-5.06 3.21-14.3 9.43-1.35.93-2.58 1.38-3.67 1.36-1.21-.03-3.53-.68-5.26-1.24-2.12-.69-3.8-1.06-3.65-2.24.08-.61.92-1.23 2.52-1.86C8.33 8.31 18.2 4.2 20.71 3.16c5.43-2.26 6.56-2.65 7.29-2.66.16 0 .52.04.75.23.19.16.25.38.28.54Z"
+      />
+    </svg>
+  </a>
+</div>
+
+<style>
+  .floating-contact {
+    position: fixed;
+    right: 22px;
+    bottom: 22px;
+    z-index: 80;
+    display: grid;
+    gap: 12px;
+  }
+
+  .floating-btn {
+    display: grid;
+    place-items: center;
+    width: 58px;
+    height: 58px;
+    border-radius: 999px;
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    box-shadow: 0 16px 38px rgba(0, 0, 0, 0.34);
+  }
+
+  .floating-btn svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .floating-btn.whatsapp {
+    background: #20d366;
+  }
+
+  .floating-btn.telegram {
+    background: #229ed9;
+  }
+
+  @media (max-width: 620px) {
+    .floating-contact {
+      right: 16px;
+      bottom: 16px;
+      gap: 10px;
+    }
+
+    .floating-btn {
+      width: 52px;
+      height: 52px;
+    }
+
+    .floating-btn svg {
+      width: 27px;
+      height: 27px;
+    }
+  }
+</style>

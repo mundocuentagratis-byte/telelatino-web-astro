@@ -23,6 +23,10 @@ const navItems = [
     href: "/blog/",
   },
   {
+    label: "Descargar",
+    href: "/descargar/",
+  },
+  {
     label: "Contacto",
     href: "/contacto/",
   },
@@ -45,7 +49,7 @@ const navItems = [
       ))}
     </nav>
 
-    <a href={appConfig.apkUrl} class="download-btn" target="_blank" rel="noopener">
+    <a href="/descargar/" class="download-btn">
       Descargar APK
     </a>
   </div>
@@ -115,7 +119,7 @@ const navItems = [
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 18px;
     flex: 1;
   }
 
@@ -123,8 +127,9 @@ const navItems = [
   .mobile-nav a {
     color: rgba(255, 255, 255, 0.84);
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 0.88rem;
     font-weight: 850;
+    white-space: nowrap;
   }
 
   .desktop-nav a:hover,
@@ -167,6 +172,16 @@ const navItems = [
     padding: 9px 13px;
     border-radius: 999px;
     background: rgba(255, 255, 255, 0.09);
+  }
+
+  @media (max-width: 980px) {
+    .desktop-nav {
+      gap: 14px;
+    }
+
+    .desktop-nav a {
+      font-size: 0.82rem;
+    }
   }
 
   @media (max-width: 860px) {

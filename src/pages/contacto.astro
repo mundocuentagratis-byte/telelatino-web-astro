@@ -4,148 +4,250 @@ import { appConfig } from "../data/app";
 ---
 
 <BaseLayout
-  title="Contacto | TELELATINO"
-  description="Contacta con TELELATINO por WhatsApp o Telegram para información sobre la app, prueba gratis, descarga APK y plan VIP."
+  title="Contacto TELELATINO | Soporte Android"
+  description="Contacta con TELELATINO por WhatsApp o Telegram para recibir ayuda con descarga, instalación, prueba gratis y activación VIP."
 >
-  <section class="contact-page">
-    <div class="container contact-grid">
-      <div class="contact-info">
-        <span class="badge">Contacto TELELATINO</span>
+  <main>
+    <section class="contact-section">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <span class="eyebrow">Soporte TELELATINO</span>
 
-        <h1>¿Tienes dudas sobre la app?</h1>
+          <h1>¿Necesitas ayuda con TELELATINO?</h1>
 
-        <p>
-          Puedes comunicarte con TELELATINO para recibir información sobre la descarga
-          del APK, la prueba gratis de 7 días, el plan VIP y el uso de la app en Android.
-        </p>
+          <p>
+            Puedes comunicarte con soporte para recibir información sobre la
+            descarga del APK, instalación en Android, prueba gratis de 7 días,
+            activación VIP y dudas relacionadas con tu cuenta.
+          </p>
 
-        <div class="contact-list">
-          <a class="card contact-item" href={appConfig.whatsappUrl} target="_blank" rel="noopener">
-            <strong>WhatsApp</strong>
-            <span>{appConfig.whatsappNumber}</span>
-          </a>
+          <div class="contact-buttons">
+            <a href={appConfig.whatsappUrl} class="contact-button whatsapp" target="_blank" rel="noopener">
+              <span>WhatsApp</span>
+              <strong>Escribir por WhatsApp</strong>
+            </a>
 
-          <a class="card contact-item" href={appConfig.telegramUrl} target="_blank" rel="noopener">
-            <strong>Telegram</strong>
-            <span>{appConfig.telegramUser}</span>
-          </a>
+            <a href={appConfig.telegramUrl} class="contact-button telegram" target="_blank" rel="noopener">
+              <span>Telegram</span>
+              <strong>Escribir por Telegram</strong>
+            </a>
 
-          <a class="card contact-item" href={appConfig.apkUrl} target="_blank" rel="noopener">
-            <strong>Descarga</strong>
-            <span>APK oficial para Android</span>
-          </a>
-        </div>
-      </div>
-
-      <div class="contact-card card">
-        <img src={appConfig.image} alt="Imagen de TELELATINO" />
-
-        <h2>Descarga TELELATINO</h2>
-
-        <p>
-          Accede a canales en vivo, eventos deportivos, películas y estrenos desde
-          tu móvil Android. Empieza con {appConfig.trial.text}.
-        </p>
-
-        <div class="actions">
-          <a href={appConfig.apkUrl} class="btn btn-primary" target="_blank" rel="noopener">
-            Descargar APK
-          </a>
-
-          <a href={appConfig.whatsappUrl} class="btn btn-secondary" target="_blank" rel="noopener">
-            Hablar por WhatsApp
-          </a>
+            <a href="/descargar/" class="contact-button download">
+              <span>Descarga</span>
+              <strong>Ir a la página de descarga</strong>
+            </a>
+          </div>
         </div>
 
-        <p class="small-note">
-          {appConfig.vipPlan.text}. Disponible solo para Android.
-        </p>
+        <div class="support-card">
+          <img src={appConfig.image} alt="TELELATINO Android" />
+
+          <h2>Descarga TELELATINO</h2>
+
+          <p>
+            Accede a canales en vivo, eventos deportivos, películas y estrenos
+            desde tu móvil Android. Empieza con 7 días de prueba gratis al
+            registrarte.
+          </p>
+
+          <div class="support-info">
+            <div>
+              <span>Prueba gratis</span>
+              <strong>{appConfig.trial.days} días</strong>
+            </div>
+
+            <div>
+              <span>Plan VIP</span>
+              <strong>{appConfig.vipPlan.price}</strong>
+            </div>
+
+            <div>
+              <span>Duración</span>
+              <strong>{appConfig.vipPlan.duration}</strong>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </main>
 </BaseLayout>
 
 <style>
-  .contact-page {
-    padding: 90px 0;
+  .container {
+    width: min(1120px, calc(100% - 36px));
+    margin: 0 auto;
+  }
+
+  .contact-section {
+    padding: 82px 0;
   }
 
   .contact-grid {
     display: grid;
-    grid-template-columns: 1fr 0.8fr;
-    gap: 48px;
-    align-items: start;
+    grid-template-columns: 1.05fr 0.95fr;
+    gap: 46px;
+    align-items: center;
   }
 
-  .contact-info h1 {
-    margin: 22px 0 18px;
-    font-size: clamp(2.5rem, 5vw, 4.4rem);
+  .eyebrow {
+    display: inline-flex;
+    width: fit-content;
+    margin-bottom: 16px;
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: rgba(255, 197, 71, 0.2);
+    color: #ffd77a;
+    font-size: 0.78rem;
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  h1,
+  h2,
+  p {
+    margin-top: 0;
+  }
+
+  .contact-copy h1 {
+    max-width: 720px;
+    margin-bottom: 18px;
+    color: #ffffff;
+    font-size: clamp(2.5rem, 5.6vw, 5.1rem);
     line-height: 1;
-    letter-spacing: -0.06em;
+    letter-spacing: -0.07em;
   }
 
-  .contact-info p {
-    max-width: 680px;
-    color: var(--color-muted);
-    font-size: 1.08rem;
+  .contact-copy p {
+    max-width: 720px;
+    color: rgba(235, 241, 255, 0.76);
+    font-size: 1.05rem;
+    line-height: 1.75;
   }
 
-  .contact-list {
-    display: grid;
-    gap: 16px;
-    margin-top: 32px;
-  }
-
-  .contact-item {
-    display: block;
-    padding: 20px;
-  }
-
-  .contact-item strong {
-    display: block;
-    margin-bottom: 6px;
-    color: var(--color-primary);
-  }
-
-  .contact-item span {
-    color: var(--color-muted);
-  }
-
-  .contact-card {
-    padding: 34px;
-    text-align: center;
-  }
-
-  .contact-card img {
-    width: min(260px, 80%);
-    border-radius: 34px;
-    margin-bottom: 26px;
-    box-shadow: 0 30px 90px rgba(255, 138, 0, 0.18);
-  }
-
-  .contact-card h2 {
-    margin: 0 0 14px;
-    font-size: 2rem;
-  }
-
-  .contact-card p {
-    color: var(--color-muted);
-    margin-bottom: 28px;
-  }
-
-  .actions {
+  .contact-buttons {
     display: grid;
     gap: 14px;
+    margin-top: 30px;
+    max-width: 560px;
   }
 
-  .small-note {
-    margin: 22px 0 0 !important;
-    font-size: 0.9rem !important;
+  .contact-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    padding: 20px 22px;
+    border-radius: 22px;
+    color: #ffffff;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.075);
+    border: 1px solid rgba(255, 255, 255, 0.14);
   }
 
-  @media (max-width: 880px) {
+  .contact-button span {
+    display: inline-flex;
+    padding: 7px 11px;
+    border-radius: 999px;
+    font-size: 0.78rem;
+    font-weight: 950;
+  }
+
+  .contact-button strong {
+    font-size: 1.05rem;
+    text-align: right;
+  }
+
+  .contact-button.whatsapp span {
+    background: rgba(32, 211, 102, 0.18);
+    color: #4dff91;
+  }
+
+  .contact-button.telegram span {
+    background: rgba(34, 158, 217, 0.18);
+    color: #75d8ff;
+  }
+
+  .contact-button.download span {
+    background: rgba(255, 216, 111, 0.18);
+    color: #ffd978;
+  }
+
+  .support-card {
+    padding: 34px;
+    border-radius: 30px;
+    text-align: center;
+    background:
+      radial-gradient(circle at top, rgba(255, 216, 111, 0.16), transparent 36%),
+      rgba(255, 255, 255, 0.075);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+  }
+
+  .support-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 34px;
+    object-fit: cover;
+  }
+
+  .support-card h2 {
+    margin: 24px 0 12px;
+    color: #ffffff;
+    font-size: clamp(1.9rem, 4vw, 3rem);
+    line-height: 1.05;
+    letter-spacing: -0.055em;
+  }
+
+  .support-card p {
+    color: rgba(235, 241, 255, 0.72);
+    line-height: 1.68;
+  }
+
+  .support-info {
+    display: grid;
+    gap: 12px;
+    margin-top: 24px;
+    text-align: left;
+  }
+
+  .support-info div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    padding: 15px 17px;
+    border-radius: 16px;
+    background: rgba(111, 214, 255, 0.1);
+  }
+
+  .support-info span {
+    color: rgba(235, 241, 255, 0.72);
+    font-weight: 800;
+  }
+
+  .support-info strong {
+    color: #ffd978;
+    font-weight: 950;
+  }
+
+  @media (max-width: 900px) {
     .contact-grid {
       grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 560px) {
+    .contact-section {
+      padding: 62px 0;
+    }
+
+    .contact-button {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
+    .contact-button strong {
+      text-align: left;
     }
   }
 </style>

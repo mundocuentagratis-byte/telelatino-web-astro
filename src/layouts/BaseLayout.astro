@@ -1,6 +1,7 @@
 ---
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import FloatingContact from "../components/FloatingContact.astro";
 import { appConfig } from "../data/app";
 
 type Props = {
@@ -94,6 +95,8 @@ const jsonLd = {
 
     <slot />
 
+    <FloatingContact />
+
     <Footer />
   </body>
 </html>
@@ -120,10 +123,9 @@ const jsonLd = {
     min-height: 100vh;
     overflow-x: hidden;
     background:
-      linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+      radial-gradient(circle at 18% 0%, rgba(255, 196, 68, 0.08), transparent 28%),
+      radial-gradient(circle at 90% 12%, rgba(46, 201, 255, 0.07), transparent 30%),
       #07111f;
-    background-size: 44px 44px;
     font-family:
       Inter,
       system-ui,
@@ -148,14 +150,19 @@ const jsonLd = {
     -webkit-tap-highlight-color: transparent;
   }
 
-  main section {
-    content-visibility: auto;
-    contain-intrinsic-size: 1px 760px;
+  a {
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+
+  ::selection {
+    background: rgba(255, 216, 111, 0.32);
+    color: #ffffff;
   }
 
   @media (max-width: 768px) {
     body {
-      background-size: 34px 34px;
+      background: #07111f;
     }
 
     *,
@@ -163,6 +170,7 @@ const jsonLd = {
     *::after {
       animation-duration: 0.01ms !important;
       animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
       scroll-behavior: auto !important;
     }
   }
