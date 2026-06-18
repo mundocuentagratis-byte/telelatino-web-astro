@@ -30,11 +30,13 @@ YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+COHERE_API_KEY = os.getenv("COHERE_API_KEY")
 
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
 GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
 MISTRAL_MODEL = os.getenv("MISTRAL_MODEL", "mistral-small-latest")
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
+COHERE_MODEL = os.getenv("COHERE_MODEL", "command-r")
 
 BLOCKED_TOPICS = [
     "agresión sexual",
@@ -216,6 +218,8 @@ def is_quota_error(error: Exception) -> bool:
         "requests per",
         "insufficient_quota",
         "exceeded your current quota",
+        "trial",
+        "limit exceeded",
     ]
 
     return any(fragment in text for fragment in quota_fragments)
@@ -876,6 +880,80 @@ def call_mistral(prompt: str) -> str:
     return response.choices[0].message.content or ""
 
 
+def call_cohere(prompt: str) -> str:
+    if not COHERE_API_KEY:
+        raise RuntimeError("No existe COHERE_API_KEY.")
+
+    url = "https://api.cohere.com/v2/chat"
+
+    headers = {
+        "Authorization": f"Bearer {COHERE_API_KEY}",
+        "Content-Type": "application/json",
+        "Accept": "application/json",
+    }
+
+    payload = {
+        "model": COHERE_MODEL,
+        "messages": [
+            {
+                "role": "system",
+                "content": "Eres un redactor SEO. Responde únicamente JSON válido.",
+            },
+            {
+                "role": "user",
+                "content": prompt,
+            },
+        ],
+        "temperature": 0.4,
+        "response_format": {
+            "type": "json_object"
+        },
+    }
+
+    response = requests.post(
+        url,
+        headers=headers,
+        json=payload,
+        timeout=60,
+    )
+
+    if response.status_code >= 400:
+        raise RuntimeError(
+            f"Cohere error {response.status_code}: {response.text[:1200]}"
+        )
+
+    data = response.json()
+
+    message = data.get("message", {})
+    content = message.get("content", "")
+
+    if isinstance(content, list):
+        pieces = []
+
+        for item in content:
+            if isinstance(item, dict):
+                pieces.append(
+                    item.get("text", "")
+                    or item.get("content", "")
+                    or ""
+                )
+            else:
+                pieces.append(str(item))
+
+        text = "".join(pieces).strip()
+
+        if text:
+            return text
+
+    if isinstance(content, str) and content.strip():
+        return content.strip()
+
+    if data.get("text"):
+        return str(data["text"]).strip()
+
+    raise RuntimeError(f"Cohere no devolvió texto válido: {json.dumps(data)[:1000]}")
+
+
 def call_ai_provider(provider: str, prompt: str) -> str:
     if provider == "gemini":
         return call_gemini(prompt)
@@ -889,14 +967,17 @@ def call_ai_provider(provider: str, prompt: str) -> str:
     if provider == "mistral":
         return call_mistral(prompt)
 
+    if provider == "cohere":
+        return call_cohere(prompt)
+
     raise RuntimeError(f"Proveedor desconocido: {provider}")
 
 
 def get_ai_provider_order(content_type: str) -> list[str]:
     if content_type == "movies":
-        return ["mistral", "gemini", "openai", "groq"]
+        return ["mistral", "cohere", "gemini", "groq", "openai"]
 
-    return ["groq", "mistral", "openai", "gemini"]
+    return ["groq", "mistral", "cohere", "gemini", "openai"]
 
 
 def generate_with_ai_router(candidate: dict, source_text: str, content_type: str) -> dict:
@@ -962,7 +1043,7 @@ def meaningful_words(value: str) -> list[str]:
 def trailer_matches_movie(video_title: str, movie_title: str, release_year: int | None) -> bool:
     normalized_video_title = normalize_text(video_title)
 
-    if "trailer" not in normalized_video_title and "trailer" not in normalized_video_title:
+    if "trailer" not in normalized_video_title:
         return False
 
     if release_year:
