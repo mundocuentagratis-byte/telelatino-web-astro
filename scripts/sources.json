@@ -7,7 +7,6 @@
     "category": "Deportes",
     "initialTarget": 10,
     "dailyLimit": 2,
-    "dailyLimitPerDay": 6,
     "requiresImage": true,
     "maxAgeDays": 7,
     "urls": [
@@ -27,34 +26,17 @@
     "enabled": true,
     "type": "movies_listing",
     "targetCollection": "blog",
-    "sourceName": "Fuentes de cine",
+    "sourceName": "SensaCine",
     "category": "Películas",
     "initialTarget": 10,
     "dailyLimitAfterInitial": 1,
     "requiresImage": true,
     "requiresTrailer": true,
     "minReleaseYear": 2026,
+    "onlyReleaseYear": 2026,
     "urls": [
       "https://www.sensacine.com/peliculas/estrenos/",
-      "https://www.sensacine.com/peliculas/estrenos/es/",
-      "https://www.sensacine.com/peliculas/estrenos/es/mes/",
-      "https://www.sensacine.com/peliculas/estrenos/mas-esperadas/",
-      "https://www.sensacine.com/peliculas/en-cartelera/cines/",
-      "https://www.espinof.com/categoria/Estrenos",
-      "https://www.espinof.com/listas/peliculas-esperadas-2026",
-      "https://decine21.com/estrenos/cine",
-      "https://decine21.com/estrenos/cine?fecha=202601",
-      "https://decine21.com/estrenos/cine?fecha=202602",
-      "https://decine21.com/estrenos/cine?fecha=202603",
-      "https://decine21.com/estrenos/cine?fecha=202604",
-      "https://decine21.com/estrenos/cine?fecha=202605",
-      "https://decine21.com/estrenos/cine?fecha=202606",
-      "https://decine21.com/estrenos/cine?fecha=202607",
-      "https://decine21.com/estrenos/cine?fecha=202608",
-      "https://decine21.com/estrenos/cine?fecha=202609",
-      "https://decine21.com/estrenos/cine?fecha=202610",
-      "https://decine21.com/estrenos/cine?fecha=202611",
-      "https://decine21.com/estrenos/cine?fecha=202612"
+      "https://www.sensacine.com/noticias/"
     ]
   }
 }

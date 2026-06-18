@@ -28,16 +28,18 @@ except Exception:
 
 ROOT = Path(__file__).resolve().parents[1]
 SCRIPTS_DIR = ROOT / "scripts"
+
 SOURCES_FILE = SCRIPTS_DIR / "sources.json"
+SOURCES_PATH = SOURCES_FILE
+
 PROCESSED_FILE = SCRIPTS_DIR / "processed_articles.json"
+PROCESSED_PATH = PROCESSED_FILE
+
 REPORTS_DIR = SCRIPTS_DIR / "reports"
 REPORT_FILE = REPORTS_DIR / "auto_news_report.txt"
-CONTENT_DIR = ROOT / "src" / "content"
-
-# Alias de compatibilidad para los scripts separados antiguos/nuevos.
-SOURCES_PATH = SOURCES_FILE
-PROCESSED_PATH = PROCESSED_FILE
 REPORT_PATH = REPORT_FILE
+
+CONTENT_DIR = ROOT / "src" / "content"
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
@@ -57,6 +59,12 @@ USER_AGENT = (
     "AppleWebKit/537.36 (KHTML, like Gecko) "
     "Chrome/126.0 Safari/537.36"
 )
+
+REQUEST_HEADERS = {
+    "User-Agent": USER_AGENT,
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "es-ES,es;q=0.9,en;q=0.6",
+}
 
 BLOCKED_TOPIC_WORDS = {
     "abuso",
@@ -81,8 +89,7 @@ BLOCKED_TOPIC_WORDS = {
     "casino",
     "gambling",
     "cromos",
-    "dinero",
-    "millones por",
+    "onlyfans",
 }
 
 BAD_MOVIE_TITLE_WORDS = {
@@ -99,8 +106,20 @@ BAD_MOVIE_TITLE_WORDS = {
     "críticas",
     "criticas",
     "fotos",
-    "noticias",
     "streaming",
+    "serie",
+    "series",
+    "temporada",
+    "netflix cancela",
+    "cancela",
+    "crunchyroll",
+    "anime",
+    "animes",
+    "prime video",
+    "disney+",
+    "hbo",
+    "max",
+    "apple tv",
 }
 
 BAD_MOVIE_PATH_PARTS = {
@@ -112,11 +131,43 @@ BAD_MOVIE_PATH_PARTS = {
     "/criticas/",
     "/critica/",
     "/fotos/",
-    "/noticias/",
     "/streaming/",
     "/series/",
+    "/serie/",
     "/tv/",
-    "/cartelera/",
+}
+
+MOVIE_NEWS_BLOCK_WORDS = {
+    "streaming",
+    "netflix",
+    "crunchyroll",
+    "anime",
+    "animes",
+    "serie",
+    "series",
+    "temporada",
+    "temporadas",
+    "cancelada",
+    "cancela",
+    "cancelan",
+    "prime video",
+    "disney",
+    "hbo",
+    "max",
+    "apple tv",
+}
+
+MOVIE_NEWS_REQUIRED_WORDS = {
+    "película",
+    "pelicula",
+    "cine",
+    "estreno",
+    "estrena",
+    "tráiler",
+    "trailer",
+    "rodaje",
+    "taquilla",
+    "reparto",
 }
 
 SPORTS_TEXT_HINTS = {
@@ -167,7 +218,6 @@ NON_SPORTS_TEXT_HINTS = {
     "auricular",
     "traductor",
     "viajes",
-    "cobertura asegurada",
     "amazon",
     "oferta",
     "descuento",
@@ -184,30 +234,21 @@ NON_SPORTS_TEXT_HINTS = {
     "televisión",
 }
 
-MOVIE_LISTING_HINTS = {
-    "estrenos",
-    "peliculas-esperadas-2026",
-    "películas-esperadas-2026",
-    "mas-esperadas",
-    "más-esperadas",
-    "en-cartelera",
-}
-
 REPORT_LINES: list[str] = []
+
+
+def ensure_dirs() -> None:
+    (CONTENT_DIR / "blog").mkdir(parents=True, exist_ok=True)
+    (CONTENT_DIR / "noticias").mkdir(parents=True, exist_ok=True)
+    REPORTS_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def ensure_reports_dir() -> None:
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
 
 
-def ensure_dirs() -> None:
-    ensure_reports_dir()
-    (CONTENT_DIR / "blog").mkdir(parents=True, exist_ok=True)
-    (CONTENT_DIR / "noticias").mkdir(parents=True, exist_ok=True)
-
-
 def reset_report() -> None:
-    ensure_reports_dir()
+    ensure_dirs()
     REPORT_LINES.clear()
     REPORT_FILE.write_text("", encoding="utf-8")
 
@@ -219,7 +260,6 @@ def write_report(message: str) -> None:
     REPORT_FILE.write_text("\n".join(REPORT_LINES) + "\n", encoding="utf-8")
 
 
-# Alias para scripts que llaman core.log(...)
 def log(message: str) -> None:
     write_report(message)
 
@@ -278,24 +318,20 @@ def url_hash(value: str) -> str:
 
 
 def request_text(url: str, timeout: int = 25) -> str:
-    headers = {
-        "User-Agent": USER_AGENT,
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-        "Accept-Language": "es-ES,es;q=0.9,en;q=0.6",
-    }
-
-    response = requests.get(url, headers=headers, timeout=timeout)
+    response = requests.get(url, headers=REQUEST_HEADERS, timeout=timeout)
     response.raise_for_status()
     response.encoding = response.apparent_encoding or response.encoding
-
     return response.text
 
 
 def absolute_url(base_url: str, maybe_url: str) -> str:
     if not maybe_url:
         return ""
-
     return urljoin(base_url, maybe_url.strip())
+
+
+def get_domain(url: str) -> str:
+    return urlparse(url).netloc.lower().replace("www.", "")
 
 
 def is_blocked_topic(text: str) -> bool:
@@ -533,19 +569,19 @@ def extract_movie_release_year(text: str) -> int | None:
     if not text:
         return None
 
-    compact = clean_text(text)[:9000]
-    lowered = compact.lower()
+    compact = clean_text(text)[:7000]
+    lowered = normalize_text(compact)
 
     patterns = [
         r"fecha de estreno[^\d]*(20\d{2})",
         r"estreno en cines[^\d]*(20\d{2})",
         r"estreno[^\d]*(20\d{2})",
+        r"estrena[^\d]*(20\d{2})",
         r"en cartelera[^\d]*(20\d{2})",
         r"proximamente[^\d]*(20\d{2})",
         r"próximamente[^\d]*(20\d{2})",
         r"lanzamiento[^\d]*(20\d{2})",
-        r"peliculas esperadas[^\d]*(20\d{2})",
-        r"películas esperadas[^\d]*(20\d{2})",
+        r"\b(20\d{2})\b",
     ]
 
     for pattern in patterns:
@@ -553,16 +589,6 @@ def extract_movie_release_year(text: str) -> int | None:
 
         if match:
             return int(match.group(1))
-
-    years = [int(y) for y in re.findall(r"\b(20\d{2})\b", compact[:6000])]
-
-    if 2026 in years:
-        return 2026
-
-    future_years = [year for year in years if 2025 <= year <= 2035]
-
-    if future_years:
-        return min(future_years)
 
     return None
 
@@ -597,7 +623,7 @@ def get_sports_candidates(group: dict) -> list[dict]:
     candidates: list[dict] = []
     seen: set[str] = set()
 
-    max_age_days = int(group.get("maxAgeDays", 1))
+    max_age_days = int(group.get("maxAgeDays", 7))
     requires_image = bool(group.get("requiresImage", True))
     source_name = group.get("sourceName", "")
     category = group.get("category", "Deportes")
@@ -671,78 +697,96 @@ def get_sports_candidates(group: dict) -> list[dict]:
                     "sourceName": source_name,
                     "category": category,
                     "targetCollection": target_collection,
+                    "priority": 0 if listing_is_latest else 1,
                 }
             )
+
+    candidates.sort(key=lambda item: (item.get("priority", 9), item.get("title", "")))
 
     return candidates
 
 
-def is_movie_detail_url(url: str) -> bool:
+def is_sensacine_movie_detail_url(url: str) -> bool:
     parsed = urlparse(url)
     domain = parsed.netloc.lower().replace("www.", "")
     path = parsed.path.lower()
 
+    if "sensacine.com" not in domain:
+        return False
+
     if any(bad in path for bad in BAD_MOVIE_PATH_PARTS):
         return False
 
-    if "sensacine.com" in domain:
-        return "/peliculas/pelicula-" in path
-
-    if "espinof.com" in domain:
-        if "/categoria/" in path:
-            return False
-        return "/listas/" in path or len(path.strip("/").split("/")) >= 1
-
-    if "decine21.com" in domain:
-        if path.rstrip("/") == "/estrenos/cine":
-            return False
-        if any(part in path for part in ["/peliculas/", "/pelicula/", "/cine/"]):
-            return True
-        return len(path.strip("/").split("/")) >= 1
-
-    return False
+    return "/peliculas/pelicula-" in path
 
 
-def listing_suggests_2026(url: str) -> bool:
-    normalized = normalize_text(url)
-    return "2026" in normalized or "fecha 2026" in normalized or "fecha=2026" in url.lower()
+def is_sensacine_movie_news_url(url: str) -> bool:
+    parsed = urlparse(url)
+    domain = parsed.netloc.lower().replace("www.", "")
+    path = parsed.path.lower()
+
+    if "sensacine.com" not in domain:
+        return False
+
+    if any(bad in path for bad in BAD_MOVIE_PATH_PARTS):
+        return False
+
+    return "/noticias/cine/noticia-" in path or "/noticias/noticia-" in path
 
 
-def is_movie_listing_url(url: str) -> bool:
-    normalized = normalize_text(url)
-    return any(hint in normalized for hint in MOVIE_LISTING_HINTS) or listing_suggests_2026(url)
+def is_movie_detail_url(url: str) -> bool:
+    return is_sensacine_movie_detail_url(url)
+
+
+def movie_news_is_valid(title: str, text: str, url: str) -> bool:
+    normalized = normalize_text(f"{title} {text[:1200]} {url}")
+
+    if any(word in normalized for word in MOVIE_NEWS_BLOCK_WORDS):
+        return False
+
+    if not any(word in normalized for word in MOVIE_NEWS_REQUIRED_WORDS):
+        return False
+
+    return True
+
+
+def get_movie_identity(title: str) -> str:
+    title = clean_text(title)
+    title = re.sub(r"\s*-\s*SensaCine.*$", "", title, flags=re.IGNORECASE)
+    title = re.sub(r"\s*\|\s*SensaCine.*$", "", title, flags=re.IGNORECASE)
+    return title.strip()
 
 
 def get_movies_candidates(group: dict) -> list[dict]:
     candidates: list[dict] = []
     seen: set[str] = set()
 
-    source_name = group.get("sourceName", "")
     category = group.get("category", "Películas")
     target_collection = group.get("targetCollection", "blog")
     requires_image = bool(group.get("requiresImage", True))
-    min_release_year = int(group.get("minReleaseYear", 2026))
-    max_release_year = int(group.get("maxReleaseYear", 2026))
+    only_release_year = int(group.get("onlyReleaseYear", group.get("minReleaseYear", 2026)))
 
     for listing_url in group.get("urls", []):
+        listing_url_norm = listing_url.lower()
+        listing_is_releases = "/peliculas/estrenos" in listing_url_norm
+        listing_is_news = "/noticias" in listing_url_norm
+
         try:
             links = get_listing_links(listing_url)
         except Exception as exc:
             write_report(f"[movies] No se pudo leer listado {listing_url}: {exc}")
             continue
 
-        # También evaluamos el propio listado cuando es una lista editorial tipo Espinof 2026.
-        listing_items = []
-        if is_movie_listing_url(listing_url):
-            listing_items.append({"title": "", "url": listing_url})
-
-        for item in listing_items + links:
+        for item in links:
             url = item.get("url", "")
 
             if url in seen:
                 continue
 
-            if not is_movie_detail_url(url):
+            is_release_card = is_sensacine_movie_detail_url(url)
+            is_movie_news = listing_is_news and is_sensacine_movie_news_url(url)
+
+            if not is_release_card and not is_movie_news:
                 continue
 
             try:
@@ -751,31 +795,30 @@ def get_movies_candidates(group: dict) -> list[dict]:
                 write_report(f"[movies] No se pudo extraer {url}: {exc}")
                 continue
 
-            title = data.get("title", "") or item.get("title", "")
+            title = get_movie_identity(data.get("title", "") or item.get("title", ""))
             text = data.get("text", "")
             image = data.get("image", "")
-            listing_is_2026 = listing_suggests_2026(listing_url) or listing_suggests_2026(url)
 
             if movie_title_is_invalid(title):
                 continue
 
-            if len(text) < 220:
+            if len(text) < 250:
                 continue
 
             if requires_image and not image:
                 continue
 
-            release_year = extract_movie_release_year(f"{title}\n{text}\n{url}\n{listing_url}")
+            release_year = extract_movie_release_year(f"{title}\n{text}\n{url}")
 
-            if release_year is None and listing_is_2026:
-                release_year = 2026
-
-            if release_year is None:
-                write_report(f"[movies] Saltado sin año claro: {title}")
+            if release_year != only_release_year:
+                write_report(
+                    f"[movies] Saltado porque no es estreno {only_release_year}: "
+                    f"{title} ({release_year})"
+                )
                 continue
 
-            if release_year < min_release_year or release_year > max_release_year:
-                write_report(f"[movies] Saltado por año {release_year}: {title}")
+            if is_movie_news and not movie_news_is_valid(title, text, url):
+                write_report(f"[movies] Saltado noticia no apta para películas: {title}")
                 continue
 
             seen.add(url)
@@ -786,17 +829,20 @@ def get_movies_candidates(group: dict) -> list[dict]:
                     "url": url,
                     "text": text,
                     "image": image,
-                    "sourceName": source_name,
+                    "sourceName": "SensaCine",
                     "category": category,
                     "targetCollection": target_collection,
                     "releaseYear": release_year,
+                    "contentKind": "estreno" if is_release_card else "noticia_cine",
+                    "priority": 0 if is_release_card else 1,
                 }
             )
+
+    candidates.sort(key=lambda item: (item.get("priority", 9), item.get("title", "")))
 
     return candidates
 
 
-# Alias para scripts que todavía llaman get_movie_candidates.
 def get_movie_candidates(group: dict, processed=None) -> list[dict]:
     return get_movies_candidates(group)
 
@@ -846,9 +892,8 @@ def post_matches_category(path: Path, category: str, target_collection: str) -> 
     if target_collection == "blog" or category_norm == "peliculas":
         return (
             "category peliculas" in normalized
+            or "category peliculas" in normalized.replace(":", "")
             or "sensacine" in normalized
-            or "espinof" in normalized
-            or "decine21" in normalized
             or "youtubevideoid" in normalized
         )
 
@@ -906,8 +951,6 @@ def get_dynamic_daily_limit(group: dict) -> int:
     category = normalize_text(group.get("category", ""))
 
     existing = count_existing_posts(group)
-    today_count = count_posts_today(group)
-
     initial_target = int(group.get("initialTarget", 0) or 0)
 
     if initial_target > 0 and existing < initial_target:
@@ -915,13 +958,11 @@ def get_dynamic_daily_limit(group: dict) -> int:
 
     if target_collection == "blog" or category == "peliculas":
         after_initial = int(group.get("dailyLimitAfterInitial", 1))
-        return max(0, after_initial - today_count)
+        return max(0, after_initial)
 
-    per_run = int(group.get("dailyLimit", 1))
-    per_day = int(group.get("dailyLimitPerDay", per_run))
-    remaining_today = max(0, per_day - today_count)
-
-    return max(0, min(per_run, remaining_today))
+    # Para deportes: cada ejecución publica 1 o 2 noticias recientes si hay candidatos.
+    per_run = int(group.get("dailyLimit", 2))
+    return max(0, per_run)
 
 
 def editorial_seed_options(candidate: dict) -> dict:
@@ -953,7 +994,7 @@ def build_prompt(candidate: dict, group: dict) -> str:
     url = candidate.get("url", "").strip()
     text = candidate.get("text", "").strip()
     category = group.get("category", "Entretenimiento")
-    source_name = group.get("sourceName", "").strip()
+    source_name = group.get("sourceName", "").strip() or candidate.get("sourceName", "")
     target_collection = group.get("targetCollection", "").strip()
     seed_options = editorial_seed_options(candidate)
 
@@ -961,37 +1002,29 @@ def build_prompt(candidate: dict, group: dict) -> str:
     is_sports = target_collection == "noticias" or normalize_text(category) == "deportes"
 
     if is_movie:
-        article_type = "película o estreno"
-        word_range = "800 a 1100 palabras"
+        article_type = "película o estreno de cine"
+        word_range = "750 a 1000 palabras"
         intro_style = seed_options["movie_hook"]
         editorial_focus = """
 Este artículo es para la sección de Películas de TELELATINO.
 
-La redacción debe sentirse como una nota de entretenimiento escrita por una persona real:
-- clara,
-- cercana,
-- profesional,
-- con ritmo,
-- sin sonar a ficha técnica,
-- sin sonar a texto automático.
+Reglas especiales:
+- El tema debe tratarse como película, estreno o noticia de cine.
+- No escribas sobre series, anime, Crunchyroll, Netflix, streaming ni plataformas salvo que sea un dato secundario de una película de cine.
+- No escribas “Sinopsis reescrita”.
+- No inventes que la película está disponible en TELELATINO.
+- No inventes reparto, fecha, plataforma, taquilla ni detalles que no estén en el texto.
+- Si hay información de estreno, debe quedar clara y natural.
+- La redacción debe sentirse humana, no una ficha técnica.
 
-No escribas “Sinopsis reescrita”.
-No uses subtítulos repetitivos como “Contexto de la película” en todos los artículos.
-No inventes datos de reparto, fecha, plataforma o trama si no aparecen en la información entregada.
-
-Puedes usar subtítulos naturales y variados como:
+Usa subtítulos naturales y variados según el contenido:
 - De qué trata la película
-- Qué hace interesante este estreno
+- Por qué este estreno puede llamar la atención
+- Qué se sabe de su llegada
 - El tono de la historia
-- Por qué puede llamar la atención
 - Una película para tener en el radar
 - Qué esperar antes de verla
-- El punto fuerte de la propuesta
-- Una mirada rápida al estreno
 - El detalle que puede marcar la diferencia
-- Para quién puede funcionar esta película
-
-No uses todos esos subtítulos a la vez. Elige de 3 a 5 según el contenido.
 """
     elif is_sports:
         article_type = "noticia deportiva"
@@ -1000,32 +1033,11 @@ No uses todos esos subtítulos a la vez. Elige de 3 a 5 según el contenido.
         editorial_focus = """
 Este artículo es para la sección de Noticias deportivas de TELELATINO.
 
-La redacción debe sentirse como una nota deportiva escrita por un redactor real:
-- directa,
-- informativa,
-- con lectura humana,
-- sin exagerar,
-- sin repetir estructuras idénticas,
-- sin titulares artificiales.
-
-No uses siempre “Contexto de la noticia”, “Qué se sabe hasta ahora”, “Por qué es importante” y “Qué puede pasar ahora”.
-No inventes declaraciones, resultados, lesiones, fichajes o fechas si no aparecen en la información entregada.
-No conviertas la noticia en una crónica falsa si solo hay pocos datos.
-
-Puedes usar subtítulos naturales y variados como:
-- La clave del momento
-- Lo que deja esta noticia
-- El dato que no pasa desapercibido
-- Qué cambia para el equipo
-- Una lectura del caso
-- Lo que viene ahora
-- Por qué conviene seguirlo
-- El ambiente alrededor del partido
-- La reacción que marca la noticia
-- Un movimiento que puede pesar
-- El detalle que explica la situación
-
-No uses todos esos subtítulos a la vez. Elige de 3 a 5 según el contenido.
+Reglas especiales:
+- Debe sentirse como una nota deportiva escrita por un redactor real.
+- No inventes declaraciones, resultados, lesiones, fichajes o fechas si no aparecen.
+- No uses siempre los mismos subtítulos.
+- Explica qué pasó, por qué importa y qué lectura deja para el aficionado.
 """
     else:
         article_type = "artículo informativo"
@@ -1064,9 +1076,6 @@ REGLAS DE CALIDAD:
 - Escribe en español neutro.
 - Usa una voz humana, profesional y cercana.
 - Evita frases robóticas como “en este artículo exploraremos”, “en conclusión”, “sin duda alguna”, “cabe destacar que” repetida muchas veces.
-- No repitas siempre la misma estructura entre artículos.
-- No uses párrafos enormes.
-- Alterna frases cortas y frases medianas para que se sienta natural.
 - No uses emojis dentro del artículo.
 - No uses mayúsculas excesivas.
 - No escribas contenido sensacionalista.
@@ -1075,7 +1084,6 @@ REGLAS DE CALIDAD:
 - No menciones inteligencia artificial.
 - No pongas “Fuente consultada”.
 - No pongas enlaces externos dentro del cuerpo.
-- No pongas una lista larga si no aporta valor.
 - El contenido debe tener aproximadamente {word_range}, pero si la información disponible no alcanza, prioriza calidad y claridad antes que relleno.
 
 ESTRUCTURA RECOMENDADA:
@@ -1090,8 +1098,6 @@ IMPORTANTE PARA EL CUERPO:
 - No uses el subtítulo “Sinopsis reescrita”.
 - No uses el subtítulo “Fuente consultada”.
 - No repitas el título exacto dentro de todos los subtítulos.
-- El primer párrafo debe enganchar sin exagerar.
-- El cierre puede mencionar TELELATINO de forma natural, pero no debe sonar como anuncio repetitivo.
 
 DEVUELVE ÚNICAMENTE JSON VÁLIDO con esta estructura exacta:
 {{
@@ -1179,12 +1185,6 @@ def sanitize_body(body: str) -> str:
 
         if stripped.startswith("## "):
             heading = stripped[3:].strip()
-            heading = re.sub(
-                r"^Sinopsis de\s+(.+?):\s*Sinopsis",
-                r"Sinopsis de \1",
-                heading,
-                flags=re.IGNORECASE,
-            )
             heading = heading.replace("Sinopsis reescrita", "Sinopsis")
             stripped = "## " + heading
 
@@ -1472,20 +1472,6 @@ def rotate_list(items: list[str], seed: str) -> list[str]:
     return items[offset:] + items[:offset]
 
 
-def provider_has_key(provider: str) -> bool:
-    if provider == "gemini":
-        return bool(GEMINI_API_KEY)
-    if provider == "openai":
-        return bool(OPENAI_API_KEY)
-    if provider == "groq":
-        return bool(GROQ_API_KEY)
-    if provider == "mistral":
-        return bool(MISTRAL_API_KEY)
-    if provider == "cohere":
-        return bool(COHERE_API_KEY)
-    return False
-
-
 def get_ai_provider_order(group: dict, candidate: dict) -> list[str]:
     category = normalize_text(group.get("category", ""))
     target_collection = group.get("targetCollection", "")
@@ -1503,7 +1489,7 @@ def get_ai_provider_order(group: dict, candidate: dict) -> list[str]:
         f"{candidate.get('title', '')}"
     )
 
-    return [provider for provider in rotate_list(base_order, seed) if provider_has_key(provider)]
+    return rotate_list(base_order, seed)
 
 
 def generate_with_ai_router(candidate: dict, group: dict) -> dict:
@@ -1556,6 +1542,8 @@ def meaningful_words(value: str) -> set[str]:
         "latino",
         "subtitulado",
         "doblado",
+        "sensacine",
+        "telelatino",
     }
 
     return words - stopwords
@@ -1570,7 +1558,7 @@ def trailer_matches_movie(
     video_words = meaningful_words(video_title)
     normalized_video = normalize_text(video_title)
 
-    if "trailer" not in normalized_video and "trailer" not in strip_accents(normalized_video):
+    if "trailer" not in normalized_video and "avance" not in normalized_video:
         return False
 
     if not movie_words:
@@ -1678,7 +1666,7 @@ def write_markdown(article: dict, candidate: dict, group: dict) -> Path:
 
     image = candidate.get("image", "")
     category = group.get("category", candidate.get("category", "Entretenimiento"))
-    source_name = group.get("sourceName", candidate.get("sourceName", ""))
+    source_name = candidate.get("sourceName") or group.get("sourceName", "")
     source_url = candidate.get("url", "")
     author = "TELELATINO"
 
@@ -1736,14 +1724,7 @@ def get_processed_set(data) -> set[str]:
             current = data.get(key, [])
 
             if isinstance(current, list):
-                for item in current:
-                    if isinstance(item, dict):
-                        if item.get("url"):
-                            values.add(str(item["url"]))
-                        if item.get("hash"):
-                            values.add(str(item["hash"]))
-                    else:
-                        values.add(str(item))
+                values.update(str(item) for item in current)
 
         return values
 
@@ -1775,29 +1756,85 @@ def enrich_candidate_before_ai(candidate: dict, group: dict) -> dict | None:
     is_movie = target_collection == "blog" or category == "peliculas"
 
     if requires_trailer and is_movie:
-        existing = count_existing_posts(group)
-        initial_target = int(group.get("initialTarget", 0) or 0)
-        filling_initial = initial_target > 0 and existing < initial_target
-
         trailer = search_youtube_trailer(
             candidate.get("title", ""),
             candidate.get("releaseYear"),
         )
 
-        if not trailer and not filling_initial:
-            return None
-
-        if not trailer and filling_initial:
+        if not trailer:
             write_report(
-                f"[movies] Sin tráiler, pero se permite para completar las 10 iniciales: "
+                f"[movies] Saltado porque no tiene tráiler confiable: "
                 f"{candidate.get('title', '')}"
             )
-            return candidate
+            return None
 
         candidate = dict(candidate)
         candidate.update(trailer)
 
     return candidate
+
+
+def title_similarity_key(title: str) -> set[str]:
+    words = meaningful_words(title)
+    return {word for word in words if len(word) >= 4}
+
+
+def is_duplicate_by_existing_posts(candidate: dict, group: dict) -> bool:
+    target_collection = group.get("targetCollection", candidate.get("targetCollection", "blog"))
+    collection_dir = CONTENT_DIR / target_collection
+
+    if not collection_dir.exists():
+        return False
+
+    candidate_words = title_similarity_key(candidate.get("title", ""))
+
+    if not candidate_words:
+        return False
+
+    for path in list(collection_dir.glob("*.md")) + list(collection_dir.glob("*.mdx")):
+        try:
+            text = path.read_text(encoding="utf-8")
+        except Exception:
+            continue
+
+        existing_title = extract_frontmatter_value(text, "title")
+        existing_words = title_similarity_key(existing_title)
+
+        if not existing_words:
+            continue
+
+        overlap = len(candidate_words & existing_words)
+        base = min(len(candidate_words), len(existing_words))
+
+        if base > 0 and overlap / base >= 0.60:
+            write_report(
+                f"[duplicado] Saltado por tema parecido: "
+                f"{candidate.get('title', '')} ~= {existing_title}"
+            )
+            return True
+
+    return False
+
+
+def make_candidate_processed_keys(candidate: dict, group: dict) -> list[str]:
+    target_collection = group.get("targetCollection", "")
+    category = normalize_text(group.get("category", ""))
+
+    url = candidate.get("url", "")
+    title = candidate.get("title", "")
+
+    keys = [
+        url_hash(url),
+        url,
+    ]
+
+    if target_collection == "blog" or category == "peliculas":
+        keys.append("movie-title:" + slugify(title))
+        words = sorted(title_similarity_key(title))
+        if words:
+            keys.append("movie-words:" + "-".join(words[:8]))
+
+    return [key for key in keys if key]
 
 
 def run_group(group_key: str, group: dict, processed: set[str]) -> int:
@@ -1823,9 +1860,14 @@ def run_group(group_key: str, group: dict, processed: set[str]) -> int:
         if published >= limit:
             break
 
-        candidate_hash = url_hash(candidate.get("url", ""))
+        candidate_keys = make_candidate_processed_keys(candidate, group)
 
-        if candidate_hash in processed or candidate.get("url", "") in processed:
+        if any(key in processed for key in candidate_keys):
+            continue
+
+        if is_duplicate_by_existing_posts(candidate, group):
+            processed.update(candidate_keys)
+            save_processed_set(processed)
             continue
 
         if is_blocked_topic(
@@ -1834,17 +1876,15 @@ def run_group(group_key: str, group: dict, processed: set[str]) -> int:
             write_report(
                 f"[{group_key}] Saltado por tema bloqueado: {candidate.get('title', '')}"
             )
-            processed.add(candidate_hash)
-            processed.add(candidate.get("url", ""))
+            processed.update(candidate_keys)
+            save_processed_set(processed)
             continue
 
         enriched_candidate = enrich_candidate_before_ai(candidate, group)
 
         if enriched_candidate is None:
-            write_report(
-                f"[{group_key}] Saltado por falta de tráiler confiable: "
-                f"{candidate.get('title', '')}"
-            )
+            processed.update(candidate_keys)
+            save_processed_set(processed)
             continue
 
         try:
@@ -1856,8 +1896,7 @@ def run_group(group_key: str, group: dict, processed: set[str]) -> int:
 
             write_markdown(article, enriched_candidate, group)
 
-            processed.add(candidate_hash)
-            processed.add(candidate.get("url", ""))
+            processed.update(candidate_keys)
             save_processed_set(processed)
 
             published += 1
@@ -1873,7 +1912,6 @@ def run_group(group_key: str, group: dict, processed: set[str]) -> int:
     return published
 
 
-# Funciones de compatibilidad para wrappers nuevos.
 def handle_movies(group: dict, processed) -> int:
     processed_set = get_processed_set(processed)
     total = run_group("movies", group, processed_set)
@@ -1890,10 +1928,11 @@ def handle_sports(group: dict, processed) -> int:
 
 def main() -> int:
     reset_report()
-    ensure_dirs()
 
     write_report("=== TELELATINO Auto News ===")
     write_report(f"Fecha UTC: {datetime.now(timezone.utc).isoformat()}")
+
+    ensure_dirs()
 
     sources = load_json(SOURCES_FILE, {})
     processed_data = load_json(PROCESSED_FILE, [])
