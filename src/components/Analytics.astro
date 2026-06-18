@@ -1,0 +1,121 @@
+---
+const gaId = import.meta.env.PUBLIC_GA_ID;
+---
+
+{gaId && (
+  <>
+    <script async src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}></script>
+
+    <script is:inline define:vars={{ gaId }}>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+
+      window.gtag = gtag;
+
+      gtag("js", new Date());
+
+      gtag("config", gaId, {
+        send_page_view: true
+      });
+    </script>
+
+    <script is:inline>
+      function getTrackingData(element) {
+        const manualEvent = element.getAttribute("data-track");
+        const manualLabel = element.getAttribute("data-label");
+
+        const href = element.getAttribute("href") || "";
+        const text = (manualLabel || element.textContent || "").trim();
+        const hrefLower = href.toLowerCase();
+
+        if (manualEvent) {
+          return {
+            eventName: manualEvent,
+            label: text || manualEvent,
+            url: href
+          };
+        }
+
+        if (
+          hrefLower.includes(".apk") ||
+          (hrefLower.includes("github.com") && hrefLower.includes("releases"))
+        ) {
+          return {
+            eventName: "download_apk",
+            label: text || "Descargar APK",
+            url: href
+          };
+        }
+
+        if (
+          hrefLower.includes("wa.me") ||
+          hrefLower.includes("whatsapp.com") ||
+          hrefLower.includes("api.whatsapp.com")
+        ) {
+          return {
+            eventName: "whatsapp_click",
+            label: text || "WhatsApp",
+            url: href
+          };
+        }
+
+        if (
+          hrefLower.includes("t.me") ||
+          hrefLower.includes("telegram.me") ||
+          hrefLower.includes("telegram.org")
+        ) {
+          return {
+            eventName: "telegram_click",
+            label: text || "Telegram",
+            url: href
+          };
+        }
+
+        if (
+          hrefLower.includes("youtube.com") ||
+          hrefLower.includes("youtu.be")
+        ) {
+          return {
+            eventName: "trailer_click",
+            label: text || "YouTube / Trailer",
+            url: href
+          };
+        }
+
+        if (
+          hrefLower.startsWith("http") &&
+          !hrefLower.includes(window.location.hostname)
+        ) {
+          return {
+            eventName: "outbound_click",
+            label: text || "Enlace externo",
+            url: href
+          };
+        }
+
+        return null;
+      }
+
+      document.addEventListener("click", function (event) {
+        const element = event.target.closest("a, button");
+
+        if (!element || !window.gtag) return;
+
+        const data = getTrackingData(element);
+
+        if (!data) return;
+
+        window.gtag("event", data.eventName, {
+          event_category: "interaction",
+          event_label: data.label,
+          link_url: data.url,
+          page_location: window.location.href,
+          page_title: document.title
+        });
+      });
+    </script>
+  </>
+)}
