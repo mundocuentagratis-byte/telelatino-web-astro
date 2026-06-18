@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-18T16:05:39.733015+00:00
+Fecha UTC: 2026-06-18T16:31:37.356992+00:00
 [movies] Saltado sin año claro: Bernie
 [movies] Saltado sin año claro: La acompañante
 [movies] Saltado por año 2025: Ballerina
@@ -26,10 +26,10 @@ Fecha UTC: 2026-06-18T16:05:39.733015+00:00
 [movies] Saltado sin año claro: Spider-Man: Brand New Day
 [movies] Saltado sin año claro: Supergirl
 [movies] Saltado sin año claro: México 86
+[movies] Saltado sin año claro: Heart Of The Beast
 [movies] Saltado sin año claro: Minions & Monsters
 [movies] Saltado sin año claro: Dreams
 [movies] Saltado sin año claro: Normal
-[movies] Saltado sin año claro: La bola negra
 [movies] Saltado sin año claro: Scary Movie
 [movies] Saltado sin año claro: Backrooms
 [movies] Saltado sin año claro: He-Man y los Masters Del Universo
@@ -109,8 +109,8 @@ Fecha UTC: 2026-06-18T16:05:39.733015+00:00
 [movies] Saltado sin año claro: Obsession
 [movies] Saltado sin año claro: La Odisea
 [movies] Saltado sin año claro: La constelación del perro
-[movies] Saltado sin año claro: Supergirl
 [movies] Saltado sin año claro: Spider-Man: Brand New Day
+[movies] Saltado sin año claro: Supergirl
 [movies] Saltado sin año claro: México 86
 [movies] Saltado sin año claro: Minions & Monsters
 [movies] Saltado sin año claro: Dreams
@@ -158,17 +158,17 @@ Fecha UTC: 2026-06-18T16:05:39.733015+00:00
 [movies] Saltado sin año claro: Spider-Man: Brand New Day
 [movies] Saltado sin año claro: Supergirl
 [movies] Saltado sin año claro: México 86
+[movies] Saltado sin año claro: En el corazón de la bestia
 [movies] Saltado sin año claro: Minions & Monsters
 [movies] Saltado sin año claro: Dreams
 [movies] Saltado sin año claro: Normal
-[movies] Saltado sin año claro: La bola negra
 [movies] Saltado sin año claro: Los rankings de lo mejor del cine
 [movies] Saltado por año 2099: Los mejores rankings de series
 [movies] Saltado por año 2020: Videoteca Sensacine
+[movies] Saltado por año 2027: 'Shrek 5' recuperará a sus voces de siempre para el doblaje en España. En Latinoamérica no han tenido la misma suerte y los fans están que trinan
 [movies] Saltado sin año claro: 'Encuentros en la tercera fase' y 'E.T' fueron solo los dos primeros actos. Para Steven Spielberg, sus historias de alienígenas se cierran en 'El Día de la Revelación'
-[movies] Saltado sin año claro: 'Supervivientes' tendrá una adaptación animada absolutamente imposible. Paramount ya prepara una película del reality cambiando a los concursantes por adorables animalillos
-[movies] Saltado sin año claro: Cómo la escena poscréditos de 'Toy Story 5' resuelve una de las grandes incógnitas que deja la película tras su intenso final
-[movies] Saltado sin año claro: Steven Spielberg acostumbra a estrenar dos películas en un año. En 2005 entregó una sesión doble de ciencia ficción y drama que sigue dejando el cuerpo del revés
+[movies] Saltado sin año claro: Taylor Sheridan admite que le ha sorprendido lo mucho que se parece su realidad a la de John Dutton: "Eres como un rey y no se aplica la moral"
+[movies] Saltado sin año claro: Mikel Zorrilla
 [movies] Saltado sin año claro: 'Encuentros en la tercera fase' y 'E.T' fueron solo los dos primeros actos. Para Steven Spielberg, sus historias de alienígenas se cierran en 'El Día de la Revelación'
 [movies] Saltado sin año claro: 'Encuentros en la tercera fase' y 'E.T' fueron solo los dos primeros actos. Para Steven Spielberg, sus historias de alienígenas se cierran en 'El Día de la Revelación'
 [movies] Saltado sin año claro: 'Encuentros en la tercera fase' y 'E.T' fueron solo los dos primeros actos. Para Steven Spielberg, sus historias de alienígenas se cierran en 'El Día de la Revelación'
@@ -195,11 +195,13 @@ Fecha UTC: 2026-06-18T16:05:39.733015+00:00
 [movies] Saltado por año 2002: El público dicta sentencia sobre 'El día de la revelación' y afirma que es la segunda peor película de Steven Spielberg. No estoy para nada de acuerdo
 [movies] Saltado por año 2002: El público dicta sentencia sobre 'El día de la revelación' y afirma que es la segunda peor película de Steven Spielberg. No estoy para nada de acuerdo
 [movies] Saltado por año 2002: El público dicta sentencia sobre 'El día de la revelación' y afirma que es la segunda peor película de Steven Spielberg. No estoy para nada de acuerdo
+[movies] Saltado sin año claro: Mikel Zorrilla
 [movies] Saltado por año 2025: Randy Meeks
 [movies] Saltado sin año claro: Vuelve el mejor Steven Spielberg, no podemos pedir más. Lo mejor y lo peor de los estrenos de cine
 [movies] Saltado sin año claro: Vuelve el mejor Steven Spielberg, no podemos pedir más. Lo mejor y lo peor de los estrenos de cine
 [movies] Saltado sin año claro: Vuelve el mejor Steven Spielberg, no podemos pedir más. Lo mejor y lo peor de los estrenos de cine
 [movies] Saltado sin año claro: Vuelve el mejor Steven Spielberg, no podemos pedir más. Lo mejor y lo peor de los estrenos de cine
+[movies] Saltado sin año claro: Mikel Zorrilla
 [movies] Saltado por año 2025: Randy Meeks
 [movies] Saltado sin año claro: Una canción que se llevaba esperando más de 10 años cierra 'Backrooms': su historia es clave para comprender la película de terror del momento
 [movies] Saltado sin año claro: Una canción que se llevaba esperando más de 10 años cierra 'Backrooms': su historia es clave para comprender la película de terror del momento
@@ -236,14 +238,12 @@ Fecha UTC: 2026-06-18T16:05:39.733015+00:00
 [movies] Saltado por año 2027: 'Shrek 5' recuperará a sus voces de siempre para el doblaje en España. En Latinoamérica no han tenido la misma suerte y los fans están que trinan
 [movies] Saltado sin año claro: Taylor Sheridan admite que le ha sorprendido lo mucho que se parece su realidad a la de John Dutton: "Eres como un rey y no se aplica la moral"
 [movies] Saltado sin año claro: 'Encuentros en la tercera fase' y 'E.T' fueron solo los dos primeros actos. Para Steven Spielberg, sus historias de alienígenas se cierran en 'El Día de la Revelación'
-[movies] Saltado sin año claro: 'Supervivientes' tendrá una adaptación animada absolutamente imposible. Paramount ya prepara una película del reality cambiando a los concursantes por adorables animalillos
 [movies] Saltado por año 2099: Los mejores rankings de series
 [movies] Saltado por año 2020: Videoteca Sensacine
 [movies] Saltado por año 2019: 'Vengadores: Doomsday', todo lo que sabemos de la película de superhéroes de Marvel con el regreso de Robert Downey Jr y los hermanos Russo
 [movies] Saltado por año 2008: Orden definitivo para ver todas las películas y series del Universo Marvel
 [movies] Saltado por año 2011: 'Star Wars', en qué orden conviene ver todas las películas y series de la saga
 [movies] Saltado por año 2025: Las 35 mejores películas de acción de la historia
-[movies] Saltado por año 2018: Torrente Presidente
 [movies] Saltado por año 2025: Las 13 mejores series de 2026... por ahora
 [movies] No se pudo extraer https://www.espinof.com/listas/mejores-anime: 404 Client Error: Not Found for url: https://www.espinof.com/listas/mejores-anime
 [movies] Saltado por año 2008: Orden definitivo para ver todas las películas y series del Universo Marvel
@@ -265,7 +265,7 @@ Fecha UTC: 2026-06-18T16:05:39.733015+00:00
 [movies] No se pudo leer listado https://decine21.com/estrenos/cine?fecha=202610: 403 Client Error: Forbidden for url: https://decine21.com/estrenos/cine?fecha=202610
 [movies] No se pudo leer listado https://decine21.com/estrenos/cine?fecha=202611: 403 Client Error: Forbidden for url: https://decine21.com/estrenos/cine?fecha=202611
 [movies] No se pudo leer listado https://decine21.com/estrenos/cine?fecha=202612: 403 Client Error: Forbidden for url: https://decine21.com/estrenos/cine?fecha=202612
-[movies] Candidatos encontrados: 126 | Límite: 9
+[movies] Candidatos encontrados: 122 | Límite: 10
 [IA] Probando proveedor groq: El diablo viste de Prada 2
 [IA] Artículo generado con groq
 [OK] Publicado: src/content/blog/el-diablo-viste-de-prada-2-2026-06-18-9adb8f.md
@@ -273,53 +273,57 @@ Fecha UTC: 2026-06-18T16:05:39.733015+00:00
 [movies] Sin tráiler, pero se permite para completar las 10 iniciales: Espinof
 [IA] Probando proveedor mistral: Espinof
 [IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/peliculas-animes-y-estrenos-que-no-te-puedes-perder-este-verano-2026-06-18-4de57d.md
+[OK] Publicado: src/content/blog/28-millones-para-el-regreso-de-un-mito-del-cine-espanol-y-otros-estrenos-que-no-te-puede-2026-06-18-4de57d.md
+[YouTube] No se encontró tráiler confiable para 12 años después de 'True Detective', Woody Harrelson y Matthew McConaughey se reúnen en una nueva comedia para Apple TV. Y ya tenemos fecha de estreno
+[movies] Sin tráiler, pero se permite para completar las 10 iniciales: 12 años después de 'True Detective', Woody Harrelson y Matthew McConaughey se reúnen en una nueva comedia para Apple TV. Y ya tenemos fecha de estreno
+[IA] Probando proveedor openai: 12 años después de 'True Detective', Woody Harrelson y Matthew McConaughey se re
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+[IA] Probando proveedor mistral: 12 años después de 'True Detective', Woody Harrelson y Matthew McConaughey se re
+[IA] Artículo generado con mistral
+[OK] Publicado: src/content/blog/woody-harrelson-y-matthew-mcconaughey-vuelven-a-unirse-en-brothers-2026-06-18-45595c.md
+[YouTube] No se encontró tráiler confiable para Protagonizó una de las tramas más tristes de 'The Pitt' y se va a presentar a los Emmys por su cuenta tras el desdén de HBO Max. No es la única
+[movies] Sin tráiler, pero se permite para completar las 10 iniciales: Protagonizó una de las tramas más tristes de 'The Pitt' y se va a presentar a los Emmys por su cuenta tras el desdén de HBO Max. No es la única
+[IA] Probando proveedor groq: Protagonizó una de las tramas más tristes de 'The Pitt' y se va a presentar a lo
+[IA] Artículo generado con groq
+[OK] Publicado: src/content/blog/brittany-allen-se-presenta-a-los-emmys-2026-06-18-bedc72.md
 [YouTube] No se encontró tráiler confiable para Netflix me acaba de decepcionar profundamente al negarse a estrenar en cines la nueva película de ciencia ficción de Brad Bird
 [movies] Sin tráiler, pero se permite para completar las 10 iniciales: Netflix me acaba de decepcionar profundamente al negarse a estrenar en cines la nueva película de ciencia ficción de Brad Bird
 [IA] Probando proveedor groq: Netflix me acaba de decepcionar profundamente al negarse a estrenar en cines la 
 [IA] Artículo generado con groq
 [OK] Publicado: src/content/blog/netflix-decepciona-a-brad-bird-2026-06-18-03305b.md
 [IA] Probando proveedor cohere: Netflix cancela la nueva serie de ciencia ficción de los creadores de 'Stranger 
-[IA] cohere falló (error): Cohere error 404: {"id":"82e538ee-aa02-46f0-a766-03ec59288fe5","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] cohere falló (error): Cohere error 404: {"id":"e9df7e5a-95d2-4f35-a093-d96792571bd4","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
 [IA] Probando proveedor gemini: Netflix cancela la nueva serie de ciencia ficción de los creadores de 'Stranger 
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/netflix-cancela-the-boroughs-otro-golpe-a-la-ciencia-ficcion-2026-06-18-36e41a.md
-[movies] Saltado por tema bloqueado: Anthony Hopkins, a sus 88 años, se sincera sobre su única hija: "Nunca fue capaz de perdonarme que abandonara a la familia cuando era niña. Me rompe el corazón"
-[YouTube] No se encontró tráiler confiable para Kurt Russell, sobre la nueva serie del creador de 'Yellowstone': "Nunca había hecho nada parecido"
-[movies] Sin tráiler, pero se permite para completar las 10 iniciales: Kurt Russell, sobre la nueva serie del creador de 'Yellowstone': "Nunca había hecho nada parecido"
-[IA] Probando proveedor gemini: Kurt Russell, sobre la nueva serie del creador de 'Yellowstone': "Nunca había he
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/kurt-russell-sobre-the-madison-nunca-habia-hecho-nada-parecido-2026-06-18-e7756a.md
+[OK] Publicado: src/content/blog/netflix-cancela-the-boroughs-la-serie-de-los-duffer-brothers-2026-06-18-36e41a.md
+[YouTube] No se encontró tráiler confiable para El heredero de 'Solo Leveling', 'Jaadugar', 'Smoking Behind the Supermarket with You' y hasta 40 nuevos animes. Crunchyroll presume de parrilla para verano de 2026
+[movies] Sin tráiler, pero se permite para completar las 10 iniciales: El heredero de 'Solo Leveling', 'Jaadugar', 'Smoking Behind the Supermarket with You' y hasta 40 nuevos animes. Crunchyroll presume de parrilla para verano de 2026
+[IA] Probando proveedor groq: El heredero de 'Solo Leveling', 'Jaadugar', 'Smoking Behind the Supermarket with
+[IA] Artículo generado con groq
+[OK] Publicado: src/content/blog/nuevos-animes-en-crunchyroll-2026-06-18-4c0636.md
 [YouTube] No se encontró tráiler confiable para En 8 días llega a Netflix la película que se estrenó en cines hace solo tres meses y se convirtió en el mayor fenómeno del año
 [movies] Sin tráiler, pero se permite para completar las 10 iniciales: En 8 días llega a Netflix la película que se estrenó en cines hace solo tres meses y se convirtió en el mayor fenómeno del año
 [IA] Probando proveedor cohere: En 8 días llega a Netflix la película que se estrenó en cines hace solo tres mes
-[IA] cohere falló (error): Cohere error 404: {"id":"ebfb83be-af5e-4739-bf75-f4a6340997d6","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] cohere falló (error): Cohere error 404: {"id":"c0024393-a96b-4b9f-abde-a68e417e17db","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
 [IA] Probando proveedor gemini: En 8 días llega a Netflix la película que se estrenó en cines hace solo tres mes
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/torrente-presidente-en-netflix-el-fenomeno-espanol-llega-en-tiempo-record-2026-06-18-fef05b.md
+[OK] Publicado: src/content/blog/netflix-estrena-torrente-presidente-el-fenomeno-espanol-en-streaming-2026-06-18-fef05b.md
 [YouTube] No se encontró tráiler confiable para En 8 días llega a Netflix la película que se estrenó en cines hace solo tres meses y se convirtió en el mayor fenómeno del año
 [movies] Sin tráiler, pero se permite para completar las 10 iniciales: En 8 días llega a Netflix la película que se estrenó en cines hace solo tres meses y se convirtió en el mayor fenómeno del año
 [IA] Probando proveedor openai: En 8 días llega a Netflix la película que se estrenó en cines hace solo tres mes
 [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
 [IA] Probando proveedor mistral: En 8 días llega a Netflix la película que se estrenó en cines hace solo tres mes
 [IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/torrente-presidente-llega-a-netflix-el-fenomeno-que-arraso-en-taquilla-2026-06-18-d142ee.md
-[YouTube] No se encontró tráiler confiable para Mikel Zorrilla
-[movies] Sin tráiler, pero se permite para completar las 10 iniciales: Mikel Zorrilla
-[IA] Probando proveedor cohere: Mikel Zorrilla
-[IA] cohere falló (error): Cohere error 404: {"id":"12c99fbd-5838-4d96-9a70-3a8174d52f37","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Mikel Zorrilla
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/el-radar-de-mikel-zorrilla-peliculas-y-series-que-marcan-tendencia-2026-06-18-fa3fea.md
+[OK] Publicado: src/content/blog/torrente-presidente-llega-a-netflix-el-fenomeno-que-arraso-en-cines-2026-06-18-d142ee.md
 [YouTube] No se encontró tráiler confiable para Pedro Gallego
 [movies] Sin tráiler, pero se permite para completar las 10 iniciales: Pedro Gallego
 [IA] Probando proveedor cohere: Pedro Gallego
-[IA] cohere falló (error): Cohere error 404: {"id":"fd6f3d0f-930c-4ac1-ba6e-a49cbb99c756","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] cohere falló (error): Cohere error 404: {"id":"e434abcb-242b-4bbb-a0e5-6ed599a25305","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
 [IA] Probando proveedor gemini: Pedro Gallego
-[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 2542 (char 2801)
+[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 2608 (char 2897)
 [IA] Probando proveedor groq: Pedro Gallego
 [IA] Artículo generado con groq
-[OK] Publicado: src/content/blog/nuevos-estrenos-en-streaming-2026-06-18-23a090.md
-[movies] Publicados: 9
-Total películas publicadas: 9
+[OK] Publicado: src/content/blog/pedro-gallego-critico-de-cine-2026-06-18-23a090.md
+[movies] Publicados: 10
+Total películas publicadas: 10
 === Fin Movies ===
