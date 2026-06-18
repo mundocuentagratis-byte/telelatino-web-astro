@@ -59,7 +59,9 @@ jobs:
         run: |
           git config user.name "telelatino-bot"
           git config user.email "actions@github.com"
+
           git add src/content scripts/processed_articles.json scripts/reports
+
           if git diff --cached --quiet; then
             echo "No hay artículos nuevos para publicar."
           else
