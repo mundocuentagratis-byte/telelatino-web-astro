@@ -1,10 +1,9 @@
 import json
 import os
 import re
-import time
 import hashlib
 import unicodedata
-from datetime import datetime, timezone
+from datetime import datetime, timezone, date
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
@@ -74,6 +73,39 @@ SPORT_ALLOWED_PATHS = [
 
 MOVIE_ALLOWED_PATHS = [
     "/peliculas/pelicula-",
+]
+
+MOVIE_BLOCKED_PATHS = [
+    "/sesiones/",
+    "/videos/",
+    "/video/",
+    "/trailer/",
+    "/trailers/",
+    "/criticas/",
+    "/critica/",
+    "/fotos/",
+    "/noticias/",
+    "/streaming/",
+]
+
+BAD_MOVIE_TITLE_FRAGMENTS = [
+    "cartelera y entrada",
+    "cartelera",
+    "entrada",
+    "sesiones",
+    "sessiones",
+    "trailer",
+    "tráiler",
+    "videos",
+    "vídeos",
+    "video",
+    "vídeo",
+    "reparto",
+    "críticas",
+    "criticas",
+    "fotos",
+    "noticias",
+    "streaming",
 ]
 
 HEADERS = {
@@ -189,6 +221,90 @@ def is_quota_error(error: Exception) -> bool:
     return any(fragment in text for fragment in quota_fragments)
 
 
+def extract_date_from_url(url: str) -> date | None:
+    patterns = [
+        r"/(20\d{2})(\d{2})(\d{2})/",
+        r"/(20\d{2})/(\d{2})/(\d{2})/",
+    ]
+
+    for pattern in patterns:
+        match = re.search(pattern, url)
+        if not match:
+            continue
+
+        try:
+            year = int(match.group(1))
+            month = int(match.group(2))
+            day = int(match.group(3))
+            return date(year, month, day)
+        except Exception:
+            return None
+
+    return None
+
+
+def is_recent_news_url(url: str, max_age_days: int) -> bool:
+    article_date = extract_date_from_url(url)
+
+    if not article_date:
+        return False
+
+    today = datetime.now(timezone.utc).date()
+    diff_days = (today - article_date).days
+
+    return 0 <= diff_days <= max_age_days
+
+
+def extract_movie_release_year(text: str) -> int | None:
+    if not text:
+        return None
+
+    normalized = normalize_text(text)
+
+    priority_patterns = [
+        r"fecha de estreno[^0-9]{0,120}(20\d{2})",
+        r"estreno en cines[^0-9]{0,120}(20\d{2})",
+        r"estreno[^0-9]{0,120}(20\d{2})",
+        r"en cartelera[^0-9]{0,120}(20\d{2})",
+        r"lanzamiento[^0-9]{0,120}(20\d{2})",
+    ]
+
+    for pattern in priority_patterns:
+        match = re.search(pattern, normalized)
+        if match:
+            year = int(match.group(1))
+            if 2000 <= year <= 2035:
+                return year
+
+    near_start = normalized[:3000]
+    years = [
+        int(year)
+        for year in re.findall(r"\b(20\d{2})\b", near_start)
+        if 2000 <= int(year) <= 2035
+    ]
+
+    if not years:
+        return None
+
+    return years[0]
+
+
+def movie_title_is_invalid(title: str) -> bool:
+    normalized = normalize_text(title)
+
+    if not normalized:
+        return True
+
+    if len(normalized) < 2:
+        return True
+
+    for fragment in BAD_MOVIE_TITLE_FRAGMENTS:
+        if normalize_text(fragment) in normalized:
+            return True
+
+    return False
+
+
 def is_blocked_topic(candidate: dict, extra_text: str = "") -> bool:
     text = f"{candidate.get('title', '')} {candidate.get('summary', '')} {extra_text}"
     text = normalize_text(text)
@@ -261,10 +377,14 @@ def extract_article_data(url: str) -> dict:
             "text": "",
             "image": "",
             "imageAlt": "",
+            "releaseYear": None,
         }
 
     soup = BeautifulSoup(html, "html.parser")
     image, image_alt = extract_meta_image(soup, url)
+
+    full_page_text = clean_text(soup.get_text(" ", strip=True))
+    release_year = extract_movie_release_year(full_page_text)
 
     for tag in soup(["script", "style", "noscript", "iframe", "svg", "form"]):
         tag.decompose()
@@ -311,10 +431,16 @@ def extract_article_data(url: str) -> dict:
         "text": text[:5000],
         "image": image,
         "imageAlt": image_alt,
+        "releaseYear": release_year,
     }
 
 
-def get_sports_candidates(url: str, source_name: str, category: str) -> list[dict]:
+def get_sports_candidates(
+    url: str,
+    source_name: str,
+    category: str,
+    max_age_days: int,
+) -> list[dict]:
     try:
         html = request_text(url)
     except Exception as error:
@@ -356,6 +482,10 @@ def get_sports_candidates(url: str, source_name: str, category: str) -> list[dic
         if not any(path in parsed.path for path in SPORT_ALLOWED_PATHS):
             continue
 
+        if not is_recent_news_url(full_url, max_age_days):
+            write_report(f"[SKIP] Noticia deportiva antigua o sin fecha del día: {title}")
+            continue
+
         if len(title) < 35:
             continue
 
@@ -380,7 +510,7 @@ def get_sports_candidates(url: str, source_name: str, category: str) -> list[dic
 
         candidates.append(candidate)
 
-    write_report(f"[INFO] Candidatos fútbol encontrados en {source_name}: {len(candidates)}")
+    write_report(f"[INFO] Candidatos fútbol recientes encontrados en {source_name}: {len(candidates)}")
 
     return candidates
 
@@ -419,10 +549,16 @@ def get_movies_candidates(url: str, source_name: str, category: str) -> list[dic
         if not title or not href:
             continue
 
+        if movie_title_is_invalid(title):
+            continue
+
         full_url = urljoin(url, href)
         parsed = urlparse(full_url)
 
         if "sensacine.com" not in parsed.netloc:
+            continue
+
+        if any(blocked_path in parsed.path for blocked_path in MOVIE_BLOCKED_PATHS):
             continue
 
         if not any(path in parsed.path for path in MOVIE_ALLOWED_PATHS):
@@ -513,6 +649,12 @@ eventos deportivos, películas y estrenos. Tiene 7 días de prueba gratis al
 registrarse y plan VIP de 6 meses por 6 USD.
 """
 
+    release_year = candidate.get("releaseYear")
+    release_year_text = ""
+
+    if release_year:
+        release_year_text = f"Año de estreno detectado: {release_year}"
+
     base_rules = """
 Reglas:
 - No copies frases literales de la fuente.
@@ -523,11 +665,17 @@ Reglas:
 - Escribe entre 450 y 750 palabras.
 - No inventes datos concretos si no aparecen en la fuente.
 - Responde SOLO JSON válido.
+- El campo body debe ser un string JSON válido.
+- No uses saltos de línea sin escapar dentro del JSON.
 """
 
     if content_type == "movies":
-        type_instructions = """
-Tipo de artículo: película de estreno, cartelera o próximo estreno.
+        type_instructions = f"""
+Tipo de artículo: película reciente, estreno o película en cartelera.
+
+Condición:
+La película debe ser del año 2026 o posterior.
+{release_year_text}
 
 Objetivo:
 Crear un artículo de película, no de series ni de noticias generales.
@@ -542,15 +690,15 @@ Debe incluir:
 Obligatorio:
 - is_specific_movie debe ser true.
 - main_movie_title debe ser el nombre exacto de la película.
-- youtube_search_query debe buscar el tráiler oficial de esa película.
+- youtube_search_query debe buscar el tráiler oficial de esa película, incluyendo el año si está disponible.
 """
     else:
         type_instructions = """
-Tipo de artículo: fútbol reciente.
+Tipo de artículo: noticia de fútbol reciente.
 
 Objetivo:
-Crear una noticia deportiva sobre fútbol, jugadores, clubes, selecciones,
-torneos, partidos o actualidad futbolística.
+Crear una noticia deportiva actual sobre fútbol, jugadores, clubes, selecciones,
+torneos, partidos o actualidad futbolística del día.
 """
 
     return f"""
@@ -593,12 +741,14 @@ def parse_json_response(text: str) -> dict:
         text = re.sub(r"\s*```$", "", text)
 
     try:
-        return json.loads(text)
+        return json.loads(text, strict=False)
     except json.JSONDecodeError:
         match = re.search(r"\{.*\}", text, re.DOTALL)
+
         if not match:
             raise
-        return json.loads(match.group(0))
+
+        return json.loads(match.group(0), strict=False)
 
 
 def normalize_article_data(data: dict, content_type: str) -> dict:
@@ -666,7 +816,8 @@ def call_openai_provider(prompt: str) -> str:
                 "content": prompt,
             },
         ],
-        temperature=0.6,
+        temperature=0.5,
+        response_format={"type": "json_object"},
     )
 
     return response.choices[0].message.content or ""
@@ -693,7 +844,8 @@ def call_groq(prompt: str) -> str:
                 "content": prompt,
             },
         ],
-        temperature=0.6,
+        temperature=0.3,
+        response_format={"type": "json_object"},
     )
 
     return response.choices[0].message.content or ""
@@ -717,7 +869,8 @@ def call_mistral(prompt: str) -> str:
                 "content": prompt,
             },
         ],
-        temperature=0.6,
+        temperature=0.5,
+        response_format={"type": "json_object"},
     )
 
     return response.choices[0].message.content or ""
@@ -741,7 +894,7 @@ def call_ai_provider(provider: str, prompt: str) -> str:
 
 def get_ai_provider_order(content_type: str) -> list[str]:
     if content_type == "movies":
-        return ["gemini", "openai", "mistral", "groq"]
+        return ["mistral", "gemini", "openai", "groq"]
 
     return ["groq", "mistral", "openai", "gemini"]
 
@@ -776,19 +929,90 @@ def generate_with_ai_router(candidate: dict, source_text: str, content_type: str
     raise RuntimeError(f"Ningún proveedor de IA pudo generar el artículo. Último error: {last_error}")
 
 
-def search_youtube_trailer(query: str) -> dict | None:
+def meaningful_words(value: str) -> list[str]:
+    stop_words = {
+        "el",
+        "la",
+        "los",
+        "las",
+        "un",
+        "una",
+        "unos",
+        "unas",
+        "de",
+        "del",
+        "en",
+        "y",
+        "o",
+        "a",
+        "the",
+        "of",
+    }
+
+    normalized = normalize_text(value)
+    words = re.findall(r"[a-z0-9]+", normalized)
+
+    return [
+        word
+        for word in words
+        if word not in stop_words and len(word) >= 3
+    ]
+
+
+def trailer_matches_movie(video_title: str, movie_title: str, release_year: int | None) -> bool:
+    normalized_video_title = normalize_text(video_title)
+
+    if "trailer" not in normalized_video_title and "trailer" not in normalized_video_title:
+        return False
+
+    if release_year:
+        years_in_title = [
+            int(year)
+            for year in re.findall(r"\b(20\d{2})\b", normalized_video_title)
+            if 2000 <= int(year) <= 2035
+        ]
+
+        if years_in_title and release_year not in years_in_title:
+            return False
+
+    movie_words = meaningful_words(movie_title)
+    video_words = set(meaningful_words(video_title))
+
+    if not movie_words:
+        return True
+
+    matches = sum(1 for word in movie_words if word in video_words)
+
+    if len(movie_words) == 1:
+        return matches == 1
+
+    return matches >= max(1, min(len(movie_words), 3) - 1)
+
+
+def search_youtube_trailer(
+    movie_title: str,
+    release_year: int | None = None,
+    query_override: str = "",
+) -> dict | None:
     if not YOUTUBE_API_KEY:
         write_report("[WARN] No existe YOUTUBE_API_KEY. Se publicará sin tráiler.")
         return None
 
-    if not query:
+    if not movie_title and not query_override:
         return None
+
+    search_query = query_override or movie_title
+
+    if release_year:
+        search_query = f"{search_query} {release_year} trailer oficial español película"
+    else:
+        search_query = f"{search_query} trailer oficial español película"
 
     params = {
         "part": "snippet",
-        "q": f"{query} trailer oficial español",
+        "q": search_query,
         "type": "video",
-        "maxResults": 3,
+        "maxResults": 5,
         "videoEmbeddable": "true",
         "safeSearch": "moderate",
         "key": YOUTUBE_API_KEY,
@@ -809,38 +1033,29 @@ def search_youtube_trailer(query: str) -> dict | None:
     items = data.get("items", [])
 
     if not items:
-        write_report(f"[WARN] No se encontró tráiler para: {query}")
+        write_report(f"[WARN] No se encontró tráiler para: {search_query}")
         return None
 
     for item in items:
         video_id = item.get("id", {}).get("videoId")
         title = clean_text(item.get("snippet", {}).get("title", ""))
 
-        if not video_id:
+        if not video_id or not title:
             continue
 
-        title_norm = normalize_text(title)
+        if not trailer_matches_movie(title, movie_title, release_year):
+            write_report(f"[SKIP] Video descartado porque no coincide bien: {title}")
+            continue
 
-        if "trailer" in title_norm or "trailer" in normalize_text(query):
-            write_report(f"[OK] Tráiler encontrado: {title}")
-            return {
-                "youtubeVideoId": video_id,
-                "youtubeVideoTitle": title or "Tráiler oficial",
-            }
+        write_report(f"[OK] Tráiler encontrado: {title}")
 
-    first = items[0]
-    video_id = first.get("id", {}).get("videoId")
-    title = clean_text(first.get("snippet", {}).get("title", ""))
+        return {
+            "youtubeVideoId": video_id,
+            "youtubeVideoTitle": title,
+        }
 
-    if not video_id:
-        return None
-
-    write_report(f"[OK] Video encontrado para tráiler: {title}")
-
-    return {
-        "youtubeVideoId": video_id,
-        "youtubeVideoTitle": title or "Tráiler oficial",
-    }
+    write_report(f"[WARN] No se encontró tráiler confiable para: {movie_title}")
+    return None
 
 
 def yaml_string(value: str) -> str:
@@ -890,6 +1105,10 @@ def write_markdown(
         f"imageAlt: {yaml_string(image_alt)}",
     ]
 
+    release_year = candidate.get("releaseYear")
+    if release_year:
+        frontmatter.append(f"releaseYear: {release_year}")
+
     if youtube_data:
         frontmatter.append(f"youtubeVideoId: {yaml_string(youtube_data['youtubeVideoId'])}")
         frontmatter.append(f"youtubeVideoTitle: {yaml_string(youtube_data['youtubeVideoTitle'])}")
@@ -912,13 +1131,30 @@ def collect_candidates(name: str, config: dict) -> list[dict]:
 
     for url in config.get("urls", []):
         if source_type == "sports_listing":
-            all_candidates.extend(get_sports_candidates(url, source_name, category))
+            max_age_days = int(config.get("maxAgeDays", 1))
+            all_candidates.extend(
+                get_sports_candidates(
+                    url=url,
+                    source_name=source_name,
+                    category=category,
+                    max_age_days=max_age_days,
+                )
+            )
         elif source_type == "movies_listing":
             all_candidates.extend(get_movies_candidates(url, source_name, category))
         else:
             write_report(f"[WARN] Tipo de fuente desconocido: {source_type}")
 
     return all_candidates
+
+
+def mark_processed(processed: dict, article_key: str, candidate: dict, status: str) -> None:
+    processed.setdefault("processed", {})[article_key] = {
+        "url": candidate["url"],
+        "sourceTitle": candidate["title"],
+        "status": status,
+        "date": datetime.now(timezone.utc).isoformat(),
+    }
 
 
 def run_group(name: str, config: dict, processed: dict) -> int:
@@ -951,11 +1187,7 @@ def run_group(name: str, config: dict, processed: dict) -> int:
 
         if is_blocked_topic(candidate):
             write_report(f"[SKIP] Tema delicado bloqueado: {candidate['title']}")
-            processed.setdefault("processed", {})[article_key] = {
-                "url": candidate["url"],
-                "status": "skipped_blocked_topic",
-                "date": datetime.now(timezone.utc).isoformat(),
-            }
+            mark_processed(processed, article_key, candidate, "skipped_blocked_topic")
             continue
 
         write_report(f"[INFO] Procesando: {candidate['title']}")
@@ -968,13 +1200,28 @@ def run_group(name: str, config: dict, processed: dict) -> int:
             write_report(f"[SKIP] Sin imagen destacada, no se publica: {candidate['title']}")
             continue
 
+        if content_type == "movies":
+            min_release_year = int(config.get("minReleaseYear", 2026))
+            release_year = article_data.get("releaseYear")
+
+            if not release_year:
+                write_report(f"[SKIP] No se detectó año de estreno, no se publica: {candidate['title']}")
+                mark_processed(processed, article_key, candidate, "skipped_no_release_year")
+                continue
+
+            if release_year < min_release_year:
+                write_report(
+                    f"[SKIP] Película antigua ({release_year}), mínimo permitido {min_release_year}: "
+                    f"{candidate['title']}"
+                )
+                mark_processed(processed, article_key, candidate, "skipped_old_movie")
+                continue
+
+            candidate["releaseYear"] = release_year
+
         if is_blocked_topic(candidate, source_text):
             write_report(f"[SKIP] Tema delicado bloqueado después de leer: {candidate['title']}")
-            processed.setdefault("processed", {})[article_key] = {
-                "url": candidate["url"],
-                "status": "skipped_blocked_topic_after_read",
-                "date": datetime.now(timezone.utc).isoformat(),
-            }
+            mark_processed(processed, article_key, candidate, "skipped_blocked_topic_after_read")
             continue
 
         if not source_text and not candidate.get("summary"):
@@ -984,10 +1231,13 @@ def run_group(name: str, config: dict, processed: dict) -> int:
         youtube_data = None
 
         if content_type == "movies":
-            youtube_data = search_youtube_trailer(candidate["title"])
+            youtube_data = search_youtube_trailer(
+                movie_title=candidate["title"],
+                release_year=candidate.get("releaseYear"),
+            )
 
             if config.get("requiresTrailer", True) and not youtube_data:
-                write_report(f"[SKIP] Sin tráiler, no se publica la película: {candidate['title']}")
+                write_report(f"[SKIP] Sin tráiler confiable, no se publica la película: {candidate['title']}")
                 continue
 
         try:
@@ -1003,10 +1253,14 @@ def run_group(name: str, config: dict, processed: dict) -> int:
 
             if not youtube_data:
                 youtube_query = article.get("youtube_search_query") or article.get("main_movie_title")
-                youtube_data = search_youtube_trailer(youtube_query)
+                youtube_data = search_youtube_trailer(
+                    movie_title=candidate["title"],
+                    release_year=candidate.get("releaseYear"),
+                    query_override=youtube_query,
+                )
 
             if config.get("requiresTrailer", True) and not youtube_data:
-                write_report(f"[SKIP] Sin tráiler final, no se publica la película: {candidate['title']}")
+                write_report(f"[SKIP] Sin tráiler final confiable, no se publica la película: {candidate['title']}")
                 continue
 
         try:
@@ -1027,6 +1281,7 @@ def run_group(name: str, config: dict, processed: dict) -> int:
             "generatedTitle": article["title"],
             "generatedFile": str(path.relative_to(ROOT)),
             "image": article_data.get("image"),
+            "releaseYear": candidate.get("releaseYear"),
             "hasTrailer": bool(youtube_data),
             "date": datetime.now(timezone.utc).isoformat(),
         }

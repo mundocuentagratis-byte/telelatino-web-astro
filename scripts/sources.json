@@ -7,6 +7,7 @@
     "category": "Deportes",
     "dailyLimit": 4,
     "requiresImage": true,
+    "maxAgeDays": 1,
     "urls": [
       "https://www.mundodeportivo.com/futbol"
     ]
@@ -21,10 +22,10 @@
     "dailyLimitAfterInitial": 1,
     "requiresImage": true,
     "requiresTrailer": true,
+    "minReleaseYear": 2026,
     "urls": [
-      "https://www.sensacine.com/peliculas/estrenos/es/",
-      "https://www.sensacine.com/peliculas/estrenos/mas-esperadas/",
-      "https://www.sensacine.com/videos/trailers/peliculas-cartelera/"
+      "https://www.sensacine.com/peliculas/estrenos/",
+      "https://www.sensacine.com/peliculas/en-cartelera/cines/"
     ]
   }
 }
