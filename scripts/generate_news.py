@@ -3,7 +3,7 @@ import os
 import re
 import hashlib
 import unicodedata
-from datetime import datetime, timezone, date, timedelta
+from datetime import datetime, timezone, date
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
@@ -153,9 +153,18 @@ def log(message: str) -> None:
         f.write(message + "\n")
 
 
+def write_report(message: str) -> None:
+    log(message)
+
+
+def ensure_reports_dir() -> None:
+    REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+
+
 def load_json(path: Path, default):
     if not path.exists():
         return default
+
     try:
         return json.loads(path.read_text(encoding="utf-8"))
     except Exception:
@@ -173,22 +182,28 @@ def save_json(path: Path, data) -> None:
 def clean_text(text: str) -> str:
     if not text:
         return ""
+
+    text = str(text)
     text = text.replace("\xa0", " ")
     text = re.sub(r"\s+", " ", text)
+
     return text.strip()
 
 
 def strip_accents(text: str) -> str:
     if not text:
         return ""
+
     text = unicodedata.normalize("NFD", text)
     text = "".join(ch for ch in text if unicodedata.category(ch) != "Mn")
+
     return text
 
 
 def normalize_text(text: str) -> str:
     text = clean_text(text).lower()
     text = strip_accents(text)
+
     return text
 
 
@@ -198,8 +213,10 @@ def slugify(text: str, max_length: int = 82) -> str:
     text = re.sub(r"\s+", "-", text)
     text = re.sub(r"-+", "-", text)
     text = text.strip("-")
+
     if not text:
         text = "telelatino-articulo"
+
     return text[:max_length].strip("-")
 
 
@@ -239,10 +256,12 @@ def extract_meta(soup: BeautifulSoup, name: str) -> str:
         ("property", name),
         ("name", name),
     ]
+
     for attr, value in selectors:
         tag = soup.find("meta", attrs={attr: value})
         if tag and tag.get("content"):
             return clean_text(tag["content"])
+
     return ""
 
 
@@ -275,6 +294,7 @@ def extract_meta_description(soup: BeautifulSoup) -> str:
         for p in soup.find_all("p")
     ]
     paragraphs = [p for p in paragraphs if len(p) > 80]
+
     return paragraphs[0] if paragraphs else ""
 
 
@@ -292,21 +312,35 @@ def extract_meta_image(soup: BeautifulSoup, base_url: str) -> str:
             or item.get("data-lazy-src")
             or item.get("srcset")
         )
+
         if not src:
             continue
+
         src = str(src).split(",")[0].strip().split(" ")[0]
+
         if src and not src.startswith("data:"):
             candidates.append(src)
 
     for image in candidates:
         if not image:
             continue
+
         image = image.strip()
+
         if image.startswith("//"):
             image = "https:" + image
+
         image = urljoin(base_url, image)
-        if image.startswith("http") and not any(x in image.lower() for x in ["logo", "icon", "avatar", "sprite"]):
-            return image
+
+        lowered = image.lower()
+
+        if not image.startswith("http"):
+            continue
+
+        if any(bad in lowered for bad in ["logo", "icon", "avatar", "sprite"]):
+            continue
+
+        return image
 
     return ""
 
@@ -385,14 +419,17 @@ def extract_article_text(soup: BeautifulSoup) -> str:
     if not paragraphs:
         text = soup.get_text(" ", strip=True)
         text = clean_text(text)
+
         return text[:3500]
 
     text = "\n\n".join(paragraphs)
+
     return text[:7000]
 
 
 def is_blocked_topic(title: str, description: str = "", body: str = "") -> bool:
     combined = normalize_text(f"{title} {description} {body}")
+
     return any(normalize_text(item) in combined for item in BLOCKED_TOPICS)
 
 
@@ -405,8 +442,10 @@ def extract_date_from_url(url: str):
 
     for pattern in patterns:
         match = re.search(pattern, url)
+
         if not match:
             continue
+
         try:
             year, month, day = map(int, match.groups())
             return date(year, month, day)
@@ -423,19 +462,25 @@ def is_recent_url(url: str, max_age_days: int) -> bool:
         return True
 
     age = (today_utc() - found_date).days
+
     return -2 <= age <= max_age_days
 
 
 def get_source_name_from_url(url: str, default_name: str) -> str:
     domain = get_domain(url)
+
     if "mundodeportivo" in domain:
         return "Mundo Deportivo"
+
     if "sensacine" in domain:
         return "SensaCine"
+
     if "espinof" in domain:
         return "Espinof"
+
     if "decine21" in domain:
         return "Decine21"
+
     return default_name
 
 
@@ -448,6 +493,7 @@ def extract_links_from_listing(url: str) -> list[dict]:
 
     for a in soup.find_all("a", href=True):
         href = a.get("href", "")
+
         if not href:
             continue
 
@@ -463,11 +509,13 @@ def extract_links_from_listing(url: str) -> list[dict]:
         seen.add(full_url)
 
         title = clean_text(a.get_text(" ", strip=True))
+
         if not title:
             title = clean_text(a.get("title", "") or a.get("aria-label", ""))
 
         image = ""
         img = a.find("img")
+
         if img:
             src = (
                 img.get("src")
@@ -475,13 +523,16 @@ def extract_links_from_listing(url: str) -> list[dict]:
                 or img.get("data-original")
                 or img.get("data-lazy-src")
             )
+
             if src:
                 image = urljoin(url, src)
 
         parent = a.parent
+
         for _ in range(3):
             if parent and not image:
                 img = parent.find("img") if hasattr(parent, "find") else None
+
                 if img:
                     src = (
                         img.get("src")
@@ -489,8 +540,10 @@ def extract_links_from_listing(url: str) -> list[dict]:
                         or img.get("data-original")
                         or img.get("data-lazy-src")
                     )
+
                     if src:
                         image = urljoin(url, src)
+
             parent = parent.parent if parent else None
 
         candidates.append(
@@ -524,6 +577,7 @@ def is_sports_candidate_url(url: str) -> bool:
         "/atletico-madrid",
         "/premier-league",
         "/fichajes",
+        "/femenino",
     ]
 
     if not any(item in path for item in allowed_paths):
@@ -569,13 +623,16 @@ def is_movie_candidate_url(url: str) -> bool:
     if "espinof.com" in domain:
         if "/categoria/" in path:
             return False
+
         return len(path.strip("/").split("/")) >= 1
 
     if "decine21.com" in domain:
         if "/estrenos/cine" in path:
             return False
+
         if any(x in path for x in ["/peliculas/", "/estrenos/", "/cine/"]):
             return True
+
         return len(path.strip("/").split("/")) >= 1
 
     return False
@@ -590,7 +647,18 @@ def movie_title_is_invalid(title: str) -> bool:
     if any(bad in n for bad in MOVIE_BAD_TITLE_WORDS):
         return True
 
-    if n in {"películas", "peliculas", "estrenos", "cine", "sensa cine", "sensacine"}:
+    invalid_exact = {
+        "peliculas",
+        "películas",
+        "estrenos",
+        "cine",
+        "sensa cine",
+        "sensacine",
+        "espinof",
+        "decine21",
+    }
+
+    if n in invalid_exact:
         return True
 
     return False
@@ -617,6 +685,7 @@ def extract_movie_release_year(title: str, description: str, body: str, url: str
         return None
 
     future_years = [year for year in years if 2025 <= year <= 2035]
+
     if not future_years:
         return None
 
@@ -626,198 +695,16 @@ def extract_movie_release_year(title: str, description: str, body: str, url: str
     return min(future_years)
 
 
-def extract_article_data(url: str, listing_image: str = "") -> dict:
-    html = request_text(url)
-    soup = BeautifulSoup(html, "html.parser")
-
-    title = extract_meta_title(soup)
-    description = extract_meta_description(soup)
-    image = extract_meta_image(soup, url) or listing_image
-    body = extract_article_text(soup)
-
-    title = clean_text(title)
-    description = clean_text(description)
-    body = clean_text(body.replace("\n\n", "\n\n"))
-
-    if " - " in title and len(title.split(" - ")[0]) > 10:
-        title = clean_text(title.split(" - ")[0])
-
-    if "|" in title and len(title.split("|")[0]) > 10:
-        title = clean_text(title.split("|")[0])
-
-    return {
-        "sourceUrl": url,
-        "title": title,
-        "description": description,
-        "image": image,
-        "body": body,
-    }
-
-
-def get_sports_candidates(group: dict, processed: dict) -> list[dict]:
-    urls = group.get("urls", [])
-    max_age_days = int(group.get("maxAgeDays", 7))
-    source_name = group.get("sourceName", "Mundo Deportivo")
-
-    candidates = []
-    seen_urls = set(processed.get("urls", []))
-
-    for listing in urls:
-        try:
-            links = extract_links_from_listing(listing)
-        except Exception as e:
-            log(f"[sports] No se pudo leer listado {listing}: {e}")
-            continue
-
-        for item in links:
-            url = item["url"]
-
-            if url in seen_urls:
-                continue
-
-            if not is_sports_candidate_url(url):
-                continue
-
-            if not is_recent_url(url, max_age_days):
-                continue
-
-            title_hint = item.get("title", "")
-            if is_blocked_topic(title_hint):
-                continue
-
-            candidates.append(
-                {
-                    "url": url,
-                    "titleHint": title_hint,
-                    "imageHint": item.get("image", ""),
-                    "sourceName": get_source_name_from_url(url, source_name),
-                    "listing": listing,
-                }
-            )
-
-    unique = []
-    seen = set()
-
-    for item in candidates:
-        url = item["url"]
-        if url in seen:
-            continue
-        seen.add(url)
-        unique.append(item)
-
-    priority_words = [
-        "mundial",
-        "fútbol",
-        "futbol",
-        "selección",
-        "seleccion",
-        "champions",
-        "barcelona",
-        "real madrid",
-        "atlético",
-        "atletico",
-        "premier",
-        "fichaje",
-        "lesión",
-        "lesion",
-        "partido",
-        "gol",
-    ]
-
-    def score(item):
-        text = normalize_text(f"{item.get('titleHint', '')} {item.get('url', '')}")
-        base = 0
-        for word in priority_words:
-            if normalize_text(word) in text:
-                base += 3
-        if "loultimo" in item.get("listing", ""):
-            base += 4
-        if extract_date_from_url(item["url"]):
-            base += 2
-        return -base
-
-    unique.sort(key=score)
-    return unique[:80]
-
-
-def get_movie_candidates(group: dict, processed: dict) -> list[dict]:
-    urls = group.get("urls", [])
-    source_name = group.get("sourceName", "Fuentes de cine")
-
-    candidates = []
-    seen_urls = set(processed.get("urls", []))
-
-    for listing in urls:
-        try:
-            links = extract_links_from_listing(listing)
-        except Exception as e:
-            log(f"[movies] No se pudo leer listado {listing}: {e}")
-            continue
-
-        for item in links:
-            url = item["url"]
-
-            if url in seen_urls:
-                continue
-
-            if not is_movie_candidate_url(url):
-                continue
-
-            title_hint = item.get("title", "")
-            if movie_title_is_invalid(title_hint):
-                continue
-
-            combined_hint = normalize_text(f"{title_hint} {url} {listing}")
-            if not any(normalize_text(hint) in combined_hint for hint in MOVIE_2026_HINTS):
-                if "sensacine" not in get_domain(url) and "decine21" not in get_domain(url):
-                    continue
-
-            candidates.append(
-                {
-                    "url": url,
-                    "titleHint": title_hint,
-                    "imageHint": item.get("image", ""),
-                    "sourceName": get_source_name_from_url(url, source_name),
-                    "listing": listing,
-                }
-            )
-
-    unique = []
-    seen = set()
-
-    for item in candidates:
-        url = item["url"]
-        if url in seen:
-            continue
-        seen.add(url)
-        unique.append(item)
-
-    def score(item):
-        text = normalize_text(f"{item.get('titleHint', '')} {item.get('url', '')} {item.get('listing', '')}")
-        base = 0
-        if "2026" in text:
-            base += 10
-        if "estreno" in text:
-            base += 5
-        if "sensacine" in text:
-            base += 3
-        if "decine21" in text:
-            base += 3
-        if "espinof" in text:
-            base += 2
-        return -base
-
-    unique.sort(key=score)
-    return unique[:100]
-
-
 def parse_frontmatter_value(text: str, key: str) -> str:
     pattern = rf"^{re.escape(key)}:\s*(.+)$"
     match = re.search(pattern, text, flags=re.M)
+
     if not match:
         return ""
+
     value = match.group(1).strip()
     value = value.strip('"').strip("'")
+
     return value
 
 
@@ -854,6 +741,7 @@ def count_existing_movies() -> int:
 
     for post in posts:
         category = normalize_text(post.get("category", ""))
+
         if "pelicula" in category:
             total += 1
 
@@ -866,6 +754,7 @@ def count_existing_sports_news() -> int:
 
     for post in posts:
         category = normalize_text(post.get("category", ""))
+
         if "deporte" in category or "futbol" in category:
             total += 1
 
@@ -879,6 +768,7 @@ def count_today_posts(collection_dir: Path) -> int:
 
     for post in posts:
         pub = post.get("pubDate", "")
+
         if pub.startswith(today_str):
             total += 1
 
@@ -891,6 +781,7 @@ def existing_source_urls() -> set[str]:
     for collection in [BLOG_DIR, NEWS_DIR]:
         for post in existing_posts(collection):
             url = post.get("sourceUrl", "")
+
             if url:
                 urls.add(url)
 
@@ -899,11 +790,13 @@ def existing_source_urls() -> set[str]:
 
 def should_skip_existing_title(title: str, collection_dir: Path) -> bool:
     target = normalize_text(title)
+
     if not target:
         return False
 
     for post in existing_posts(collection_dir):
         current = normalize_text(post.get("title", ""))
+
         if not current:
             continue
 
@@ -941,6 +834,7 @@ def get_dynamic_limit(group_name: str, group: dict) -> int:
             return max(initial_target - current, 0)
 
         remaining_today = max(daily_limit_per_day - today_count, 0)
+
         return min(daily_limit, remaining_today)
 
     return int(group.get("dailyLimit", 1))
@@ -951,10 +845,36 @@ def meaningful_words(text: str) -> list[str]:
     words = re.findall(r"[a-z0-9]+", n)
 
     stop = {
-        "de", "la", "el", "los", "las", "un", "una", "y", "o", "en", "para",
-        "con", "por", "del", "al", "que", "se", "su", "sus", "es", "sobre",
-        "pelicula", "peliculas", "estreno", "trailer", "oficial", "cine",
-        "noticia", "futbol", "mundial",
+        "de",
+        "la",
+        "el",
+        "los",
+        "las",
+        "un",
+        "una",
+        "y",
+        "o",
+        "en",
+        "para",
+        "con",
+        "por",
+        "del",
+        "al",
+        "que",
+        "se",
+        "su",
+        "sus",
+        "es",
+        "sobre",
+        "pelicula",
+        "peliculas",
+        "estreno",
+        "trailer",
+        "oficial",
+        "cine",
+        "noticia",
+        "futbol",
+        "mundial",
     }
 
     return [word for word in words if word not in stop and len(word) >= 3]
@@ -968,6 +888,7 @@ def trailer_matches_movie(movie_title: str, video_title: str, release_year=None)
         return False
 
     hits = sum(1 for word in movie_words[:6] if word in video)
+
     if hits < max(1, min(3, len(movie_words))):
         return False
 
@@ -976,6 +897,7 @@ def trailer_matches_movie(movie_title: str, video_title: str, release_year=None)
 
     if release_year:
         years = re.findall(r"\b20\d{2}\b", video)
+
         if years and str(release_year) not in years:
             return False
 
@@ -1030,14 +952,19 @@ def search_youtube_trailer(movie_title: str, release_year=None):
 def provider_available(provider: str) -> bool:
     if provider == "gemini":
         return bool(GEMINI_API_KEY)
+
     if provider == "groq":
         return bool(GROQ_API_KEY)
+
     if provider == "mistral":
         return bool(MISTRAL_API_KEY)
+
     if provider == "openai":
         return bool(OPENAI_API_KEY)
+
     if provider == "cohere":
         return bool(COHERE_API_KEY)
+
     return False
 
 
@@ -1046,6 +973,7 @@ def rotate_list(items: list[str], seed: str) -> list[str]:
         return items
 
     index = int(hashlib.sha1(seed.encode("utf-8")).hexdigest(), 16) % len(items)
+
     return items[index:] + items[:index]
 
 
@@ -1056,6 +984,7 @@ def get_ai_provider_order(article_type: str, seed: str) -> list[str]:
         base = ["groq", "mistral", "cohere", "gemini", "openai"]
 
     base = rotate_list(base, seed)
+
     return [provider for provider in base if provider_available(provider)]
 
 
@@ -1075,6 +1004,7 @@ def extract_json_from_text(text: str) -> dict:
 
     if start != -1 and end != -1 and end > start:
         candidate = text[start:end + 1]
+
         try:
             return json.loads(candidate, strict=False)
         except Exception:
@@ -1228,6 +1158,7 @@ def call_gemini(prompt: str) -> str:
     )
 
     text = getattr(response, "text", None)
+
     if not text:
         raise RuntimeError("Gemini no devolvió texto.")
 
@@ -1350,12 +1281,15 @@ def call_cohere(prompt: str) -> str:
 
     if isinstance(content, list):
         pieces = []
+
         for item in content:
             if isinstance(item, dict):
                 pieces.append(item.get("text", "") or item.get("content", "") or "")
             else:
                 pieces.append(str(item))
+
         text = "".join(pieces).strip()
+
         if text:
             return text
 
@@ -1371,12 +1305,16 @@ def call_cohere(prompt: str) -> str:
 def call_ai_provider(provider: str, prompt: str) -> str:
     if provider == "gemini":
         return call_gemini(prompt)
+
     if provider == "groq":
         return call_groq(prompt)
+
     if provider == "mistral":
         return call_mistral(prompt)
+
     if provider == "openai":
         return call_openai_provider(prompt)
+
     if provider == "cohere":
         return call_cohere(prompt)
 
@@ -1385,6 +1323,7 @@ def call_ai_provider(provider: str, prompt: str) -> str:
 
 def is_quota_error(error: Exception) -> bool:
     text = normalize_text(str(error))
+
     patterns = [
         "quota",
         "rate limit",
@@ -1393,6 +1332,7 @@ def is_quota_error(error: Exception) -> bool:
         "429",
         "exceeded",
     ]
+
     return any(pattern in text for pattern in patterns)
 
 
@@ -1414,13 +1354,16 @@ def generate_with_ai_router(
             raw = call_ai_provider(provider, prompt)
             parsed = extract_json_from_text(raw)
             normalized = normalize_article_data(parsed, fallback_title, article_type)
+
             return normalized, provider
         except Exception as e:
             last_error = e
+
             if is_quota_error(e):
                 log(f"[IA] {provider} sin cuota o con límite: {str(e)[:240]}")
             else:
                 log(f"[IA] Falló {provider}: {str(e)[:240]}")
+
             continue
 
     raise RuntimeError(f"Ningún proveedor IA funcionó. Último error: {last_error}")
@@ -1430,17 +1373,20 @@ def yaml_string(value: str) -> str:
     value = "" if value is None else str(value)
     value = value.replace("\\", "\\\\").replace('"', '\\"')
     value = value.replace("\n", " ").strip()
+
     return f'"{value}"'
 
 
 def markdown_frontmatter(data: dict) -> str:
     lines = ["---"]
+
     for key, value in data.items():
         if value is None or value == "":
             continue
 
         if isinstance(value, list):
             lines.append(f"{key}:")
+
             for item in value:
                 lines.append(f"  - {yaml_string(item)}")
         elif key == "pubDate":
@@ -1449,6 +1395,7 @@ def markdown_frontmatter(data: dict) -> str:
             lines.append(f"{key}: {yaml_string(value)}")
 
     lines.append("---")
+
     return "\n".join(lines)
 
 
@@ -1463,6 +1410,7 @@ def clean_generated_body(body: str) -> str:
     body = body.replace("sinopsis reescrita", "sinopsis")
     body = body.replace("Fuente consultada:", "")
     body = body.replace("Fuentes consultadas:", "")
+    body = body.replace("Fuente:", "")
 
     body = re.sub(r"\n{3,}", "\n\n", body)
 
@@ -1543,7 +1491,7 @@ def mark_processed(processed: dict, url: str, path: Path, title: str) -> None:
     processed["items"].append(
         {
             "url": url,
-            "path": str(path.relative_to(ROOT)),
+            "path": str(path.relative_to(ROOT)) if isinstance(path, Path) and path.exists() else str(path),
             "title": title,
             "date": now_iso(),
         }
@@ -1646,9 +1594,11 @@ def handle_sports(group: dict, processed: dict) -> int:
         mark_processed(processed, url, path, article["title"])
         existing_urls.add(url)
         published += 1
+
         log(f"[OK] Noticia publicada: {path.relative_to(ROOT)}")
 
     log(f"[sports] Publicados: {published}")
+
     return published
 
 
@@ -1769,9 +1719,11 @@ def handle_movies(group: dict, processed: dict) -> int:
         mark_processed(processed, url, path, article["title"])
         existing_urls.add(url)
         published += 1
+
         log(f"[OK] Película publicada: {path.relative_to(ROOT)}")
 
     log(f"[movies] Publicados: {published}")
+
     return published
 
 
@@ -1794,6 +1746,7 @@ def main() -> int:
     total = 0
 
     sports_group = sources.get("sports")
+
     if isinstance(sports_group, dict):
         try:
             total += handle_sports(sports_group, processed)
@@ -1801,6 +1754,7 @@ def main() -> int:
             log(f"[sports] Error general: {e}")
 
     movies_group = sources.get("movies")
+
     if isinstance(movies_group, dict):
         try:
             total += handle_movies(movies_group, processed)
