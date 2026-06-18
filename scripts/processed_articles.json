@@ -1,5 +1,226 @@
 {
-  "processed": {},
+  "processed": {
+    "5b9b9ee74c6dd47f": {
+      "url": "https://www.mundodeportivo.com/futbol/20260618/1004196392/dalic-sabiamos-jugadas-balon-parado-iban-peligro.html",
+      "sourceTitle": "Dalic:\"Sabíamos que las jugadas a balón parado iban a ser un peligro\"",
+      "generatedTitle": "Dalic analiza la derrota de Croacia ante Inglaterra",
+      "generatedFile": "src/content/noticias/dalic-analiza-la-derrota-de-croacia-ante-inglaterra-2026-06-18-5b9b9e.md",
+      "image": "https://imagenes2.mundodeportivo.com/files/og_thumbnail/files/fp/uploads/2026/06/18/6a33271f89dfe.r_d.1445-1033-4000.jpeg",
+      "releaseYear": null,
+      "hasTrailer": false,
+      "date": "2026-06-18T03:42:57.587553+00:00"
+    },
+    "f8cfb68959dc6736": {
+      "url": "https://www.mundodeportivo.com/futbol/20260617/1004196326/cornella-messi-crea-primer-equipo-femenino.html",
+      "sourceTitle": "El Cornellà de Messi crea su primer equipo femenino",
+      "generatedTitle": "El Cornellà de Messi crea su primer equipo femenino",
+      "generatedFile": "src/content/noticias/el-cornella-de-messi-crea-su-primer-equipo-femenino-2026-06-18-f8cfb6.md",
+      "image": "https://imagenes2.mundodeportivo.com/files/og_thumbnail/files/fp/uploads/2026/06/17/6a32f26a29546.r_d.596-489-9950.jpeg",
+      "releaseYear": null,
+      "hasTrailer": false,
+      "date": "2026-06-18T03:43:02.520995+00:00"
+    },
+    "4a0557bbf7b6fdba": {
+      "url": "https://www.mundodeportivo.com/futbol/20260617/1004195984/hay-nervios-lado-cristiano.html",
+      "sourceTitle": "\"Hay nervios por el lado de Cristiano Ronaldo\"",
+      "generatedTitle": "Portugal se prepara para su debut en el Mundial 2026 con Cristiano Ronaldo",
+      "generatedFile": "src/content/noticias/portugal-se-prepara-para-su-debut-en-el-mundial-2026-con-cristiano-ronaldo-2026-06-18-4a0557.md",
+      "image": "https://imagenes2.mundodeportivo.com/files/og_thumbnail/uploads/2026/06/17/6a31eb949371e.jpeg",
+      "releaseYear": null,
+      "hasTrailer": false,
+      "date": "2026-06-18T03:43:04.409887+00:00"
+    },
+    "b38a0873fe34c584": {
+      "url": "https://www.sensacine.com/peliculas/pelicula-1000001453/",
+      "sourceTitle": "El día de la revelación",
+      "generatedTitle": "El día de la revelación 2026: Estreno, sinopsis y detalles del thriller de ciencia ficción",
+      "generatedFile": "src/content/blog/el-dia-de-la-revelacion-2026-estreno-sinopsis-y-detalles-del-thriller-de-ciencia-2026-06-18-b38a08.md",
+      "image": "https://es.web.img3.acsta.net/img/4c/76/4c76c87d9cf346dfc2af1fcaa76f964a.jpg",
+      "releaseYear": 2026,
+      "hasTrailer": true,
+      "date": "2026-06-18T03:43:12.217523+00:00"
+    },
+    "d77de213b24c9f53": {
+      "url": "https://www.sensacine.com/peliculas/pelicula-313256/",
+      "sourceTitle": "Toy Story 5",
+      "generatedTitle": "Toy Story 5: El regreso de los juguetes con una nueva aventura en 2026",
+      "generatedFile": "src/content/blog/toy-story-5-el-regreso-de-los-juguetes-con-una-nueva-aventura-en-2026-2026-06-18-d77de2.md",
+      "image": "https://es.web.img3.acsta.net/img/c3/69/c36953a21b00e23cd2363c34defc8a70.png",
+      "releaseYear": 2026,
+      "hasTrailer": true,
+      "date": "2026-06-18T03:43:20.090719+00:00"
+    },
+    "859259a0c31cd490": {
+      "url": "https://www.sensacine.com/peliculas/pelicula-1000020962/",
+      "sourceTitle": "Pioneras: Solo querían jugar",
+      "status": "skipped_blocked_topic_after_read",
+      "date": "2026-06-18T03:43:20.159815+00:00"
+    },
+    "84075c69176bd7d7": {
+      "url": "https://www.sensacine.com/peliculas/pelicula-1000010215/",
+      "sourceTitle": "Un talento único",
+      "status": "skipped_blocked_topic_after_read",
+      "date": "2026-06-18T03:43:20.607989+00:00"
+    },
+    "ab540e5847522108": {
+      "url": "https://www.sensacine.com/peliculas/pelicula-1000025611/",
+      "sourceTitle": "Una pistola, una bala y un oso panda",
+      "generatedTitle": "Una pistola, una bala y un oso panda: Estreno 2026 de un thriller psicológico con toques surrealistas",
+      "generatedFile": "src/content/blog/una-pistola-una-bala-y-un-oso-panda-estreno-2026-de-un-thriller-psicologico-con--2026-06-18-ab540e.md",
+      "image": "https://es.web.img2.acsta.net/img/35/17/351792e7aa6d05604f16543b5f4fa365.png",
+      "releaseYear": 2026,
+      "hasTrailer": true,
+      "date": "2026-06-18T03:43:28.016105+00:00"
+    },
+    "38a7f5dd5e431c06": {
+      "url": "https://www.sensacine.com/peliculas/pelicula-308545/",
+      "sourceTitle": "Iván & Hadoum",
+      "generatedTitle": "Iván & Hadoum: Un drama íntimo sobre el ascenso y el precio del éxito en 2026",
+      "generatedFile": "src/content/blog/ivan-hadoum-un-drama-intimo-sobre-el-ascenso-y-el-precio-del-exito-en-2026-2026-06-18-38a7f5.md",
+      "image": "https://es.web.img3.acsta.net/img/38/c4/38c4b6cac37efb63e5baea56142b6a5b.jpg",
+      "releaseYear": 2026,
+      "hasTrailer": true,
+      "date": "2026-06-18T03:43:35.131678+00:00"
+    },
+    "ae1f4d77e9e83e03": {
+      "url": "https://www.sensacine.com/peliculas/pelicula-1000029144/",
+      "sourceTitle": "El guardián del árbol de alcanfor",
+      "status": "skipped_blocked_topic_after_read",
+      "date": "2026-06-18T03:43:35.281144+00:00"
+    },
+    "f72fce7a6dd701d2": {
+      "url": "https://www.sensacine.com/peliculas/pelicula-1000004748/",
+      "sourceTitle": "Eleonora Duse: La Divina",
+      "status": "skipped_old_movie",
+      "date": "2026-06-18T03:43:35.343577+00:00"
+    },
+    "da314ee26cb4f997": {
+      "url": "https://www.sensacine.com/peliculas/pelicula-1000027086/",
+      "sourceTitle": "Todos los colores",
+      "generatedTitle": "Todos los colores: Estreno 2026 de drama adolescente que explora la identidad y el futuro",
+      "generatedFile": "src/content/blog/todos-los-colores-estreno-2026-de-drama-adolescente-que-explora-la-identidad-y-e-2026-06-18-da314e.md",
+      "image": "https://es.web.img2.acsta.net/img/97/7c/977ca1331b44f438700d1bec32f46db2.jpg",
+      "releaseYear": 2026,
+      "hasTrailer": true,
+      "date": "2026-06-18T03:43:40.810301+00:00"
+    },
+    "46d00a66d939deff": {
+      "url": "https://www.sensacine.com/peliculas/pelicula-1000016431/",
+      "sourceTitle": "Solomamma",
+      "status": "skipped_old_movie",
+      "date": "2026-06-18T03:43:40.884087+00:00"
+    },
+    "10331f2aea20ee41": {
+      "url": "https://www.sensacine.com/peliculas/pelicula-284411/",
+      "sourceTitle": "Joika",
+      "status": "skipped_old_movie",
+      "date": "2026-06-18T03:43:41.020748+00:00"
+    },
+    "f8b23c70c37c333a": {
+      "url": "https://www.sensacine.com/peliculas/pelicula-310400/",
+      "sourceTitle": "El colegio de los animales mágicos 4",
+      "status": "skipped_old_movie",
+      "date": "2026-06-18T03:43:41.089310+00:00"
+    },
+    "fb385b7db221a36d": {
+      "url": "https://www.sensacine.com/peliculas/pelicula-321823/",
+      "sourceTitle": "Los Pérez-Osos",
+      "status": "skipped_old_movie",
+      "date": "2026-06-18T03:43:41.153778+00:00"
+    },
+    "0e72425d5b544217": {
+      "url": "https://www.sensacine.com/peliculas/pelicula-1000047290/",
+      "sourceTitle": "La memoria de las mariposas",
+      "generatedTitle": "La memoria de las mariposas: estreno 2026, trama, reparto y detalles",
+      "generatedFile": "src/content/blog/la-memoria-de-las-mariposas-estreno-2026-trama-reparto-y-detalles-2026-06-18-0e7242.md",
+      "image": "https://es.web.img3.acsta.net/img/47/45/47459a92823eda424df6659430150902.jpg",
+      "releaseYear": 2026,
+      "hasTrailer": true,
+      "date": "2026-06-18T03:43:46.574896+00:00"
+    },
+    "a4a609f31f484dac": {
+      "url": "https://www.sensacine.com/peliculas/pelicula-1000002042/",
+      "sourceTitle": "The Furious",
+      "status": "skipped_old_movie",
+      "date": "2026-06-18T03:43:46.645217+00:00"
+    },
+    "01713c05c6f92a75": {
+      "url": "https://www.sensacine.com/peliculas/pelicula-1000029277/",
+      "sourceTitle": "Un hombre de verdad",
+      "status": "skipped_old_movie",
+      "date": "2026-06-18T03:43:46.708946+00:00"
+    },
+    "307f9126ad29c5c2": {
+      "url": "https://www.sensacine.com/peliculas/pelicula-326598/",
+      "sourceTitle": "Fuze",
+      "generatedTitle": "Fuze: Estreno 2026 de acción y suspense en Londres con bomba de la Segunda Guerra Mundial",
+      "generatedFile": "src/content/blog/fuze-estreno-2026-de-accion-y-suspense-en-londres-con-bomba-de-la-segunda-guerra-2026-06-18-307f91.md",
+      "image": "https://es.web.img2.acsta.net/img/51/3e/513efa2aa7a3d69d96cf878e457ddc9f.jpg",
+      "releaseYear": 2026,
+      "hasTrailer": true,
+      "date": "2026-06-18T03:43:52.812839+00:00"
+    },
+    "0468073f5619d256": {
+      "url": "https://www.sensacine.com/peliculas/pelicula-1000028234/",
+      "sourceTitle": "Obsession",
+      "status": "skipped_blocked_topic_after_read",
+      "date": "2026-06-18T03:43:52.962960+00:00"
+    },
+    "f59243e6e1d0d6f9": {
+      "url": "https://www.sensacine.com/peliculas/pelicula-184456/",
+      "sourceTitle": "Bernie",
+      "status": "skipped_old_movie",
+      "date": "2026-06-18T03:43:53.114966+00:00"
+    },
+    "3d8905f8d0e5d885": {
+      "url": "https://www.sensacine.com/peliculas/pelicula-313075/",
+      "sourceTitle": "La acompañante",
+      "status": "skipped_old_movie",
+      "date": "2026-06-18T03:43:53.202433+00:00"
+    },
+    "d0f0c3bcbb777624": {
+      "url": "https://www.sensacine.com/peliculas/pelicula-257724/",
+      "sourceTitle": "Ballerina",
+      "status": "skipped_old_movie",
+      "date": "2026-06-18T03:43:53.290675+00:00"
+    },
+    "fa9103c205262b8f": {
+      "url": "https://www.sensacine.com/peliculas/pelicula-1000013045/",
+      "sourceTitle": "La Odisea",
+      "generatedTitle": "La Odisea 2026: Estreno épico de aventuras y mitología en cines",
+      "generatedFile": "src/content/blog/la-odisea-2026-estreno-epico-de-aventuras-y-mitologia-en-cines-2026-06-18-fa9103.md",
+      "image": "https://es.web.img3.acsta.net/img/1a/23/1a238e79ea26da69c2ff751c232c60e3.png",
+      "releaseYear": 2026,
+      "hasTrailer": true,
+      "date": "2026-06-18T03:43:58.811030+00:00"
+    },
+    "87a8e636fd8d9c8c": {
+      "url": "https://www.sensacine.com/peliculas/pelicula-1000014969/",
+      "sourceTitle": "La constelación del perro",
+      "generatedTitle": "La constelación del perro: Estreno 2026, sinopsis, reparto y detalles del thriller postapocalíptico",
+      "generatedFile": "src/content/blog/la-constelacion-del-perro-estreno-2026-sinopsis-reparto-y-detalles-del-thriller--2026-06-18-87a8e6.md",
+      "image": "https://es.web.img3.acsta.net/img/85/da/85daca53769702553c38bc431b178926.jpg",
+      "releaseYear": 2026,
+      "hasTrailer": true,
+      "date": "2026-06-18T03:44:05.168280+00:00"
+    },
+    "dd04c369f1d3cf1c": {
+      "url": "https://www.sensacine.com/peliculas/pelicula-266720/",
+      "sourceTitle": "Supergirl",
+      "status": "skipped_blocked_topic_after_read",
+      "date": "2026-06-18T03:44:05.240715+00:00"
+    },
+    "037e88aa68ab774d": {
+      "url": "https://www.sensacine.com/peliculas/pelicula-276608/",
+      "sourceTitle": "Spider-Man: Brand New Day",
+      "generatedTitle": "Spider-Man: Brand New Day (2026): Un giro inesperado en la saga del Hombre Araña",
+      "generatedFile": "src/content/blog/spider-man-brand-new-day-2026-un-giro-inesperado-en-la-saga-del-hombre-arana-2026-06-18-037e88.md",
+      "image": "https://es.web.img2.acsta.net/img/9b/ba/9bbac4c16130e36aeee17634468f8245.jpg",
+      "releaseYear": 2026,
+      "hasTrailer": true,
+      "date": "2026-06-18T03:44:11.809117+00:00"
+    }
+  },
   "lastCleanup": {
     "date": "2026-06-18T01:45:42.272816+00:00",
     "deletedFiles": [
