@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-18T21:23:15.672368+00:00
+Fecha UTC: 2026-06-18T22:25:02.776006+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
@@ -21,9 +21,11 @@ Fecha UTC: 2026-06-18T21:23:15.672368+00:00
 [movies] Saltado noticia no apta para películas: RTVE escucha a la audiencia del 'Grand Prix 2026' y recupera una de las pruebas más pedidas
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 10' sorprendió en su debate final con una inesperada ruptura y una aplaudida reconciliación
 [movies] Candidatos encontrados: 36 | Límite: 1
-[IA] Probando proveedor gemini: La memoria de las mariposas
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/la-memoria-de-las-mariposas-un-drama-intimo-sobre-afectos-y-tiempo-2026-06-18-0e7242.md
+[IA] Probando proveedor openai: Los Pérez-Osos
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+[IA] Probando proveedor mistral: Los Pérez-Osos
+[IA] Artículo generado con mistral
+[OK] Publicado: src/content/blog/los-perez-osos-la-comedia-animada-que-llega-en-2026-2026-06-18-fb385b.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
