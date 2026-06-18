@@ -279,39 +279,6 @@ const formatDate = (date: Date) =>
         </div>
       </div>
     </section>
-
-    <section class="final-cta-section">
-      <div class="container">
-        <div class="final-cta">
-          <span class="eyebrow">TELELATINO para Android</span>
-          <h2>Descarga TELELATINO y empieza con 7 días de prueba gratis.</h2>
-          <p>
-            Disfruta canales en vivo, eventos deportivos, películas y estrenos
-            desde tu móvil Android. Si tienes dudas, puedes comunicarte por
-            WhatsApp o Telegram.
-          </p>
-
-          <div class="hero-actions center">
-            <a href={appConfig.apkUrl} class="btn btn-primary" target="_blank" rel="noopener">
-              Descargar APK
-            </a>
-
-            <a href={appConfig.whatsappUrl} class="btn btn-secondary" target="_blank" rel="noopener">
-              WhatsApp
-            </a>
-
-            <a href={appConfig.telegramUrl} class="btn btn-secondary" target="_blank" rel="noopener">
-              Telegram
-            </a>
-          </div>
-
-          <small>
-            Disponible solo para Android. La prueba gratis y los planes pueden
-            estar sujetos a cambios.
-          </small>
-        </div>
-      </div>
-    </section>
   </main>
 </BaseLayout>
 
@@ -386,10 +353,6 @@ const formatDate = (date: Date) =>
     flex-wrap: wrap;
     gap: 12px;
     margin-top: 28px;
-  }
-
-  .hero-actions.center {
-    justify-content: center;
   }
 
   .btn {
@@ -511,8 +474,7 @@ const formatDate = (date: Date) =>
   .preview-section,
   .benefits-section,
   .content-section,
-  .plans-section,
-  .final-cta-section {
+  .plans-section {
     padding: 82px 0;
   }
 
@@ -642,8 +604,7 @@ const formatDate = (date: Date) =>
 
   .benefit-card,
   .info-card,
-  .plan-card,
-  .final-cta {
+  .plan-card {
     border-radius: 26px;
     background: rgba(255, 255, 255, 0.09);
     border: 1px solid rgba(255, 255, 255, 0.16);
@@ -785,32 +746,6 @@ const formatDate = (date: Date) =>
     min-width: 240px;
   }
 
-  .final-cta {
-    padding: 56px 32px;
-    text-align: center;
-  }
-
-  .final-cta h2 {
-    max-width: 920px;
-    margin: 0 auto 18px;
-    font-size: clamp(2.4rem, 5vw, 5rem);
-    line-height: 0.98;
-    letter-spacing: -0.065em;
-  }
-
-  .final-cta p {
-    max-width: 720px;
-    margin: 0 auto;
-    color: rgba(255, 255, 255, 0.76);
-    line-height: 1.7;
-  }
-
-  .final-cta small {
-    display: block;
-    margin-top: 20px;
-    color: rgba(255, 255, 255, 0.58);
-  }
-
   @media (max-width: 900px) {
     .hero-grid,
     .preview-grid,
@@ -842,8 +777,7 @@ const formatDate = (date: Date) =>
       grid-template-columns: 1fr;
     }
 
-    .hero-actions,
-    .hero-actions.center {
+    .hero-actions {
       flex-direction: column;
     }
 

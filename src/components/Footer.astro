@@ -57,25 +57,6 @@ const legalLinks = [
 ---
 
 <footer class="site-footer">
-  <div class="footer-cta">
-    <span>TELELATINO para Android</span>
-    <h2>Descarga TELELATINO y empieza con 7 días de prueba gratis.</h2>
-    <p>
-      Canales en vivo, eventos deportivos, películas y estrenos desde tu móvil
-      Android.
-    </p>
-
-    <div class="footer-cta-actions">
-      <a href={appConfig.apkUrl} class="footer-primary" target="_blank" rel="noopener">
-        Descargar APK
-      </a>
-
-      <a href={appConfig.whatsappUrl} class="footer-secondary" target="_blank" rel="noopener">
-        WhatsApp
-      </a>
-    </div>
-  </div>
-
   <div class="footer-inner">
     <div class="footer-brand">
       <a href="/" class="brand">
@@ -142,92 +123,17 @@ const legalLinks = [
 
 <style>
   .site-footer {
-    padding: 72px 0 28px;
+    padding: 48px 0 28px;
     background:
-      radial-gradient(circle at top left, rgba(255, 196, 68, 0.12), transparent 28%),
+      radial-gradient(circle at top left, rgba(255, 196, 68, 0.1), transparent 26%),
       rgba(4, 10, 22, 0.96);
     border-top: 1px solid rgba(255, 255, 255, 0.08);
   }
 
-  .footer-cta,
   .footer-inner,
   .footer-bottom {
     width: min(1120px, calc(100% - 36px));
     margin: 0 auto;
-  }
-
-  .footer-cta {
-    margin-bottom: 58px;
-    padding: 48px 30px;
-    border-radius: 30px;
-    background:
-      radial-gradient(circle at top right, rgba(255, 216, 111, 0.18), transparent 30%),
-      rgba(255, 255, 255, 0.08);
-    border: 1px solid rgba(255, 255, 255, 0.16);
-    text-align: center;
-  }
-
-  .footer-cta span {
-    display: inline-flex;
-    margin-bottom: 16px;
-    padding: 8px 14px;
-    border-radius: 999px;
-    background: rgba(255, 216, 111, 0.82);
-    color: #151515;
-    font-size: 0.78rem;
-    font-weight: 950;
-    text-transform: uppercase;
-  }
-
-  .footer-cta h2 {
-    max-width: 860px;
-    margin: 0 auto 16px;
-    color: #ffffff;
-    font-size: clamp(2.2rem, 5vw, 4.6rem);
-    line-height: 0.98;
-    letter-spacing: -0.065em;
-  }
-
-  .footer-cta p {
-    max-width: 620px;
-    margin: 0 auto;
-    color: rgba(255, 255, 255, 0.74);
-    line-height: 1.7;
-  }
-
-  .footer-cta-actions {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 12px;
-    margin-top: 26px;
-  }
-
-  .footer-primary,
-  .footer-secondary,
-  .footer-actions a {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 44px;
-    padding: 12px 22px;
-    border-radius: 999px;
-    font-weight: 900;
-    text-decoration: none;
-  }
-
-  .footer-primary,
-  .footer-actions a:first-child {
-    background: linear-gradient(180deg, #ffe47c 0%, #f1c344 100%);
-    color: #171717;
-    box-shadow: 0 12px 28px rgba(255, 198, 69, 0.24);
-  }
-
-  .footer-secondary,
-  .footer-actions a:last-child {
-    background: rgba(255, 255, 255, 0.12);
-    color: #ffffff;
-    border: 1px solid rgba(255, 255, 255, 0.16);
   }
 
   .footer-inner {
@@ -282,6 +188,29 @@ const legalLinks = [
     margin-top: 22px;
   }
 
+  .footer-actions a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding: 12px 22px;
+    border-radius: 999px;
+    font-weight: 900;
+    text-decoration: none;
+  }
+
+  .footer-actions a:first-child {
+    background: linear-gradient(180deg, #ffe47c 0%, #f1c344 100%);
+    color: #171717;
+    box-shadow: 0 12px 28px rgba(255, 198, 69, 0.24);
+  }
+
+  .footer-actions a:last-child {
+    background: rgba(255, 255, 255, 0.12);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+  }
+
   .footer-column {
     display: grid;
     align-content: start;
@@ -309,7 +238,7 @@ const legalLinks = [
     display: flex;
     justify-content: space-between;
     gap: 18px;
-    margin-top: 48px;
+    margin-top: 42px;
     padding-top: 24px;
     border-top: 1px solid rgba(255, 255, 255, 0.08);
     color: rgba(255, 255, 255, 0.52);
@@ -339,13 +268,10 @@ const legalLinks = [
       flex-direction: column;
     }
 
-    .footer-cta-actions,
     .footer-actions {
       flex-direction: column;
     }
 
-    .footer-primary,
-    .footer-secondary,
     .footer-actions a {
       width: 100%;
     }
