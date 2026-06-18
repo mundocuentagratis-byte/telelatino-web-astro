@@ -5,11 +5,18 @@
     "targetCollection": "noticias",
     "sourceName": "Mundo Deportivo",
     "category": "Deportes",
-    "dailyLimit": 3,
+    "dailyLimit": 2,
+    "dailyLimitPerDay": 4,
     "requiresImage": true,
-    "maxAgeDays": 3,
+    "maxAgeDays": 7,
     "urls": [
-      "https://www.mundodeportivo.com/futbol"
+      "https://www.mundodeportivo.com/ultimo",
+      "https://www.mundodeportivo.com/futbol",
+      "https://www.mundodeportivo.com/futbol/internacional",
+      "https://www.mundodeportivo.com/futbol/fc-barcelona",
+      "https://www.mundodeportivo.com/futbol/real-madrid",
+      "https://www.mundodeportivo.com/futbol/premier-league",
+      "https://www.mundodeportivo.com/futbol/mundial"
     ]
   },
   "movies": {
@@ -25,7 +32,8 @@
     "minReleaseYear": 2026,
     "urls": [
       "https://www.sensacine.com/peliculas/estrenos/",
-      "https://www.sensacine.com/peliculas/en-cartelera/cines/"
+      "https://www.sensacine.com/peliculas/en-cartelera/cines/",
+      "https://www.sensacine.com/peliculas/proximamente/"
     ]
   }
 }

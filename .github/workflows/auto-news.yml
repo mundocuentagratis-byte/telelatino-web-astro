@@ -3,7 +3,7 @@ name: Auto News
 on:
   workflow_dispatch:
   schedule:
-    - cron: "10 7 * * *"
+    - cron: "10 */4 * * *"
 
 permissions:
   contents: write
@@ -67,7 +67,7 @@ jobs:
           git config user.name "telelatino-bot"
           git config user.email "actions@github.com"
 
-          git add -A
+          git add -A src/content scripts/processed_articles.json
 
           if git diff --cached --quiet; then
             echo "No hay artículos nuevos para publicar."
