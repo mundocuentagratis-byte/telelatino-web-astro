@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://telelatinoficial.xyz/sitemap-index.xml
+Sitemap: https://telelatinoficial.xyz/rss.xml
