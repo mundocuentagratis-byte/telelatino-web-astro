@@ -17,7 +17,7 @@ youtubeVideoTitle: "Trailer oficial en catalán La Memòria de les Papallones 4K
 
 **La memoria de las mariposas** (2026) es un drama poético que explora los lazos familiares, el paso del tiempo y la búsqueda de identidad a través de una historia íntima y simbólica. Dirigida con sensibilidad, esta película se convierte en un reflejo de las transformaciones emocionales que experimentamos a lo largo de la vida, donde cada estación del año actúa como metáfora de los cambios que enfrentamos.
 
-## **Sinopsis reescrita: Un viaje emocional entre estaciones y afectos**
+## **Sinopsis: Un viaje emocional entre estaciones y afectos**
 
 La trama sigue a María (Núria Florensa) y Anne (Ingrid Escobar), una madre adoptiva y su hija, durante un año marcado por el ciclo natural de las estaciones. A medida que el tiempo avanza, ambas protagonistas enfrentan desafíos emocionales que ponen a prueba su relación y su forma de entenderse mutuamente. La película entrelaza la realidad cotidiana con una atmósfera cargada de simbolismo, donde los silencios, los vínculos y las transformaciones personales se convierten en el centro de la narrativa.
 

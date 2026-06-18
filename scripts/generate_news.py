@@ -671,6 +671,7 @@ Reglas:
 - Responde SOLO JSON válido.
 - El campo body debe ser un string JSON válido.
 - No uses saltos de línea sin escapar dentro del JSON.
+- Nunca uses la frase "Sinopsis reescrita"; usa solo "Sinopsis".
 """
 
     if content_type == "movies":
@@ -685,7 +686,7 @@ Objetivo:
 Crear un artículo de película, no de series ni de noticias generales.
 Debe incluir:
 - Introducción breve.
-- Sinopsis reescrita.
+- Sinopsis clara y natural.
 - De qué trata la película.
 - Por qué puede llamar la atención.
 - Qué público puede disfrutarla.

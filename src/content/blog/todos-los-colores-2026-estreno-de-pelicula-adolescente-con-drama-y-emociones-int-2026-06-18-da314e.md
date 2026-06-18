@@ -19,7 +19,7 @@ youtubeVideoTitle: "TODOS LOS COLORES | Tráiler oficial HD | 12 de junio solo e
 
 El cine de 2026 nos trae *Todos los colores*, una película que captura con autenticidad los matices de una etapa crucial en la vida: la transición entre la adolescencia y la edad adulta. Ambientada en los días previos al fin del bachillerato, la trama sigue a Belén, una joven de 17 años que navega entre la euforia de sus últimos días como estudiante y la incertidumbre que despierta el futuro. Junto a su grupo de amigas, vivirá experiencias que marcarán un antes y un después en sus vidas, donde el cuerpo, los deseos, la identidad y el miedo al cambio se entrelazan en una narrativa tan vibrante como conmovedora.
 
-## Sinopsis reescrita: más que una película, un reflejo generacional
+## Sinopsis: más que una película, un reflejo generacional
 
 *Todos los colores* no es solo una historia sobre adolescentes, sino un retrato universal de quienes han vivido —o están viviendo— esa etapa donde todo parece posible y, al mismo tiempo, todo parece desmoronarse. Belén, con su grupo de amigas, enfrenta los desafíos típicos de la edad: la presión por encajar, la búsqueda de una identidad propia y el temor a quedarse atrás mientras el mundo avanza. La película explora cómo estos personajes lidian con sus inseguridades, sus primeros amores, sus sueños y las expectativas que la sociedad —y ellos mismos— les impone.
 

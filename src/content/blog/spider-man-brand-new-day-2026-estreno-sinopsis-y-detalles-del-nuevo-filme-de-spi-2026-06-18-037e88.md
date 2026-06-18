@@ -21,7 +21,7 @@ Tras el éxito arrollador de *Spider-Man: No Way Home*, el universo del superhé
 
 ---
 
-## Sinopsis reescrita: ¿Qué nos espera en *Spider-Man: Brand New Day*?
+## Sinopsis: ¿Qué nos espera en *Spider-Man: Brand New Day*?
 
 Cuatro años después de los eventos que sacudieron el multiverso, Peter Parker ha tomado una decisión drástica: **borrar su identidad como Spider-Man de la memoria de quienes lo rodean**, incluyendo a sus seres queridos. Ahora, vive en un Nueva York que ya no lo reconoce, pero sigue luchando contra el crimen como el único defensor posible. Sin embargo, su dedicación absoluta tiene un costo: la tensión física y emocional comienza a transformarlo de manera inesperada, poniendo en riesgo su propia existencia.
 
