@@ -5,9 +5,9 @@
     "targetCollection": "noticias",
     "sourceName": "Mundo Deportivo",
     "category": "Deportes",
-    "dailyLimit": 4,
+    "dailyLimit": 3,
     "requiresImage": true,
-    "maxAgeDays": 1,
+    "maxAgeDays": 3,
     "urls": [
       "https://www.mundodeportivo.com/futbol"
     ]
