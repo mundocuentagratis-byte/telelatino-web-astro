@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-19T00:42:50.771811+00:00
+Fecha UTC: 2026-06-19T03:50:15.640260+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
@@ -22,11 +22,9 @@ Fecha UTC: 2026-06-19T00:42:50.771811+00:00
 [movies] Saltado noticia no apta para películas: RTVE escucha a la audiencia del 'Grand Prix 2026' y recupera una de las pruebas más pedidas
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 10' sorprendió en su debate final con una inesperada ruptura y una aplaudida reconciliación
 [movies] Candidatos encontrados: 28 | Límite: 1
-[IA] Probando proveedor openai: 15 Pruebas de amor
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
-[IA] Probando proveedor mistral: 15 Pruebas de amor
-[IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/15-pruebas-de-amor-una-comedia-dramatica-sobre-identidad-y-familia-2026-06-19-de3f5b.md
+[IA] Probando proveedor gemini: Antes del amor
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/antes-del-amor-un-drama-romantico-que-explora-los-limites-del-deseo-2026-06-19-f56d2b.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
