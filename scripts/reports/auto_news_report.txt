@@ -1,9 +1,10 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-18T22:25:02.776006+00:00
+Fecha UTC: 2026-06-19T00:42:50.771811+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
 [movies] Saltado porque no es estreno 2026: Obsession (None)
+[movies] Saltado porque no es estreno 2026: El día de la revelación (None)
 [movies] Saltado noticia no apta para películas: La palomitera de 'Toy Story 5' de Cinépolis y Cines Yelmo está completamente agotada: tu única opción es pagar el doble de segunda mano
 [movies] Saltado noticia no apta para películas: En un deporte donde los atletas se retiran antes de los 30, Sandra Sánchez consiguió el oro a los 39 años: llega a cines "la historia de la mejor karateka de todos los tiempos"
 [movies] Saltado porque no es estreno 2026: Rochus Misch, guardaespaldas de Hitler, vio 'El hundimiento' y la tachó de exagerada: "La realidad es que era un búnker de la muerte" (2005)
@@ -20,12 +21,12 @@ Fecha UTC: 2026-06-18T22:25:02.776006+00:00
 [movies] Saltado noticia no apta para películas: Por qué Atresmedia ha eliminado de Atresplayer todos los programas de 'Pasapalabra'
 [movies] Saltado noticia no apta para películas: RTVE escucha a la audiencia del 'Grand Prix 2026' y recupera una de las pruebas más pedidas
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 10' sorprendió en su debate final con una inesperada ruptura y una aplaudida reconciliación
-[movies] Candidatos encontrados: 36 | Límite: 1
-[IA] Probando proveedor openai: Los Pérez-Osos
+[movies] Candidatos encontrados: 28 | Límite: 1
+[IA] Probando proveedor openai: 15 Pruebas de amor
 [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
-[IA] Probando proveedor mistral: Los Pérez-Osos
+[IA] Probando proveedor mistral: 15 Pruebas de amor
 [IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/los-perez-osos-la-comedia-animada-que-llega-en-2026-2026-06-18-fb385b.md
+[OK] Publicado: src/content/blog/15-pruebas-de-amor-una-comedia-dramatica-sobre-identidad-y-familia-2026-06-19-de3f5b.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
