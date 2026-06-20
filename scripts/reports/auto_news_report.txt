@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-19T22:40:14.500041+00:00
+Fecha UTC: 2026-06-20T00:40:20.747264+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
@@ -25,9 +25,9 @@ Fecha UTC: 2026-06-19T22:40:14.500041+00:00
 [movies] Saltado noticia no apta para películas: Christian Gálvez: "Hubo conversaciones con Atresmedia para presentar 'Pasapalabra', pero me quedé en Mediaset por fidelidad"
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 10': Así están las parejas seis meses después de pasar por el 'reality' de Telecinco
 [movies] Candidatos encontrados: 25 | Límite: 1
-[IA] Probando proveedor gemini: México 86
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/mexico-86-la-apuesta-futbolistica-con-diego-luna-y-karla-souza-2026-06-19-56d007.md
+[IA] Probando proveedor groq: Normal
+[IA] Artículo generado con groq
+[OK] Publicado: src/content/blog/normal-un-misterio-explosivo-2026-06-20-f6d4e9.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
