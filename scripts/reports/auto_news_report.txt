@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-20T17:45:58.887234+00:00
+Fecha UTC: 2026-06-20T21:39:36.570513+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
@@ -17,11 +17,11 @@ Fecha UTC: 2026-06-20T17:45:58.887234+00:00
 [movies] Saltado noticia no apta para películas: 'AlaZ', así es la nueva prueba final de 'Pasapalabra': por primera vez en su historia, los concursantes tendrán referencia visual
 [movies] Saltado noticia no apta para películas: La modelo top de los 90 que resurgió en 'GH Dúo' tiene nuevo proyecto en Telecinco
 [movies] Candidatos encontrados: 33 | Límite: 1
-[IA] Probando proveedor gemini: Supergirl
-[IA] gemini falló (error): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
-[IA] Probando proveedor groq: Supergirl
-[IA] Artículo generado con groq
-[OK] Publicado: src/content/blog/supergirl-la-prima-de-superman-2026-06-20-dd04c3.md
+[IA] Probando proveedor cohere: Viva
+[IA] cohere falló (error): Cohere error 404: {"id":"d1d8d198-9ccf-483f-9751-47bfc177c6eb","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Viva
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/viva-aina-clotet-explora-el-amor-y-la-reinvencion-en-un-futuro-cercano-2026-06-20-fee82d.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
