@@ -1,15 +1,20 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-20T10:40:54.490755+00:00
+Fecha UTC: 2026-06-20T14:28:47.907510+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
 [movies] Saltado porque no es estreno 2026: Obsession (None)
 [movies] Saltado porque no es estreno 2026: El día de la revelación (None)
+[movies] Saltado porque no es estreno 2026: Pasó desapercibida, pero hace más de 20 años Brad Pitt encabezó una ambiciosa aventura de fantasía al estilo de 'Piratas del Caribe' (2003)
+[movies] Saltado noticia no apta para películas: "Se pasó de la raya": Paramount despidió a Tom Cruise tras 'Misión Imposible III', pero sustituirle fue imposible y volvió más fuerte
+[movies] Saltado noticia no apta para películas: “Te estoy vigilando, Jackie Chan”: a Will Smith no le importa estar frente a una leyenda de la acción para soltar una advertencia
 [movies] Saltado noticia no apta para películas: La rara película de Pixar con la que lloras al comienzo y no al final: sólo dura hora y media y sigue siendo imprescindible
 [movies] Saltado noticia no apta para películas: "No se dio cuenta de que todos los demás habían huido": John Wayne pudo morir durante el rodaje de una película en Madrid
+[movies] Saltado noticia no apta para películas: Guillermo Del Toro: "Estamos al borde del analfabetismo cinematográfico"
 [movies] Saltado noticia no apta para películas: Hace 17 años a alguien se le ocurrió contratar a todos los actores jóvenes de moda en España y hacer una película: el resultado está en Netflix
+[movies] Saltado noticia no apta para películas: Los personajes LGBTIQA+ en la ficción crecen, pero se concentran en pocos títulos: el Informe ODA muestra un panorama esperanzador para la diversidad, pero con cifras alarmantes
+[movies] Saltado noticia no apta para películas: 'El día de la revelación' está bien, pero esta obra maestra moderna de ciencia ficción sobre la llegada de extraterrestres es mejor
 [movies] Saltado porque no es estreno 2026: "Caí de rodillas ante él y le supliqué": Richard Gere lleva 30 años queriendo trabajar con este director (2020)
-[movies] Saltado noticia no apta para películas: Últimos 4 días para verla en Netflix: un Matt Damon fabuloso en una historia real y con uno de sus directores favoritos
 [movies] Saltado porque no es estreno 2026: 72 años de carrera y cuatro Oscar: hoy cumple 96 años la mayor leyenda de la historia de Hollywood (2024)
 [movies] Saltado noticia no apta para películas: La audiencia dicta sentencia a 'El perro andaluz' de Manu Sánchez en RTVE: su punto fuerte se ha convertido en la crítica más repetida
 [movies] Saltado noticia no apta para películas: 'Supervivientes' prepara su tercera edición 'All Stars', pero el 'reality' de supervivencia más extremo está en Netflix
@@ -19,12 +24,10 @@ Fecha UTC: 2026-06-20T10:40:54.490755+00:00
 [movies] Saltado noticia no apta para películas: El 'Saber y ganar' emitido el 22 de enero de 1998 logró un total de 2.646.000 espectadores, ¿por qué?
 [movies] Saltado noticia no apta para películas: 'AlaZ', así es la nueva prueba final de 'Pasapalabra': por primera vez en su historia, los concursantes tendrán referencia visual
 [movies] Saltado noticia no apta para películas: La modelo top de los 90 que resurgió en 'GH Dúo' tiene nuevo proyecto en Telecinco
-[movies] Candidatos encontrados: 30 | Límite: 1
-[IA] Probando proveedor openai: Shrek 5
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
-[IA] Probando proveedor mistral: Shrek 5
+[movies] Candidatos encontrados: 24 | Límite: 1
+[IA] Probando proveedor mistral: Spider-Man: Brand New Day
 [IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/shrek-5-el-regreso-de-la-bestia-verde-a-los-cines-en-2027-2026-06-20-e3bdc2.md
+[OK] Publicado: src/content/blog/spider-man-brand-new-day-llega-con-giro-radical-para-peter-parker-2026-06-20-037e88.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
