@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-20T21:39:36.570513+00:00
+Fecha UTC: 2026-06-21T05:16:51.418350+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
@@ -8,20 +8,18 @@ Fecha UTC: 2026-06-20T21:39:36.570513+00:00
 [movies] Saltado porque no es estreno 2026: Pasó desapercibida, pero hace más de 20 años Brad Pitt encabezó una ambiciosa aventura de fantasía al estilo de 'Piratas del Caribe' (2003)
 [movies] Saltado noticia no apta para películas: Hace 17 años a alguien se le ocurrió contratar a todos los actores jóvenes de moda en España y hacer una película: el resultado está en Netflix
 [movies] Saltado porque no es estreno 2026: 72 años de carrera y cuatro Oscar: hoy cumple 96 años la mayor leyenda de la historia de Hollywood (2024)
-[movies] Saltado noticia no apta para películas: La audiencia dicta sentencia a 'El perro andaluz' de Manu Sánchez en RTVE: su punto fuerte se ha convertido en la crítica más repetida
 [movies] Saltado noticia no apta para películas: 'Supervivientes' prepara su tercera edición 'All Stars', pero el 'reality' de supervivencia más extremo está en Netflix
-[movies] Saltado noticia no apta para películas: El concursante de 'Pasapalabra' que fue condenado a dos años y cuatro meses de prisión tras ganar el bote
+[movies] Saltado noticia no apta para películas: La audiencia dicta sentencia a 'El perro andaluz' de Manu Sánchez en RTVE: su punto fuerte se ha convertido en la crítica más repetida
+[movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 10': Así están las parejas seis meses después de pasar por el 'reality' de Telecinco
 [movies] Saltado noticia no apta para películas: El histórico presentador del Telediario al que RTVE obligó a jubilarse: "Llevaba 47 años cotizados, pero seguía disfrutando de mi trabajo"
 [movies] Saltado noticia no apta para películas: 200.000 dólares por 30 segundos: Esto es lo mínimo que cuesta un anuncio en las pausas de hidratación del Mundial 2026
 [movies] Saltado noticia no apta para películas: El 'Saber y ganar' emitido el 22 de enero de 1998 logró un total de 2.646.000 espectadores, ¿por qué?
 [movies] Saltado noticia no apta para películas: 'AlaZ', así es la nueva prueba final de 'Pasapalabra': por primera vez en su historia, los concursantes tendrán referencia visual
 [movies] Saltado noticia no apta para películas: La modelo top de los 90 que resurgió en 'GH Dúo' tiene nuevo proyecto en Telecinco
 [movies] Candidatos encontrados: 33 | Límite: 1
-[IA] Probando proveedor cohere: Viva
-[IA] cohere falló (error): Cohere error 404: {"id":"d1d8d198-9ccf-483f-9751-47bfc177c6eb","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Viva
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/viva-aina-clotet-explora-el-amor-y-la-reinvencion-en-un-futuro-cercano-2026-06-20-fee82d.md
+[IA] Probando proveedor mistral: Vengadores: Doomsday
+[IA] Artículo generado con mistral
+[OK] Publicado: src/content/blog/vengadores-doomsday-llega-con-el-dr-doom-como-villano-2026-06-21-652bb6.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
