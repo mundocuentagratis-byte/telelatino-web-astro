@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-21T06:29:11.932824+00:00
+Fecha UTC: 2026-06-21T06:32:05.125411+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
@@ -28,12 +28,6 @@ Fecha UTC: 2026-06-21T06:29:11.932824+00:00
 [movies] Saltado noticia no apta para películas: 'AlaZ', así es la nueva prueba final de 'Pasapalabra': por primera vez en su historia, los concursantes tendrán referencia visual
 [movies] Saltado noticia no apta para películas: La modelo top de los 90 que resurgió en 'GH Dúo' tiene nuevo proyecto en Telecinco
 [movies] Candidatos encontrados: 24 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "Déjenla en paz. Es perfecta": Tom Hanks no quiere bajo ningún concepto que se haga una nueva versión de esta película clásica
-[movies] Saltado porque no tiene tráiler confiable: "Déjenla en paz. Es perfecta": Tom Hanks no quiere bajo ningún concepto que se haga una nueva versión de esta película clásica
-[YouTube] No se encontró tráiler confiable para Es una de las piezas musicales más bellas de la historia del cine: Compuesta hace 58 años por este artista legendario, ha acompañado a millones de espectadores
-[movies] Saltado porque no tiene tráiler confiable: Es una de las piezas musicales más bellas de la historia del cine: Compuesta hace 58 años por este artista legendario, ha acompañado a millones de espectadores
-[YouTube] No se encontró tráiler confiable para Mark Connolly fue atropellado en el rodaje de 'Misión: Imposible': murió horas después de recibir un millón de dólares como compensación
-[movies] Saltado porque no tiene tráiler confiable: Mark Connolly fue atropellado en el rodaje de 'Misión: Imposible': murió horas después de recibir un millón de dólares como compensación
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
