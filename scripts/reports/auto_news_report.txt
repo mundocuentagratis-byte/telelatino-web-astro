@@ -1,21 +1,21 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-22T19:33:57.487523+00:00
+Fecha UTC: 2026-06-22T19:41:45.795872+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
 [movies] Saltado porque no es estreno 2026: Obsession (None)
 [movies] Saltado porque no es estreno 2026: El día de la revelación (None)
-[movies] Saltado porque no es estreno 2026: Tom Cruise aprendió español para entender a la familia de Penélope Cruz: "Con la familia es mejor que empieces a aprender y a prestar atención" (2000)
+[movies] Saltado porque no es estreno 2026: "Tenía que demostrar que no era una actriz tonta": el verano que Natalie Portman pasó estudiando en Harvard y rodando una saga millonaria (2027)
+[movies] Saltado porque no es estreno 2026: Brad Pitt sobre la época más destructiva de su carrera: "Me despertaba, fumaba un porro y bebía cuatro Coca-Colas, sin comer" (2027)
+[movies] Saltado porque no es estreno 2026: Tom Cruise aprendió español para entender a la familia de Penélope Cruz: "Con la familia es mejor que empieces a aprender y a prestar atención" (2027)
 [movies] Saltado noticia no apta para películas: Esta película de 200 millones de dólares es, para algunos, una de las mejores del año, pero ha sido un fracaso estrepitoso en taquilla
-[movies] Saltado noticia no apta para películas: Dos misiones vitales para cambiarlo todo: Llega a los cines 'Nino', una conmovedora historia de superación y reencuentro
-[movies] Saltado noticia no apta para películas: Últimos 4 días para ver en Netflix una película de suspense extraordinario como de las que ya no se hacen
-[movies] Saltado noticia no apta para películas: "Nunca llegué a pensar en cosas oscuras, pero sí estaba triste": el bache emocional de Javier Bardem en la película mejor valorada de su carrera
-[movies] Saltado noticia no apta para películas: 'Toy Story 5' hace historia en la saga de Pixar: Acaba de romper varios récords y uno de ellos se lo ha quitado a 'Super Mario Galaxy'
+[movies] Saltado porque no es estreno 2026: Dos misiones vitales para cambiarlo todo: Llega a los cines 'Nino', una conmovedora historia de superación y reencuentro (2027)
+[movies] Saltado porque no es estreno 2026: Últimos 4 días para ver en Netflix una película de suspense extraordinario como de las que ya no se hacen (2027)
+[movies] Saltado porque no es estreno 2026: "Nunca llegué a pensar en cosas oscuras, pero sí estaba triste": el bache emocional de Javier Bardem en la película mejor valorada de su carrera (2027)
+[movies] Saltado porque no es estreno 2026: 'Toy Story 5' hace historia en la saga de Pixar: Acaba de romper varios récords y uno de ellos se lo ha quitado a 'Super Mario Galaxy' (2027)
 [movies] Saltado noticia no apta para películas: Estoy muy contento con 'Obsession': podría encontrar pegas, pero no me da la gana porque es una de las películas del año
-[movies] Saltado noticia no apta para películas: Los expertos en armas se van a dar cuenta inmediatamente de un error incomprensible en esta película
-[movies] Saltado noticia no apta para películas: 'Backrooms' es una pasada, pero el detalle de esta escena va en contra de su propio universo
-[movies] Saltado noticia no apta para películas: Ahora tiene 52 años: qué fue de Jeff Cohen, el inolvidable Gordi de 'Los Goonies' que dejó la actuación
-[movies] Saltado noticia no apta para películas: "Tom Cruise debería quitar sus manos de mi padre". Cómo una película volcó a todo un país europeo contra el actor más popular del mundo
+[movies] Saltado porque no es estreno 2026: Los expertos en armas se van a dar cuenta inmediatamente de un error incomprensible en esta película (2027)
+[movies] Saltado porque no es estreno 2026: 'Backrooms' es una pasada, pero el detalle de esta escena va en contra de su propio universo (2027)
 [movies] Saltado porque no es estreno 2026: 72 años de carrera y cuatro Oscar: hoy cumple 96 años la mayor leyenda de la historia de Hollywood (2024)
 [movies] Saltado noticia no apta para películas: El histórico presentador del Telediario al que RTVE obligó a jubilarse: "Llevaba 47 años cotizados, pero seguía disfrutando de mi trabajo"
 [movies] Saltado noticia no apta para películas: 'Supervivientes' prepara su tercera edición 'All Stars', pero el 'reality' de supervivencia más extremo está en Netflix
