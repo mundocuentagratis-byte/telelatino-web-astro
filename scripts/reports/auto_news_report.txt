@@ -1,28 +1,32 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-22T05:28:56.031950+00:00
+Fecha UTC: 2026-06-22T13:45:32.661460+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
 [movies] Saltado porque no es estreno 2026: Obsession (None)
 [movies] Saltado porque no es estreno 2026: El día de la revelación (None)
+[movies] Saltado noticia no apta para películas: Esta película de 200 millones de dólares es, para algunos, una de las mejores del año, pero ha sido un fracaso estrepitoso en taquilla
+[movies] Saltado porque no es estreno 2026: Dos misiones vitales para cambiarlo todo: Llega a los cines 'Nino', una conmovedora historia de superación y reencuentro (2025)
+[movies] Saltado noticia no apta para películas: Últimos 4 días para ver en Netflix una película de suspense extraordinario como de las que ya no se hacen
+[movies] Saltado noticia no apta para películas: 'Toy Story 5' hace historia en la saga de Pixar: Acaba de romper varios récords y uno de ellos se lo ha quitado a 'Super Mario Galaxy'
+[movies] Saltado noticia no apta para películas: Estoy muy contento con 'Obsession': podría encontrar pegas, pero no me da la gana porque es una de las películas del año
 [movies] Saltado noticia no apta para películas: Los expertos en armas se van a dar cuenta inmediatamente de un error incomprensible en esta película
-[movies] Saltado noticia no apta para películas: El increíble error en 'Backrooms' que da al traste con toda la idea de la película
-[movies] Saltado noticia no apta para películas: Ahora tiene 52 años: qué fue de Jeff Cohen, el inolvidable Gordi de 'Los Goonies' que dejó la actuación
 [movies] Saltado porque no es estreno 2026: "Fue la muerte de los 1.000 cortes": la ambiciosa película de fantasía de Travis Fimmel ('Vikingos') que fracasó por las exigencias (2016)
-[movies] Saltado porque no es estreno 2026: Podría haber sido la nueva 'Star Wars', pero será recordada como un fracaso monumental de dos directoras legendarias (2015)
-[movies] Saltado noticia no apta para películas: La foto más popular de Robert Pattinson no es de ninguna de sus películas y el no lo entiende: "¿Por qué se hizo viral? Es extraño"
-[movies] Saltado noticia no apta para películas: No se ha estrenado y este biopic ya está atrayendo miradas por su realismo: una épica mirada a una pionera del espacio
-[movies] Saltado porque no es estreno 2026: “Me generó un enorme enfado”: Spielberg rodó y estrenó sus dos mejores películas al mismo tiempo, pero no guarda el mejor recuerdo de ello (2018)
-[movies] Saltado noticia no apta para películas: “Fue como escuchar a Judy Garland cantar por primera vez”: Tom Hanks nos promete un momento histórico con ‘Toy Story 5’
-[movies] Saltado noticia no apta para películas: 12 estrenos en Netflix: esta semana llega la película más taquillera en España solo 3 meses después de su paso por cines
-[movies] Saltado noticia no apta para películas: El resbalón real que James Cameron se negó a borrar en 'Mentiras Arriesgadas' y que provocó el enfado de Jamie Lee Curtis
+[movies] Saltado noticia no apta para películas: El final explicado de 'Toy Story 5' va más allá de los juguetes: es una metáfora de ser padre
 [movies] Saltado porque no es estreno 2026: 72 años de carrera y cuatro Oscar: hoy cumple 96 años la mayor leyenda de la historia de Hollywood (2024)
+[movies] Saltado noticia no apta para películas: El histórico presentador del Telediario al que RTVE obligó a jubilarse: "Llevaba 47 años cotizados, pero seguía disfrutando de mi trabajo"
 [movies] Saltado noticia no apta para películas: 'Supervivientes' prepara su tercera edición 'All Stars', pero el 'reality' de supervivencia más extremo está en Netflix
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 10': Así están las parejas seis meses después de pasar por el 'reality' de Telecinco
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 10' sorprendió en su debate final con una inesperada ruptura y una aplaudida reconciliación
-[movies] Saltado noticia no apta para películas: Por qué Atresmedia ha eliminado de Atresplayer todos los programas de 'Pasapalabra'
-[movies] Saltado noticia no apta para películas: El histórico presentador del Telediario al que RTVE obligó a jubilarse: "Llevaba 47 años cotizados, pero seguía disfrutando de mi trabajo"
-[movies] Candidatos encontrados: 31 | Límite: 1
+[movies] Saltado noticia no apta para películas: Iker Jiménez, presentador de 'Horizonte': "El periodismo deportivo creo que es peor que el político"
+[movies] Saltado noticia no apta para películas: Antena 3 se prepara para la llegada de 'El Rosco' a Telecinco: retiene a míticos concursantes de 'Pasapalabra' con un contrato millonario
+[movies] Saltado noticia no apta para películas: La condición de Oriana Marzoli para quitarse la "espinita" con Telecinco: "Estoy esperando al momento exacto para volver a 'GH VIP"
+[movies] Saltado noticia no apta para películas: La impresionante casa de Iker Jiménez y Carmen Porter en una de las zonas más exclusivas de Madrid: "Antes vivíamos en un piso en el centro"
+[movies] Saltado noticia no apta para películas: La única cita que 'First Dates' ha censurado en sus 9 años de historia: "Pasó lo peor, que se volvió loco"
+[movies] Saltado noticia no apta para películas: Qué fue de Pepe Herrero, uno de los grandes estrategas del 'Gran Hermano' nacional que encontró el éxito con un chiringuito de playa
+[movies] Candidatos encontrados: 28 | Límite: 1
+[YouTube] No se encontró tráiler confiable para "Nunca llegué a pensar en cosas oscuras, pero sí estaba triste": el bache emocional de Javier Bardem en la película mejor valorada de su carrera
+[movies] Saltado porque no tiene tráiler confiable: "Nunca llegué a pensar en cosas oscuras, pero sí estaba triste": el bache emocional de Javier Bardem en la película mejor valorada de su carrera
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
