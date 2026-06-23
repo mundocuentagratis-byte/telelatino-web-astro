@@ -1,33 +1,31 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-23T04:58:12.596072+00:00
+Fecha UTC: 2026-06-23T10:22:34.552268+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
 [movies] Saltado porque no es estreno 2026: Obsession (None)
 [movies] Saltado porque no es estreno 2026: El día de la revelación (None)
-[movies] Saltado porque no es estreno 2026: "Tenía que demostrar que no era una actriz tonta": el verano que Natalie Portman pasó estudiando en Harvard y rodando una saga millonaria (2027)
-[movies] Saltado porque no es estreno 2026: Brad Pitt sobre la época más destructiva de su carrera: "Me despertaba, fumaba un porro y bebía cuatro Coca-Colas, sin comer" (2027)
-[movies] Saltado porque no es estreno 2026: Tom Cruise aprendió español para entender a la familia de Penélope Cruz: "Con la familia es mejor que empieces a aprender y a prestar atención" (2027)
+[movies] Saltado porque no es estreno 2026: En el futuro, los humanos viven aislados y dependen de robots para socializar: Jenna Ortega y el hijo de Cillian Murphy protagonizan lo nuevo de ciencia ficción de un ganador del Oscar (2019)
+[movies] Saltado noticia no apta para películas: Todos los niños de los 90 vieron esta película, pero nunca se convirtió en uno de los grandes clásicos de Disney: hoy cumple 30 años
+[movies] Saltado noticia no apta para películas: "Tenía que demostrar que no era una actriz tonta": el verano que Natalie Portman pasó estudiando en Harvard y rodando una saga millonaria
+[movies] Saltado noticia no apta para películas: Brad Pitt sobre la época más destructiva de su carrera: "Me despertaba, fumaba un porro y bebía cuatro Coca-Colas, sin comer"
+[movies] Saltado porque no es estreno 2026: Tom Cruise aprendió español para entender a la familia de Penélope Cruz: "Con la familia es mejor que empieces a aprender y a prestar atención" (2000)
 [movies] Saltado noticia no apta para películas: Esta película de 200 millones de dólares es, para algunos, una de las mejores del año, pero ha sido un fracaso estrepitoso en taquilla
-[movies] Saltado porque no es estreno 2026: Dos misiones vitales para cambiarlo todo: Llega a los cines 'Nino', una conmovedora historia de superación y reencuentro (2027)
-[movies] Saltado porque no es estreno 2026: Últimos 4 días para ver en Netflix una película de suspense extraordinario como de las que ya no se hacen (2027)
-[movies] Saltado porque no es estreno 2026: "Nunca llegué a pensar en cosas oscuras, pero sí estaba triste": el bache emocional de Javier Bardem en la película mejor valorada de su carrera (2027)
-[movies] Saltado porque no es estreno 2026: 'Toy Story 5' hace historia en la saga de Pixar: Acaba de romper varios récords y uno de ellos se lo ha quitado a 'Super Mario Galaxy' (2027)
+[movies] Saltado porque no es estreno 2026: Dos misiones vitales para cambiarlo todo: Llega a los cines 'Nino', una conmovedora historia de superación y reencuentro (2025)
+[movies] Saltado noticia no apta para películas: Últimos 4 días para ver en Netflix una película de suspense extraordinario como de las que ya no se hacen
+[movies] Saltado noticia no apta para películas: 'Toy Story 5' hace historia en la saga de Pixar: Acaba de romper varios récords y uno de ellos se lo ha quitado a 'Super Mario Galaxy'
 [movies] Saltado noticia no apta para películas: Estoy muy contento con 'Obsession': podría encontrar pegas, pero no me da la gana porque es una de las películas del año
-[movies] Saltado porque no es estreno 2026: Los expertos en armas se van a dar cuenta inmediatamente de un error incomprensible en esta película (2027)
-[movies] Saltado porque no es estreno 2026: 'Backrooms' es una pasada, pero el detalle de esta escena va en contra de su propio universo (2027)
 [movies] Saltado porque no es estreno 2026: 72 años de carrera y cuatro Oscar: hoy cumple 96 años la mayor leyenda de la historia de Hollywood (2024)
 [movies] Saltado noticia no apta para películas: El histórico presentador del Telediario al que RTVE obligó a jubilarse: "Llevaba 47 años cotizados, pero seguía disfrutando de mi trabajo"
 [movies] Saltado noticia no apta para películas: 'Supervivientes' prepara su tercera edición 'All Stars', pero el 'reality' de supervivencia más extremo está en Netflix
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 10': Así están las parejas seis meses después de pasar por el 'reality' de Telecinco
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 10' sorprendió en su debate final con una inesperada ruptura y una aplaudida reconciliación
+[movies] Saltado noticia no apta para películas: La audiencia dicta sentencia a 'Amor o lo que surja' con una repetida crítica: "Esto es un sinsentido"
+[movies] Saltado noticia no apta para películas: 'MasterChef 14' cierra su edición menos vista: Esta es la ganadora que se lleva los 100.000 euros del premio
 [movies] Saltado noticia no apta para películas: Iker Jiménez, presentador de 'Horizonte': "El periodismo deportivo creo que es peor que el político"
 [movies] Saltado noticia no apta para películas: Antena 3 se prepara para la llegada de 'El Rosco' a Telecinco: retiene a míticos concursantes de 'Pasapalabra' con un contrato millonario
 [movies] Saltado noticia no apta para películas: La condición de Oriana Marzoli para quitarse la "espinita" con Telecinco: "Estoy esperando al momento exacto para volver a 'GH VIP"
-[movies] Saltado noticia no apta para películas: La impresionante casa de Iker Jiménez y Carmen Porter en una de las zonas más exclusivas de Madrid: "Antes vivíamos en un piso en el centro"
-[movies] Saltado noticia no apta para películas: La única cita que 'First Dates' ha censurado en sus 9 años de historia: "Pasó lo peor, que se volvió loco"
-[movies] Saltado noticia no apta para películas: Qué fue de Pepe Herrero, uno de los grandes estrategas del 'Gran Hermano' nacional que encontró el éxito con un chiringuito de playa
-[movies] Candidatos encontrados: 24 | Límite: 1
+[movies] Candidatos encontrados: 26 | Límite: 1
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
