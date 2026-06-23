@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-22T22:16:36.602291+00:00
+Fecha UTC: 2026-06-23T04:20:01.430784+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
@@ -28,6 +28,9 @@ Fecha UTC: 2026-06-22T22:16:36.602291+00:00
 [movies] Saltado noticia no apta para películas: La única cita que 'First Dates' ha censurado en sus 9 años de historia: "Pasó lo peor, que se volvió loco"
 [movies] Saltado noticia no apta para películas: Qué fue de Pepe Herrero, uno de los grandes estrategas del 'Gran Hermano' nacional que encontró el éxito con un chiringuito de playa
 [movies] Candidatos encontrados: 24 | Límite: 1
-[movies] Publicados: 0
-Total películas publicadas: 0
+[IA] Probando proveedor mistral: Viaje al país de los blancos
+[IA] Artículo generado con mistral
+[OK] Publicado: src/content/blog/viaje-al-pais-de-los-blancos-una-historia-de-supervivencia-y-esperanza-2026-06-23-599c66.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
