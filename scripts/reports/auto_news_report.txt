@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-23T15:08:27.484879+00:00
+Fecha UTC: 2026-06-23T15:24:33.000760+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
@@ -9,9 +9,8 @@ Fecha UTC: 2026-06-23T15:08:27.484879+00:00
 [movies] Saltado noticia no apta para películas: Matt Damon vio este documental en Disney+, lloró con su final y tomó una decisión con Ben Affleck: "¿Qué más da si saturamos el mercado?"
 [movies] Saltado porque no es estreno 2026: Esta película tardó en rodarse 12 años y resultó ser una obra maestra: ahora regresa a los cines para celebrar su aniversario (2019)
 [movies] Saltado noticia no apta para películas: Todos los niños de los 90 vieron esta película, pero nunca se convirtió en uno de los grandes clásicos de Disney: hoy cumple 30 años
-[movies] Saltado porque no es estreno 2026: El pacto de Natalie Portman con George Lucas para no abandonar sus estudios en Harvard: la razón detrás de la imagen viral (2003)
+[movies] Saltado noticia no apta para películas: Brad Pitt sobre la época más destructiva de su carrera: "Me despertaba, fumaba un porro y bebía cuatro Coca-Colas, sin comer"
 [movies] Saltado noticia no apta para películas: Tom Cruise aprendió español para entender a la familia de Penélope Cruz: "Con la familia es mejor que empieces a aprender y a prestar atención"
-[movies] Saltado porque no es estreno 2026: Dos misiones vitales para cambiarlo todo: Llega a los cines 'Nino', una conmovedora historia de superación y reencuentro (2025)
 [movies] Saltado porque no es estreno 2026: 72 años de carrera y cuatro Oscar: hoy cumple 96 años la mayor leyenda de la historia de Hollywood (2024)
 [movies] Saltado noticia no apta para películas: El histórico presentador del Telediario al que RTVE obligó a jubilarse: "Llevaba 47 años cotizados, pero seguía disfrutando de mi trabajo"
 [movies] Saltado noticia no apta para películas: 'Supervivientes' prepara su tercera edición 'All Stars', pero el 'reality' de supervivencia más extremo está en Netflix
@@ -23,17 +22,11 @@ Fecha UTC: 2026-06-23T15:08:27.484879+00:00
 [movies] Saltado noticia no apta para películas: 'MasterChef 14' cierra su edición menos vista: Esta es la ganadora que se lleva los 100.000 euros del premio
 [movies] Saltado noticia no apta para películas: Iker Jiménez, presentador de 'Horizonte': "El periodismo deportivo creo que es peor que el político"
 [movies] Saltado noticia no apta para películas: Antena 3 se prepara para la llegada de 'El Rosco' a Telecinco: retiene a míticos concursantes de 'Pasapalabra' con un contrato millonario
-[movies] Candidatos encontrados: 29 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "Todo el mundo se identifica con la idea de que las cacas y los pedos son graciosos": 'Jackass' cumple 26 años manteniendo la esencia
-[movies] Saltado porque no tiene tráiler confiable: "Todo el mundo se identifica con la idea de que las cacas y los pedos son graciosos": 'Jackass' cumple 26 años manteniendo la esencia
-[YouTube] No se encontró tráiler confiable para Brad Pitt sobre la época más destructiva de su carrera: "Me despertaba, fumaba un porro y bebía cuatro Coca-Colas, sin comer"
-[movies] Saltado porque no tiene tráiler confiable: Brad Pitt sobre la época más destructiva de su carrera: "Me despertaba, fumaba un porro y bebía cuatro Coca-Colas, sin comer"
-[YouTube] No se encontró tráiler confiable para Emma Watson lleva años alejada de la vida pública, pero ha regresado por una buena causa: "Es importante para los jóvenes”
-[movies] Saltado porque no tiene tráiler confiable: Emma Watson lleva años alejada de la vida pública, pero ha regresado por una buena causa: "Es importante para los jóvenes”
-[YouTube] No se encontró tráiler confiable para Esta película de 200 millones de dólares es, para algunos, una de las mejores del año, pero ha sido un fracaso estrepitoso en taquilla
-[movies] Saltado porque no tiene tráiler confiable: Esta película de 200 millones de dólares es, para algunos, una de las mejores del año, pero ha sido un fracaso estrepitoso en taquilla
-[YouTube] No se encontró tráiler confiable para Secuestrar el cadáver de tu jefe por necesidad: así es 'Morir no siempre sale bien', la nueva comedia negra del verano
-[movies] Saltado porque no tiene tráiler confiable: Secuestrar el cadáver de tu jefe por necesidad: así es 'Morir no siempre sale bien', la nueva comedia negra del verano
+[movies] Candidatos encontrados: 30 | Límite: 1
+[YouTube] No se encontró tráiler confiable para Curry Barker, director del fenómeno de terror 'Obsession': "Nadie había llegado realmente tan lejos con esta idea. Yo quería hacerlo"
+[movies] Saltado porque no tiene tráiler confiable: Curry Barker, director del fenómeno de terror 'Obsession': "Nadie había llegado realmente tan lejos con esta idea. Yo quería hacerlo"
+[YouTube] No se encontró tráiler confiable para El pacto de Natalie Portman con George Lucas para no abandonar sus estudios en Harvard: la razón detrás de la imagen viral
+[movies] Saltado porque no tiene tráiler confiable: El pacto de Natalie Portman con George Lucas para no abandonar sus estudios en Harvard: la razón detrás de la imagen viral
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
