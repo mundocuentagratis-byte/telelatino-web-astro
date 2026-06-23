@@ -1,32 +1,39 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-23T11:29:24.218843+00:00
+Fecha UTC: 2026-06-23T15:08:27.484879+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
 [movies] Saltado porque no es estreno 2026: Obsession (None)
-[movies] Saltado porque no es estreno 2026: El día de la revelación (None)
+[movies] Saltado porque no es estreno 2026: Toy Story 5 (None)
+[movies] Saltado noticia no apta para películas: Nº1 en 73 países: todo el mundo está llorando con esta película en Netflix que parte de una inesperada experiencia real
+[movies] Saltado noticia no apta para películas: Matt Damon vio este documental en Disney+, lloró con su final y tomó una decisión con Ben Affleck: "¿Qué más da si saturamos el mercado?"
+[movies] Saltado porque no es estreno 2026: Esta película tardó en rodarse 12 años y resultó ser una obra maestra: ahora regresa a los cines para celebrar su aniversario (2019)
 [movies] Saltado noticia no apta para películas: Todos los niños de los 90 vieron esta película, pero nunca se convirtió en uno de los grandes clásicos de Disney: hoy cumple 30 años
-[movies] Saltado noticia no apta para películas: "Tenía que demostrar que no era una actriz tonta": el verano que Natalie Portman pasó estudiando en Harvard y rodando una saga millonaria
-[movies] Saltado noticia no apta para películas: Brad Pitt sobre la época más destructiva de su carrera: "Me despertaba, fumaba un porro y bebía cuatro Coca-Colas, sin comer"
+[movies] Saltado porque no es estreno 2026: El pacto de Natalie Portman con George Lucas para no abandonar sus estudios en Harvard: la razón detrás de la imagen viral (2003)
 [movies] Saltado noticia no apta para películas: Tom Cruise aprendió español para entender a la familia de Penélope Cruz: "Con la familia es mejor que empieces a aprender y a prestar atención"
-[movies] Saltado noticia no apta para películas: Esta película de 200 millones de dólares es, para algunos, una de las mejores del año, pero ha sido un fracaso estrepitoso en taquilla
-[movies] Saltado noticia no apta para películas: Dos misiones vitales para cambiarlo todo: Llega a los cines 'Nino', una conmovedora historia de superación y reencuentro
-[movies] Saltado noticia no apta para películas: Últimos 4 días para ver en Netflix una película de suspense extraordinario como de las que ya no se hacen
-[movies] Saltado noticia no apta para películas: "Nunca llegué a pensar en cosas oscuras, pero sí estaba triste": el bache emocional de Javier Bardem en la película mejor valorada de su carrera
-[movies] Saltado noticia no apta para películas: 'Toy Story 5' hace historia en la saga de Pixar: Acaba de romper varios récords y uno de ellos se lo ha quitado a 'Super Mario Galaxy'
-[movies] Saltado noticia no apta para películas: Estoy muy contento con 'Obsession': podría encontrar pegas, pero no me da la gana porque es una de las películas del año
+[movies] Saltado porque no es estreno 2026: Dos misiones vitales para cambiarlo todo: Llega a los cines 'Nino', una conmovedora historia de superación y reencuentro (2025)
 [movies] Saltado porque no es estreno 2026: 72 años de carrera y cuatro Oscar: hoy cumple 96 años la mayor leyenda de la historia de Hollywood (2024)
 [movies] Saltado noticia no apta para películas: El histórico presentador del Telediario al que RTVE obligó a jubilarse: "Llevaba 47 años cotizados, pero seguía disfrutando de mi trabajo"
 [movies] Saltado noticia no apta para películas: 'Supervivientes' prepara su tercera edición 'All Stars', pero el 'reality' de supervivencia más extremo está en Netflix
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 10': Así están las parejas seis meses después de pasar por el 'reality' de Telecinco
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 10' sorprendió en su debate final con una inesperada ruptura y una aplaudida reconciliación
+[movies] Saltado noticia no apta para películas: Confirmado, hay vida para 'Pasapalabra' sin 'El Rosco': 'AlaZ' aprueba con nota su segundo día pese a competir con el Mundial 2026
+[movies] Saltado noticia no apta para películas: Tras casi 40 años, esta mítica corresponsal de RTVE se jubila: es una de las referentes de la información internacional
+[movies] Saltado noticia no apta para películas: La audiencia dicta sentencia a 'Amor o lo que surja' con una repetida crítica: "Esto es un sinsentido"
 [movies] Saltado noticia no apta para películas: 'MasterChef 14' cierra su edición menos vista: Esta es la ganadora que se lleva los 100.000 euros del premio
 [movies] Saltado noticia no apta para películas: Iker Jiménez, presentador de 'Horizonte': "El periodismo deportivo creo que es peor que el político"
 [movies] Saltado noticia no apta para películas: Antena 3 se prepara para la llegada de 'El Rosco' a Telecinco: retiene a míticos concursantes de 'Pasapalabra' con un contrato millonario
-[movies] Saltado noticia no apta para películas: La condición de Oriana Marzoli para quitarse la "espinita" con Telecinco: "Estoy esperando al momento exacto para volver a 'GH VIP"
-[movies] Saltado noticia no apta para películas: La impresionante casa de Iker Jiménez y Carmen Porter en una de las zonas más exclusivas de Madrid: "Antes vivíamos en un piso en el centro"
-[movies] Saltado noticia no apta para películas: La única cita que 'First Dates' ha censurado en sus 9 años de historia: "Pasó lo peor, que se volvió loco"
-[movies] Candidatos encontrados: 24 | Límite: 1
+[movies] Candidatos encontrados: 29 | Límite: 1
+[YouTube] No se encontró tráiler confiable para "Todo el mundo se identifica con la idea de que las cacas y los pedos son graciosos": 'Jackass' cumple 26 años manteniendo la esencia
+[movies] Saltado porque no tiene tráiler confiable: "Todo el mundo se identifica con la idea de que las cacas y los pedos son graciosos": 'Jackass' cumple 26 años manteniendo la esencia
+[YouTube] No se encontró tráiler confiable para Brad Pitt sobre la época más destructiva de su carrera: "Me despertaba, fumaba un porro y bebía cuatro Coca-Colas, sin comer"
+[movies] Saltado porque no tiene tráiler confiable: Brad Pitt sobre la época más destructiva de su carrera: "Me despertaba, fumaba un porro y bebía cuatro Coca-Colas, sin comer"
+[YouTube] No se encontró tráiler confiable para Emma Watson lleva años alejada de la vida pública, pero ha regresado por una buena causa: "Es importante para los jóvenes”
+[movies] Saltado porque no tiene tráiler confiable: Emma Watson lleva años alejada de la vida pública, pero ha regresado por una buena causa: "Es importante para los jóvenes”
+[YouTube] No se encontró tráiler confiable para Esta película de 200 millones de dólares es, para algunos, una de las mejores del año, pero ha sido un fracaso estrepitoso en taquilla
+[movies] Saltado porque no tiene tráiler confiable: Esta película de 200 millones de dólares es, para algunos, una de las mejores del año, pero ha sido un fracaso estrepitoso en taquilla
+[YouTube] No se encontró tráiler confiable para Secuestrar el cadáver de tu jefe por necesidad: así es 'Morir no siempre sale bien', la nueva comedia negra del verano
+[movies] Saltado porque no tiene tráiler confiable: Secuestrar el cadáver de tu jefe por necesidad: así es 'Morir no siempre sale bien', la nueva comedia negra del verano
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
