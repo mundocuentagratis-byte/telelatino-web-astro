@@ -1,33 +1,31 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-24T11:16:20.776370+00:00
+Fecha UTC: 2026-06-24T14:31:22.053417+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
 [movies] Saltado porque no es estreno 2026: Obsession (None)
 [movies] Saltado porque no es estreno 2026: Toy Story 5 (None)
+[movies] Saltado noticia no apta para películas: "Uno de los mejores 'thrillers' de venganza de los últimos tiempos": Mark Wahlberg experimenta una transformación física en esta película inspirada en hechos reales
+[movies] Saltado porque no es estreno 2026: Ester Expósito: "Lecciones de feminismo del señor que se pasa el año negando la violencia de género y llamándonos feminazis, las justas" (2018)
+[movies] Saltado porque no es estreno 2026: Álex de la Iglesia rompe un nuevo hito en su carrera: estrena su primera película de animación (2027)
+[movies] Saltado noticia no apta para películas: "Pura basura": Un documental sobre el verdadero Lobo de Wall Street asegura que la realidad fue más salvaje que la película de Martin Scorsese
 [movies] Saltado porque no es estreno 2026: Antes de 'Backrooms' y 'Obsession', esta película cambió el género de terror: 27 años después, vuelve con una nueva versión (2027)
 [movies] Saltado porque no es estreno 2026: "Si la película está puesta, me levantaré y saldré de la habitación": Tom Hanks todavía no puede ver una escena de este clásico de los 2000 (2000)
-[movies] Saltado porque no es estreno 2026: Tom Cruise se enfrenta al que "posiblemente sea el papel más desafiante de su carrera". Y no lo decimos nosotros, lo dice Iñárritu (2027)
+[movies] Saltado noticia no apta para películas: Tom Cruise se enfrenta al que "posiblemente sea el papel más desafiante de su carrera". Y no lo decimos nosotros, lo dice Iñárritu
 [movies] Saltado porque no es estreno 2026: Mario Casas lleva años practicando boxeo como entrenamiento habitual, pero no se atreve con 'La Velada del Año': "No me quiero ver noqueado" (2027)
-[movies] Saltado porque no es estreno 2026: Curry Barker, director del fenómeno de terror del año: "Nadie había llegado realmente tan lejos con esta idea. Yo quería hacerlo" (2027)
-[movies] Saltado porque no es estreno 2026: Secuestrar el cadáver de tu jefe por necesidad: así es 'Morir no siempre sale bien', la nueva comedia negra del verano (2027)
-[movies] Saltado porque no es estreno 2026: Emma Watson reaparece 7 años después de su último papel en el cine y su retiro de Hollywood (2027)
-[movies] Saltado noticia no apta para películas: "Todo el mundo se identifica con la idea de que las cacas y los pedos son graciosos": 'Jackass' cumple 26 años manteniendo la esencia
-[movies] Saltado noticia no apta para películas: Arrasa en Netflix y te hace llorar cada 10 minutos: la inesperada inspiración tras 'Mensajes de voz para Isabelle'
-[movies] Saltado porque no es estreno 2026: El documental sobre la ruptura de los Beatles convenció a Matt Damon de no repetir la misma historia con Ben Affleck (2027)
-[movies] Saltado porque no es estreno 2026: Fue nominada a 6 Oscars y es considerada una de las mejores películas jamás realizadas: ahora regresa a los cines para celebrar su aniversario (2019)
+[movies] Saltado noticia no apta para películas: Secuestrar el cadáver de tu jefe por necesidad: así es 'Morir no siempre sale bien', la nueva comedia negra del verano
 [movies] Saltado porque no es estreno 2026: 72 años de carrera y cuatro Oscar: hoy cumple 96 años la mayor leyenda de la historia de Hollywood (2024)
 [movies] Saltado noticia no apta para películas: El histórico presentador del Telediario al que RTVE obligó a jubilarse: "Llevaba 47 años cotizados, pero seguía disfrutando de mi trabajo"
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 10': Así están las parejas seis meses después de pasar por el 'reality' de Telecinco
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 10' sorprendió en su debate final con una inesperada ruptura y una aplaudida reconciliación
 [movies] Saltado noticia no apta para películas: Por qué Atresmedia ha eliminado de Atresplayer todos los programas de 'Pasapalabra'
+[movies] Saltado noticia no apta para películas: 'Amor o lo que surja' llegó a Telecinco para revolucionar sus tardes, pero puede convertirse en un problema
 [movies] Saltado noticia no apta para películas: Pablo Motos desvela en 'El Hormiguero' su estrategia para que no le afecte el 'hate' en redes: "Son gente que necesita dar palizas"
 [movies] Saltado noticia no apta para películas: Silvia Intxaurrondo aclara el motivo de su ausencia de 'La hora de La 1': "Nos veremos pronto"
 [movies] Saltado noticia no apta para películas: Confirmado, hay vida para 'Pasapalabra' sin 'El Rosco': 'AlaZ' aprueba con nota su segundo día pese a competir con el Mundial 2026
 [movies] Saltado noticia no apta para películas: Tras casi 40 años, esta mítica corresponsal de RTVE se jubila: es una de las referentes de la información internacional
 [movies] Saltado noticia no apta para películas: La audiencia dicta sentencia a 'Amor o lo que surja' con una repetida crítica: "Esto es un sinsentido"
-[movies] Saltado noticia no apta para películas: 'MasterChef 14' cierra su edición menos vista: Esta es la ganadora que se lleva los 100.000 euros del premio
-[movies] Candidatos encontrados: 23 | Límite: 1
+[movies] Candidatos encontrados: 24 | Límite: 1
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
