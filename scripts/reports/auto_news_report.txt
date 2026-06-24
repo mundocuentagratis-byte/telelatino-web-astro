@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-24T03:36:48.104258+00:00
+Fecha UTC: 2026-06-24T04:23:43.152603+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
@@ -27,11 +27,6 @@ Fecha UTC: 2026-06-24T03:36:48.104258+00:00
 [movies] Saltado noticia no apta para películas: Iker Jiménez, presentador de 'Horizonte': "El periodismo deportivo creo que es peor que el político"
 [movies] Saltado noticia no apta para películas: Antena 3 se prepara para la llegada de 'El Rosco' a Telecinco: retiene a míticos concursantes de 'Pasapalabra' con un contrato millonario
 [movies] Candidatos encontrados: 25 | Límite: 1
-[IA] Probando proveedor cohere: Haciendo amigos
-[IA] cohere falló (error): Cohere error 404: {"id":"a6b328bb-1696-42d3-a1ee-9f9471b2f0b8","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Haciendo amigos
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/haciendo-amigos-una-fuga-que-redefine-la-oportunidad-en-el-cine-2026-06-24-11c333.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
