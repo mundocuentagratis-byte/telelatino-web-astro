@@ -1,33 +1,28 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-24T14:52:43.321986+00:00
+Fecha UTC: 2026-06-24T18:06:28.959275+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
 [movies] Saltado porque no es estreno 2026: Obsession (None)
 [movies] Saltado porque no es estreno 2026: Toy Story 5 (None)
+[movies] Saltado porque no es estreno 2026: "No entendí nada": hace 16 años Will Smith se negó a protagonizar una de las mejores películas de ciencia ficción de la década de 2010 (2010)
+[movies] Saltado noticia no apta para películas: 'La muerte de Robin Hood': Un fascinante viaje crepuscular que interesa más de lo que gusta
 [movies] Saltado porque no es estreno 2026: Ester Expósito: "Lecciones de feminismo del señor que se pasa el año negando la violencia de género y llamándonos feminazis, las justas" (2018)
 [movies] Saltado porque no es estreno 2026: Álex de la Iglesia rompe un nuevo hito en su carrera: estrena su primera película de animación (2027)
+[movies] Saltado noticia no apta para películas: "Pura basura": Un documental sobre el verdadero Lobo de Wall Street asegura que la realidad fue más salvaje que la película de Martin Scorsese
 [movies] Saltado porque no es estreno 2026: "Si la película está puesta, me levantaré y saldré de la habitación": Tom Hanks todavía no puede ver una escena de este clásico de los 2000 (2000)
-[movies] Saltado noticia no apta para películas: Tom Cruise se enfrenta al que "posiblemente sea el papel más desafiante de su carrera". Y no lo decimos nosotros, lo dice Iñárritu
-[movies] Saltado porque no es estreno 2026: Mario Casas lleva años practicando boxeo como entrenamiento habitual, pero no se atreve con 'La Velada del Año': "No me quiero ver noqueado" (2027)
 [movies] Saltado porque no es estreno 2026: 72 años de carrera y cuatro Oscar: hoy cumple 96 años la mayor leyenda de la historia de Hollywood (2024)
 [movies] Saltado noticia no apta para películas: El histórico presentador del Telediario al que RTVE obligó a jubilarse: "Llevaba 47 años cotizados, pero seguía disfrutando de mi trabajo"
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 10': Así están las parejas seis meses después de pasar por el 'reality' de Telecinco
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 10' sorprendió en su debate final con una inesperada ruptura y una aplaudida reconciliación
 [movies] Saltado noticia no apta para películas: Por qué Atresmedia ha eliminado de Atresplayer todos los programas de 'Pasapalabra'
+[movies] Saltado noticia no apta para películas: De 21.111 euros a 444 euros: Esto es lo que gana cada miembro de 'La Revuelta' por programa
 [movies] Saltado noticia no apta para películas: 'Amor o lo que surja' llegó a Telecinco para revolucionar sus tardes, pero puede convertirse en un problema
 [movies] Saltado noticia no apta para películas: Pablo Motos desvela en 'El Hormiguero' su estrategia para que no le afecte el 'hate' en redes: "Son gente que necesita dar palizas"
 [movies] Saltado noticia no apta para películas: Silvia Intxaurrondo aclara el motivo de su ausencia de 'La hora de La 1': "Nos veremos pronto"
 [movies] Saltado noticia no apta para películas: Confirmado, hay vida para 'Pasapalabra' sin 'El Rosco': 'AlaZ' aprueba con nota su segundo día pese a competir con el Mundial 2026
 [movies] Saltado noticia no apta para películas: Tras casi 40 años, esta mítica corresponsal de RTVE se jubila: es una de las referentes de la información internacional
-[movies] Saltado noticia no apta para películas: La audiencia dicta sentencia a 'Amor o lo que surja' con una repetida crítica: "Esto es un sinsentido"
-[movies] Candidatos encontrados: 27 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "Pura basura": Un documental sobre el verdadero Lobo de Wall Street asegura que la realidad fue más salvaje que la película de Martin Scorsese
-[movies] Saltado porque no tiene tráiler confiable: "Pura basura": Un documental sobre el verdadero Lobo de Wall Street asegura que la realidad fue más salvaje que la película de Martin Scorsese
-[YouTube] No se encontró tráiler confiable para "Uno de los mejores 'thrillers' de venganza de los últimos tiempos": Mark Wahlberg experimenta una transformación física en esta película inspirada en hechos reales
-[movies] Saltado porque no tiene tráiler confiable: "Uno de los mejores 'thrillers' de venganza de los últimos tiempos": Mark Wahlberg experimenta una transformación física en esta película inspirada en hechos reales
-[YouTube] No se encontró tráiler confiable para Antes de 'Backrooms' y 'Obsession', esta película cambió el género de terror: 27 años después, vuelve con una nueva versión
-[movies] Saltado porque no tiene tráiler confiable: Antes de 'Backrooms' y 'Obsession', esta película cambió el género de terror: 27 años después, vuelve con una nueva versión
+[movies] Candidatos encontrados: 25 | Límite: 1
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
