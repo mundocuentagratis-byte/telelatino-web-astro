@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-24T21:47:49.832021+00:00
+Fecha UTC: 2026-06-25T04:23:12.431980+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
@@ -18,7 +18,7 @@ Fecha UTC: 2026-06-24T21:47:49.832021+00:00
 [movies] Saltado noticia no apta para películas: El histórico presentador del Telediario al que RTVE obligó a jubilarse: "Llevaba 47 años cotizados, pero seguía disfrutando de mi trabajo"
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 10': Así están las parejas seis meses después de pasar por el 'reality' de Telecinco
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 10' sorprendió en su debate final con una inesperada ruptura y una aplaudida reconciliación
-[movies] Saltado noticia no apta para películas: Por qué Atresmedia ha eliminado de Atresplayer todos los programas de 'Pasapalabra'
+[movies] Saltado noticia no apta para películas: La audiencia dicta sentencia a 'Amor o lo que surja' con una repetida crítica: "Esto es un sinsentido"
 [movies] Saltado noticia no apta para películas: De 21.111 euros a 444 euros: Esto es lo que gana cada miembro de 'La Revuelta' por programa
 [movies] Saltado noticia no apta para películas: 'Amor o lo que surja' llegó a Telecinco para revolucionar sus tardes, pero puede convertirse en un problema
 [movies] Saltado noticia no apta para películas: Pablo Motos desvela en 'El Hormiguero' su estrategia para que no le afecte el 'hate' en redes: "Son gente que necesita dar palizas"
