@@ -1,9 +1,9 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-25T21:52:16.641623+00:00
+Fecha UTC: 2026-06-26T04:37:39.768705+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
-[movies] Saltado porque no es estreno 2026: Obsession (None)
+[movies] Saltado porque no es estreno 2026: La Odisea (None)
 [movies] Saltado porque no es estreno 2026: Toy Story 5 (None)
 [movies] Saltado noticia no apta para películas: Cillian Murphy ha hecho seis películas con Christopher Nolan, pero se siente aliviado de no estar en 'La Odisea'
 [movies] Saltado noticia no apta para películas: Mañana llega a Netflix la cuarta película española más taquillera de todos los tiempos: 3.738.398 de espectadores corrieron a verla
@@ -19,14 +19,19 @@ Fecha UTC: 2026-06-25T21:52:16.641623+00:00
 [movies] Saltado porque no es estreno 2026: 72 años de carrera y cuatro Oscar: hoy cumple 96 años la mayor leyenda de la historia de Hollywood (2024)
 [movies] Saltado noticia no apta para películas: El histórico presentador del Telediario al que RTVE obligó a jubilarse: "Llevaba 47 años cotizados, pero seguía disfrutando de mi trabajo"
 [movies] Saltado noticia no apta para películas: La audiencia dicta sentencia a 'Amor o lo que surja' con una repetida crítica: "Esto es un sinsentido"
-[movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 10': Así están las parejas seis meses después de pasar por el 'reality' de Telecinco
 [movies] Saltado noticia no apta para películas: 'Amor o lo que surja' llegó a Telecinco para revolucionar sus tardes, pero puede convertirse en un problema
+[movies] Saltado noticia no apta para películas: La única cita que 'First Dates' ha censurado en sus 9 años de historia: "Pasó lo peor, que se volvió loco"
 [movies] Saltado noticia no apta para películas: Tras abandonar 'Supervivientes', Laura Madrueño regresa por sorpresa a Telecinco: colaborará en una de las nuevas apuestas de la cadena
 [movies] Saltado noticia no apta para películas: Lo que todos pensamos que es la gran ventaja de 'AlaZ', Javier y David lo ven como "una dificultad añadida" a 'Pasapalabra'
 [movies] Saltado noticia no apta para películas: La guerra de audiencias en el 'access' ya no es entre 'La Revuelta' y 'El Hormiguero': 'Horizonte' sigue creciendo mientras Broncano se hunde
 [movies] Saltado noticia no apta para películas: Àngel Llàcer agota la paciencia de Pablo Motos en 'El Hormiguero': "Me dan ganas de irme a mi casa"
 [movies] Saltado noticia no apta para películas: De 21.111 euros a 444 euros: Esto es lo que gana cada miembro de 'La Revuelta' por programa
 [movies] Candidatos encontrados: 23 | Límite: 1
-[movies] Publicados: 0
-Total películas publicadas: 0
+[IA] Probando proveedor cohere: 9 lunas
+[IA] cohere falló (error): Cohere error 404: {"id":"01fae919-2017-45be-bf41-a530533ff02e","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: 9 lunas
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/9-lunas-una-historia-inesperada-que-redefine-la-identidad-2026-06-26-f7492e.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
