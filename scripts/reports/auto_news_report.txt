@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-26T18:02:52.310496+00:00
+Fecha UTC: 2026-06-26T21:39:03.898389+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
@@ -21,11 +21,11 @@ Fecha UTC: 2026-06-26T18:02:52.310496+00:00
 [movies] Saltado noticia no apta para películas: Tras abandonar 'Supervivientes', Laura Madrueño regresa por sorpresa a Telecinco: colaborará en una de las nuevas apuestas de la cadena
 [movies] Saltado noticia no apta para películas: Lo que todos pensamos que es la gran ventaja de 'AlaZ', Javier y David lo ven como "una dificultad añadida" a 'Pasapalabra'
 [movies] Candidatos encontrados: 24 | Límite: 1
-[IA] Probando proveedor cohere: Letras robadas
-[IA] cohere falló (error): Cohere error 404: {"id":"94775260-1396-4eb1-af6b-e30c9150f4d0","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Letras robadas
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/letras-robadas-paul-rudd-y-nick-jonas-en-una-comedia-musical-de-cine-2026-06-26-f3f218.md
+[IA] Probando proveedor openai: Morir no siempre sale bien
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+[IA] Probando proveedor mistral: Morir no siempre sale bien
+[IA] Artículo generado con mistral
+[OK] Publicado: src/content/blog/morir-no-siempre-sale-bien-comedia-negra-con-cadaveres-y-giros-inesperados-2026-06-26-1fe322.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
