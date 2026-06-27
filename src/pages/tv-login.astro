@@ -1,12 +1,4 @@
----
-const firebaseConfig = {
-  apiKey: import.meta.env.PUBLIC_FIREBASE_API_KEY,
-  authDomain: import.meta.env.PUBLIC_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.PUBLIC_FIREBASE_PROJECT_ID,
-  appId: import.meta.env.PUBLIC_FIREBASE_APP_ID,
-};
-
-const apiBase = import.meta.env.PUBLIC_TV_API_BASE || "https://telelatino-api.thiagobtav2.workers.dev";
+﻿---
 ---
 
 <!doctype html>
@@ -26,7 +18,7 @@ const apiBase = import.meta.env.PUBLIC_TV_API_BASE || "https://telelatino-api.th
         min-height: 100vh;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
         background:
-          radial-gradient(circle at top, rgba(255, 184, 77, 0.25), transparent 35%),
+          radial-gradient(circle at top, rgba(255, 184, 77, 0.22), transparent 35%),
           linear-gradient(135deg, #111827, #020617 65%, #000);
         color: #fff;
         display: flex;
@@ -38,12 +30,11 @@ const apiBase = import.meta.env.PUBLIC_TV_API_BASE || "https://telelatino-api.th
       .card {
         width: 100%;
         max-width: 520px;
-        background: rgba(15, 23, 42, 0.88);
-        border: 1px solid rgba(255, 255, 255, 0.08);
+        background: rgba(15, 23, 42, 0.9);
+        border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 28px;
         padding: 34px;
         box-shadow: 0 24px 80px rgba(0, 0, 0, 0.45);
-        backdrop-filter: blur(18px);
       }
 
       .brand {
@@ -147,6 +138,7 @@ const apiBase = import.meta.env.PUBLIC_TV_API_BASE || "https://telelatino-api.th
         background: rgba(255, 255, 255, 0.08);
         color: #e5e7eb;
         font-weight: 700;
+        word-break: break-word;
       }
 
       .success {
@@ -213,11 +205,27 @@ const apiBase = import.meta.env.PUBLIC_TV_API_BASE || "https://telelatino-api.th
       </section>
     </main>
 
-    <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-auth-compat.js"></script>
+    <script>
+      import { initializeApp } from "firebase/app";
+      import {
+        getAuth,
+        GoogleAuthProvider,
+        signInWithPopup,
+        signInWithRedirect,
+        getRedirectResult,
+        onAuthStateChanged
+      } from "firebase/auth";
 
-    <script define:vars={{ firebaseConfig, apiBase }}>
-      const cleanApiBase = String(apiBase || "").replace(/\/+$/, "");
+      const firebaseConfig = {
+        apiKey: import.meta.env.PUBLIC_FIREBASE_API_KEY,
+        authDomain: import.meta.env.PUBLIC_FIREBASE_AUTH_DOMAIN,
+        projectId: import.meta.env.PUBLIC_FIREBASE_PROJECT_ID,
+        appId: import.meta.env.PUBLIC_FIREBASE_APP_ID,
+      };
+
+      const apiBase = String(
+        import.meta.env.PUBLIC_TV_API_BASE || "https://telelatino-api.thiagobtav2.workers.dev"
+      ).replace(/\/+$/, "");
 
       const screenForm = document.getElementById("screenForm");
       const screenProcessing = document.getElementById("screenProcessing");
@@ -260,22 +268,25 @@ const apiBase = import.meta.env.PUBLIC_TV_API_BASE || "https://telelatino-api.th
 
       function saveCode(code) {
         const clean = normalizeCode(code);
-
-        if (clean) {
-          localStorage.setItem("telelatino_tv_code", clean);
-        }
-
+        if (clean) localStorage.setItem("telelatino_tv_code", clean);
         codeInput.value = clean;
       }
 
-      function hasFirebaseConfig() {
-        return Boolean(
-          firebaseConfig &&
-          firebaseConfig.apiKey &&
-          firebaseConfig.authDomain &&
-          firebaseConfig.projectId &&
-          firebaseConfig.appId
-        );
+      function validateConfig() {
+        const missing = [];
+
+        if (!firebaseConfig.apiKey) missing.push("PUBLIC_FIREBASE_API_KEY");
+        if (!firebaseConfig.authDomain) missing.push("PUBLIC_FIREBASE_AUTH_DOMAIN");
+        if (!firebaseConfig.projectId) missing.push("PUBLIC_FIREBASE_PROJECT_ID");
+        if (!firebaseConfig.appId) missing.push("PUBLIC_FIREBASE_APP_ID");
+
+        if (missing.length > 0) {
+          showFormMessage("Faltan variables en Vercel: " + missing.join(", "));
+          googleBtn.disabled = true;
+          return false;
+        }
+
+        return true;
       }
 
       const params = new URLSearchParams(window.location.search);
@@ -292,22 +303,20 @@ const apiBase = import.meta.env.PUBLIC_TV_API_BASE || "https://telelatino-api.th
         codeInput.value = normalizeCode(codeInput.value);
       });
 
-      if (!hasFirebaseConfig()) {
-        showFormMessage("Faltan variables de Firebase en Vercel. Revisa PUBLIC_FIREBASE_API_KEY, PUBLIC_FIREBASE_AUTH_DOMAIN, PUBLIC_FIREBASE_PROJECT_ID y PUBLIC_FIREBASE_APP_ID.");
-        googleBtn.disabled = true;
+      if (!validateConfig()) {
+        throw new Error("Firebase config incompleta");
       }
 
-      firebase.initializeApp(firebaseConfig);
-
-      const auth = firebase.auth();
+      const app = initializeApp(firebaseConfig);
+      const auth = getAuth(app);
       auth.languageCode = "es";
 
-      const provider = new firebase.auth.GoogleAuthProvider();
+      const provider = new GoogleAuthProvider();
       provider.setCustomParameters({
         prompt: "select_account"
       });
 
-      async function approveCurrentUser() {
+      async function approveUser(user) {
         if (approving) return;
         approving = true;
 
@@ -320,21 +329,12 @@ const apiBase = import.meta.env.PUBLIC_TV_API_BASE || "https://telelatino-api.th
           return;
         }
 
-        const user = auth.currentUser;
-
-        if (!user) {
-          approving = false;
-          show(screenForm);
-          showFormMessage("No se pudo obtener la cuenta Google. Intenta de nuevo.");
-          return;
-        }
-
         show(screenProcessing);
 
         try {
           const idToken = await user.getIdToken(true);
 
-          const res = await fetch(`${cleanApiBase}/tv/login/approve`, {
+          const res = await fetch(`${apiBase}/tv/login/approve`, {
             method: "POST",
             headers: {
               "Authorization": `Bearer ${idToken}`,
@@ -359,6 +359,8 @@ const apiBase = import.meta.env.PUBLIC_TV_API_BASE || "https://telelatino-api.th
           show(screenError);
         } finally {
           approving = false;
+          googleBtn.disabled = false;
+          googleBtn.textContent = "Continuar con Google";
         }
       }
 
@@ -371,21 +373,25 @@ const apiBase = import.meta.env.PUBLIC_TV_API_BASE || "https://telelatino-api.th
         }
 
         saveCode(code);
+
         googleBtn.disabled = true;
         googleBtn.textContent = "Abriendo Google...";
+        showFormMessage("Abriendo Google...");
 
         try {
-          if (auth.currentUser) {
-            await approveCurrentUser();
-            return;
-          }
-
-          sessionStorage.setItem("telelatino_tv_pending", "1");
-          await auth.signInWithRedirect(provider);
+          const result = await signInWithPopup(auth, provider);
+          await approveUser(result.user);
         } catch (error) {
-          googleBtn.disabled = false;
-          googleBtn.textContent = "Continuar con Google";
-          showFormMessage(error.message || "No se pudo abrir Google.");
+          console.error("Popup error:", error);
+
+          try {
+            sessionStorage.setItem("telelatino_tv_pending", "1");
+            await signInWithRedirect(auth, provider);
+          } catch (redirectError) {
+            googleBtn.disabled = false;
+            googleBtn.textContent = "Continuar con Google";
+            showFormMessage(redirectError.message || error.message || "No se pudo abrir Google.");
+          }
         }
       });
 
@@ -395,17 +401,10 @@ const apiBase = import.meta.env.PUBLIC_TV_API_BASE || "https://telelatino-api.th
         show(screenForm);
       });
 
-      auth.getRedirectResult()
+      getRedirectResult(auth)
         .then(async (result) => {
-          const pending = sessionStorage.getItem("telelatino_tv_pending") === "1";
-
           if (result && result.user) {
-            await approveCurrentUser();
-            return;
-          }
-
-          if (pending && auth.currentUser) {
-            await approveCurrentUser();
+            await approveUser(result.user);
           }
         })
         .catch((error) => {
@@ -414,11 +413,11 @@ const apiBase = import.meta.env.PUBLIC_TV_API_BASE || "https://telelatino-api.th
           show(screenError);
         });
 
-      auth.onAuthStateChanged(async (user) => {
+      onAuthStateChanged(auth, async (user) => {
         const pending = sessionStorage.getItem("telelatino_tv_pending") === "1";
 
         if (user && pending && !approving) {
-          await approveCurrentUser();
+          await approveUser(user);
         }
       });
     </script>
