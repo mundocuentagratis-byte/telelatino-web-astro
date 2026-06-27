@@ -1,12 +1,11 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-27T14:05:12.636199+00:00
+Fecha UTC: 2026-06-27T17:21:51.740330+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
 [movies] Saltado porque no es estreno 2026: Toy Story 5 (None)
-[movies] Saltado noticia no apta para películas: 6 meses después de volver a arrasar en cines, se estrena la última película de la saga de ciencia ficción más taquillera
-[movies] Saltado porque no es estreno 2026: "Trata a los actores como caballos": Tom Hanks recuerda la primera y última vez que trabajó a las órdenes de Clint Eastwood (2016)
+[movies] Saltado porque no es estreno 2026: "No podía creerlo": la inesperada película que superó en nota a las franquicias más taquilleras de Hollywood (2024)
 [movies] Saltado porque no es estreno 2026: Dos de las mayores estrellas de Hollywood se disputaron este éxito de taquilla de 540 millones: por fin tendrá secuela 13 años después (2012)
 [movies] Saltado porque no es estreno 2026: 72 años de carrera y cuatro Oscar: hoy cumple 96 años la mayor leyenda de la historia de Hollywood (2024)
 [movies] Saltado noticia no apta para películas: "Déjenla en paz. Es perfecta": Tom Hanks no quiere bajo ningún concepto que se haga una nueva versión de esta película clásica
@@ -14,10 +13,12 @@ Fecha UTC: 2026-06-27T14:05:12.636199+00:00
 [movies] Saltado noticia no apta para películas: La audiencia dicta sentencia a 'Amor o lo que surja' con una repetida crítica: "Esto es un sinsentido"
 [movies] Saltado noticia no apta para películas: 'Amor o lo que surja' llegó a Telecinco para revolucionar sus tardes, pero puede convertirse en un problema
 [movies] Saltado noticia no apta para películas: Lo que todos pensamos que es la gran ventaja de 'AlaZ', Javier y David lo ven como "una dificultad añadida" a 'Pasapalabra'
-[movies] Candidatos encontrados: 34 | Límite: 1
-[IA] Probando proveedor gemini: The Fast and the Furious (A todo gas) - 25 Aniversario
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/a-todo-gas-25-anos-de-velocidad-y-lealtad-en-la-gran-pantalla-2026-06-27-a20033.md
+[movies] Candidatos encontrados: 36 | Límite: 1
+[YouTube] No se encontró tráiler confiable para "Trata a los actores como caballos": Tom Hanks recuerda la primera y última vez que trabajó a las órdenes de Clint Eastwood
+[movies] Saltado porque no tiene tráiler confiable: "Trata a los actores como caballos": Tom Hanks recuerda la primera y última vez que trabajó a las órdenes de Clint Eastwood
+[IA] Probando proveedor mistral: 6 meses después de volver a arrasar en cines, se estrena la última película de l
+[IA] Artículo generado con mistral
+[OK] Publicado: src/content/blog/avatar-fuego-y-ceniza-llega-a-cines-con-nuevo-conflicto-epico-2026-06-27-4ce7b2.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
