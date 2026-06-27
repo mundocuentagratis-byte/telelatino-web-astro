@@ -1,30 +1,27 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-27T04:14:27.727665+00:00
+Fecha UTC: 2026-06-27T10:21:23.291721+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
 [movies] Saltado porque no es estreno 2026: Toy Story 5 (None)
+[movies] Saltado noticia no apta para películas: El adorable reencuentro de 'Toy Story 5' que todos anhelábamos y acabó siendo una escena eliminada
+[movies] Saltado porque no es estreno 2026: Dos de las mayores estrellas de Hollywood se disputaron este éxito de taquilla de 540 millones: por fin tendrá secuela 13 años después (2012)
 [movies] Saltado noticia no apta para películas: "Me emociona cada vez": Matt Damon no puede evitar llorar al ver esta película estrenada hace 30 años
 [movies] Saltado porque no es estreno 2026: Esta noche en TV, la película bélica más emocionante desde 'Salvar al Soldado Ryan' (2016)
-[movies] Saltado porque no es estreno 2026: El reinado de 'Avatar' puede acabar para siempre en tres meses: Vuelve al cine de una de las mayores aventuras de ciencia ficción de la historia (2019)
-[movies] Saltado noticia no apta para películas: 'La Odisea' tiene una batalla contra gigantes caníbales que es de las más salvajes de la película: "Los deja a todos conmocionados"
-[movies] Saltado noticia no apta para películas: Cillian Murphy ha hecho seis películas con Christopher Nolan, pero se siente aliviado de no estar en 'La Odisea'
-[movies] Saltado noticia no apta para películas: Mañana llega a Netflix la cuarta película española más taquillera de todos los tiempos: 3.738.398 de espectadores corrieron a verla
-[movies] Saltado noticia no apta para películas: La 'Supergirl' que merecía el Universo DC no está aquí: Milly Alcock es lo único que sostiene una película que no está a la altura de la superheroína
+[movies] Saltado porque no es estreno 2026: La lista de las películas más taquilleras de la historia puede cambiar para siempre: Vuelve a los cines la única capaz de destronar a 'Avatar' (2019)
 [movies] Saltado porque no es estreno 2026: 72 años de carrera y cuatro Oscar: hoy cumple 96 años la mayor leyenda de la historia de Hollywood (2024)
 [movies] Saltado noticia no apta para películas: "Déjenla en paz. Es perfecta": Tom Hanks no quiere bajo ningún concepto que se haga una nueva versión de esta película clásica
 [movies] Saltado noticia no apta para películas: El histórico presentador del Telediario al que RTVE obligó a jubilarse: "Llevaba 47 años cotizados, pero seguía disfrutando de mi trabajo"
 [movies] Saltado noticia no apta para películas: La audiencia dicta sentencia a 'Amor o lo que surja' con una repetida crítica: "Esto es un sinsentido"
 [movies] Saltado noticia no apta para películas: 'Amor o lo que surja' llegó a Telecinco para revolucionar sus tardes, pero puede convertirse en un problema
-[movies] Saltado porque no es estreno 2026: La "terrorífica" historia detrás de las vecinas de Valencia de 'Callejeros' que se supo años después (2024)
-[movies] Saltado noticia no apta para películas: Uruguay - España: A qué hora y dónde ver el tercer partido de la selección española en el Mundial 2026
-[movies] Saltado noticia no apta para películas: Tras abandonar 'Supervivientes', Laura Madrueño regresa por sorpresa a Telecinco: colaborará en una de las nuevas apuestas de la cadena
 [movies] Saltado noticia no apta para películas: Lo que todos pensamos que es la gran ventaja de 'AlaZ', Javier y David lo ven como "una dificultad añadida" a 'Pasapalabra'
-[movies] Candidatos encontrados: 23 | Límite: 1
-[IA] Probando proveedor mistral: Nino
-[IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/nino-el-drama-intimo-de-pauline-loques-llega-a-los-cines-en-2026-2026-06-27-b801e2.md
+[movies] Saltado noticia no apta para películas: Tras abandonar 'Supervivientes', Laura Madrueño regresa por sorpresa a Telecinco: colaborará en una de las nuevas apuestas de la cadena
+[movies] Candidatos encontrados: 29 | Límite: 1
+[movies] Saltado por tema bloqueado: Obsession
+[IA] Probando proveedor gemini: Pálida luz en las colinas
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/palida-luz-en-las-colinas-drama-de-posguerra-y-memorias-familiares-2026-06-27-ea8b21.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
