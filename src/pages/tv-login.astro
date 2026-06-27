@@ -1,5 +1,12 @@
 ---
-const pageTitle = "Vincular TV | Telelatino";
+const firebaseConfig = {
+  apiKey: import.meta.env.PUBLIC_FIREBASE_API_KEY,
+  authDomain: import.meta.env.PUBLIC_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.PUBLIC_FIREBASE_PROJECT_ID,
+  appId: import.meta.env.PUBLIC_FIREBASE_APP_ID,
+};
+
+const apiBase = import.meta.env.PUBLIC_TV_API_BASE || "https://telelatino-api.thiagobtav2.workers.dev";
 ---
 
 <!doctype html>
@@ -7,210 +14,7 @@ const pageTitle = "Vincular TV | Telelatino";
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{pageTitle}</title>
-  </head>
-
-  <body>
-    <main class="page">
-      <section class="card">
-        <div class="brand">
-          <div class="logo">T</div>
-          <div>
-            <h1>Telelatino TV</h1>
-            <p>Vincula tu Firestick, Android TV o TV Box</p>
-          </div>
-        </div>
-
-        <div id="step-code" class="box">
-          <h2>Vincular dispositivo</h2>
-          <p class="muted">
-            Ingresa el código que aparece en tu TV o escanea el QR desde la pantalla.
-          </p>
-
-          <label for="codeInput">Código de TV</label>
-          <input id="codeInput" type="text" maxlength="10" placeholder="Ej: A7K92Q" />
-
-          <button id="googleBtn" class="btn">
-            Continuar con Google
-          </button>
-
-          <p id="message" class="message"></p>
-        </div>
-
-        <div id="loadingBox" class="box hidden">
-          <div class="loader"></div>
-          <h2>Procesando...</h2>
-          <p>Estamos vinculando tu TV. No cierres esta página.</p>
-        </div>
-
-        <div id="successBox" class="box success hidden">
-          <h2>TV vinculada correctamente</h2>
-          <p>Ya puedes volver a la pantalla de tu TV. La app entrará automáticamente.</p>
-        </div>
-
-        <div id="errorBox" class="box error hidden">
-          <h2>No se pudo vincular</h2>
-          <p id="errorText">Intenta generar un nuevo código en la TV.</p>
-        </div>
-      </section>
-    </main>
-
-    <script type="module">
-      import { initializeApp } from "firebase/app";
-      import {
-        getAuth,
-        GoogleAuthProvider,
-        signInWithPopup,
-        signInWithRedirect,
-        getRedirectResult
-      } from "firebase/auth";
-
-      const firebaseConfig = {
-        apiKey: import.meta.env.PUBLIC_FIREBASE_API_KEY,
-        authDomain: import.meta.env.PUBLIC_FIREBASE_AUTH_DOMAIN,
-        projectId: import.meta.env.PUBLIC_FIREBASE_PROJECT_ID,
-        appId: import.meta.env.PUBLIC_FIREBASE_APP_ID,
-      };
-
-      const API_BASE = import.meta.env.PUBLIC_TV_API_BASE || "https://telelatino-api.thiagobtav2.workers.dev";
-
-      const app = initializeApp(firebaseConfig);
-      const auth = getAuth(app);
-      const provider = new GoogleAuthProvider();
-
-      const codeInput = document.getElementById("codeInput");
-      const googleBtn = document.getElementById("googleBtn");
-      const message = document.getElementById("message");
-
-      const stepCode = document.getElementById("step-code");
-      const loadingBox = document.getElementById("loadingBox");
-      const successBox = document.getElementById("successBox");
-      const errorBox = document.getElementById("errorBox");
-      const errorText = document.getElementById("errorText");
-
-      const params = new URLSearchParams(window.location.search);
-      const urlCode = (params.get("code") || "").trim().toUpperCase();
-
-      if (urlCode) {
-        codeInput.value = urlCode;
-        localStorage.setItem("tv_login_code", urlCode);
-      } else {
-        const savedCode = localStorage.getItem("tv_login_code");
-        if (savedCode) codeInput.value = savedCode;
-      }
-
-      function cleanCode(value) {
-        return String(value || "")
-          .trim()
-          .toUpperCase()
-          .replace(/[^A-Z0-9]/g, "");
-      }
-
-      codeInput.addEventListener("input", () => {
-        codeInput.value = cleanCode(codeInput.value);
-        if (codeInput.value) {
-          localStorage.setItem("tv_login_code", codeInput.value);
-        }
-      });
-
-      function showLoading() {
-        stepCode.classList.add("hidden");
-        successBox.classList.add("hidden");
-        errorBox.classList.add("hidden");
-        loadingBox.classList.remove("hidden");
-      }
-
-      function showSuccess() {
-        loadingBox.classList.add("hidden");
-        stepCode.classList.add("hidden");
-        errorBox.classList.add("hidden");
-        successBox.classList.remove("hidden");
-        localStorage.removeItem("tv_login_code");
-      }
-
-      function showError(text) {
-        loadingBox.classList.add("hidden");
-        successBox.classList.add("hidden");
-        stepCode.classList.add("hidden");
-        errorBox.classList.remove("hidden");
-        errorText.textContent = text || "No se pudo vincular esta TV.";
-      }
-
-      function showMessage(text, type = "") {
-        message.textContent = text || "";
-        message.className = "message " + type;
-      }
-
-      async function approveTvLogin(idToken, code) {
-        const response = await fetch(`${API_BASE}/tv/login/approve`, {
-          method: "POST",
-          headers: {
-            "Authorization": `Bearer ${idToken}`,
-            "Content-Type": "application/json"
-          },
-          body: JSON.stringify({ code })
-        });
-
-        const data = await response.json().catch(() => ({}));
-
-        if (!response.ok || !data.success) {
-          throw new Error(data.message || "No se pudo vincular esta TV.");
-        }
-
-        return data;
-      }
-
-      async function handleApprovedUser(user) {
-        const code = cleanCode(codeInput.value || localStorage.getItem("tv_login_code"));
-
-        if (!code || code.length < 6) {
-          showMessage("Ingresa el código que aparece en tu TV.", "bad");
-          return;
-        }
-
-        localStorage.setItem("tv_login_code", code);
-
-        showLoading();
-
-        const idToken = await user.getIdToken(true);
-        await approveTvLogin(idToken, code);
-
-        showSuccess();
-      }
-
-      googleBtn.addEventListener("click", async () => {
-        const code = cleanCode(codeInput.value);
-
-        if (!code || code.length < 6) {
-          showMessage("Primero ingresa el código de la TV.", "bad");
-          return;
-        }
-
-        localStorage.setItem("tv_login_code", code);
-        showMessage("");
-
-        try {
-          const result = await signInWithPopup(auth, provider);
-          await handleApprovedUser(result.user);
-        } catch (error) {
-          try {
-            await signInWithRedirect(auth, provider);
-          } catch (redirectError) {
-            showError(redirectError.message || error.message || "No se pudo iniciar sesión con Google.");
-          }
-        }
-      });
-
-      getRedirectResult(auth)
-        .then(async (result) => {
-          if (result && result.user) {
-            await handleApprovedUser(result.user);
-          }
-        })
-        .catch((error) => {
-          showError(error.message || "No se pudo completar el inicio de sesión.");
-        });
-    </script>
+    <title>Vincular TV | Telelatino</title>
 
     <style>
       * {
@@ -219,16 +23,12 @@ const pageTitle = "Vincular TV | Telelatino";
 
       body {
         margin: 0;
-        font-family: Arial, Helvetica, sans-serif;
+        min-height: 100vh;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
         background:
-          radial-gradient(circle at top, rgba(255, 106, 0, 0.22), transparent 35%),
-          linear-gradient(135deg, #05070d, #090f1f 55%, #03050a);
-        color: #ffffff;
-        min-height: 100vh;
-      }
-
-      .page {
-        min-height: 100vh;
+          radial-gradient(circle at top, rgba(255, 184, 77, 0.25), transparent 35%),
+          linear-gradient(135deg, #111827, #020617 65%, #000);
+        color: #fff;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -237,166 +37,390 @@ const pageTitle = "Vincular TV | Telelatino";
 
       .card {
         width: 100%;
-        max-width: 460px;
-        background: rgba(12, 18, 32, 0.92);
+        max-width: 520px;
+        background: rgba(15, 23, 42, 0.88);
         border: 1px solid rgba(255, 255, 255, 0.08);
         border-radius: 28px;
-        padding: 26px;
-        box-shadow: 0 24px 80px rgba(0, 0, 0, 0.55);
+        padding: 34px;
+        box-shadow: 0 24px 80px rgba(0, 0, 0, 0.45);
+        backdrop-filter: blur(18px);
       }
 
       .brand {
         display: flex;
-        gap: 16px;
         align-items: center;
-        margin-bottom: 28px;
+        gap: 16px;
+        margin-bottom: 34px;
       }
 
       .logo {
-        width: 54px;
-        height: 54px;
+        width: 58px;
+        height: 58px;
         border-radius: 18px;
-        background: linear-gradient(135deg, #ff7a00, #ff3300);
+        background: linear-gradient(135deg, #ffe066, #ff8a00);
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 30px;
+        color: #fff;
+        font-size: 32px;
         font-weight: 900;
       }
 
       h1 {
         margin: 0;
-        font-size: 28px;
+        font-size: 36px;
+        line-height: 1;
       }
 
-      .brand p {
-        margin: 4px 0 0;
-        color: #aab3c5;
-        font-size: 14px;
-      }
-
-      .box {
-        background: rgba(255, 255, 255, 0.045);
-        border-radius: 22px;
-        padding: 22px;
+      .subtitle {
+        margin: 6px 0 0;
+        color: #cbd5e1;
+        font-size: 17px;
+        font-weight: 600;
       }
 
       h2 {
-        margin: 0 0 10px;
-        font-size: 24px;
+        margin: 0 0 14px;
+        font-size: 30px;
       }
 
-      .muted {
-        color: #aab3c5;
-        line-height: 1.5;
-        margin-bottom: 20px;
+      p {
+        color: #dbeafe;
+        line-height: 1.55;
+        font-size: 17px;
       }
 
       label {
         display: block;
-        font-size: 14px;
-        color: #c8d0df;
+        margin-top: 22px;
         margin-bottom: 8px;
+        color: #e5e7eb;
+        font-weight: 800;
       }
 
       input {
         width: 100%;
-        height: 54px;
-        border-radius: 16px;
-        border: 1px solid rgba(255, 255, 255, 0.13);
-        background: #090f1c;
-        color: #ffffff;
-        font-size: 24px;
-        font-weight: 800;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-        padding: 0 16px;
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        background: rgba(15, 23, 42, 0.92);
+        color: #fff;
+        border-radius: 18px;
+        padding: 18px 20px;
+        font-size: 28px;
+        font-weight: 900;
+        letter-spacing: 4px;
         outline: none;
+        text-transform: uppercase;
       }
 
       input:focus {
-        border-color: #ff7a00;
-        box-shadow: 0 0 0 3px rgba(255, 122, 0, 0.18);
+        border-color: #fbbf24;
+        box-shadow: 0 0 0 4px rgba(251, 191, 36, 0.18);
       }
 
-      .btn {
+      button {
         width: 100%;
-        height: 54px;
-        margin-top: 18px;
+        margin-top: 24px;
         border: none;
-        border-radius: 16px;
-        background: linear-gradient(135deg, #ff7a00, #ff3d00);
-        color: #ffffff;
-        font-size: 17px;
-        font-weight: 800;
+        border-radius: 18px;
+        padding: 18px 20px;
+        font-size: 19px;
+        font-weight: 900;
+        color: #fff;
         cursor: pointer;
+        background: linear-gradient(135deg, #facc15, #f97316);
+        box-shadow: 0 12px 30px rgba(249, 115, 22, 0.24);
       }
 
-      .btn:active {
-        transform: scale(0.98);
-      }
-
-      .message {
-        min-height: 22px;
-        margin: 14px 0 0;
-        color: #aab3c5;
-        font-size: 14px;
-      }
-
-      .message.bad {
-        color: #ff7676;
+      button:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
       }
 
       .hidden {
         display: none;
       }
 
-      .success {
-        border: 1px solid rgba(45, 212, 128, 0.35);
+      .message {
+        margin-top: 18px;
+        padding: 16px;
+        border-radius: 16px;
+        background: rgba(255, 255, 255, 0.08);
+        color: #e5e7eb;
+        font-weight: 700;
       }
 
-      .success h2 {
-        color: #4ade80;
+      .success {
+        background: rgba(34, 197, 94, 0.16);
+        color: #bbf7d0;
       }
 
       .error {
-        border: 1px solid rgba(248, 113, 113, 0.35);
+        background: rgba(239, 68, 68, 0.16);
+        color: #fecaca;
       }
 
-      .error h2 {
-        color: #ff7676;
-      }
-
-      .loader {
-        width: 46px;
-        height: 46px;
-        border-radius: 50%;
-        border: 4px solid rgba(255, 255, 255, 0.15);
-        border-top-color: #ff7a00;
-        animation: spin 0.8s linear infinite;
-        margin-bottom: 18px;
-      }
-
-      @keyframes spin {
-        to {
-          transform: rotate(360deg);
-        }
-      }
-
-      @media (max-width: 480px) {
-        .card {
-          padding: 20px;
-          border-radius: 24px;
-        }
-
-        h1 {
-          font-size: 23px;
-        }
-
-        h2 {
-          font-size: 22px;
-        }
+      .small {
+        margin-top: 18px;
+        color: #94a3b8;
+        font-size: 14px;
       }
     </style>
+  </head>
+
+  <body>
+    <main class="card">
+      <div class="brand">
+        <div class="logo">T</div>
+        <div>
+          <h1>Telelatino TV</h1>
+          <p class="subtitle">Vincula tu Firestick, Android TV o TV Box</p>
+        </div>
+      </div>
+
+      <section id="screenForm">
+        <h2>Vincular dispositivo</h2>
+        <p>Ingresa el código que aparece en tu TV o escanea el QR desde la pantalla.</p>
+
+        <label for="codeInput">Código de TV</label>
+        <input id="codeInput" maxlength="10" autocomplete="off" placeholder="EJ: A7K92Q" />
+
+        <button id="googleBtn" type="button">Continuar con Google</button>
+
+        <div id="formMessage" class="message hidden"></div>
+
+        <p class="small">
+          Al continuar, tu cuenta Google se usará para vincular esta TV a Telelatino.
+        </p>
+      </section>
+
+      <section id="screenProcessing" class="hidden">
+        <h2>Procesando...</h2>
+        <p>Estamos vinculando tu TV. No cierres esta página.</p>
+        <div class="message">Validando cuenta y dispositivo...</div>
+      </section>
+
+      <section id="screenSuccess" class="hidden">
+        <h2>TV vinculada correctamente</h2>
+        <p>Ya puedes volver a la pantalla de tu TV. La app entrará automáticamente.</p>
+        <div id="successMessage" class="message success"></div>
+      </section>
+
+      <section id="screenError" class="hidden">
+        <h2>No se pudo vincular</h2>
+        <p>Intenta generar un nuevo código en la TV.</p>
+        <div id="errorMessage" class="message error"></div>
+        <button id="backBtn" type="button">Intentar de nuevo</button>
+      </section>
+    </main>
+
+    <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-auth-compat.js"></script>
+
+    <script define:vars={{ firebaseConfig, apiBase }}>
+      const cleanApiBase = String(apiBase || "").replace(/\/+$/, "");
+
+      const screenForm = document.getElementById("screenForm");
+      const screenProcessing = document.getElementById("screenProcessing");
+      const screenSuccess = document.getElementById("screenSuccess");
+      const screenError = document.getElementById("screenError");
+
+      const codeInput = document.getElementById("codeInput");
+      const googleBtn = document.getElementById("googleBtn");
+      const backBtn = document.getElementById("backBtn");
+
+      const formMessage = document.getElementById("formMessage");
+      const successMessage = document.getElementById("successMessage");
+      const errorMessage = document.getElementById("errorMessage");
+
+      let approving = false;
+
+      function show(screen) {
+        screenForm.classList.add("hidden");
+        screenProcessing.classList.add("hidden");
+        screenSuccess.classList.add("hidden");
+        screenError.classList.add("hidden");
+        screen.classList.remove("hidden");
+      }
+
+      function showFormMessage(text) {
+        formMessage.textContent = text;
+        formMessage.classList.remove("hidden");
+      }
+
+      function normalizeCode(value) {
+        return String(value || "")
+          .trim()
+          .toUpperCase()
+          .replace(/[^A-Z0-9]/g, "");
+      }
+
+      function getCode() {
+        return normalizeCode(codeInput.value || localStorage.getItem("telelatino_tv_code") || "");
+      }
+
+      function saveCode(code) {
+        const clean = normalizeCode(code);
+
+        if (clean) {
+          localStorage.setItem("telelatino_tv_code", clean);
+        }
+
+        codeInput.value = clean;
+      }
+
+      function hasFirebaseConfig() {
+        return Boolean(
+          firebaseConfig &&
+          firebaseConfig.apiKey &&
+          firebaseConfig.authDomain &&
+          firebaseConfig.projectId &&
+          firebaseConfig.appId
+        );
+      }
+
+      const params = new URLSearchParams(window.location.search);
+      const urlCode = normalizeCode(params.get("code"));
+
+      if (urlCode) {
+        saveCode(urlCode);
+      } else {
+        const storedCode = normalizeCode(localStorage.getItem("telelatino_tv_code"));
+        if (storedCode) codeInput.value = storedCode;
+      }
+
+      codeInput.addEventListener("input", () => {
+        codeInput.value = normalizeCode(codeInput.value);
+      });
+
+      if (!hasFirebaseConfig()) {
+        showFormMessage("Faltan variables de Firebase en Vercel. Revisa PUBLIC_FIREBASE_API_KEY, PUBLIC_FIREBASE_AUTH_DOMAIN, PUBLIC_FIREBASE_PROJECT_ID y PUBLIC_FIREBASE_APP_ID.");
+        googleBtn.disabled = true;
+      }
+
+      firebase.initializeApp(firebaseConfig);
+
+      const auth = firebase.auth();
+      auth.languageCode = "es";
+
+      const provider = new firebase.auth.GoogleAuthProvider();
+      provider.setCustomParameters({
+        prompt: "select_account"
+      });
+
+      async function approveCurrentUser() {
+        if (approving) return;
+        approving = true;
+
+        const code = getCode();
+
+        if (!code || code.length < 6) {
+          approving = false;
+          show(screenForm);
+          showFormMessage("Escribe el código de la TV.");
+          return;
+        }
+
+        const user = auth.currentUser;
+
+        if (!user) {
+          approving = false;
+          show(screenForm);
+          showFormMessage("No se pudo obtener la cuenta Google. Intenta de nuevo.");
+          return;
+        }
+
+        show(screenProcessing);
+
+        try {
+          const idToken = await user.getIdToken(true);
+
+          const res = await fetch(`${cleanApiBase}/tv/login/approve`, {
+            method: "POST",
+            headers: {
+              "Authorization": `Bearer ${idToken}`,
+              "Content-Type": "application/json"
+            },
+            body: JSON.stringify({ code })
+          });
+
+          const data = await res.json().catch(() => ({}));
+
+          if (!res.ok || !data.success) {
+            throw new Error(data.message || data.error || "No se pudo vincular la TV.");
+          }
+
+          localStorage.removeItem("telelatino_tv_code");
+          sessionStorage.removeItem("telelatino_tv_pending");
+
+          successMessage.textContent = data.message || "TV vinculada correctamente.";
+          show(screenSuccess);
+        } catch (error) {
+          errorMessage.textContent = error.message || "Error vinculando la TV.";
+          show(screenError);
+        } finally {
+          approving = false;
+        }
+      }
+
+      googleBtn.addEventListener("click", async () => {
+        const code = getCode();
+
+        if (!code || code.length < 6) {
+          showFormMessage("Escribe el código de la TV.");
+          return;
+        }
+
+        saveCode(code);
+        googleBtn.disabled = true;
+        googleBtn.textContent = "Abriendo Google...";
+
+        try {
+          if (auth.currentUser) {
+            await approveCurrentUser();
+            return;
+          }
+
+          sessionStorage.setItem("telelatino_tv_pending", "1");
+          await auth.signInWithRedirect(provider);
+        } catch (error) {
+          googleBtn.disabled = false;
+          googleBtn.textContent = "Continuar con Google";
+          showFormMessage(error.message || "No se pudo abrir Google.");
+        }
+      });
+
+      backBtn.addEventListener("click", () => {
+        googleBtn.disabled = false;
+        googleBtn.textContent = "Continuar con Google";
+        show(screenForm);
+      });
+
+      auth.getRedirectResult()
+        .then(async (result) => {
+          const pending = sessionStorage.getItem("telelatino_tv_pending") === "1";
+
+          if (result && result.user) {
+            await approveCurrentUser();
+            return;
+          }
+
+          if (pending && auth.currentUser) {
+            await approveCurrentUser();
+          }
+        })
+        .catch((error) => {
+          sessionStorage.removeItem("telelatino_tv_pending");
+          errorMessage.textContent = error.message || "No se pudo iniciar sesión con Google.";
+          show(screenError);
+        });
+
+      auth.onAuthStateChanged(async (user) => {
+        const pending = sessionStorage.getItem("telelatino_tv_pending") === "1";
+
+        if (user && pending && !approving) {
+          await approveCurrentUser();
+        }
+      });
+    </script>
   </body>
 </html>
