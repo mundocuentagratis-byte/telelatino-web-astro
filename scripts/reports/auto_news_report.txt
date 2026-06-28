@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-28T14:13:28.426074+00:00
+Fecha UTC: 2026-06-28T17:24:55.115617+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
@@ -9,14 +9,11 @@ Fecha UTC: 2026-06-28T14:13:28.426074+00:00
 [movies] Saltado noticia no apta para películas: "No me pagaron nada": La obra maestra de terror que Christopher Lee rodó gratis y prefería antes que 'El señor de los anillos'
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado porque no es estreno 2026: El eslabón perdido de Disney y Pixar: La película olvidada sin la que 'Toy Story' jamás habría existido (2018)
-[movies] Saltado porque no es estreno 2026: 30 películas después, Steven Spielberg sigue al pie del cañón por John Williams: “Esa es la recompensa” (2000)
-[movies] Saltado porque no es estreno 2026: Ha creado el éxito de terror del momento, pero su primera película no se la compró nadie: la subió a YouTube y creó un fenómeno viral de apenas 1 hora (2000)
+[movies] Saltado porque no es estreno 2026: 30 películas después, Steven Spielberg sigue al pie del cañón por John Williams: “Esa es la recompensa” (2016)
 [movies] Saltado noticia no apta para películas: 16 estrenos en Netflix: esta semana, el regreso de una de las sagas más populares de la plataforma y un nuevo contenido interactivo
-[movies] Saltado porque no es estreno 2026: "No podía creerlo": la inesperada película que superó en nota a las franquicias más taquilleras de Hollywood (2000)
+[movies] Saltado porque no es estreno 2026: "No podía creerlo": la inesperada película que superó en nota a las franquicias más taquilleras de Hollywood (2024)
 [movies] Saltado noticia no apta para películas: Chris Pratt tenía miedo de arruinar ‘Guardianes de la Galaxia’, pero James Gunn le dijo que espabilase: “Cada minuto costaba 20.000 dólares”
 [movies] Saltado noticia no apta para películas: El hijo de Sylvester Stallone aparece en la saga 'Rocky': "Después de la película, todo cambió. Haríamos cualquier cosa el uno por el otro"
-[movies] Saltado noticia no apta para películas: Este tren iba a recorrer más de 1.000 kilómetros hasta la Meca, hasta que llegó Lawrence de Arabia: sus restos aún siguen el desierto
-[movies] Saltado noticia no apta para películas: El agujero de guion de 'Obsession' que está martirizando a su propio director: "No tiene ningún sentido"
 [movies] Saltado porque no es estreno 2026: 72 años de carrera y cuatro Oscar: hoy cumple 96 años la mayor leyenda de la historia de Hollywood (2024)
 [movies] Saltado noticia no apta para películas: El histórico presentador del Telediario al que RTVE obligó a jubilarse: "Llevaba 47 años cotizados, pero seguía disfrutando de mi trabajo"
 [movies] Saltado noticia no apta para películas: La audiencia dicta sentencia a 'Amor o lo que surja' con una repetida crítica: "Esto es un sinsentido"
@@ -27,7 +24,11 @@ Fecha UTC: 2026-06-28T14:13:28.426074+00:00
 [movies] Saltado noticia no apta para películas: Es uno de los presentadores más recordados de 'Megatrix', pero decidió cambiar el rumbo de su carrera: ganó un concurso de nuevos talentos
 [movies] Saltado noticia no apta para películas: Hace 18 años que fue concursante de 'Gran Hermano', ahora se dedica a rescatar aves: "Les quito los traumas"
 [movies] Saltado noticia no apta para películas: Una pregunta sobre Felipe de Borbón terminó cerrando a Sonsoles Ónega la puerta del canal 24 horas
-[movies] Candidatos encontrados: 22 | Límite: 1
+[movies] Candidatos encontrados: 24 | Límite: 1
+[YouTube] No se encontró tráiler confiable para El final explicado de 'Obsession' no es el que Curry Barker quería: acabó rodándolo a última hora y como simple descarte
+[movies] Saltado porque no tiene tráiler confiable: El final explicado de 'Obsession' no es el que Curry Barker quería: acabó rodándolo a última hora y como simple descarte
+[YouTube] No se encontró tráiler confiable para Ha creado el éxito de terror del momento, pero su primera película no se la compró nadie: la subió a YouTube y creó un fenómeno viral de apenas 1 hora
+[movies] Saltado porque no tiene tráiler confiable: Ha creado el éxito de terror del momento, pero su primera película no se la compró nadie: la subió a YouTube y creó un fenómeno viral de apenas 1 hora
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
