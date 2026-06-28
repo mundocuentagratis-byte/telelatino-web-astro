@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-28T17:24:55.115617+00:00
+Fecha UTC: 2026-06-28T21:17:15.878782+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
@@ -25,10 +25,6 @@ Fecha UTC: 2026-06-28T17:24:55.115617+00:00
 [movies] Saltado noticia no apta para películas: Hace 18 años que fue concursante de 'Gran Hermano', ahora se dedica a rescatar aves: "Les quito los traumas"
 [movies] Saltado noticia no apta para películas: Una pregunta sobre Felipe de Borbón terminó cerrando a Sonsoles Ónega la puerta del canal 24 horas
 [movies] Candidatos encontrados: 24 | Límite: 1
-[YouTube] No se encontró tráiler confiable para El final explicado de 'Obsession' no es el que Curry Barker quería: acabó rodándolo a última hora y como simple descarte
-[movies] Saltado porque no tiene tráiler confiable: El final explicado de 'Obsession' no es el que Curry Barker quería: acabó rodándolo a última hora y como simple descarte
-[YouTube] No se encontró tráiler confiable para Ha creado el éxito de terror del momento, pero su primera película no se la compró nadie: la subió a YouTube y creó un fenómeno viral de apenas 1 hora
-[movies] Saltado porque no tiene tráiler confiable: Ha creado el éxito de terror del momento, pero su primera película no se la compró nadie: la subió a YouTube y creó un fenómeno viral de apenas 1 hora
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
