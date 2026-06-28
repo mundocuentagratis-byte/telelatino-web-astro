@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-27T21:18:42.454901+00:00
+Fecha UTC: 2026-06-28T04:47:50.897914+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
@@ -8,17 +8,31 @@ Fecha UTC: 2026-06-27T21:18:42.454901+00:00
 [movies] Saltado porque no es estreno 2026: "No podía creerlo": la inesperada película que superó en nota a las franquicias más taquilleras de Hollywood (2024)
 [movies] Saltado porque no es estreno 2026: Dos de las mayores estrellas de Hollywood se disputaron este éxito de taquilla de 540 millones: por fin tendrá secuela 13 años después (2012)
 [movies] Saltado porque no es estreno 2026: 72 años de carrera y cuatro Oscar: hoy cumple 96 años la mayor leyenda de la historia de Hollywood (2024)
-[movies] Saltado noticia no apta para películas: "Déjenla en paz. Es perfecta": Tom Hanks no quiere bajo ningún concepto que se haga una nueva versión de esta película clásica
 [movies] Saltado noticia no apta para películas: El histórico presentador del Telediario al que RTVE obligó a jubilarse: "Llevaba 47 años cotizados, pero seguía disfrutando de mi trabajo"
 [movies] Saltado noticia no apta para películas: La audiencia dicta sentencia a 'Amor o lo que surja' con una repetida crítica: "Esto es un sinsentido"
 [movies] Saltado noticia no apta para películas: 'Amor o lo que surja' llegó a Telecinco para revolucionar sus tardes, pero puede convertirse en un problema
 [movies] Saltado noticia no apta para películas: Lo que todos pensamos que es la gran ventaja de 'AlaZ', Javier y David lo ven como "una dificultad añadida" a 'Pasapalabra'
 [movies] Candidatos encontrados: 36 | Límite: 1
-[YouTube] No se encontró tráiler confiable para Chris Pratt tenía miedo de arruinar ‘Guardianes de la Galaxia’, pero James Gunn le dijo que espabilase: “Cada minuto costaba 20.000 dólares”
-[movies] Saltado porque no tiene tráiler confiable: Chris Pratt tenía miedo de arruinar ‘Guardianes de la Galaxia’, pero James Gunn le dijo que espabilase: “Cada minuto costaba 20.000 dólares”
-[IA] Probando proveedor mistral: El adorable reencuentro de 'Toy Story 5' que todos anhelábamos y acabó siendo un
-[IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/la-escena-eliminada-de-toy-story-5-que-hizo-llorar-a-los-fans-2026-06-27-fc5519.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[YouTube] No se encontró tráiler confiable para El agujero de guion de 'Obsession' que está martirizando a su propio director: "No tiene ningún sentido"
+[movies] Saltado porque no tiene tráiler confiable: El agujero de guion de 'Obsession' que está martirizando a su propio director: "No tiene ningún sentido"
+[YouTube] No se encontró tráiler confiable para El hijo de Sylvester Stallone aparece en la saga 'Rocky': "Después de la película, todo cambió. Haríamos cualquier cosa el uno por el otro"
+[movies] Saltado porque no tiene tráiler confiable: El hijo de Sylvester Stallone aparece en la saga 'Rocky': "Después de la película, todo cambió. Haríamos cualquier cosa el uno por el otro"
+[YouTube] No se encontró tráiler confiable para El momento más incomodo en 'El diario de Jorge' hasta la fecha: Jorge Javier Vázquez expulsa a una invitada tras una agresión en directo
+[movies] Saltado porque no tiene tráiler confiable: El momento más incomodo en 'El diario de Jorge' hasta la fecha: Jorge Javier Vázquez expulsa a una invitada tras una agresión en directo
+[YouTube] No se encontró tráiler confiable para Es uno de los presentadores más recordados de 'Megatrix', pero decidió cambiar el rumbo de su carrera: ganó un concurso de nuevos talentos
+[movies] Saltado porque no tiene tráiler confiable: Es uno de los presentadores más recordados de 'Megatrix', pero decidió cambiar el rumbo de su carrera: ganó un concurso de nuevos talentos
+[YouTube] No se encontró tráiler confiable para Este gesto de 'El señor de los anillos' puede parecer táctica histórica, pero fue idea de Bernard Hill en plena grabación
+[movies] Saltado porque no tiene tráiler confiable: Este gesto de 'El señor de los anillos' puede parecer táctica histórica, pero fue idea de Bernard Hill en plena grabación
+[YouTube] No se encontró tráiler confiable para Este tren iba a recorrer más de 1.000 kilómetros hasta la Meca, hasta que llegó Lawrence de Arabia: sus restos aún siguen el desierto
+[movies] Saltado porque no tiene tráiler confiable: Este tren iba a recorrer más de 1.000 kilómetros hasta la Meca, hasta que llegó Lawrence de Arabia: sus restos aún siguen el desierto
+[YouTube] No se encontró tráiler confiable para Hace 18 años que fue concursante de 'Gran Hermano', ahora se dedica a rescatar aves: "Les quito los traumas"
+[movies] Saltado porque no tiene tráiler confiable: Hace 18 años que fue concursante de 'Gran Hermano', ahora se dedica a rescatar aves: "Les quito los traumas"
+[YouTube] No se encontró tráiler confiable para Mercedes Milá: "Se me abren las carnes cuando escucho decir a los jóvenes que con Franco se vivía mejor"
+[movies] Saltado porque no tiene tráiler confiable: Mercedes Milá: "Se me abren las carnes cuando escucho decir a los jóvenes que con Franco se vivía mejor"
+[YouTube] No se encontró tráiler confiable para Una boda celebrada en una antigua plantación del sur de EEUU le abrió los ojos: llega a Filmin uno de los documentales más fascinantes del año
+[movies] Saltado porque no tiene tráiler confiable: Una boda celebrada en una antigua plantación del sur de EEUU le abrió los ojos: llega a Filmin uno de los documentales más fascinantes del año
+[YouTube] No se encontró tráiler confiable para Una pregunta sobre Felipe de Borbón terminó cerrando a Sonsoles Ónega la puerta del canal 24 horas
+[movies] Saltado porque no tiene tráiler confiable: Una pregunta sobre Felipe de Borbón terminó cerrando a Sonsoles Ónega la puerta del canal 24 horas
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
