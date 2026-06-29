@@ -1,33 +1,33 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-29T04:57:25.948462+00:00
+Fecha UTC: 2026-06-29T12:42:44.614133+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
 [movies] Saltado porque no es estreno 2026: Toy Story 5 (None)
-[movies] Saltado noticia no apta para películas: "¿Quién es este tipo?": El humillante debut de Clint Eastwood en el cine donde el director quiso echarlo nada más verle
-[movies] Saltado noticia no apta para películas: "No me pagaron nada": La obra maestra de terror que Christopher Lee rodó gratis y prefería antes que 'El señor de los anillos'
+[movies] Saltado noticia no apta para películas: Solo tres días para el estreno de una de las películas de terror más salvajes del año
+[movies] Saltado porque no es estreno 2026: Fracasó a lo grande, pero una película española ha resucitado a una de las grandes promesas de Hollywood: Suena para los Oscar (2027)
+[movies] Saltado porque no es estreno 2026: Nº1 en 42 países: la película para adultos que en apenas dos días ya es la más vista en Netflix (2024)
+[movies] Saltado noticia no apta para películas: Últimos 2 días para ver en Netflix una de las obras maestras de Martin Scorsese que aún muchos no han descubierto
+[movies] Saltado porque no es estreno 2026: 2025 avisó del fracaso de 'Supergirl': Los superhéroes tienen tres oportunidades más en 2026 para demostrar que no nos hemos cansado de ellos (2025)
+[movies] Saltado porque no es estreno 2026: Hoy en Netflix: La película de aventuras definitiva de la década de los 2000 (2000)
+[movies] Saltado porque no es estreno 2026: Solo tienes 4 días para disfrutar en Netflix de la mejor película de Alan Ritchson que supera a 'Máquina de guerra' y 'Fast & Furious' (2024)
+[movies] Saltado porque no es estreno 2026: El final explicado de 'Obsession' no es el que Curry Barker quería: acabó rodándolo a última hora y como simple descarte (2024)
+[movies] Saltado porque no es estreno 2026: "¿Quién es este tipo?": El humillante debut de Clint Eastwood en el cine donde el director quiso echarlo nada más verle (2024)
+[movies] Saltado porque no es estreno 2026: "No me pagaron nada": La obra maestra de terror que Christopher Lee rodó gratis y prefería antes que 'El señor de los anillos' (2024)
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
-[movies] Saltado porque no es estreno 2026: El eslabón perdido de Disney y Pixar: La película olvidada sin la que 'Toy Story' jamás habría existido (2018)
-[movies] Saltado porque no es estreno 2026: 30 películas después, Steven Spielberg sigue al pie del cañón por John Williams: “Esa es la recompensa” (2016)
-[movies] Saltado noticia no apta para películas: 16 estrenos en Netflix: esta semana, el regreso de una de las sagas más populares de la plataforma y un nuevo contenido interactivo
-[movies] Saltado porque no es estreno 2026: "No podía creerlo": la inesperada película que superó en nota a las franquicias más taquilleras de Hollywood (2024)
-[movies] Saltado noticia no apta para películas: Chris Pratt tenía miedo de arruinar ‘Guardianes de la Galaxia’, pero James Gunn le dijo que espabilase: “Cada minuto costaba 20.000 dólares”
-[movies] Saltado noticia no apta para películas: El hijo de Sylvester Stallone aparece en la saga 'Rocky': "Después de la película, todo cambió. Haríamos cualquier cosa el uno por el otro"
+[movies] Saltado porque no es estreno 2026: El eslabón perdido de Disney y Pixar: La película olvidada sin la que 'Toy Story' jamás habría existido (2024)
 [movies] Saltado porque no es estreno 2026: 72 años de carrera y cuatro Oscar: hoy cumple 96 años la mayor leyenda de la historia de Hollywood (2024)
 [movies] Saltado noticia no apta para películas: El histórico presentador del Telediario al que RTVE obligó a jubilarse: "Llevaba 47 años cotizados, pero seguía disfrutando de mi trabajo"
 [movies] Saltado noticia no apta para películas: La audiencia dicta sentencia a 'Amor o lo que surja' con una repetida crítica: "Esto es un sinsentido"
 [movies] Saltado noticia no apta para películas: 'Amor o lo que surja' llegó a Telecinco para revolucionar sus tardes, pero puede convertirse en un problema
 [movies] Saltado noticia no apta para películas: Lo que todos pensamos que es la gran ventaja de 'AlaZ', Javier y David lo ven como "una dificultad añadida" a 'Pasapalabra'
+[movies] Saltado noticia no apta para películas: Mundial 2026: Estos son los partidos de dieciseisavos que se podrán ver gratis en RTVE
+[movies] Saltado noticia no apta para películas: 'El programa de Ana Rosa' desaparece de la programación de Telecinco: Así quedan las mañanas de verano del canal
 [movies] Saltado noticia no apta para películas: El pueblo de Tenerife en el que quiere jubilarse Vicente Vallés y Ángeles Blanco: "Nos ha hecho tan felices estar allí"
 [movies] Saltado noticia no apta para películas: Hay un concurso de televisión que lleva 42 años en antena y no es 'Saber y ganar'
 [movies] Saltado noticia no apta para películas: Es uno de los presentadores más recordados de 'Megatrix', pero decidió cambiar el rumbo de su carrera: ganó un concurso de nuevos talentos
-[movies] Saltado noticia no apta para películas: Hace 18 años que fue concursante de 'Gran Hermano', ahora se dedica a rescatar aves: "Les quito los traumas"
-[movies] Saltado noticia no apta para películas: Una pregunta sobre Felipe de Borbón terminó cerrando a Sonsoles Ónega la puerta del canal 24 horas
-[movies] Candidatos encontrados: 24 | Límite: 1
-[IA] Probando proveedor gemini: Sentido y sensibilidad
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/sentido-y-sensibilidad-un-clasico-de-jane-austen-en-la-gran-pantalla-2026-06-29-9e0308.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[movies] Candidatos encontrados: 22 | Límite: 1
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
