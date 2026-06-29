@@ -1,11 +1,11 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-29T18:21:00.845723+00:00
+Fecha UTC: 2026-06-29T21:43:38.214530+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
 [movies] Saltado porque no es estreno 2026: Toy Story 5 (None)
-[movies] Saltado noticia no apta para películas: "No sabía que ese desgraciado podría actuar": John Wayne dejó de una pieza a John Ford incluso cuando ya habían trabajado juntos
+[movies] Saltado noticia no apta para películas: "No sabía que ese desgraciado podía actuar": John Wayne dejó de una pieza a John Ford con su papel en esta película
 [movies] Saltado noticia no apta para películas: A sus 63 años, Miki Molina lleva tiempo lejos de los focos: ahora vive en un pueblo de 6 habitantes y se dedica al campo
 [movies] Saltado noticia no apta para películas: Solo tres días para el estreno de una de las películas de terror más salvajes del año
 [movies] Saltado porque no es estreno 2026: Fracasó a lo grande, pero una película española ha resucitado a una de las grandes promesas de Hollywood: Suena para los Oscar (2027)
@@ -28,7 +28,6 @@ Fecha UTC: 2026-06-29T18:21:00.845723+00:00
 [movies] Saltado noticia no apta para películas: El pueblo de Tenerife en el que quiere jubilarse Vicente Vallés y Ángeles Blanco: "Nos ha hecho tan felices estar allí"
 [movies] Saltado noticia no apta para películas: Hay un concurso de televisión que lleva 42 años en antena y no es 'Saber y ganar'
 [movies] Candidatos encontrados: 22 | Límite: 1
-[movies] Saltado por tema bloqueado: La muerte de Robin Hood
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
