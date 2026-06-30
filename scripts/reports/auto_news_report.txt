@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-29T21:43:38.214530+00:00
+Fecha UTC: 2026-06-30T04:22:44.698288+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
@@ -28,6 +28,7 @@ Fecha UTC: 2026-06-29T21:43:38.214530+00:00
 [movies] Saltado noticia no apta para películas: El pueblo de Tenerife en el que quiere jubilarse Vicente Vallés y Ángeles Blanco: "Nos ha hecho tan felices estar allí"
 [movies] Saltado noticia no apta para películas: Hay un concurso de televisión que lleva 42 años en antena y no es 'Saber y ganar'
 [movies] Candidatos encontrados: 22 | Límite: 1
+[movies] Saltado por tema bloqueado: Alpha
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
