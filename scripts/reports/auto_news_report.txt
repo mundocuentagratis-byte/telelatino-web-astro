@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-30T18:09:25.822132+00:00
+Fecha UTC: 2026-06-30T21:45:46.858169+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
