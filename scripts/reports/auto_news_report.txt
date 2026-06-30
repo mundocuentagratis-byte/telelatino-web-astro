@@ -1,19 +1,18 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-06-30T14:41:19.182151+00:00
+Fecha UTC: 2026-06-30T18:09:25.822132+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
 [movies] Saltado porque no es estreno 2026: Toy Story 5 (None)
-[movies] Saltado porque no es estreno 2026: 'La muerte de Robin Hood': Quizás todo lo que sabías sobre el mítico arquero era falso (2010)
-[movies] Saltado porque no es estreno 2026: "El mismísimo boss lo rechazó": el curioso proyecto de Álex de la Iglesia que acabó en un cajón por "culpa" de Steven Spielberg (2010)
+[movies] Saltado noticia no apta para películas: 'La muerte de Robin Hood': Quizás todo lo que sabías sobre el mítico arquero era falso
+[movies] Saltado porque no es estreno 2026: "El mismísimo boss lo rechazó": el curioso proyecto de Álex de la Iglesia que acabó en un cajón por "culpa" de Steven Spielberg (2027)
 [movies] Saltado porque no es estreno 2026: 7 años después, esta exitosa franquicia de 500 millones regresa a los cines, aunque no la veremos hasta final de año (2019)
-[movies] Saltado porque no es estreno 2026: Una película que nos acerca con sensibilidad a la angustia contemporánea: 'Amor apocalipsis' (2010)
-[movies] Saltado porque no es estreno 2026: 'Supergirl' es el segundo peor estreno de DC: La franquicia se prepara para una pérdida de 100 millones de dólares (2010)
-[movies] Saltado noticia no apta para películas: Christopher Nolan ha sido derrotado: Una de las mejores películas de 2023 ha perdido un importante récord de taquilla
+[movies] Saltado noticia no apta para películas: El director que odia la época moderna vuelve con una leyenda de hace 726 años: Así es la película de terror que despide el año
+[movies] Saltado noticia no apta para películas: Una película que nos acerca con sensibilidad a la angustia contemporánea: 'Amor apocalipsis'
+[movies] Saltado porque no es estreno 2026: 'Supergirl' es el segundo peor estreno de DC: La franquicia se prepara para una pérdida de 100 millones de dólares (2025)
+[movies] Saltado porque no es estreno 2026: Christopher Nolan ha sido derrotado: Una de las mejores películas de 2023 ha perdido un importante récord de taquilla (2023)
 [movies] Saltado noticia no apta para películas: 1.500 expertos han llegado a una conclusión: Esta es la película más divertida de todos los tiempos
-[movies] Saltado noticia no apta para películas: 40 estrenos de Netflix en julio de 2026: este mes, el final de una de las historias más queridas y una película española que apunta a éxito
-[movies] Saltado porque no es estreno 2026: "No sabía que ese desgraciado podía actuar": John Wayne dejó de una pieza a John Ford con su papel en esta película (2010)
 [movies] Saltado porque no es estreno 2026: 72 años de carrera y cuatro Oscar: hoy cumple 96 años la mayor leyenda de la historia de Hollywood (2024)
 [movies] Saltado noticia no apta para películas: El histórico presentador del Telediario al que RTVE obligó a jubilarse: "Llevaba 47 años cotizados, pero seguía disfrutando de mi trabajo"
 [movies] Saltado noticia no apta para películas: La audiencia dicta sentencia a 'Amor o lo que surja' con una repetida crítica: "Esto es un sinsentido"
@@ -24,10 +23,7 @@ Fecha UTC: 2026-06-30T14:41:19.182151+00:00
 [movies] Saltado noticia no apta para películas: La audiencia dicta sentencia a 'El verano se mueve': el nuevo programa de Telecinco no cumple con lo esperado
 [movies] Saltado noticia no apta para películas: Luján Argüelles sobre la ausencia de mujeres presentando concursos: "La autoridad la tiene 'un señor' y una mujer 'tiene que ser dulce y mona"
 [movies] Saltado noticia no apta para películas: Mundial 2026: Estos son los partidos de dieciseisavos que se podrán ver gratis en RTVE
-[movies] Saltado noticia no apta para películas: 'El programa de Ana Rosa' desaparece de la programación de Telecinco: Así quedan las mañanas de verano del canal
-[movies] Candidatos encontrados: 23 | Límite: 1
-[YouTube] No se encontró tráiler confiable para El director que odia la época moderna vuelve con una leyenda de hace 726 años: Así es la película de terror que despide el año
-[movies] Saltado porque no tiene tráiler confiable: El director que odia la época moderna vuelve con una leyenda de hace 726 años: Así es la película de terror que despide el año
+[movies] Candidatos encontrados: 20 | Límite: 1
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
