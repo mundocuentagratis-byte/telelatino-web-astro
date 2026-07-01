@@ -1,31 +1,27 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-01T04:51:21.397224+00:00
+Fecha UTC: 2026-07-01T11:33:27.002913+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
 [movies] Saltado porque no es estreno 2026: Toy Story 5 (None)
 [movies] Saltado noticia no apta para películas: 'La muerte de Robin Hood': Quizás todo lo que sabías sobre el mítico arquero era falso
+[movies] Saltado noticia no apta para películas: La forma de rodar de Ridley Scott desbordó a uno de sus actores y quiso abandonar la película tras el primer día de rodaje: "Me asusté mucho"
+[movies] Saltado noticia no apta para películas: "Una ética de trabajo que nunca antes había visto": Hace 5 años, Denzel Washington recomendó a este joven actor para un papel que casi le valió un Oscar
 [movies] Saltado porque no es estreno 2026: "El mismísimo boss lo rechazó": el curioso proyecto de Álex de la Iglesia que acabó en un cajón por "culpa" de Steven Spielberg (2027)
 [movies] Saltado porque no es estreno 2026: 7 años después, esta exitosa franquicia de 500 millones regresa a los cines, aunque no la veremos hasta final de año (2019)
-[movies] Saltado noticia no apta para películas: El director que odia la época moderna vuelve con una leyenda de hace 726 años: Así es la película de terror que despide el año
 [movies] Saltado noticia no apta para películas: Una película que nos acerca con sensibilidad a la angustia contemporánea: 'Amor apocalipsis'
-[movies] Saltado porque no es estreno 2026: 'Supergirl' es el segundo peor estreno de DC: La franquicia se prepara para una pérdida de 100 millones de dólares (2025)
-[movies] Saltado porque no es estreno 2026: Christopher Nolan ha sido derrotado: Una de las mejores películas de 2023 ha perdido un importante récord de taquilla (2023)
-[movies] Saltado noticia no apta para películas: 1.500 expertos han llegado a una conclusión: Esta es la película más divertida de todos los tiempos
 [movies] Saltado porque no es estreno 2026: 72 años de carrera y cuatro Oscar: hoy cumple 96 años la mayor leyenda de la historia de Hollywood (2024)
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado noticia no apta para películas: El histórico presentador del Telediario al que RTVE obligó a jubilarse: "Llevaba 47 años cotizados, pero seguía disfrutando de mi trabajo"
-[movies] Saltado noticia no apta para películas: 'Amor o lo que surja' llegó a Telecinco para revolucionar sus tardes, pero puede convertirse en un problema
 [movies] Saltado noticia no apta para películas: 'El programa de Ana Rosa' desaparece de la programación de Telecinco: Así quedan las mañanas de verano del canal
+[movies] Saltado noticia no apta para películas: 'Amor o lo que surja' llegó a Telecinco para revolucionar sus tardes, pero puede convertirse en un problema
 [movies] Saltado noticia no apta para películas: Es uno de los presentadores más recordados de 'Megatrix', pero decidió cambiar el rumbo de su carrera: ganó un concurso de nuevos talentos
+[movies] Saltado noticia no apta para películas: El acoso que Pablo Motos recibió por denunciar a "unos señores de ultraderecha": "Te van a dar una paliza"
+[movies] Saltado noticia no apta para películas: Quién es Álex Barreiro, el gallego que sustituye a Silvia Intxaurrondo en 'La hora de La 1'
 [movies] Saltado noticia no apta para películas: Dos años después, 'El diario de Jorge' desaparecerá de Telecinco por vacaciones: Este será su último día de emisión
 [movies] Saltado noticia no apta para películas: Quién es Aída Bao, la sustituta de Silvia Intxaurrondo en 'La hora de La 1': "Una voz rigurosa y cercana"
-[movies] Saltado noticia no apta para películas: La audiencia dicta sentencia a 'El verano se mueve': el nuevo programa de Telecinco no cumple con lo esperado
-[movies] Saltado noticia no apta para películas: Luján Argüelles sobre la ausencia de mujeres presentando concursos: "La autoridad la tiene 'un señor' y una mujer 'tiene que ser dulce y mona"
-[movies] Saltado noticia no apta para películas: Mundial 2026: Estos son los partidos de dieciseisavos que se podrán ver gratis en RTVE
-[movies] Candidatos encontrados: 22 | Límite: 1
-[movies] Saltado por tema bloqueado: En el camino
+[movies] Candidatos encontrados: 23 | Límite: 1
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
