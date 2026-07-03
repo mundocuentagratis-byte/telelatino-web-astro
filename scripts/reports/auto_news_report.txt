@@ -1,29 +1,29 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-03T07:34:08.990987+00:00
+Fecha UTC: 2026-07-03T10:48:35.662479+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
 [movies] Saltado porque no es estreno 2026: Toy Story 5 (None)
 [movies] Saltado noticia no apta para películas: 'La muerte de Robin Hood': Quizás todo lo que sabías sobre el mítico arquero era falso
-[movies] Saltado noticia no apta para películas: "Las bases ya están sentadas": Guillermo Del Toro lo tenía todo planeado para continuar su saga, pero su final quedó zanjado hace más de 10 años
-[movies] Saltado noticia no apta para películas: Antonio Banderas (65 años) sobre su peor momento en Hollywood: "Recuerdo pensar: 'Pues me voy a vengar haciendo mucho dinero'"
 [movies] Saltado noticia no apta para películas: Netflix cierra una de sus mayores trilogías de aventuras y misterio: seis años después regresa con una película que ya es número 1
 [movies] Saltado noticia no apta para películas: Ya disponible en Netflix: El fenómeno de aventuras y fantasía que conquistó la taquilla por sorpresa
-[movies] Saltado noticia no apta para películas: Oliver Laxe busca pastores para un rebaño de cabras en su aldea gallega: "El monte no puede convertirse en un museo"
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
-[movies] Saltado porque no es estreno 2026: Tras 'Gladiator 2', llega la siguiente epopeya histórica de Ridley Scott: Una historia original de 143 años con Hugh Jackman que compite con 'Piratas del Caribe' (2000)
+[movies] Saltado porque no es estreno 2026: Hoy en Netflix: La película de aventuras definitiva de la década de los 2000 (2000)
 [movies] Saltado noticia no apta para películas: 'El programa de Ana Rosa' desaparece de la programación de Telecinco: Así quedan las mañanas de verano del canal
 [movies] Saltado noticia no apta para películas: Es uno de los presentadores más recordados de 'Megatrix', pero decidió cambiar el rumbo de su carrera: ganó un concurso de nuevos talentos
+[movies] Saltado noticia no apta para películas: Quién es Álex Barreiro, el gallego que sustituye a Silvia Intxaurrondo en 'La hora de La 1'
 [movies] Saltado noticia no apta para películas: El histórico presentador del Telediario al que RTVE obligó a jubilarse: "Llevaba 47 años cotizados, pero seguía disfrutando de mi trabajo"
-[movies] Saltado noticia no apta para películas: Después de 26 años, Belén Esteban anuncia que "es el momento de hacer un parón" en televisión": Este será su último programa
+[movies] Saltado noticia no apta para películas: España se vuelve a parar por el Mundial 2026: 10.760.000 de espectadores de media vieron el partido contra Austria
+[movies] Saltado noticia no apta para películas: 'Horizonte' se alarga una semana más sin Iker Jiménez y Carmen Porter: Estos serán sus sustitutos
 [movies] Saltado noticia no apta para películas: 50.000 euros por "la he liado parda": La indemnización que debe pagar Atresmedia a la socorrista del vídeo viral
 [movies] Saltado noticia no apta para películas: España - Austria: A qué hora y dónde ver el partido de dieciseisavos de final del Mundial 2026
-[movies] Saltado noticia no apta para películas: El acoso que Pablo Motos recibió por denunciar a "unos señores de ultraderecha": "Te van a dar una paliza"
-[movies] Candidatos encontrados: 26 | Límite: 1
-[IA] Probando proveedor gemini: Ancestral
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/ancestral-un-misterio-de-terror-y-fantasia-llega-al-cine-en-2026-2026-07-03-12589f.md
+[movies] Candidatos encontrados: 29 | Límite: 1
+[IA] Probando proveedor openai: Cosas que no olvidaré
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+[IA] Probando proveedor mistral: Cosas que no olvidaré
+[IA] Artículo generado con mistral
+[OK] Publicado: src/content/blog/cosas-que-no-olvidare-un-drama-familiar-sobre-el-alzheimer-que-llega-en-2026-2026-07-03-1113a5.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
