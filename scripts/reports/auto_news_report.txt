@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-04T17:18:19.973695+00:00
+Fecha UTC: 2026-07-04T21:13:14.747220+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
@@ -27,12 +27,6 @@ Fecha UTC: 2026-07-04T17:18:19.973695+00:00
 [movies] Saltado noticia no apta para películas: Este concurso de los 80 çtenía más audiencia que los partidos del Mundial de fútbol
 [movies] Saltado noticia no apta para películas: Era uno de los reclamos de '¡De lunes a viernes!', pero ha causado baja antes de estrenarse: "La prescripción médica es clara: nada de estrés"
 [movies] Candidatos encontrados: 30 | Límite: 1
-[movies] Saltado por tema bloqueado: Antes de 'La Odisea', Matt Damon aceptó cobrar menos de la mitad de su sueldo para trabajar con Christopher Nolan en 'Oppenheimer'
-[YouTube] No se encontró tráiler confiable para El agujero de guion de 'Supergirl' que destroza su propio origen. Solo con un par de añadidos lo podrían haber solucionado
-[movies] Saltado porque no tiene tráiler confiable: El agujero de guion de 'Supergirl' que destroza su propio origen. Solo con un par de añadidos lo podrían haber solucionado
-[movies] Saltado por tema bloqueado: Hace 56 años debutó con el nombre de Arnold Strong en una de las peores películas de la historia. Ahora es el actor de acción más conocido de la historia del cine. ¿Le reconoces?
-[YouTube] No se encontró tráiler confiable para Necesitó 60 tomas distintas para lograrlo, pero Robin Williams acabó encontrando la frase final perfecta para su clásico más querido
-[movies] Saltado porque no tiene tráiler confiable: Necesitó 60 tomas distintas para lograrlo, pero Robin Williams acabó encontrando la frase final perfecta para su clásico más querido
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
