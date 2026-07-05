@@ -1,20 +1,14 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-05T04:18:06.933140+00:00
+Fecha UTC: 2026-07-05T10:26:56.834804+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
 [movies] Saltado porque no es estreno 2026: Toy Story 5 (None)
-[movies] Saltado noticia no apta para películas: 'La muerte de Robin Hood': Quizás todo lo que sabías sobre el mítico arquero era falso
-[movies] Saltado noticia no apta para películas: "Espero que Dios me perdone": Mark Wahlberg reniega de la obra maestra que lo convirtió en estrella
-[movies] Saltado noticia no apta para películas: Ha estado 23 años delante de nuestros ojos, pero el secreto mejor guardado de 'El señor de los anillos' es la nieve
-[movies] Saltado noticia no apta para películas: Las escenas eliminadas de 'Supergirl' que habrían dado sentido a un personaje desaprovechado en la película
+[movies] Saltado noticia no apta para películas: 11 estrenos en Netflix: esta semana, la nueva versión del clásico rural más lacrimógeno y entrañable de la televisión
 [movies] Saltado noticia no apta para películas: “Me cambió”: Sally Field acogió un perro que nadie más quería y acabó inspirando su último éxito en Netflix
-[movies] Saltado noticia no apta para películas: 148 tomas para una sola escena: el perturbador récord Guinness que llevó al límite a los actores de esta famosa película
+[movies] Saltado noticia no apta para películas: Hace 56 años debutó con el nombre de Arnold Strong en una de las peores películas de la historia. Ahora es el actor de acción más conocido de la historia del cine. ¿Le reconoces?
 [movies] Saltado porque no es estreno 2026: Una de las mayores películas de aventuras de los 2000 se rodó un 80% en exteriores de México (2000)
-[movies] Saltado noticia no apta para películas: José Coronado (68 años): "Estuve 10 años viviendo de noche y estaba absolutamente sobrepasado por la esclavitud de la hostelería"
-[movies] Saltado noticia no apta para películas: Tom Hanks, actor: "La primera vez que dije 'no' fue liberador, aunque también pensé que estaba cometiendo el error de mi vida"
-[movies] Saltado noticia no apta para películas: "Una Star Wars con banda sonora de rock y una Princesa Leia desnuda": cuando George Lucas se lamentó en 1988 de los cambios a los clásicos
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: La película de aventuras definitiva de la década de los 2000 (2000)
 [movies] Saltado noticia no apta para películas: 'El programa de Ana Rosa' desaparece de la programación de Telecinco: Así quedan las mañanas de verano del canal
@@ -24,9 +18,14 @@ Fecha UTC: 2026-07-05T04:18:06.933140+00:00
 [movies] Saltado noticia no apta para películas: Mundial 2026: Estos son los partidos de octavos de final que se podrán ver gratis en RTVE
 [movies] Saltado noticia no apta para películas: El exclusivo pueblo en el que vive Roberto Brasero: está a 30 minutos de Madrid y es uno de los más caros
 [movies] Saltado noticia no apta para películas: Solo hay una gran historia de amor en 'Mujeres, hombres y viceversa', pero terminó tras 9 años de relación: siguen siendo un ejemplo
-[movies] Saltado noticia no apta para películas: Este concurso de los 80 çtenía más audiencia que los partidos del Mundial de fútbol
-[movies] Saltado noticia no apta para películas: Era uno de los reclamos de '¡De lunes a viernes!', pero ha causado baja antes de estrenarse: "La prescripción médica es clara: nada de estrés"
-[movies] Candidatos encontrados: 30 | Límite: 1
+[movies] Saltado noticia no apta para películas: Este concurso de los 80 tenía más audiencia que los partidos del Mundial de fútbol
+[movies] Candidatos encontrados: 35 | Límite: 1
+[movies] Saltado por tema bloqueado: "Espero que Dios me perdone": Mark Wahlberg reniega de la obra maestra que lo convirtió en estrella
+[movies] Saltado por tema bloqueado: 148 tomas para una sola escena: el perturbador récord Guinness que llevó al límite a los actores de esta famosa película
+[movies] Saltado por tema bloqueado: Clint Eastwood recibió una crítica destructiva del guion de 'Sin perdón' y la enmarcó en su oficina: Hizo la película igualmente y ganó el Oscar
+[movies] Saltado por tema bloqueado: Esta leyenda del rock lleva 19 años sin querer saber nada de la banda que le hizo famoso: “Si quieres trabajo, te puedo recomendar”
+[movies] Saltado por tema bloqueado: Ha estado 23 años delante de nuestros ojos, pero el secreto mejor guardado de 'El señor de los anillos' es la nieve
+[movies] Saltado por tema bloqueado: Las escenas eliminadas de 'Supergirl' que habrían dado sentido a un personaje desaprovechado en la película
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
