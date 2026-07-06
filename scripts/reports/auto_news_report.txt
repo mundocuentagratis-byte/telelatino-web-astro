@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-06T18:20:33.745438+00:00
+Fecha UTC: 2026-07-06T21:46:27.198336+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
@@ -22,17 +22,6 @@ Fecha UTC: 2026-07-06T18:20:33.745438+00:00
 [movies] Saltado noticia no apta para películas: El polémico programa de RTVE que ni sus protagonistas entendieron: "La parte de 'reality' es demasiado forzada"
 [movies] Saltado noticia no apta para películas: Mundial 2026: Estos son los partidos de octavos de final que se podrán ver gratis en RTVE
 [movies] Candidatos encontrados: 33 | Límite: 1
-[duplicado] Saltado por tema parecido: "Es un milagro de ternura, de calidez, de entusiasmo por el cine": llega a los cines 'Las corrientes', un drama psicológico sobre traumas ~= Las corrientes: Un drama intenso
-[YouTube] No se encontró tráiler confiable para 30 años después, la secuela de una de las mejores películas de la historia será realidad y apunta a reunir a dos las más grandes estrellas de Hollywood
-[movies] Saltado porque no tiene tráiler confiable: 30 años después, la secuela de una de las mejores películas de la historia será realidad y apunta a reunir a dos las más grandes estrellas de Hollywood
-[YouTube] No se encontró tráiler confiable para Juan Echanove: "Detesto con toda mi alma las hamburguesas que son más grandes que la cabeza de un niño"
-[movies] Saltado porque no tiene tráiler confiable: Juan Echanove: "Detesto con toda mi alma las hamburguesas que son más grandes que la cabeza de un niño"
-[YouTube] No se encontró tráiler confiable para Más de 400 películas en 75 años: es el efecto más usado del cine, pero sigue siendo un misterio
-[movies] Saltado porque no tiene tráiler confiable: Más de 400 películas en 75 años: es el efecto más usado del cine, pero sigue siendo un misterio
-[YouTube] No se encontró tráiler confiable para Se conocieron a finales de 1940 en la universidad: 75 años después son la pareja activa más longeva de Hollywood
-[movies] Saltado porque no tiene tráiler confiable: Se conocieron a finales de 1940 en la universidad: 75 años después son la pareja activa más longeva de Hollywood
-[YouTube] No se encontró tráiler confiable para Tom Hanks, actor: "Algunas personas dicen 'Casablanca' o 'Ciudadano Kane'. Yo digo que esta es la mejor película jamás hecha"
-[movies] Saltado porque no tiene tráiler confiable: Tom Hanks, actor: "Algunas personas dicen 'Casablanca' o 'Ciudadano Kane'. Yo digo que esta es la mejor película jamás hecha"
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
