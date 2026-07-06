@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-05T21:17:40.095769+00:00
+Fecha UTC: 2026-07-06T04:37:01.649729+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
@@ -20,16 +20,22 @@ Fecha UTC: 2026-07-05T21:17:40.095769+00:00
 [movies] Saltado noticia no apta para películas: "Espero que Dios me perdone": Mark Wahlberg reniega de la obra maestra que lo convirtió en estrella
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: La película de aventuras definitiva de la década de los 2000 (2000)
+[movies] Saltado porque no es estreno 2026: Tras 'Gladiator 2', llega la siguiente epopeya histórica de Ridley Scott: Una historia original de 143 años con Hugh Jackman que compite con 'Piratas del Caribe' (2000)
 [movies] Saltado noticia no apta para películas: 'El programa de Ana Rosa' desaparece de la programación de Telecinco: Así quedan las mañanas de verano del canal
-[movies] Saltado noticia no apta para películas: Es uno de los presentadores más recordados de 'Megatrix', pero decidió cambiar el rumbo de su carrera: ganó un concurso de nuevos talentos
 [movies] Saltado noticia no apta para películas: Quién es Álex Barreiro, el gallego que sustituye a Silvia Intxaurrondo en 'La hora de La 1'
 [movies] Saltado noticia no apta para películas: Después de 26 años, Belén Esteban anuncia que "es el momento de hacer un parón" en televisión": Este será su último programa
+[movies] Saltado noticia no apta para películas: Es uno de los presentadores más recordados de 'Megatrix', pero decidió cambiar el rumbo de su carrera: ganó un concurso de nuevos talentos
 [movies] Saltado noticia no apta para películas: El polémico programa de RTVE que ni sus protagonistas entendieron: "La parte de 'reality' es demasiado forzada"
 [movies] Saltado noticia no apta para películas: Mundial 2026: Estos son los partidos de octavos de final que se podrán ver gratis en RTVE
 [movies] Saltado noticia no apta para películas: El exclusivo pueblo en el que vive Roberto Brasero: está a 30 minutos de Madrid y es uno de los más caros
 [movies] Saltado noticia no apta para películas: Solo hay una gran historia de amor en 'Mujeres, hombres y viceversa', pero terminó tras 9 años de relación: siguen siendo un ejemplo
 [movies] Saltado noticia no apta para películas: Este concurso de los 80 tenía más audiencia que los partidos del Mundial de fútbol
-[movies] Candidatos encontrados: 26 | Límite: 1
-[movies] Publicados: 0
-Total películas publicadas: 0
+[movies] Candidatos encontrados: 25 | Límite: 1
+[IA] Probando proveedor cohere: El convento
+[IA] cohere falló (error): Cohere error 404: {"id":"7010a70d-f1d2-4360-aed7-3abdecf6b853","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: El convento
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/el-convento-cuando-la-devocion-se-convierte-en-pesadilla-2026-07-06-3f78fa.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
