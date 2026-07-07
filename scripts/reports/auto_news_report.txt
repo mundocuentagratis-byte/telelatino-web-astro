@@ -1,16 +1,14 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-07T18:16:35.389854+00:00
+Fecha UTC: 2026-07-07T21:39:52.682817+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
 [movies] Saltado porque no es estreno 2026: Toy Story 5 (None)
-[movies] Saltado noticia no apta para películas: Todas las películas de Star Wars que veremos en los próximos años
+[movies] Saltado noticia no apta para películas: Michael Fulton, experto en guerra, en contra de esta escena de 'El señor de los anillos': "estas eran armas importantes, pero ni de lejos tan emocionantes como a Hollywood le encanta hacerlas parecer"
+[movies] Saltado noticia no apta para películas: San Diego Comic-Con Málaga vuelve este 2026 con “más de 300 horas de contenido”, nuevo recinto y recompensas para los más fans
 [movies] Saltado porque no es estreno 2026: "Una épica triunfal y espectacular": Es una de las películas del año y sus primeras reacciones la describen como "un logro asombroso" (2023)
-[movies] Saltado noticia no apta para películas: Una enorme franquicia de 5.000 millones de dólares regresa a los cines, pero no de la mejor forma posible
 [movies] Saltado noticia no apta para películas: Juan Echanove: "Detesto con toda mi alma las hamburguesas que son más grandes que la cabeza de un niño"
-[movies] Saltado noticia no apta para películas: "Es un milagro de ternura, de calidez, de entusiasmo por el cine": llega a los cines 'Las corrientes', un drama psicológico sobre traumas
-[movies] Saltado noticia no apta para películas: Se conocieron a finales de 1940 en la universidad: 75 años después son la pareja activa más longeva de Hollywood
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: La película de aventuras definitiva de la década de los 2000 (2000)
 [movies] Saltado porque no es estreno 2026: Tras 'Gladiator 2', llega la siguiente epopeya histórica de Ridley Scott: Una historia original de 143 años con Hugh Jackman que compite con 'Piratas del Caribe' (2000)
@@ -24,9 +22,12 @@ Fecha UTC: 2026-07-07T18:16:35.389854+00:00
 [movies] Saltado noticia no apta para películas: Creo que 'De lunes a viernes' puede mejorar las tardes de Telecinco: solo necesita recuperar un poco del espíritu de 'Sálvame'
 [movies] Saltado noticia no apta para películas: Ganó 168.000 euros en su primer día en 'Pasapalabra', ahora cree que la dinámica es "muy cansina": "No es un concurso, es una exhibición"
 [movies] Saltado noticia no apta para películas: España - Portugal: A qué hora y dónde ver el partido de octavos de final del Mundial 2026
-[movies] Candidatos encontrados: 32 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "Sé que nunca volveré a trabajar con él": Bruce Willis criticó duramente a uno de los directores más exitosos de todos los tiempos
-[movies] Saltado porque no tiene tráiler confiable: "Sé que nunca volveré a trabajar con él": Bruce Willis criticó duramente a uno de los directores más exitosos de todos los tiempos
-[movies] Publicados: 0
-Total películas publicadas: 0
+[movies] Candidatos encontrados: 34 | Límite: 1
+[IA] Probando proveedor openai: Todas las películas de Star Wars que veremos en los próximos años
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+[IA] Probando proveedor mistral: Todas las películas de Star Wars que veremos en los próximos años
+[IA] Artículo generado con mistral
+[OK] Publicado: src/content/blog/las-peliculas-de-star-wars-que-llegaran-en-los-proximos-anos-2026-07-07-cfcef7.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
