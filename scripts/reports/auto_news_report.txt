@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-08T17:50:34.985958+00:00
+Fecha UTC: 2026-07-08T21:21:59.872036+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
@@ -27,7 +27,7 @@ Fecha UTC: 2026-07-08T17:50:34.985958+00:00
 [movies] Saltado noticia no apta para películas: Muchos lo dudamos al principio, pero el nuevo rosco de 'Pasapalabra' está empezando a ser parte de la cultura popular
 [movies] Saltado noticia no apta para películas: Telecinco cae a un nuevo mínimo histórico diario, pero tiene una inesperada alegría: el 'Sálvame' de Temu
 [movies] Saltado noticia no apta para películas: El Mundial 2026 no tiene techo en RTVE: Casi 11 millones de espectadores de media sufrieron con el España - Portugal
-[movies] Candidatos encontrados: 28 | Límite: 1
+[movies] Candidatos encontrados: 27 | Límite: 1
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
