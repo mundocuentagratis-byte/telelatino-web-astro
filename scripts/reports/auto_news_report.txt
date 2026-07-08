@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-08T03:40:06.900459+00:00
+Fecha UTC: 2026-07-08T06:37:33.623438+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
@@ -23,6 +23,11 @@ Fecha UTC: 2026-07-08T03:40:06.900459+00:00
 [movies] Saltado noticia no apta para películas: Ganó 168.000 euros en su primer día en 'Pasapalabra', ahora cree que la dinámica es "muy cansina": "No es un concurso, es una exhibición"
 [movies] Saltado noticia no apta para películas: España - Portugal: A qué hora y dónde ver el partido de octavos de final del Mundial 2026
 [movies] Candidatos encontrados: 35 | Límite: 1
-[movies] Publicados: 0
-Total películas publicadas: 0
+[IA] Probando proveedor openai: La boca del diablo
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+[IA] Probando proveedor mistral: La boca del diablo
+[IA] Artículo generado con mistral
+[OK] Publicado: src/content/blog/la-boca-del-diablo-terror-en-las-profundidades-del-cine-2026-07-08-4a5e9c.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
