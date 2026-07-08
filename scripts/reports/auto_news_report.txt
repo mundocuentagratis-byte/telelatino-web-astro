@@ -1,14 +1,18 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-08T14:37:29.562628+00:00
+Fecha UTC: 2026-07-08T17:50:34.985958+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
 [movies] Saltado porque no es estreno 2026: Toy Story 5 (None)
-[movies] Saltado noticia no apta para películas: Ninguna de las películas de este director baja del 85% de puntuación: comienza la cuenta atrás para su nueva y visceral película
+[movies] Saltado noticia no apta para películas: La casa de construcción modular que Quim Gutiérrez se hizo en el campo: "Es una casa de vacaciones en la que vives todos los días"
+[movies] Saltado noticia no apta para películas: El chiste de los 'remakes' de acción real ha dejado de tener gracia: 'Vaiana', un calco impecable e innecesario
+[movies] Saltado noticia no apta para películas: Te invitamos al preestreno de 'El sueño americano', la película sobre dos amigos que sueñan con llegar a la élite de la NBA
+[movies] Saltado porque no es estreno 2026: Ninguna de las películas de este director baja del 85% de puntuación: comienza la cuenta atrás para su nueva y visceral película (2015)
 [movies] Saltado noticia no apta para películas: Dwayne Johnson no consiguió el Oscar en 2026 así que lo intentará de nuevo con la productora de Ben Affleck y Matt Damon
 [movies] Saltado porque no es estreno 2026: Naveed Jamali, experto y exagente del FBI, aplaude esta olvidada película de 2001: "una proporción de 1:1 con lo que es trabajar para el FBI" (2001)
 [movies] Saltado noticia no apta para películas: "No me podéis obligar": Tom Hanks se plantó ante Hollywood para evitar la secuela de su mejor película
+[movies] Saltado noticia no apta para películas: "La actriz más insoportable con la que he trabajado": Anthony Hopkins tuvo un fuerte enfrentamiento con este icono de Hollywood
 [movies] Saltado noticia no apta para películas: Todas las películas de Star Wars que veremos en los próximos años
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: La película de aventuras definitiva de la década de los 2000 (2000)
@@ -17,15 +21,13 @@ Fecha UTC: 2026-07-08T14:37:29.562628+00:00
 [movies] Saltado noticia no apta para películas: Era uno de los reclamos de '¡De lunes a viernes!', pero ha causado baja antes de estrenarse: "La prescripción médica es clara: nada de estrés"
 [movies] Saltado noticia no apta para películas: 'El programa de Ana Rosa' desaparece de la programación de Telecinco: Así quedan las mañanas de verano del canal
 [movies] Saltado noticia no apta para películas: Después de 26 años, Belén Esteban anuncia que "es el momento de hacer un parón" en televisión": Este será su último programa
+[movies] Saltado noticia no apta para películas: 'La Revuelta' cambia de ubicación: Así es el Teatro Albéniz, el emblemático edificio del centro de Madrid que casi es derruido
 [movies] Saltado noticia no apta para películas: Jon Sistiaga revela en 'La Revuelta' que Telecinco no le "pagó" tras su secuestro en la guerra de Kosovo: "¿Esto se cobra como horas extra?"
 [movies] Saltado noticia no apta para películas: Marta Nebot sorprende al anunciar que ha sido despedida de 'En boca de todos', programa de Nacho Abad: "Se ve que no era tan de todos"
 [movies] Saltado noticia no apta para películas: Muchos lo dudamos al principio, pero el nuevo rosco de 'Pasapalabra' está empezando a ser parte de la cultura popular
 [movies] Saltado noticia no apta para películas: Telecinco cae a un nuevo mínimo histórico diario, pero tiene una inesperada alegría: el 'Sálvame' de Temu
 [movies] Saltado noticia no apta para películas: El Mundial 2026 no tiene techo en RTVE: Casi 11 millones de espectadores de media sufrieron con el España - Portugal
-[movies] Saltado noticia no apta para películas: Creo que 'De lunes a viernes' puede mejorar las tardes de Telecinco: solo necesita recuperar un poco del espíritu de 'Sálvame'
-[movies] Candidatos encontrados: 32 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "La actriz más insoportable con la que he trabajado": Anthony Hopkins tuvo un fuerte enfrentamiento con este icono de Hollywood
-[movies] Saltado porque no tiene tráiler confiable: "La actriz más insoportable con la que he trabajado": Anthony Hopkins tuvo un fuerte enfrentamiento con este icono de Hollywood
+[movies] Candidatos encontrados: 28 | Límite: 1
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
