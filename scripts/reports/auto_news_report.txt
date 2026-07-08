@@ -1,12 +1,16 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-08T06:37:33.623438+00:00
+Fecha UTC: 2026-07-08T10:30:35.923482+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
 [movies] Saltado porque no es estreno 2026: Toy Story 5 (None)
+[movies] Saltado noticia no apta para películas: "La actriz más insoportable con la que he trabajado": Anthony Hopkins tuvo un fuerte enfrentamiento con este icono de Hollywood
+[movies] Saltado noticia no apta para películas: Todas las películas de Star Wars que veremos en los próximos años
+[movies] Saltado noticia no apta para películas: "Sé que nunca volveré a trabajar con él": Bruce Willis criticó duramente a uno de los directores más exitosos de todos los tiempos
 [movies] Saltado noticia no apta para películas: Michael Fulton, experto en guerra, en contra de esta escena de 'El señor de los anillos': "estas eran armas importantes, pero ni de lejos tan emocionantes como a Hollywood le encanta hacerlas parecer"
 [movies] Saltado noticia no apta para películas: San Diego Comic-Con Málaga vuelve este 2026 con “más de 300 horas de contenido”, nuevo recinto y recompensas para los más fans
+[movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado porque no es estreno 2026: "Una épica triunfal y espectacular": Es una de las películas del año y sus primeras reacciones la describen como "un logro asombroso" (2023)
 [movies] Saltado noticia no apta para películas: Juan Echanove: "Detesto con toda mi alma las hamburguesas que son más grandes que la cabeza de un niño"
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
@@ -16,18 +20,13 @@ Fecha UTC: 2026-07-08T06:37:33.623438+00:00
 [movies] Saltado noticia no apta para películas: Era uno de los reclamos de '¡De lunes a viernes!', pero ha causado baja antes de estrenarse: "La prescripción médica es clara: nada de estrés"
 [movies] Saltado noticia no apta para películas: 'El programa de Ana Rosa' desaparece de la programación de Telecinco: Así quedan las mañanas de verano del canal
 [movies] Saltado noticia no apta para películas: Después de 26 años, Belén Esteban anuncia que "es el momento de hacer un parón" en televisión": Este será su último programa
+[movies] Saltado noticia no apta para películas: Marta Nebot sorprende al anunciar que ha sido despedida de 'En boca de todos', programa de Nacho Abad: "Se ve que no era tan de todos"
 [movies] Saltado noticia no apta para películas: Muchos lo dudamos al principio, pero el nuevo rosco de 'Pasapalabra' está empezando a ser parte de la cultura popular
 [movies] Saltado noticia no apta para películas: Telecinco cae a un nuevo mínimo histórico diario, pero tiene una inesperada alegría: el 'Sálvame' de Temu
 [movies] Saltado noticia no apta para películas: El Mundial 2026 no tiene techo en RTVE: Casi 11 millones de espectadores de media sufrieron con el España - Portugal
 [movies] Saltado noticia no apta para películas: Creo que 'De lunes a viernes' puede mejorar las tardes de Telecinco: solo necesita recuperar un poco del espíritu de 'Sálvame'
 [movies] Saltado noticia no apta para películas: Ganó 168.000 euros en su primer día en 'Pasapalabra', ahora cree que la dinámica es "muy cansina": "No es un concurso, es una exhibición"
-[movies] Saltado noticia no apta para películas: España - Portugal: A qué hora y dónde ver el partido de octavos de final del Mundial 2026
-[movies] Candidatos encontrados: 35 | Límite: 1
-[IA] Probando proveedor openai: La boca del diablo
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
-[IA] Probando proveedor mistral: La boca del diablo
-[IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/la-boca-del-diablo-terror-en-las-profundidades-del-cine-2026-07-08-4a5e9c.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[movies] Candidatos encontrados: 29 | Límite: 1
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
