@@ -1,31 +1,32 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-13T07:35:03.945818+00:00
+Fecha UTC: 2026-07-13T11:27:34.820969+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
 [movies] Saltado porque no es estreno 2026: Toy Story 5 (None)
 [movies] Saltado noticia no apta para películas: Prepárate: el 17 de julio llega a los cines 'La Odisea' de Christopher Nolan
+[movies] Saltado porque no es estreno 2026: Protagonizada por Margot Robbie y Christian Bale, pero una de las peores películas de esta década: un fracaso con pérdidas de más de 100 millones (2022)
+[movies] Saltado noticia no apta para películas: Hemos pasado de crear un monstruo legendario usando solo dos notas musicales a las bandas sonoras completamente olvidables
+[movies] Saltado porque no es estreno 2026: 'Vaiana' es oficialmente uno de los remakes de acción real más flojos de Disney: solo uno funcionó peor en su estreno (2016)
+[movies] Saltado noticia no apta para películas: En Suecia, Sam Neill no es Alan Grant de 'Jurassic Park': es el protagonista de la película que ven cada Año Nuevo desde hace 40 años
+[movies] Saltado noticia no apta para películas: "Cambió mi relación con la incomodidad": 'La Odisea' fue una experiencia tan intensa que ha transformado a Matt Damon para siempre como actor
+[movies] Saltado noticia no apta para películas: Sam Neill, mítico actor de 'Jurassic Park', ha muerto a los 78 años
+[movies] Saltado noticia no apta para películas: Nadie quería proyectar 'Star Wars' hasta que Fox amenazó a los cines con no proyectar su siguiente película de prestigio (que nadie fue a ver)
 [movies] Saltado porque no es estreno 2026: "No me llevé nada": una de las grandes estrellas de 'El Señor de los Anillos' cobró una miseria, pero aceptaría rebajarlo a la mitad (2000)
 [movies] Saltado porque no es estreno 2026: Cómo el Batman de Christopher Nolan cambió el destino de Superman mucho antes de Henry Cavill y David Corenswet (2006)
 [movies] Saltado noticia no apta para películas: “Haz lo que te de la gana”: Will Smith se enfrentó con el director de su primer gran éxito por una línea de diálogo
-[movies] Saltado noticia no apta para películas: Últimos 2 días para ver en Netflix una de las películas de ciencia ficción más caras y ambiciosas de todos los tiempos
-[movies] Saltado noticia no apta para películas: 17 estrenos en Netflix: esta semana, el final de una de las historias más reconfortantes de la historia de la plataforma
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado noticia no apta para películas: Muchos lo dudamos al principio, pero el nuevo rosco de 'Pasapalabra' está empezando a ser parte de la cultura popular
 [movies] Saltado noticia no apta para películas: Ganó 168.000 euros en su primer día en 'Pasapalabra', ahora cree que la dinámica es "muy cansina": "No es un concurso, es una exhibición"
+[movies] Saltado noticia no apta para películas: Este bar rockero de Pinto fue el primero que visitó Alberto Chicote en 'Pesadilla en la cocina': cerró solo cuatro años después
 [movies] Saltado noticia no apta para películas: 'La Revuelta' cambia de ubicación: Así es el Teatro Albéniz, el emblemático edificio del centro de Madrid que casi es derruido
-[movies] Saltado noticia no apta para películas: 'El Hormiguero' es traicionado por uno de sus invitados estrella: Este es el primer invitado de 'El perro andaluz' en RTVE
+[movies] Saltado noticia no apta para películas: Quién es Gorka Rodríguez, el primer hombre que acompaña a Ramón García presentando el 'Grand Prix'
 [movies] Saltado porque no es estreno 2026: 'Pasapalabra' enfadó a 4,8 millones de españoles en 2021 en una estrategia de marketing que aún hoy se recuerda (2021)
 [movies] Saltado noticia no apta para películas: Jaime Cantizano se alejó de la televisión porque "estaba al límite", ahora vive más tranquilo en su espectacular casa a las afueras de Madrid
 [movies] Saltado noticia no apta para películas: El ganador de 'Gran Hermano' que no rentabilizó su fama y volvió a su profesión de taxista: casi denuncia a la productora del 'reality'
-[movies] Saltado noticia no apta para películas: Le llaman "la tele de Pedro Sánchez", pero el nuevo canal de TDT podría ser un problema para Cuatro y laSexta
-[movies] Candidatos encontrados: 30 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "Cambió mi relación con la incomodidad": 'La Odisea' fue una experiencia tan intensa que ha transformado a Matt Damon para siempre como actor
-[movies] Saltado porque no tiene tráiler confiable: "Cambió mi relación con la incomodidad": 'La Odisea' fue una experiencia tan intensa que ha transformado a Matt Damon para siempre como actor
-[YouTube] No se encontró tráiler confiable para Sam Neill, mítico actor de 'Jurassic Park', ha muerto a los 78 años
-[movies] Saltado porque no tiene tráiler confiable: Sam Neill, mítico actor de 'Jurassic Park', ha muerto a los 78 años
+[movies] Candidatos encontrados: 27 | Límite: 1
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
