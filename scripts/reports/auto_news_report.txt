@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-15T21:13:04.451222+00:00
+Fecha UTC: 2026-07-16T03:32:36.741251+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
@@ -28,10 +28,9 @@ Fecha UTC: 2026-07-15T21:13:04.451222+00:00
 [movies] Saltado noticia no apta para películas: Tras su abrupta salida, Marta Gómez Montero no solo volvió a 'Malas lenguas' este lunes: El programa de Telemadrid por el que ha fichado
 [movies] Saltado porque no es estreno 2026: Gorka Rodríguez, copresentador del 'Grand Prix': "'El cazador stars' me sirvió para darme cuenta de cómo es la televisión de verdad" (2023)
 [movies] Candidatos encontrados: 26 | Límite: 1
-[YouTube] No se encontró tráiler confiable para Morgan Freeman: "En este negocio, la palabra 'no' es mágica. De alguna manera, el 'no' hace que te deseen más".
-[movies] Saltado porque no tiene tráiler confiable: Morgan Freeman: "En este negocio, la palabra 'no' es mágica. De alguna manera, el 'no' hace que te deseen más".
-[YouTube] No se encontró tráiler confiable para Si quieres dejar de subir y bajar el volumen mientras ves una película, ten en cuenta esto
-[movies] Saltado porque no tiene tráiler confiable: Si quieres dejar de subir y bajar el volumen mientras ves una película, ten en cuenta esto
-[movies] Publicados: 0
-Total películas publicadas: 0
+[IA] Probando proveedor gemini: Digger
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/digger-inarritu-tom-cruise-y-la-odisea-de-un-heroe-2026-07-16-356862.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
