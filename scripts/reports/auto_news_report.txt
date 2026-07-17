@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-17T03:32:59.698264+00:00
+Fecha UTC: 2026-07-17T06:26:04.072983+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
@@ -13,17 +13,18 @@ Fecha UTC: 2026-07-17T03:32:59.698264+00:00
 [movies] Saltado porque no es estreno 2026: "Dios mío. Esta película va a ser una mierda": Gerard Butler estaba convencido de que esta epopeya iba a ser un fracaso, pero se equivocó a medias (2007)
 [movies] Saltado noticia no apta para películas: Christopher Nolan se supera con 'La Odisea': acaba de conseguir la puntuación más alta de toda su carrera
 [movies] Saltado porque no es estreno 2026: Después de 'El señor de los anillos', Peter Jackson trabaja en la saga de este personaje con casi 100 años que empezó con Spielberg (2011)
+[movies] Saltado noticia no apta para películas: El representante de Sam Neill aclara la causa de su repentino fallecimiento tras vencer al cáncer
+[movies] Saltado noticia no apta para películas: Anne Hathaway, protagonista de 'La Odisea': "Si Penélope y Ulises vivieran en la actualidad, serían de esas parejas que van en moto juntas"
 [movies] Saltado noticia no apta para películas: "No tengo absolutamente nada que ver": Sylvester Stallone está tan sorprendido como tú de que haya una nueva película sobre 'Rocky'
-[movies] Saltado noticia no apta para películas: Morgan Freeman: "En este negocio, la palabra 'no' es mágica. De alguna manera, el 'no' hace que te deseen más".
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado noticia no apta para películas: Muchos lo dudamos al principio, pero el nuevo rosco de 'Pasapalabra' está empezando a ser parte de la cultura popular
 [movies] Saltado noticia no apta para películas: 13 años después, Josep Pedrerol abandona Atresmedia y ya tiene nuevo destino: "Entenderéis que por respeto no digamos dónde estaremos"
 [movies] Saltado noticia no apta para películas: Este bar rockero de Pinto fue el primero que visitó Alberto Chicote en 'Pesadilla en la cocina': cerró solo cuatro años después
-[movies] Candidatos encontrados: 28 | Límite: 1
-[IA] Probando proveedor gemini: Ahora los suegros son ellos
+[movies] Candidatos encontrados: 26 | Límite: 1
+[IA] Probando proveedor gemini: Apuntes para una ficción consentida
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/ahora-los-suegros-son-ellos-la-nueva-generacion-de-enredos-familiares-2026-07-17-e33a92.md
+[OK] Publicado: src/content/blog/apuntes-para-una-ficcion-consentida-un-drama-unico-que-llega-a-cines-2026-07-17-c5daac.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
