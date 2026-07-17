@@ -1,9 +1,9 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-16T21:14:16.861726+00:00
+Fecha UTC: 2026-07-17T03:32:59.698264+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
-[movies] Saltado porque no es estreno 2026: La Odisea (None)
+[movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado porque no es estreno 2026: Toy Story 5 (None)
 [movies] Saltado noticia no apta para películas: Prepárate: el 17 de julio llega a los cines 'La Odisea' de Christopher Nolan
 [movies] Saltado porque no es estreno 2026: El desnudo que atormentó a Burt Reynolds durante toda su carrera y le arrebató el Oscar: "Fue un fiasco total" (2018)
@@ -20,8 +20,10 @@ Fecha UTC: 2026-07-16T21:14:16.861726+00:00
 [movies] Saltado noticia no apta para películas: Muchos lo dudamos al principio, pero el nuevo rosco de 'Pasapalabra' está empezando a ser parte de la cultura popular
 [movies] Saltado noticia no apta para películas: 13 años después, Josep Pedrerol abandona Atresmedia y ya tiene nuevo destino: "Entenderéis que por respeto no digamos dónde estaremos"
 [movies] Saltado noticia no apta para películas: Este bar rockero de Pinto fue el primero que visitó Alberto Chicote en 'Pesadilla en la cocina': cerró solo cuatro años después
-[movies] Saltado noticia no apta para películas: Quién es Marc Mendoza, el 'Supermagnífico' que ha regresado a 'Saber y ganar': es su última oportunidad para entrar en el club de los 100
-[movies] Candidatos encontrados: 30 | Límite: 1
-[movies] Publicados: 0
-Total películas publicadas: 0
+[movies] Candidatos encontrados: 28 | Límite: 1
+[IA] Probando proveedor gemini: Ahora los suegros son ellos
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/ahora-los-suegros-son-ellos-la-nueva-generacion-de-enredos-familiares-2026-07-17-e33a92.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
