@@ -1,31 +1,32 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-18T09:43:45.562605+00:00
+Fecha UTC: 2026-07-18T13:45:03.566838+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado porque no es estreno 2026: Vaiana (None)
+[movies] Saltado noticia no apta para películas: Prepárate: el 17 de julio llega a los cines 'La Odisea' de Christopher Nolan
 [movies] Saltado noticia no apta para películas: Me puse esta desconocida película sin saber mucho de ella y acabé encantado: sólo dura hora y media y está en Disney+
-[movies] Saltado noticia no apta para películas: Para más de 6.000 usuarios, esta es la mejor película de aventuras que existe, y no es la que te esperas
-[movies] Saltado noticia no apta para películas: Quentin Tarantino solo tiene una secuela en su filmografía: "No tuve las pelotas de hacer una película de 4 horas"
-[movies] Saltado noticia no apta para películas: "Le daba mis pagas diarias para que pudiera alimentarse": Pedro Pascal sobrevivió en Nueva York gracias a Sarah Paulson cuando no era una estrella
-[movies] Saltado noticia no apta para películas: Ningún cine en España proyecta 'La Odisea' tal y como la ha concebido Christopher Nolan
+[movies] Saltado noticia no apta para películas: Es, sencillamente, una de las mejores películas españolas de la historia: una obra cumbre de nuestro cine que traspasa fronteras
+[movies] Saltado noticia no apta para películas: "Probablemente sea mejor olvidarla": Arnold Schwarzenegger solo ha dirigido una película, pero fue un auténtico fracaso
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado noticia no apta para películas: Muchos lo dudamos al principio, pero el nuevo rosco de 'Pasapalabra' está empezando a ser parte de la cultura popular
 [movies] Saltado noticia no apta para películas: 13 años después, Josep Pedrerol abandona Atresmedia y ya tiene nuevo destino: "Entenderéis que por respeto no digamos dónde estaremos"
 [movies] Saltado noticia no apta para películas: Este bar rockero de Pinto fue el primero que visitó Alberto Chicote en 'Pesadilla en la cocina': cerró solo cuatro años después
 [movies] Saltado noticia no apta para películas: Quién es Marc Mendoza, el 'Supermagnífico' que ha regresado a 'Saber y ganar': es su última oportunidad para entrar en el club de los 100
+[movies] Saltado noticia no apta para películas: Todo el mundo recuerda este 'reality', pero solo tuvo una edición: llegó a ser el infierno de Telecinco a pesar de su éxito
 [movies] Saltado noticia no apta para películas: El pueblo de Cádiz en el que Ana Rosa Quintana se refugia en verano: se compró una casa en una de las urbanizaciones más lujosas de Europa
 [movies] Saltado noticia no apta para películas: Ganó 320.000€ en '¡Boom!' y lo primero que hizo fue comprar el libro más raro del mundo
 [movies] Saltado noticia no apta para películas: Acaba de lograr un hito en 'Pasapalabra', pero el "único sueño" de Javier Alonso no es ganar el bote: "Es algo imposible de conseguir"
 [movies] Saltado noticia no apta para películas: Hoy en TV: La desconocida historia del coronel republicano que fue presidente del Real Madrid, pero el club no reconoce
 [movies] Saltado noticia no apta para películas: 'Saber y ganar' rompe sus propias reglas ante un nuevo abandono: ¿Por qué puede volver a concursar Marc Mendoza?
-[movies] Saltado noticia no apta para películas: Hace dos años, el autor de la canción viral de Cucurella participó en 'First Dates': ahora lleva tatuado su nombre y espera conocerle
-[movies] Candidatos encontrados: 27 | Límite: 1
-[IA] Probando proveedor groq: "Probablemente sea mejor olvidarla": Arnold Schwarzenegger solo ha dirigido una 
-[IA] Artículo generado con groq
-[OK] Publicado: src/content/blog/arnold-schwarzenegger-su-fracaso-como-director-2026-07-18-9ff2f5.md
+[movies] Candidatos encontrados: 28 | Límite: 1
+[IA] Probando proveedor openai: 'La odisea' de Nolan es un 'zas en toda la boca' de 250 millones de dólares a lo
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+[IA] Probando proveedor mistral: 'La odisea' de Nolan es un 'zas en toda la boca' de 250 millones de dólares a lo
+[IA] Artículo generado con mistral
+[OK] Publicado: src/content/blog/la-odisea-de-nolan-el-polemico-estreno-que-desafia-a-los-puristas-del-cine-2026-07-18-455ea6.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
