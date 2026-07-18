@@ -1,14 +1,12 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-18T03:27:10.556892+00:00
+Fecha UTC: 2026-07-18T06:16:03.958532+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado porque no es estreno 2026: Vaiana (None)
 [movies] Saltado noticia no apta para películas: Prepárate: el 17 de julio llega a los cines 'La Odisea' de Christopher Nolan
-[movies] Saltado noticia no apta para películas: 'La odisea' de Nolan es un 'zas en toda la boca' de 250 millones de dólares a los 'film-bros'
 [movies] Saltado noticia no apta para películas: Es, sencillamente, una de las mejores películas españolas de la historia: una obra cumbre de nuestro cine que traspasa fronteras
-[movies] Saltado noticia no apta para películas: "Probablemente sea mejor olvidarla": Arnold Schwarzenegger solo ha dirigido una película, pero fue un auténtico fracaso
 [movies] Saltado noticia no apta para películas: Ningún cine en España proyecta 'La Odisea' tal y como la ha concebido Christopher Nolan
 [movies] Saltado porque no es estreno 2026: Burt Reynolds siempre se arrepintió de una decisión que tomó en 1972 y fastidió el estreno de la mejor película de su carrera (2018)
 [movies] Saltado noticia no apta para películas: Hace 66 años, Kevin Costner no se dio cuenta de inmediato de que acababa de conocer a una leyenda del cine
@@ -23,12 +21,11 @@ Fecha UTC: 2026-07-18T03:27:10.556892+00:00
 [movies] Saltado noticia no apta para películas: 'Saber y ganar' rompe sus propias reglas ante un nuevo abandono: ¿Por qué puede volver a concursar Marc Mendoza?
 [movies] Saltado noticia no apta para películas: Hace dos años, el autor de la canción viral de Cucurella participó en 'First Dates': ahora lleva tatuado su nombre y espera conocerle
 [movies] Saltado noticia no apta para películas: "¡O se va él o me voy yo!": 'En boca de todos' vive un tenso encontronazo que tiene que frenar Nacho Abad
-[movies] Candidatos encontrados: 24 | Límite: 1
-[IA] Probando proveedor gemini: Omaha
-[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 3931 (char 4216)
-[IA] Probando proveedor groq: Omaha
+[movies] Candidatos encontrados: 26 | Límite: 1
+[duplicado] Saltado por tema parecido: Toy Story 5 ~= La escena eliminada de Toy Story 5 que hizo llorar a los fans
+[IA] Probando proveedor groq: Young Washington
 [IA] Artículo generado con groq
-[OK] Publicado: src/content/blog/omaha-un-viaje-de-descubrimiento-2026-07-18-b2c331.md
+[OK] Publicado: src/content/blog/young-washington-una-historia-de-liderazgo-2026-07-18-ce1fe9.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
