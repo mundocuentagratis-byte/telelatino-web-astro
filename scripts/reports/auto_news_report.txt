@@ -1,11 +1,12 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-19T13:48:23.746551+00:00
+Fecha UTC: 2026-07-19T17:13:03.078182+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado porque no es estreno 2026: Vaiana (None)
-[movies] Saltado noticia no apta para películas: Prepárate: el 17 de julio llega a los cines 'La Odisea' de Christopher Nolan
+[movies] Saltado porque no es estreno 2026: Tom Hanks sostiene tan bien el drama en esta película que no suena ni una nota musical hasta pasados 45 minutos (2000)
+[movies] Saltado noticia no apta para películas: El único remake que ha hecho Tom Cruise tuvo que hacer trucos visuales para que no supiéramos cuándo se había grabado
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
@@ -18,20 +19,10 @@ Fecha UTC: 2026-07-19T13:48:23.746551+00:00
 [movies] Saltado noticia no apta para películas: Hace 15 años que no sucedía esto en la televisión española: ha sido posible en parte gracias al Mundial 2026
 [movies] Saltado noticia no apta para películas: Todo el mundo recuerda este 'reality', pero solo tuvo una edición: llegó a ser el infierno de Telecinco a pesar de su éxito
 [movies] Saltado noticia no apta para películas: El pueblo de Cádiz en el que Ana Rosa Quintana se refugia en verano: se compró una casa en una de las urbanizaciones más lujosas de Europa
-[movies] Candidatos encontrados: 29 | Límite: 1
-[YouTube] No se encontró tráiler confiable para Da igual ser Christopher Nolan o ganar el Oscar, porque tu hijo siempre te pondrá en tu sitio: “No ganaste ninguno por escribir”
-[movies] Saltado porque no tiene tráiler confiable: Da igual ser Christopher Nolan o ganar el Oscar, porque tu hijo siempre te pondrá en tu sitio: “No ganaste ninguno por escribir”
-[YouTube] No se encontró tráiler confiable para El único remake que ha hecho Tom Cruise tuvo que hacer trucos visuales para que no supiéramos cuándo se había grabado
-[movies] Saltado porque no tiene tráiler confiable: El único remake que ha hecho Tom Cruise tuvo que hacer trucos visuales para que no supiéramos cuándo se había grabado
-[YouTube] No se encontró tráiler confiable para Fue destrozada por la crítica, pero es una de las mejores películas de ciencia ficción de los 80 y dura solo 90 minutos
-[movies] Saltado porque no tiene tráiler confiable: Fue destrozada por la crítica, pero es una de las mejores películas de ciencia ficción de los 80 y dura solo 90 minutos
-[YouTube] No se encontró tráiler confiable para Hemos esperado décadas para una adaptación así: estos son los relatos que incluye 'La odisea' y su posible explicación científica
-[movies] Saltado porque no tiene tráiler confiable: Hemos esperado décadas para una adaptación así: estos son los relatos que incluye 'La odisea' y su posible explicación científica
-[IA] Probando proveedor openai: La única persona en la que confía Christopher Nolan para ordenar sus ideas: "Fue
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
-[IA] Probando proveedor mistral: La única persona en la que confía Christopher Nolan para ordenar sus ideas: "Fue
-[IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/christopher-nolan-y-el-secreto-detras-de-el-truco-final-2026-07-19-bf4cfa.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[movies] Candidatos encontrados: 30 | Límite: 1
+[duplicado] Saltado por tema parecido: Christopher Nolan ha cambiado las últimas escenas de 'La Odisea' para diferenciarse de Homero. Pero si entendemos el final explicado tiene todo el sentido del mundo ~= La Odisea de Christopher Nolan: El Gran Estreno del Año
+[YouTube] No se encontró tráiler confiable para Este 'western' de Clint Eastwood tiene una de las mejores escenas finales de la historia del cine, pero no todos saben lo que significa
+[movies] Saltado porque no tiene tráiler confiable: Este 'western' de Clint Eastwood tiene una de las mejores escenas finales de la historia del cine, pero no todos saben lo que significa
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
