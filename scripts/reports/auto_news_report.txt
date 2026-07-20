@@ -1,13 +1,20 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-20T03:59:12.074744+00:00
+Fecha UTC: 2026-07-20T07:24:58.872764+00:00
 [movies] Saltado porque no es estreno 2026: Bernie (2011)
 [movies] Saltado porque no es estreno 2026: La acompañante (None)
 [movies] Saltado porque no es estreno 2026: Ballerina (2025)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado porque no es estreno 2026: Vaiana (None)
+[movies] Saltado noticia no apta para películas: La increíble historia real de Bouna Ndiaye y Jérémy Medjana, dos franceses que llegaron a la NBA desde la nada
 [movies] Saltado porque no es estreno 2026: Tom Hanks sostiene tan bien el drama en esta película que no suena ni una nota musical hasta pasados 45 minutos (2000)
-[movies] Saltado noticia no apta para películas: El único remake que ha hecho Tom Cruise tuvo que hacer trucos visuales para que no supiéramos cuándo se había grabado
+[movies] Saltado noticia no apta para películas: Este 'western' de Clint Eastwood tiene una de las mejores escenas finales de la historia del cine, pero no todos saben lo que significa
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
+[movies] Saltado noticia no apta para películas: Hemos esperado décadas para una adaptación así: estos son los relatos que incluye 'La odisea' y su posible explicación científica
+[movies] Saltado noticia no apta para películas: La única persona en la que confía Christopher Nolan para ordenar sus ideas: "Fue el único capaz de descifrarlo"
+[movies] Saltado noticia no apta para películas: Fue destrozada por la crítica, pero es una de las mejores películas de ciencia ficción de los 80 y dura solo 90 minutos
+[movies] Saltado noticia no apta para películas: Da igual ser Christopher Nolan o ganar el Oscar, porque tu hijo siempre te pondrá en tu sitio: “No ganaste ninguno por escribir”
+[movies] Saltado noticia no apta para películas: Christopher Nolan ha decidido que no veamos la cara del personaje más importante de 'La odisea': es uno de los directores de cine más laureados del momento
+[movies] Saltado noticia no apta para películas: El agujero de guion de 'Posesión Infernal: En Llamas' que se remonta a los tiempos de Sam Raimi
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado noticia no apta para películas: 13 años después, Josep Pedrerol abandona Atresmedia y ya tiene nuevo destino: "Entenderéis que por respeto no digamos dónde estaremos"
@@ -20,9 +27,7 @@ Fecha UTC: 2026-07-20T03:59:12.074744+00:00
 [movies] Saltado noticia no apta para películas: Hace 15 años que no sucedía esto en la televisión española: ha sido posible en parte gracias al Mundial 2026
 [movies] Saltado noticia no apta para películas: Todo el mundo recuerda este 'reality', pero solo tuvo una edición: llegó a ser el infierno de Telecinco a pesar de su éxito
 [movies] Saltado noticia no apta para películas: El pueblo de Cádiz en el que Ana Rosa Quintana se refugia en verano: se compró una casa en una de las urbanizaciones más lujosas de Europa
-[movies] Candidatos encontrados: 30 | Límite: 1
-[YouTube] No se encontró tráiler confiable para Tres de más
-[movies] Saltado porque no tiene tráiler confiable: Tres de más
+[movies] Candidatos encontrados: 23 | Límite: 1
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
