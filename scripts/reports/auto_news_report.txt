@@ -1,29 +1,29 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-20T14:31:35.122845+00:00
+Fecha UTC: 2026-07-20T18:16:34.480194+00:00
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado porque no es estreno 2026: Vaiana (None)
+[movies] Saltado noticia no apta para películas: La increíble historia real de Bouna Ndiaye y Jérémy Medjana, dos franceses que llegaron a la NBA desde la nada
+[movies] Saltado noticia no apta para películas: 75 kg de puro músculo: Matt Damon reconoce que su estricta rutina para 'La Odisea' fue "un bajón"
+[movies] Saltado noticia no apta para películas: Sony aceptó retrasar 'Spider-Man 4' gracias a la reputación de Christopher Nolan: "Con otro la conversación pudo ser muy diferente"
+[movies] Saltado noticia no apta para películas: Hace 14 años esta película española impresionó a Christopher Nolan con sus efectos prácticos: "Es increíble"
 [movies] Saltado noticia no apta para películas: Últimos 6 días para ver en Netflix una de las trilogías más épicas de la historia del cine de fantasía
+[movies] Saltado noticia no apta para películas: 'La Odisea' reanima la taquilla y firma el tercer mejor debut de 2026: Christopher Nolan ha demostrado que es un fenómeno cinematográfico en sí mismo
 [movies] Saltado porque no es estreno 2026: Tom Hanks sostiene tan bien el drama en esta película que no suena ni una nota musical hasta pasados 45 minutos (2000)
-[movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado noticia no apta para películas: 13 años después, Josep Pedrerol abandona Atresmedia y ya tiene nuevo destino: "Entenderéis que por respeto no digamos dónde estaremos"
 [movies] Saltado noticia no apta para películas: Muchos lo dudamos al principio, pero el nuevo rosco de 'Pasapalabra' está empezando a ser parte de la cultura popular
 [movies] Saltado noticia no apta para películas: Quién es Marc Mendoza, el 'Supermagnífico' que ha regresado a 'Saber y ganar': es su última oportunidad para entrar en el club de los 100
 [movies] Saltado noticia no apta para películas: 'Saber y ganar' rompe sus propias reglas ante un nuevo abandono: ¿Por qué puede volver a concursar Marc Mendoza?
+[movies] Saltado noticia no apta para películas: Jordi Cruz, juez de 'MasterChef': "Yo sé lo que le pasó a Patricia Conde, pero voy a ser un señor y nunca lo contaré"
 [movies] Saltado noticia no apta para películas: El Mundial 2026 demuestra que todavía existen eventos capaces de reunir a los espectadores frente a la televisión
 [movies] Saltado porque no es estreno 2026: La academia de 'Operación Triunfo' nos dejó una de las mejores imágenes del Mundial en 2002 (2002)
 [movies] Saltado noticia no apta para películas: La presentadora del 'Grand Prix' que no pudo con la presión mediática: cayó en las drogas y se refugió en un convento
 [movies] Saltado noticia no apta para películas: Qué fue de Kim Manning, la mitica secretaria de' Un, dos tres', ahora vive en Arizona y es profesora
-[movies] Saltado noticia no apta para películas: Hace 15 años que no sucedía esto en la televisión española: ha sido posible en parte gracias al Mundial 2026
-[movies] Candidatos encontrados: 31 | Límite: 1
-[IA] Probando proveedor cohere: Bernie
-[IA] cohere falló (error): Cohere error 404: {"id":"23c79618-40ff-4798-b678-95bce8181628","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Bernie
-[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 2722 (char 2994)
-[IA] Probando proveedor groq: Bernie
+[movies] Candidatos encontrados: 26 | Límite: 1
+[IA] Probando proveedor groq: La acompañante
 [IA] Artículo generado con groq
-[OK] Publicado: src/content/blog/bernie-comedia-de-richard-linklater-2026-07-20-f59243.md
+[OK] Publicado: src/content/blog/la-acompanante-una-pelicula-de-suspense-2026-07-20-3d8905.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
