@@ -1,12 +1,14 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-21T06:39:32.683703+00:00
+Fecha UTC: 2026-07-21T10:33:35.318679+00:00
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado porque no es estreno 2026: Vaiana (None)
 [movies] Saltado noticia no apta para películas: La increíble historia real de Bouna Ndiaye y Jérémy Medjana, dos franceses que llegaron a la NBA desde la nada
+[movies] Saltado porque no es estreno 2026: Olvida 'Harry Potter': primeras imágenes de la adaptación cinematográfica de esta saga de fantasía de culto que lleva ocho años en preparación (2027)
 [movies] Saltado noticia no apta para películas: Número 1 en 71 países: La quinta entrega de una exitosa saga de películas de fantasía domina las listas mundiales de Disney+
-[movies] Saltado noticia no apta para películas: Llega a los cines el oasis perfecto para las familias: una joya noruega que enseña a los niños el verdadero valor de ser diferente
+[movies] Saltado noticia no apta para películas: "No había estado tan delgado desde el instituto": Matt Damon reconoce que su estricta rutina para 'La Odisea' fue "un bajón"
+[movies] Saltado noticia no apta para películas: Sony aceptó retrasar 'Spider-Man 4' gracias a la reputación de Christopher Nolan: "Con otro la conversación pudo ser muy diferente"
+[movies] Saltado noticia no apta para películas: Hace 14 años esta película española impresionó a Christopher Nolan con sus efectos prácticos: "Es increíble"
 [movies] Saltado noticia no apta para películas: Últimos 5 días para ver en Netflix una de las trilogías más épicas de la historia del cine de fantasía
-[movies] Saltado noticia no apta para películas: 'La Odisea' reanima la taquilla y firma el tercer mejor debut de 2026: Christopher Nolan ha demostrado que es un fenómeno cinematográfico en sí mismo
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado noticia no apta para películas: 13 años después, Josep Pedrerol abandona Atresmedia y ya tiene nuevo destino: "Entenderéis que por respeto no digamos dónde estaremos"
@@ -18,14 +20,8 @@ Fecha UTC: 2026-07-21T06:39:32.683703+00:00
 [movies] Saltado porque no es estreno 2026: La academia de 'Operación Triunfo' nos dejó una de las mejores imágenes del Mundial en 2002 (2002)
 [movies] Saltado noticia no apta para películas: La presentadora del 'Grand Prix' que no pudo con la presión mediática: cayó en las drogas y se refugió en un convento
 [movies] Saltado noticia no apta para películas: Qué fue de Kim Manning, la mitica secretaria de' Un, dos tres', ahora vive en Arizona y es profesora
-[movies] Candidatos encontrados: 28 | Límite: 1
-[YouTube] No se encontró tráiler confiable para 75 kg de puro músculo: Matt Damon reconoce que su estricta rutina para 'La Odisea' fue "un bajón"
-[movies] Saltado porque no tiene tráiler confiable: 75 kg de puro músculo: Matt Damon reconoce que su estricta rutina para 'La Odisea' fue "un bajón"
-[IA] Probando proveedor cohere: Hace 14 años esta película española impresionó a Christopher Nolan con sus efect
-[IA] cohere falló (error): Cohere error 404: {"id":"e7b6a177-f64d-42ce-a788-474ea11f0d38","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Hace 14 años esta película española impresionó a Christopher Nolan con sus efect
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/cuando-lo-imposible-fascino-a-nolan-con-sus-efectos-practicos-2026-07-21-861474.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[movies] Candidatos encontrados: 27 | Límite: 1
+[duplicado] Saltado por tema parecido: 'La Odisea' reanima la taquilla y firma el tercer mejor debut de 2026: Christopher Nolan ha demostrado que es un fenómeno cinematográfico en sí mismo ~= La Odisea de Christopher Nolan: El Gran Estreno del Año
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
