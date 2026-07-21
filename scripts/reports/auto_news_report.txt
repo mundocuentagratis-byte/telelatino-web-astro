@@ -1,27 +1,35 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-21T10:33:35.318679+00:00
+Fecha UTC: 2026-07-21T14:18:29.385627+00:00
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado porque no es estreno 2026: Vaiana (None)
-[movies] Saltado noticia no apta para películas: La increíble historia real de Bouna Ndiaye y Jérémy Medjana, dos franceses que llegaron a la NBA desde la nada
 [movies] Saltado porque no es estreno 2026: Olvida 'Harry Potter': primeras imágenes de la adaptación cinematográfica de esta saga de fantasía de culto que lleva ocho años en preparación (2027)
 [movies] Saltado noticia no apta para películas: Número 1 en 71 países: La quinta entrega de una exitosa saga de películas de fantasía domina las listas mundiales de Disney+
+[movies] Saltado noticia no apta para películas: El hijo de una de las familias más ricas de Hollywood podría haber sido 'nepo baby' estándar, pero tuvo una idea: un restaurante donde pagan los ricos, pero comen los pobres
 [movies] Saltado noticia no apta para películas: "No había estado tan delgado desde el instituto": Matt Damon reconoce que su estricta rutina para 'La Odisea' fue "un bajón"
-[movies] Saltado noticia no apta para películas: Sony aceptó retrasar 'Spider-Man 4' gracias a la reputación de Christopher Nolan: "Con otro la conversación pudo ser muy diferente"
-[movies] Saltado noticia no apta para películas: Hace 14 años esta película española impresionó a Christopher Nolan con sus efectos prácticos: "Es increíble"
-[movies] Saltado noticia no apta para películas: Últimos 5 días para ver en Netflix una de las trilogías más épicas de la historia del cine de fantasía
+[movies] Saltado porque no es estreno 2026: Hace 14 años esta película española impresionó a Christopher Nolan con sus efectos prácticos: "Es increíble" (2012)
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado noticia no apta para películas: 13 años después, Josep Pedrerol abandona Atresmedia y ya tiene nuevo destino: "Entenderéis que por respeto no digamos dónde estaremos"
 [movies] Saltado noticia no apta para películas: Muchos lo dudamos al principio, pero el nuevo rosco de 'Pasapalabra' está empezando a ser parte de la cultura popular
 [movies] Saltado noticia no apta para películas: Quién es Marc Mendoza, el 'Supermagnífico' que ha regresado a 'Saber y ganar': es su última oportunidad para entrar en el club de los 100
 [movies] Saltado noticia no apta para películas: 'Saber y ganar' rompe sus propias reglas ante un nuevo abandono: ¿Por qué puede volver a concursar Marc Mendoza?
+[movies] Saltado noticia no apta para películas: Quién es Martín Barreiro, el meteorólogo de RTVE que sustituirá a Marta Flich en 'Directo al grano'
+[movies] Saltado noticia no apta para películas: María Casado anuncia que abandona 'Informativos Telecinco' tras dos años: Esta será su sustituta
+[movies] Saltado noticia no apta para películas: Josep Pedrerol se despide de 'El Chiringuito' en Atresmedia: "Nos vemos en la tele"
 [movies] Saltado noticia no apta para películas: Jordi Cruz, juez de 'MasterChef': "Yo sé lo que le pasó a Patricia Conde, pero voy a ser un señor y nunca lo contaré"
 [movies] Saltado noticia no apta para películas: El Mundial 2026 demuestra que todavía existen eventos capaces de reunir a los espectadores frente a la televisión
-[movies] Saltado porque no es estreno 2026: La academia de 'Operación Triunfo' nos dejó una de las mejores imágenes del Mundial en 2002 (2002)
-[movies] Saltado noticia no apta para películas: La presentadora del 'Grand Prix' que no pudo con la presión mediática: cayó en las drogas y se refugió en un convento
-[movies] Saltado noticia no apta para películas: Qué fue de Kim Manning, la mitica secretaria de' Un, dos tres', ahora vive en Arizona y es profesora
-[movies] Candidatos encontrados: 27 | Límite: 1
-[duplicado] Saltado por tema parecido: 'La Odisea' reanima la taquilla y firma el tercer mejor debut de 2026: Christopher Nolan ha demostrado que es un fenómeno cinematográfico en sí mismo ~= La Odisea de Christopher Nolan: El Gran Estreno del Año
+[movies] Candidatos encontrados: 30 | Límite: 1
+[duplicado] Saltado por tema parecido: "Peter Parker siempre ha tenido una comunidad a su alrededor. Es la primera vez que va en solitario": apenas queda una semana para el estreno de 'Spider-Man: Brand New Day' ~= Spider-Man: Brand New Day llega con giro radical para Peter Parker
+[YouTube] No se encontró tráiler confiable para Clint Eastwood: "Va a llegar un día que voy a decir: 'No soporto ver a este tipo, está envejeciendo ante mis propios ojos y no sé si quiero hacer esto'"
+[movies] Saltado porque no tiene tráiler confiable: Clint Eastwood: "Va a llegar un día que voy a decir: 'No soporto ver a este tipo, está envejeciendo ante mis propios ojos y no sé si quiero hacer esto'"
+[YouTube] No se encontró tráiler confiable para La increíble historia real de Bouna Ndiaye y Jérémy Medjana, dos franceses que llegaron a la NBA desde la nada
+[movies] Saltado porque no tiene tráiler confiable: La increíble historia real de Bouna Ndiaye y Jérémy Medjana, dos franceses que llegaron a la NBA desde la nada
+[YouTube] No se encontró tráiler confiable para Matt Damon: "Mi doble era una mujer, una especialista en escenas de riesgo, que tenía los brazos más impresionantes que he visto en mi vida"
+[movies] Saltado porque no tiene tráiler confiable: Matt Damon: "Mi doble era una mujer, una especialista en escenas de riesgo, que tenía los brazos más impresionantes que he visto en mi vida"
+[YouTube] No se encontró tráiler confiable para Pedro Almodóvar tras perder el Oscar en 1989: "Tengo problemas, que vienen de lejos, con Carmen. Pensé que se podían solucionar, pero no ha sido así"
+[movies] Saltado porque no tiene tráiler confiable: Pedro Almodóvar tras perder el Oscar en 1989: "Tengo problemas, que vienen de lejos, con Carmen. Pensé que se podían solucionar, pero no ha sido así"
+[YouTube] No se encontró tráiler confiable para Sony aceptó retrasar 'Spider-Man 4' gracias a la reputación de Christopher Nolan: "Con otro la conversación pudo ser muy diferente"
+[movies] Saltado porque no tiene tráiler confiable: Sony aceptó retrasar 'Spider-Man 4' gracias a la reputación de Christopher Nolan: "Con otro la conversación pudo ser muy diferente"
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
