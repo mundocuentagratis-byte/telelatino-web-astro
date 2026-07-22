@@ -1,9 +1,9 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-22T17:40:04.535854+00:00
+Fecha UTC: 2026-07-22T21:20:10.678212+00:00
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
+[movies] Saltado porque no es estreno 2026: Poco se habla de que, en solo tres años, este actor estrenó tres de las mejores películas de finales de los 90 (2000)
 [movies] Saltado noticia no apta para películas: "No es 'Tiburón', pero los adictos al cine de tiburones habrán visto cosas mucho peores": solo 2 semanas para el estreno de la terrorífica película de supervivencia
-[movies] Saltado noticia no apta para películas: "Los jugadores de baloncesto son tipos que miden 2,15 m, pero en realidad son niños de 18 años": la historia de dos franceses que partieron de cero y descubrieron a Wembanyama
-[movies] Saltado noticia no apta para películas: Kaylee Hottle, actriz de 'Godzilla vs. Kong', muere a los 18 años
+[movies] Saltado noticia no apta para películas: Armand D'Angour, catedrático de Lenguas y Literatura Clásicas, sobre 'La Odisea': "Como obra cinematográfica espectacular, se ganará un lugar en el panteón del cine"
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado noticia no apta para películas: 'Jugones' tiene nuevo presentador para sustituir a Josep Pedrerol: laSexta apuesta por uno de sus presentadores deportivos más conocidos
@@ -12,14 +12,10 @@ Fecha UTC: 2026-07-22T17:40:04.535854+00:00
 [movies] Saltado noticia no apta para películas: Quién es Martín Barreiro, el meteorólogo de RTVE que sustituirá a Marta Flich en 'Directo al grano'
 [movies] Saltado noticia no apta para películas: María Casado anuncia que abandona 'Informativos Telecinco' tras dos años: Esta será su sustituta
 [movies] Candidatos encontrados: 36 | Límite: 1
-[YouTube] No se encontró tráiler confiable para 71 años, más de 130 películas, cuatro nominaciones al Oscar: uno de los actores más camaleónicos de Hollywood estrena nueva película este fin de semana
-[movies] Saltado porque no tiene tráiler confiable: 71 años, más de 130 películas, cuatro nominaciones al Oscar: uno de los actores más camaleónicos de Hollywood estrena nueva película este fin de semana
-[YouTube] No se encontró tráiler confiable para Este director acaba de ser votado como el más poderoso de Hollywood: "en ninguna de mis conversaciones para esta lista se sugirió que alguien más"
-[movies] Saltado porque no tiene tráiler confiable: Este director acaba de ser votado como el más poderoso de Hollywood: "en ninguna de mis conversaciones para esta lista se sugirió que alguien más"
-[YouTube] No se encontró tráiler confiable para José Coronado: "Hice una película en Hollywood que era absurda. No disfruté nada"
-[movies] Saltado porque no tiene tráiler confiable: José Coronado: "Hice una película en Hollywood que era absurda. No disfruté nada"
-[YouTube] No se encontró tráiler confiable para Sylvester Stallone, actor: "La vida te pondrá de rodillas, pero no se trata de lo fuerte que puedes golpear, sino de lo fuerte que puedan golpearte"
-[movies] Saltado porque no tiene tráiler confiable: Sylvester Stallone, actor: "La vida te pondrá de rodillas, pero no se trata de lo fuerte que puedes golpear, sino de lo fuerte que puedan golpearte"
+[YouTube] No se encontró tráiler confiable para "Los jugadores de baloncesto son tipos que miden 2,15 m, pero en realidad son niños de 18 años": la historia de dos franceses que partieron de cero y descubrieron a Wembanyama
+[movies] Saltado porque no tiene tráiler confiable: "Los jugadores de baloncesto son tipos que miden 2,15 m, pero en realidad son niños de 18 años": la historia de dos franceses que partieron de cero y descubrieron a Wembanyama
+[YouTube] No se encontró tráiler confiable para Kaylee Hottle, actriz de 'Godzilla vs. Kong', muere a los 18 años
+[movies] Saltado porque no tiene tráiler confiable: Kaylee Hottle, actriz de 'Godzilla vs. Kong', muere a los 18 años
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
