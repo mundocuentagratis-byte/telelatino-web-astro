@@ -1,27 +1,24 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-22T10:33:48.096592+00:00
+Fecha UTC: 2026-07-22T14:19:43.963649+00:00
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: La increíble historia real de Bouna Ndiaye y Jérémy Medjana, dos franceses que llegaron a la NBA desde la nada
+[movies] Saltado noticia no apta para películas: "No es 'Tiburón', pero los adictos al cine de tiburones habrán visto cosas mucho peores": solo 2 semanas para el estreno de la terrorífica película de supervivencia
+[movies] Saltado noticia no apta para películas: "Los jugadores de baloncesto son tipos que miden 2,15 m, pero en realidad son niños de 18 años": la historia de dos franceses que partieron de cero y descubrieron a Wembanyama
+[movies] Saltado noticia no apta para películas: Sylvester Stallone, actor: "La vida te pondrá de rodillas, pero no se trata de lo fuerte que puedes golpear, sino de lo fuerte que puedan golpearte"
 [movies] Saltado noticia no apta para películas: Kaylee Hottle, actriz de 'Godzilla vs. Kong', muere a los 18 años
 [movies] Saltado noticia no apta para películas: Este director acaba de ser votado como el más poderoso de Hollywood: "en ninguna de mis conversaciones para esta lista se sugirió que alguien más"
-[movies] Saltado noticia no apta para películas: Armand D'Angour, catedrático de Lenguas y Literatura Clásicas, sobre 'La Odisea': "Como obra cinematográfica espectacular, se ganará un lugar en el panteón del cine"
+[movies] Saltado noticia no apta para películas: 'Soy Leyenda 2': estado de la producción, protagonistas, salto temporal, tramas y todo lo que sabemos de la secuela de la película
 [movies] Saltado noticia no apta para películas: Pedro Almodóvar tras perder el Oscar en 1989: "Tengo problemas, que vienen de lejos, con Carmen. Pensé que se podían solucionar, pero no ha sido así"
-[movies] Saltado noticia no apta para películas: Clint Eastwood: "Va a llegar un día que voy a decir: 'No soporto ver a este tipo, está envejeciendo ante mis propios ojos y no sé si quiero hacer esto'"
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
+[movies] Saltado noticia no apta para películas: Ha pasado un mes del estreno de 'AlaZ' en 'Pasapalabra', pero seguimos descubriendo sus normas
 [movies] Saltado noticia no apta para películas: La audiencia dicta sentencia al estreno de 'El camino de la verdad': lo que muchos ven como su gran acierto, otros creen que es su punto débil
 [movies] Saltado noticia no apta para películas: Quién es Martín Barreiro, el meteorólogo de RTVE que sustituirá a Marta Flich en 'Directo al grano'
 [movies] Saltado noticia no apta para películas: María Casado anuncia que abandona 'Informativos Telecinco' tras dos años: Esta será su sustituta
 [movies] Saltado noticia no apta para películas: Jordi Cruz, juez de 'MasterChef': "Yo sé lo que le pasó a Patricia Conde, pero voy a ser un señor y nunca lo contaré"
-[movies] Candidatos encontrados: 31 | Límite: 1
-[YouTube] No se encontró tráiler confiable para 'Soy Leyenda 2': estado de la producción, protagonistas, salto temporal, tramas y todo lo que sabemos de la secuela de la película
-[movies] Saltado porque no tiene tráiler confiable: 'Soy Leyenda 2': estado de la producción, protagonistas, salto temporal, tramas y todo lo que sabemos de la secuela de la película
-[YouTube] No se encontró tráiler confiable para 13 años después, Josep Pedrerol abandona Atresmedia y ya tiene nuevo destino: "Entenderéis que por respeto no digamos dónde estaremos"
-[movies] Saltado porque no tiene tráiler confiable: 13 años después, Josep Pedrerol abandona Atresmedia y ya tiene nuevo destino: "Entenderéis que por respeto no digamos dónde estaremos"
-[YouTube] No se encontró tráiler confiable para Josep Pedrerol se despide de 'El Chiringuito' en Atresmedia: "Nos vemos en la tele"
-[movies] Saltado porque no tiene tráiler confiable: Josep Pedrerol se despide de 'El Chiringuito' en Atresmedia: "Nos vemos en la tele"
-[YouTube] No se encontró tráiler confiable para Quién es Marc Mendoza, el 'Supermagnífico' que ha regresado a 'Saber y ganar': es su última oportunidad para entrar en el club de los 100
-[movies] Saltado porque no tiene tráiler confiable: Quién es Marc Mendoza, el 'Supermagnífico' que ha regresado a 'Saber y ganar': es su última oportunidad para entrar en el club de los 100
+[movies] Candidatos encontrados: 30 | Límite: 1
+[YouTube] No se encontró tráiler confiable para Armand D'Angour, catedrático de Lenguas y Literatura Clásicas, sobre 'La Odisea': "Como obra cinematográfica espectacular, se ganará un lugar en el panteón del cine"
+[movies] Saltado porque no tiene tráiler confiable: Armand D'Angour, catedrático de Lenguas y Literatura Clásicas, sobre 'La Odisea': "Como obra cinematográfica espectacular, se ganará un lugar en el panteón del cine"
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
