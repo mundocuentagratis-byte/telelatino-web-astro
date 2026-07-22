@@ -1,24 +1,25 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-22T14:19:43.963649+00:00
+Fecha UTC: 2026-07-22T17:40:04.535854+00:00
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
-[movies] Saltado noticia no apta para películas: La increíble historia real de Bouna Ndiaye y Jérémy Medjana, dos franceses que llegaron a la NBA desde la nada
 [movies] Saltado noticia no apta para películas: "No es 'Tiburón', pero los adictos al cine de tiburones habrán visto cosas mucho peores": solo 2 semanas para el estreno de la terrorífica película de supervivencia
 [movies] Saltado noticia no apta para películas: "Los jugadores de baloncesto son tipos que miden 2,15 m, pero en realidad son niños de 18 años": la historia de dos franceses que partieron de cero y descubrieron a Wembanyama
-[movies] Saltado noticia no apta para películas: Sylvester Stallone, actor: "La vida te pondrá de rodillas, pero no se trata de lo fuerte que puedes golpear, sino de lo fuerte que puedan golpearte"
 [movies] Saltado noticia no apta para películas: Kaylee Hottle, actriz de 'Godzilla vs. Kong', muere a los 18 años
-[movies] Saltado noticia no apta para películas: Este director acaba de ser votado como el más poderoso de Hollywood: "en ninguna de mis conversaciones para esta lista se sugirió que alguien más"
-[movies] Saltado noticia no apta para películas: 'Soy Leyenda 2': estado de la producción, protagonistas, salto temporal, tramas y todo lo que sabemos de la secuela de la película
-[movies] Saltado noticia no apta para películas: Pedro Almodóvar tras perder el Oscar en 1989: "Tengo problemas, que vienen de lejos, con Carmen. Pensé que se podían solucionar, pero no ha sido así"
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
+[movies] Saltado noticia no apta para películas: 'Jugones' tiene nuevo presentador para sustituir a Josep Pedrerol: laSexta apuesta por uno de sus presentadores deportivos más conocidos
 [movies] Saltado noticia no apta para películas: Ha pasado un mes del estreno de 'AlaZ' en 'Pasapalabra', pero seguimos descubriendo sus normas
 [movies] Saltado noticia no apta para películas: La audiencia dicta sentencia al estreno de 'El camino de la verdad': lo que muchos ven como su gran acierto, otros creen que es su punto débil
 [movies] Saltado noticia no apta para películas: Quién es Martín Barreiro, el meteorólogo de RTVE que sustituirá a Marta Flich en 'Directo al grano'
 [movies] Saltado noticia no apta para películas: María Casado anuncia que abandona 'Informativos Telecinco' tras dos años: Esta será su sustituta
-[movies] Saltado noticia no apta para películas: Jordi Cruz, juez de 'MasterChef': "Yo sé lo que le pasó a Patricia Conde, pero voy a ser un señor y nunca lo contaré"
-[movies] Candidatos encontrados: 30 | Límite: 1
-[YouTube] No se encontró tráiler confiable para Armand D'Angour, catedrático de Lenguas y Literatura Clásicas, sobre 'La Odisea': "Como obra cinematográfica espectacular, se ganará un lugar en el panteón del cine"
-[movies] Saltado porque no tiene tráiler confiable: Armand D'Angour, catedrático de Lenguas y Literatura Clásicas, sobre 'La Odisea': "Como obra cinematográfica espectacular, se ganará un lugar en el panteón del cine"
+[movies] Candidatos encontrados: 36 | Límite: 1
+[YouTube] No se encontró tráiler confiable para 71 años, más de 130 películas, cuatro nominaciones al Oscar: uno de los actores más camaleónicos de Hollywood estrena nueva película este fin de semana
+[movies] Saltado porque no tiene tráiler confiable: 71 años, más de 130 películas, cuatro nominaciones al Oscar: uno de los actores más camaleónicos de Hollywood estrena nueva película este fin de semana
+[YouTube] No se encontró tráiler confiable para Este director acaba de ser votado como el más poderoso de Hollywood: "en ninguna de mis conversaciones para esta lista se sugirió que alguien más"
+[movies] Saltado porque no tiene tráiler confiable: Este director acaba de ser votado como el más poderoso de Hollywood: "en ninguna de mis conversaciones para esta lista se sugirió que alguien más"
+[YouTube] No se encontró tráiler confiable para José Coronado: "Hice una película en Hollywood que era absurda. No disfruté nada"
+[movies] Saltado porque no tiene tráiler confiable: José Coronado: "Hice una película en Hollywood que era absurda. No disfruté nada"
+[YouTube] No se encontró tráiler confiable para Sylvester Stallone, actor: "La vida te pondrá de rodillas, pero no se trata de lo fuerte que puedes golpear, sino de lo fuerte que puedan golpearte"
+[movies] Saltado porque no tiene tráiler confiable: Sylvester Stallone, actor: "La vida te pondrá de rodillas, pero no se trata de lo fuerte que puedes golpear, sino de lo fuerte que puedan golpearte"
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
