@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-21T21:24:09.283710+00:00
+Fecha UTC: 2026-07-22T03:39:31.787726+00:00
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: La increíble historia real de Bouna Ndiaye y Jérémy Medjana, dos franceses que llegaron a la NBA desde la nada
 [movies] Saltado noticia no apta para películas: 'Soy Leyenda 2': estado de la producción, protagonistas, salto temporal, tramas y todo lo que sabemos de la secuela de la película
@@ -8,16 +8,20 @@ Fecha UTC: 2026-07-21T21:24:09.283710+00:00
 [movies] Saltado noticia no apta para películas: Número 1 en 71 países: La quinta entrega de una exitosa saga de películas de fantasía domina las listas mundiales de Disney+
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
-[movies] Saltado noticia no apta para películas: 13 años después, Josep Pedrerol abandona Atresmedia y ya tiene nuevo destino: "Entenderéis que por respeto no digamos dónde estaremos"
-[movies] Saltado noticia no apta para películas: Muchos lo dudamos al principio, pero el nuevo rosco de 'Pasapalabra' está empezando a ser parte de la cultura popular
-[movies] Saltado noticia no apta para películas: Quién es Marc Mendoza, el 'Supermagnífico' que ha regresado a 'Saber y ganar': es su última oportunidad para entrar en el club de los 100
-[movies] Saltado noticia no apta para películas: 'Saber y ganar' rompe sus propias reglas ante un nuevo abandono: ¿Por qué puede volver a concursar Marc Mendoza?
+[movies] Saltado porque no es estreno 2026: La marisquería de Benidorm que adaptó los consejos de 'Pesadilla en la cocina' y ahora triunfa: "Mereció la pena" (2025)
 [movies] Saltado noticia no apta para películas: Quién es Martín Barreiro, el meteorólogo de RTVE que sustituirá a Marta Flich en 'Directo al grano'
 [movies] Saltado noticia no apta para películas: María Casado anuncia que abandona 'Informativos Telecinco' tras dos años: Esta será su sustituta
 [movies] Saltado noticia no apta para películas: Josep Pedrerol se despide de 'El Chiringuito' en Atresmedia: "Nos vemos en la tele"
 [movies] Saltado noticia no apta para películas: Jordi Cruz, juez de 'MasterChef': "Yo sé lo que le pasó a Patricia Conde, pero voy a ser un señor y nunca lo contaré"
 [movies] Saltado noticia no apta para películas: El Mundial 2026 demuestra que todavía existen eventos capaces de reunir a los espectadores frente a la televisión
-[movies] Candidatos encontrados: 29 | Límite: 1
-[movies] Publicados: 0
-Total películas publicadas: 0
+[movies] Candidatos encontrados: 32 | Límite: 1
+[IA] Probando proveedor cohere: El sueño americano
+[IA] cohere falló (error): Cohere error 404: {"id":"55489b08-1a7c-43c3-bf08-31277ce42e10","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: El sueño americano
+[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 2676 (char 2930)
+[IA] Probando proveedor groq: El sueño americano
+[IA] Artículo generado con groq
+[OK] Publicado: src/content/blog/el-sueno-americano-2026-07-22-254e5f.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
