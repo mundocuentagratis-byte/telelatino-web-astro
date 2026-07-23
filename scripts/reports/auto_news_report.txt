@@ -1,21 +1,19 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-22T21:20:10.678212+00:00
+Fecha UTC: 2026-07-23T03:39:38.664868+00:00
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado porque no es estreno 2026: Poco se habla de que, en solo tres años, este actor estrenó tres de las mejores películas de finales de los 90 (2000)
 [movies] Saltado noticia no apta para películas: "No es 'Tiburón', pero los adictos al cine de tiburones habrán visto cosas mucho peores": solo 2 semanas para el estreno de la terrorífica película de supervivencia
 [movies] Saltado noticia no apta para películas: Armand D'Angour, catedrático de Lenguas y Literatura Clásicas, sobre 'La Odisea': "Como obra cinematográfica espectacular, se ganará un lugar en el panteón del cine"
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
+[movies] Saltado porque no es estreno 2026: Hoy en Netflix: La película de aventuras definitiva de la década de los 2000 (2000)
+[movies] Saltado porque no es estreno 2026: La marisquería de Benidorm que adaptó los consejos de 'Pesadilla en la cocina' y ahora triunfa: "Mereció la pena" (2025)
 [movies] Saltado noticia no apta para películas: 'Jugones' tiene nuevo presentador para sustituir a Josep Pedrerol: laSexta apuesta por uno de sus presentadores deportivos más conocidos
 [movies] Saltado noticia no apta para películas: Ha pasado un mes del estreno de 'AlaZ' en 'Pasapalabra', pero seguimos descubriendo sus normas
 [movies] Saltado noticia no apta para películas: La audiencia dicta sentencia al estreno de 'El camino de la verdad': lo que muchos ven como su gran acierto, otros creen que es su punto débil
 [movies] Saltado noticia no apta para películas: Quién es Martín Barreiro, el meteorólogo de RTVE que sustituirá a Marta Flich en 'Directo al grano'
 [movies] Saltado noticia no apta para películas: María Casado anuncia que abandona 'Informativos Telecinco' tras dos años: Esta será su sustituta
-[movies] Candidatos encontrados: 36 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "Los jugadores de baloncesto son tipos que miden 2,15 m, pero en realidad son niños de 18 años": la historia de dos franceses que partieron de cero y descubrieron a Wembanyama
-[movies] Saltado porque no tiene tráiler confiable: "Los jugadores de baloncesto son tipos que miden 2,15 m, pero en realidad son niños de 18 años": la historia de dos franceses que partieron de cero y descubrieron a Wembanyama
-[YouTube] No se encontró tráiler confiable para Kaylee Hottle, actriz de 'Godzilla vs. Kong', muere a los 18 años
-[movies] Saltado porque no tiene tráiler confiable: Kaylee Hottle, actriz de 'Godzilla vs. Kong', muere a los 18 años
+[movies] Candidatos encontrados: 35 | Límite: 1
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
