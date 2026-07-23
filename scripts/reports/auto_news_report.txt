@@ -1,25 +1,27 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-23T06:38:10.161974+00:00
+Fecha UTC: 2026-07-23T10:34:01.409299+00:00
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
-[movies] Saltado noticia no apta para películas: La increíble historia real de Bouna Ndiaye y Jérémy Medjana, dos franceses que llegaron a la NBA desde la nada
+[movies] Saltado porque no es estreno 2026: 11 años después, no sabemos nada aún de la nueva versión de una de las peores películas de superhéroes: Jamie Foxx y Blumhouse están involucrados (2024)
+[movies] Saltado noticia no apta para películas: El "efecto Netflix" está reescribiendo la estética cinematográfica, pero los seres humanos necesitamos imperfección
 [movies] Saltado porque no es estreno 2026: Poco se habla de que, en solo tres años, este actor estrenó tres de las mejores películas de finales de los 90 (2000)
-[movies] Saltado noticia no apta para películas: José Coronado: "Hice una película en Hollywood que era absurda. No disfruté nada"
-[movies] Saltado noticia no apta para películas: 71 años, más de 130 películas, cuatro nominaciones al Oscar: uno de los actores más camaleónicos de Hollywood estrena nueva película este fin de semana
-[movies] Saltado noticia no apta para películas: "No es 'Tiburón', pero los adictos al cine de tiburones habrán visto cosas mucho peores": solo 2 semanas para el estreno de la terrorífica película de supervivencia
-[movies] Saltado noticia no apta para películas: Sylvester Stallone, actor: "La vida te pondrá de rodillas, pero no se trata de lo fuerte que puedes golpear, sino de lo fuerte que puedan golpearte"
-[movies] Saltado noticia no apta para películas: Kaylee Hottle, actriz de 'Godzilla vs. Kong', muere a los 18 años
-[movies] Saltado noticia no apta para películas: Este director acaba de ser votado como el más poderoso de Hollywood: "en ninguna de mis conversaciones para esta lista se sugirió que alguien más"
-[movies] Saltado noticia no apta para películas: 'Soy Leyenda 2': estado de la producción, protagonistas, salto temporal, tramas y todo lo que sabemos de la secuela de la película
+[movies] Saltado noticia no apta para películas: Sylvester Stallone, actor: "durante 16 años me carcomió por dentro; hervía de rabia y mi carrera empezó a decaer"
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: La película de aventuras definitiva de la década de los 2000 (2000)
-[movies] Saltado porque no es estreno 2026: La marisquería de Benidorm que adaptó los consejos de 'Pesadilla en la cocina' y ahora triunfa: "Mereció la pena" (2025)
-[movies] Saltado noticia no apta para películas: 'Jugones' tiene nuevo presentador para sustituir a Josep Pedrerol: laSexta apuesta por uno de sus presentadores deportivos más conocidos
+[movies] Saltado noticia no apta para películas: Josep Pedrerol se despide de 'El Chiringuito' en Atresmedia: "Nos vemos en la tele"
+[movies] Saltado noticia no apta para películas: 'Saber y ganar' rompe sus propias reglas ante un nuevo abandono: ¿Por qué puede volver a concursar Marc Mendoza?
 [movies] Saltado noticia no apta para películas: Ha pasado un mes del estreno de 'AlaZ' en 'Pasapalabra', pero seguimos descubriendo sus normas
+[movies] Saltado noticia no apta para películas: 'Jugones' tiene nuevo presentador para sustituir a Josep Pedrerol: laSexta apuesta por uno de sus presentadores deportivos más conocidos
 [movies] Saltado noticia no apta para películas: La audiencia dicta sentencia al estreno de 'El camino de la verdad': lo que muchos ven como su gran acierto, otros creen que es su punto débil
 [movies] Saltado noticia no apta para películas: Quién es Martín Barreiro, el meteorólogo de RTVE que sustituirá a Marta Flich en 'Directo al grano'
 [movies] Saltado noticia no apta para películas: María Casado anuncia que abandona 'Informativos Telecinco' tras dos años: Esta será su sustituta
-[movies] Candidatos encontrados: 29 | Límite: 1
+[movies] Candidatos encontrados: 34 | Límite: 1
+[YouTube] No se encontró tráiler confiable para "Hannah es gordofóbica. Nuestra sociedad tiene fobia a la gordura": llega a cines la película que muestra en forma de terror la obsesión con el Ozempic
+[movies] Saltado porque no tiene tráiler confiable: "Hannah es gordofóbica. Nuestra sociedad tiene fobia a la gordura": llega a cines la película que muestra en forma de terror la obsesión con el Ozempic
+[YouTube] No se encontró tráiler confiable para "No es 'Tiburón', pero los adictos al cine de tiburones habrán visto cosas mucho peores": solo 2 semanas para el estreno de la terrorífica película de supervivencia
+[movies] Saltado porque no tiene tráiler confiable: "No es 'Tiburón', pero los adictos al cine de tiburones habrán visto cosas mucho peores": solo 2 semanas para el estreno de la terrorífica película de supervivencia
+[YouTube] No se encontró tráiler confiable para "Pensé que estaba teniendo una mala experiencia en el baño": los gritos de Matt Damon que confundieron a Robert Pattinson en el rodaje de 'La Odisea'
+[movies] Saltado porque no tiene tráiler confiable: "Pensé que estaba teniendo una mala experiencia en el baño": los gritos de Matt Damon que confundieron a Robert Pattinson en el rodaje de 'La Odisea'
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
