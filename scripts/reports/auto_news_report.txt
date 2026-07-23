@@ -1,12 +1,12 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-23T17:43:52.044853+00:00
+Fecha UTC: 2026-07-23T21:19:52.868874+00:00
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
-[movies] Saltado porque no es estreno 2026: Mañana llega a Netflix la peor película de Steven Spielberg: "Aprendí la lección más importante de mi carrera" (2011)
+[movies] Saltado noticia no apta para películas: El lujoso ático de Málaga que todo el mundo sabe que es de Antonio Banderas: 500 metros cuadrados con vistas panorámicas y una terraza con piscina
+[movies] Saltado noticia no apta para películas: Mañana llega a Netflix la peor película de Steven Spielberg: "Aprendí la lección más importante de mi carrera"
 [movies] Saltado porque no es estreno 2026: Después de 36 años, Tom Cruise continuará con otro clásico de acción tras 'Top Gun 2': ya se ha elegido al director (2024)
 [movies] Saltado porque no es estreno 2026: 11 años después, no sabemos nada aún de la nueva versión de una de las peores películas de superhéroes: Jamie Foxx y Blumhouse están involucrados (2024)
 [movies] Saltado noticia no apta para películas: El "efecto Netflix" está reescribiendo la estética cinematográfica, pero los seres humanos necesitamos imperfección
 [movies] Saltado porque no es estreno 2026: Poco se habla de que, en solo tres años, este actor estrenó tres de las mejores películas de finales de los 90 (2000)
-[movies] Saltado noticia no apta para películas: José Coronado: "Hice una película en Hollywood que era absurda. No disfruté nada"
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: La película de aventuras definitiva de la década de los 2000 (2000)
@@ -18,13 +18,9 @@ Fecha UTC: 2026-07-23T17:43:52.044853+00:00
 [movies] Saltado porque no es estreno 2026: Telecinco entrevista a la joven que afirma que Chenoa tiene a su perra desaparecida: "Antes lo he intentado hacer por la vía privada" (2024)
 [movies] Saltado noticia no apta para películas: 'Jugones' tiene nuevo presentador para sustituir a Josep Pedrerol: laSexta apuesta por uno de sus presentadores deportivos más conocidos
 [movies] Saltado noticia no apta para películas: La audiencia dicta sentencia al estreno de 'El camino de la verdad': lo que muchos ven como su gran acierto, otros creen que es su punto débil
-[movies] Candidatos encontrados: 32 | Límite: 1
-[YouTube] No se encontró tráiler confiable para El lujoso ático de Málaga que todo el mundo sabe que es de Antonio Banderas: 500 metros cuadrados con vistas panorámicas y una terraza con piscina
-[movies] Saltado porque no tiene tráiler confiable: El lujoso ático de Málaga que todo el mundo sabe que es de Antonio Banderas: 500 metros cuadrados con vistas panorámicas y una terraza con piscina
-[YouTube] No se encontró tráiler confiable para Parecía imposible levantar una industria de cero, pero el "milagro" canario lo ha logrado: 30 estudios y los creadores de 'Arcane' ya operan en las islas
-[movies] Saltado porque no tiene tráiler confiable: Parecía imposible levantar una industria de cero, pero el "milagro" canario lo ha logrado: 30 estudios y los creadores de 'Arcane' ya operan en las islas
-[YouTube] No se encontró tráiler confiable para Tras 'La Odisea' y 'Spider-Man: Brand New Day', Tom Holland tiene un nuevo proyecto: un biopic que le emociona y da pánico a partes iguales
-[movies] Saltado porque no tiene tráiler confiable: Tras 'La Odisea' y 'Spider-Man: Brand New Day', Tom Holland tiene un nuevo proyecto: un biopic que le emociona y da pánico a partes iguales
+[movies] Candidatos encontrados: 33 | Límite: 1
+[YouTube] No se encontró tráiler confiable para Clint Eastwood: "No hay ninguna razón en el mundo por la que la gente deba salir y pagar por cosas que pueden ver en casa en la televisión"
+[movies] Saltado porque no tiene tráiler confiable: Clint Eastwood: "No hay ninguna razón en el mundo por la que la gente deba salir y pagar por cosas que pueden ver en casa en la televisión"
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
