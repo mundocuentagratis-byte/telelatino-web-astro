@@ -1,14 +1,15 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-24T10:28:25.138440+00:00
+Fecha UTC: 2026-07-24T14:08:11.609820+00:00
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
-[movies] Saltado noticia no apta para películas: La increíble historia real de Bouna Ndiaye y Jérémy Medjana, dos franceses que llegaron a la NBA desde la nada
-[movies] Saltado noticia no apta para películas: Clint Eastwood: "No hay ninguna razón en el mundo por la que la gente deba salir y pagar por cosas que pueden ver en casa en la televisión"
-[movies] Saltado noticia no apta para películas: Tras 'La Odisea' y 'Spider-Man: Brand New Day', Tom Holland tiene un nuevo proyecto: un biopic que le emociona y da pánico a partes iguales
-[movies] Saltado porque no es estreno 2026: El lujoso ático de Málaga que todo el mundo sabe que es de Antonio Banderas: 500 metros cuadrados con vistas panorámicas y una terraza con piscina (2021)
-[movies] Saltado noticia no apta para películas: Acaba de llegar a Netflix la película que le dio a Steve Spielebrg "la lección más importante" de su carrera: para muchos, la peor que ha hecho
-[movies] Saltado porque no es estreno 2026: Tras el éxito de 'Top Gun: Maverick', Tom Cruise prepara la secuela de otro de sus grandes clásicos de los 90 (2024)
-[movies] Saltado porque no es estreno 2026: Hace 11 años se anunció la nueva versión de una de las peores películas de superhéroes, pero aún no sabemos nada: "No busco al mismo público que Marvel y DC" (2024)
-[movies] Saltado noticia no apta para películas: El "efecto Netflix" está reescribiendo la estética cinematográfica, pero los seres humanos necesitamos imperfección
+[movies] Saltado porque no es estreno 2026: La increíble historia real de Bouna Ndiaye y Jérémy Medjana, dos franceses que llegaron a la NBA desde la nada (2027)
+[movies] Saltado porque no es estreno 2026: 58 años después, el final de este 'western' amado por Tarantino sigue causando una increíble impresión (2001)
+[movies] Saltado porque no es estreno 2026: Eduard Fernández, actor: "Cuando pones un pepino en vinagre, muchas veces acaba siendo un pepinillo y un pepinillo nunca vuelve a ser un pepino" (2027)
+[movies] Saltado porque no es estreno 2026: Arnold Schwarzenegger despidió a Clint Eastwood en 2008: "Voy a seguir en el mundo del cine, haciendo lo mismo que he estado haciendo" (2008)
+[movies] Saltado porque no es estreno 2026: La nueva película de Brad Pitt es un thriller de supervivencia que ya tiene a todos rezando por su perro: solo 2 meses para su estreno en cines (2025)
+[movies] Saltado porque no es estreno 2026: "En el primer ensayo que hicimos con Emma Suárez y Willem Dafoe en la semana previa se me quitaron todos los miedos": llega a los cines 'El anfitrión' (2027)
+[movies] Saltado porque no es estreno 2026: Un museo sueco reclama los daños de su barco tras el rodaje de 'La Odisea': "Por supuesto que Universal puede permitirse estos 6.000 dólares" (2027)
+[movies] Saltado porque no es estreno 2026: Clint Eastwood: "No hay ninguna razón en el mundo por la que la gente deba salir y pagar por cosas que pueden ver en casa en la televisión" (2027)
+[movies] Saltado porque no es estreno 2026: Acaba de llegar a Netflix la película que le dio a Steve Spielebrg "la lección más importante" de su carrera: para muchos, la peor que ha hecho (2027)
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: La película de aventuras definitiva de la década de los 2000 (2000)
@@ -16,13 +17,18 @@ Fecha UTC: 2026-07-24T10:28:25.138440+00:00
 [movies] Saltado noticia no apta para películas: Josep Pedrerol se despide de 'El Chiringuito' en Atresmedia: "Nos vemos en la tele"
 [movies] Saltado noticia no apta para películas: Ha pasado un mes del estreno de 'AlaZ' en 'Pasapalabra', pero seguimos descubriendo sus normas
 [movies] Saltado noticia no apta para películas: Tras 21 entregas, Octavio es eliminado de 'Saber y ganar' sin posibilidad de concursar en los especiales: "¡Qué lástima!"
-[movies] Saltado porque no es estreno 2026: Telecinco entrevista a la joven que afirma que Chenoa tiene a su perra desaparecida: "Antes lo he intentado hacer por la vía privada" (2024)
-[movies] Candidatos encontrados: 38 | Límite: 1
-[IA] Probando proveedor openai: El mensaje
+[movies] Saltado noticia no apta para películas: 'Operación Triunfo USA' vive la primera expulsión disciplinaria de la historia del formato: "Hay que entender el respeto y las reglas"
+[movies] Saltado noticia no apta para películas: Carlos Latre anuncia que se marcha de Mediaset tras 'Got Talent': "Finaliza mi contrato y mi colaboración"
+[movies] Saltado noticia no apta para películas: El barrio madrileño en el que Juan Carlos Rivero pasó su infancia: "Vivía en Almendrales, Usera. Jugábamos al fútbol en el barro"
+[movies] Saltado noticia no apta para películas: Por qué Nacho Abad no presenta 'En boca de todos': Este será el día que volverá al programa de Cuatro
+[movies] Candidatos encontrados: 33 | Límite: 1
+[YouTube] No se encontró tráiler confiable para Hijos de sangre y hueso
+[movies] Saltado porque no tiene tráiler confiable: Hijos de sangre y hueso
+[IA] Probando proveedor openai: Insaciable
 [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
-[IA] Probando proveedor mistral: El mensaje
+[IA] Probando proveedor mistral: Insaciable
 [IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/el-mensaje-un-drama-argentino-con-magia-y-crudeza-en-el-cine-2026-07-24-c11b3b.md
+[OK] Publicado: src/content/blog/insaciable-el-terror-oculto-tras-la-obsesion-por-el-fisico-2026-07-24-735770.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
