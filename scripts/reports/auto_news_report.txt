@@ -1,15 +1,12 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-24T17:48:49.516144+00:00
+Fecha UTC: 2026-07-24T21:18:44.979397+00:00
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
-[movies] Saltado noticia no apta para películas: La increíble historia real de Bouna Ndiaye y Jérémy Medjana, dos franceses que llegaron a la NBA desde la nada
 [movies] Saltado porque no es estreno 2026: Paul Verhoeven (88 años), sobre el género que definió su carrera: "No soy nada fan de la ciencia ficción. Para ser sincero, la odio" (2021)
 [movies] Saltado porque no es estreno 2026: 58 años después, el final de este 'western' amado por Tarantino sigue causando una increíble impresión (2001)
 [movies] Saltado noticia no apta para películas: Eduard Fernández, actor: "Cuando pones un pepino en vinagre, muchas veces acaba siendo un pepinillo y un pepinillo nunca vuelve a ser un pepino"
-[movies] Saltado noticia no apta para películas: "Tenemos que tratarles como lo que es: 'nos los queremos quitar de encima": qué pasa cuando dos 'haters' de los niños se convierten en padres de la noche a la mañana
 [movies] Saltado porque no es estreno 2026: Arnold Schwarzenegger despidió a Clint Eastwood en 2008: "Voy a seguir en el mundo del cine, haciendo lo mismo que he estado haciendo" (2008)
 [movies] Saltado porque no es estreno 2026: La nueva película de Brad Pitt es un thriller de supervivencia que ya tiene a todos rezando por su perro: solo 2 meses para su estreno en cines (2025)
 [movies] Saltado noticia no apta para películas: Clint Eastwood: "No hay ninguna razón en el mundo por la que la gente deba salir y pagar por cosas que pueden ver en casa en la televisión"
-[movies] Saltado noticia no apta para películas: Tras 'La Odisea' y 'Spider-Man: Brand New Day', Tom Holland tiene un nuevo proyecto: un biopic que le emociona y da pánico a partes iguales
 [movies] Saltado porque no es estreno 2026: El lujoso ático de Málaga que todo el mundo sabe que es de Antonio Banderas: 500 metros cuadrados con vistas panorámicas y una terraza con piscina (2021)
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
@@ -22,10 +19,10 @@ Fecha UTC: 2026-07-24T17:48:49.516144+00:00
 [movies] Saltado noticia no apta para películas: 'Operación Triunfo USA' vive la primera expulsión disciplinaria de la historia del formato: "Hay que entender el respeto y las reglas"
 [movies] Saltado noticia no apta para películas: Carlos Latre anuncia que se marcha de Mediaset tras 'Got Talent': "Finaliza mi contrato y mi colaboración"
 [movies] Saltado noticia no apta para películas: El barrio madrileño en el que Juan Carlos Rivero pasó su infancia: "Vivía en Almendrales, Usera. Jugábamos al fútbol en el barro"
-[movies] Candidatos encontrados: 32 | Límite: 1
-[IA] Probando proveedor gemini: Jumbo
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/jumbo-la-animacion-que-abordara-el-bullying-en-cines-en-2026-2026-07-24-2f2d5f.md
+[movies] Candidatos encontrados: 36 | Límite: 1
+[IA] Probando proveedor groq: La danza del león: Maestros del combate
+[IA] Artículo generado con groq
+[OK] Publicado: src/content/blog/la-danza-del-leon-maestros-del-combate-2026-07-24-aa2ee0.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
