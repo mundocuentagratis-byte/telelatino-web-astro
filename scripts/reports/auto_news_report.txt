@@ -1,27 +1,32 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-25T06:28:03.946369+00:00
+Fecha UTC: 2026-07-25T09:59:31.943911+00:00
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
+[movies] Saltado porque no es estreno 2026: La increíble historia real de Bouna Ndiaye y Jérémy Medjana, dos franceses que llegaron a la NBA desde la nada (2027)
+[movies] Saltado porque no es estreno 2026: Bob Keller, veterano militar: "Aunque las escenas de 'Rambo' puedan parecer extrañas es 100% legítimo. Le doy un 9'5" (2027)
 [movies] Saltado porque no es estreno 2026: Paul Verhoeven (88 años), sobre el género que definió su carrera: "No soy nada fan de la ciencia ficción. Para ser sincero, la odio" (2021)
 [movies] Saltado porque no es estreno 2026: 58 años después, el final de este 'western' amado por Tarantino sigue causando una increíble impresión (2001)
-[movies] Saltado porque no es estreno 2026: Arnold Schwarzenegger despidió a Clint Eastwood en 2008: "Voy a seguir en el mundo del cine, haciendo lo mismo que he estado haciendo" (2008)
+[movies] Saltado porque no es estreno 2026: Eduard Fernández, actor: "Cuando pones un pepino en vinagre, muchas veces acaba siendo un pepinillo y un pepinillo nunca vuelve a ser un pepino" (2027)
+[movies] Saltado porque no es estreno 2026: "Tenemos que tratarles como lo que es: 'nos los queremos quitar de encima": qué pasa cuando dos 'haters' de los niños se convierten en padres de la noche a la mañana (2027)
+[movies] Saltado porque no es estreno 2026: Arnold Schwarzenegger despidió a Clint Eastwood en 2008: "Voy a seguir en el mundo del cine, haciendo lo mismo que he estado haciendo" (2027)
 [movies] Saltado porque no es estreno 2026: La nueva película de Brad Pitt es un thriller de supervivencia que ya tiene a todos rezando por su perro: solo 2 meses para su estreno en cines (2025)
-[movies] Saltado noticia no apta para películas: Un museo sueco reclama los daños de su barco tras el rodaje de 'La Odisea': "Por supuesto que Universal puede permitirse estos 6.000 dólares"
+[movies] Saltado noticia no apta para películas: "En el primer ensayo que hicimos con Emma Suárez y Willem Dafoe en la semana previa se me quitaron todos los miedos": llega a los cines 'El anfitrión'
+[movies] Saltado porque no es estreno 2026: Un museo sueco reclama los daños de su barco tras el rodaje de 'La Odisea': "Por supuesto que Universal puede permitirse estos 6.000 dólares" (2027)
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: La película de aventuras definitiva de la década de los 2000 (2000)
+[movies] Saltado noticia no apta para películas: Tras 21 entregas, Octavio es eliminado de 'Saber y ganar' sin posibilidad de concursar en los especiales: "¡Qué lástima!"
 [movies] Saltado noticia no apta para películas: Josep Pedrerol se despide de 'El Chiringuito' en Atresmedia: "Nos vemos en la tele"
 [movies] Saltado noticia no apta para películas: Ha pasado un mes del estreno de 'AlaZ' en 'Pasapalabra', pero seguimos descubriendo sus normas
 [movies] Saltado noticia no apta para películas: 13 años después, Josep Pedrerol abandona Atresmedia y ya tiene nuevo destino: "Entenderéis que por respeto no digamos dónde estaremos"
-[movies] Saltado noticia no apta para películas: Tras 21 entregas, Octavio es eliminado de 'Saber y ganar' sin posibilidad de concursar en los especiales: "¡Qué lástima!"
 [movies] Saltado noticia no apta para películas: 'Rueda la letra', el nuevo concurso de Mediaset que incorporará 'El Rosco': Este es el presentador escogido (y no es Christian Gálvez)
 [movies] Saltado noticia no apta para películas: 'Operación Triunfo USA' vive la primera expulsión disciplinaria de la historia del formato: "Hay que entender el respeto y las reglas"
 [movies] Saltado noticia no apta para películas: Carlos Latre anuncia que se marcha de Mediaset tras 'Got Talent': "Finaliza mi contrato y mi colaboración"
 [movies] Saltado noticia no apta para películas: El barrio madrileño en el que Juan Carlos Rivero pasó su infancia: "Vivía en Almendrales, Usera. Jugábamos al fútbol en el barro"
-[movies] Candidatos encontrados: 38 | Límite: 1
-[movies] Saltado por tema bloqueado: Motor City
-[IA] Probando proveedor mistral: Rufus
-[IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/rufus-la-animacion-noruega-que-desafia-los-miedos-con-humor-y-aventura-2026-07-25-76288c.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[movies] Candidatos encontrados: 31 | Límite: 1
+[YouTube] No se encontró tráiler confiable para El milagro de los 19 millones de dólares: Guillermo del Toro logró que un modesto 'thriller' fantástico luciera como una superproducción y ganara a Christopher Nolan
+[movies] Saltado porque no tiene tráiler confiable: El milagro de los 19 millones de dólares: Guillermo del Toro logró que un modesto 'thriller' fantástico luciera como una superproducción y ganara a Christopher Nolan
+[YouTube] No se encontró tráiler confiable para Marlon Brando nunca perdonó a Burt Reynolds: "Es el epítome de todo lo repugnante del actor"
+[movies] Saltado porque no tiene tráiler confiable: Marlon Brando nunca perdonó a Burt Reynolds: "Es el epítome de todo lo repugnante del actor"
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
