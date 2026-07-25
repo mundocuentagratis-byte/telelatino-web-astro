@@ -1,13 +1,11 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-25T03:34:23.504864+00:00
+Fecha UTC: 2026-07-25T06:28:03.946369+00:00
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
 [movies] Saltado porque no es estreno 2026: Paul Verhoeven (88 años), sobre el género que definió su carrera: "No soy nada fan de la ciencia ficción. Para ser sincero, la odio" (2021)
 [movies] Saltado porque no es estreno 2026: 58 años después, el final de este 'western' amado por Tarantino sigue causando una increíble impresión (2001)
-[movies] Saltado noticia no apta para películas: Eduard Fernández, actor: "Cuando pones un pepino en vinagre, muchas veces acaba siendo un pepinillo y un pepinillo nunca vuelve a ser un pepino"
 [movies] Saltado porque no es estreno 2026: Arnold Schwarzenegger despidió a Clint Eastwood en 2008: "Voy a seguir en el mundo del cine, haciendo lo mismo que he estado haciendo" (2008)
 [movies] Saltado porque no es estreno 2026: La nueva película de Brad Pitt es un thriller de supervivencia que ya tiene a todos rezando por su perro: solo 2 meses para su estreno en cines (2025)
-[movies] Saltado noticia no apta para películas: Clint Eastwood: "No hay ninguna razón en el mundo por la que la gente deba salir y pagar por cosas que pueden ver en casa en la televisión"
-[movies] Saltado porque no es estreno 2026: El lujoso ático de Málaga que todo el mundo sabe que es de Antonio Banderas: 500 metros cuadrados con vistas panorámicas y una terraza con piscina (2021)
+[movies] Saltado noticia no apta para películas: Un museo sueco reclama los daños de su barco tras el rodaje de 'La Odisea': "Por supuesto que Universal puede permitirse estos 6.000 dólares"
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: La película de aventuras definitiva de la década de los 2000 (2000)
@@ -19,13 +17,11 @@ Fecha UTC: 2026-07-25T03:34:23.504864+00:00
 [movies] Saltado noticia no apta para películas: 'Operación Triunfo USA' vive la primera expulsión disciplinaria de la historia del formato: "Hay que entender el respeto y las reglas"
 [movies] Saltado noticia no apta para películas: Carlos Latre anuncia que se marcha de Mediaset tras 'Got Talent': "Finaliza mi contrato y mi colaboración"
 [movies] Saltado noticia no apta para películas: El barrio madrileño en el que Juan Carlos Rivero pasó su infancia: "Vivía en Almendrales, Usera. Jugábamos al fútbol en el barro"
-[movies] Candidatos encontrados: 36 | Límite: 1
-[movies] Saltado por tema bloqueado: La mujer de la fila
-[IA] Probando proveedor openai: La última travesía
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
-[IA] Probando proveedor mistral: La última travesía
+[movies] Candidatos encontrados: 38 | Límite: 1
+[movies] Saltado por tema bloqueado: Motor City
+[IA] Probando proveedor mistral: Rufus
 [IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/la-ultima-travesia-una-historia-de-humanidad-en-el-mediterraneo-2026-07-25-32edee.md
+[OK] Publicado: src/content/blog/rufus-la-animacion-noruega-que-desafia-los-miedos-con-humor-y-aventura-2026-07-25-76288c.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
