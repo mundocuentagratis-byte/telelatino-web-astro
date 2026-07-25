@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-25T17:13:11.582321+00:00
+Fecha UTC: 2026-07-25T21:07:04.321616+00:00
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
 [movies] Saltado porque no es estreno 2026: La escena eliminada de 'Spider-man: No Way Home' que traía de vuelta a Matt Murdock con un guiño a la 'Daredevil' original (2003)
 [movies] Saltado noticia no apta para películas: Quentin Tarantino tuvo que renunciar a la precuela de 'Pulp Fiction': la película de los hermanos Vega que el tiempo arruinó
@@ -17,12 +17,6 @@ Fecha UTC: 2026-07-25T17:13:11.582321+00:00
 [movies] Saltado noticia no apta para películas: 'Rueda la letra', el nuevo concurso de Mediaset que incorporará 'El Rosco': Este es el presentador escogido (y no es Christian Gálvez)
 [movies] Saltado noticia no apta para películas: 'Operación Triunfo USA' vive la primera expulsión disciplinaria de la historia del formato: "Hay que entender el respeto y las reglas"
 [movies] Candidatos encontrados: 37 | Límite: 1
-[YouTube] No se encontró tráiler confiable para En 1995 Steven Spielberg puso en su sitio al director de 'Twister' sin ni siquiera bajar del avión: "Estuvo ladrándole unos 15 minutos y volvió a subir"
-[movies] Saltado porque no tiene tráiler confiable: En 1995 Steven Spielberg puso en su sitio al director de 'Twister' sin ni siquiera bajar del avión: "Estuvo ladrándole unos 15 minutos y volvió a subir"
-[YouTube] No se encontró tráiler confiable para Es una de las mejores escenas del cine, pero ¿por qué Luke nunca puso en duda lo que Darth Vader le dijo en 'El imperio contraataca'?
-[movies] Saltado porque no tiene tráiler confiable: Es una de las mejores escenas del cine, pero ¿por qué Luke nunca puso en duda lo que Darth Vader le dijo en 'El imperio contraataca'?
-[YouTube] No se encontró tráiler confiable para Jessie tiene un agujero de guion gigantesco en 'Toy Story 5' que es imposible que no notes la próxima vez que la veas
-[movies] Saltado porque no tiene tráiler confiable: Jessie tiene un agujero de guion gigantesco en 'Toy Story 5' que es imposible que no notes la próxima vez que la veas
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
