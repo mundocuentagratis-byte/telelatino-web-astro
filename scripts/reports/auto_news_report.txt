@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-24T21:18:44.979397+00:00
+Fecha UTC: 2026-07-25T03:34:23.504864+00:00
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
 [movies] Saltado porque no es estreno 2026: Paul Verhoeven (88 años), sobre el género que definió su carrera: "No soy nada fan de la ciencia ficción. Para ser sincero, la odio" (2021)
 [movies] Saltado porque no es estreno 2026: 58 años después, el final de este 'western' amado por Tarantino sigue causando una increíble impresión (2001)
@@ -11,18 +11,21 @@ Fecha UTC: 2026-07-24T21:18:44.979397+00:00
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: La película de aventuras definitiva de la década de los 2000 (2000)
-[movies] Saltado noticia no apta para películas: 13 años después, Josep Pedrerol abandona Atresmedia y ya tiene nuevo destino: "Entenderéis que por respeto no digamos dónde estaremos"
 [movies] Saltado noticia no apta para películas: Josep Pedrerol se despide de 'El Chiringuito' en Atresmedia: "Nos vemos en la tele"
 [movies] Saltado noticia no apta para películas: Ha pasado un mes del estreno de 'AlaZ' en 'Pasapalabra', pero seguimos descubriendo sus normas
+[movies] Saltado noticia no apta para películas: 13 años después, Josep Pedrerol abandona Atresmedia y ya tiene nuevo destino: "Entenderéis que por respeto no digamos dónde estaremos"
 [movies] Saltado noticia no apta para películas: Tras 21 entregas, Octavio es eliminado de 'Saber y ganar' sin posibilidad de concursar en los especiales: "¡Qué lástima!"
 [movies] Saltado noticia no apta para películas: 'Rueda la letra', el nuevo concurso de Mediaset que incorporará 'El Rosco': Este es el presentador escogido (y no es Christian Gálvez)
 [movies] Saltado noticia no apta para películas: 'Operación Triunfo USA' vive la primera expulsión disciplinaria de la historia del formato: "Hay que entender el respeto y las reglas"
 [movies] Saltado noticia no apta para películas: Carlos Latre anuncia que se marcha de Mediaset tras 'Got Talent': "Finaliza mi contrato y mi colaboración"
 [movies] Saltado noticia no apta para películas: El barrio madrileño en el que Juan Carlos Rivero pasó su infancia: "Vivía en Almendrales, Usera. Jugábamos al fútbol en el barro"
 [movies] Candidatos encontrados: 36 | Límite: 1
-[IA] Probando proveedor groq: La danza del león: Maestros del combate
-[IA] Artículo generado con groq
-[OK] Publicado: src/content/blog/la-danza-del-leon-maestros-del-combate-2026-07-24-aa2ee0.md
+[movies] Saltado por tema bloqueado: La mujer de la fila
+[IA] Probando proveedor openai: La última travesía
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+[IA] Probando proveedor mistral: La última travesía
+[IA] Artículo generado con mistral
+[OK] Publicado: src/content/blog/la-ultima-travesia-una-historia-de-humanidad-en-el-mediterraneo-2026-07-25-32edee.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
