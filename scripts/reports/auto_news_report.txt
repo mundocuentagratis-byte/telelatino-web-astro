@@ -1,10 +1,10 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-25T13:58:49.648503+00:00
+Fecha UTC: 2026-07-25T17:13:11.582321+00:00
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
 [movies] Saltado porque no es estreno 2026: La escena eliminada de 'Spider-man: No Way Home' que traía de vuelta a Matt Murdock con un guiño a la 'Daredevil' original (2003)
-[movies] Saltado noticia no apta para películas: En 1995 Steven Spielberg puso en su sitio al director de 'Twister' sin ni siquiera bajar del avión: "Estuvo ladrándole unos 15 minutos y volvió a subir"
+[movies] Saltado noticia no apta para películas: Quentin Tarantino tuvo que renunciar a la precuela de 'Pulp Fiction': la película de los hermanos Vega que el tiempo arruinó
+[movies] Saltado noticia no apta para películas: Bob Keller, veterano militar: "Aunque las escenas de 'Rambo' puedan parecer extrañas es 100% legítimo. Le doy un 9'5"
 [movies] Saltado porque no es estreno 2026: Paul Verhoeven (88 años), sobre el género que definió su carrera: "No soy nada fan de la ciencia ficción. Para ser sincero, la odio" (2021)
-[movies] Saltado porque no es estreno 2026: 58 años después, el final de este 'western' amado por Tarantino sigue causando una increíble impresión (2001)
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: La película de aventuras definitiva de la década de los 2000 (2000)
@@ -16,15 +16,13 @@ Fecha UTC: 2026-07-25T13:58:49.648503+00:00
 [movies] Saltado noticia no apta para películas: Quién es Carmen Corazzini, la presentadora italiana que presenta 'Informativos Telecinco Fin de semana' tras la marcha de María Casado
 [movies] Saltado noticia no apta para películas: 'Rueda la letra', el nuevo concurso de Mediaset que incorporará 'El Rosco': Este es el presentador escogido (y no es Christian Gálvez)
 [movies] Saltado noticia no apta para películas: 'Operación Triunfo USA' vive la primera expulsión disciplinaria de la historia del formato: "Hay que entender el respeto y las reglas"
-[movies] Candidatos encontrados: 36 | Límite: 1
-[YouTube] No se encontró tráiler confiable para Bob Keller, veterano militar: "Aunque las escenas de 'Rambo' puedan parecer extrañas es 100% legítimo. Le doy un 9'5"
-[movies] Saltado porque no tiene tráiler confiable: Bob Keller, veterano militar: "Aunque las escenas de 'Rambo' puedan parecer extrañas es 100% legítimo. Le doy un 9'5"
-[YouTube] No se encontró tráiler confiable para Patricia quería ser actriz, pero apenas salía en cine y televisión salvo que le llamase su padre: “La protagonista lo hizo bastante bien”
-[movies] Saltado porque no tiene tráiler confiable: Patricia quería ser actriz, pero apenas salía en cine y televisión salvo que le llamase su padre: “La protagonista lo hizo bastante bien”
-[YouTube] No se encontró tráiler confiable para Por su 40 cumpleaños, James Cameron fue a conocer a su ídolo: este sólo quería hablar de cómo hizo su clásico con Schwarzenegger
-[movies] Saltado porque no tiene tráiler confiable: Por su 40 cumpleaños, James Cameron fue a conocer a su ídolo: este sólo quería hablar de cómo hizo su clásico con Schwarzenegger
-[YouTube] No se encontró tráiler confiable para Quentin Tarantino tuvo que renunciar a la precuela de 'Pulp Fiction': la película de los hermanos Vega que el tiempo arruinó
-[movies] Saltado porque no tiene tráiler confiable: Quentin Tarantino tuvo que renunciar a la precuela de 'Pulp Fiction': la película de los hermanos Vega que el tiempo arruinó
+[movies] Candidatos encontrados: 37 | Límite: 1
+[YouTube] No se encontró tráiler confiable para En 1995 Steven Spielberg puso en su sitio al director de 'Twister' sin ni siquiera bajar del avión: "Estuvo ladrándole unos 15 minutos y volvió a subir"
+[movies] Saltado porque no tiene tráiler confiable: En 1995 Steven Spielberg puso en su sitio al director de 'Twister' sin ni siquiera bajar del avión: "Estuvo ladrándole unos 15 minutos y volvió a subir"
+[YouTube] No se encontró tráiler confiable para Es una de las mejores escenas del cine, pero ¿por qué Luke nunca puso en duda lo que Darth Vader le dijo en 'El imperio contraataca'?
+[movies] Saltado porque no tiene tráiler confiable: Es una de las mejores escenas del cine, pero ¿por qué Luke nunca puso en duda lo que Darth Vader le dijo en 'El imperio contraataca'?
+[YouTube] No se encontró tráiler confiable para Jessie tiene un agujero de guion gigantesco en 'Toy Story 5' que es imposible que no notes la próxima vez que la veas
+[movies] Saltado porque no tiene tráiler confiable: Jessie tiene un agujero de guion gigantesco en 'Toy Story 5' que es imposible que no notes la próxima vez que la veas
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
