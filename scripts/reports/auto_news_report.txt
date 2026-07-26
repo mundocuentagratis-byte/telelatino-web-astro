@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-25T21:07:04.321616+00:00
+Fecha UTC: 2026-07-26T03:51:04.543895+00:00
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
 [movies] Saltado porque no es estreno 2026: La escena eliminada de 'Spider-man: No Way Home' que traía de vuelta a Matt Murdock con un guiño a la 'Daredevil' original (2003)
 [movies] Saltado noticia no apta para películas: Quentin Tarantino tuvo que renunciar a la precuela de 'Pulp Fiction': la película de los hermanos Vega que el tiempo arruinó
@@ -11,12 +11,17 @@ Fecha UTC: 2026-07-25T21:07:04.321616+00:00
 [movies] Saltado noticia no apta para películas: Tras 21 entregas, Octavio es eliminado de 'Saber y ganar' sin posibilidad de concursar en los especiales: "¡Qué lástima!"
 [movies] Saltado noticia no apta para películas: Josep Pedrerol se despide de 'El Chiringuito' en Atresmedia: "Nos vemos en la tele"
 [movies] Saltado noticia no apta para películas: Ha pasado un mes del estreno de 'AlaZ' en 'Pasapalabra', pero seguimos descubriendo sus normas
-[movies] Saltado noticia no apta para películas: 13 años después, Josep Pedrerol abandona Atresmedia y ya tiene nuevo destino: "Entenderéis que por respeto no digamos dónde estaremos"
+[movies] Saltado porque no es estreno 2026: La marisquería de Benidorm que adaptó los consejos de 'Pesadilla en la cocina' y ahora triunfa: "Mereció la pena" (2025)
 [movies] Saltado noticia no apta para películas: Qué fue de 'Confianza ciega', el programa cuyo único premio era saber si tu pareja te era fiel
 [movies] Saltado noticia no apta para películas: Quién es Carmen Corazzini, la presentadora italiana que presenta 'Informativos Telecinco Fin de semana' tras la marcha de María Casado
 [movies] Saltado noticia no apta para películas: 'Rueda la letra', el nuevo concurso de Mediaset que incorporará 'El Rosco': Este es el presentador escogido (y no es Christian Gálvez)
 [movies] Saltado noticia no apta para películas: 'Operación Triunfo USA' vive la primera expulsión disciplinaria de la historia del formato: "Hay que entender el respeto y las reglas"
 [movies] Candidatos encontrados: 37 | Límite: 1
-[movies] Publicados: 0
-Total películas publicadas: 0
+[IA] Probando proveedor gemini: La otra madre
+[IA] gemini falló (error): El cuerpo generado es demasiado corto o vacío
+[IA] Probando proveedor groq: La otra madre
+[IA] Artículo generado con groq
+[OK] Publicado: src/content/blog/la-otra-madre-un-thriller-de-terror-2026-07-26-1765da.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
