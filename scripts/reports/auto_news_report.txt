@@ -1,10 +1,14 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-26T17:13:24.213420+00:00
+Fecha UTC: 2026-07-26T21:09:40.199917+00:00
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
+[movies] Saltado noticia no apta para películas: La increíble historia real de Bouna Ndiaye y Jérémy Medjana, dos franceses que llegaron a la NBA desde la nada
+[movies] Saltado noticia no apta para películas: Esta indudable estrella de Hollywood protagonizó un cameo inexplicable: sin acreditar y casi sin diálogo
+[movies] Saltado noticia no apta para películas: Ha obsesionado a Ryan Gosling durante años, pero ahora por fin ha cambiado el detalle de 'La La Land' que odiaba
 [movies] Saltado porque no es estreno 2026: Es el actor más joven en ser nominado a un Oscar: 46 años después, ¿Qué fue de Justin Henry, el niño de 'Kramer contra Kramer'? (2000)
 [movies] Saltado noticia no apta para películas: Netflix está tan a tope con la IA que le ha dado 587 millones de dólares a Ben Affleck para conseguirla
 [movies] Saltado porque no es estreno 2026: "¿Esto está sucediendo de verdad?" Ryan Gosling cumple su sueño y reemplaza a Nicolas Cage en el papel de este superhéroe de Marvel (2022)
-[movies] Saltado porque no es estreno 2026: No te vas a sorprender cuando descubras cuál es la mejor película para niños que existe según nuestros usuarios (2000)
+[movies] Saltado noticia no apta para películas: Marvel tiene nuevo Pantera Negra y pone fecha de estreno a 'Black Panther III': la secuela llega con un cambio inédito en el UCM
+[movies] Saltado porque no es estreno 2026: No te vas a sorprender cuando descubras cuál es la mejor película para niños que existe según nuestros usuarios (2013)
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: La película de aventuras definitiva de la década de los 2000 (2000)
@@ -18,15 +22,9 @@ Fecha UTC: 2026-07-26T17:13:24.213420+00:00
 [movies] Saltado noticia no apta para películas: Mireia reconoce que no hubo negociaciones posibles tras 'OT': "Era esto o esto. Directamente te daban el disco"
 [movies] Saltado noticia no apta para películas: Qué fue de 'Confianza ciega', el programa cuyo único premio era saber si tu pareja te era fiel
 [movies] Saltado noticia no apta para películas: Quién es Carmen Corazzini, la presentadora italiana que presenta 'Informativos Telecinco Fin de semana' tras la marcha de María Casado
-[movies] Candidatos encontrados: 37 | Límite: 1
-[YouTube] No se encontró tráiler confiable para El año más devastador para el cine comenzó con una de las mejores películas de guerra de todos los tiempos: una obra maestra con actores de 'Juego de Tronos'
-[movies] Saltado porque no tiene tráiler confiable: El año más devastador para el cine comenzó con una de las mejores películas de guerra de todos los tiempos: una obra maestra con actores de 'Juego de Tronos'
-[YouTube] No se encontró tráiler confiable para El final de 'Insaciable', explicado: por qué esos últimos 40 segundos redefinen toda la película
-[movies] Saltado porque no tiene tráiler confiable: El final de 'Insaciable', explicado: por qué esos últimos 40 segundos redefinen toda la película
-[YouTube] No se encontró tráiler confiable para Ha obsesionado a Ryan Gosling durante años, pero ahora por fin ha cambiado el detalle de 'La La Land' que odiaba
-[movies] Saltado porque no tiene tráiler confiable: Ha obsesionado a Ryan Gosling durante años, pero ahora por fin ha cambiado el detalle de 'La La Land' que odiaba
-[YouTube] No se encontró tráiler confiable para Hace 52 años, usó la magia del cine para tocar el banjo con una mano: consiguió una de las escenas más recordadas del cine de aventuras y un éxito de ventas
-[movies] Saltado porque no tiene tráiler confiable: Hace 52 años, usó la magia del cine para tocar el banjo con una mano: consiguió una de las escenas más recordadas del cine de aventuras y un éxito de ventas
+[movies] Candidatos encontrados: 34 | Límite: 1
+[YouTube] No se encontró tráiler confiable para Dura solo unos minutos, pero esta escena conecta la saga' Transporter' con 'Collateral'
+[movies] Saltado porque no tiene tráiler confiable: Dura solo unos minutos, pero esta escena conecta la saga' Transporter' con 'Collateral'
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
