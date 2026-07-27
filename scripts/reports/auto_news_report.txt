@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-26T21:09:40.199917+00:00
+Fecha UTC: 2026-07-27T03:58:55.439698+00:00
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
 [movies] Saltado noticia no apta para películas: La increíble historia real de Bouna Ndiaye y Jérémy Medjana, dos franceses que llegaron a la NBA desde la nada
 [movies] Saltado noticia no apta para películas: Esta indudable estrella de Hollywood protagonizó un cameo inexplicable: sin acreditar y casi sin diálogo
@@ -23,8 +23,6 @@ Fecha UTC: 2026-07-26T21:09:40.199917+00:00
 [movies] Saltado noticia no apta para películas: Qué fue de 'Confianza ciega', el programa cuyo único premio era saber si tu pareja te era fiel
 [movies] Saltado noticia no apta para películas: Quién es Carmen Corazzini, la presentadora italiana que presenta 'Informativos Telecinco Fin de semana' tras la marcha de María Casado
 [movies] Candidatos encontrados: 34 | Límite: 1
-[YouTube] No se encontró tráiler confiable para Dura solo unos minutos, pero esta escena conecta la saga' Transporter' con 'Collateral'
-[movies] Saltado porque no tiene tráiler confiable: Dura solo unos minutos, pero esta escena conecta la saga' Transporter' con 'Collateral'
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
