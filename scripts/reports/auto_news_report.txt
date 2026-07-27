@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-27T17:52:55.207244+00:00
+Fecha UTC: 2026-07-27T21:22:09.771746+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (2039)
 [movies] Saltado porque no es estreno 2026: Ahora los suegros son ellos (2039)
 [movies] Saltado porque no es estreno 2026: La otra madre (2039)
@@ -14,6 +14,7 @@ Fecha UTC: 2026-07-27T17:52:55.207244+00:00
 [movies] Saltado porque no es estreno 2026: Toy Story 5 (2039)
 [movies] Saltado porque no es estreno 2026: Minions & Monsters (2039)
 [movies] Saltado porque no es estreno 2026: Posesión infernal: En llamas (2039)
+[movies] Saltado porque no es estreno 2026: Los peces ídolo moro no toleran estar encerrados y muchos no sobreviven en acuarios domésticos: 'Buscando a Nemo' lo retrata a la perfección (2039)
 [movies] Saltado porque no es estreno 2026: "Si De Niro puede hacerlo, yo también": Vincent D'Onofrio cuenta cómo fue contratado por Kubrick para su película de culto (2039)
 [movies] Saltado porque no es estreno 2026: 79 años, más de 100 películas, ningún Oscar: esta veterana estrella de Hollywood aparece en la película española más importante del año (2039)
 [movies] Saltado porque no es estreno 2026: Robin Williams prohibió el estreno de esta película de Disney hasta 2039: "Insistió en tener la última palabra" (2039)
@@ -22,9 +23,9 @@ Fecha UTC: 2026-07-27T17:52:55.207244+00:00
 [movies] Saltado porque no es estreno 2026: Últimos 5 días para ver en Netflix una de las películas de superhéroes más exitosas que ya nadie recuerda (2039)
 [movies] Saltado porque no es estreno 2026: Uno de los cara a cara más esperados de Marvel es el de Pedro Pascal y Robert Downey Jr. en 'Vengadores 5': "Todos somos responsables de nosotros mismos" (2039)
 [movies] Saltado porque no es estreno 2026: Joel P. Christensen, editor de 'The Oxford Critical Guide to Homer's Odyssey': "Mi esposa tuvo que contenerme varias veces viendo 'La odisea" (2039)
+[movies] Saltado porque no es estreno 2026: “Tenía muchas ganas de participar, pero el estudio se opuso”: Harrison Ford lamenta desde hace 57 años que no le permitieran protagonizar esta película de culto (2039)
 [movies] Saltado porque no es estreno 2026: Dura solo unos minutos, pero esta escena conecta la saga' Transporter' con 'Collateral' (2039)
 [movies] Saltado porque no es estreno 2026: Esta indudable estrella de Hollywood protagonizó un cameo inexplicable: sin acreditar y casi sin diálogo (2039)
-[movies] Saltado porque no es estreno 2026: Ha obsesionado a Ryan Gosling durante años, pero ahora por fin ha cambiado el detalle de 'La La Land' que odiaba (2039)
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: La película de aventuras definitiva de la década de los 2000 (2000)
@@ -36,9 +37,7 @@ Fecha UTC: 2026-07-27T17:52:55.207244+00:00
 [movies] Saltado noticia no apta para películas: Susanna Griso (56 años): "En verano, todas las mañanas, puedo estar nadando 45 minutos o una hora"
 [movies] Saltado noticia no apta para películas: Mireia reconoce que no hubo negociaciones posibles tras 'OT': "Era esto o esto. Directamente te daban el disco"
 [movies] Saltado noticia no apta para películas: Qué fue de 'Confianza ciega', el programa cuyo único premio era saber si tu pareja te era fiel
-[movies] Candidatos encontrados: 21 | Límite: 1
-[YouTube] No se encontró tráiler confiable para Vuelco en la taquilla de 2026: Una de las mejores películas de aventuras del año arrebata el primer puesto
-[movies] Saltado porque no tiene tráiler confiable: Vuelco en la taquilla de 2026: Una de las mejores películas de aventuras del año arrebata el primer puesto
+[movies] Candidatos encontrados: 20 | Límite: 1
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
