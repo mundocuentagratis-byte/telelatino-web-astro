@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-27T15:09:40.459893+00:00
+Fecha UTC: 2026-07-27T17:52:55.207244+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (2039)
 [movies] Saltado porque no es estreno 2026: Ahora los suegros son ellos (2039)
 [movies] Saltado porque no es estreno 2026: La otra madre (2039)
@@ -14,31 +14,31 @@ Fecha UTC: 2026-07-27T15:09:40.459893+00:00
 [movies] Saltado porque no es estreno 2026: Toy Story 5 (2039)
 [movies] Saltado porque no es estreno 2026: Minions & Monsters (2039)
 [movies] Saltado porque no es estreno 2026: Posesión infernal: En llamas (2039)
+[movies] Saltado porque no es estreno 2026: "Si De Niro puede hacerlo, yo también": Vincent D'Onofrio cuenta cómo fue contratado por Kubrick para su película de culto (2039)
 [movies] Saltado porque no es estreno 2026: 79 años, más de 100 películas, ningún Oscar: esta veterana estrella de Hollywood aparece en la película española más importante del año (2039)
 [movies] Saltado porque no es estreno 2026: Robin Williams prohibió el estreno de esta película de Disney hasta 2039: "Insistió en tener la última palabra" (2039)
-[movies] Saltado noticia no apta para películas: Willem Dafoe ha impresionado a sus compañeros españoles en el rodaje de su última película: "Revienta cualquier tipo de jerarquía desde el minuto cero"
-[movies] Saltado noticia no apta para películas: Fue una de las grandes sorpresas del cine de aventuras y fantasía, pero su secuela está bloqueada: "Son películas caras de producir"
-[movies] Saltado noticia no apta para películas: Últimos 5 días para ver en Netflix una de las películas de superhéroes más exitosas que ya nadie recuerda
+[movies] Saltado porque no es estreno 2026: Willem Dafoe ha impresionado a sus compañeros españoles en el rodaje de su última película: "Revienta cualquier tipo de jerarquía desde el minuto cero" (2039)
+[movies] Saltado porque no es estreno 2026: Fue una de las grandes sorpresas del cine de aventuras y fantasía, pero su secuela está bloqueada: "Son películas caras de producir" (2039)
+[movies] Saltado porque no es estreno 2026: Últimos 5 días para ver en Netflix una de las películas de superhéroes más exitosas que ya nadie recuerda (2039)
 [movies] Saltado porque no es estreno 2026: Uno de los cara a cara más esperados de Marvel es el de Pedro Pascal y Robert Downey Jr. en 'Vengadores 5': "Todos somos responsables de nosotros mismos" (2039)
 [movies] Saltado porque no es estreno 2026: Joel P. Christensen, editor de 'The Oxford Critical Guide to Homer's Odyssey': "Mi esposa tuvo que contenerme varias veces viendo 'La odisea" (2039)
-[movies] Saltado porque no es estreno 2026: Vuelco en la taquilla de 2026: Una de las mejores películas de aventuras del año arrebata el primer puesto (2039)
-[movies] Saltado porque no es estreno 2026: En solo 15 minutos, ponte al día con todo lo que debes saber antes de ir a ver 'Spider-Man: Brand New Day' (2039)
-[movies] Saltado porque no es estreno 2026: “Tenía muchas ganas de participar, pero el estudio se opuso”: Harrison Ford lamenta desde hace 57 años que no le permitieran protagonizar esta película de culto (2039)
-[movies] Saltado noticia no apta para películas: Esta indudable estrella de Hollywood protagonizó un cameo inexplicable: sin acreditar y casi sin diálogo
-[movies] Saltado porque no es estreno 2026: El final de 'Insaciable', explicado: por qué esos últimos 40 segundos redefinen toda la película (2039)
-[movies] Saltado porque no es estreno 2026: El año más devastador para el cine comenzó con una de las mejores películas de guerra de todos los tiempos: una obra maestra con actores de 'Juego de Tronos' (2039)
+[movies] Saltado porque no es estreno 2026: Dura solo unos minutos, pero esta escena conecta la saga' Transporter' con 'Collateral' (2039)
+[movies] Saltado porque no es estreno 2026: Esta indudable estrella de Hollywood protagonizó un cameo inexplicable: sin acreditar y casi sin diálogo (2039)
+[movies] Saltado porque no es estreno 2026: Ha obsesionado a Ryan Gosling durante años, pero ahora por fin ha cambiado el detalle de 'La La Land' que odiaba (2039)
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: La película de aventuras definitiva de la década de los 2000 (2000)
 [movies] Saltado porque no es estreno 2026: El restaurante de Valencia al que no le sirvió aparecer en 'Pesadilla en la cocina': "No es una forma de ayudar a la gente" (2024)
 [movies] Saltado porque no es estreno 2026: El restaurante de la sierra madrileña que no consiguió salvar Chicote: cerró tres meses después de la emisión 'Pesadilla en la cocina' (2025)
+[movies] Saltado noticia no apta para películas: Tras 14 años en laSexta, esta conocida periodista de Atresmedia se macha de la cadena
 [movies] Saltado noticia no apta para películas: Concursé con mi pueblo en el nuevo 'Grand Prix' y la experiencia fue más dura de lo que esperaba
 [movies] Saltado noticia no apta para películas: La actriz de 'La que se avecina' que se sintió incómoda en 'La Resistencia': "No entendía nada, ni el humor"
 [movies] Saltado noticia no apta para películas: Susanna Griso (56 años): "En verano, todas las mañanas, puedo estar nadando 45 minutos o una hora"
 [movies] Saltado noticia no apta para películas: Mireia reconoce que no hubo negociaciones posibles tras 'OT': "Era esto o esto. Directamente te daban el disco"
 [movies] Saltado noticia no apta para películas: Qué fue de 'Confianza ciega', el programa cuyo único premio era saber si tu pareja te era fiel
-[movies] Saltado noticia no apta para películas: Quién es Carmen Corazzini, la presentadora italiana que presenta 'Informativos Telecinco Fin de semana' tras la marcha de María Casado
-[movies] Candidatos encontrados: 20 | Límite: 1
+[movies] Candidatos encontrados: 21 | Límite: 1
+[YouTube] No se encontró tráiler confiable para Vuelco en la taquilla de 2026: Una de las mejores películas de aventuras del año arrebata el primer puesto
+[movies] Saltado porque no tiene tráiler confiable: Vuelco en la taquilla de 2026: Una de las mejores películas de aventuras del año arrebata el primer puesto
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
