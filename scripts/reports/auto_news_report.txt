@@ -1,12 +1,10 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-27T03:58:55.439698+00:00
+Fecha UTC: 2026-07-27T07:47:30.229315+00:00
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
-[movies] Saltado noticia no apta para películas: La increíble historia real de Bouna Ndiaye y Jérémy Medjana, dos franceses que llegaron a la NBA desde la nada
-[movies] Saltado noticia no apta para películas: Esta indudable estrella de Hollywood protagonizó un cameo inexplicable: sin acreditar y casi sin diálogo
-[movies] Saltado noticia no apta para películas: Ha obsesionado a Ryan Gosling durante años, pero ahora por fin ha cambiado el detalle de 'La La Land' que odiaba
+[movies] Saltado porque no es estreno 2026: Dura solo unos minutos, pero esta escena conecta la saga' Transporter' con 'Collateral' (2002)
 [movies] Saltado porque no es estreno 2026: Es el actor más joven en ser nominado a un Oscar: 46 años después, ¿Qué fue de Justin Henry, el niño de 'Kramer contra Kramer'? (2000)
 [movies] Saltado noticia no apta para películas: Netflix está tan a tope con la IA que le ha dado 587 millones de dólares a Ben Affleck para conseguirla
-[movies] Saltado porque no es estreno 2026: "¿Esto está sucediendo de verdad?" Ryan Gosling cumple su sueño y reemplaza a Nicolas Cage en el papel de este superhéroe de Marvel (2022)
+[movies] Saltado porque no es estreno 2026: "¿Esto está sucediendo de verdad?" Ryan Gosling cumple su sueño y sustituye a Nicolas Cage en el papel de este superhéroe de Marvel (2022)
 [movies] Saltado noticia no apta para películas: Marvel tiene nuevo Pantera Negra y pone fecha de estreno a 'Black Panther III': la secuela llega con un cambio inédito en el UCM
 [movies] Saltado porque no es estreno 2026: No te vas a sorprender cuando descubras cuál es la mejor película para niños que existe según nuestros usuarios (2013)
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
@@ -22,7 +20,13 @@ Fecha UTC: 2026-07-27T03:58:55.439698+00:00
 [movies] Saltado noticia no apta para películas: Mireia reconoce que no hubo negociaciones posibles tras 'OT': "Era esto o esto. Directamente te daban el disco"
 [movies] Saltado noticia no apta para películas: Qué fue de 'Confianza ciega', el programa cuyo único premio era saber si tu pareja te era fiel
 [movies] Saltado noticia no apta para películas: Quién es Carmen Corazzini, la presentadora italiana que presenta 'Informativos Telecinco Fin de semana' tras la marcha de María Casado
-[movies] Candidatos encontrados: 34 | Límite: 1
+[movies] Candidatos encontrados: 37 | Límite: 1
+[YouTube] No se encontró tráiler confiable para En solo 15 minutos, ponte al día con todo lo que debes saber antes de ir a ver 'Spider-Man: Brand New Day'
+[movies] Saltado porque no tiene tráiler confiable: En solo 15 minutos, ponte al día con todo lo que debes saber antes de ir a ver 'Spider-Man: Brand New Day'
+[YouTube] No se encontró tráiler confiable para Esta indudable estrella de Hollywood protagonizó un cameo inexplicable: sin acreditar y casi sin diálogo
+[movies] Saltado porque no tiene tráiler confiable: Esta indudable estrella de Hollywood protagonizó un cameo inexplicable: sin acreditar y casi sin diálogo
+[YouTube] No se encontró tráiler confiable para “Tenía muchas ganas de participar, pero el estudio se opuso”: Harrison Ford lamenta desde hace 57 años que no le permitieran protagonizar esta película de culto
+[movies] Saltado porque no tiene tráiler confiable: “Tenía muchas ganas de participar, pero el estudio se opuso”: Harrison Ford lamenta desde hace 57 años que no le permitieran protagonizar esta película de culto
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
