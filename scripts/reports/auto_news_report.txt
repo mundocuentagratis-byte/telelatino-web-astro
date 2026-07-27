@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-27T07:47:30.229315+00:00
+Fecha UTC: 2026-07-27T11:36:48.464103+00:00
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
 [movies] Saltado porque no es estreno 2026: Dura solo unos minutos, pero esta escena conecta la saga' Transporter' con 'Collateral' (2002)
 [movies] Saltado porque no es estreno 2026: Es el actor más joven en ser nominado a un Oscar: 46 años después, ¿Qué fue de Justin Henry, el niño de 'Kramer contra Kramer'? (2000)
@@ -10,23 +10,17 @@ Fecha UTC: 2026-07-27T07:47:30.229315+00:00
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: La película de aventuras definitiva de la década de los 2000 (2000)
-[movies] Saltado noticia no apta para películas: Tras 21 entregas, Octavio es eliminado de 'Saber y ganar' sin posibilidad de concursar en los especiales: "¡Qué lástima!"
-[movies] Saltado noticia no apta para películas: Josep Pedrerol se despide de 'El Chiringuito' en Atresmedia: "Nos vemos en la tele"
-[movies] Saltado porque no es estreno 2026: El restaurante de Granada que triunfó tras 'Pesadilla en la cocina', pero que ahora está "cerrado temporalmente": un incendio acabó con todo (2024)
-[movies] Saltado noticia no apta para películas: Ha pasado un mes del estreno de 'AlaZ' en 'Pasapalabra', pero seguimos descubriendo sus normas
+[movies] Saltado porque no es estreno 2026: El restaurante de Valencia al que no le sirvió aparecer en 'Pesadilla en la cocina': "No es una forma de ayudar a la gente" (2024)
+[movies] Saltado porque no es estreno 2026: El restaurante de la sierra madrileña que no consiguió salvar Chicote: cerró tres meses después de la emisión 'Pesadilla en la cocina' (2025)
 [movies] Saltado noticia no apta para películas: Concursé con mi pueblo en el nuevo 'Grand Prix' y la experiencia fue más dura de lo que esperaba
 [movies] Saltado noticia no apta para películas: La actriz de 'La que se avecina' que se sintió incómoda en 'La Resistencia': "No entendía nada, ni el humor"
 [movies] Saltado noticia no apta para películas: Susanna Griso (56 años): "En verano, todas las mañanas, puedo estar nadando 45 minutos o una hora"
 [movies] Saltado noticia no apta para películas: Mireia reconoce que no hubo negociaciones posibles tras 'OT': "Era esto o esto. Directamente te daban el disco"
 [movies] Saltado noticia no apta para películas: Qué fue de 'Confianza ciega', el programa cuyo único premio era saber si tu pareja te era fiel
 [movies] Saltado noticia no apta para películas: Quién es Carmen Corazzini, la presentadora italiana que presenta 'Informativos Telecinco Fin de semana' tras la marcha de María Casado
-[movies] Candidatos encontrados: 37 | Límite: 1
-[YouTube] No se encontró tráiler confiable para En solo 15 minutos, ponte al día con todo lo que debes saber antes de ir a ver 'Spider-Man: Brand New Day'
-[movies] Saltado porque no tiene tráiler confiable: En solo 15 minutos, ponte al día con todo lo que debes saber antes de ir a ver 'Spider-Man: Brand New Day'
-[YouTube] No se encontró tráiler confiable para Esta indudable estrella de Hollywood protagonizó un cameo inexplicable: sin acreditar y casi sin diálogo
-[movies] Saltado porque no tiene tráiler confiable: Esta indudable estrella de Hollywood protagonizó un cameo inexplicable: sin acreditar y casi sin diálogo
-[YouTube] No se encontró tráiler confiable para “Tenía muchas ganas de participar, pero el estudio se opuso”: Harrison Ford lamenta desde hace 57 años que no le permitieran protagonizar esta película de culto
-[movies] Saltado porque no tiene tráiler confiable: “Tenía muchas ganas de participar, pero el estudio se opuso”: Harrison Ford lamenta desde hace 57 años que no le permitieran protagonizar esta película de culto
+[movies] Candidatos encontrados: 39 | Límite: 1
+[YouTube] No se encontró tráiler confiable para Tras 21 entregas, Octavio es eliminado de 'Saber y ganar' sin posibilidad de concursar en los especiales: "¡Qué lástima!"
+[movies] Saltado porque no tiene tráiler confiable: Tras 21 entregas, Octavio es eliminado de 'Saber y ganar' sin posibilidad de concursar en los especiales: "¡Qué lástima!"
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
