@@ -1,19 +1,10 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-28T14:32:07.567620+00:00
+Fecha UTC: 2026-07-28T17:45:01.274829+00:00
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
-[movies] Saltado porque no es estreno 2026: "Una auténtica obra maestra. Podría ver la trilogía una y otra vez": Jason Statham señala este clásico como una de las mejores películas que ha visto (2027)
-[movies] Saltado porque no es estreno 2026: La hija de Tom Cruise y Katie Holmes se quita el apellido de su padre: Los de Brad Pitt y Angelina Jolie también lo han hecho (2027)
-[movies] Saltado noticia no apta para películas: Tom Holland sobre 'Spider-Man: Brand New Day': “Incluso en tu momento más bajo, cuando te sientes más solo, nunca estás realmente solo”
 [movies] Saltado noticia no apta para películas: Nº1 en 67 países en tan solo 48 horas: la comedia de Netflix que la critica ha destrozado pero es la más vista en la plataforma
-[movies] Saltado noticia no apta para películas: Emily Wilson, una de las mayores expertas en 'La odisea', destroza la película de Christopher Nolan: "Me daría vergüenza haber escrito cualquier parte de este guion"
-[movies] Saltado porque no es estreno 2026: "Un genio criminal asombroso": creada 75 años antes, esta fascinante película inspiró a Christopher Nolan para crear al Joker (2027)
-[movies] Saltado porque no es estreno 2026: "Marvel ha hecho una película de verdad por tercera vez desde 2018": Primeras reacciones de 'Spider-Man 4' (2027)
-[movies] Saltado porque no es estreno 2026: 28 millones de euros: es el mayor éxito de taquilla en España en 2026 y también una de las películas más taquilleras de nuestra historia (2027)
-[movies] Saltado porque no es estreno 2026: 93 años, más de 60 películas, 1 Oscar: Uno de los mejores filmes de terror de todos los tiempos la convirtió en una estrella y 53 años después sigue en activo (2027)
-[movies] Saltado porque no es estreno 2026: Los peces ídolo moro no toleran estar encerrados y muchos no sobreviven en acuarios domésticos: 'Buscando a Nemo' lo retrata a la perfección (2027)
-[movies] Saltado noticia no apta para películas: "Si De Niro puede hacerlo, yo también": Vincent D'Onofrio cuenta cómo fue contratado por Kubrick para su película de culto
-[movies] Saltado porque no es estreno 2026: 79 años, más de 100 películas, ningún Oscar: esta veterana estrella de Hollywood aparece en la película española más importante del año (2027)
-[movies] Saltado porque no es estreno 2026: Robin Williams prohibió el estreno de esta película de Disney hasta 2039: "Insistió en tener la última palabra" (2039)
+[movies] Saltado porque no es estreno 2026: "Marvel ha hecho una película de verdad por tercera vez desde 2018": Primeras reacciones de 'Spider-Man 4' (2018)
+[movies] Saltado porque no es estreno 2026: 28 millones de euros: es el mayor éxito de taquilla en España en 2026 y también una de las películas más taquilleras de nuestra historia (2001)
+[movies] Saltado noticia no apta para películas: 93 años, más de 60 películas, 1 Oscar: Uno de los mejores filmes de terror de todos los tiempos la convirtió en una estrella y 53 años después sigue en activo
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: La película de aventuras definitiva de la década de los 2000 (2000)
@@ -25,7 +16,16 @@ Fecha UTC: 2026-07-28T14:32:07.567620+00:00
 [movies] Saltado noticia no apta para películas: Tras 14 años en laSexta, esta conocida periodista de Atresmedia se macha de la cadena
 [movies] Saltado noticia no apta para películas: Concursé con mi pueblo en el nuevo 'Grand Prix' y la experiencia fue más dura de lo que esperaba
 [movies] Saltado noticia no apta para películas: La actriz de 'La que se avecina' que se sintió incómoda en 'La Resistencia': "No entendía nada, ni el humor"
-[movies] Candidatos encontrados: 31 | Límite: 1
-[movies] Publicados: 0
-Total películas publicadas: 0
+[movies] Candidatos encontrados: 41 | Límite: 1
+[YouTube] No se encontró tráiler confiable para "La película es única": Harrison Ford está orgulloso de este emocionante thriller bélico, que fue injustamente ignorado en los cines
+[movies] Saltado porque no tiene tráiler confiable: "La película es única": Harrison Ford está orgulloso de este emocionante thriller bélico, que fue injustamente ignorado en los cines
+[YouTube] No se encontró tráiler confiable para "Si De Niro puede hacerlo, yo también": Vincent D'Onofrio cuenta cómo fue contratado por Kubrick para su película de culto
+[movies] Saltado porque no tiene tráiler confiable: "Si De Niro puede hacerlo, yo también": Vincent D'Onofrio cuenta cómo fue contratado por Kubrick para su película de culto
+[YouTube] No se encontró tráiler confiable para "Un genio criminal asombroso": creada 75 años antes, esta fascinante película inspiró a Christopher Nolan para crear al Joker
+[movies] Saltado porque no tiene tráiler confiable: "Un genio criminal asombroso": creada 75 años antes, esta fascinante película inspiró a Christopher Nolan para crear al Joker
+[IA] Probando proveedor gemini: "Una auténtica obra maestra. Podría ver la trilogía una y otra vez": Jason Stath
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/el-clasico-inmortal-jason-statham-rinde-homenaje-a-su-obra-maestra-favorita-2026-07-28-de0a13.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
