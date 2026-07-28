@@ -1,14 +1,14 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-27T21:22:09.771746+00:00
+Fecha UTC: 2026-07-28T03:30:44.188971+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (2039)
-[movies] Saltado porque no es estreno 2026: Ahora los suegros son ellos (2039)
 [movies] Saltado porque no es estreno 2026: La otra madre (2039)
-[movies] Saltado porque no es estreno 2026: En el corazón de la bestia (2039)
-[movies] Saltado porque no es estreno 2026: Yo soy Rocky (2039)
 [movies] Saltado porque no es estreno 2026: Hijos de sangre y hueso (2039)
+[movies] Saltado porque no es estreno 2026: Yo soy Rocky (2039)
+[movies] Saltado porque no es estreno 2026: En el corazón de la bestia (2039)
+[movies] Saltado porque no es estreno 2026: Ahora los suegros son ellos (2039)
 [movies] Saltado porque no es estreno 2026: Digger (2039)
 [movies] Saltado porque no es estreno 2026: La bola negra (2039)
-[movies] Saltado porque no es estreno 2026: El motín (2039)
+[movies] Saltado porque no es estreno 2026: La boca del diablo (2039)
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
 [movies] Saltado porque no es estreno 2026: Vaiana (2039)
 [movies] Saltado porque no es estreno 2026: Toy Story 5 (2039)
