@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-28T03:30:44.188971+00:00
+Fecha UTC: 2026-07-28T06:37:45.894553+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (2039)
 [movies] Saltado porque no es estreno 2026: La otra madre (2039)
 [movies] Saltado porque no es estreno 2026: Hijos de sangre y hueso (2039)
@@ -22,10 +22,9 @@ Fecha UTC: 2026-07-28T03:30:44.188971+00:00
 [movies] Saltado porque no es estreno 2026: Fue una de las grandes sorpresas del cine de aventuras y fantasía, pero su secuela está bloqueada: "Son películas caras de producir" (2039)
 [movies] Saltado porque no es estreno 2026: Últimos 5 días para ver en Netflix una de las películas de superhéroes más exitosas que ya nadie recuerda (2039)
 [movies] Saltado porque no es estreno 2026: Uno de los cara a cara más esperados de Marvel es el de Pedro Pascal y Robert Downey Jr. en 'Vengadores 5': "Todos somos responsables de nosotros mismos" (2039)
-[movies] Saltado porque no es estreno 2026: Joel P. Christensen, editor de 'The Oxford Critical Guide to Homer's Odyssey': "Mi esposa tuvo que contenerme varias veces viendo 'La odisea" (2039)
+[movies] Saltado porque no es estreno 2026: En solo 15 minutos, ponte al día con todo lo que debes saber antes de ir a ver 'Spider-Man: Brand New Day' (2039)
 [movies] Saltado porque no es estreno 2026: “Tenía muchas ganas de participar, pero el estudio se opuso”: Harrison Ford lamenta desde hace 57 años que no le permitieran protagonizar esta película de culto (2039)
 [movies] Saltado porque no es estreno 2026: Dura solo unos minutos, pero esta escena conecta la saga' Transporter' con 'Collateral' (2039)
-[movies] Saltado porque no es estreno 2026: Esta indudable estrella de Hollywood protagonizó un cameo inexplicable: sin acreditar y casi sin diálogo (2039)
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: La película de aventuras definitiva de la década de los 2000 (2000)
@@ -38,6 +37,8 @@ Fecha UTC: 2026-07-28T03:30:44.188971+00:00
 [movies] Saltado noticia no apta para películas: Mireia reconoce que no hubo negociaciones posibles tras 'OT': "Era esto o esto. Directamente te daban el disco"
 [movies] Saltado noticia no apta para películas: Qué fue de 'Confianza ciega', el programa cuyo único premio era saber si tu pareja te era fiel
 [movies] Candidatos encontrados: 20 | Límite: 1
+[YouTube] No se encontró tráiler confiable para Joel P. Christensen, editor de 'The Oxford Critical Guide to Homer's Odyssey': "Mi esposa tuvo que contenerme varias veces viendo 'La odisea"
+[movies] Saltado porque no tiene tráiler confiable: Joel P. Christensen, editor de 'The Oxford Critical Guide to Homer's Odyssey': "Mi esposa tuvo que contenerme varias veces viendo 'La odisea"
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
