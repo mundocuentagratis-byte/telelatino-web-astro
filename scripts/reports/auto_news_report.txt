@@ -1,37 +1,23 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-28T21:19:42.050799+00:00
+Fecha UTC: 2026-07-29T03:33:53.704039+00:00
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
 [movies] Saltado noticia no apta para películas: "Una auténtica obra maestra. Podría ver la trilogía una y otra vez": Jason Statham señala este clásico como una de las mejores películas que ha visto
 [movies] Saltado noticia no apta para películas: Nº1 en 67 países en tan solo 48 horas: la comedia de Netflix que la critica ha destrozado pero es la más vista en la plataforma
 [movies] Saltado porque no es estreno 2026: "Marvel ha hecho una película de verdad por tercera vez desde 2018": Primeras reacciones de 'Spider-Man 4' (2018)
 [movies] Saltado porque no es estreno 2026: 28 millones de euros: es el mayor éxito de taquilla en España en 2026 y también una de las películas más taquilleras de nuestra historia (2001)
-[movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
+[movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: La película de aventuras definitiva de la década de los 2000 (2000)
 [movies] Saltado porque no es estreno 2026: El restaurante de Valencia al que no le sirvió aparecer en 'Pesadilla en la cocina': "No es una forma de ayudar a la gente" (2024)
 [movies] Saltado porque no es estreno 2026: El restaurante de la sierra madrileña que no consiguió salvar Chicote: cerró tres meses después de la emisión 'Pesadilla en la cocina' (2025)
+[movies] Saltado porque no es estreno 2026: El restaurante de Granada que triunfó tras 'Pesadilla en la cocina', pero que ahora está "cerrado temporalmente": un incendio acabó con todo (2024)
 [movies] Saltado noticia no apta para películas: Christian Gálvez volverá a presentar 'El Rosco', pero no en España
 [movies] Saltado noticia no apta para películas: La CNMC vuelve a multar a RTVE: 307.000 euros por "dos infracciones graves continuadas" en 'MasterChef'
 [movies] Saltado noticia no apta para películas: Laura Madrueño explica el motivo por el que decidió dejar de presentar 'Supervivientes': "Honduras no es mi casa"
 [movies] Saltado noticia no apta para películas: Tras 14 años en laSexta, esta conocida periodista de Atresmedia se macha de la cadena
 [movies] Saltado noticia no apta para películas: Concursé con mi pueblo en el nuevo 'Grand Prix' y la experiencia fue más dura de lo que esperaba
 [movies] Saltado noticia no apta para películas: La actriz de 'La que se avecina' que se sintió incómoda en 'La Resistencia': "No entendía nada, ni el humor"
-[movies] Candidatos encontrados: 42 | Límite: 1
-[YouTube] No se encontró tráiler confiable para 93 años, más de 60 películas, 1 Oscar: Uno de los mejores filmes de terror de todos los tiempos la convirtió en una estrella y 53 años después sigue en activo
-[movies] Saltado porque no tiene tráiler confiable: 93 años, más de 60 películas, 1 Oscar: Uno de los mejores filmes de terror de todos los tiempos la convirtió en una estrella y 53 años después sigue en activo
-[duplicado] Saltado por tema parecido: Emily Wilson, una de las mayores expertas en 'La odisea', destroza la película de Christopher Nolan: "Me daría vergüenza haber escrito cualquier parte de este guion" ~= La Odisea de Christopher Nolan: El Gran Estreno del Año
-[YouTube] No se encontró tráiler confiable para La hija de Tom Cruise y Katie Holmes se quita el apellido de su padre: Los de Brad Pitt y Angelina Jolie también lo han hecho
-[movies] Saltado porque no tiene tráiler confiable: La hija de Tom Cruise y Katie Holmes se quita el apellido de su padre: Los de Brad Pitt y Angelina Jolie también lo han hecho
-[YouTube] No se encontró tráiler confiable para Los peces ídolo moro no toleran estar encerrados y muchos no sobreviven en acuarios domésticos: 'Buscando a Nemo' lo retrata a la perfección
-[movies] Saltado porque no tiene tráiler confiable: Los peces ídolo moro no toleran estar encerrados y muchos no sobreviven en acuarios domésticos: 'Buscando a Nemo' lo retrata a la perfección
-[YouTube] No se encontró tráiler confiable para Oscar Wilde, poeta: "La experiencia no es más que el nombre que los hombres le dan a sus errores"
-[movies] Saltado porque no tiene tráiler confiable: Oscar Wilde, poeta: "La experiencia no es más que el nombre que los hombres le dan a sus errores"
-[YouTube] No se encontró tráiler confiable para Pasó siete años como oficial de operaciones antiterroristas de la CIA: ahora es uno de los autores de DC más conocidos
-[movies] Saltado porque no tiene tráiler confiable: Pasó siete años como oficial de operaciones antiterroristas de la CIA: ahora es uno de los autores de DC más conocidos
-[YouTube] No se encontró tráiler confiable para Tom Holland reconoce que algunas de sus películas son malas: "No deberías verlas porque son mierda"
-[movies] Saltado porque no tiene tráiler confiable: Tom Holland reconoce que algunas de sus películas son malas: "No deberías verlas porque son mierda"
-[YouTube] No se encontró tráiler confiable para Tom Holland sobre 'Spider-Man: Brand New Day': “Incluso en tu momento más bajo, cuando te sientes más solo, nunca estás realmente solo”
-[movies] Saltado porque no tiene tráiler confiable: Tom Holland sobre 'Spider-Man: Brand New Day': “Incluso en tu momento más bajo, cuando te sientes más solo, nunca estás realmente solo”
+[movies] Candidatos encontrados: 41 | Límite: 1
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
