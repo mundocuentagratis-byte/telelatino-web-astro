@@ -1,9 +1,10 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-29T03:33:53.704039+00:00
+Fecha UTC: 2026-07-29T06:43:10.112632+00:00
+[movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
 [movies] Saltado noticia no apta para películas: "Una auténtica obra maestra. Podría ver la trilogía una y otra vez": Jason Statham señala este clásico como una de las mejores películas que ha visto
 [movies] Saltado noticia no apta para películas: Nº1 en 67 países en tan solo 48 horas: la comedia de Netflix que la critica ha destrozado pero es la más vista en la plataforma
-[movies] Saltado porque no es estreno 2026: "Marvel ha hecho una película de verdad por tercera vez desde 2018": Primeras reacciones de 'Spider-Man 4' (2018)
+[movies] Saltado porque no es estreno 2026: "Marvel ha hecho una película de verdad por tercera vez desde 2018": 'Spider-Man 4' ya está en cines (2018)
 [movies] Saltado porque no es estreno 2026: 28 millones de euros: es el mayor éxito de taquilla en España en 2026 y también una de las películas más taquilleras de nuestra historia (2001)
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
@@ -18,6 +19,9 @@ Fecha UTC: 2026-07-29T03:33:53.704039+00:00
 [movies] Saltado noticia no apta para películas: Concursé con mi pueblo en el nuevo 'Grand Prix' y la experiencia fue más dura de lo que esperaba
 [movies] Saltado noticia no apta para películas: La actriz de 'La que se avecina' que se sintió incómoda en 'La Resistencia': "No entendía nada, ni el humor"
 [movies] Candidatos encontrados: 41 | Límite: 1
-[movies] Publicados: 0
-Total películas publicadas: 0
+[IA] Probando proveedor gemini: Cronos
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/cronos-la-operacion-que-conmociono-a-espana-llega-a-la-gran-pantalla-2026-07-29-05da71.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
