@@ -1,13 +1,30 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-29T10:48:33.819203+00:00
+Fecha UTC: 2026-07-29T14:29:26.327893+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
+[movies] Saltado porque no es estreno 2026: La otra madre (2025)
+[movies] Saltado porque no es estreno 2026: Yo soy Rocky (2025)
+[movies] Saltado porque no es estreno 2026: En el corazón de la bestia (2025)
+[movies] Saltado porque no es estreno 2026: En mar abierto (2025)
+[movies] Saltado porque no es estreno 2026: La bola negra (2025)
+[movies] Saltado porque no es estreno 2026: Digger (2025)
+[movies] Saltado porque no es estreno 2026: Hijos de sangre y hueso (2025)
+[movies] Saltado porque no es estreno 2026: El motín (2025)
+[movies] Saltado porque no es estreno 2026: Cronos (2025)
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
+[movies] Saltado porque no es estreno 2026: Vaiana (2025)
+[movies] Saltado porque no es estreno 2026: Toy Story 5 (2025)
+[movies] Saltado porque no es estreno 2026: Minions & Monsters (2025)
+[movies] Saltado porque no es estreno 2026: Posesión infernal: En llamas (2025)
+[movies] Saltado porque no es estreno 2026: Es uno de los mejores actores vivos, pero no le basta con actuar: Tras el Oscar, dirige y protagoniza el 'thriller' de atracos 'El secreto de Thomas Crown' (2025)
+[movies] Saltado porque no es estreno 2026: Tras el fracaso de 'Supergirl', 'Spider-Man 4' le da otra oportunidad al cine de superhéroes: Puede romper récords de taquilla (2019)
+[movies] Saltado noticia no apta para películas: Fallecido a los 50 años, compuso el icónico tema principal de una de las mejores películas del siglo XXI
+[movies] Saltado noticia no apta para películas: 3 meses después de arrasar en cines, se estrena en Disney una de las secuelas más esperadas de los últimos años
 [movies] Saltado noticia no apta para películas: Hemos pasado del trauma de 'Bambi' a no querer asustar a los niños: el cambio del cine infantil habla de una sociedad hiperprotectora
+[movies] Saltado noticia no apta para películas: Con una calificación de 4 sobre 5, es una de las mejores películas de superhéroes de todos los tiempos: Revivió una franquicia que había estado inactiva durante 5 años
 [movies] Saltado noticia no apta para películas: Oscar Wilde, poeta: "La experiencia no es más que el nombre que los hombres le dan a sus errores"
-[movies] Saltado noticia no apta para películas: Nº1 en 67 países en tan solo 48 horas: la comedia de Netflix que la critica ha destrozado pero es la más vista en la plataforma
-[movies] Saltado noticia no apta para películas: "Un genio criminal asombroso": creada 75 años antes, esta fascinante película inspiró a Christopher Nolan para crear al Joker
-[movies] Saltado porque no es estreno 2026: "Marvel ha hecho una película de verdad por tercera vez desde 2018": 'Spider-Man 4' ya está en cines (2018)
-[movies] Saltado porque no es estreno 2026: 28 millones de euros: es el mayor éxito de taquilla en España en 2026 y también una de las películas más taquilleras de nuestra historia (2001)
+[movies] Saltado noticia no apta para películas: Tom Holland reconoce que algunas de sus películas son malas: "No deberías verlas porque son mierda"
+[movies] Saltado noticia no apta para películas: "La película es única": Harrison Ford está orgulloso de este emocionante thriller bélico, que fue injustamente ignorado en los cines
+[movies] Saltado noticia no apta para películas: Pasó siete años como oficial de operaciones antiterroristas de la CIA: ahora es uno de los autores de DC más conocidos
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: La película de aventuras definitiva de la década de los 2000 (2000)
@@ -17,15 +34,16 @@ Fecha UTC: 2026-07-29T10:48:33.819203+00:00
 [movies] Saltado noticia no apta para películas: Christian Gálvez volverá a presentar 'El Rosco', pero no en España
 [movies] Saltado noticia no apta para películas: La CNMC vuelve a multar a RTVE: 307.000 euros por "dos infracciones graves continuadas" en 'MasterChef'
 [movies] Saltado noticia no apta para películas: Laura Madrueño explica el motivo por el que decidió dejar de presentar 'Supervivientes': "Honduras no es mi casa"
-[movies] Saltado noticia no apta para películas: Tras 14 años en laSexta, esta conocida periodista de Atresmedia se macha de la cadena
-[movies] Saltado noticia no apta para películas: Concursé con mi pueblo en el nuevo 'Grand Prix' y la experiencia fue más dura de lo que esperaba
-[movies] Saltado noticia no apta para películas: La actriz de 'La que se avecina' que se sintió incómoda en 'La Resistencia': "No entendía nada, ni el humor"
-[movies] Candidatos encontrados: 39 | Límite: 1
-[IA] Probando proveedor cohere: En mar abierto
-[IA] cohere falló (error): Cohere error 404: {"id":"ce4d6abd-1e31-4204-9fe5-333baaa30805","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: En mar abierto
+[movies] Candidatos encontrados: 23 | Límite: 1
+[YouTube] No se encontró tráiler confiable para "Recibimos 450.000 llamadas de todo el mundo": Steven Seagal (74) está convencido de que él merecía el papel principal en este éxito de taquilla de Tom Cruise
+[movies] Saltado porque no tiene tráiler confiable: "Recibimos 450.000 llamadas de todo el mundo": Steven Seagal (74) está convencido de que él merecía el papel principal en este éxito de taquilla de Tom Cruise
+[YouTube] No se encontró tráiler confiable para 'Saber y ganar' frena los "ataques personales" a su concursante estrella: "No podemos permitir mensajes agresivos"
+[movies] Saltado porque no tiene tráiler confiable: 'Saber y ganar' frena los "ataques personales" a su concursante estrella: "No podemos permitir mensajes agresivos"
+[IA] Probando proveedor cohere: El 'hype' es real: 'Spider-Man: Brand New Day' es lo mejor que ha hecho Marvel e
+[IA] cohere falló (error): Cohere error 404: {"id":"55bafdd3-411a-461b-bc0e-57b2db3baca6","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: El 'hype' es real: 'Spider-Man: Brand New Day' es lo mejor que ha hecho Marvel e
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/en-mar-abierto-supervivencia-extrema-contra-tiburones-y-el-mar-2026-07-29-8123ee.md
+[OK] Publicado: src/content/blog/spider-man-brand-new-day-la-pelicula-que-marvel-necesitaba-2026-07-29-001340.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
