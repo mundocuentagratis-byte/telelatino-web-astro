@@ -1,9 +1,11 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-29T06:43:10.112632+00:00
+Fecha UTC: 2026-07-29T10:48:33.819203+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
-[movies] Saltado noticia no apta para películas: "Una auténtica obra maestra. Podría ver la trilogía una y otra vez": Jason Statham señala este clásico como una de las mejores películas que ha visto
+[movies] Saltado noticia no apta para películas: Hemos pasado del trauma de 'Bambi' a no querer asustar a los niños: el cambio del cine infantil habla de una sociedad hiperprotectora
+[movies] Saltado noticia no apta para películas: Oscar Wilde, poeta: "La experiencia no es más que el nombre que los hombres le dan a sus errores"
 [movies] Saltado noticia no apta para películas: Nº1 en 67 países en tan solo 48 horas: la comedia de Netflix que la critica ha destrozado pero es la más vista en la plataforma
+[movies] Saltado noticia no apta para películas: "Un genio criminal asombroso": creada 75 años antes, esta fascinante película inspiró a Christopher Nolan para crear al Joker
 [movies] Saltado porque no es estreno 2026: "Marvel ha hecho una película de verdad por tercera vez desde 2018": 'Spider-Man 4' ya está en cines (2018)
 [movies] Saltado porque no es estreno 2026: 28 millones de euros: es el mayor éxito de taquilla en España en 2026 y también una de las películas más taquilleras de nuestra historia (2001)
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
@@ -11,17 +13,19 @@ Fecha UTC: 2026-07-29T06:43:10.112632+00:00
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: La película de aventuras definitiva de la década de los 2000 (2000)
 [movies] Saltado porque no es estreno 2026: El restaurante de Valencia al que no le sirvió aparecer en 'Pesadilla en la cocina': "No es una forma de ayudar a la gente" (2024)
 [movies] Saltado porque no es estreno 2026: El restaurante de la sierra madrileña que no consiguió salvar Chicote: cerró tres meses después de la emisión 'Pesadilla en la cocina' (2025)
-[movies] Saltado porque no es estreno 2026: El restaurante de Granada que triunfó tras 'Pesadilla en la cocina', pero que ahora está "cerrado temporalmente": un incendio acabó con todo (2024)
+[movies] Saltado noticia no apta para películas: Quién es Carmen Corazzini, la presentadora italiana que presenta 'Informativos Telecinco Fin de semana' tras la marcha de María Casado
 [movies] Saltado noticia no apta para películas: Christian Gálvez volverá a presentar 'El Rosco', pero no en España
 [movies] Saltado noticia no apta para películas: La CNMC vuelve a multar a RTVE: 307.000 euros por "dos infracciones graves continuadas" en 'MasterChef'
 [movies] Saltado noticia no apta para películas: Laura Madrueño explica el motivo por el que decidió dejar de presentar 'Supervivientes': "Honduras no es mi casa"
 [movies] Saltado noticia no apta para películas: Tras 14 años en laSexta, esta conocida periodista de Atresmedia se macha de la cadena
 [movies] Saltado noticia no apta para películas: Concursé con mi pueblo en el nuevo 'Grand Prix' y la experiencia fue más dura de lo que esperaba
 [movies] Saltado noticia no apta para películas: La actriz de 'La que se avecina' que se sintió incómoda en 'La Resistencia': "No entendía nada, ni el humor"
-[movies] Candidatos encontrados: 41 | Límite: 1
-[IA] Probando proveedor gemini: Cronos
+[movies] Candidatos encontrados: 39 | Límite: 1
+[IA] Probando proveedor cohere: En mar abierto
+[IA] cohere falló (error): Cohere error 404: {"id":"ce4d6abd-1e31-4204-9fe5-333baaa30805","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: En mar abierto
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/cronos-la-operacion-que-conmociono-a-espana-llega-a-la-gran-pantalla-2026-07-29-05da71.md
+[OK] Publicado: src/content/blog/en-mar-abierto-supervivencia-extrema-contra-tiburones-y-el-mar-2026-07-29-8123ee.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
