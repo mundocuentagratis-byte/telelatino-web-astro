@@ -1,19 +1,15 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-30T14:28:43.117062+00:00
+Fecha UTC: 2026-07-30T17:45:27.430491+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
-[movies] Saltado noticia no apta para películas: Durante más de 40 años nos hemos preguntado quién pudo haber tomado esa fotografía en 'Regreso al Futuro'
 [movies] Saltado porque no es estreno 2026: "He visto la película 18 veces": James Cameron y Steven Spielberg perdieron la cabeza con esta obra maestra de la ciencia ficción (2001)
 [movies] Saltado noticia no apta para películas: La película española que lleva 8 semanas en el top de Netflix: un thriller adictivo que ya tiene 30 millones de visualizaciones
 [movies] Saltado noticia no apta para películas: Christopher Nolan elimina una de las partes más conmovedoras de 'La odisea': Aquiles era su protagonista
+[movies] Saltado noticia no apta para películas: Muere Manolo Solo a los 62 años: Actor de 'Anatomía de un instante' y ganador del Goya por 'Tarde para la ira'
 [movies] Saltado porque no es estreno 2026: "Es difícil encontrar una solución": Alan Ritchson habla abiertamente sobre los "grandes problemas" que rodean a 'Fast & Furious 11' (2023)
 [movies] Saltado porque no es estreno 2026: Macaulay Culkin puede rescatar su propia saga: tiene una idea "realmente buena" para 'Solo en casa' y a Disney le han hecho los ojos chirivitas (2021)
-[movies] Saltado noticia no apta para películas: Jared Leto, acusado por cuatro mujeres de violencia sexual: Hace un año, nueve mujeres le acusaron de conducta sexual inapropiada
-[movies] Saltado noticia no apta para películas: "Los hombres ya tuvieron su momento": Millie Bobby Brown no aprueba el 'spin-off' protagonizado por Henry Cavill
-[movies] Saltado noticia no apta para películas: La escena post-créditos de 'Spider-Man: Brand New Day', explicada
 [movies] Saltado porque no es estreno 2026: Penélope Cruz, ganadora de un Oscar, sobre su relación con Hollywood: "A Estados Unidos siempre he ido con billete de ida y vuelta" (2022)
 [movies] Saltado porque no es estreno 2026: A uno de los mejores actores vivos no le basta con solo actuar: Tras ganar el Oscar, dirige y protagoniza un 'thriller' de atracos (2025)
-[movies] Saltado porque no es estreno 2026: 30 años después, termina una de las mejores sagas de aventuras y fantasía (2017)
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: La película de aventuras definitiva de la década de los 2000 (2000)
 [movies] Saltado noticia no apta para películas: Laura Madrueño explica el motivo por el que decidió dejar de presentar 'Supervivientes': "Honduras no es mi casa"
@@ -21,17 +17,14 @@ Fecha UTC: 2026-07-30T14:28:43.117062+00:00
 [movies] Saltado porque no es estreno 2026: El restaurante de Valencia al que no le sirvió aparecer en 'Pesadilla en la cocina': "No es una forma de ayudar a la gente" (2024)
 [movies] Saltado porque no es estreno 2026: El restaurante de la sierra madrileña que no consiguió salvar Chicote: cerró tres meses después de la emisión 'Pesadilla en la cocina' (2025)
 [movies] Saltado noticia no apta para películas: Carlos Latre aclara su marcha de Mediaset: "Estoy libre para afrontar otros proyectos en diferentes cadenas, incluida Telecinco"
-[movies] Candidatos encontrados: 38 | Límite: 1
-[YouTube] No se encontró tráiler confiable para 'Rueda la letra' no tendrá un rosco más ambicioso: Su nuevo anuncio confirma que Mediaset tuvo un gazapo en la primera promoción
-[movies] Saltado porque no tiene tráiler confiable: 'Rueda la letra' no tendrá un rosco más ambicioso: Su nuevo anuncio confirma que Mediaset tuvo un gazapo en la primera promoción
-[YouTube] No se encontró tráiler confiable para Era un sintecho, pero ahora es parte de la franquicia más grande del cine con 'Spider-Man 4': "Me sentía fatal muchas veces en mi vida"
-[movies] Saltado porque no tiene tráiler confiable: Era un sintecho, pero ahora es parte de la franquicia más grande del cine con 'Spider-Man 4': "Me sentía fatal muchas veces en mi vida"
-[YouTube] No se encontró tráiler confiable para Mediaset despeja las incógnitas de 'El Chiringuito' de Josep Pedrerol: fecha de estreno, canal, horario y días de emisión
-[movies] Saltado porque no tiene tráiler confiable: Mediaset despeja las incógnitas de 'El Chiringuito' de Josep Pedrerol: fecha de estreno, canal, horario y días de emisión
-[YouTube] No se encontró tráiler confiable para Muere Manolo Solo a los 62 años: Actor de 'Anatomía de un instante' y ganador del Goya por 'Tarde para la ira'
-[movies] Saltado porque no tiene tráiler confiable: Muere Manolo Solo a los 62 años: Actor de 'Anatomía de un instante' y ganador del Goya por 'Tarde para la ira'
-[YouTube] No se encontró tráiler confiable para Puede parecer que 'Maestros de la costura Celebrity' está hecho a su medida, pero Josie puso una condición para aceptarlo: "Si no, mortal"
-[movies] Saltado porque no tiene tráiler confiable: Puede parecer que 'Maestros de la costura Celebrity' está hecho a su medida, pero Josie puso una condición para aceptarlo: "Si no, mortal"
-[movies] Publicados: 0
-Total películas publicadas: 0
+[movies] Candidatos encontrados: 43 | Límite: 1
+[YouTube] No se encontró tráiler confiable para "Creo que Tom Holland y Zendaya son muy felices juntos": hace años les aconsejó que no salieran juntos, pero ahora son marido y mujer
+[movies] Saltado porque no tiene tráiler confiable: "Creo que Tom Holland y Zendaya son muy felices juntos": hace años les aconsejó que no salieran juntos, pero ahora son marido y mujer
+[IA] Probando proveedor gemini: Durante más de 40 años nos hemos preguntado quién pudo haber tomado esa fotograf
+[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 3528 (char 3797)
+[IA] Probando proveedor groq: Durante más de 40 años nos hemos preguntado quién pudo haber tomado esa fotograf
+[IA] Artículo generado con groq
+[OK] Publicado: src/content/blog/regreso-al-futuro-el-misterio-de-la-fotografia-2026-07-30-fa1ec8.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
