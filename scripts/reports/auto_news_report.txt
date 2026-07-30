@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-29T21:10:33.115160+00:00
+Fecha UTC: 2026-07-30T03:22:24.994439+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
 [movies] Saltado porque no es estreno 2026: Penélope Cruz, ganadora de un Oscar, sobre su relación con Hollywood: "A Estados Unidos siempre he ido con billete de ida y vuelta" (2022)
@@ -7,7 +7,6 @@ Fecha UTC: 2026-07-29T21:10:33.115160+00:00
 [movies] Saltado porque no es estreno 2026: Tras el fracaso de 'Supergirl', 'Spider-Man 4' le da otra oportunidad al cine de superhéroes: Puede romper récords de taquilla (2019)
 [movies] Saltado noticia no apta para películas: 3 meses después de arrasar en cines, se estrena en Disney una de las secuelas más esperadas de los últimos años
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
-[movies] Saltado noticia no apta para películas: 80 años de carrera y 2 Oscar: Hoy cumple 100 años una de las leyendas más veteranas de Hollywood
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: La película de aventuras definitiva de la década de los 2000 (2000)
 [movies] Saltado porque no es estreno 2026: El restaurante de Valencia al que no le sirvió aparecer en 'Pesadilla en la cocina': "No es una forma de ayudar a la gente" (2024)
 [movies] Saltado porque no es estreno 2026: El restaurante de la sierra madrileña que no consiguió salvar Chicote: cerró tres meses después de la emisión 'Pesadilla en la cocina' (2025)
@@ -16,11 +15,6 @@ Fecha UTC: 2026-07-29T21:10:33.115160+00:00
 [movies] Saltado noticia no apta para películas: La CNMC vuelve a multar a RTVE: 307.000 euros por "dos infracciones graves continuadas" en 'MasterChef'
 [movies] Saltado noticia no apta para películas: Laura Madrueño explica el motivo por el que decidió dejar de presentar 'Supervivientes': "Honduras no es mi casa"
 [movies] Candidatos encontrados: 43 | Límite: 1
-[YouTube] No se encontró tráiler confiable para Hemos pasado del trauma de 'Bambi' a no querer asustar a los niños: el cambio del cine infantil habla de una sociedad hiperprotectora
-[movies] Saltado porque no tiene tráiler confiable: Hemos pasado del trauma de 'Bambi' a no querer asustar a los niños: el cambio del cine infantil habla de una sociedad hiperprotectora
-[IA] Probando proveedor mistral: La escena post-créditos de 'Spider-Man: Brand New Day', explicada
-[IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/la-escena-post-creditos-de-spider-man-brand-new-day-explicada-2026-07-29-98a95a.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
