@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-31T17:50:20.834434+00:00
+Fecha UTC: 2026-07-31T21:18:15.512109+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
 [movies] Saltado noticia no apta para películas: Arnold Schwarzenegger cumple 79 años levantando pesas: "No quiero regalos"
@@ -13,11 +13,6 @@ Fecha UTC: 2026-07-31T17:50:20.834434+00:00
 [movies] Saltado porque no es estreno 2026: El restaurante de la sierra madrileña que no consiguió salvar Chicote: cerró tres meses después de la emisión 'Pesadilla en la cocina' (2025)
 [movies] Saltado noticia no apta para películas: Tras 21 entregas, Octavio es eliminado de 'Saber y ganar' sin posibilidad de concursar en los especiales: "¡Qué lástima!"
 [movies] Candidatos encontrados: 34 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "Un fracaso rotundo": Clint Eastwood critica duramente esta icónica película de los 80
-[movies] Saltado porque no tiene tráiler confiable: "Un fracaso rotundo": Clint Eastwood critica duramente esta icónica película de los 80
-[duplicado] Saltado por tema parecido: Christopher Nolan sacrifica uno de los momentos más conmovedores de 'La odisea': El arrepentimiento de Aquiles ~= La Odisea de Christopher Nolan: El Gran Estreno del Año
-[YouTube] No se encontró tráiler confiable para Manolo Solo, fallecido a los 62 años: "Mi autoestima depende demasiado del gusto de los demás"
-[movies] Saltado porque no tiene tráiler confiable: Manolo Solo, fallecido a los 62 años: "Mi autoestima depende demasiado del gusto de los demás"
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
