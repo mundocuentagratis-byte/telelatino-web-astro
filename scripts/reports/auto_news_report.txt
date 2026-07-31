@@ -1,32 +1,23 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-31T14:31:38.399401+00:00
+Fecha UTC: 2026-07-31T17:50:20.834434+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
-[movies] Saltado noticia no apta para películas: "Un fracaso rotundo": Clint Eastwood critica duramente esta icónica película de los 80
-[movies] Saltado noticia no apta para películas: Manolo Solo, fallecido a los 62 años: "Mi autoestima depende demasiado del gusto de los demás"
+[movies] Saltado noticia no apta para películas: Arnold Schwarzenegger cumple 79 años levantando pesas: "No quiero regalos"
 [movies] Saltado noticia no apta para películas: 37 estrenos en agosto de 2026 Netflix: Este mes el final de 'Outer Banks' y una película de terror del director de 'Fast & Furious X'
-[movies] Saltado noticia no apta para películas: Harrison Ford (84 años): "Un responsable de nuevos talentos quería que me cambiara el nombre y me cortara el pelo como Elvis Presley. No acepté"
-[movies] Saltado noticia no apta para películas: Durante más de 40 años nos hemos preguntado quién pudo haber tomado esa fotografía en 'Regreso al Futuro'
 [movies] Saltado porque no es estreno 2026: "He visto la película 18 veces": James Cameron y Steven Spielberg perdieron la cabeza con esta obra maestra de la ciencia ficción (2001)
 [movies] Saltado noticia no apta para películas: La película española que lleva 8 semanas en el top de Netflix: un thriller adictivo que ya tiene 30 millones de visualizaciones
-[movies] Saltado noticia no apta para películas: Christopher Nolan sacrifica uno de los momentos más conmovedores de 'La odisea': El arrepentimiento de Aquiles
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: La película de aventuras definitiva de la década de los 2000 (2000)
 [movies] Saltado noticia no apta para películas: Laura Madrueño explica el motivo por el que decidió dejar de presentar 'Supervivientes': "Honduras no es mi casa"
 [movies] Saltado porque no es estreno 2026: El restaurante de Valencia al que no le sirvió aparecer en 'Pesadilla en la cocina': "No es una forma de ayudar a la gente" (2024)
 [movies] Saltado porque no es estreno 2026: El restaurante de la sierra madrileña que no consiguió salvar Chicote: cerró tres meses después de la emisión 'Pesadilla en la cocina' (2025)
 [movies] Saltado noticia no apta para películas: Tras 21 entregas, Octavio es eliminado de 'Saber y ganar' sin posibilidad de concursar en los especiales: "¡Qué lástima!"
-[movies] Candidatos encontrados: 29 | Límite: 1
-[YouTube] No se encontró tráiler confiable para 'OT USA' acelera su final y casi bate el récord más temido del formato: tras un mes en emisión, solo quedan diez días para su final
-[movies] Saltado porque no tiene tráiler confiable: 'OT USA' acelera su final y casi bate el récord más temido del formato: tras un mes en emisión, solo quedan diez días para su final
-[YouTube] No se encontró tráiler confiable para 'Spider-Man 4' hace historia en España: El personaje de Marvel se salva de la crisis del género de superhéroes
-[movies] Saltado porque no tiene tráiler confiable: 'Spider-Man 4' hace historia en España: El personaje de Marvel se salva de la crisis del género de superhéroes
-[YouTube] No se encontró tráiler confiable para A24 le dio 10 millones de dólares pero él siguió con su método: cómo se hizo 'Backrooms', el fenómeno de terror del año dirigido por un joven de 20 años
-[movies] Saltado porque no tiene tráiler confiable: A24 le dio 10 millones de dólares pero él siguió con su método: cómo se hizo 'Backrooms', el fenómeno de terror del año dirigido por un joven de 20 años
-[YouTube] No se encontró tráiler confiable para Josep Pedrerol, presentador de 'El Chiringuito': "La salida de Atresmedia era algo que intuíamos. En abril me reuní con Mediaset"
-[movies] Saltado porque no tiene tráiler confiable: Josep Pedrerol, presentador de 'El Chiringuito': "La salida de Atresmedia era algo que intuíamos. En abril me reuní con Mediaset"
-[YouTube] No se encontró tráiler confiable para La jugosa oferta de La Séptima a Javier Ruiz, presentador de 'Mañaneros 360': "Tiene encima de la mesa ser el primer director"
-[movies] Saltado porque no tiene tráiler confiable: La jugosa oferta de La Séptima a Javier Ruiz, presentador de 'Mañaneros 360': "Tiene encima de la mesa ser el primer director"
+[movies] Candidatos encontrados: 34 | Límite: 1
+[YouTube] No se encontró tráiler confiable para "Un fracaso rotundo": Clint Eastwood critica duramente esta icónica película de los 80
+[movies] Saltado porque no tiene tráiler confiable: "Un fracaso rotundo": Clint Eastwood critica duramente esta icónica película de los 80
+[duplicado] Saltado por tema parecido: Christopher Nolan sacrifica uno de los momentos más conmovedores de 'La odisea': El arrepentimiento de Aquiles ~= La Odisea de Christopher Nolan: El Gran Estreno del Año
+[YouTube] No se encontró tráiler confiable para Manolo Solo, fallecido a los 62 años: "Mi autoestima depende demasiado del gusto de los demás"
+[movies] Saltado porque no tiene tráiler confiable: Manolo Solo, fallecido a los 62 años: "Mi autoestima depende demasiado del gusto de los demás"
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
