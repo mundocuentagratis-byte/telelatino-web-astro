@@ -1,15 +1,20 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-07-31T06:53:18.672276+00:00
+Fecha UTC: 2026-07-31T10:49:56.736431+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
-[movies] Saltado porque no es estreno 2026: "He visto la película 18 veces": James Cameron y Steven Spielberg perdieron la cabeza con esta obra maestra de la ciencia ficción (2001)
+[movies] Saltado noticia no apta para películas: 37 estrenos en agosto de 2026 Netflix: Este mes el final de 'Outer Banks' y una película de terror del director de 'Fast & Furious X'
+[movies] Saltado noticia no apta para películas: 'Spider-Man 4' hace historia en España: El personaje de Marvel se salva de la crisis del género de superhéroes
+[movies] Saltado noticia no apta para películas: "Creo que Tom Holland y Zendaya son muy felices juntos": hace años les aconsejó que no salieran juntos, pero ahora son marido y mujer
+[movies] Saltado noticia no apta para películas: Harrison Ford (84 años): "Un responsable de nuevos talentos quería que me cambiara el nombre y me cortara el pelo como Elvis Presley. No acepté"
+[movies] Saltado noticia no apta para películas: Durante más de 40 años nos hemos preguntado quién pudo haber tomado esa fotografía en 'Regreso al Futuro'
+[movies] Saltado noticia no apta para películas: "He visto la película 18 veces": James Cameron y Steven Spielberg perdieron la cabeza con esta obra maestra de la ciencia ficción
 [movies] Saltado noticia no apta para películas: La película española que lleva 8 semanas en el top de Netflix: un thriller adictivo que ya tiene 30 millones de visualizaciones
-[movies] Saltado noticia no apta para películas: Christopher Nolan elimina una de las partes más conmovedoras de 'La odisea': Aquiles era su protagonista
+[movies] Saltado noticia no apta para películas: Christopher Nolan sacrifica uno de los momentos más conmovedores de 'La odisea': El arrepentimiento de Aquiles
+[movies] Saltado noticia no apta para películas: Muere Manolo Solo a los 62 años: Actor de 'Anatomía de un instante' y ganador del Goya por 'Tarde para la ira'
 [movies] Saltado porque no es estreno 2026: "Es difícil encontrar una solución": Alan Ritchson habla abiertamente sobre los "grandes problemas" que rodean a 'Fast & Furious 11' (2023)
-[movies] Saltado porque no es estreno 2026: Macaulay Culkin puede rescatar su propia saga: tiene una idea "realmente buena" para 'Solo en casa' y a Disney le han hecho los ojos chirivitas (2021)
-[movies] Saltado noticia no apta para películas: "Los hombres ya tuvieron su momento": Millie Bobby Brown no aprueba el 'spin-off' protagonizado por Henry Cavill
-[movies] Saltado porque no es estreno 2026: Penélope Cruz, ganadora de un Oscar, sobre su relación con Hollywood: "A Estados Unidos siempre he ido con billete de ida y vuelta" (2022)
-[movies] Saltado porque no es estreno 2026: A uno de los mejores actores vivos no le basta con solo actuar: Tras ganar el Oscar, dirige y protagoniza un 'thriller' de atracos (2025)
+[movies] Saltado noticia no apta para películas: Macaulay Culkin puede rescatar su propia saga: tiene una idea "realmente buena" para 'Solo en casa' y a Disney le han hecho los ojos chirivitas
+[movies] Saltado noticia no apta para películas: Era un sintecho, pero ahora es parte de la franquicia más grande del cine
+[movies] Saltado noticia no apta para películas: Jared Leto, acusado por cuatro mujeres de violencia sexual: Hace un año, nueve mujeres le acusaron de conducta sexual inapropiada
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: La película de aventuras definitiva de la década de los 2000 (2000)
 [movies] Saltado noticia no apta para películas: Laura Madrueño explica el motivo por el que decidió dejar de presentar 'Supervivientes': "Honduras no es mi casa"
@@ -17,12 +22,10 @@ Fecha UTC: 2026-07-31T06:53:18.672276+00:00
 [movies] Saltado porque no es estreno 2026: El restaurante de la sierra madrileña que no consiguió salvar Chicote: cerró tres meses después de la emisión 'Pesadilla en la cocina' (2025)
 [movies] Saltado noticia no apta para películas: Tras 21 entregas, Octavio es eliminado de 'Saber y ganar' sin posibilidad de concursar en los especiales: "¡Qué lástima!"
 [movies] Saltado noticia no apta para películas: Carlos Latre aclara su marcha de Mediaset: "Estoy libre para afrontar otros proyectos en diferentes cadenas, incluida Telecinco"
-[movies] Candidatos encontrados: 33 | Límite: 1
-[IA] Probando proveedor cohere: Mala Bèstia
-[IA] cohere falló (error): Cohere error 404: {"id":"c206f5f1-434d-4e46-adce-70fbc0fc2c90","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Mala Bèstia
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/mala-bestia-la-fabula-cinematografica-sobre-el-miedo-a-crecer-2026-07-31-2a48fa.md
+[movies] Candidatos encontrados: 25 | Límite: 1
+[IA] Probando proveedor groq: Mother Mary
+[IA] Artículo generado con groq
+[OK] Publicado: src/content/blog/mother-mary-un-regreso-con-secretos-2026-07-31-9296cf.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
