@@ -1,25 +1,28 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-01T06:39:29.047230+00:00
+Fecha UTC: 2026-08-01T10:08:56.260219+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
-[movies] Saltado noticia no apta para películas: Arnold Schwarzenegger cumple 79 años levantando pesas: "No quiero regalos"
+[movies] Saltado noticia no apta para películas: Arnold Schwarzenegger (79 años): "Llevo seis décadas intentando que la gente entrene, y por fin he encontrado algo que funciona"
 [movies] Saltado noticia no apta para películas: "Un fracaso rotundo": Clint Eastwood critica duramente esta icónica película de los 80
-[movies] Saltado noticia no apta para películas: Manolo Solo, fallecido a los 62 años: "Mi autoestima depende demasiado del gusto de los demás"
-[movies] Saltado noticia no apta para películas: 37 estrenos en agosto de 2026 Netflix: Este mes el final de 'Outer Banks' y una película de terror del director de 'Fast & Furious X'
+[movies] Saltado porque no es estreno 2026: Manolo Solo, fallecido a los 62 años: "Mi autoestima depende demasiado del gusto de los demás" (2017)
+[movies] Saltado porque no es estreno 2026: 37 estrenos en agosto de 2026 Netflix: Este mes el final de 'Outer Banks' y una película de terror del director de 'Fast & Furious X' (2039)
 [movies] Saltado noticia no apta para películas: 'Spider-Man 4' hace historia en España: El personaje de Marvel se salva de la crisis del género de superhéroes
 [movies] Saltado noticia no apta para películas: A24 le dio 10 millones de dólares pero él siguió con su método: cómo se hizo 'Backrooms', el fenómeno de terror del año dirigido por un joven de 20 años
-[movies] Saltado noticia no apta para películas: "He visto la película 18 veces": James Cameron y Steven Spielberg perdieron la cabeza con esta obra maestra de la ciencia ficción
-[movies] Saltado noticia no apta para películas: La película española que lleva 8 semanas en el top de Netflix: un thriller adictivo que ya tiene 30 millones de visualizaciones
-[movies] Saltado noticia no apta para películas: Christopher Nolan sacrifica uno de los momentos más conmovedores de 'La odisea': El arrepentimiento de Aquiles
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado noticia no apta para películas: Laura Madrueño explica el motivo por el que decidió dejar de presentar 'Supervivientes': "Honduras no es mi casa"
 [movies] Saltado porque no es estreno 2026: El restaurante de Valencia al que no le sirvió aparecer en 'Pesadilla en la cocina': "No es una forma de ayudar a la gente" (2024)
 [movies] Saltado porque no es estreno 2026: El restaurante de la sierra madrileña que no consiguió salvar Chicote: cerró tres meses después de la emisión 'Pesadilla en la cocina' (2025)
 [movies] Saltado noticia no apta para películas: Quién es Carmen Corazzini, la presentadora italiana que presenta 'Informativos Telecinco Fin de semana' tras la marcha de María Casado
-[movies] Candidatos encontrados: 28 | Límite: 1
-[YouTube] No se encontró tráiler confiable para El cambio de vida de Lorena Gómez: fue engañada, pero esto le convirtió en una estrella de telenovelas en Miami
-[movies] Saltado porque no tiene tráiler confiable: El cambio de vida de Lorena Gómez: fue engañada, pero esto le convirtió en una estrella de telenovelas en Miami
+[movies] Saltado noticia no apta para películas: La concursante de 'Supervivientes' que destapó una clausula desconocida: "Lo tenía en el contrato y si no pagaba unos 120.000 euros"
+[movies] Saltado noticia no apta para películas: Así es la casa que tiene Mariló Montero en Sanlúcar de Barrameda
+[movies] Saltado noticia no apta para películas: El cambio de vida de Lorena Gómez: fue engañada, pero esto le convirtió en una estrella de telenovelas en Miami
+[movies] Saltado noticia no apta para películas: 'OT USA' acelera su final y casi bate el récord más temido del formato: tras un mes en emisión, solo quedan diez días para su final
+[movies] Saltado noticia no apta para películas: La jugosa oferta de La Séptima a Javier Ruiz, presentador de 'Mañaneros 360': "Tiene encima de la mesa ser el primer director"
+[movies] Saltado noticia no apta para películas: Josep Pedrerol, presentador de 'El Chiringuito': "La salida de Atresmedia era algo que intuíamos. En abril me reuní con Mediaset"
+[movies] Candidatos encontrados: 21 | Límite: 1
+[YouTube] No se encontró tráiler confiable para No lo vimos en su momento, pero esta fabulosa película de tan sólo hora y media tiene uno de los mejores repartos de los últimos 12 años
+[movies] Saltado porque no tiene tráiler confiable: No lo vimos en su momento, pero esta fabulosa película de tan sólo hora y media tiene uno de los mejores repartos de los últimos 12 años
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
