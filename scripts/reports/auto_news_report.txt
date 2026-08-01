@@ -1,28 +1,32 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-01T10:08:56.260219+00:00
+Fecha UTC: 2026-08-01T13:49:59.881745+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
-[movies] Saltado noticia no apta para películas: Arnold Schwarzenegger (79 años): "Llevo seis décadas intentando que la gente entrene, y por fin he encontrado algo que funciona"
+[movies] Saltado noticia no apta para películas: 2 horas y 49 minutos de puro entretenimiento: esta es una de las mejores películas de ciencia ficción según los usuarios de SensaCine
 [movies] Saltado noticia no apta para películas: "Un fracaso rotundo": Clint Eastwood critica duramente esta icónica película de los 80
 [movies] Saltado porque no es estreno 2026: Manolo Solo, fallecido a los 62 años: "Mi autoestima depende demasiado del gusto de los demás" (2017)
-[movies] Saltado porque no es estreno 2026: 37 estrenos en agosto de 2026 Netflix: Este mes el final de 'Outer Banks' y una película de terror del director de 'Fast & Furious X' (2039)
-[movies] Saltado noticia no apta para películas: 'Spider-Man 4' hace historia en España: El personaje de Marvel se salva de la crisis del género de superhéroes
-[movies] Saltado noticia no apta para películas: A24 le dio 10 millones de dólares pero él siguió con su método: cómo se hizo 'Backrooms', el fenómeno de terror del año dirigido por un joven de 20 años
+[movies] Saltado noticia no apta para películas: 37 estrenos en agosto de 2026 Netflix: Este mes el final de 'Outer Banks' y una película de terror del director de 'Fast & Furious X'
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado noticia no apta para películas: Laura Madrueño explica el motivo por el que decidió dejar de presentar 'Supervivientes': "Honduras no es mi casa"
 [movies] Saltado porque no es estreno 2026: El restaurante de Valencia al que no le sirvió aparecer en 'Pesadilla en la cocina': "No es una forma de ayudar a la gente" (2024)
 [movies] Saltado porque no es estreno 2026: El restaurante de la sierra madrileña que no consiguió salvar Chicote: cerró tres meses después de la emisión 'Pesadilla en la cocina' (2025)
 [movies] Saltado noticia no apta para películas: Quién es Carmen Corazzini, la presentadora italiana que presenta 'Informativos Telecinco Fin de semana' tras la marcha de María Casado
+[movies] Saltado porque no es estreno 2026: Raoul Vázquez vivió su primera "crisis de ansiedad" en 'OT 2017': "La semana del beso con Agoney fue la peor de mi vida" (2017)
 [movies] Saltado noticia no apta para películas: La concursante de 'Supervivientes' que destapó una clausula desconocida: "Lo tenía en el contrato y si no pagaba unos 120.000 euros"
 [movies] Saltado noticia no apta para películas: Así es la casa que tiene Mariló Montero en Sanlúcar de Barrameda
 [movies] Saltado noticia no apta para películas: El cambio de vida de Lorena Gómez: fue engañada, pero esto le convirtió en una estrella de telenovelas en Miami
 [movies] Saltado noticia no apta para películas: 'OT USA' acelera su final y casi bate el récord más temido del formato: tras un mes en emisión, solo quedan diez días para su final
 [movies] Saltado noticia no apta para películas: La jugosa oferta de La Séptima a Javier Ruiz, presentador de 'Mañaneros 360': "Tiene encima de la mesa ser el primer director"
-[movies] Saltado noticia no apta para películas: Josep Pedrerol, presentador de 'El Chiringuito': "La salida de Atresmedia era algo que intuíamos. En abril me reuní con Mediaset"
-[movies] Candidatos encontrados: 21 | Límite: 1
-[YouTube] No se encontró tráiler confiable para No lo vimos en su momento, pero esta fabulosa película de tan sólo hora y media tiene uno de los mejores repartos de los últimos 12 años
-[movies] Saltado porque no tiene tráiler confiable: No lo vimos en su momento, pero esta fabulosa película de tan sólo hora y media tiene uno de los mejores repartos de los últimos 12 años
+[movies] Candidatos encontrados: 24 | Límite: 1
+[YouTube] No se encontró tráiler confiable para Arnold Schwarzenegger (79 años): "Llevo seis décadas intentando que la gente entrene, y por fin he encontrado algo que funciona"
+[movies] Saltado porque no tiene tráiler confiable: Arnold Schwarzenegger (79 años): "Llevo seis décadas intentando que la gente entrene, y por fin he encontrado algo que funciona"
+[YouTube] No se encontró tráiler confiable para Hace 33 años debutó con un nombre ridículo en una película de profesores asesinos. Ahora es uno de los actores más famosos del mundo, ¿le reconoces?
+[movies] Saltado porque no tiene tráiler confiable: Hace 33 años debutó con un nombre ridículo en una película de profesores asesinos. Ahora es uno de los actores más famosos del mundo, ¿le reconoces?
+[YouTube] No se encontró tráiler confiable para Revelado el secreto mejor guardado de 'Spider-Man 4': El personaje que adelanta el futuro de Marvel después de 'Vengadores 6'
+[movies] Saltado porque no tiene tráiler confiable: Revelado el secreto mejor guardado de 'Spider-Man 4': El personaje que adelanta el futuro de Marvel después de 'Vengadores 6'
+[YouTube] No se encontró tráiler confiable para Tras más de medio siglo de carrera, Steven Spielberg revolucionó su método de trabajo en su primer musical: "Coordiné mi iPhone con los movimientos"
+[movies] Saltado porque no tiene tráiler confiable: Tras más de medio siglo de carrera, Steven Spielberg revolucionó su método de trabajo en su primer musical: "Coordiné mi iPhone con los movimientos"
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
