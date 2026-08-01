@@ -1,11 +1,18 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-01T17:12:12.261314+00:00
+Fecha UTC: 2026-08-01T21:07:58.705755+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
+[movies] Saltado noticia no apta para películas: Esta persona tiene el trabajo más miserable de la rebelión de 'Star Wars', pero los fans aún encuentran argumentos para defenderlo
+[movies] Saltado noticia no apta para películas: El agujero de guion de 'Spider-man: Brand New Day' que contradice directamente a otra producción del UCM
+[movies] Saltado noticia no apta para películas: La escena eliminada de 'Spider-man: Brand New Day¡ que habría mostrado por qué Spider-man es un símbolo para los niños
+[movies] Saltado noticia no apta para películas: Tras más de medio siglo de carrera, Steven Spielberg revolucionó su método de trabajo en su primer musical: "Coordiné mi iPhone con los movimientos"
+[movies] Saltado noticia no apta para películas: Hace 33 años debutó con un nombre ridículo en una película de profesores asesinos. Ahora es uno de los actores más famosos del mundo, ¿le reconoces?
 [movies] Saltado noticia no apta para películas: 2 horas y 49 minutos de puro entretenimiento: esta es una de las mejores películas de ciencia ficción según los usuarios de SensaCine
+[movies] Saltado noticia no apta para películas: Revelado el secreto mejor guardado de 'Spider-Man 4': El personaje que adelanta el futuro de Marvel después de 'Vengadores 6'
+[movies] Saltado noticia no apta para películas: No lo vimos en su momento, pero esta fabulosa película de tan sólo hora y media tiene uno de los mejores repartos de los últimos 12 años
+[movies] Saltado noticia no apta para películas: Arnold Schwarzenegger (79 años): "Llevo seis décadas intentando que la gente entrene, y por fin he encontrado algo que funciona"
 [movies] Saltado noticia no apta para películas: "Un fracaso rotundo": Clint Eastwood critica duramente esta icónica película de los 80
 [movies] Saltado porque no es estreno 2026: Manolo Solo, fallecido a los 62 años: "Mi autoestima depende demasiado del gusto de los demás" (2017)
-[movies] Saltado noticia no apta para películas: 37 estrenos en agosto de 2026 Netflix: Este mes el final de 'Outer Banks' y una película de terror del director de 'Fast & Furious X'
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado noticia no apta para películas: Laura Madrueño explica el motivo por el que decidió dejar de presentar 'Supervivientes': "Honduras no es mi casa"
@@ -18,7 +25,7 @@ Fecha UTC: 2026-08-01T17:12:12.261314+00:00
 [movies] Saltado noticia no apta para películas: El cambio de vida de Lorena Gómez: fue engañada, pero esto le convirtió en una estrella de telenovelas en Miami
 [movies] Saltado noticia no apta para películas: 'OT USA' acelera su final y casi bate el récord más temido del formato: tras un mes en emisión, solo quedan diez días para su final
 [movies] Saltado noticia no apta para películas: La jugosa oferta de La Séptima a Javier Ruiz, presentador de 'Mañaneros 360': "Tiene encima de la mesa ser el primer director"
-[movies] Candidatos encontrados: 24 | Límite: 1
+[movies] Candidatos encontrados: 19 | Límite: 1
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
