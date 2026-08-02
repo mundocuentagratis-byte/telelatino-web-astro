@@ -1,13 +1,10 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-02T13:50:44.242584+00:00
+Fecha UTC: 2026-08-02T17:12:42.752027+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
+[movies] Saltado porque no es estreno 2026: 'Spider-man: Brand New Day' necesita un final explicado para saber todo lo que le viene al Trepamuros. "El último plano le da sentido al título" (2000)
 [movies] Saltado porque no es estreno 2026: Es la saga de terror y ciencia ficción que mejor termina sus películas y ahora tiene otra oportunidad de mantener su mejor tradición (2027)
-[movies] Saltado noticia no apta para películas: Con 24 años ganó 13 kilos de músculo y se metió en la película más cara de la historia: el proceso fue agotador pero el resultado un éxito
-[movies] Saltado noticia no apta para películas: ‘Titanic’ consiguió una abrumadora cantidad de nominaciones en los Oscars, pero hubo dos que hicieron historia
 [movies] Saltado porque no es estreno 2026: 13 estrenos en Netflix: esta semana, el regreso al pueblo más icónico de la literatura universal y el drama adolescente estrella en la plataforma (2024)
-[movies] Saltado noticia no apta para películas: Hace 33 años debutó con un nombre ridículo en una película de profesores asesinos. Ahora es uno de los actores más famosos del mundo, ¿le reconoces?
-[movies] Saltado noticia no apta para películas: 2 horas y 49 minutos de puro entretenimiento: esta es una de las mejores películas de ciencia ficción según los usuarios de SensaCine
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado noticia no apta para películas: Laura Madrueño explica el motivo por el que decidió dejar de presentar 'Supervivientes': "Honduras no es mi casa"
@@ -20,13 +17,19 @@ Fecha UTC: 2026-08-02T13:50:44.242584+00:00
 [movies] Saltado noticia no apta para películas: Meghan Markle ya no trabaja frente a las cámaras, pero ha aparecido en 'Masterchef' como jueza
 [movies] Saltado porque no es estreno 2026: Ana Guerra, sincera sobre el distanciamiento natural de OT 2017: "Cuando te das cuenta de que Aitana está en Los Ángeles y tiene 3000 WhatsApps todos los días, es inviable" (2017)
 [movies] Saltado porque no es estreno 2026: Raoul Vázquez vivió su primera "crisis de ansiedad" en 'OT 2017': "La semana del beso con Agoney fue la peor de mi vida" (2017)
-[movies] Candidatos encontrados: 26 | Límite: 1
-[YouTube] No se encontró tráiler confiable para 'Spider-man: Brand New Day' necesita un final explicado para saber todo lo que le viene al Trepamuros. "El último plano le da sentido al título"
-[movies] Saltado porque no tiene tráiler confiable: 'Spider-man: Brand New Day' necesita un final explicado para saber todo lo que le viene al Trepamuros. "El último plano le da sentido al título"
-[YouTube] No se encontró tráiler confiable para El 'western' del que Clint Eastwood intentó escapar: ""Estaba lo suficientemente loco como para intentar cualquier cosa en aquel entonces"
-[movies] Saltado porque no tiene tráiler confiable: El 'western' del que Clint Eastwood intentó escapar: ""Estaba lo suficientemente loco como para intentar cualquier cosa en aquel entonces"
-[YouTube] No se encontró tráiler confiable para Esta persona tiene el trabajo más miserable de la rebelión de 'Star Wars', pero los fans aún encuentran argumentos para defenderlo
-[movies] Saltado porque no tiene tráiler confiable: Esta persona tiene el trabajo más miserable de la rebelión de 'Star Wars', pero los fans aún encuentran argumentos para defenderlo
+[movies] Candidatos encontrados: 31 | Límite: 1
+[YouTube] No se encontró tráiler confiable para 2 horas y 49 minutos de puro entretenimiento: esta es una de las mejores películas de ciencia ficción según los usuarios de SensaCine
+[movies] Saltado porque no tiene tráiler confiable: 2 horas y 49 minutos de puro entretenimiento: esta es una de las mejores películas de ciencia ficción según los usuarios de SensaCine
+[YouTube] No se encontró tráiler confiable para Con 24 años ganó 13 kilos de músculo y se metió en la película más cara de la historia: el proceso fue agotador pero el resultado un éxito
+[movies] Saltado porque no tiene tráiler confiable: Con 24 años ganó 13 kilos de músculo y se metió en la película más cara de la historia: el proceso fue agotador pero el resultado un éxito
+[YouTube] No se encontró tráiler confiable para Es considerada la peor película de Marvel, pero sentó las bases de cómo debería representarse la velocidad
+[movies] Saltado porque no tiene tráiler confiable: Es considerada la peor película de Marvel, pero sentó las bases de cómo debería representarse la velocidad
+[YouTube] No se encontró tráiler confiable para Nunca me había dado cuenta, pero este detalle de Legolas en la nieve es totalmente fiel a JRR Tolkien
+[movies] Saltado porque no tiene tráiler confiable: Nunca me había dado cuenta, pero este detalle de Legolas en la nieve es totalmente fiel a JRR Tolkien
+[YouTube] No se encontró tráiler confiable para Tom Cruise se mimetiza con sus personajes, pero hay dos que no se parecían en nada a lo que deberían ser
+[movies] Saltado porque no tiene tráiler confiable: Tom Cruise se mimetiza con sus personajes, pero hay dos que no se parecían en nada a lo que deberían ser
+[YouTube] No se encontró tráiler confiable para ‘Titanic’ consiguió una abrumadora cantidad de nominaciones en los Oscars, pero hubo dos que hicieron historia
+[movies] Saltado porque no tiene tráiler confiable: ‘Titanic’ consiguió una abrumadora cantidad de nominaciones en los Oscars, pero hubo dos que hicieron historia
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
