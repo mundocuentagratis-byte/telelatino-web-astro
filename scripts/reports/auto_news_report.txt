@@ -1,15 +1,16 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-03T15:12:35.713819+00:00
+Fecha UTC: 2026-08-03T18:02:26.830818+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
-[movies] Saltado noticia no apta para películas: Fue uno de los talentos más prometedores de su generación: ¿Qué pasó realmente con Shelley Duvall, la estrella de 'El Resplandor'?
+[movies] Saltado noticia no apta para películas: Francis Ford Coppola: "Dos hitos en España definen mi trayectoria creativa"
 [movies] Saltado noticia no apta para películas: Últimos 2 días para ver en Netflix una espléndida película de culto que Jack Nicholson salvó en el último minuto
 [movies] Saltado porque no es estreno 2026: 'Spider-Man 4' consigue lo más difícil: La aprobación del exigente icono del cómic que criticó al Batman de Christopher Nolan (2014)
+[movies] Saltado noticia no apta para películas: La película más taquillera de la historia de Warner puede quedarse sin secuela: En cuatro meses sabremos su futuro
+[movies] Saltado noticia no apta para películas: En poco más de un mes la San Diego Comic-Con Málaga 2026 revelará su programación completa
+[movies] Saltado noticia no apta para películas: El protagonista de la película más maldita de Marvel culpa al estudio de su fracaso: "Si hubieran querido hacerla, la habríamos hecho"
 [movies] Saltado noticia no apta para películas: 'La ventana abierta': suspense, amor y sombras en la costa andaluza con Unax Ugalde
 [movies] Saltado porque no es estreno 2026: 'Spider-Man 4' arrasa en taquilla y convierte a Marvel en dueña de los cuatro mayores estrenos de la historia (2025)
 [movies] Saltado noticia no apta para películas: Es considerada la peor película de Marvel, pero sentó las bases de cómo debería representarse la velocidad
-[movies] Saltado noticia no apta para películas: Nunca me había dado cuenta, pero este detalle de Legolas en la nieve es totalmente fiel a JRR Tolkien
-[movies] Saltado noticia no apta para películas: El 'western' del que Clint Eastwood intentó escapar: ""Estaba lo suficientemente loco como para intentar cualquier cosa en aquel entonces"
 [movies] Saltado porque no es estreno 2026: Es la saga de terror y ciencia ficción que mejor termina sus películas y ahora tiene otra oportunidad de mantener su mejor tradición (2027)
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
@@ -24,8 +25,8 @@ Fecha UTC: 2026-08-03T15:12:35.713819+00:00
 [movies] Saltado porque no es estreno 2026: Liborio García, mítico presentador de los 2000, lleva 20 años trabajando en televisión, pero no le habrás visto (2000)
 [movies] Saltado porque no es estreno 2026: Ganó 50 millones de pesetas, pero la ganadora de 'El Bus' desapareció de la televisión y ahora dirige un centro de menores en Huesca (2020)
 [movies] Candidatos encontrados: 24 | Límite: 1
-[YouTube] No se encontró tráiler confiable para La película más taquillera de la historia de Warner puede quedarse sin secuela: En cuatro meses sabremos su futuro
-[movies] Saltado porque no tiene tráiler confiable: La película más taquillera de la historia de Warner puede quedarse sin secuela: En cuatro meses sabremos su futuro
+[YouTube] No se encontró tráiler confiable para Fue uno de los talentos más prometedores de su generación: ¿Qué pasó realmente con Shelley Duvall, la estrella de 'El Resplandor'?
+[movies] Saltado porque no tiene tráiler confiable: Fue uno de los talentos más prometedores de su generación: ¿Qué pasó realmente con Shelley Duvall, la estrella de 'El Resplandor'?
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
