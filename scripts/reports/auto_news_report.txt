@@ -1,24 +1,32 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-03T03:50:12.339923+00:00
+Fecha UTC: 2026-08-03T07:40:26.032613+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
-[movies] Saltado porque no es estreno 2026: 'Spider-man: Brand New Day' necesita un final explicado para saber todo lo que le viene al Trepamuros. "El último plano le da sentido al título" (2000)
+[movies] Saltado noticia no apta para películas: Es considerada la peor película de Marvel, pero sentó las bases de cómo debería representarse la velocidad
+[movies] Saltado noticia no apta para películas: Nunca me había dado cuenta, pero este detalle de Legolas en la nieve es totalmente fiel a JRR Tolkien
 [movies] Saltado noticia no apta para películas: El 'western' del que Clint Eastwood intentó escapar: ""Estaba lo suficientemente loco como para intentar cualquier cosa en aquel entonces"
 [movies] Saltado porque no es estreno 2026: Es la saga de terror y ciencia ficción que mejor termina sus películas y ahora tiene otra oportunidad de mantener su mejor tradición (2027)
+[movies] Saltado noticia no apta para películas: Con 24 años ganó 13 kilos de músculo y se metió en la película más cara de la historia: el proceso fue agotador pero el resultado un éxito
+[movies] Saltado noticia no apta para películas: ‘Titanic’ consiguió una abrumadora cantidad de nominaciones en los Oscars, pero hubo dos que hicieron historia
 [movies] Saltado porque no es estreno 2026: 13 estrenos en Netflix: esta semana, el regreso al pueblo más icónico de la literatura universal y el drama adolescente estrella en la plataforma (2024)
+[movies] Saltado noticia no apta para películas: Esta persona tiene el trabajo más miserable de la rebelión de 'Star Wars', pero los fans aún encuentran argumentos para defenderlo
+[movies] Saltado noticia no apta para películas: El agujero de guion de 'Spider-man: Brand New Day' que contradice directamente a otra producción del UCM
+[movies] Saltado noticia no apta para películas: La escena eliminada de 'Spider-man: Brand New Day' que habría mostrado por qué Spider-man es un símbolo para los niños
+[movies] Saltado noticia no apta para películas: Tras más de medio siglo de carrera, Steven Spielberg revolucionó su método de trabajo en su primer musical: "Coordiné mi iPhone con los movimientos"
+[movies] Saltado noticia no apta para películas: Hace 33 años debutó con un nombre ridículo en una película de profesores asesinos. Ahora es uno de los actores más famosos del mundo, ¿le reconoces?
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado noticia no apta para películas: Laura Madrueño explica el motivo por el que decidió dejar de presentar 'Supervivientes': "Honduras no es mi casa"
-[movies] Saltado porque no es estreno 2026: El restaurante de Valencia al que no le sirvió aparecer en 'Pesadilla en la cocina': "No es una forma de ayudar a la gente" (2024)
-[movies] Saltado porque no es estreno 2026: El restaurante de la sierra madrileña que no consiguió salvar Chicote: cerró tres meses después de la emisión 'Pesadilla en la cocina' (2025)
 [movies] Saltado noticia no apta para películas: Quién es Carmen Corazzini, la presentadora italiana que presenta 'Informativos Telecinco Fin de semana' tras la marcha de María Casado
+[movies] Saltado noticia no apta para películas: La actriz de 'La que se avecina' que se sintió incómoda en 'La Resistencia': "No entendía nada, ni el humor"
+[movies] Saltado noticia no apta para películas: 'OT USA' acelera su final y casi bate el récord más temido del formato: tras un mes en emisión, solo quedan diez días para su final
 [movies] Saltado porque no es estreno 2026: Liborio García, mítico presentador de los 2000, lleva 20 años trabajando en televisión, pero no le habrás visto (2000)
 [movies] Saltado porque no es estreno 2026: Ganó 50 millones de pesetas, pero la ganadora de 'El Bus' desapareció de la televisión y ahora dirige un centro de menores en Huesca (2020)
 [movies] Saltado noticia no apta para películas: Franganillo espera que 'Ruede la letra' "empuje" a 'Informativos Telecinco': "Confiamos que lo que venga a partir de septiembre sea bueno'
 [movies] Saltado noticia no apta para películas: Meghan Markle ya no trabaja frente a las cámaras, pero ha aparecido en 'Masterchef' como jueza
 [movies] Saltado porque no es estreno 2026: Ana Guerra, sincera sobre el distanciamiento natural de OT 2017: "Cuando te das cuenta de que Aitana está en Los Ángeles y tiene 3000 WhatsApps todos los días, es inviable" (2017)
 [movies] Saltado porque no es estreno 2026: Raoul Vázquez vivió su primera "crisis de ansiedad" en 'OT 2017': "La semana del beso con Agoney fue la peor de mi vida" (2017)
-[movies] Candidatos encontrados: 30 | Límite: 1
+[movies] Candidatos encontrados: 21 | Límite: 1
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
