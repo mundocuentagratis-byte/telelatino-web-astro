@@ -1,31 +1,31 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-03T11:40:47.342751+00:00
+Fecha UTC: 2026-08-03T15:12:35.713819+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
+[movies] Saltado noticia no apta para películas: Fue uno de los talentos más prometedores de su generación: ¿Qué pasó realmente con Shelley Duvall, la estrella de 'El Resplandor'?
+[movies] Saltado noticia no apta para películas: Últimos 2 días para ver en Netflix una espléndida película de culto que Jack Nicholson salvó en el último minuto
+[movies] Saltado porque no es estreno 2026: 'Spider-Man 4' consigue lo más difícil: La aprobación del exigente icono del cómic que criticó al Batman de Christopher Nolan (2014)
+[movies] Saltado noticia no apta para películas: 'La ventana abierta': suspense, amor y sombras en la costa andaluza con Unax Ugalde
 [movies] Saltado porque no es estreno 2026: 'Spider-Man 4' arrasa en taquilla y convierte a Marvel en dueña de los cuatro mayores estrenos de la historia (2025)
+[movies] Saltado noticia no apta para películas: Es considerada la peor película de Marvel, pero sentó las bases de cómo debería representarse la velocidad
+[movies] Saltado noticia no apta para películas: Nunca me había dado cuenta, pero este detalle de Legolas en la nieve es totalmente fiel a JRR Tolkien
+[movies] Saltado noticia no apta para películas: El 'western' del que Clint Eastwood intentó escapar: ""Estaba lo suficientemente loco como para intentar cualquier cosa en aquel entonces"
 [movies] Saltado porque no es estreno 2026: Es la saga de terror y ciencia ficción que mejor termina sus películas y ahora tiene otra oportunidad de mantener su mejor tradición (2027)
-[movies] Saltado noticia no apta para películas: Con 24 años ganó 13 kilos de músculo y se metió en la película más cara de la historia: el proceso fue agotador pero el resultado un éxito
-[movies] Saltado noticia no apta para películas: ‘Titanic’ consiguió una abrumadora cantidad de nominaciones en los Oscars, pero hubo dos que hicieron historia
-[movies] Saltado porque no es estreno 2026: 13 estrenos en Netflix: esta semana, el regreso al pueblo más icónico de la literatura universal y el drama adolescente estrella en la plataforma (2024)
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado noticia no apta para películas: Laura Madrueño explica el motivo por el que decidió dejar de presentar 'Supervivientes': "Honduras no es mi casa"
 [movies] Saltado noticia no apta para películas: Quién es Carmen Corazzini, la presentadora italiana que presenta 'Informativos Telecinco Fin de semana' tras la marcha de María Casado
 [movies] Saltado noticia no apta para películas: La actriz de 'La que se avecina' que se sintió incómoda en 'La Resistencia': "No entendía nada, ni el humor"
 [movies] Saltado noticia no apta para películas: 'OT USA' acelera su final y casi bate el récord más temido del formato: tras un mes en emisión, solo quedan diez días para su final
+[movies] Saltado noticia no apta para películas: Una semana después de su salida de 'Informativos Telecinco', María Casado ya tiene nuevo proyecto: presentará un 'talent show' en Canal Sur
 [movies] Saltado noticia no apta para películas: Nacho Magnut, exconcursante de 'Pasapalabra': "El Rosco' y 'AlaZ' son pruebas al 90% iguales, pero no lo veo mal. Puede crear un efecto llamada"
 [movies] Saltado noticia no apta para películas: Álvaro Rojo, el hijo de Ana Rosa Quintana que nunca había querido aparecer en televisión: está casado con una conocida psicóloga
 [movies] Saltado noticia no apta para películas: Quién es Ane Ibarzabal, la periodista que acompaña a Gonzalo Miró al frente de 'Malas lenguas'
 [movies] Saltado porque no es estreno 2026: Liborio García, mítico presentador de los 2000, lleva 20 años trabajando en televisión, pero no le habrás visto (2000)
 [movies] Saltado porque no es estreno 2026: Ganó 50 millones de pesetas, pero la ganadora de 'El Bus' desapareció de la televisión y ahora dirige un centro de menores en Huesca (2020)
-[movies] Saltado noticia no apta para películas: Franganillo espera que 'Ruede la letra' "empuje" a 'Informativos Telecinco': "Confiamos que lo que venga a partir de septiembre sea bueno'
-[movies] Candidatos encontrados: 28 | Límite: 1
-[YouTube] No se encontró tráiler confiable para 'La ventana abierta': suspense, amor y sombras en la costa andaluza con Unax Ugalde
-[movies] Saltado porque no tiene tráiler confiable: 'La ventana abierta': suspense, amor y sombras en la costa andaluza con Unax Ugalde
-[YouTube] No se encontró tráiler confiable para El protagonista de la película más maldita de Marvel culpa al estudio de su fracaso: "Si hubieran querido hacerla, la habríamos hecho"
-[movies] Saltado porque no tiene tráiler confiable: El protagonista de la película más maldita de Marvel culpa al estudio de su fracaso: "Si hubieran querido hacerla, la habríamos hecho"
-[YouTube] No se encontró tráiler confiable para En poco más de un mes la San Diego Comic-Con Málaga 2026 revelará su programación completa
-[movies] Saltado porque no tiene tráiler confiable: En poco más de un mes la San Diego Comic-Con Málaga 2026 revelará su programación completa
+[movies] Candidatos encontrados: 24 | Límite: 1
+[YouTube] No se encontró tráiler confiable para La película más taquillera de la historia de Warner puede quedarse sin secuela: En cuatro meses sabremos su futuro
+[movies] Saltado porque no tiene tráiler confiable: La película más taquillera de la historia de Warner puede quedarse sin secuela: En cuatro meses sabremos su futuro
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
