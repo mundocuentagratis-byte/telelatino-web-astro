@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-03T18:02:26.830818+00:00
+Fecha UTC: 2026-08-03T21:18:18.482127+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
 [movies] Saltado noticia no apta para películas: Francis Ford Coppola: "Dos hitos en España definen mi trayectoria creativa"
@@ -25,8 +25,6 @@ Fecha UTC: 2026-08-03T18:02:26.830818+00:00
 [movies] Saltado porque no es estreno 2026: Liborio García, mítico presentador de los 2000, lleva 20 años trabajando en televisión, pero no le habrás visto (2000)
 [movies] Saltado porque no es estreno 2026: Ganó 50 millones de pesetas, pero la ganadora de 'El Bus' desapareció de la televisión y ahora dirige un centro de menores en Huesca (2020)
 [movies] Candidatos encontrados: 24 | Límite: 1
-[YouTube] No se encontró tráiler confiable para Fue uno de los talentos más prometedores de su generación: ¿Qué pasó realmente con Shelley Duvall, la estrella de 'El Resplandor'?
-[movies] Saltado porque no tiene tráiler confiable: Fue uno de los talentos más prometedores de su generación: ¿Qué pasó realmente con Shelley Duvall, la estrella de 'El Resplandor'?
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
