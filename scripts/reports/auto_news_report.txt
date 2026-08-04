@@ -1,7 +1,7 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-04T18:01:28.658459+00:00
+Fecha UTC: 2026-08-04T21:24:50.745206+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
-[movies] Saltado porque no es estreno 2026: La Odisea (None)
+[movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: El hijo de Michael Douglas que pasó siete años en la cárcel: "Mi padre me hacía repartir porros entre los invitados a sus fiestas"
 [movies] Saltado noticia no apta para películas: "¡Ella vivirá para siempre en una de las escenas más icónicas!": Los fans de 'Spider-Man' lamentan la muerte de Mary Rivera
 [movies] Saltado noticia no apta para películas: 15,2 millones de visualizaciones en cinco días: La película de Disney+ que ha superado el récord de 'Deadpool y Lobezno'
