@@ -1,17 +1,11 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-04T03:33:09.591953+00:00
+Fecha UTC: 2026-08-04T06:38:42.060127+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
-[movies] Saltado noticia no apta para películas: Francis Ford Coppola: "Dos hitos en España definen mi trayectoria creativa"
 [movies] Saltado noticia no apta para películas: Últimos 2 días para ver en Netflix una espléndida película de culto que Jack Nicholson salvó en el último minuto
 [movies] Saltado porque no es estreno 2026: 'Spider-Man 4' consigue lo más difícil: La aprobación del exigente icono del cómic que criticó al Batman de Christopher Nolan (2014)
-[movies] Saltado noticia no apta para películas: La película más taquillera de la historia de Warner puede quedarse sin secuela: En cuatro meses sabremos su futuro
-[movies] Saltado noticia no apta para películas: En poco más de un mes la San Diego Comic-Con Málaga 2026 revelará su programación completa
-[movies] Saltado noticia no apta para películas: El protagonista de la película más maldita de Marvel culpa al estudio de su fracaso: "Si hubieran querido hacerla, la habríamos hecho"
-[movies] Saltado noticia no apta para películas: 'La ventana abierta': suspense, amor y sombras en la costa andaluza con Unax Ugalde
-[movies] Saltado porque no es estreno 2026: 'Spider-Man 4' arrasa en taquilla y convierte a Marvel en dueña de los cuatro mayores estrenos de la historia (2025)
-[movies] Saltado noticia no apta para películas: Es considerada la peor película de Marvel, pero sentó las bases de cómo debería representarse la velocidad
-[movies] Saltado porque no es estreno 2026: Es la saga de terror y ciencia ficción que mejor termina sus películas y ahora tiene otra oportunidad de mantener su mejor tradición (2027)
+[movies] Saltado noticia no apta para películas: 'Barbie' puede quedarse sin secuela: Cuatro meses para la cuenta atrás y negociaciones fallidas con sus protagonistas
+[movies] Saltado porque no es estreno 2026: Marvel ya es dueña de los cuatro mayores estrenos de todos los tiempos (2025)
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado noticia no apta para películas: Laura Madrueño explica el motivo por el que decidió dejar de presentar 'Supervivientes': "Honduras no es mi casa"
@@ -24,7 +18,11 @@ Fecha UTC: 2026-08-04T03:33:09.591953+00:00
 [movies] Saltado noticia no apta para películas: Quién es Ane Ibarzabal, la periodista que acompaña a Gonzalo Miró al frente de 'Malas lenguas'
 [movies] Saltado porque no es estreno 2026: Liborio García, mítico presentador de los 2000, lleva 20 años trabajando en televisión, pero no le habrás visto (2000)
 [movies] Saltado porque no es estreno 2026: Ganó 50 millones de pesetas, pero la ganadora de 'El Bus' desapareció de la televisión y ahora dirige un centro de menores en Huesca (2020)
-[movies] Candidatos encontrados: 24 | Límite: 1
+[movies] Candidatos encontrados: 30 | Límite: 1
+[YouTube] No se encontró tráiler confiable para Francis Ford Coppola: "Dos hitos en España definen mi trayectoria creativa"
+[movies] Saltado porque no tiene tráiler confiable: Francis Ford Coppola: "Dos hitos en España definen mi trayectoria creativa"
+[YouTube] No se encontró tráiler confiable para “Hicimos una gran película”: Explica la directora sobre el fracaso en taquilla de una de las mejores películas de terror del año
+[movies] Saltado porque no tiene tráiler confiable: “Hicimos una gran película”: Explica la directora sobre el fracaso en taquilla de una de las mejores películas de terror del año
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
