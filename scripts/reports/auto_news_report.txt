@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-04T14:36:51.597634+00:00
+Fecha UTC: 2026-08-04T18:01:28.658459+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: La Odisea (None)
 [movies] Saltado noticia no apta para películas: El hijo de Michael Douglas que pasó siete años en la cárcel: "Mi padre me hacía repartir porros entre los invitados a sus fiestas"
@@ -18,18 +18,6 @@ Fecha UTC: 2026-08-04T14:36:51.597634+00:00
 [movies] Saltado noticia no apta para películas: Una semana después de su salida de 'Informativos Telecinco', María Casado ya tiene nuevo proyecto: presentará un 'talent show' en Canal Sur
 [movies] Saltado noticia no apta para películas: Nacho Magnut, exconcursante de 'Pasapalabra': "El Rosco' y 'AlaZ' son pruebas al 90% iguales, pero no lo veo mal. Puede crear un efecto llamada"
 [movies] Candidatos encontrados: 28 | Límite: 1
-[YouTube] No se encontró tráiler confiable para 'El Rosco' cambia de nombre: Por qué Mediaset tiene que modificar el título de la mítica prueba final en 'Rueda la letra'
-[movies] Saltado porque no tiene tráiler confiable: 'El Rosco' cambia de nombre: Por qué Mediaset tiene que modificar el título de la mítica prueba final en 'Rueda la letra'
-[YouTube] No se encontró tráiler confiable para 'Los Serrano' o Taz Skylar entre los 15 nuevos talentos confirmados para la San Diego Comic-Con Málaga 2026
-[movies] Saltado porque no tiene tráiler confiable: 'Los Serrano' o Taz Skylar entre los 15 nuevos talentos confirmados para la San Diego Comic-Con Málaga 2026
-[YouTube] No se encontró tráiler confiable para Hollywood se peleaba por adaptar este 'thriller' de 2,4 millones: ahora la IA amenaza con enterrarlo
-[movies] Saltado porque no tiene tráiler confiable: Hollywood se peleaba por adaptar este 'thriller' de 2,4 millones: ahora la IA amenaza con enterrarlo
-[YouTube] No se encontró tráiler confiable para Jordi González, presentador de televisión: "Es mentira que la gente se medique con paracetamol para trabajar conmigo"
-[movies] Saltado porque no tiene tráiler confiable: Jordi González, presentador de televisión: "Es mentira que la gente se medique con paracetamol para trabajar conmigo"
-[YouTube] No se encontró tráiler confiable para Lydia Lozano se planteó abandonar 'Sálvame', pero no les quería dar esa "satisfacción": "Prefería que hablaran mal de mi a la cara"
-[movies] Saltado porque no tiene tráiler confiable: Lydia Lozano se planteó abandonar 'Sálvame', pero no les quería dar esa "satisfacción": "Prefería que hablaran mal de mi a la cara"
-[YouTube] No se encontró tráiler confiable para Álvaro Rojo, el hijo de Ana Rosa Quintana que nunca había querido aparecer en televisión: está casado con una conocida psicóloga
-[movies] Saltado porque no tiene tráiler confiable: Álvaro Rojo, el hijo de Ana Rosa Quintana que nunca había querido aparecer en televisión: está casado con una conocida psicóloga
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
