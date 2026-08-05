@@ -1,19 +1,13 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-05T06:39:34.642929+00:00
+Fecha UTC: 2026-08-05T10:46:04.250391+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
-[movies] Saltado noticia no apta para películas: El ex 007 Pierce Brosnan nombra el actor perfecto para el próximo James Bond: “Me quitaría el sombrero ante el compañero”
-[movies] Saltado noticia no apta para películas: El hijo de Michael Douglas que pasó siete años en la cárcel: "Mi padre me hacía repartir porros entre los invitados a sus fiestas"
-[movies] Saltado noticia no apta para películas: Hollywood se peleaba por este 'thriller' de 2,4 millones: la sospecha de que lo escribió una IA lo ha arruinado todo
-[movies] Saltado noticia no apta para películas: "¡Ella vivirá para siempre en una de las escenas más icónicas!": Los fans de 'Spider-Man' lamentan la muerte de Mary Rivera
 [movies] Saltado noticia no apta para películas: El mayor estreno de una película de acción real en Disney+: 15,2 millones de visualizaciones en cinco días
 [movies] Saltado noticia no apta para películas: Un retrato íntimo y surrealista sobre una familia en ruptura: se estrena 'El amor que permanece'
 [movies] Saltado noticia no apta para películas: Alejandro G. Calvo: "Spider-Man: Brand New Day' demuestra es que la gente sí tiene ganas de ver películas de Marvel. Lo que no quiere es ver películas malas"
 [movies] Saltado noticia no apta para películas: "Hicimos una gran película": Explica la directora sobre el fracaso en taquilla de una de las mejores películas de terror del año
 [movies] Saltado noticia no apta para películas: Francis Ford Coppola: "Dos hitos en España definen mi trayectoria creativa"
-[movies] Saltado noticia no apta para películas: Fue uno de los talentos más prometedores de su generación: ¿Qué pasó realmente con Shelley Duvall, la estrella de 'El Resplandor'?
 [movies] Saltado noticia no apta para películas: Últimos 2 días para ver en Netflix una espléndida película de culto que Jack Nicholson salvó en el último minuto
-[movies] Saltado porque no es estreno 2026: 'Spider-Man 4' consigue lo más difícil: La aprobación del exigente icono del cómic que criticó al Batman de Christopher Nolan (2014)
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado porque no es estreno 2026: Ana Guerra, sincera sobre el distanciamiento natural de OT 2017: "Cuando te das cuenta de que Aitana está en Los Ángeles y tiene 3000 WhatsApps todos los días, es inviable" (2017)
@@ -22,7 +16,15 @@ Fecha UTC: 2026-08-05T06:39:34.642929+00:00
 [movies] Saltado noticia no apta para películas: 'OT USA' acelera su final y casi bate el récord más temido del formato: tras un mes en emisión, solo quedan diez días para su final
 [movies] Saltado noticia no apta para películas: Una semana después de su salida de 'Informativos Telecinco', María Casado ya tiene nuevo proyecto: presentará un 'talent show' en Canal Sur
 [movies] Saltado noticia no apta para películas: Nacho Magnut, exconcursante de 'Pasapalabra': "El Rosco' y 'AlaZ' son pruebas al 90% iguales, pero no lo veo mal. Puede crear un efecto llamada"
-[movies] Candidatos encontrados: 24 | Límite: 1
+[movies] Candidatos encontrados: 30 | Límite: 1
+[YouTube] No se encontró tráiler confiable para "Tenía que ser Mark Wahlberg. Fue un error": La estrella de 'Spider-Man', Tom Holland, asegura que no volvería a rodar ese éxito de taquilla de la misma manera
+[movies] Saltado porque no tiene tráiler confiable: "Tenía que ser Mark Wahlberg. Fue un error": La estrella de 'Spider-Man', Tom Holland, asegura que no volvería a rodar ese éxito de taquilla de la misma manera
+[movies] Saltado por tema bloqueado: "¡Ella vivirá para siempre en una de las escenas más icónicas!": Los fans de 'Spider-Man' lamentan la muerte de Mary Rivera
+[YouTube] No se encontró tráiler confiable para El ex 007 Pierce Brosnan nombra el actor perfecto para el próximo James Bond: "Me quitaría el sombrero ante el compañero"
+[movies] Saltado porque no tiene tráiler confiable: El ex 007 Pierce Brosnan nombra el actor perfecto para el próximo James Bond: "Me quitaría el sombrero ante el compañero"
+[movies] Saltado por tema bloqueado: El hijo de Michael Douglas que pasó siete años en la cárcel: "Mi padre me hacía repartir porros entre los invitados a sus fiestas"
+[YouTube] No se encontró tráiler confiable para Pedro García Aguado aún recuerda su experiencia más dura en 'Hermano Mayor': "Solo hubo un chaval que se me reviró, pero porque yo le puteé"
+[movies] Saltado porque no tiene tráiler confiable: Pedro García Aguado aún recuerda su experiencia más dura en 'Hermano Mayor': "Solo hubo un chaval que se me reviró, pero porque yo le puteé"
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
