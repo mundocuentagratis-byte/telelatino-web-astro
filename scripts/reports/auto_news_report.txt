@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-04T21:24:50.745206+00:00
+Fecha UTC: 2026-08-05T03:28:32.812239+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: El hijo de Michael Douglas que pasó siete años en la cárcel: "Mi padre me hacía repartir porros entre los invitados a sus fiestas"
@@ -18,6 +18,9 @@ Fecha UTC: 2026-08-04T21:24:50.745206+00:00
 [movies] Saltado noticia no apta para películas: Una semana después de su salida de 'Informativos Telecinco', María Casado ya tiene nuevo proyecto: presentará un 'talent show' en Canal Sur
 [movies] Saltado noticia no apta para películas: Nacho Magnut, exconcursante de 'Pasapalabra': "El Rosco' y 'AlaZ' son pruebas al 90% iguales, pero no lo veo mal. Puede crear un efecto llamada"
 [movies] Candidatos encontrados: 28 | Límite: 1
-[movies] Publicados: 0
-Total películas publicadas: 0
+[IA] Probando proveedor groq: La Patrulla Canina: La Dino película
+[IA] Artículo generado con groq
+[OK] Publicado: src/content/blog/la-patrulla-canina-la-dino-pelicula-2026-08-05-dd2653.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
