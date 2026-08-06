@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-06T14:32:14.866017+00:00
+Fecha UTC: 2026-08-06T22:49:47.545755+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: Los solteros solo pueden tener encuentros sexuales una noche al año: Así es la comedia romántica para despedir el verano
@@ -16,15 +16,13 @@ Fecha UTC: 2026-08-06T14:32:14.866017+00:00
 [movies] Saltado noticia no apta para películas: La concursante de 'Supervivientes' que destapó una clausula desconocida: "Lo tenía en el contrato y si no pagaba unos 120.000 euros"
 [movies] Saltado noticia no apta para películas: 'OT USA' acelera su final y casi bate el récord más temido del formato: tras un mes en emisión, solo quedan diez días para su final
 [movies] Saltado noticia no apta para películas: Quién es Ane Ibarzabal, la periodista que acompaña a Gonzalo Miró al frente de 'Malas lenguas'
+[movies] Saltado noticia no apta para películas: Tras 25 años "impresionantes", esta histórica voz de RTVE se despide de los espectadores: "Aquí se acaba la historia para mí"
 [movies] Saltado noticia no apta para películas: La entrega de '21 días' que no se grabó porque no tenían "100% libertad" para explicar lo que ocurría
 [movies] Saltado noticia no apta para películas: Por primera vez en su historia, 'La Voz' tendrá una versión 'celebrity': los concursantes famosos no será su única novedad
 [movies] Saltado noticia no apta para películas: Pensábamos que 'Pasapalabra' se había saltado una de sus reglas, pero el concurso explica por qué no fue así
 [movies] Saltado noticia no apta para películas: Así es Arianna Aragón, hija de Rody Aragón e hijastra de Carlos Sobera: una actriz que trabajó junto a su padrastro
 [movies] Saltado noticia no apta para películas: Tres años después de su fracaso en Telecinco, RTVE rescata este programa con Yolanda Ramos como presentadora
-[movies] Saltado porque no es estreno 2026: "No supo llevar el éxito de algo coral": Rafa Méndez desvela la tensa relación con Paula Vázquez en 'Fama a bailar' (2017)
 [movies] Candidatos encontrados: 23 | Límite: 1
-[YouTube] No se encontró tráiler confiable para La prueba de que 'La momia 4' merece la pena está en su reparto: Dos veteranos de la saga regresan en la nueva secuela
-[movies] Saltado porque no tiene tráiler confiable: La prueba de que 'La momia 4' merece la pena está en su reparto: Dos veteranos de la saga regresan en la nueva secuela
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
