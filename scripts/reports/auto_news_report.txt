@@ -1,35 +1,29 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-06T06:42:31.351105+00:00
+Fecha UTC: 2026-08-06T10:48:21.890678+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
+[movies] Saltado noticia no apta para películas: La mujer de Bruce Willis se sincera sobre su 50 cumpleaños: "Creo que la culpa es algo que siempre llevo conmigo"
+[movies] Saltado porque no es estreno 2026: 'Spider-Man 4' ya es la película más taquillera de 2026: "Augura un buen futuro para nuestra esperada 'Vengadores: Doomsday" (2019)
 [movies] Saltado noticia no apta para películas: Hace 12 años, este adolescente se inyectó mercurio para tener el esqueleto de Lobezno
 [movies] Saltado noticia no apta para películas: Es una de las mejores películas de todos los tiempos pero se consideró imposible de rodar
 [movies] Saltado noticia no apta para películas: La prueba de que 'La momia 4' merece la pena está en su reparto: Dos veteranos de la saga regresan en la nueva secuela
-[movies] Saltado noticia no apta para películas: Todo el mundo lo ha olvidado, pero Jean-Claude Van Damme hizo la misma película de acción dos veces en un lapso de 8 años
-[movies] Saltado porque no es estreno 2026: España apunta a lo grande en los Oscar 2027: Netflix apuesta fuerte por 'La bola negra' con un estreno histórico (2027)
+[movies] Saltado porque no es estreno 2026: 'La bola negra' prepara su camino para los Oscar 2027 con un estreno histórico (2027)
 [movies] Saltado noticia no apta para películas: La crisis climática, la energía atómica y la ciencia: protagonistas de 'El síndrome Rembrandt'
-[movies] Saltado noticia no apta para películas: El ex 007 Pierce Brosnan nombra el actor perfecto para el próximo James Bond: "Me quitaría el sombrero ante el compañero"
-[movies] Saltado noticia no apta para películas: El hijo de Michael Douglas que pasó siete años en la cárcel: "Mi padre me hacía repartir porros entre los invitados a sus fiestas"
-[movies] Saltado noticia no apta para películas: 'Los Serrano' o Taz Skylar entre los 15 nuevos talentos confirmados para la San Diego Comic-Con Málaga 2026
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado porque no es estreno 2026: Ana Guerra, sincera sobre el distanciamiento natural de OT 2017: "Cuando te das cuenta de que Aitana está en Los Ángeles y tiene 3000 WhatsApps todos los días, es inviable" (2017)
-[movies] Saltado noticia no apta para películas: La concursante de 'Supervivientes' que destapó una clausula desconocida: "Lo tenía en el contrato y si no pagaba unos 120.000 euros"
 [movies] Saltado noticia no apta para películas: Álvaro Rojo, el hijo de Ana Rosa Quintana que nunca había querido aparecer en televisión: está casado con una conocida psicóloga
+[movies] Saltado noticia no apta para películas: La concursante de 'Supervivientes' que destapó una clausula desconocida: "Lo tenía en el contrato y si no pagaba unos 120.000 euros"
 [movies] Saltado noticia no apta para películas: 'OT USA' acelera su final y casi bate el récord más temido del formato: tras un mes en emisión, solo quedan diez días para su final
+[movies] Saltado noticia no apta para películas: Pensábamos que 'Pasapalabra' se había saltado una de sus reglas, pero el concurso explica por qué no fue así
+[movies] Saltado noticia no apta para películas: Así es Arianna Aragón, hija de Rody Aragón e hijastra de Carlos Sobera: una actriz que trabajó junto a su padrastro
 [movies] Saltado noticia no apta para películas: Tres años después de su fracaso en Telecinco, RTVE rescata este programa con Yolanda Ramos como presentadora
 [movies] Saltado porque no es estreno 2026: "No supo llevar el éxito de algo coral": Rafa Méndez desvela la tensa relación con Paula Vázquez en 'Fama a bailar' (2017)
 [movies] Saltado noticia no apta para películas: El detalle en la nueva promoción de 'Supervivientes All Stars 3' que da una pista sobre la identidad de una concursante
 [movies] Saltado noticia no apta para películas: Pedro García Aguado aún recuerda su experiencia más dura en 'Hermano Mayor': "Solo hubo un chaval que se me reviró, pero porque yo le puteé"
-[movies] Saltado noticia no apta para películas: Lydia Lozano se planteó abandonar 'Sálvame', pero no les quería dar esa "satisfacción": "Prefería que hablaran mal de mi a la cara"
-[movies] Saltado noticia no apta para películas: Jordi González, presentador de televisión: "Es mentira que la gente se medique con paracetamol para trabajar conmigo"
-[movies] Candidatos encontrados: 23 | Límite: 1
-[YouTube] No se encontró tráiler confiable para Hace 54 años, los primeros minutos de esta película nos cautivaron porque no esperábamos un comienzo así en absoluto
-[movies] Saltado porque no tiene tráiler confiable: Hace 54 años, los primeros minutos de esta película nos cautivaron porque no esperábamos un comienzo así en absoluto
-[YouTube] No se encontró tráiler confiable para Más de 1.000 millones en seis días: 'Spider-Man 4' roza el récord, pero no puede contra la película de superhéroes más grande de todos los tiempos
-[movies] Saltado porque no tiene tráiler confiable: Más de 1.000 millones en seis días: 'Spider-Man 4' roza el récord, pero no puede contra la película de superhéroes más grande de todos los tiempos
-[YouTube] No se encontró tráiler confiable para Vuelve el 'thriller' que convirtió el miedo a las alturas en tu peor pesadilla: Un desafío más extremo a 1.500 metros del suelo
-[movies] Saltado porque no tiene tráiler confiable: Vuelve el 'thriller' que convirtió el miedo a las alturas en tu peor pesadilla: Un desafío más extremo a 1.500 metros del suelo
+[movies] Candidatos encontrados: 26 | Límite: 1
+[YouTube] No se encontró tráiler confiable para Todo el mundo lo ha olvidado, pero Jean-Claude Van Damme hizo la misma película de acción dos veces en un lapso de 8 años
+[movies] Saltado porque no tiene tráiler confiable: Todo el mundo lo ha olvidado, pero Jean-Claude Van Damme hizo la misma película de acción dos veces en un lapso de 8 años
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
