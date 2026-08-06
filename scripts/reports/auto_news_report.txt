@@ -1,29 +1,30 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-06T10:48:21.890678+00:00
+Fecha UTC: 2026-08-06T14:32:14.866017+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
+[movies] Saltado noticia no apta para películas: Los solteros solo pueden tener encuentros sexuales una noche al año: Así es la comedia romántica para despedir el verano
+[movies] Saltado noticia no apta para películas: El rechazo que convirtió a Christopher Nolan en el director que cambió el cine de superhéroes
+[movies] Saltado noticia no apta para películas: Hoy en Netflix: El final de la saga de superhéroes de 500 millones de dólares que despierta amor y odio
 [movies] Saltado noticia no apta para películas: La mujer de Bruce Willis se sincera sobre su 50 cumpleaños: "Creo que la culpa es algo que siempre llevo conmigo"
 [movies] Saltado porque no es estreno 2026: 'Spider-Man 4' ya es la película más taquillera de 2026: "Augura un buen futuro para nuestra esperada 'Vengadores: Doomsday" (2019)
 [movies] Saltado noticia no apta para películas: Hace 12 años, este adolescente se inyectó mercurio para tener el esqueleto de Lobezno
 [movies] Saltado noticia no apta para películas: Es una de las mejores películas de todos los tiempos pero se consideró imposible de rodar
-[movies] Saltado noticia no apta para películas: La prueba de que 'La momia 4' merece la pena está en su reparto: Dos veteranos de la saga regresan en la nueva secuela
 [movies] Saltado porque no es estreno 2026: 'La bola negra' prepara su camino para los Oscar 2027 con un estreno histórico (2027)
-[movies] Saltado noticia no apta para películas: La crisis climática, la energía atómica y la ciencia: protagonistas de 'El síndrome Rembrandt'
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado porque no es estreno 2026: Ana Guerra, sincera sobre el distanciamiento natural de OT 2017: "Cuando te das cuenta de que Aitana está en Los Ángeles y tiene 3000 WhatsApps todos los días, es inviable" (2017)
-[movies] Saltado noticia no apta para películas: Álvaro Rojo, el hijo de Ana Rosa Quintana que nunca había querido aparecer en televisión: está casado con una conocida psicóloga
 [movies] Saltado noticia no apta para películas: La concursante de 'Supervivientes' que destapó una clausula desconocida: "Lo tenía en el contrato y si no pagaba unos 120.000 euros"
 [movies] Saltado noticia no apta para películas: 'OT USA' acelera su final y casi bate el récord más temido del formato: tras un mes en emisión, solo quedan diez días para su final
+[movies] Saltado noticia no apta para películas: Quién es Ane Ibarzabal, la periodista que acompaña a Gonzalo Miró al frente de 'Malas lenguas'
+[movies] Saltado noticia no apta para películas: La entrega de '21 días' que no se grabó porque no tenían "100% libertad" para explicar lo que ocurría
+[movies] Saltado noticia no apta para películas: Por primera vez en su historia, 'La Voz' tendrá una versión 'celebrity': los concursantes famosos no será su única novedad
 [movies] Saltado noticia no apta para películas: Pensábamos que 'Pasapalabra' se había saltado una de sus reglas, pero el concurso explica por qué no fue así
 [movies] Saltado noticia no apta para películas: Así es Arianna Aragón, hija de Rody Aragón e hijastra de Carlos Sobera: una actriz que trabajó junto a su padrastro
 [movies] Saltado noticia no apta para películas: Tres años después de su fracaso en Telecinco, RTVE rescata este programa con Yolanda Ramos como presentadora
 [movies] Saltado porque no es estreno 2026: "No supo llevar el éxito de algo coral": Rafa Méndez desvela la tensa relación con Paula Vázquez en 'Fama a bailar' (2017)
-[movies] Saltado noticia no apta para películas: El detalle en la nueva promoción de 'Supervivientes All Stars 3' que da una pista sobre la identidad de una concursante
-[movies] Saltado noticia no apta para películas: Pedro García Aguado aún recuerda su experiencia más dura en 'Hermano Mayor': "Solo hubo un chaval que se me reviró, pero porque yo le puteé"
-[movies] Candidatos encontrados: 26 | Límite: 1
-[YouTube] No se encontró tráiler confiable para Todo el mundo lo ha olvidado, pero Jean-Claude Van Damme hizo la misma película de acción dos veces en un lapso de 8 años
-[movies] Saltado porque no tiene tráiler confiable: Todo el mundo lo ha olvidado, pero Jean-Claude Van Damme hizo la misma película de acción dos veces en un lapso de 8 años
+[movies] Candidatos encontrados: 23 | Límite: 1
+[YouTube] No se encontró tráiler confiable para La prueba de que 'La momia 4' merece la pena está en su reparto: Dos veteranos de la saga regresan en la nueva secuela
+[movies] Saltado porque no tiene tráiler confiable: La prueba de que 'La momia 4' merece la pena está en su reparto: Dos veteranos de la saga regresan en la nueva secuela
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
