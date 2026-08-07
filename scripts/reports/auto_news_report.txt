@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-07T17:05:35.030938+00:00
+Fecha UTC: 2026-08-07T20:55:16.946224+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: Clint Eastwood: "Las guerras se libran por decisiones tomadas por hombres viejos, y son los hombres jóvenes los que mueren"
@@ -23,9 +23,9 @@ Fecha UTC: 2026-08-07T17:05:35.030938+00:00
 [movies] Saltado noticia no apta para películas: Por primera vez en su historia, 'La Voz' tendrá una versión 'celebrity': los concursantes famosos no será su única novedad
 [movies] Saltado noticia no apta para películas: Pensábamos que 'Pasapalabra' se había saltado una de sus reglas, pero el concurso explica por qué no fue así
 [movies] Candidatos encontrados: 31 | Límite: 1
-[IA] Probando proveedor gemini: El último mono
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/el-ultimo-mono-comedia-romantica-con-chispa-para-2026-2026-08-07-842e10.md
+[IA] Probando proveedor mistral: Hijos del cielo
+[IA] Artículo generado con mistral
+[OK] Publicado: src/content/blog/hijos-del-cielo-estreno-de-animacion-con-drama-y-fantasia-para-agosto-2026-2026-08-07-424dd2.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
