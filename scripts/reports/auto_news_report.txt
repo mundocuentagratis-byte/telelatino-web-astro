@@ -1,18 +1,15 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-07T13:34:20.605156+00:00
+Fecha UTC: 2026-08-07T17:05:35.030938+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
-[movies] Saltado noticia no apta para películas: El hijo de Robert Downey Jr. que heredó la "maldición genética" de la adicción y acabó arrestado por cocaína
+[movies] Saltado noticia no apta para películas: Clint Eastwood: "Las guerras se libran por decisiones tomadas por hombres viejos, y son los hombres jóvenes los que mueren"
 [movies] Saltado porque no es estreno 2026: 'Michael 2' planea su rodaje: La secuela tiene que hacer frente a un obstáculo legal (2027)
 [movies] Saltado noticia no apta para películas: 31 años de carrera y 3 nominaciones al Oscar: hoy cumple 51 años una de las mejores actrices que existen en Hollywood
 [movies] Saltado noticia no apta para películas: James Cameron no descarta dejar de dirigir 'Avatar': El futuro de la saga sigue en el aire tras 'Fuego y ceniza'
 [movies] Saltado porque no es estreno 2026: 'Spider-Man 4' consigue en siete días lo que a 'Vengadores: Endgame' le costó ocho: Peter Parker sigue demostrando por qué es el superhéroe más taquillero de Marvel (2021)
 [movies] Saltado noticia no apta para películas: "Arrastré a mis padres conmigo": Christopher Nolan vio esta película 12 veces en el cine cuando era niño y sigue adorándola
-[movies] Saltado noticia no apta para películas: Los solteros solo pueden tener encuentros sexuales una noche al año: Así es la comedia romántica para despedir el verano
 [movies] Saltado noticia no apta para películas: El rechazo que convirtió a Christopher Nolan en el director que cambió el cine de superhéroes
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: El final de la saga de superhéroes de 500 millones de dólares que despierta amor y odio
-[movies] Saltado noticia no apta para películas: "La culpa es algo que siempre llevo conmigo": La mujer de Bruce Willis se sincera sobre celebrar su 50 cumpleaños mientras cuida del actor
-[movies] Saltado porque no es estreno 2026: 'Spider-Man 4' ya es la película más taquillera de 2026: "Augura un buen futuro para nuestra esperada 'Vengadores: Doomsday" (2019)
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado porque no es estreno 2026: Ana Guerra, sincera sobre el distanciamiento natural de OT 2017: "Cuando te das cuenta de que Aitana está en Los Ángeles y tiene 3000 WhatsApps todos los días, es inviable" (2017)
@@ -25,12 +22,10 @@ Fecha UTC: 2026-08-07T13:34:20.605156+00:00
 [movies] Saltado noticia no apta para películas: La entrega de '21 días' que no se grabó porque no tenían "100% libertad" para explicar lo que ocurría
 [movies] Saltado noticia no apta para películas: Por primera vez en su historia, 'La Voz' tendrá una versión 'celebrity': los concursantes famosos no será su única novedad
 [movies] Saltado noticia no apta para películas: Pensábamos que 'Pasapalabra' se había saltado una de sus reglas, pero el concurso explica por qué no fue así
-[movies] Candidatos encontrados: 28 | Límite: 1
-[IA] Probando proveedor openai: El síndrome Rembrandt
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: El síndrome Rembrandt
-[IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/el-sindrome-rembrandt-cuando-el-arte-desafia-la-logica-cientifica-2026-08-07-ed913b.md
+[movies] Candidatos encontrados: 31 | Límite: 1
+[IA] Probando proveedor gemini: El último mono
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/el-ultimo-mono-comedia-romantica-con-chispa-para-2026-2026-08-07-842e10.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
