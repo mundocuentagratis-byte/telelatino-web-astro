@@ -1,34 +1,36 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-07T09:13:44.024776+00:00
+Fecha UTC: 2026-08-07T13:34:20.605156+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
+[movies] Saltado noticia no apta para películas: El hijo de Robert Downey Jr. que heredó la "maldición genética" de la adicción y acabó arrestado por cocaína
+[movies] Saltado porque no es estreno 2026: 'Michael 2' planea su rodaje: La secuela tiene que hacer frente a un obstáculo legal (2027)
+[movies] Saltado noticia no apta para películas: 31 años de carrera y 3 nominaciones al Oscar: hoy cumple 51 años una de las mejores actrices que existen en Hollywood
+[movies] Saltado noticia no apta para películas: James Cameron no descarta dejar de dirigir 'Avatar': El futuro de la saga sigue en el aire tras 'Fuego y ceniza'
+[movies] Saltado porque no es estreno 2026: 'Spider-Man 4' consigue en siete días lo que a 'Vengadores: Endgame' le costó ocho: Peter Parker sigue demostrando por qué es el superhéroe más taquillero de Marvel (2021)
 [movies] Saltado noticia no apta para películas: "Arrastré a mis padres conmigo": Christopher Nolan vio esta película 12 veces en el cine cuando era niño y sigue adorándola
 [movies] Saltado noticia no apta para películas: Los solteros solo pueden tener encuentros sexuales una noche al año: Así es la comedia romántica para despedir el verano
 [movies] Saltado noticia no apta para películas: El rechazo que convirtió a Christopher Nolan en el director que cambió el cine de superhéroes
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: El final de la saga de superhéroes de 500 millones de dólares que despierta amor y odio
 [movies] Saltado noticia no apta para películas: "La culpa es algo que siempre llevo conmigo": La mujer de Bruce Willis se sincera sobre celebrar su 50 cumpleaños mientras cuida del actor
 [movies] Saltado porque no es estreno 2026: 'Spider-Man 4' ya es la película más taquillera de 2026: "Augura un buen futuro para nuestra esperada 'Vengadores: Doomsday" (2019)
-[movies] Saltado noticia no apta para películas: Hace 12 años, este adolescente se inyectó mercurio para tener el esqueleto de Lobezno
-[movies] Saltado noticia no apta para películas: Es una de las mejores películas de todos los tiempos pero se consideró imposible de rodar
-[movies] Saltado noticia no apta para películas: La prueba de que 'La momia 4' merece la pena está en su reparto: Dos veteranos de la saga regresan en la nueva secuela
-[movies] Saltado noticia no apta para películas: Todo el mundo lo ha olvidado, pero Jean-Claude Van Damme hizo la misma película de acción dos veces en un lapso de 8 años
-[movies] Saltado porque no es estreno 2026: 'La bola negra' prepara su camino para los Oscar 2027 con un estreno histórico (2027)
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado porque no es estreno 2026: Ana Guerra, sincera sobre el distanciamiento natural de OT 2017: "Cuando te das cuenta de que Aitana está en Los Ángeles y tiene 3000 WhatsApps todos los días, es inviable" (2017)
 [movies] Saltado noticia no apta para películas: La concursante de 'Supervivientes' que destapó una clausula desconocida: "Lo tenía en el contrato y si no pagaba unos 120.000 euros"
 [movies] Saltado noticia no apta para películas: 'OT USA' acelera su final y casi bate el récord más temido del formato: tras un mes en emisión, solo quedan diez días para su final
 [movies] Saltado noticia no apta para películas: Quién es Ane Ibarzabal, la periodista que acompaña a Gonzalo Miró al frente de 'Malas lenguas'
+[movies] Saltado noticia no apta para películas: Mi plan de jubilación para los fines de semana ya no será igual: tras 30 años en emisión, adiós al 'Cine de barrio' de siempre
+[movies] Saltado noticia no apta para películas: La audiencia dicta sentencia a 'Ordena tu vida': el programa de Inés Hernand no termina de convencer por una razón
 [movies] Saltado noticia no apta para películas: Tras 25 años "impresionantes", esta histórica voz de RTVE se despide de los espectadores: "Aquí se acaba la historia para mí"
 [movies] Saltado noticia no apta para películas: La entrega de '21 días' que no se grabó porque no tenían "100% libertad" para explicar lo que ocurría
 [movies] Saltado noticia no apta para películas: Por primera vez en su historia, 'La Voz' tendrá una versión 'celebrity': los concursantes famosos no será su única novedad
 [movies] Saltado noticia no apta para películas: Pensábamos que 'Pasapalabra' se había saltado una de sus reglas, pero el concurso explica por qué no fue así
-[movies] Saltado noticia no apta para películas: Así es Arianna Aragón, hija de Rody Aragón e hijastra de Carlos Sobera: una actriz que trabajó junto a su padrastro
-[movies] Saltado noticia no apta para películas: Tres años después de su fracaso en Telecinco, RTVE rescata este programa con Yolanda Ramos como presentadora
 [movies] Candidatos encontrados: 28 | Límite: 1
-[IA] Probando proveedor mistral: El final de Oak Street
+[IA] Probando proveedor openai: El síndrome Rembrandt
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: El síndrome Rembrandt
 [IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/el-final-de-oak-street-el-thriller-cosmico-que-llega-al-cine-2026-08-07-3f2ebc.md
+[OK] Publicado: src/content/blog/el-sindrome-rembrandt-cuando-el-arte-desafia-la-logica-cientifica-2026-08-07-ed913b.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
