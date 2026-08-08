@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-08T16:49:40.554596+00:00
+Fecha UTC: 2026-08-08T20:45:27.158606+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: "No quiero hacer otra película así jamás": el desastre de fantasía de Ridley Scott y Tom Cruise que al final le llevó a 'Top Gun'
@@ -15,9 +15,33 @@ Fecha UTC: 2026-08-08T16:49:40.554596+00:00
 [movies] Saltado noticia no apta para películas: "Me salvó la vida": El motivo por el que Mercedes Milá aceptó presentar 'Gran Hermano'
 [movies] Saltado noticia no apta para películas: Tras 25 años "impresionantes", esta histórica voz de RTVE se despide de los espectadores: "Aquí se acaba la historia para mí"
 [movies] Candidatos encontrados: 41 | Límite: 1
-[IA] Probando proveedor groq: Nimrods
-[IA] Artículo generado con groq
-[OK] Publicado: src/content/blog/nimrods-una-comedia-de-musica-y-amistad-2026-08-08-1df620.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[duplicado] Saltado por tema parecido: 'Spider-man: Brand New Day' iba a suponer el debut en el UCM de un personaje mítico de Marvel, pero se quedó en una escena eliminada ~= La escena post-créditos de Spider-Man: Brand New Day explicada
+[YouTube] No se encontró tráiler confiable para 31 años de carrera y 3 nominaciones al Oscar: hoy cumple 51 años una de las mejores actrices que existen en Hollywood
+[movies] Saltado porque no tiene tráiler confiable: 31 años de carrera y 3 nominaciones al Oscar: hoy cumple 51 años una de las mejores actrices que existen en Hollywood
+[YouTube] No se encontró tráiler confiable para Adam Sandler se encontró una vez con Harrison Ford y no fue como esperaba: “Me gustaría que limpiaras mi coche”
+[movies] Saltado porque no tiene tráiler confiable: Adam Sandler se encontró una vez con Harrison Ford y no fue como esperaba: “Me gustaría que limpiaras mi coche”
+[YouTube] No se encontró tráiler confiable para Anakin Skywalker es el jedi más poderoso de todos los tiempos, y esta escena lo demuestra
+[movies] Saltado porque no tiene tráiler confiable: Anakin Skywalker es el jedi más poderoso de todos los tiempos, y esta escena lo demuestra
+[YouTube] No se encontró tráiler confiable para Clint Eastwood: "Las guerras se libran por decisiones tomadas por hombres viejos, y son los hombres jóvenes los que mueren"
+[movies] Saltado porque no tiene tráiler confiable: Clint Eastwood: "Las guerras se libran por decisiones tomadas por hombres viejos, y son los hombres jóvenes los que mueren"
+[YouTube] No se encontró tráiler confiable para El hijo de Robert Downey Jr. que heredó la "maldición genética" de la adicción y acabó arrestado por cocaína
+[movies] Saltado porque no tiene tráiler confiable: El hijo de Robert Downey Jr. que heredó la "maldición genética" de la adicción y acabó arrestado por cocaína
+[YouTube] No se encontró tráiler confiable para James Cameron no descarta dejar de dirigir 'Avatar': El futuro de la saga sigue en el aire tras 'Fuego y ceniza'
+[movies] Saltado porque no tiene tráiler confiable: James Cameron no descarta dejar de dirigir 'Avatar': El futuro de la saga sigue en el aire tras 'Fuego y ceniza'
+[YouTube] No se encontró tráiler confiable para La audiencia dicta sentencia a 'Ordena tu vida': el programa de Inés Hernand no termina de convencer por una razón
+[movies] Saltado porque no tiene tráiler confiable: La audiencia dicta sentencia a 'Ordena tu vida': el programa de Inés Hernand no termina de convencer por una razón
+[YouTube] No se encontró tráiler confiable para La entrega de '21 días' que no se grabó porque no tenían "100% libertad" para explicar lo que ocurría
+[movies] Saltado porque no tiene tráiler confiable: La entrega de '21 días' que no se grabó porque no tenían "100% libertad" para explicar lo que ocurría
+[YouTube] No se encontró tráiler confiable para Llevo pensando en este agujero de guion de 'Spider-man: Brand New Day' desde que la vi y aún no le encuentro explicación
+[movies] Saltado porque no tiene tráiler confiable: Llevo pensando en este agujero de guion de 'Spider-man: Brand New Day' desde que la vi y aún no le encuentro explicación
+[YouTube] No se encontró tráiler confiable para Mi plan de jubilación para los fines de semana ya no será igual: tras 30 años en emisión, adiós al 'Cine de barrio' de siempre
+[movies] Saltado porque no tiene tráiler confiable: Mi plan de jubilación para los fines de semana ya no será igual: tras 30 años en emisión, adiós al 'Cine de barrio' de siempre
+[YouTube] No se encontró tráiler confiable para Naim Thomas (45 años): "Mi música es tu voz' generó cerca de los 70 millones de euros en derechos de autor"
+[movies] Saltado porque no tiene tráiler confiable: Naim Thomas (45 años): "Mi música es tu voz' generó cerca de los 70 millones de euros en derechos de autor"
+[YouTube] No se encontró tráiler confiable para Nicholas Irving, exfrancotirador, califica con un 10 perfecto esta película: "una de las películas más realistas que he visto"
+[movies] Saltado porque no tiene tráiler confiable: Nicholas Irving, exfrancotirador, califica con un 10 perfecto esta película: "una de las películas más realistas que he visto"
+[YouTube] No se encontró tráiler confiable para Steven Spielberg eliminó una perturbadora escena en su primer gran taquillazo: la decisión que salvó 'Tiburón'
+[movies] Saltado porque no tiene tráiler confiable: Steven Spielberg eliminó una perturbadora escena en su primer gran taquillazo: la decisión que salvó 'Tiburón'
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
