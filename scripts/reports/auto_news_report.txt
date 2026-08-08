@@ -1,20 +1,11 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-08T13:09:56.121740+00:00
+Fecha UTC: 2026-08-08T16:49:40.554596+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: "No quiero hacer otra película así jamás": el desastre de fantasía de Ridley Scott y Tom Cruise que al final le llevó a 'Top Gun'
 [movies] Saltado noticia no apta para películas: Con 13 años hizo su debut y fue presentada por Johnny Cash: le pidieron tres bises y se convirtió en una leyenda de la música
-[movies] Saltado noticia no apta para películas: Adam Sandler se encontró una vez con Harrison Ford y no fue como esperaba: “Me gustaría que limpiaras mi coche”
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: sólo dura hora y media y es una de las películas más espectaculares de Clint Eastwood en este siglo
-[movies] Saltado noticia no apta para películas: Nicholas Irving, exfrancotirador, califica con un 10 perfecto esta película: "una de las películas más realistas que he visto"
-[movies] Saltado noticia no apta para películas: Steven Spielberg eliminó una perturbadora escena en su primer gran taquillazo: la decisión que salvó 'Tiburón'
-[movies] Saltado noticia no apta para películas: Clint Eastwood: "Las guerras se libran por decisiones tomadas por hombres viejos, y son los hombres jóvenes los que mueren"
-[movies] Saltado noticia no apta para películas: El hijo de Robert Downey Jr. que heredó la "maldición genética" de la adicción y acabó arrestado por cocaína
 [movies] Saltado porque no es estreno 2026: 'Michael 2' planea su rodaje: La secuela tiene que hacer frente a un obstáculo legal (2027)
-[movies] Saltado noticia no apta para películas: 31 años de carrera y 3 nominaciones al Oscar: hoy cumple 51 años una de las mejores actrices que existen en Hollywood
-[movies] Saltado noticia no apta para películas: James Cameron no descarta dejar de dirigir 'Avatar': El futuro de la saga sigue en el aire tras 'Fuego y ceniza'
-[movies] Saltado porque no es estreno 2026: 'Spider-Man 4' consigue en siete días lo que a 'Vengadores: Endgame' le costó ocho: Peter Parker sigue demostrando por qué es el superhéroe más taquillero de Marvel (2021)
-[movies] Saltado noticia no apta para películas: "Arrastré a mis padres conmigo": Christopher Nolan vio esta película 12 veces en el cine cuando era niño y sigue adorándola
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado porque no es estreno 2026: Ana Guerra, sincera sobre el distanciamiento natural de OT 2017: "Cuando te das cuenta de que Aitana está en Los Ángeles y tiene 3000 WhatsApps todos los días, es inviable" (2017)
@@ -23,10 +14,10 @@ Fecha UTC: 2026-08-08T13:09:56.121740+00:00
 [movies] Saltado noticia no apta para películas: El cambio de vida de Lorena Gómez: fue engañada, pero esto le convirtió en una estrella de telenovelas en Miami
 [movies] Saltado noticia no apta para películas: "Me salvó la vida": El motivo por el que Mercedes Milá aceptó presentar 'Gran Hermano'
 [movies] Saltado noticia no apta para películas: Tras 25 años "impresionantes", esta histórica voz de RTVE se despide de los espectadores: "Aquí se acaba la historia para mí"
-[movies] Candidatos encontrados: 31 | Límite: 1
-[IA] Probando proveedor groq: Marsupilami
+[movies] Candidatos encontrados: 41 | Límite: 1
+[IA] Probando proveedor groq: Nimrods
 [IA] Artículo generado con groq
-[OK] Publicado: src/content/blog/marsupilami-aventuras-en-el-mar-2026-08-08-57901f.md
+[OK] Publicado: src/content/blog/nimrods-una-comedia-de-musica-y-amistad-2026-08-08-1df620.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
