@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-07T20:55:16.946224+00:00
+Fecha UTC: 2026-08-08T02:18:26.440725+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: Clint Eastwood: "Las guerras se libran por decisiones tomadas por hombres viejos, y son los hombres jóvenes los que mueren"
@@ -14,8 +14,8 @@ Fecha UTC: 2026-08-07T20:55:16.946224+00:00
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado porque no es estreno 2026: Ana Guerra, sincera sobre el distanciamiento natural de OT 2017: "Cuando te das cuenta de que Aitana está en Los Ángeles y tiene 3000 WhatsApps todos los días, es inviable" (2017)
 [movies] Saltado noticia no apta para películas: La concursante de 'Supervivientes' que destapó una clausula desconocida: "Lo tenía en el contrato y si no pagaba unos 120.000 euros"
-[movies] Saltado noticia no apta para películas: 'OT USA' acelera su final y casi bate el récord más temido del formato: tras un mes en emisión, solo quedan diez días para su final
 [movies] Saltado noticia no apta para películas: Quién es Ane Ibarzabal, la periodista que acompaña a Gonzalo Miró al frente de 'Malas lenguas'
+[movies] Saltado noticia no apta para películas: El cambio de vida de Lorena Gómez: fue engañada, pero esto le convirtió en una estrella de telenovelas en Miami
 [movies] Saltado noticia no apta para películas: Mi plan de jubilación para los fines de semana ya no será igual: tras 30 años en emisión, adiós al 'Cine de barrio' de siempre
 [movies] Saltado noticia no apta para películas: La audiencia dicta sentencia a 'Ordena tu vida': el programa de Inés Hernand no termina de convencer por una razón
 [movies] Saltado noticia no apta para películas: Tras 25 años "impresionantes", esta histórica voz de RTVE se despide de los espectadores: "Aquí se acaba la historia para mí"
@@ -23,9 +23,10 @@ Fecha UTC: 2026-08-07T20:55:16.946224+00:00
 [movies] Saltado noticia no apta para películas: Por primera vez en su historia, 'La Voz' tendrá una versión 'celebrity': los concursantes famosos no será su única novedad
 [movies] Saltado noticia no apta para películas: Pensábamos que 'Pasapalabra' se había saltado una de sus reglas, pero el concurso explica por qué no fue así
 [movies] Candidatos encontrados: 31 | Límite: 1
-[IA] Probando proveedor mistral: Hijos del cielo
-[IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/hijos-del-cielo-estreno-de-animacion-con-drama-y-fantasia-para-agosto-2026-2026-08-07-424dd2.md
+[movies] Saltado por tema bloqueado: Italiana
+[IA] Probando proveedor groq: Kangaroo: Una aventura en Australia
+[IA] Artículo generado con groq
+[OK] Publicado: src/content/blog/kangaroo-una-aventura-en-australia-2026-08-08-7a034d.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
