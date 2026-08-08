@@ -1,15 +1,16 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-08T05:07:53.899599+00:00
+Fecha UTC: 2026-08-08T08:56:59.062013+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
-[movies] Saltado noticia no apta para películas: Clint Eastwood: "Las guerras se libran por decisiones tomadas por hombres viejos, y son los hombres jóvenes los que mueren"
+[movies] Saltado noticia no apta para películas: Con 13 años hizo su debut y fue presentada por Johnny Cash: le pidieron tres bises y se convirtió en una leyenda de la música
+[movies] Saltado noticia no apta para películas: Adam Sandler se encontró una vez con Harrison Ford y no fue como esperaba: “Me gustaría que limpiaras mi coche”
+[movies] Saltado noticia no apta para películas: Hoy en Netflix: sólo dura hora y media y es una de las películas más espectaculares de Clint Eastwood en este siglo
+[movies] Saltado noticia no apta para películas: El hijo de Robert Downey Jr. que heredó la "maldición genética" de la adicción y acabó arrestado por cocaína
 [movies] Saltado porque no es estreno 2026: 'Michael 2' planea su rodaje: La secuela tiene que hacer frente a un obstáculo legal (2027)
-[movies] Saltado noticia no apta para películas: 31 años de carrera y 3 nominaciones al Oscar: hoy cumple 51 años una de las mejores actrices que existen en Hollywood
 [movies] Saltado noticia no apta para películas: James Cameron no descarta dejar de dirigir 'Avatar': El futuro de la saga sigue en el aire tras 'Fuego y ceniza'
 [movies] Saltado porque no es estreno 2026: 'Spider-Man 4' consigue en siete días lo que a 'Vengadores: Endgame' le costó ocho: Peter Parker sigue demostrando por qué es el superhéroe más taquillero de Marvel (2021)
 [movies] Saltado noticia no apta para películas: "Arrastré a mis padres conmigo": Christopher Nolan vio esta película 12 veces en el cine cuando era niño y sigue adorándola
 [movies] Saltado noticia no apta para películas: El rechazo que convirtió a Christopher Nolan en el director que cambió el cine de superhéroes
-[movies] Saltado noticia no apta para películas: Hoy en Netflix: El final de la saga de superhéroes de 500 millones de dólares que despierta amor y odio
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado porque no es estreno 2026: Ana Guerra, sincera sobre el distanciamiento natural de OT 2017: "Cuando te das cuenta de que Aitana está en Los Ángeles y tiene 3000 WhatsApps todos los días, es inviable" (2017)
@@ -22,10 +23,12 @@ Fecha UTC: 2026-08-08T05:07:53.899599+00:00
 [movies] Saltado noticia no apta para películas: La entrega de '21 días' que no se grabó porque no tenían "100% libertad" para explicar lo que ocurría
 [movies] Saltado noticia no apta para películas: Por primera vez en su historia, 'La Voz' tendrá una versión 'celebrity': los concursantes famosos no será su única novedad
 [movies] Saltado noticia no apta para películas: Pensábamos que 'Pasapalabra' se había saltado una de sus reglas, pero el concurso explica por qué no fue así
-[movies] Candidatos encontrados: 30 | Límite: 1
-[IA] Probando proveedor mistral: La ventana abierta
-[IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/la-ventana-abierta-un-thriller-psicologico-que-te-dejara-sin-aliento-2026-08-08-a88677.md
+[movies] Candidatos encontrados: 32 | Límite: 1
+[IA] Probando proveedor cohere: Manual para superhéroes: La máscara roja
+[IA] cohere falló (error): Cohere error 404: {"id":"256eaf44-ff3d-4e3f-b42b-8e83456105e0","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Manual para superhéroes: La máscara roja
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/manual-para-superheroes-la-mascara-roja-una-aventura-animada-para-2026-2026-08-08-785a09.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
