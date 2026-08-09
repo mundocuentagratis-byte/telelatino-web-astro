@@ -1,7 +1,13 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-09T13:12:25.572941+00:00
+Fecha UTC: 2026-08-09T16:50:40.725279+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
+[movies] Saltado noticia no apta para películas: Tom Cruise puso como excusa el estudio de la Biblia para ligar con las groupies que hacían fila en su habitación mientras rodaba 'Risky Business'
+[movies] Saltado noticia no apta para películas: El día que 100 millones de espectadores contemplaron las desgarradoras consecuencias del apocalipsis nuclear
+[movies] Saltado noticia no apta para películas: "La gente pregunta sobre eso todo el tiempo": La respuesta del creador de 'Regreso al futuro' al gran enigma del DeLorean
+[movies] Saltado noticia no apta para películas: Es de lo mejor de 'La odisea', pero hace 12 años fue sustituida por Scarlett Johansson tras ser despedida: "Duele"
+[movies] Saltado noticia no apta para películas: Hace 24 años ganó el Oscar por mejor actriz, pero dos años después protagonizó un desastre del que todavía se arrepiente: “Justo lo que mi carrera necesitaba”
+[movies] Saltado noticia no apta para películas: Jack Nicholson, sobre el rodaje de ‘El resplandor’: “Trabajaba 12 horas en la película, salía de fiesta durante 8 horas, dormía 4 y volvía a empezar”
 [movies] Saltado noticia no apta para películas: 16 estrenos en Netflix: esta semana, una de las películas españolas más destacadas del año solo 6 meses después de su estreno en cines
 [movies] Saltado noticia no apta para películas: Anakin Skywalker es el jedi más poderoso de todos los tiempos, y esta escena lo demuestra
 [movies] Saltado noticia no apta para películas: Llevo pensando en este agujero de guion de 'Spider-man: Brand New Day' desde que la vi y aún no le encuentro explicación
@@ -9,21 +15,19 @@ Fecha UTC: 2026-08-09T13:12:25.572941+00:00
 [movies] Saltado noticia no apta para películas: "No quiero hacer otra película así jamás": el desastre de fantasía de Ridley Scott y Tom Cruise que al final le llevó a 'Top Gun'
 [movies] Saltado noticia no apta para películas: Con 13 años hizo su debut y fue presentada por Johnny Cash: le pidieron tres bises y se convirtió en una leyenda de la música
 [movies] Saltado noticia no apta para películas: Adam Sandler se encontró una vez con Harrison Ford y no fue como esperaba: “Me gustaría que limpiaras mi coche”
-[movies] Saltado noticia no apta para películas: Hoy en Netflix: sólo dura hora y media y es una de las películas más espectaculares de Clint Eastwood en este siglo
-[movies] Saltado noticia no apta para películas: Nicholas Irving, exfrancotirador, califica con un 10 perfecto esta película: "una de las películas más realistas que he visto"
-[movies] Saltado noticia no apta para películas: Steven Spielberg eliminó una perturbadora escena en su primer gran taquillazo: la decisión que salvó 'Tiburón'
-[movies] Saltado noticia no apta para películas: Clint Eastwood: "Las guerras se libran por decisiones tomadas por hombres viejos, y son los hombres jóvenes los que mueren"
-[movies] Saltado noticia no apta para películas: El hijo de Robert Downey Jr. que heredó la "maldición genética" de la adicción y acabó arrestado por cocaína
-[movies] Saltado porque no es estreno 2026: 'Michael 2' planea su rodaje: La secuela tiene que hacer frente a un obstáculo legal (2027)
-[movies] Saltado noticia no apta para películas: 31 años de carrera y 3 nominaciones al Oscar: hoy cumple 51 años una de las mejores actrices que existen en Hollywood
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
 [movies] Saltado porque no es estreno 2026: Ana Guerra, sincera sobre el distanciamiento natural de OT 2017: "Cuando te das cuenta de que Aitana está en Los Ángeles y tiene 3000 WhatsApps todos los días, es inviable" (2017)
+[movies] Saltado noticia no apta para películas: Naim Thomas (45 años): "Mi música es tu voz' generó cerca de los 70 millones de euros en derechos de autor"
 [movies] Saltado noticia no apta para películas: Tras 25 años "impresionantes", esta histórica voz de RTVE se despide de los espectadores: "Aquí se acaba la historia para mí"
 [movies] Saltado noticia no apta para películas: Quién es Ane Ibarzabal, la periodista que acompaña a Gonzalo Miró al frente de 'Malas lenguas'
-[movies] Saltado noticia no apta para películas: 'El Rosco' cambia de nombre: Por qué Mediaset tiene que modificar el título de la mítica prueba final en 'Rueda la letra'
-[movies] Saltado noticia no apta para películas: "Me salvó la vida": El motivo por el que Mercedes Milá aceptó presentar 'Gran Hermano'
-[movies] Candidatos encontrados: 31 | Límite: 1
+[movies] Candidatos encontrados: 32 | Límite: 1
+[YouTube] No se encontró tráiler confiable para "Me salvó la vida": El motivo por el que Mercedes Milá aceptó presentar 'Gran Hermano'
+[movies] Saltado porque no tiene tráiler confiable: "Me salvó la vida": El motivo por el que Mercedes Milá aceptó presentar 'Gran Hermano'
+[YouTube] No se encontró tráiler confiable para El ganador de 'Gran Hermano' que utilizó el premio para abrir negocios: ahora trabaja en un geriátrico
+[movies] Saltado porque no tiene tráiler confiable: El ganador de 'Gran Hermano' que utilizó el premio para abrir negocios: ahora trabaja en un geriátrico
+[YouTube] No se encontró tráiler confiable para El pueblo de Cantabria en el que Ramón García pasó su infancia: sigue siendo su refugio y tiene una de las playas más largas de España
+[movies] Saltado porque no tiene tráiler confiable: El pueblo de Cantabria en el que Ramón García pasó su infancia: sigue siendo su refugio y tiene una de las playas más largas de España
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
