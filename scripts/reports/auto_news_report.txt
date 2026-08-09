@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-09T02:25:47.689026+00:00
+Fecha UTC: 2026-08-09T05:15:50.937531+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: "No quiero hacer otra película así jamás": el desastre de fantasía de Ridley Scott y Tom Cruise que al final le llevó a 'Top Gun'
