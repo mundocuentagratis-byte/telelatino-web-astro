@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-10T02:30:58.026934+00:00
+Fecha UTC: 2026-08-10T05:42:18.457483+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: En 'El señor de los anillos', el resto de hobbits apuñalan a todas las razas que dañan a Frodo
