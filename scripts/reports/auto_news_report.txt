@@ -1,15 +1,17 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-10T09:44:44.396039+00:00
+Fecha UTC: 2026-08-10T13:39:23.642032+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
+[movies] Saltado porque no es estreno 2026: Últimos 5 días para ver en Netflix una de las mejores películas de acción de Arnold Schwarzenegger (2023)
 [movies] Saltado porque no es estreno 2026: Con esta joya de acción, Christopher Nolan forzó a la Academia a incluir diez nominaciones a Mejor Película en vez de cinco (2012)
-[movies] Saltado porque no es estreno 2026: Hacía ocho años que no ocurría esto: Cinco películas superan los 1.000 millones de dólares en taquilla (2022)
-[movies] Saltado porque no es estreno 2026: "Me siento muy afortunada de haberlo conocido": Mara Wilson, la actriz de 'La señora Doubtfire' recuerda a su padre en la pantalla, Robin Williams (†63) (2039)
-[movies] Saltado noticia no apta para películas: Peter Jackson hizo este cambio en 'El señor de los anillos' para demostrar la valentía de los hobbits: un guiño que habrán notado solo los más observadores
-[movies] Saltado noticia no apta para películas: Aunque hay muchos personajes de Marvel de los que no hemos vuelto a saber, este de 'Doctor Strange' duele más que ningún otro
-[movies] Saltado noticia no apta para películas: Hace 24 años ganó el Oscar por mejor actriz, pero dos años después protagonizó un desastre del que todavía se arrepiente: “Justo lo que mi carrera necesitaba”
-[movies] Saltado noticia no apta para películas: Jack Nicholson, sobre el rodaje de ‘El resplandor’: “Trabajaba 12 horas en la película, salía de fiesta durante 8 horas, dormía 4 y volvía a empezar”
-[movies] Saltado noticia no apta para películas: 16 estrenos en Netflix: esta semana, una de las películas españolas más destacadas del año solo 6 meses después de su estreno en cines
+[movies] Saltado porque no es estreno 2026: 'La Odisea' destrona a 'Avatar': la épica de Christopher Nolan establece un nuevo récord de taquilla (2022)
+[movies] Saltado porque no es estreno 2026: "Me siento muy afortunada de haberlo conocido": Mara Wilson, la actriz de 'La señora Doubtfire' recuerda a su padre en la pantalla, Robin Williams (†63) (2023)
+[movies] Saltado porque no es estreno 2026: Peter Jackson hizo este cambio en 'El señor de los anillos' para demostrar la valentía de los hobbits: un guiño que habrán notado solo los más observadores (2023)
+[movies] Saltado porque no es estreno 2026: Aunque hay muchos personajes de Marvel de los que no hemos vuelto a saber, este de 'Doctor Strange' duele más que ningún otro (2023)
+[movies] Saltado noticia no apta para películas: Tom Cruise puso como excusa el estudio de la Biblia para ligar con las groupies que hacían fila en su habitación mientras rodaba 'Risky Business'
+[movies] Saltado noticia no apta para películas: El día que 100 millones de espectadores contemplaron las desgarradoras consecuencias del apocalipsis nuclear
+[movies] Saltado porque no es estreno 2026: "La gente pregunta sobre eso todo el tiempo": La respuesta del creador de 'Regreso al futuro' al gran enigma del DeLorean (2023)
+[movies] Saltado porque no es estreno 2026: Es de lo mejor de 'La odisea', pero hace 12 años fue sustituida por Scarlett Johansson tras ser despedida: "Duele" (2023)
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado noticia no apta para películas: Últimos 5 días para ver en Netflix una de las trilogías más épicas de la historia del cine de fantasía
 [movies] Saltado porque no es estreno 2026: Ana Guerra, sincera sobre el distanciamiento natural de OT 2017: "Cuando te das cuenta de que Aitana está en Los Ángeles y tiene 3000 WhatsApps todos los días, es inviable" (2017)
@@ -21,13 +23,7 @@ Fecha UTC: 2026-08-10T09:44:44.396039+00:00
 [movies] Saltado noticia no apta para películas: El pueblo de Cantabria en el que Ramón García pasó su infancia: sigue siendo su refugio y tiene una de las playas más largas de España
 [movies] Saltado noticia no apta para películas: "Me salvó la vida": El motivo por el que Mercedes Milá aceptó presentar 'Gran Hermano'
 [movies] Saltado noticia no apta para películas: Mi plan de jubilación para los fines de semana ya no será igual: tras 30 años en emisión, adiós al 'Cine de barrio' de siempre
-[movies] Candidatos encontrados: 31 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "La gente pregunta sobre eso todo el tiempo": La respuesta del creador de 'Regreso al futuro' al gran enigma del DeLorean
-[movies] Saltado porque no tiene tráiler confiable: "La gente pregunta sobre eso todo el tiempo": La respuesta del creador de 'Regreso al futuro' al gran enigma del DeLorean
-[YouTube] No se encontró tráiler confiable para El día que 100 millones de espectadores contemplaron las desgarradoras consecuencias del apocalipsis nuclear
-[movies] Saltado porque no tiene tráiler confiable: El día que 100 millones de espectadores contemplaron las desgarradoras consecuencias del apocalipsis nuclear
-[YouTube] No se encontró tráiler confiable para Tom Cruise puso como excusa el estudio de la Biblia para ligar con las groupies que hacían fila en su habitación mientras rodaba 'Risky Business'
-[movies] Saltado porque no tiene tráiler confiable: Tom Cruise puso como excusa el estudio de la Biblia para ligar con las groupies que hacían fila en su habitación mientras rodaba 'Risky Business'
+[movies] Candidatos encontrados: 27 | Límite: 1
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
