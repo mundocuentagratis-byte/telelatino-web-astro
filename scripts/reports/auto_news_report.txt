@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-09T20:49:31.395478+00:00
+Fecha UTC: 2026-08-10T02:30:58.026934+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: En 'El señor de los anillos', el resto de hobbits apuñalan a todas las razas que dañan a Frodo
@@ -11,20 +11,12 @@ Fecha UTC: 2026-08-09T20:49:31.395478+00:00
 [movies] Saltado noticia no apta para películas: Llevo pensando en este agujero de guion de 'Spider-man: Brand New Day' desde que la vi y aún no le encuentro explicación
 [movies] Saltado noticia no apta para películas: 'Spider-man: Brand New Day' iba a suponer el debut en el UCM de un personaje mítico de Marvel, pero se quedó en una escena eliminada
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
-[movies] Saltado noticia no apta para películas: José Sacristán (88 años): "Me diagnosticaron de mocito labilidad emocional, que quiere decir que tengo un alma de portero que no me la merezco"
+[movies] Saltado noticia no apta para películas: Últimos 5 días para ver en Netflix una de las trilogías más épicas de la historia del cine de fantasía
 [movies] Saltado porque no es estreno 2026: Ana Guerra, sincera sobre el distanciamiento natural de OT 2017: "Cuando te das cuenta de que Aitana está en Los Ángeles y tiene 3000 WhatsApps todos los días, es inviable" (2017)
 [movies] Saltado noticia no apta para películas: Naim Thomas (45 años): "Mi música es tu voz' generó cerca de los 70 millones de euros en derechos de autor"
 [movies] Saltado noticia no apta para películas: Tras 25 años "impresionantes", esta histórica voz de RTVE se despide de los espectadores: "Aquí se acaba la historia para mí"
 [movies] Saltado noticia no apta para películas: Quién es Ane Ibarzabal, la periodista que acompaña a Gonzalo Miró al frente de 'Malas lenguas'
 [movies] Candidatos encontrados: 36 | Límite: 1
-[YouTube] No se encontró tráiler confiable para Aunque hay muchos personajes de Marvel de los que no hemos vuelto a saber, este de 'Doctor Strange' duele más que ningún otro
-[movies] Saltado porque no tiene tráiler confiable: Aunque hay muchos personajes de Marvel de los que no hemos vuelto a saber, este de 'Doctor Strange' duele más que ningún otro
-[YouTube] No se encontró tráiler confiable para Es de lo mejor de 'La odisea', pero hace 12 años fue sustituida por Scarlett Johansson tras ser despedida: "Duele"
-[movies] Saltado porque no tiene tráiler confiable: Es de lo mejor de 'La odisea', pero hace 12 años fue sustituida por Scarlett Johansson tras ser despedida: "Duele"
-[YouTube] No se encontró tráiler confiable para Hace 24 años ganó el Oscar por mejor actriz, pero dos años después protagonizó un desastre del que todavía se arrepiente: “Justo lo que mi carrera necesitaba”
-[movies] Saltado porque no tiene tráiler confiable: Hace 24 años ganó el Oscar por mejor actriz, pero dos años después protagonizó un desastre del que todavía se arrepiente: “Justo lo que mi carrera necesitaba”
-[YouTube] No se encontró tráiler confiable para Jack Nicholson, sobre el rodaje de ‘El resplandor’: “Trabajaba 12 horas en la película, salía de fiesta durante 8 horas, dormía 4 y volvía a empezar”
-[movies] Saltado porque no tiene tráiler confiable: Jack Nicholson, sobre el rodaje de ‘El resplandor’: “Trabajaba 12 horas en la película, salía de fiesta durante 8 horas, dormía 4 y volvía a empezar”
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
