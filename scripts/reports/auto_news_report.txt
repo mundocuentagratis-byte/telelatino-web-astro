@@ -1,16 +1,18 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-11T09:11:22.103322+00:00
+Fecha UTC: 2026-08-11T13:37:22.636625+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
+[movies] Saltado noticia no apta para películas: El 'reality' que cazaba pedófilos llega al cine con Robert Pattinson: Promete ser la película más polémica del año
+[movies] Saltado porque no es estreno 2026: Se cumplen 12 años de uno de los sucesos más trágicos de la historia del cine (2014)
+[movies] Saltado porque no es estreno 2026: Da igual cuántas películas se hagan en un futuro: este es y siempre será el mejor eclipse jamás recreado en el cine (2001)
+[movies] Saltado porque no es estreno 2026: 'Spider-Man: Brand New Day' ya tiene 15 récords: Así ha cambiado la película de Marvel la taquilla en España (2019)
+[movies] Saltado noticia no apta para películas: Yohana Cobo apenas tenía 20 años cuando deslumbró a público y crítica con 'Volver': ¿qué ha sido de ella dos décadas después?
 [movies] Saltado porque no es estreno 2026: Disney recicla una película de 'Star Wars': No encaja en la saga, pero sí puede funcionar como película de ciencia ficción (2023)
 [movies] Saltado noticia no apta para películas: George Lucas quedó con David Lynch para ofrecerle dirigir 'Star Wars': El director "no tenía ningún interés" y acabó con una migraña
 [movies] Saltado noticia no apta para películas: "Prefiero trabajar con Tom Cruise": El ganador del Oscar Robert Duvall rechazó uno de los mejores thrillers de todos los tiempos
 [movies] Saltado porque no es estreno 2026: Robin Williams, actor: "solo se te concede una pequeña chispa de locura. No debes perderla" (2039)
 [movies] Saltado noticia no apta para películas: Esta coproducción española de fantasía está entre las mejores del siglo XXI
 [movies] Saltado noticia no apta para películas: Solo tienes cuatro días para ver una de las mejores y últimas grandes películas de acción de Arnold Schwarzenegger
-[movies] Saltado porque no es estreno 2026: Con esta joya de acción, Christopher Nolan forzó a la Academia a incluir diez nominaciones a Mejor Película en vez de cinco (2012)
-[movies] Saltado porque no es estreno 2026: 'La Odisea' destrona a 'Avatar': la épica de Christopher Nolan establece un nuevo récord de taquilla (2022)
-[movies] Saltado porque no es estreno 2026: "Me siento muy afortunada de haberlo conocido": Mara Wilson, la actriz de 'La señora Doubtfire' recuerda a su padre en la pantalla, Robin Williams (†63) (2039)
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado noticia no apta para películas: Últimos 5 días para ver en Netflix una de las trilogías más épicas de la historia del cine de fantasía
 [movies] Saltado noticia no apta para películas: Naim Thomas (45 años): "Mi música es tu voz' generó cerca de los 70 millones de euros en derechos de autor"
@@ -22,7 +24,9 @@ Fecha UTC: 2026-08-11T09:11:22.103322+00:00
 [movies] Saltado noticia no apta para películas: El pueblo de Cantabria en el que Ramón García pasó su infancia: sigue siendo su refugio y tiene una de las playas más largas de España
 [movies] Saltado noticia no apta para películas: "Me salvó la vida": El motivo por el que Mercedes Milá aceptó presentar 'Gran Hermano'
 [movies] Saltado noticia no apta para películas: Mi plan de jubilación para los fines de semana ya no será igual: tras 30 años en emisión, adiós al 'Cine de barrio' de siempre
-[movies] Candidatos encontrados: 27 | Límite: 1
+[movies] Candidatos encontrados: 28 | Límite: 1
+[YouTube] No se encontró tráiler confiable para He pasado 25 años sin saber que este personaje de 'Titanic' era una persona real: la historia de su supervivencia es una de la más increíbles
+[movies] Saltado porque no tiene tráiler confiable: He pasado 25 años sin saber que este personaje de 'Titanic' era una persona real: la historia de su supervivencia es una de la más increíbles
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
