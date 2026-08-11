@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-11T17:10:05.935281+00:00
+Fecha UTC: 2026-08-11T21:00:19.245470+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: Tallulah Willis, la hija de 32 años de Bruce Willis y Demi Moore, se casa con un vestido que ha llevado más de 700 horas de trabajo
