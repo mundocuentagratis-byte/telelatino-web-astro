@@ -224,8 +224,10 @@
       };
 
       const apiBase = String(
-        import.meta.env.PUBLIC_TV_API_BASE || "https://telelatino-api.thiagobtav2.workers.dev"
+        import.meta.env.PUBLIC_TV_API_BASE || "https://telelatino-api-v2.thiagobtav2.workers.dev"
       ).replace(/\/+$/, "");
+
+      const expectedFirebaseProject = "telelatino-tv-v2-2026";
 
       const screenForm = document.getElementById("screenForm");
       const screenProcessing = document.getElementById("screenProcessing");
@@ -282,6 +284,12 @@
 
         if (missing.length > 0) {
           showFormMessage("Faltan variables en Vercel: " + missing.join(", "));
+          googleBtn.disabled = true;
+          return false;
+        }
+
+        if (firebaseConfig.projectId !== expectedFirebaseProject) {
+          showFormMessage("La vinculación V2 no está configurada correctamente.");
           googleBtn.disabled = true;
           return false;
         }
