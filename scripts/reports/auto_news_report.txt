@@ -1,19 +1,20 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-12T05:44:45.724892+00:00
+Fecha UTC: 2026-08-12T09:23:05.823056+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
+[movies] Saltado noticia no apta para películas: "El cine fue inventado para él": éste es uno de los mejores actores que existen, según Clint Eastwood
+[movies] Saltado porque no es estreno 2026: "Me jodió tanto que tuve que ir a terapia": Dakota Johnson necesitó ayuda psicológica tras protagonizar esta película de terror (2018)
+[movies] Saltado porque no es estreno 2026: Los fans de la ciencia ficción llevan esperando 12 años para la secuela de esta película (2009)
 [movies] Saltado noticia no apta para películas: Tallulah Willis, la hija de 32 años de Bruce Willis y Demi Moore, se casa con un vestido que ha llevado más de 700 horas de trabajo
 [movies] Saltado noticia no apta para películas: "Recaí": Brad Pitt admite que ha vuelto a beber alcohol tras siete años sobrio
 [movies] Saltado noticia no apta para películas: El 'reality' que cazaba pedófilos llega al cine con Robert Pattinson: Promete ser la película más polémica del año
-[movies] Saltado porque no es estreno 2026: Se cumplen 12 años de uno de los sucesos más trágicos de la historia del cine (2039)
+[movies] Saltado noticia no apta para películas: Se cumplen 12 años de uno de los sucesos más trágicos de la historia del cine
 [movies] Saltado porque no es estreno 2026: Da igual cuántas películas se hagan en un futuro: este es y siempre será el mejor eclipse jamás recreado en el cine (2001)
 [movies] Saltado porque no es estreno 2026: 'Spider-Man: Brand New Day' ya tiene 15 récords: Así ha cambiado la película de Marvel la taquilla en España (2019)
 [movies] Saltado noticia no apta para películas: He pasado 25 años sin saber que este personaje de 'Titanic' era una persona real: la historia de su supervivencia es una de la más increíbles
 [movies] Saltado noticia no apta para películas: Yohana Cobo apenas tenía 20 años cuando deslumbró a público y crítica con 'Volver': ¿qué ha sido de ella dos décadas después?
 [movies] Saltado porque no es estreno 2026: Disney recicla una película de 'Star Wars': No encaja en la saga, pero sí puede funcionar como película de ciencia ficción (2023)
 [movies] Saltado noticia no apta para películas: George Lucas quedó con David Lynch para ofrecerle dirigir 'Star Wars': El director "no tenía ningún interés" y acabó con una migraña
-[movies] Saltado noticia no apta para películas: "Prefiero trabajar con Tom Cruise": El ganador del Oscar Robert Duvall rechazó uno de los mejores thrillers de todos los tiempos
-[movies] Saltado porque no es estreno 2026: Robin Williams, actor: "solo se te concede una pequeña chispa de locura. No debes perderla" (2039)
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado noticia no apta para películas: Últimos 5 días para ver en Netflix una de las trilogías más épicas de la historia del cine de fantasía
 [movies] Saltado noticia no apta para películas: Naim Thomas (45 años): "Mi música es tu voz' generó cerca de los 70 millones de euros en derechos de autor"
@@ -24,7 +25,7 @@ Fecha UTC: 2026-08-12T05:44:45.724892+00:00
 [movies] Saltado noticia no apta para películas: El pueblo de Cantabria en el que Ramón García pasó su infancia: sigue siendo su refugio y tiene una de las playas más largas de España
 [movies] Saltado noticia no apta para películas: "Me salvó la vida": El motivo por el que Mercedes Milá aceptó presentar 'Gran Hermano'
 [movies] Saltado noticia no apta para películas: Mi plan de jubilación para los fines de semana ya no será igual: tras 30 años en emisión, adiós al 'Cine de barrio' de siempre
-[movies] Candidatos encontrados: 28 | Límite: 1
+[movies] Candidatos encontrados: 27 | Límite: 1
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
