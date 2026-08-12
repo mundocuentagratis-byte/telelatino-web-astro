@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-11T21:00:19.245470+00:00
+Fecha UTC: 2026-08-12T02:39:55.105042+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: Tallulah Willis, la hija de 32 años de Bruce Willis y Demi Moore, se casa con un vestido que ha llevado más de 700 horas de trabajo
@@ -19,13 +19,17 @@ Fecha UTC: 2026-08-11T21:00:19.245470+00:00
 [movies] Saltado noticia no apta para películas: Naim Thomas (45 años): "Mi música es tu voz' generó cerca de los 70 millones de euros en derechos de autor"
 [movies] Saltado noticia no apta para películas: Tras 25 años "impresionantes", esta histórica voz de RTVE se despide de los espectadores: "Aquí se acaba la historia para mí"
 [movies] Saltado porque no es estreno 2026: El restaurante de Granada que triunfó tras 'Pesadilla en la cocina', pero que ahora está "cerrado temporalmente": un incendio acabó con todo (2024)
-[movies] Saltado porque no es estreno 2026: Ana Guerra, sincera sobre el distanciamiento natural de OT 2017: "Cuando te das cuenta de que Aitana está en Los Ángeles y tiene 3000 WhatsApps todos los días, es inviable" (2017)
-[movies] Saltado noticia no apta para películas: Javier Ruiz abandona RTVE por La Séptima: estos son todos los cambios que deja tras su marcha
 [movies] Saltado noticia no apta para películas: El ganador de 'Gran Hermano' que utilizó el premio para abrir negocios: ahora trabaja en un geriátrico
+[movies] Saltado noticia no apta para películas: Javier Ruiz abandona RTVE por La Séptima: estos son todos los cambios que deja tras su marcha
 [movies] Saltado noticia no apta para películas: El pueblo de Cantabria en el que Ramón García pasó su infancia: sigue siendo su refugio y tiene una de las playas más largas de España
 [movies] Saltado noticia no apta para películas: "Me salvó la vida": El motivo por el que Mercedes Milá aceptó presentar 'Gran Hermano'
 [movies] Saltado noticia no apta para películas: Mi plan de jubilación para los fines de semana ya no será igual: tras 30 años en emisión, adiós al 'Cine de barrio' de siempre
-[movies] Candidatos encontrados: 27 | Límite: 1
-[movies] Publicados: 0
-Total películas publicadas: 0
+[movies] Candidatos encontrados: 28 | Límite: 1
+[IA] Probando proveedor cohere: Leviticus
+[IA] cohere falló (error): Cohere error 404: {"id":"130fa677-4b07-4cf5-9996-456f008ab843","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Leviticus
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/leviticus-un-intriguing-thriller-sobrenatural-desde-australia-2026-08-12-219f96.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
