@@ -1,15 +1,15 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-12T17:08:49.531070+00:00
+Fecha UTC: 2026-08-12T20:59:59.889208+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
-[movies] Saltado porque no es estreno 2026: Will Smith, 57 años: "en realidad no importa de quién sea la culpa de que algo esté roto si es tu responsabilidad arreglarlo" (2024)
-[movies] Saltado noticia no apta para películas: "Soy un descarte de 'Spider-Man": Rodó su regreso a Marvel en 'Spider-Man: Brand New Day', pero ha sido eliminada de la película
 [movies] Saltado noticia no apta para películas: El eclipse solar que protagoniza una de las mejores películas de terror españolas: está en Netflix y se inspira en un caso real
 [movies] Saltado porque no es estreno 2026: Esperamos 21 años para esta secuela, pero acaba de convertirse en un chasco: Ha perdido a una de las mayores leyendas vivas de Hollywood (2018)
 [movies] Saltado noticia no apta para películas: 27,5 millones de visualizaciones en tres días: El 'thriller' de ciencia ficción de Netflix que es número uno en 89 países
 [movies] Saltado porque no es estreno 2026: "Me jodió tanto que tuve que ir a terapia": Dakota Johnson necesitó ayuda psicológica tras protagonizar esta película de terror (2018)
 [movies] Saltado porque no es estreno 2026: Los fans de la ciencia ficción llevan esperando 12 años para la secuela de esta película (2009)
 [movies] Saltado noticia no apta para películas: Tallulah Willis, la hija de 32 años de Bruce Willis y Demi Moore, se casa con un vestido que ha llevado más de 700 horas de trabajo
+[movies] Saltado noticia no apta para películas: "Recaí": Brad Pitt admite que ha vuelto a beber alcohol tras siete años sobrio
+[movies] Saltado noticia no apta para películas: El 'reality' que cazaba pedófilos llega al cine con Robert Pattinson: Promete ser la película más polémica del año
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado noticia no apta para películas: Últimos 5 días para ver en Netflix una de las trilogías más épicas de la historia del cine de fantasía
 [movies] Saltado noticia no apta para películas: Naim Thomas (45 años): "Mi música es tu voz' generó cerca de los 70 millones de euros en derechos de autor"
@@ -21,14 +21,6 @@ Fecha UTC: 2026-08-12T17:08:49.531070+00:00
 [movies] Saltado noticia no apta para películas: "Me salvó la vida": El motivo por el que Mercedes Milá aceptó presentar 'Gran Hermano'
 [movies] Saltado noticia no apta para películas: Mi plan de jubilación para los fines de semana ya no será igual: tras 30 años en emisión, adiós al 'Cine de barrio' de siempre
 [movies] Candidatos encontrados: 32 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "El cine fue inventado para él": éste es uno de los mejores actores que existen, según Clint Eastwood
-[movies] Saltado porque no tiene tráiler confiable: "El cine fue inventado para él": éste es uno de los mejores actores que existen, según Clint Eastwood
-[YouTube] No se encontró tráiler confiable para "Me gané un lugar de por vida en la lista negra": Hace 39 años se estrenó una controvertida película histórica con Ed Harris en uno de sus mejores papeles
-[movies] Saltado porque no tiene tráiler confiable: "Me gané un lugar de por vida en la lista negra": Hace 39 años se estrenó una controvertida película histórica con Ed Harris en uno de sus mejores papeles
-[YouTube] No se encontró tráiler confiable para "Recaí": Brad Pitt admite que ha vuelto a beber alcohol tras siete años sobrio
-[movies] Saltado porque no tiene tráiler confiable: "Recaí": Brad Pitt admite que ha vuelto a beber alcohol tras siete años sobrio
-[YouTube] No se encontró tráiler confiable para Javier Cámara, 59 años, sobre su infancia: "Sabía que me gustaban los chicos, pero en mi pueblo pensaba: "Soy distinto y, como lo diga, me van a pegar una paliza"
-[movies] Saltado porque no tiene tráiler confiable: Javier Cámara, 59 años, sobre su infancia: "Sabía que me gustaban los chicos, pero en mi pueblo pensaba: "Soy distinto y, como lo diga, me van a pegar una paliza"
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
