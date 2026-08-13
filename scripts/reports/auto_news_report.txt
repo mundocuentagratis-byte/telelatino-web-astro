@@ -1,26 +1,29 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-13T09:22:28.890936+00:00
+Fecha UTC: 2026-08-13T13:40:52.152887+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
+[movies] Saltado porque no es estreno 2026: Rick Moranis (73 años), actor, sobre la icónica saga de ciencia ficción de los 80: "No tiene sentido para mí. ¿Por qué iba a dedicar un solo día a filmar algo que hice hace 30 años?" (2028)
+[movies] Saltado porque no es estreno 2026: Hoy en Netflix: sencillamente una de las mejores películas de ciencia ficción del siglo XXI (2028)
+[movies] Saltado porque no es estreno 2026: Hace 42 años se estrenó una película de gran éxito protagonizada por Patrick Swayze que algunos consideran "la mejor película de guerra" de los años 80 (2028)
+[movies] Saltado noticia no apta para películas: "Todo el mundo me dijo que estaba loco": Javier Gutiérrez casi rechaza una superproducción de 200 millones de dólares para irse de vacaciones
+[movies] Saltado noticia no apta para películas: Charlize Theron (50 años) y su tajante norma sobre la convivencia: "No creo que pueda volver a vivir con un hombre en mi vida"
+[movies] Saltado porque no es estreno 2026: El cine estaba obsoleto, según Netflix: Un año después, nueve películas han recaudado más de 1.000 millones (2028)
+[movies] Saltado porque no es estreno 2026: Más de 6 horas de ciencia ficción solo para adultos: hoy en Netflix puedes ver la versión definitiva de la saga de Zack Snyder (2024)
+[movies] Saltado porque no es estreno 2026: Una película de aventuras épicas conquista Netflix: reinterpreta una leyenda de 650 años de antigüedad de una forma completamente nueva (2000)
 [movies] Saltado porque no es estreno 2026: Will Smith, 57 años: "en realidad no importa de quién sea la culpa de que algo esté roto si es tu responsabilidad arreglarlo" (2024)
-[movies] Saltado noticia no apta para películas: "Soy un descarte de 'Spider-Man": Rodó su regreso a Marvel en 'Spider-Man: Brand New Day', pero ha sido eliminada de la película
-[movies] Saltado noticia no apta para películas: El eclipse solar que protagoniza una de las mejores películas de terror españolas: está en Netflix y se inspira en un caso real
-[movies] Saltado porque no es estreno 2026: Esperamos 21 años para esta secuela, pero acaba de convertirse en un chasco: Ha perdido a una de las mayores leyendas vivas de Hollywood (2018)
-[movies] Saltado noticia no apta para películas: 27,5 millones de visualizaciones en tres días: El 'thriller' de ciencia ficción de Netflix que es número uno en 89 países
-[movies] Saltado porque no es estreno 2026: "Me jodió tanto que tuve que ir a terapia": Dakota Johnson necesitó ayuda psicológica tras protagonizar esta película de terror (2018)
-[movies] Saltado porque no es estreno 2026: Los fans de la ciencia ficción llevan esperando 12 años para la secuela de esta película (2009)
-[movies] Saltado noticia no apta para películas: Tallulah Willis, la hija de 32 años de Bruce Willis y Demi Moore, se casa con un vestido que ha llevado más de 700 horas de trabajo
+[movies] Saltado porque no es estreno 2026: "Soy un descarte de 'Spider-Man": Rodó su regreso a Marvel en 'Spider-Man: Brand New Day', pero ha sido eliminada de la película (2028)
+[movies] Saltado porque no es estreno 2026: El eclipse solar que protagoniza una de las mejores películas de terror españolas: está en Netflix y se inspira en un caso real (2028)
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado noticia no apta para películas: Últimos 5 días para ver en Netflix una de las trilogías más épicas de la historia del cine de fantasía
 [movies] Saltado noticia no apta para películas: Naim Thomas (45 años): "Mi música es tu voz' generó cerca de los 70 millones de euros en derechos de autor"
 [movies] Saltado noticia no apta para películas: Tras 25 años "impresionantes", esta histórica voz de RTVE se despide de los espectadores: "Aquí se acaba la historia para mí"
 [movies] Saltado porque no es estreno 2026: El restaurante de Granada que triunfó tras 'Pesadilla en la cocina', pero que ahora está "cerrado temporalmente": un incendio acabó con todo (2024)
-[movies] Saltado noticia no apta para películas: El ganador de 'Gran Hermano' que utilizó el premio para abrir negocios: ahora trabaja en un geriátrico
 [movies] Saltado noticia no apta para películas: Javier Ruiz abandona RTVE por La Séptima: estos son todos los cambios que deja tras su marcha
+[movies] Saltado noticia no apta para películas: Manu Pascual, el concursante más longevo de la historia de 'Pasapalabra', zanja la discusión acerca de 'AlaZ'
+[movies] Saltado noticia no apta para películas: El ganador de 'Gran Hermano' que utilizó el premio para abrir negocios: ahora trabaja en un geriátrico
 [movies] Saltado noticia no apta para películas: El pueblo de Cantabria en el que Ramón García pasó su infancia: sigue siendo su refugio y tiene una de las playas más largas de España
 [movies] Saltado noticia no apta para películas: "Me salvó la vida": El motivo por el que Mercedes Milá aceptó presentar 'Gran Hermano'
-[movies] Saltado noticia no apta para películas: Mi plan de jubilación para los fines de semana ya no será igual: tras 30 años en emisión, adiós al 'Cine de barrio' de siempre
-[movies] Candidatos encontrados: 32 | Límite: 1
+[movies] Candidatos encontrados: 30 | Límite: 1
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
