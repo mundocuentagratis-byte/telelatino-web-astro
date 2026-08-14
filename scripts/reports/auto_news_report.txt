@@ -1,13 +1,16 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-14T09:18:16.048441+00:00
+Fecha UTC: 2026-08-14T13:36:31.005160+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
+[movies] Saltado noticia no apta para películas: Movistar Plus sigue su particular agosto con un montón de estrenos: hacemos un repaso por todas las novedades que han llegado y están por llegar
+[movies] Saltado noticia no apta para películas: Tardó 40 años en hacerse y costó 120 millones, pero es oficialmente la película de ciencia ficción más aburrida del siglo XXI
+[movies] Saltado noticia no apta para películas: 'Spider-Man: Brand New Day' sigue desafiando a 'Vengadores: Endgame': Solo siete películas han conseguido su nuevo récord
+[movies] Saltado noticia no apta para películas: "Este film se desvirtúa en una salvaje brutalidad": uno de los mejores 'westerns' que existen, con Clint Eastwood, fue duramente criticado por la guía SIPE de España
+[movies] Saltado noticia no apta para películas: Pausa 'El señor de los anillos: El retorno del rey' en el minuto 2:55:28 para destapar un secreto
 [movies] Saltado porque no es estreno 2026: Hace 13 años que esta película llegó a los cines: su fracaso fue tan rotundo que destruyó un universo entero con 2 secuelas planeadas (2013)
+[movies] Saltado noticia no apta para películas: Llega a los cines un 'Jurassic Park' de bolsillo: cine de videoclub del bueno con aire macarra
 [movies] Saltado noticia no apta para películas: Tras 40 años, por fin se revela: una de las películas de culto más legendarias de los 80 debería tener una continuación
-[movies] Saltado noticia no apta para películas: Hoy en Netflix: sencillamente una de las mejores películas de ciencia ficción del siglo XXI
-[movies] Saltado porque no es estreno 2026: El cine estaba obsoleto, según Netflix: Un año después, nueve películas han recaudado más de 1.000 millones (2027)
-[movies] Saltado porque no es estreno 2026: Más de 6 horas de ciencia ficción solo para adultos: hoy en Netflix puedes ver la versión definitiva de la saga de Zack Snyder (2024)
-[movies] Saltado porque no es estreno 2026: Una película de aventuras épicas conquista Netflix: reinterpreta una leyenda de 650 años de antigüedad de una forma completamente nueva (2000)
+[movies] Saltado porque no es estreno 2026: Hoy en Netflix: sencillamente una de las mejores películas de ciencia ficción del siglo XXI (2016)
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado noticia no apta para películas: Últimos 5 días para ver en Netflix una de las trilogías más épicas de la historia del cine de fantasía
 [movies] Saltado noticia no apta para películas: Naim Thomas (45 años): "Mi música es tu voz' generó cerca de los 70 millones de euros en derechos de autor"
@@ -19,17 +22,12 @@ Fecha UTC: 2026-08-14T09:18:16.048441+00:00
 [movies] Saltado noticia no apta para películas: El ganador de 'Gran Hermano' que utilizó el premio para abrir negocios: ahora trabaja en un geriátrico
 [movies] Saltado noticia no apta para películas: El pueblo de Cantabria en el que Ramón García pasó su infancia: sigue siendo su refugio y tiene una de las playas más largas de España
 [movies] Saltado noticia no apta para películas: "Me salvó la vida": El motivo por el que Mercedes Milá aceptó presentar 'Gran Hermano'
-[movies] Candidatos encontrados: 34 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "Todo el mundo me dijo que estaba loco": Javier Gutiérrez casi rechaza una superproducción de 200 millones de dólares para irse de vacaciones
-[movies] Saltado porque no tiene tráiler confiable: "Todo el mundo me dijo que estaba loco": Javier Gutiérrez casi rechaza una superproducción de 200 millones de dólares para irse de vacaciones
-[YouTube] No se encontró tráiler confiable para Charlize Theron (50 años) y su tajante norma sobre la convivencia: "No creo que pueda volver a vivir con un hombre en mi vida"
-[movies] Saltado porque no tiene tráiler confiable: Charlize Theron (50 años) y su tajante norma sobre la convivencia: "No creo que pueda volver a vivir con un hombre en mi vida"
-[YouTube] No se encontró tráiler confiable para Hace 42 años se estrenó una película de gran éxito protagonizada por Patrick Swayze que algunos consideran "la mejor película de guerra" de los años 80
-[movies] Saltado porque no tiene tráiler confiable: Hace 42 años se estrenó una película de gran éxito protagonizada por Patrick Swayze que algunos consideran "la mejor película de guerra" de los años 80
-[YouTube] No se encontró tráiler confiable para Llega a los cines un 'Jurassic Park' de bolsillo: cine de videoclub del bueno con aire macarra
-[movies] Saltado porque no tiene tráiler confiable: Llega a los cines un 'Jurassic Park' de bolsillo: cine de videoclub del bueno con aire macarra
-[YouTube] No se encontró tráiler confiable para Pausa 'El señor de los anillos: El retorno del rey' en el minuto 2:55:28 para destapar un secreto
-[movies] Saltado porque no tiene tráiler confiable: Pausa 'El señor de los anillos: El retorno del rey' en el minuto 2:55:28 para destapar un secreto
-[movies] Publicados: 0
-Total películas publicadas: 0
+[movies] Candidatos encontrados: 25 | Límite: 1
+[IA] Probando proveedor cohere: Palestina 36
+[IA] cohere falló (error): Cohere error 404: {"id":"002c08ef-a6f1-4628-8484-a0b49040c184","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Palestina 36
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/palestina-36-un-drama-historico-imprescindible-en-el-cine-2026-08-14-6f7222.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
