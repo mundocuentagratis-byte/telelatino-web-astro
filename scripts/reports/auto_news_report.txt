@@ -1,33 +1,30 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-14T13:36:31.005160+00:00
+Fecha UTC: 2026-08-14T17:07:47.271868+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
-[movies] Saltado noticia no apta para películas: Movistar Plus sigue su particular agosto con un montón de estrenos: hacemos un repaso por todas las novedades que han llegado y están por llegar
-[movies] Saltado noticia no apta para películas: Tardó 40 años en hacerse y costó 120 millones, pero es oficialmente la película de ciencia ficción más aburrida del siglo XXI
-[movies] Saltado noticia no apta para películas: 'Spider-Man: Brand New Day' sigue desafiando a 'Vengadores: Endgame': Solo siete películas han conseguido su nuevo récord
-[movies] Saltado noticia no apta para películas: "Este film se desvirtúa en una salvaje brutalidad": uno de los mejores 'westerns' que existen, con Clint Eastwood, fue duramente criticado por la guía SIPE de España
 [movies] Saltado noticia no apta para películas: Pausa 'El señor de los anillos: El retorno del rey' en el minuto 2:55:28 para destapar un secreto
 [movies] Saltado porque no es estreno 2026: Hace 13 años que esta película llegó a los cines: su fracaso fue tan rotundo que destruyó un universo entero con 2 secuelas planeadas (2013)
 [movies] Saltado noticia no apta para películas: Llega a los cines un 'Jurassic Park' de bolsillo: cine de videoclub del bueno con aire macarra
 [movies] Saltado noticia no apta para películas: Tras 40 años, por fin se revela: una de las películas de culto más legendarias de los 80 debería tener una continuación
-[movies] Saltado porque no es estreno 2026: Hoy en Netflix: sencillamente una de las mejores películas de ciencia ficción del siglo XXI (2016)
+[movies] Saltado porque no es estreno 2026: Rick Moranis (73 años), actor, sobre la icónica saga de ciencia ficción de los 80: "No tiene sentido para mí. ¿Por qué iba a dedicar un solo día a filmar algo que hice hace 30 años?" (2027)
+[movies] Saltado noticia no apta para películas: Hoy en Netflix: sencillamente una de las mejores películas de ciencia ficción del siglo XXI
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado noticia no apta para películas: Últimos 5 días para ver en Netflix una de las trilogías más épicas de la historia del cine de fantasía
 [movies] Saltado noticia no apta para películas: Naim Thomas (45 años): "Mi música es tu voz' generó cerca de los 70 millones de euros en derechos de autor"
 [movies] Saltado noticia no apta para películas: Tras 25 años "impresionantes", esta histórica voz de RTVE se despide de los espectadores: "Aquí se acaba la historia para mí"
 [movies] Saltado noticia no apta para películas: Javier Ruiz abandona RTVE por La Séptima: estos son todos los cambios que deja tras su marcha
 [movies] Saltado porque no es estreno 2026: El restaurante de Granada que triunfó tras 'Pesadilla en la cocina', pero que ahora está "cerrado temporalmente": un incendio acabó con todo (2024)
+[movies] Saltado noticia no apta para películas: TVG se queda sin una de sus presentadoras clave: Rocío delgado se une a Javier Ruiz en La Séptima y plantea un duelo sentimental con La 1
 [movies] Saltado noticia no apta para películas: 'First Dates' acaba de vivir una de sus peores cenas: Vicky asegura que su cita con Sergio es una "mierda"
 [movies] Saltado noticia no apta para películas: Manu Pascual, el concursante más longevo de la historia de 'Pasapalabra', zanja la discusión acerca de 'AlaZ'
 [movies] Saltado noticia no apta para películas: El ganador de 'Gran Hermano' que utilizó el premio para abrir negocios: ahora trabaja en un geriátrico
 [movies] Saltado noticia no apta para películas: El pueblo de Cantabria en el que Ramón García pasó su infancia: sigue siendo su refugio y tiene una de las playas más largas de España
-[movies] Saltado noticia no apta para películas: "Me salvó la vida": El motivo por el que Mercedes Milá aceptó presentar 'Gran Hermano'
-[movies] Candidatos encontrados: 25 | Límite: 1
-[IA] Probando proveedor cohere: Palestina 36
-[IA] cohere falló (error): Cohere error 404: {"id":"002c08ef-a6f1-4628-8484-a0b49040c184","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Palestina 36
+[movies] Candidatos encontrados: 28 | Límite: 1
+[IA] Probando proveedor cohere: Tadeo Jones y la lámpara maravillosa
+[IA] cohere falló (error): Cohere error 404: {"id":"593fdb12-9a32-4950-b6aa-14559774f770","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Tadeo Jones y la lámpara maravillosa
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/palestina-36-un-drama-historico-imprescindible-en-el-cine-2026-08-14-6f7222.md
+[OK] Publicado: src/content/blog/tadeo-jones-y-la-lampara-maravillosa-una-nueva-aventura-global-2026-08-14-2a1cc5.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
