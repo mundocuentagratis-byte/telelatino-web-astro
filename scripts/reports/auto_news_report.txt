@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-14T17:07:47.271868+00:00
+Fecha UTC: 2026-08-14T20:42:12.243587+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: Pausa 'El señor de los anillos: El retorno del rey' en el minuto 2:55:28 para destapar un secreto
@@ -20,11 +20,11 @@ Fecha UTC: 2026-08-14T17:07:47.271868+00:00
 [movies] Saltado noticia no apta para películas: El ganador de 'Gran Hermano' que utilizó el premio para abrir negocios: ahora trabaja en un geriátrico
 [movies] Saltado noticia no apta para películas: El pueblo de Cantabria en el que Ramón García pasó su infancia: sigue siendo su refugio y tiene una de las playas más largas de España
 [movies] Candidatos encontrados: 28 | Límite: 1
-[IA] Probando proveedor cohere: Tadeo Jones y la lámpara maravillosa
-[IA] cohere falló (error): Cohere error 404: {"id":"593fdb12-9a32-4950-b6aa-14559774f770","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Tadeo Jones y la lámpara maravillosa
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/tadeo-jones-y-la-lampara-maravillosa-una-nueva-aventura-global-2026-08-14-2a1cc5.md
+[IA] Probando proveedor openai: Insidious: Fuera del más allá
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+[IA] Probando proveedor mistral: Insidious: Fuera del más allá
+[IA] Artículo generado con mistral
+[OK] Publicado: src/content/blog/insidious-fuera-del-mas-alla-llega-para-aterrorizar-en-el-cine-2026-08-14-ba206f.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
