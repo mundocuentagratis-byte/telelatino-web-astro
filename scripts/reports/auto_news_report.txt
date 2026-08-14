@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-14T02:40:52.129929+00:00
+Fecha UTC: 2026-08-14T05:44:23.625671+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: sencillamente una de las mejores películas de ciencia ficción del siglo XXI
@@ -22,11 +22,11 @@ Fecha UTC: 2026-08-14T02:40:52.129929+00:00
 [movies] Saltado noticia no apta para películas: El pueblo de Cantabria en el que Ramón García pasó su infancia: sigue siendo su refugio y tiene una de las playas más largas de España
 [movies] Saltado noticia no apta para películas: "Me salvó la vida": El motivo por el que Mercedes Milá aceptó presentar 'Gran Hermano'
 [movies] Candidatos encontrados: 26 | Límite: 1
-[IA] Probando proveedor openai: Días de agosto
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Días de agosto
+[IA] Probando proveedor openai: Este / Oeste
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+[IA] Probando proveedor mistral: Este / Oeste
 [IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/dias-de-agosto-un-verano-de-pasiones-y-conflictos-en-el-cine-espanol-2026-08-14-c88722.md
+[OK] Publicado: src/content/blog/este-oeste-la-comedia-alemana-que-explora-amistad-y-ambicion-en-1990-2026-08-14-310da4.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
