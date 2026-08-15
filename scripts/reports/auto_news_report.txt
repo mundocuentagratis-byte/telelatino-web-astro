@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-14T20:42:12.243587+00:00
+Fecha UTC: 2026-08-15T01:47:18.872540+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: Pausa 'El señor de los anillos: El retorno del rey' en el minuto 2:55:28 para destapar un secreto
@@ -20,11 +20,11 @@ Fecha UTC: 2026-08-14T20:42:12.243587+00:00
 [movies] Saltado noticia no apta para películas: El ganador de 'Gran Hermano' que utilizó el premio para abrir negocios: ahora trabaja en un geriátrico
 [movies] Saltado noticia no apta para películas: El pueblo de Cantabria en el que Ramón García pasó su infancia: sigue siendo su refugio y tiene una de las playas más largas de España
 [movies] Candidatos encontrados: 28 | Límite: 1
-[IA] Probando proveedor openai: Insidious: Fuera del más allá
+[IA] Probando proveedor openai: Vivir la tierra
 [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
-[IA] Probando proveedor mistral: Insidious: Fuera del más allá
+[IA] Probando proveedor mistral: Vivir la tierra
 [IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/insidious-fuera-del-mas-alla-llega-para-aterrorizar-en-el-cine-2026-08-14-ba206f.md
+[OK] Publicado: src/content/blog/vivir-la-tierra-el-drama-rural-que-retrata-la-china-de-1991-2026-08-15-f094d7.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
