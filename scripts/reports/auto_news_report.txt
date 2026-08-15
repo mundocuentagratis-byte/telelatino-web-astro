@@ -1,13 +1,14 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-15T04:43:41.080883+00:00
+Fecha UTC: 2026-08-15T08:43:53.894431+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
+[movies] Saltado noticia no apta para películas: Robert Pattinson decidió dar un cambio radical a su carrera tras ‘Harry Potter’: le salió mal y se quedó sin dinero
+[movies] Saltado porque no es estreno 2026: La película de fantasía que quería crear una franquicia pero de la que nadie se acuerda: Fue polémica en China y adaptó un famoso videojuego (2021)
+[movies] Saltado noticia no apta para películas: Movistar Plus sigue su particular agosto con un montón de estrenos: hacemos un repaso por todas las novedades que han llegado y están por llegar
+[movies] Saltado noticia no apta para películas: Tardó 40 años en hacerse y costó 120 millones, pero es oficialmente la película de ciencia ficción más aburrida del siglo XXI
 [movies] Saltado noticia no apta para películas: Pausa 'El señor de los anillos: El retorno del rey' en el minuto 2:55:28 para destapar un secreto
 [movies] Saltado porque no es estreno 2026: Hace 13 años que esta película llegó a los cines: su fracaso fue tan rotundo que destruyó un universo entero con 2 secuelas planeadas (2013)
 [movies] Saltado noticia no apta para películas: Llega a los cines un 'Jurassic Park' de bolsillo: cine de videoclub del bueno con aire macarra
-[movies] Saltado noticia no apta para películas: Tras 40 años, por fin se revela: una de las películas de culto más legendarias de los 80 debería tener una continuación
-[movies] Saltado porque no es estreno 2026: Rick Moranis (73 años), actor, sobre la icónica saga de ciencia ficción de los 80: "No tiene sentido para mí. ¿Por qué iba a dedicar un solo día a filmar algo que hice hace 30 años?" (2027)
-[movies] Saltado noticia no apta para películas: Hoy en Netflix: sencillamente una de las mejores películas de ciencia ficción del siglo XXI
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado noticia no apta para películas: Últimos 5 días para ver en Netflix una de las trilogías más épicas de la historia del cine de fantasía
 [movies] Saltado noticia no apta para películas: El hijo de Michael Douglas que pasó siete años en la cárcel: "Mi padre me hacía repartir porros entre los invitados a sus fiestas"
@@ -20,18 +21,10 @@ Fecha UTC: 2026-08-15T04:43:41.080883+00:00
 [movies] Saltado noticia no apta para películas: Manu Pascual, el concursante más longevo de la historia de 'Pasapalabra', zanja la discusión acerca de 'AlaZ'
 [movies] Saltado noticia no apta para películas: El pueblo de Cantabria en el que Ramón García pasó su infancia: sigue siendo su refugio y tiene una de las playas más largas de España
 [movies] Candidatos encontrados: 28 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "Este film se desvirtúa en una salvaje brutalidad": uno de los mejores 'westerns' que existen, con Clint Eastwood, fue duramente criticado por la guía SIPE de España
-[movies] Saltado porque no tiene tráiler confiable: "Este film se desvirtúa en una salvaje brutalidad": uno de los mejores 'westerns' que existen, con Clint Eastwood, fue duramente criticado por la guía SIPE de España
-[YouTube] No se encontró tráiler confiable para 'Spider-Man: Brand New Day' sigue desafiando a 'Vengadores: Endgame': Solo siete películas han conseguido su nuevo récord
-[movies] Saltado porque no tiene tráiler confiable: 'Spider-Man: Brand New Day' sigue desafiando a 'Vengadores: Endgame': Solo siete películas han conseguido su nuevo récord
-[YouTube] No se encontró tráiler confiable para Arnold Schwarzenegger, actor, 79 años, sobre su rivalidad con Sylvester Stallone: "Si su porcentaje de grasa corporal era del 7%, yo me obsesionaba hasta alcanzar un 10%"
-[movies] Saltado porque no tiene tráiler confiable: Arnold Schwarzenegger, actor, 79 años, sobre su rivalidad con Sylvester Stallone: "Si su porcentaje de grasa corporal era del 7%, yo me obsesionaba hasta alcanzar un 10%"
-[YouTube] No se encontró tráiler confiable para Belén Rueda, 61 años, sobre sus primeros años en Madrid: "con una rebanada de pan me sobraba. Entonces le decía a mis amigas: '¿Me puedo ir a tu casa a comer?"
-[movies] Saltado porque no tiene tráiler confiable: Belén Rueda, 61 años, sobre sus primeros años en Madrid: "con una rebanada de pan me sobraba. Entonces le decía a mis amigas: '¿Me puedo ir a tu casa a comer?"
-[YouTube] No se encontró tráiler confiable para Movistar Plus sigue su particular agosto con un montón de estrenos: hacemos un repaso por todas las novedades que han llegado y están por llegar
-[movies] Saltado porque no tiene tráiler confiable: Movistar Plus sigue su particular agosto con un montón de estrenos: hacemos un repaso por todas las novedades que han llegado y están por llegar
-[YouTube] No se encontró tráiler confiable para Tardó 40 años en hacerse y costó 120 millones, pero es oficialmente la película de ciencia ficción más aburrida del siglo XXI
-[movies] Saltado porque no tiene tráiler confiable: Tardó 40 años en hacerse y costó 120 millones, pero es oficialmente la película de ciencia ficción más aburrida del siglo XXI
+[YouTube] No se encontró tráiler confiable para Ganó 4 campeonatos y cambió para siempre la manera de jugar de la NBA, pero no es suficiente: ahora quiere conquistar Hollywood
+[movies] Saltado porque no tiene tráiler confiable: Ganó 4 campeonatos y cambió para siempre la manera de jugar de la NBA, pero no es suficiente: ahora quiere conquistar Hollywood
+[YouTube] No se encontró tráiler confiable para Tras 40 años, por fin se revela: una de las películas de culto más legendarias de los 80 debería tener una continuación
+[movies] Saltado porque no tiene tráiler confiable: Tras 40 años, por fin se revela: una de las películas de culto más legendarias de los 80 debería tener una continuación
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
