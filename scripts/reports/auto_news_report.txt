@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-15T01:47:18.872540+00:00
+Fecha UTC: 2026-08-15T04:43:41.080883+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: Pausa 'El señor de los anillos: El retorno del rey' en el minuto 2:55:28 para destapar un secreto
@@ -10,21 +10,28 @@ Fecha UTC: 2026-08-15T01:47:18.872540+00:00
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: sencillamente una de las mejores películas de ciencia ficción del siglo XXI
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado noticia no apta para películas: Últimos 5 días para ver en Netflix una de las trilogías más épicas de la historia del cine de fantasía
+[movies] Saltado noticia no apta para películas: El hijo de Michael Douglas que pasó siete años en la cárcel: "Mi padre me hacía repartir porros entre los invitados a sus fiestas"
 [movies] Saltado noticia no apta para películas: Naim Thomas (45 años): "Mi música es tu voz' generó cerca de los 70 millones de euros en derechos de autor"
-[movies] Saltado noticia no apta para películas: Tras 25 años "impresionantes", esta histórica voz de RTVE se despide de los espectadores: "Aquí se acaba la historia para mí"
 [movies] Saltado noticia no apta para películas: Javier Ruiz abandona RTVE por La Séptima: estos son todos los cambios que deja tras su marcha
 [movies] Saltado porque no es estreno 2026: El restaurante de Granada que triunfó tras 'Pesadilla en la cocina', pero que ahora está "cerrado temporalmente": un incendio acabó con todo (2024)
+[movies] Saltado noticia no apta para películas: El ganador de 'Gran Hermano' que utilizó el premio para abrir negocios: ahora trabaja en un geriátrico
 [movies] Saltado noticia no apta para películas: TVG se queda sin una de sus presentadoras clave: Rocío delgado se une a Javier Ruiz en La Séptima y plantea un duelo sentimental con La 1
 [movies] Saltado noticia no apta para películas: 'First Dates' acaba de vivir una de sus peores cenas: Vicky asegura que su cita con Sergio es una "mierda"
 [movies] Saltado noticia no apta para películas: Manu Pascual, el concursante más longevo de la historia de 'Pasapalabra', zanja la discusión acerca de 'AlaZ'
-[movies] Saltado noticia no apta para películas: El ganador de 'Gran Hermano' que utilizó el premio para abrir negocios: ahora trabaja en un geriátrico
 [movies] Saltado noticia no apta para películas: El pueblo de Cantabria en el que Ramón García pasó su infancia: sigue siendo su refugio y tiene una de las playas más largas de España
 [movies] Candidatos encontrados: 28 | Límite: 1
-[IA] Probando proveedor openai: Vivir la tierra
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
-[IA] Probando proveedor mistral: Vivir la tierra
-[IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/vivir-la-tierra-el-drama-rural-que-retrata-la-china-de-1991-2026-08-15-f094d7.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[YouTube] No se encontró tráiler confiable para "Este film se desvirtúa en una salvaje brutalidad": uno de los mejores 'westerns' que existen, con Clint Eastwood, fue duramente criticado por la guía SIPE de España
+[movies] Saltado porque no tiene tráiler confiable: "Este film se desvirtúa en una salvaje brutalidad": uno de los mejores 'westerns' que existen, con Clint Eastwood, fue duramente criticado por la guía SIPE de España
+[YouTube] No se encontró tráiler confiable para 'Spider-Man: Brand New Day' sigue desafiando a 'Vengadores: Endgame': Solo siete películas han conseguido su nuevo récord
+[movies] Saltado porque no tiene tráiler confiable: 'Spider-Man: Brand New Day' sigue desafiando a 'Vengadores: Endgame': Solo siete películas han conseguido su nuevo récord
+[YouTube] No se encontró tráiler confiable para Arnold Schwarzenegger, actor, 79 años, sobre su rivalidad con Sylvester Stallone: "Si su porcentaje de grasa corporal era del 7%, yo me obsesionaba hasta alcanzar un 10%"
+[movies] Saltado porque no tiene tráiler confiable: Arnold Schwarzenegger, actor, 79 años, sobre su rivalidad con Sylvester Stallone: "Si su porcentaje de grasa corporal era del 7%, yo me obsesionaba hasta alcanzar un 10%"
+[YouTube] No se encontró tráiler confiable para Belén Rueda, 61 años, sobre sus primeros años en Madrid: "con una rebanada de pan me sobraba. Entonces le decía a mis amigas: '¿Me puedo ir a tu casa a comer?"
+[movies] Saltado porque no tiene tráiler confiable: Belén Rueda, 61 años, sobre sus primeros años en Madrid: "con una rebanada de pan me sobraba. Entonces le decía a mis amigas: '¿Me puedo ir a tu casa a comer?"
+[YouTube] No se encontró tráiler confiable para Movistar Plus sigue su particular agosto con un montón de estrenos: hacemos un repaso por todas las novedades que han llegado y están por llegar
+[movies] Saltado porque no tiene tráiler confiable: Movistar Plus sigue su particular agosto con un montón de estrenos: hacemos un repaso por todas las novedades que han llegado y están por llegar
+[YouTube] No se encontró tráiler confiable para Tardó 40 años en hacerse y costó 120 millones, pero es oficialmente la película de ciencia ficción más aburrida del siglo XXI
+[movies] Saltado porque no tiene tráiler confiable: Tardó 40 años en hacerse y costó 120 millones, pero es oficialmente la película de ciencia ficción más aburrida del siglo XXI
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
