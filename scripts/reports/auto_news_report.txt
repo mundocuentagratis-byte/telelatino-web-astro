@@ -1,13 +1,10 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-16T08:44:11.021137+00:00
+Fecha UTC: 2026-08-16T12:58:27.350941+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
-[movies] Saltado porque no es estreno 2026: Zak Williams, sobre su padre Robin Williams: “Recuerdo lo peculiar que eras y tu extraordinaria capacidad para amar” (2039)
-[movies] Saltado porque no es estreno 2026: "La interpretación de Joaquin Phoenix es de locos": 'Gladiator' le dio el Oscar a Russell Crowe, pero el actor se siente "un poco avergonzado" por tanto premio (2000)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
-[movies] Saltado noticia no apta para películas: Robert Pattinson decidió dar un cambio radical a su carrera tras ‘Harry Potter’: le salió mal y se quedó sin dinero
-[movies] Saltado noticia no apta para películas: Ganó 4 campeonatos y cambió para siempre la manera de jugar de la NBA, pero no es suficiente: ahora quiere conquistar Hollywood
 [movies] Saltado porque no es estreno 2026: La película de fantasía que quería crear una franquicia pero de la que nadie se acuerda: Fue polémica en China y adaptó un famoso videojuego (2021)
+[movies] Saltado noticia no apta para películas: Movistar Plus sigue su particular agosto con un montón de estrenos: hacemos un repaso por todas las novedades que han llegado y están por llegar
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado noticia no apta para películas: Últimos 5 días para ver en Netflix una de las trilogías más épicas de la historia del cine de fantasía
 [movies] Saltado noticia no apta para películas: El hijo de Michael Douglas que pasó siete años en la cárcel: "Mi padre me hacía repartir porros entre los invitados a sus fiestas"
@@ -20,9 +17,7 @@ Fecha UTC: 2026-08-16T08:44:11.021137+00:00
 [movies] Saltado noticia no apta para películas: TVG se queda sin una de sus presentadoras clave: Rocío delgado se une a Javier Ruiz en La Séptima y plantea un duelo sentimental con La 1
 [movies] Saltado noticia no apta para películas: 'First Dates' acaba de vivir una de sus peores cenas: Vicky asegura que su cita con Sergio es una "mierda"
 [movies] Saltado noticia no apta para películas: Manu Pascual, el concursante más longevo de la historia de 'Pasapalabra', zanja la discusión acerca de 'AlaZ'
-[movies] Candidatos encontrados: 27 | Límite: 1
-[YouTube] No se encontró tráiler confiable para Una de las actrices más taquilleras de 2026 en su papel más perturbador: Menos de dos meses para el 'thriller' que que vendió más de tres millones de libros por todo el mundo
-[movies] Saltado porque no tiene tráiler confiable: Una de las actrices más taquilleras de 2026 en su papel más perturbador: Menos de dos meses para el 'thriller' que que vendió más de tres millones de libros por todo el mundo
+[movies] Candidatos encontrados: 32 | Límite: 1
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
