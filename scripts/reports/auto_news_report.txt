@@ -1,13 +1,11 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-16T16:39:13.410020+00:00
+Fecha UTC: 2026-08-16T20:35:00.884497+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
-[movies] Saltado noticia no apta para películas: A Mamoru Hosoda le ofrecieron hacer una divertida película de One Piece, pero habló de su experiencia en el Studio Ghibli
+[movies] Saltado porque no es estreno 2026: JRR Tolkien vivió al lado de esta iglesia toda la vida. Es imposible no ver las puertas de Durin si pasas por delante (2000)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: tras esta película de James Bond, Daniel Craig amenazó con abandonar la saga de espías (2021)
 [movies] Saltado porque no es estreno 2026: La película más taquillera de Brad Pitt no puede considerarse un éxito: un presupuesto millonario que se les fue de las manos (2027)
 [movies] Saltado porque no es estreno 2026: Zak Williams, sobre su padre Robin Williams: “Recuerdo lo peculiar que eras y tu extraordinaria capacidad para amar” (2039)
-[movies] Saltado porque no es estreno 2026: "La interpretación de Joaquin Phoenix es de locos": 'Gladiator' le dio el Oscar a Russell Crowe, pero el actor se siente "un poco avergonzado" por tanto premio (2000)
-[movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado noticia no apta para películas: Últimos 5 días para ver en Netflix una de las trilogías más épicas de la historia del cine de fantasía
 [movies] Saltado noticia no apta para películas: El hijo de Michael Douglas que pasó siete años en la cárcel: "Mi padre me hacía repartir porros entre los invitados a sus fiestas"
@@ -21,13 +19,11 @@ Fecha UTC: 2026-08-16T16:39:13.410020+00:00
 [movies] Saltado noticia no apta para películas: La concursante de 'Supervivientes' que ha estado "dos años sin poder hablar": 15 años después, está irreconocible
 [movies] Saltado noticia no apta para películas: TVG se queda sin una de sus presentadoras clave: Rocío delgado se une a Javier Ruiz en La Séptima y plantea un duelo sentimental con La 1
 [movies] Saltado noticia no apta para películas: 'First Dates' acaba de vivir una de sus peores cenas: Vicky asegura que su cita con Sergio es una "mierda"
-[movies] Candidatos encontrados: 29 | Límite: 1
-[YouTube] No se encontró tráiler confiable para 'El final de Oak Street' no se preocupa demasiado por sus paradojas temporales. Y aunque analicemos su final explicado, tú tampoco deberías
-[movies] Saltado porque no tiene tráiler confiable: 'El final de Oak Street' no se preocupa demasiado por sus paradojas temporales. Y aunque analicemos su final explicado, tú tampoco deberías
-[YouTube] No se encontró tráiler confiable para Aunque reniega de él, hubo una película donde Suri, la hija de Tom Cruise, actuó junto a él
-[movies] Saltado porque no tiene tráiler confiable: Aunque reniega de él, hubo una película donde Suri, la hija de Tom Cruise, actuó junto a él
-[YouTube] No se encontró tráiler confiable para Rodando ‘Matilda’, Mara Wilson vivió una tragedia personal: detrás de las cámaras Danny DeVito se encargó de ella
-[movies] Saltado porque no tiene tráiler confiable: Rodando ‘Matilda’, Mara Wilson vivió una tragedia personal: detrás de las cámaras Danny DeVito se encargó de ella
+[movies] Candidatos encontrados: 31 | Límite: 1
+[YouTube] No se encontró tráiler confiable para A Mamoru Hosoda le ofrecieron hacer una divertida película de One Piece, pero habló de su experiencia en el Studio Ghibli
+[movies] Saltado porque no tiene tráiler confiable: A Mamoru Hosoda le ofrecieron hacer una divertida película de One Piece, pero habló de su experiencia en el Studio Ghibli
+[YouTube] No se encontró tráiler confiable para El Emperador Palpatine lucía mucho más amenazante en la versión original de 'El imperio contraataca'. Lo consiguieron gracias a unos ojos de chimpancé
+[movies] Saltado porque no tiene tráiler confiable: El Emperador Palpatine lucía mucho más amenazante en la versión original de 'El imperio contraataca'. Lo consiguieron gracias a unos ojos de chimpancé
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
