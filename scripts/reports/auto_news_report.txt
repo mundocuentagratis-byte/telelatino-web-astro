@@ -1,16 +1,19 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-17T13:03:31.252261+00:00
+Fecha UTC: 2026-08-17T16:42:14.316277+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
+[movies] Saltado noticia no apta para películas: A los 5 años ya había grabado 50 anuncios y una telenovela: la desgarradora infancia de Hayden Panettiere bajo el control de su propia madre
+[movies] Saltado porque no es estreno 2026: Fernando Tejero, 61 años, sobre su infancia: "Me crie en casa de mi tía por estas cosas que se estilaban mucho en Andalucía. Mi madre ya tenía tres hijos" (2019)
 [movies] Saltado noticia no apta para películas: Últimos 2 días para ver en Netflix una de las mejores películas de acción de los 90 que hizo historia con su guion
 [movies] Saltado porque no es estreno 2026: Uno de nuestros personajes animados más icónicos está a punto de regresar a las salas de cine: descubre su nueva aventura (2012)
+[movies] Saltado noticia no apta para películas: Marvel ha conseguido a su actor más difícil: Llevaba años rechazando papeles, pero ha aceptado unirse a 'X-Men'
+[movies] Saltado noticia no apta para películas: Solo cuatro meses para el regreso del universo de aventuras, ciencia ficción y fantasía más grande de todos los tiempos
+[movies] Saltado noticia no apta para películas: "La cagué": Denzel Washington se arrepiente de haber rechazado uno de los mejores thrillers de todos los tiempos
 [movies] Saltado noticia no apta para películas: 'Spider-Man: Brand New Day' supera los 2.000 millones: es la única película de un superhéroe que ha conseguido este récord
 [movies] Saltado noticia no apta para películas: "Es simplemente aburrida": Quentin Tarantino no da un duro por una de las obras maestras de Steven Spielberg
 [movies] Saltado noticia no apta para películas: George Lucas se empeñó en cambiar esta escena de 'El imperio contraataca' y creó un diálogo que no tiene ningún sentido
 [movies] Saltado noticia no apta para películas: JRR Tolkien vivió al lado de esta iglesia toda la vida. Es imposible no ver las puertas de Durin si pasas por delante
-[movies] Saltado porque no es estreno 2026: Para ver esta noche: tras esta película de James Bond, Daniel Craig amenazó con abandonar la saga de espías (2021)
-[movies] Saltado porque no es estreno 2026: La película más taquillera de Brad Pitt no puede considerarse un éxito: un presupuesto millonario que se les fue de las manos (2027)
-[movies] Saltado noticia no apta para películas: Rodando ‘Matilda’, Mara Wilson vivió una tragedia personal: detrás de las cámaras Danny DeVito se encargó de ella
+[movies] Saltado noticia no apta para películas: 'El final de Oak Street' no se preocupa demasiado por sus paradojas temporales. Y aunque analicemos su final explicado, tú tampoco deberías
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado noticia no apta para películas: Últimos 5 días para ver en Netflix una de las trilogías más épicas de la historia del cine de fantasía
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
@@ -24,13 +27,16 @@ Fecha UTC: 2026-08-17T13:03:31.252261+00:00
 [movies] Saltado noticia no apta para películas: El ganador de 'Pasapalabra' que ha escrito novelas policíacas y ahora es jefe de la Policía Nacional en Andalucía Oriental
 [movies] Saltado noticia no apta para películas: La concursante de 'Supervivientes' que ha estado "dos años sin poder hablar": 15 años después, está irreconocible
 [movies] Saltado noticia no apta para películas: TVG se queda sin una de sus presentadoras clave: Rocío delgado se une a Javier Ruiz en La Séptima y plantea un duelo sentimental con La 1
-[movies] Candidatos encontrados: 28 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "La cagué": Denzel Washington se arrepiente de haber rechazado uno de los mejores thrillers de todos los tiempos
-[movies] Saltado porque no tiene tráiler confiable: "La cagué": Denzel Washington se arrepiente de haber rechazado uno de los mejores thrillers de todos los tiempos
-[YouTube] No se encontró tráiler confiable para Marvel ha conseguido a su actor más difícil: Llevaba años rechazando papeles, pero ha aceptado unirse a 'X-Men'
-[movies] Saltado porque no tiene tráiler confiable: Marvel ha conseguido a su actor más difícil: Llevaba años rechazando papeles, pero ha aceptado unirse a 'X-Men'
-[YouTube] No se encontró tráiler confiable para Solo cuatro meses para el regreso del universo de aventuras, ciencia ficción y fantasía más grande de todos los tiempos
-[movies] Saltado porque no tiene tráiler confiable: Solo cuatro meses para el regreso del universo de aventuras, ciencia ficción y fantasía más grande de todos los tiempos
-[movies] Publicados: 0
-Total películas publicadas: 0
+[movies] Candidatos encontrados: 20 | Límite: 1
+[IA] Probando proveedor gemini: Una noche al año
+[IA] gemini falló (error): Expecting ',' delimiter: line 5 column 3 (char 5490)
+[IA] Probando proveedor groq: Una noche al año
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: Una noche al año
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+[IA] Probando proveedor mistral: Una noche al año
+[IA] Artículo generado con mistral
+[OK] Publicado: src/content/blog/una-noche-al-ano-el-estreno-romantico-que-no-te-puedes-perder-2026-08-17-4dc1bc.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
