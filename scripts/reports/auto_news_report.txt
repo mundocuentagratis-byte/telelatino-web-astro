@@ -1,25 +1,36 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-17T08:57:23.365445+00:00
+Fecha UTC: 2026-08-17T13:03:31.252261+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
-[movies] Saltado porque no es estreno 2026: JRR Tolkien vivió al lado de esta iglesia toda la vida. Es imposible no ver las puertas de Durin si pasas por delante (2000)
+[movies] Saltado noticia no apta para películas: Últimos 2 días para ver en Netflix una de las mejores películas de acción de los 90 que hizo historia con su guion
+[movies] Saltado porque no es estreno 2026: Uno de nuestros personajes animados más icónicos está a punto de regresar a las salas de cine: descubre su nueva aventura (2012)
+[movies] Saltado noticia no apta para películas: 'Spider-Man: Brand New Day' supera los 2.000 millones: es la única película de un superhéroe que ha conseguido este récord
+[movies] Saltado noticia no apta para películas: "Es simplemente aburrida": Quentin Tarantino no da un duro por una de las obras maestras de Steven Spielberg
+[movies] Saltado noticia no apta para películas: George Lucas se empeñó en cambiar esta escena de 'El imperio contraataca' y creó un diálogo que no tiene ningún sentido
+[movies] Saltado noticia no apta para películas: JRR Tolkien vivió al lado de esta iglesia toda la vida. Es imposible no ver las puertas de Durin si pasas por delante
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: tras esta película de James Bond, Daniel Craig amenazó con abandonar la saga de espías (2021)
 [movies] Saltado porque no es estreno 2026: La película más taquillera de Brad Pitt no puede considerarse un éxito: un presupuesto millonario que se les fue de las manos (2027)
-[movies] Saltado porque no es estreno 2026: Zak Williams, sobre su padre Robin Williams: “Recuerdo lo peculiar que eras y tu extraordinaria capacidad para amar” (2039)
+[movies] Saltado noticia no apta para películas: Rodando ‘Matilda’, Mara Wilson vivió una tragedia personal: detrás de las cámaras Danny DeVito se encargó de ella
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado noticia no apta para películas: Últimos 5 días para ver en Netflix una de las trilogías más épicas de la historia del cine de fantasía
-[movies] Saltado noticia no apta para películas: El hijo de Michael Douglas que pasó siete años en la cárcel: "Mi padre me hacía repartir porros entre los invitados a sus fiestas"
+[movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
 [movies] Saltado noticia no apta para películas: Javier Ruiz abandona RTVE por La Séptima: estos son todos los cambios que deja tras su marcha
+[movies] Saltado noticia no apta para películas: Quién es Santi Villas, el marido de Marc Giró y hermano de Thais Villas: fue colaborador habitual de Ana Rosa Quintana
 [movies] Saltado noticia no apta para películas: Manu Pascual, el concursante más longevo de la historia de 'Pasapalabra', zanja la discusión acerca de 'AlaZ'
-[movies] Saltado porque no es estreno 2026: Qué fue de "Los pistoleros del Eclipse" de 'Callejeros': así ha cambiado "El Tomate" de Muchamiel en su reaparición en redes sociales (2025)
-[movies] Saltado noticia no apta para películas: La Fiscalía pide a Gustavo González, ex de 'Sálvame', 447 años de cárcel por descubrimiento y revelación de secretos de famosos
+[movies] Saltado porque no es estreno 2026: El restaurante de la sierra madrileña que no consiguió salvar Chicote: cerró tres meses después de la emisión 'Pesadilla en la cocina' (2025)
+[movies] Saltado noticia no apta para películas: Josep Pedrerol aclara por qué cerró 'El chiringuito' en Atresmedia: "No pongo fin yo, lo pusieron ellos"
 [movies] Saltado noticia no apta para películas: El inolvidable presentador que triunfó en 'El Informal' y el mundo corazón pero quiso dar un giro a su vida: llegó a Diputado del Congreso
 [movies] Saltado noticia no apta para películas: Ganó 'Gran Hermano', pero Fresita no tuvo suerte tras el 'reality': su negocio quebró y casi pierde su casa (al final se reinventó)
 [movies] Saltado noticia no apta para películas: El ganador de 'Pasapalabra' que ha escrito novelas policíacas y ahora es jefe de la Policía Nacional en Andalucía Oriental
 [movies] Saltado noticia no apta para películas: La concursante de 'Supervivientes' que ha estado "dos años sin poder hablar": 15 años después, está irreconocible
 [movies] Saltado noticia no apta para películas: TVG se queda sin una de sus presentadoras clave: Rocío delgado se une a Javier Ruiz en La Séptima y plantea un duelo sentimental con La 1
-[movies] Saltado noticia no apta para películas: 'First Dates' acaba de vivir una de sus peores cenas: Vicky asegura que su cita con Sergio es una "mierda"
-[movies] Candidatos encontrados: 31 | Límite: 1
+[movies] Candidatos encontrados: 28 | Límite: 1
+[YouTube] No se encontró tráiler confiable para "La cagué": Denzel Washington se arrepiente de haber rechazado uno de los mejores thrillers de todos los tiempos
+[movies] Saltado porque no tiene tráiler confiable: "La cagué": Denzel Washington se arrepiente de haber rechazado uno de los mejores thrillers de todos los tiempos
+[YouTube] No se encontró tráiler confiable para Marvel ha conseguido a su actor más difícil: Llevaba años rechazando papeles, pero ha aceptado unirse a 'X-Men'
+[movies] Saltado porque no tiene tráiler confiable: Marvel ha conseguido a su actor más difícil: Llevaba años rechazando papeles, pero ha aceptado unirse a 'X-Men'
+[YouTube] No se encontró tráiler confiable para Solo cuatro meses para el regreso del universo de aventuras, ciencia ficción y fantasía más grande de todos los tiempos
+[movies] Saltado porque no tiene tráiler confiable: Solo cuatro meses para el regreso del universo de aventuras, ciencia ficción y fantasía más grande de todos los tiempos
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
