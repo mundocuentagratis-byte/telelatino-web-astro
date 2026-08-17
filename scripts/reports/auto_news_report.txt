@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-17T16:42:14.316277+00:00
+Fecha UTC: 2026-08-17T20:39:38.160988+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: A los 5 años ya había grabado 50 anuncios y una telenovela: la desgarradora infancia de Hayden Panettiere bajo el control de su propia madre
@@ -27,16 +27,7 @@ Fecha UTC: 2026-08-17T16:42:14.316277+00:00
 [movies] Saltado noticia no apta para películas: El ganador de 'Pasapalabra' que ha escrito novelas policíacas y ahora es jefe de la Policía Nacional en Andalucía Oriental
 [movies] Saltado noticia no apta para películas: La concursante de 'Supervivientes' que ha estado "dos años sin poder hablar": 15 años después, está irreconocible
 [movies] Saltado noticia no apta para películas: TVG se queda sin una de sus presentadoras clave: Rocío delgado se une a Javier Ruiz en La Séptima y plantea un duelo sentimental con La 1
-[movies] Candidatos encontrados: 20 | Límite: 1
-[IA] Probando proveedor gemini: Una noche al año
-[IA] gemini falló (error): Expecting ',' delimiter: line 5 column 3 (char 5490)
-[IA] Probando proveedor groq: Una noche al año
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: Una noche al año
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
-[IA] Probando proveedor mistral: Una noche al año
-[IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/una-noche-al-ano-el-estreno-romantico-que-no-te-puedes-perder-2026-08-17-4dc1bc.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[movies] Candidatos encontrados: 22 | Límite: 1
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
