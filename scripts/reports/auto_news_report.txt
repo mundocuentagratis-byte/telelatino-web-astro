@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-18T01:48:19.911343+00:00
+Fecha UTC: 2026-08-18T04:49:05.294164+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: Bruce Willis ha reaparecido en la boda de su hija Tallulah: Demi Moore ha compartido la emotiva imagen
@@ -28,7 +28,6 @@ Fecha UTC: 2026-08-18T01:48:19.911343+00:00
 [movies] Saltado noticia no apta para películas: La concursante de 'Supervivientes' que ha estado "dos años sin poder hablar": 15 años después, está irreconocible
 [movies] Saltado noticia no apta para películas: TVG se queda sin una de sus presentadoras clave: Rocío delgado se une a Javier Ruiz en La Séptima y plantea un duelo sentimental con La 1
 [movies] Candidatos encontrados: 22 | Límite: 1
-[movies] Saltado por tema bloqueado: Super Troopers 3
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
