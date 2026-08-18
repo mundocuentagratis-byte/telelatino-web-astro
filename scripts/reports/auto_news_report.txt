@@ -1,7 +1,8 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-17T20:39:38.160988+00:00
+Fecha UTC: 2026-08-18T01:48:19.911343+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
+[movies] Saltado noticia no apta para películas: Bruce Willis ha reaparecido en la boda de su hija Tallulah: Demi Moore ha compartido la emotiva imagen
 [movies] Saltado noticia no apta para películas: A los 5 años ya había grabado 50 anuncios y una telenovela: la desgarradora infancia de Hayden Panettiere bajo el control de su propia madre
 [movies] Saltado porque no es estreno 2026: Fernando Tejero, 61 años, sobre su infancia: "Me crie en casa de mi tía por estas cosas que se estilaban mucho en Andalucía. Mi madre ya tenía tres hijos" (2019)
 [movies] Saltado noticia no apta para películas: Últimos 2 días para ver en Netflix una de las mejores películas de acción de los 90 que hizo historia con su guion
@@ -13,7 +14,6 @@ Fecha UTC: 2026-08-17T20:39:38.160988+00:00
 [movies] Saltado noticia no apta para películas: "Es simplemente aburrida": Quentin Tarantino no da un duro por una de las obras maestras de Steven Spielberg
 [movies] Saltado noticia no apta para películas: George Lucas se empeñó en cambiar esta escena de 'El imperio contraataca' y creó un diálogo que no tiene ningún sentido
 [movies] Saltado noticia no apta para películas: JRR Tolkien vivió al lado de esta iglesia toda la vida. Es imposible no ver las puertas de Durin si pasas por delante
-[movies] Saltado noticia no apta para películas: 'El final de Oak Street' no se preocupa demasiado por sus paradojas temporales. Y aunque analicemos su final explicado, tú tampoco deberías
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado noticia no apta para películas: Últimos 5 días para ver en Netflix una de las trilogías más épicas de la historia del cine de fantasía
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
@@ -28,6 +28,7 @@ Fecha UTC: 2026-08-17T20:39:38.160988+00:00
 [movies] Saltado noticia no apta para películas: La concursante de 'Supervivientes' que ha estado "dos años sin poder hablar": 15 años después, está irreconocible
 [movies] Saltado noticia no apta para películas: TVG se queda sin una de sus presentadoras clave: Rocío delgado se une a Javier Ruiz en La Séptima y plantea un duelo sentimental con La 1
 [movies] Candidatos encontrados: 22 | Límite: 1
+[movies] Saltado por tema bloqueado: Super Troopers 3
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
