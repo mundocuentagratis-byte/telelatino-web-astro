@@ -1,12 +1,18 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-18T08:51:29.657359+00:00
+Fecha UTC: 2026-08-18T13:05:16.139233+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
+[movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
+[movies] Saltado noticia no apta para películas: Pepe Mora, diseñador de maquillaje protésico: “Es todo bastante homogéneo. Ya no distinguimos un villano de Marvel de uno de DC o de otra cosa”
+[movies] Saltado porque no es estreno 2026: Llevamos ya 16 años con la saga 'Insidious': ahora que se estrena 'Fuera del más allá' te ponemos al día en menos de 2 minutos (2023)
 [movies] Saltado porque no es estreno 2026: En 2028, Marvel habrá cambiado para siempre: el estudio recuperará el ritmo tras el final de una era con 'Vengadores 6' (2024)
+[movies] Saltado noticia no apta para películas: Zack Snyder lleva 20 años trabajando en el mayor cambio de su carrera: Su nueva película es un drama bélico de venganza que rompe con todo lo anterior
+[movies] Saltado noticia no apta para películas: "Una obra maestra del cine bélico que nunca ha sido superada": Christopher Nolan nos dio 'Dunkerque', pero no llega al nivel de esta otra película
+[movies] Saltado noticia no apta para películas: 94 años, más de 50 películas y 4 de los premios más importantes del mundo: Una de las leyendas más veteranas de Hollywood se ha unido al universo 'Fast & Furious' con más de 90 años
 [movies] Saltado noticia no apta para películas: Bruce Willis ha reaparecido en la boda de su hija Tallulah: Demi Moore ha compartido la emotiva imagen
+[movies] Saltado noticia no apta para películas: A los 5 años ya había grabado 50 anuncios y una telenovela: la desgarradora infancia de Hayden Panettiere bajo el control de su propia madre
 [movies] Saltado porque no es estreno 2026: Fernando Tejero, 61 años, sobre su infancia: "Me crie en casa de mi tía por estas cosas que se estilaban mucho en Andalucía. Mi madre ya tenía tres hijos" (2019)
 [movies] Saltado noticia no apta para películas: Últimos 2 días para ver en Netflix una de las mejores películas de acción de los 90 que hizo historia con su guion
-[movies] Saltado porque no es estreno 2026: Uno de nuestros personajes animados más icónicos está a punto de regresar a las salas de cine: descubre su nueva aventura (2012)
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
 [movies] Saltado noticia no apta para películas: Últimos 5 días para ver en Netflix una de las trilogías más épicas de la historia del cine de fantasía
@@ -14,19 +20,15 @@ Fecha UTC: 2026-08-18T08:51:29.657359+00:00
 [movies] Saltado noticia no apta para películas: Quién es Santi Villas, el marido de Marc Giró y hermano de Thais Villas: fue colaborador habitual de Ana Rosa Quintana
 [movies] Saltado noticia no apta para películas: Javier Ruiz abandona RTVE por La Séptima: estos son todos los cambios que deja tras su marcha
 [movies] Saltado noticia no apta para películas: Manu Pascual, el concursante más longevo de la historia de 'Pasapalabra', zanja la discusión acerca de 'AlaZ'
+[movies] Saltado noticia no apta para películas: Estos son los cuatro pueblos semifinalistas del 'Grand Prix' que lucharán por el título de ganador
 [movies] Saltado noticia no apta para películas: El inolvidable presentador que triunfó en 'El Informal' y el mundo corazón pero quiso dar un giro a su vida: llegó a Diputado del Congreso
 [movies] Saltado noticia no apta para películas: Ganó 'Gran Hermano', pero Fresita no tuvo suerte tras el 'reality': su negocio quebró y casi pierde su casa (al final se reinventó)
 [movies] Saltado noticia no apta para películas: El ganador de 'Pasapalabra' que ha escrito novelas policíacas y ahora es jefe de la Policía Nacional en Andalucía Oriental
 [movies] Saltado noticia no apta para películas: La concursante de 'Supervivientes' que ha estado "dos años sin poder hablar": 15 años después, está irreconocible
-[movies] Saltado noticia no apta para películas: TVG se queda sin una de sus presentadoras clave: Rocío delgado se une a Javier Ruiz en La Séptima y plantea un duelo sentimental con La 1
-[movies] Candidatos encontrados: 30 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "Una obra maestra del cine bélico que nunca ha sido superada": Christopher Nolan nos dio 'Dunkerque', pero no llega al nivel de esta otra película
-[movies] Saltado porque no tiene tráiler confiable: "Una obra maestra del cine bélico que nunca ha sido superada": Christopher Nolan nos dio 'Dunkerque', pero no llega al nivel de esta otra película
-[IA] Probando proveedor openai: 'Spider-Man: Brand New Day' supera los 2.000 millones: es la única película de u
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
-[IA] Probando proveedor mistral: 'Spider-Man: Brand New Day' supera los 2.000 millones: es la única película de u
-[IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/spider-man-brand-new-day-supera-los-2-000-millones-por-que-es-un-hito-historico-2026-08-18-4bb1d1.md
+[movies] Candidatos encontrados: 22 | Límite: 1
+[IA] Probando proveedor gemini: Katseye: Wild Hearts
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/katseye-wild-hearts-el-documental-imperdible-sobre-un-fenomeno-pop-2026-08-18-3e634a.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
