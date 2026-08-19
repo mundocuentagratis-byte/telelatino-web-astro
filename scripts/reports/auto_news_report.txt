@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-19T16:44:49.773898+00:00
+Fecha UTC: 2026-08-19T20:41:49.606331+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado porque no es estreno 2026: Es más probable que cedas tu asiento a una embarazada si hay una persona disfrazada de Batman que si no la hay: se llama 'efecto Batman' (2025)
@@ -21,12 +21,6 @@ Fecha UTC: 2026-08-19T16:44:49.773898+00:00
 [movies] Saltado noticia no apta para películas: El inolvidable presentador que triunfó en 'El Informal' y el mundo corazón pero quiso dar un giro a su vida: llegó a Diputado del Congreso
 [movies] Saltado noticia no apta para películas: Ganó 'Gran Hermano', pero Fresita no tuvo suerte tras el 'reality': su negocio quebró y casi pierde su casa (al final se reinventó)
 [movies] Candidatos encontrados: 28 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "No estaba bien": Una de las personas con las Hayden Panettiere trabajó por última vez recuerda la "oscura" energía de la actriz en el rodaje
-[movies] Saltado porque no tiene tráiler confiable: "No estaba bien": Una de las personas con las Hayden Panettiere trabajó por última vez recuerda la "oscura" energía de la actriz en el rodaje
-[YouTube] No se encontró tráiler confiable para Fernando Fernán Gómez, sobre su infancia: "a los niños nos hacían una gran propaganda fascista, porque casi todos aquellos frailes, que nos daban clase en todo, eran fascistas"
-[movies] Saltado porque no tiene tráiler confiable: Fernando Fernán Gómez, sobre su infancia: "a los niños nos hacían una gran propaganda fascista, porque casi todos aquellos frailes, que nos daban clase en todo, eran fascistas"
-[YouTube] No se encontró tráiler confiable para Salió en 'Oppenheimer', pero se cansó de Hollywood y ha decidido poner su carrera en pausa: "Estaba frustrado, harto, agotado"
-[movies] Saltado porque no tiene tráiler confiable: Salió en 'Oppenheimer', pero se cansó de Hollywood y ha decidido poner su carrera en pausa: "Estaba frustrado, harto, agotado"
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
