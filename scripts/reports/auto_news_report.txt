@@ -1,23 +1,11 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-19T08:53:11.615054+00:00
+Fecha UTC: 2026-08-19T13:06:07.762951+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
-[movies] Saltado porque no es estreno 2026: Cronos (2025)
-[movies] Saltado porque no es estreno 2026: El motín (2025)
-[movies] Saltado porque no es estreno 2026: Insidious: Fuera del más allá (2025)
-[movies] Saltado porque no es estreno 2026: En el corazón de la bestia (2025)
-[movies] Saltado porque no es estreno 2026: Jumanji: Mundo abierto (2025)
-[movies] Saltado porque no es estreno 2026: La otra madre (2025)
-[movies] Saltado porque no es estreno 2026: La bola negra (2025)
-[movies] Saltado porque no es estreno 2026: Tadeo Jones y la lámpara maravillosa (2025)
-[movies] Saltado porque no es estreno 2026: Leviticus (2025)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
-[movies] Saltado porque no es estreno 2026: La Odisea (2025)
-[movies] Saltado porque no es estreno 2026: La Patrulla Canina: La Dino película (2025)
-[movies] Saltado porque no es estreno 2026: Katseye: Wild Hearts (2025)
-[movies] Saltado porque no es estreno 2026: 'Star Wars' pierde un récord: 'Spider-Man: Brand New Day' sigue imparable en taquilla (2028)
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Llevamos ya 16 años con la saga 'Insidious': ahora que se estrena 'Fuera del más allá' te ponemos al día en menos de 2 minutos (2023)
 [movies] Saltado porque no es estreno 2026: En 2028, Marvel habrá cambiado para siempre: el estudio recuperará el ritmo tras el final de una era con 'Vengadores 6' (2024)
+[movies] Saltado noticia no apta para películas: Bruce Willis ha reaparecido en la boda de su hija Tallulah: Demi Moore ha compartido la emotiva imagen
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
 [movies] Saltado noticia no apta para películas: Últimos 5 días para ver en Netflix una de las trilogías más épicas de la historia del cine de fantasía
@@ -30,11 +18,7 @@ Fecha UTC: 2026-08-19T08:53:11.615054+00:00
 [movies] Saltado noticia no apta para películas: El inolvidable presentador que triunfó en 'El Informal' y el mundo corazón pero quiso dar un giro a su vida: llegó a Diputado del Congreso
 [movies] Saltado noticia no apta para películas: Ganó 'Gran Hermano', pero Fresita no tuvo suerte tras el 'reality': su negocio quebró y casi pierde su casa (al final se reinventó)
 [movies] Saltado noticia no apta para películas: El ganador de 'Pasapalabra' que ha escrito novelas policíacas y ahora es jefe de la Policía Nacional en Andalucía Oriental
-[movies] Candidatos encontrados: 18 | Límite: 1
-[YouTube] No se encontró tráiler confiable para 10 películas que adquieren un tono completamente diferente cuando las analizamos y volvemos a verlas
-[movies] Saltado porque no tiene tráiler confiable: 10 películas que adquieren un tono completamente diferente cuando las analizamos y volvemos a verlas
-[YouTube] No se encontró tráiler confiable para Bruce Willis ha reaparecido en la boda de su hija Tallulah: Demi Moore ha compartido la emotiva imagen
-[movies] Saltado porque no tiene tráiler confiable: Bruce Willis ha reaparecido en la boda de su hija Tallulah: Demi Moore ha compartido la emotiva imagen
+[movies] Candidatos encontrados: 29 | Límite: 1
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
