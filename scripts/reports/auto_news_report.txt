@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-18T20:37:34.240416+00:00
+Fecha UTC: 2026-08-19T01:52:03.665133+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
@@ -18,15 +18,7 @@ Fecha UTC: 2026-08-18T20:37:34.240416+00:00
 [movies] Saltado noticia no apta para películas: El inolvidable presentador que triunfó en 'El Informal' y el mundo corazón pero quiso dar un giro a su vida: llegó a Diputado del Congreso
 [movies] Saltado noticia no apta para películas: Ganó 'Gran Hermano', pero Fresita no tuvo suerte tras el 'reality': su negocio quebró y casi pierde su casa (al final se reinventó)
 [movies] Saltado noticia no apta para películas: El ganador de 'Pasapalabra' que ha escrito novelas policíacas y ahora es jefe de la Policía Nacional en Andalucía Oriental
-[movies] Candidatos encontrados: 30 | Límite: 1
-[YouTube] No se encontró tráiler confiable para A los 5 años ya había grabado 50 anuncios y una telenovela: la desgarradora infancia de Hayden Panettiere bajo el control de su propia madre
-[movies] Saltado porque no tiene tráiler confiable: A los 5 años ya había grabado 50 anuncios y una telenovela: la desgarradora infancia de Hayden Panettiere bajo el control de su propia madre
-[YouTube] No se encontró tráiler confiable para Ganó el premio a la peor actriz y el Oscar a la mejor en menos de 24 horas: es la primera y única vez que ha ocurrido en la historia
-[movies] Saltado porque no tiene tráiler confiable: Ganó el premio a la peor actriz y el Oscar a la mejor en menos de 24 horas: es la primera y única vez que ha ocurrido en la historia
-[YouTube] No se encontró tráiler confiable para Pepe Mora, diseñador de maquillaje protésico: “Es todo bastante homogéneo. Ya no distinguimos un villano de Marvel de uno de DC o de otra cosa”
-[movies] Saltado porque no tiene tráiler confiable: Pepe Mora, diseñador de maquillaje protésico: “Es todo bastante homogéneo. Ya no distinguimos un villano de Marvel de uno de DC o de otra cosa”
-[YouTube] No se encontró tráiler confiable para Sylvester Stallone, 80 años: "A medida que envejecemos, la gente piensa que la vida se vuelve más fácil. No es así, se vuelve más complicada porque las cosas que amas empiezan a desaparecer"
-[movies] Saltado porque no tiene tráiler confiable: Sylvester Stallone, 80 años: "A medida que envejecemos, la gente piensa que la vida se vuelve más fácil. No es así, se vuelve más complicada porque las cosas que amas empiezan a desaparecer"
+[movies] Candidatos encontrados: 29 | Límite: 1
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
