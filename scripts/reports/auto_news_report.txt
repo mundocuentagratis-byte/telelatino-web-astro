@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-19T20:41:49.606331+00:00
+Fecha UTC: 2026-08-20T01:48:54.178744+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado porque no es estreno 2026: Es más probable que cedas tu asiento a una embarazada si hay una persona disfrazada de Batman que si no la hay: se llama 'efecto Batman' (2025)
