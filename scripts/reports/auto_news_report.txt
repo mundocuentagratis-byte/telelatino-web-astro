@@ -1,16 +1,18 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-20T08:53:27.129558+00:00
+Fecha UTC: 2026-08-20T13:09:28.801141+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
+[movies] Saltado noticia no apta para películas: 22 años de carrera y 2 nominaciones al Oscar: hoy cumple 43 años uno de los mejores actores de su generación
+[movies] Saltado noticia no apta para películas: Solo dice cuatro frases en toda la película, pero Matt Damon basó toda su carrera en este personaje de 1968: "Era creíble"
+[movies] Saltado noticia no apta para películas: El inesperado fenómeno literario que ha vendido 3,5 millones de copias será una película con Tom Hanks como protagonista
 [movies] Saltado porque no es estreno 2026: Esta película de ciencia ficción abre con los mejores 4 minutos del género, pero después fue un fracaso de 200 millones de dólares (2017)
-[movies] Saltado noticia no apta para películas: Es más probable que cedas tu asiento a una embarazada si hay una persona disfrazada de Batman que si no la hay: se llama 'efecto Batman'
+[movies] Saltado porque no es estreno 2026: Es más probable que cedas tu asiento a una embarazada si hay una persona disfrazada de Batman que si no la hay: se llama 'efecto Batman' (2025)
 [movies] Saltado noticia no apta para películas: A este actor le quitaron el papel de 'El señor de los anillos' y encadenó dos fracasos monumentales: destruyeron su carrera
 [movies] Saltado noticia no apta para películas: A punto de llegar a cines la apuesta cinematográfica para conquistar a una generación de espectadores: 'A fuego', el debut de Ruslana
 [movies] Saltado noticia no apta para películas: "No estaba bien": Una de las personas con las Hayden Panettiere trabajó por última vez recuerda la "oscura" energía de la actriz en el rodaje
 [movies] Saltado noticia no apta para películas: Salió en 'Oppenheimer', pero se cansó de Hollywood y ha decidido poner su carrera en pausa: "Estaba frustrado, harto, agotado"
 [movies] Saltado porque no es estreno 2026: 'Star Wars' pierde un récord: 'Spider-Man: Brand New Day' sigue imparable en taquilla (2028)
-[movies] Saltado porque no es estreno 2026: Sylvester Stallone, 80 años: "A medida que envejecemos, la gente piensa que la vida se vuelve más fácil. No es así, se vuelve más complicada porque las cosas que amas empiezan a desaparecer" (2023)
-[movies] Saltado noticia no apta para películas: Ganó el premio a la peor actriz y el Oscar a la mejor en menos de 24 horas: es la primera y única vez que ha ocurrido en la historia
+[movies] Saltado noticia no apta para películas: 10 películas que adquieren un tono completamente diferente cuando las analizamos y volvemos a verlas
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Sencillamente una de las mejores películas de ciencia ficción de los últimos 30 años
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
@@ -19,12 +21,12 @@ Fecha UTC: 2026-08-20T08:53:27.129558+00:00
 [movies] Saltado noticia no apta para películas: Quién es Santi Villas, el marido de Marc Giró y hermano de Thais Villas: fue colaborador habitual de Ana Rosa Quintana
 [movies] Saltado noticia no apta para películas: Manu Pascual, el concursante más longevo de la historia de 'Pasapalabra', zanja la discusión acerca de 'AlaZ'
 [movies] Saltado porque no es estreno 2026: El restaurante de la sierra madrileña que no consiguió salvar Chicote: cerró tres meses después de la emisión 'Pesadilla en la cocina' (2025)
+[movies] Saltado noticia no apta para películas: TVE ha matado 'Ordena tu vida': su estrategia de emisión se ha cargado un formato con muchísimo potencial
 [movies] Saltado noticia no apta para películas: Primeras pistas sobre el 'Pasapalabra' de Mediaset: registran 8 nombres que podrían ser el título de su 'Rosco'
 [movies] Saltado noticia no apta para películas: 'El chiringuito' aterriza en Mediaset con una petición y una exclusiva: "Ayudad a los abuelos, a las abuelas y a los papás a sintonizar Energy"
 [movies] Saltado noticia no apta para películas: Estos son los cuatro pueblos semifinalistas del 'Grand Prix' que lucharán por el título de ganador
 [movies] Saltado noticia no apta para películas: El inolvidable presentador que triunfó en 'El Informal' y el mundo corazón pero quiso dar un giro a su vida: llegó a Diputado del Congreso
-[movies] Saltado noticia no apta para películas: Ganó 'Gran Hermano', pero Fresita no tuvo suerte tras el 'reality': su negocio quebró y casi pierde su casa (al final se reinventó)
-[movies] Candidatos encontrados: 23 | Límite: 1
+[movies] Candidatos encontrados: 22 | Límite: 1
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
