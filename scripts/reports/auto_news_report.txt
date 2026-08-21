@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-20T20:42:29.299625+00:00
+Fecha UTC: 2026-08-21T01:55:32.302131+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: "Tenía un ego tan grande como su pelo": Cher despidió a esta actriz porque no se parecía a ella y fue el comienzo del fin de su carrera
