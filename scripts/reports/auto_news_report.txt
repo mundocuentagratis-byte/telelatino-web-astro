@@ -1,36 +1,31 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-21T04:51:43.639718+00:00
+Fecha UTC: 2026-08-21T08:54:51.485841+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
+[movies] Saltado porque no es estreno 2026: "He visto la película 18 veces": James Cameron y Steven Spielberg perdieron la cabeza con esta obra maestra de la ciencia ficción (2001)
+[movies] Saltado noticia no apta para películas: 92 años y 6 nominaciones al Oscar: nadie puede olvidar a una de las estrellas más legendarias de Hollywood que pronunció el mítico "me lo merezco"
 [movies] Saltado noticia no apta para películas: "Tenía un ego tan grande como su pelo": Cher despidió a esta actriz porque no se parecía a ella y fue el comienzo del fin de su carrera
 [movies] Saltado noticia no apta para películas: Durante más de 40 años nos hemos preguntado quién pudo haber tomado esa fotografía en 'Regreso al Futuro'
 [movies] Saltado porque no es estreno 2026: 'Insidious' nació para "demostrar que podíamos dar miedo sin recurrir a la sangre ni al gore" y ya va por su sexta entrega (2020)
 [movies] Saltado noticia no apta para películas: 22 años de carrera y 2 nominaciones al Oscar: hoy cumple 43 años uno de los mejores actores de su generación
-[movies] Saltado noticia no apta para películas: Solo dice cuatro frases en toda la película, pero Matt Damon basó toda su carrera en este personaje de 1968: "Era creíble"
 [movies] Saltado noticia no apta para películas: El inesperado fenómeno literario que ha vendido 3,5 millones de copias será una película con Tom Hanks como protagonista
 [movies] Saltado porque no es estreno 2026: Esta película de ciencia ficción abre con los mejores 4 minutos del género, pero después fue un fracaso de 200 millones de dólares (2017)
-[movies] Saltado noticia no apta para películas: Es más probable que cedas tu asiento a una embarazada si hay una persona disfrazada de Batman que si no la hay: se llama 'efecto Batman'
-[movies] Saltado noticia no apta para películas: A este actor le quitaron el papel de 'El señor de los anillos' y encadenó dos fracasos monumentales: destruyeron su carrera
-[movies] Saltado noticia no apta para películas: A punto de llegar a cines la apuesta cinematográfica para conquistar a una generación de espectadores: 'A fuego', el debut de Ruslana
+[movies] Saltado porque no es estreno 2026: Es más probable que cedas tu asiento a una embarazada si hay una persona disfrazada de Batman que si no la hay: se llama 'efecto Batman' (2025)
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
-[movies] Saltado noticia no apta para películas: Josep Pedrerol aclara por qué cerró 'El chiringuito' en Atresmedia: "No pongo fin yo, lo pusieron ellos"
 [movies] Saltado porque no es estreno 2026: El restaurante de la sierra madrileña que no consiguió salvar Chicote: cerró tres meses después de la emisión 'Pesadilla en la cocina' (2025)
-[movies] Saltado noticia no apta para películas: Manu Pascual, el concursante más longevo de la historia de 'Pasapalabra', zanja la discusión acerca de 'AlaZ'
-[movies] Saltado noticia no apta para películas: TVE ha matado 'Ordena tu vida': su estrategia de emisión se ha cargado un formato con muchísimo potencial
 [movies] Saltado noticia no apta para películas: Primeras pistas sobre el 'Pasapalabra' de Mediaset: registran 8 nombres que podrían ser el título de su 'Rosco'
 [movies] Saltado noticia no apta para películas: 'El chiringuito' aterriza en Mediaset con una petición y una exclusiva: "Ayudad a los abuelos, a las abuelas y a los papás a sintonizar Energy"
 [movies] Saltado noticia no apta para películas: Estos son los cuatro pueblos semifinalistas del 'Grand Prix' que lucharán por el título de ganador
 [movies] Saltado noticia no apta para películas: El inolvidable presentador que triunfó en 'El Informal' y el mundo corazón pero quiso dar un giro a su vida: llegó a Diputado del Congreso
-[movies] Candidatos encontrados: 29 | Límite: 1
-[duplicado] Saltado por tema parecido: A fuego ~= Avatar: Fuego y ceniza llega a cines con nuevo conflicto épico
-[IA] Probando proveedor groq: El coro de Praga
+[movies] Candidatos encontrados: 32 | Límite: 1
+[IA] Probando proveedor groq: Coyote vs. ACME
 [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: El coro de Praga
+[IA] Probando proveedor openai: Coyote vs. ACME
 [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
-[IA] Probando proveedor mistral: El coro de Praga
+[IA] Probando proveedor mistral: Coyote vs. ACME
 [IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/el-coro-de-praga-drama-musical-con-oscuras-tensiones-tras-su-estreno-2026-08-21-363bc6.md
+[OK] Publicado: src/content/blog/coyote-vs-acme-el-estreno-que-redefine-a-los-looney-tunes-2026-08-21-05b61a.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
