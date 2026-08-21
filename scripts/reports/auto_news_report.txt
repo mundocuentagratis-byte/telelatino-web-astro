@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-21T16:49:06.589737+00:00
+Fecha UTC: 2026-08-21T20:37:35.667601+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
@@ -14,9 +14,11 @@ Fecha UTC: 2026-08-21T16:49:06.589737+00:00
 [movies] Saltado noticia no apta para películas: 'El chiringuito' aterriza en Mediaset con una petición y una exclusiva: "Ayudad a los abuelos, a las abuelas y a los papás a sintonizar Energy"
 [movies] Saltado noticia no apta para películas: Estos son los cuatro pueblos semifinalistas del 'Grand Prix' que lucharán por el título de ganador
 [movies] Candidatos encontrados: 40 | Límite: 1
-[IA] Probando proveedor mistral: Ghost: 2 Big To Rig
+[IA] Probando proveedor openai: La sombra del nogal
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+[IA] Probando proveedor mistral: La sombra del nogal
 [IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/ghost-2-big-to-rig-la-pelicula-concierto-que-promete-revolucionar-el-genero-2026-08-21-014070.md
+[OK] Publicado: src/content/blog/la-sombra-del-nogal-la-pelicula-que-celebra-la-cocina-como-memoria-y-resistencia-2026-08-21-a6ba8c.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
