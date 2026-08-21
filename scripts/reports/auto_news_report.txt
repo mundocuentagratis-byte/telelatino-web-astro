@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-21T13:08:08.099013+00:00
+Fecha UTC: 2026-08-21T16:49:06.589737+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
@@ -9,16 +9,14 @@ Fecha UTC: 2026-08-21T13:08:08.099013+00:00
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
 [movies] Saltado porque no es estreno 2026: El restaurante de la sierra madrileña que no consiguió salvar Chicote: cerró tres meses después de la emisión 'Pesadilla en la cocina' (2025)
+[movies] Saltado noticia no apta para películas: Quedan poco más de dos meses para que La séptima comience sus emisiones y no para de desvelar fichajes: el último, Quequé
 [movies] Saltado noticia no apta para películas: Primeras pistas sobre el 'Pasapalabra' de Mediaset: registran 8 nombres que podrían ser el título de su 'Rosco'
 [movies] Saltado noticia no apta para películas: 'El chiringuito' aterriza en Mediaset con una petición y una exclusiva: "Ayudad a los abuelos, a las abuelas y a los papás a sintonizar Energy"
 [movies] Saltado noticia no apta para películas: Estos son los cuatro pueblos semifinalistas del 'Grand Prix' que lucharán por el título de ganador
-[movies] Saltado noticia no apta para películas: El inolvidable presentador que triunfó en 'El Informal' y el mundo corazón pero quiso dar un giro a su vida: llegó a Diputado del Congreso
 [movies] Candidatos encontrados: 40 | Límite: 1
-[IA] Probando proveedor openai: El ser querido
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
-[IA] Probando proveedor mistral: El ser querido
+[IA] Probando proveedor mistral: Ghost: 2 Big To Rig
 [IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/el-ser-querido-bardem-y-sorogoyen-exploran-el-cine-y-la-familia-2026-08-21-a28d59.md
+[OK] Publicado: src/content/blog/ghost-2-big-to-rig-la-pelicula-concierto-que-promete-revolucionar-el-genero-2026-08-21-014070.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
