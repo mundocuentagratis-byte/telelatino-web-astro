@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-22T01:47:51.288135+00:00
+Fecha UTC: 2026-08-22T04:46:15.474003+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
@@ -14,9 +14,9 @@ Fecha UTC: 2026-08-22T01:47:51.288135+00:00
 [movies] Saltado noticia no apta para películas: 'El chiringuito' aterriza en Mediaset con una petición y una exclusiva: "Ayudad a los abuelos, a las abuelas y a los papás a sintonizar Energy"
 [movies] Saltado noticia no apta para películas: Estos son los cuatro pueblos semifinalistas del 'Grand Prix' que lucharán por el título de ganador
 [movies] Candidatos encontrados: 40 | Límite: 1
-[IA] Probando proveedor mistral: Prometido el cielo
-[IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/prometido-el-cielo-un-drama-sobre-migracion-y-sororidad-en-tunez-2026-08-22-9b5783.md
+[IA] Probando proveedor gemini: Oasis: Don't Look Back In Anger
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/oasis-don-t-look-back-in-anger-el-regreso-mas-esperado-2026-08-22-e94401.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
