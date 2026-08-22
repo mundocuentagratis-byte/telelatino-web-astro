@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-22T04:46:15.474003+00:00
+Fecha UTC: 2026-08-22T08:44:58.419175+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
@@ -14,9 +14,34 @@ Fecha UTC: 2026-08-22T04:46:15.474003+00:00
 [movies] Saltado noticia no apta para películas: 'El chiringuito' aterriza en Mediaset con una petición y una exclusiva: "Ayudad a los abuelos, a las abuelas y a los papás a sintonizar Energy"
 [movies] Saltado noticia no apta para películas: Estos son los cuatro pueblos semifinalistas del 'Grand Prix' que lucharán por el título de ganador
 [movies] Candidatos encontrados: 40 | Límite: 1
-[IA] Probando proveedor gemini: Oasis: Don't Look Back In Anger
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/oasis-don-t-look-back-in-anger-el-regreso-mas-esperado-2026-08-22-e94401.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[YouTube] No se encontró tráiler confiable para "Tenía un ego tan grande como su pelo": Cher despidió a esta actriz porque no se parecía a ella y fue el comienzo del fin de su carrera
+[movies] Saltado porque no tiene tráiler confiable: "Tenía un ego tan grande como su pelo": Cher despidió a esta actriz porque no se parecía a ella y fue el comienzo del fin de su carrera
+[YouTube] No se encontró tráiler confiable para 'La odisea' acaba de destronar a 'Deadpool y Lobezno' como la película para adultos más taquillera de la historia: "Eso sí que es un peliculón"
+[movies] Saltado porque no tiene tráiler confiable: 'La odisea' acaba de destronar a 'Deadpool y Lobezno' como la película para adultos más taquillera de la historia: "Eso sí que es un peliculón"
+[YouTube] No se encontró tráiler confiable para 22 años de carrera y 2 nominaciones al Oscar: hoy cumple 43 años uno de los mejores actores de su generación
+[movies] Saltado porque no tiene tráiler confiable: 22 años de carrera y 2 nominaciones al Oscar: hoy cumple 43 años uno de los mejores actores de su generación
+[YouTube] No se encontró tráiler confiable para 92 años y 6 nominaciones al Oscar: nadie puede olvidar a una de las estrellas más legendarias de Hollywood que pronunció el mítico "me lo merezco"
+[movies] Saltado porque no tiene tráiler confiable: 92 años y 6 nominaciones al Oscar: nadie puede olvidar a una de las estrellas más legendarias de Hollywood que pronunció el mítico "me lo merezco"
+[YouTube] No se encontró tráiler confiable para Amazon filtra accidentalmente la superproducción de Jason Statham, 'El motín', antes de su estreno en cines: "Un problema multimillonario"
+[movies] Saltado porque no tiene tráiler confiable: Amazon filtra accidentalmente la superproducción de Jason Statham, 'El motín', antes de su estreno en cines: "Un problema multimillonario"
+[YouTube] No se encontró tráiler confiable para Casi 30 años después, este actor sigue ganando dinero por una sola línea de diálogo en 'Titanic'
+[movies] Saltado porque no tiene tráiler confiable: Casi 30 años después, este actor sigue ganando dinero por una sola línea de diálogo en 'Titanic'
+[YouTube] No se encontró tráiler confiable para Esta actriz roza los 1.500 millones de dólares en taquilla en 2026: ha estrenado cuatro películas y tiene una más pendiente
+[movies] Saltado porque no tiene tráiler confiable: Esta actriz roza los 1.500 millones de dólares en taquilla en 2026: ha estrenado cuatro películas y tiene una más pendiente
+[YouTube] No se encontró tráiler confiable para Hace más de 30 años, Javier Bardem triunfó en el cine, pero paró dos años para hacerse camarero: "creo que es una buena escuela"
+[movies] Saltado porque no tiene tráiler confiable: Hace más de 30 años, Javier Bardem triunfó en el cine, pero paró dos años para hacerse camarero: "creo que es una buena escuela"
+[YouTube] No se encontró tráiler confiable para Josep Pedrerol aclara por qué cerró 'El chiringuito' en Atresmedia: "No pongo fin yo, lo pusieron ellos"
+[movies] Saltado porque no tiene tráiler confiable: Josep Pedrerol aclara por qué cerró 'El chiringuito' en Atresmedia: "No pongo fin yo, lo pusieron ellos"
+[YouTube] No se encontró tráiler confiable para Para ver esta noche: el notable 'remake' de una de las mejores películas de todos los tiempos estrenada hace 104 años
+[movies] Saltado porque no tiene tráiler confiable: Para ver esta noche: el notable 'remake' de una de las mejores películas de todos los tiempos estrenada hace 104 años
+[YouTube] No se encontró tráiler confiable para Pete Koch, actor de 'El sargento de hierro': "Clint Eastwood era el jefe supremo de Hollywood, pero cruzó todo el set solo para darme la bienvenida"
+[movies] Saltado porque no tiene tráiler confiable: Pete Koch, actor de 'El sargento de hierro': "Clint Eastwood era el jefe supremo de Hollywood, pero cruzó todo el set solo para darme la bienvenida"
+[YouTube] No se encontró tráiler confiable para Quién es Santi Villas, el marido de Marc Giró y hermano de Thais Villas: fue colaborador habitual de Ana Rosa Quintana
+[movies] Saltado porque no tiene tráiler confiable: Quién es Santi Villas, el marido de Marc Giró y hermano de Thais Villas: fue colaborador habitual de Ana Rosa Quintana
+[YouTube] No se encontró tráiler confiable para TVE ha matado 'Ordena tu vida': su estrategia de emisión se ha cargado un formato con muchísimo potencial
+[movies] Saltado porque no tiene tráiler confiable: TVE ha matado 'Ordena tu vida': su estrategia de emisión se ha cargado un formato con muchísimo potencial
+[YouTube] No se encontró tráiler confiable para Tarantino le negó expresamente a Michael Madsen que se pusiera su sombrero: no le hizo ni caso y la pelea acabó en la película
+[movies] Saltado porque no tiene tráiler confiable: Tarantino le negó expresamente a Michael Madsen que se pusiera su sombrero: no le hizo ni caso y la pelea acabó en la película
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
