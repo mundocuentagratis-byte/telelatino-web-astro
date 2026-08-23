@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-22T20:36:46.614233+00:00
+Fecha UTC: 2026-08-23T01:57:27.224500+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado porque no es estreno 2026: "Lo único que dije fue: 'Yo no hago eso": Robin Williams se sintió engañado por Disney tras recibir un salario de solo 75.000 dólares por 'Aladdín' (2039)
@@ -13,12 +13,6 @@ Fecha UTC: 2026-08-22T20:36:46.614233+00:00
 [movies] Saltado porque no es estreno 2026: El restaurante de la sierra madrileña que no consiguió salvar Chicote: cerró tres meses después de la emisión 'Pesadilla en la cocina' (2025)
 [movies] Saltado porque no es estreno 2026: Así ha cambiado Chumlee, el mítico ayudante de 'La casa de empeños' que fue detenido por tenencia ilegal de armas y posesión de drogas (2009)
 [movies] Candidatos encontrados: 46 | Límite: 1
-[movies] Saltado por tema bloqueado: Durante años, 20th Century Fox modificó el logo del inicio según la película, pero es tan sutil que yo acabo de descubrirlo
-[YouTube] No se encontró tráiler confiable para Es uno de sus mejores momentos en ‘La odisea’, pero Matt Damon se enteró por sus hijos que se había convertido en un meme
-[movies] Saltado porque no tiene tráiler confiable: Es uno de sus mejores momentos en ‘La odisea’, pero Matt Damon se enteró por sus hijos que se había convertido en un meme
-[YouTube] Error buscando tráiler para La escena eliminada que habría convertido 'El final de Oak Street' en un capítulo de 'La dimensión desconocida': 429 Client Error: Too Many Requests for url: https://www.googleapis.com/youtube/v3/search?part=snippet&q=La+escena+eliminada+que+habr%C3%ADa+convertido+%27El+final+de+Oak+Street%27+en+un+cap%C3%ADtulo+de+%27La+dimensi%C3%B3n+desconocida%27+official+trailer+2026&type=video&maxResults=8&key=AIzaSyBDlGe-8H3h5xy9Gw8PbXtzGPFE6TVR08E&relevanceLanguage=es&safeSearch=moderate
-[movies] Saltado porque no tiene tráiler confiable: La escena eliminada que habría convertido 'El final de Oak Street' en un capítulo de 'La dimensión desconocida'
-[movies] Saltado por tema bloqueado: Si vas a ver 'El Motín' no es por su excelente trama, pero ni Jason Statham podría hacernos ignorar este agujero de guion
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
