@@ -1,26 +1,25 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-23T08:45:57.842400+00:00
+Fecha UTC: 2026-08-23T12:59:49.898505+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
-[movies] Saltado noticia no apta para películas: Durante años, 20th Century Fox modificó el logo del inicio según la película, pero es tan sutil que yo acabo de descubrirlo
-[movies] Saltado noticia no apta para películas: Uno de los westerns más emblemáticos de todos los tiempos reunió a dos leyendas absolutas del género
-[movies] Saltado noticia no apta para películas: Debutó hace 40 años en una de las peores películas de la historia. Nadie esperaba que acabara siendo la protagonista de la sitcom más vista de la televisión, ¿la reconoces?
-[movies] Saltado noticia no apta para películas: Hace 43 años, este joven actor dio sus primeros pasos en pantalla. Hoy es una de las estrellas más importantes del mundo del cine
 [movies] Saltado porque no es estreno 2026: "Lo único que dije fue: 'Yo no hago eso": Robin Williams se sintió engañado por Disney tras recibir un salario de solo 75.000 dólares por 'Aladdín' (2039)
 [movies] Saltado noticia no apta para películas: Está en Netflix, sólo dura hora y media, y es la clase de película de acción que Jason Statham ya no se atreve a hacer
-[movies] Saltado noticia no apta para películas: Es uno de sus mejores momentos en ‘La odisea’, pero Matt Damon se enteró por sus hijos que se había convertido en un meme
-[movies] Saltado noticia no apta para películas: “No me sentí a gusto con ello”: hace 31 años rodó una escena con un caballo mecánico y se arrepintió casi al instante
-[movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
-[movies] Saltado porque no es estreno 2026: Para ver esta noche: el notable 'remake' de una de las mejores películas de todos los tiempos estrenada hace 104 años (2024)
-[movies] Saltado noticia no apta para películas: Casi 30 años después, este actor sigue ganando dinero por una sola línea de diálogo en 'Titanic'
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
 [movies] Saltado noticia no apta para películas: El hijo de Michael Douglas que pasó siete años en la cárcel: "Mi padre me hacía repartir porros entre los invitados a sus fiestas"
+[movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado porque no es estreno 2026: El restaurante de la sierra madrileña que no consiguió salvar Chicote: cerró tres meses después de la emisión 'Pesadilla en la cocina' (2025)
+[movies] Saltado porque no es estreno 2026: Carlos Lozano fue el presentador estrella de los 2000, pero desapareció tres años: en 2026, por fin, ha tenido su "big surprise" (2000)
 [movies] Saltado porque no es estreno 2026: Así ha cambiado Chumlee, el mítico ayudante de 'La casa de empeños' que fue detenido por tenencia ilegal de armas y posesión de drogas (2009)
-[movies] Candidatos encontrados: 38 | Límite: 1
-[YouTube] No se encontró tráiler confiable para Rosa cuida de su madre desde que sufrió un derrame cerebral hace años: con 'Dog House' han encontrado el amor en una perrita rescatada
-[movies] Saltado porque no tiene tráiler confiable: Rosa cuida de su madre desde que sufrió un derrame cerebral hace años: con 'Dog House' han encontrado el amor en una perrita rescatada
+[movies] Candidatos encontrados: 43 | Límite: 1
+[YouTube] No se encontró tráiler confiable para "Me dieron sándwiches gratis": Cate Blanchett confiesa que "no pagaron a nadie" por hacer 'El Señor de los Anillos'
+[movies] Saltado porque no tiene tráiler confiable: "Me dieron sándwiches gratis": Cate Blanchett confiesa que "no pagaron a nadie" por hacer 'El Señor de los Anillos'
+[YouTube] No se encontró tráiler confiable para Anthony Loyd, reportero de guerra, sobre la película bélica más realista: "La recreación más precisa e inmersiva que Hollywood ha logrado"
+[movies] Saltado porque no tiene tráiler confiable: Anthony Loyd, reportero de guerra, sobre la película bélica más realista: "La recreación más precisa e inmersiva que Hollywood ha logrado"
+[YouTube] No se encontró tráiler confiable para Gary Oldman, sobre su actuación en ‘Harry Potter’: “Creo que mi trabajo es mediocre”
+[movies] Saltado porque no tiene tráiler confiable: Gary Oldman, sobre su actuación en ‘Harry Potter’: “Creo que mi trabajo es mediocre”
+[YouTube] No se encontró tráiler confiable para Hace 13 años, acudió a pedir consejo a “el rey de la comedia” y este le dijo que no dirigiera la película: no le hizo caso y ganó el Oscar
+[movies] Saltado porque no tiene tráiler confiable: Hace 13 años, acudió a pedir consejo a “el rey de la comedia” y este le dijo que no dirigiera la película: no le hizo caso y ganó el Oscar
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
