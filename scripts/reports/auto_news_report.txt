@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-23T20:36:10.006162+00:00
+Fecha UTC: 2026-08-24T01:55:32.859278+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: "Me dieron sándwiches gratis": Cate Blanchett confiesa que "no pagaron a nadie" por hacer 'El Señor de los Anillos'
@@ -12,11 +12,6 @@ Fecha UTC: 2026-08-23T20:36:10.006162+00:00
 [movies] Saltado porque no es estreno 2026: Carlos Lozano fue el presentador estrella de los 2000, pero desapareció tres años: en 2026, por fin, ha tenido su "big surprise" (2000)
 [movies] Saltado porque no es estreno 2026: Así ha cambiado Chumlee, el mítico ayudante de 'La casa de empeños' que fue detenido por tenencia ilegal de armas y posesión de drogas (2009)
 [movies] Candidatos encontrados: 43 | Límite: 1
-[duplicado] Saltado por tema parecido: El final y la post-créditos de 'Insidious: Fuera del más allá' dejan claro que no hay un final cercano para la franquicia ~= Insidious: Fuera del Más Allá llega para aterrorizar en el cine
-[YouTube] No se encontró tráiler confiable para Pausa 'Spider-Man 2' en el minuto 20 y 43 segundos y fíjate bien detrás de Peter Parker
-[movies] Saltado porque no tiene tráiler confiable: Pausa 'Spider-Man 2' en el minuto 20 y 43 segundos y fíjate bien detrás de Peter Parker
-[YouTube] No se encontró tráiler confiable para Solo hay un actor que haya salido en dos películas con 11 Óscars cada una, y su papel es mítico en ambas
-[movies] Saltado porque no tiene tráiler confiable: Solo hay un actor que haya salido en dos películas con 11 Óscars cada una, y su papel es mítico en ambas
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
