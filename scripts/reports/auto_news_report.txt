@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-24T01:55:32.859278+00:00
+Fecha UTC: 2026-08-24T04:58:34.729783+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: "Me dieron sándwiches gratis": Cate Blanchett confiesa que "no pagaron a nadie" por hacer 'El Señor de los Anillos'
@@ -8,10 +8,13 @@ Fecha UTC: 2026-08-24T01:55:32.859278+00:00
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
 [movies] Saltado noticia no apta para películas: El hijo de Michael Douglas que pasó siete años en la cárcel: "Mi padre me hacía repartir porros entre los invitados a sus fiestas"
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
-[movies] Saltado porque no es estreno 2026: El restaurante de la sierra madrileña que no consiguió salvar Chicote: cerró tres meses después de la emisión 'Pesadilla en la cocina' (2025)
+[movies] Saltado noticia no apta para películas: Josep Pedrerol aclara por qué cerró 'El chiringuito' en Atresmedia: "No pongo fin yo, lo pusieron ellos"
+[movies] Saltado noticia no apta para películas: TVE ha matado 'Ordena tu vida': su estrategia de emisión se ha cargado un formato con muchísimo potencial
+[movies] Saltado noticia no apta para películas: Primeras pistas sobre el 'Pasapalabra' de Mediaset: registran 8 nombres que podrían ser el título de su 'Rosco'
+[movies] Saltado noticia no apta para películas: La Fiscalía pide a Gustavo González, ex de 'Sálvame', 447 años de cárcel por descubrimiento y revelación de secretos de famosos
 [movies] Saltado porque no es estreno 2026: Carlos Lozano fue el presentador estrella de los 2000, pero desapareció tres años: en 2026, por fin, ha tenido su "big surprise" (2000)
 [movies] Saltado porque no es estreno 2026: Así ha cambiado Chumlee, el mítico ayudante de 'La casa de empeños' que fue detenido por tenencia ilegal de armas y posesión de drogas (2009)
-[movies] Candidatos encontrados: 43 | Límite: 1
+[movies] Candidatos encontrados: 40 | Límite: 1
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
