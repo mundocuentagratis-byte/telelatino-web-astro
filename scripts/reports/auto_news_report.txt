@@ -1,9 +1,10 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-24T04:58:34.729783+00:00
+Fecha UTC: 2026-08-24T09:01:15.373754+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
-[movies] Saltado noticia no apta para películas: "Me dieron sándwiches gratis": Cate Blanchett confiesa que "no pagaron a nadie" por hacer 'El Señor de los Anillos'
 [movies] Saltado porque no es estreno 2026: Anthony Loyd, reportero de guerra, sobre la película bélica más realista: "La recreación más precisa e inmersiva que Hollywood ha logrado" (2025)
+[movies] Saltado noticia no apta para películas: Durante años, 20th Century Fox modificó el logo del inicio según la película, pero es tan sutil que yo acabo de descubrirlo
+[movies] Saltado noticia no apta para películas: Si vas a ver 'El Motín' no es por su excelente trama, pero ni Jason Statham podría hacernos ignorar este agujero de guion
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
 [movies] Saltado noticia no apta para películas: El hijo de Michael Douglas que pasó siete años en la cárcel: "Mi padre me hacía repartir porros entre los invitados a sus fiestas"
@@ -14,7 +15,9 @@ Fecha UTC: 2026-08-24T04:58:34.729783+00:00
 [movies] Saltado noticia no apta para películas: La Fiscalía pide a Gustavo González, ex de 'Sálvame', 447 años de cárcel por descubrimiento y revelación de secretos de famosos
 [movies] Saltado porque no es estreno 2026: Carlos Lozano fue el presentador estrella de los 2000, pero desapareció tres años: en 2026, por fin, ha tenido su "big surprise" (2000)
 [movies] Saltado porque no es estreno 2026: Así ha cambiado Chumlee, el mítico ayudante de 'La casa de empeños' que fue detenido por tenencia ilegal de armas y posesión de drogas (2009)
-[movies] Candidatos encontrados: 40 | Límite: 1
+[movies] Candidatos encontrados: 39 | Límite: 1
+[movies] Saltado por tema bloqueado: Clint Eastwood no necesitó violencia explícita para firmar una joya que te da un puñetazo en el estómago
+[duplicado] Saltado por tema parecido: El director de 'Blade Runner' y 'Alien' vuelve, por fin, a la ciencia ficción con 'La constelación del Perro' ~= La constelación del perro
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
