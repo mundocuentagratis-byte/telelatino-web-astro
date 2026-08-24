@@ -1,10 +1,17 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-24T13:10:52.234633+00:00
+Fecha UTC: 2026-08-24T16:52:58.093776+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
+[movies] Saltado noticia no apta para películas: El director de 'Blade Runner' y 'Alien' vuelve, por fin, a la ciencia ficción con 'La constelación del Perro'
+[movies] Saltado noticia no apta para películas: Tiene más horas de 7 horas duración y está considerada una de las mejores películas de todos los tiempos: Martin Scorsese la celebra como una “experiencia real”
+[movies] Saltado noticia no apta para películas: Tenemos un regalo para los que se atrevan a ver 'Insidious: Fuera del más allá' y nos dejen su opinión
+[movies] Saltado noticia no apta para películas: Jamie Lee Curtis (67 años): "Gané un Oscar y vendí yogur que te hace ir al baño durante seis años"
 [movies] Saltado porque no es estreno 2026: La amenaza a 'Titanic' es real: otra película puede arrebatarle su puesto entre las más taquilleras en poco tiempo (2012)
 [movies] Saltado noticia no apta para películas: Últimos 2 días para ver en Netflix uno de los ‘thrillers’ infravalorados de Clint Eastwood que fracasó injustamente
-[movies] Saltado porque no es estreno 2026: Anthony Loyd, reportero de guerra, sobre la película bélica más realista: "La recreación más precisa e inmersiva que Hollywood ha logrado" (2025)
+[movies] Saltado noticia no apta para películas: La dábamos por muerta, pero la secuela de una de las mejores sagas de aventuras por fin está en marcha 19 años después
+[movies] Saltado noticia no apta para películas: Clint Eastwood no necesitó violencia explícita para firmar una joya que te da un puñetazo en el estómago
+[movies] Saltado noticia no apta para películas: Solo hay un actor que haya salido en dos películas con 11 Óscars cada una, y su papel es mítico en ambas
+[movies] Saltado noticia no apta para películas: "Me dieron sándwiches gratis": Cate Blanchett confiesa que "no pagaron a nadie" por hacer 'El Señor de los Anillos'
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
@@ -14,14 +21,7 @@ Fecha UTC: 2026-08-24T13:10:52.234633+00:00
 [movies] Saltado noticia no apta para películas: Primeras pistas sobre el 'Pasapalabra' de Mediaset: registran 8 nombres que podrían ser el título de su 'Rosco'
 [movies] Saltado noticia no apta para películas: La Fiscalía pide a Gustavo González, ex de 'Sálvame', 447 años de cárcel por descubrimiento y revelación de secretos de famosos
 [movies] Saltado porque no es estreno 2026: Carlos Lozano fue el presentador estrella de los 2000, pero desapareció tres años: en 2026, por fin, ha tenido su "big surprise" (2000)
-[movies] Candidatos encontrados: 40 | Límite: 1
-[YouTube] No se encontró tráiler confiable para Jamie Lee Curtis (67 años): "Gané un Oscar y vendí yogur que te hace ir al baño durante seis años"
-[movies] Saltado porque no tiene tráiler confiable: Jamie Lee Curtis (67 años): "Gané un Oscar y vendí yogur que te hace ir al baño durante seis años"
-[YouTube] No se encontró tráiler confiable para La dábamos por muerta, pero la secuela de una de las mejores sagas de aventuras por fin está en marcha 19 años después
-[movies] Saltado porque no tiene tráiler confiable: La dábamos por muerta, pero la secuela de una de las mejores sagas de aventuras por fin está en marcha 19 años después
-[YouTube] No se encontró tráiler confiable para Quién es Elena Godessart: la nueva colaboradora de 'Aruser@s' que ha sido "robada" de La 1 y ha sufrido una "novatada" en su primer día
-[movies] Saltado porque no tiene tráiler confiable: Quién es Elena Godessart: la nueva colaboradora de 'Aruser@s' que ha sido "robada" de La 1 y ha sufrido una "novatada" en su primer día
-[duplicado] Saltado por tema parecido: Tenemos un regalo para los que se atrevan a ver 'Insidious: Fuera del más allá' y nos dejen su opinión ~= Insidious: Fuera del Más Allá llega para aterrorizar en el cine
+[movies] Candidatos encontrados: 32 | Límite: 1
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
