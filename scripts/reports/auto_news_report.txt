@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-25T16:52:33.992921+00:00
+Fecha UTC: 2026-08-25T20:42:44.009428+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado porque no es estreno 2026: Hubiera cumplido 96 años hoy: una de las grandes leyendas del cine que decidió retirarse mucho tiempo antes tras el fracaso de su última película (2003)
@@ -20,9 +20,6 @@ Fecha UTC: 2026-08-25T16:52:33.992921+00:00
 [movies] Saltado noticia no apta para películas: La Fiscalía pide a Gustavo González, ex de 'Sálvame', 447 años de cárcel por descubrimiento y revelación de secretos de famosos
 [movies] Saltado porque no es estreno 2026: Carlos Lozano fue el presentador estrella de los 2000, pero desapareció tres años: en 2026, por fin, ha tenido su "big surprise" (2000)
 [movies] Candidatos encontrados: 38 | Límite: 1
-[YouTube] No se encontró tráiler confiable para Clint Eastwood fue reclutado para la guerra de Corea pero terminó cayéndose del avión y nadando entre tiburones: "no recuerdo cuánto tardé en salir"
-[movies] Saltado porque no tiene tráiler confiable: Clint Eastwood fue reclutado para la guerra de Corea pero terminó cayéndose del avión y nadando entre tiburones: "no recuerdo cuánto tardé en salir"
-[duplicado] Saltado por tema parecido: Ridley Scott advierte de que el mundo posapocalíptico de 'La constelación del perro' no está tan lejos: "Ya está ocurriendo" ~= La constelación del perro
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
