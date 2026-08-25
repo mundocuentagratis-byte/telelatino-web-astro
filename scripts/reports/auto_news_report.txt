@@ -1,17 +1,15 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-25T08:56:30.553266+00:00
+Fecha UTC: 2026-08-25T13:08:14.069809+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
-[movies] Saltado noticia no apta para películas: El director de 'Blade Runner' y 'Alien' vuelve, por fin, a la ciencia ficción con 'La constelación del Perro'
+[movies] Saltado porque no es estreno 2026: Firmó un contrato con Marvel en 2019 y creyó que tenía 10 años de trabajo asegurados, pero su debut fue un fracaso y necesitó terapia (2025)
+[movies] Saltado noticia no apta para películas: Clint Eastwood fue reclutado para la guerra de Corea pero terminó cayéndose del avión y nadando entre tiburones: "no recuerdo cuánto tardé en salir"
 [movies] Saltado noticia no apta para películas: Esta noche en Netflix: No podrás dejar de ver este 'thriller' protagonizado por Denzel Washington en uno de sus mejores papeles
 [movies] Saltado porque no es estreno 2026: "La película es genial": James Cameron defiende su fracaso de ciencia ficción de 2019 (2019)
 [movies] Saltado noticia no apta para películas: Tiene más horas de 7 horas duración y está considerada una de las mejores películas de todos los tiempos: Martin Scorsese la celebra como una “experiencia real”
-[movies] Saltado noticia no apta para películas: Tenemos un regalo para los que se atrevan a ver 'Insidious: Fuera del más allá' y nos dejen su opinión
 [movies] Saltado noticia no apta para películas: Jamie Lee Curtis (67 años): "Gané un Oscar y vendí yogur que te hace ir al baño durante seis años"
 [movies] Saltado porque no es estreno 2026: La amenaza a 'Titanic' es real: otra película puede arrebatarle su puesto entre las más taquilleras en poco tiempo (2012)
 [movies] Saltado noticia no apta para películas: Últimos 2 días para ver en Netflix uno de los ‘thrillers’ infravalorados de Clint Eastwood que fracasó injustamente
-[movies] Saltado noticia no apta para películas: La dábamos por muerta, pero la secuela de una de las mejores sagas de aventuras por fin está en marcha 19 años después
-[movies] Saltado noticia no apta para películas: El final y la post-créditos de 'Insidious: Fuera del más allá' dejan claro que no hay un final cercano para la franquicia
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
@@ -21,7 +19,17 @@ Fecha UTC: 2026-08-25T08:56:30.553266+00:00
 [movies] Saltado noticia no apta para películas: Primeras pistas sobre el 'Pasapalabra' de Mediaset: registran 8 nombres que podrían ser el título de su 'Rosco'
 [movies] Saltado noticia no apta para películas: La Fiscalía pide a Gustavo González, ex de 'Sálvame', 447 años de cárcel por descubrimiento y revelación de secretos de famosos
 [movies] Saltado porque no es estreno 2026: Carlos Lozano fue el presentador estrella de los 2000, pero desapareció tres años: en 2026, por fin, ha tenido su "big surprise" (2000)
-[movies] Candidatos encontrados: 33 | Límite: 1
+[movies] Candidatos encontrados: 36 | Límite: 1
+[YouTube] No se encontró tráiler confiable para Es una de las mejores películas de acción de todos los tiempos: 11 años después, Charlize Theron comparte un recuerdo memorable del rodaje
+[movies] Saltado porque no tiene tráiler confiable: Es una de las mejores películas de acción de todos los tiempos: 11 años después, Charlize Theron comparte un recuerdo memorable del rodaje
+[YouTube] No se encontró tráiler confiable para Esta noche, disfruta de una de las mejores películas de fantasía de los 80: Sean Connery en un duelo con el Minotauro
+[movies] Saltado porque no tiene tráiler confiable: Esta noche, disfruta de una de las mejores películas de fantasía de los 80: Sean Connery en un duelo con el Minotauro
+[YouTube] No se encontró tráiler confiable para Hace 23 años Matthew McConaughey hizo una película que le sigue dando mucho dinero. Ahora se ha confirmado su secuela
+[movies] Saltado porque no tiene tráiler confiable: Hace 23 años Matthew McConaughey hizo una película que le sigue dando mucho dinero. Ahora se ha confirmado su secuela
+[YouTube] No se encontró tráiler confiable para Jaime Lorente: "Si dices que eres creyente, te posicionan en un lugar político. Pero yo creo que la fe va un poquito más allá"
+[movies] Saltado porque no tiene tráiler confiable: Jaime Lorente: "Si dices que eres creyente, te posicionan en un lugar político. Pero yo creo que la fe va un poquito más allá"
+[YouTube] No se encontró tráiler confiable para La salida de Pedrerol de laSexta sigue teniendo consecuencias: se van dos periodistas deportivas con años de experiencia
+[movies] Saltado porque no tiene tráiler confiable: La salida de Pedrerol de laSexta sigue teniendo consecuencias: se van dos periodistas deportivas con años de experiencia
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
