@@ -1,15 +1,20 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-26T08:59:11.775275+00:00
+Fecha UTC: 2026-08-26T13:13:29.082689+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
+[movies] Saltado noticia no apta para películas: El director de 'Blade Runner' y 'Alien' vuelve, por fin, a la ciencia ficción con 'La constelación del Perro'
+[movies] Saltado noticia no apta para películas: Dolly Parton (†80). "Prefiero desgastarme que oxidarme, porque creo que mucha gente, cuando se retira, empieza a oxidarse..."
+[movies] Saltado porque no es estreno 2026: 9 años después esta demoledora película distópica sigue siendo de la mejor ciencia ficción que hemos visto en Netflix (2017)
+[movies] Saltado noticia no apta para películas: Javier Bardem: "No he estado nunca en una situación donde he tenido que abandonar un set, pero algún abuso de poder se ha creado"
+[movies] Saltado noticia no apta para películas: "Tomar la decisión fue difícil": Hace 28 años, Ewan McGregor dudó mucho antes de aceptar la mayor saga de ciencia ficción de todos los tiempos
+[movies] Saltado porque no es estreno 2026: Durante siete años, a 'Star Wars' le ha faltado algo que ya está implícito en su nombre: se supone que eso finalmente cambiará en 2027 (2027)
+[movies] Saltado porque no es estreno 2026: Éxito de taquilla: 'Obsession' supera a Pixar y logra algo que ninguna película ha conseguido desde 2020 (2020)
+[movies] Saltado noticia no apta para películas: Ridley Scott advierte de que el mundo posapocalíptico de 'La constelación del perro' no está tan lejos: "Ya está ocurriendo"
 [movies] Saltado porque no es estreno 2026: Hubiera cumplido 96 años hoy: una de las grandes leyendas del cine que decidió retirarse mucho tiempo antes tras el fracaso de su última película (2003)
 [movies] Saltado porque no es estreno 2026: "Yo era su pequeño Hansel y ella me engordaba para echarme al fuego": Chris Pratt atribuyó a su relación con Anna Faris parte de su aumento de peso (2013)
 [movies] Saltado porque no es estreno 2026: Firmó un contrato con Marvel en 2019 y creyó que tenía 10 años de trabajo asegurados, pero su debut fue un fracaso y necesitó terapia (2025)
-[movies] Saltado noticia no apta para películas: Esta noche en Netflix: No podrás dejar de ver este 'thriller' protagonizado por Denzel Washington en uno de sus mejores papeles
-[movies] Saltado porque no es estreno 2026: "La película es genial": James Cameron defiende su fracaso de ciencia ficción de 2019 (2019)
-[movies] Saltado noticia no apta para películas: Tiene más horas de 7 horas duración y está considerada una de las mejores películas de todos los tiempos: Martin Scorsese la celebra como una “experiencia real”
-[movies] Saltado noticia no apta para películas: Tenemos un regalo para los que se atrevan a ver 'Insidious: Fuera del más allá' y nos dejen su opinión
-[movies] Saltado porque no es estreno 2026: La amenaza a 'Titanic' es real: otra película puede arrebatarle su puesto entre las más taquilleras en poco tiempo (2012)
+[movies] Saltado noticia no apta para películas: Jaime Lorente: "Si dices que eres creyente, te posicionan en un lugar político. Pero yo creo que la fe va un poquito más allá"
+[movies] Saltado noticia no apta para películas: Es una de las mejores películas de acción de todos los tiempos: 11 años después, Charlize Theron comparte un recuerdo memorable del rodaje
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
@@ -18,8 +23,15 @@ Fecha UTC: 2026-08-26T08:59:11.775275+00:00
 [movies] Saltado noticia no apta para películas: Josep Pedrerol aclara por qué cerró 'El chiringuito' en Atresmedia: "No pongo fin yo, lo pusieron ellos"
 [movies] Saltado noticia no apta para películas: Primeras pistas sobre el 'Pasapalabra' de Mediaset: registran 8 nombres que podrían ser el título de su 'Rosco'
 [movies] Saltado porque no es estreno 2026: El 'food truck' de Barcelona que iba "como un cohete" tras el paso de 'Pesadilla en la cocina' y acabó cerrando: la culpa no fue de Chicote (2024)
+[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' confirma a Rosa Benito como su primera concursante oficial: regresa para ver si puede batir su propio récord
+[movies] Saltado noticia no apta para películas: La salida de Pedrerol de laSexta sigue teniendo consecuencias: se van dos periodistas deportivas con años de experiencia
+[movies] Saltado noticia no apta para películas: Quién es Elena Godessart: la nueva colaboradora de 'Aruser@s' que ha sido "robada" de La 1 y ha sufrido una "novatada" en su primer día
 [movies] Saltado porque no es estreno 2026: Carlos Lozano fue el presentador estrella de los 2000, pero desapareció tres años: en 2026, por fin, ha tenido su "big surprise" (2000)
-[movies] Candidatos encontrados: 41 | Límite: 1
+[movies] Saltado noticia no apta para películas: Rosa cuida de su madre desde que sufrió un derrame cerebral hace años: con 'Dog House' han encontrado el amor en una perrita rescatada
+[movies] Saltado noticia no apta para películas: Javi Hoyos (34 años): "Un influencer de primera línea me amenazó con que sabía dónde vivía si no borraba su vídeo"
+[movies] Candidatos encontrados: 30 | Límite: 1
+[YouTube] No se encontró tráiler confiable para Luis Tosar admite que rechazó 'Juego de Tronos' porque no le interesaba: "Si me llamase Clint Eastwood, igual sí"
+[movies] Saltado porque no tiene tráiler confiable: Luis Tosar admite que rechazó 'Juego de Tronos' porque no le interesaba: "Si me llamase Clint Eastwood, igual sí"
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
