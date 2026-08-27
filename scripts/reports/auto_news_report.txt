@@ -1,13 +1,33 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-27T09:36:35.716128+00:00
+Fecha UTC: 2026-08-27T22:14:09.617663+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
+[movies] Saltado porque no es estreno 2026: Cronos (2025)
+[movies] Saltado porque no es estreno 2026: En el corazón de la bestia (2025)
+[movies] Saltado porque no es estreno 2026: Coyote vs. ACME (2025)
+[movies] Saltado porque no es estreno 2026: Oasis: Don't Look Back In Anger (2025)
+[movies] Saltado porque no es estreno 2026: En la zona gris (2025)
+[movies] Saltado porque no es estreno 2026: La bola negra (2025)
+[movies] Saltado porque no es estreno 2026: La otra madre (2025)
+[movies] Saltado porque no es estreno 2026: El hombre que desafió al rey (2025)
+[movies] Saltado porque no es estreno 2026: Jumanji: Mundo abierto (2025)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
+[movies] Saltado porque no es estreno 2026: La Odisea (2025)
+[movies] Saltado porque no es estreno 2026: La Patrulla Canina: La Dino película (2025)
+[movies] Saltado porque no es estreno 2026: El final de Oak Street (2025)
+[movies] Saltado noticia no apta para películas: El director de 'Blade Runner' y 'Alien' vuelve, por fin, a la ciencia ficción con 'La constelación del Perro'
+[movies] Saltado porque no es estreno 2026: Más de 1 millón de espectadores en cines: la película con la que Dwayne Johnson estaba entusiasmado y terminó siendo uno de los fracasos más caros de 2022 (2022)
+[movies] Saltado noticia no apta para películas: James Cameron logró ahorrar un millón de dólares con una sencilla decisión en 'Titanic': solo contratar actores bajitos
+[movies] Saltado noticia no apta para películas: 'El ser querido' desarma a Álex de la Iglesia: "Me implica personalmente hasta el punto de pensar que se han basado en mi propia vida"
+[movies] Saltado porque no es estreno 2026: 89 años, más de 50 películas, 2 Oscar: hace siete años una de las estrellas más admiradas de Hollywood se retiró por todo lo alto antes de fallecer en 2025 (2025)
+[movies] Saltado porque no es estreno 2026: "Las IA pueden descontrolarse. Y si lo hacen, es como una bomba": Ridley Scott prepara una nueva 'Alien' sobre el personaje de Michael Fassbender (2023)
+[movies] Saltado noticia no apta para películas: 'Harry Potter': Rupert Grint volverá a interpretar a Ron Weasley 16 años después
+[movies] Saltado noticia no apta para películas: "La hice 25 años demasiado pronto": Ridley Scott está seguro de que su fracaso en el género fantástico fue un presagio de 'El Señor de los Anillos' y 'Harry Potter'
+[movies] Saltado noticia no apta para películas: Esta actriz no tiene ningún Oscar, pero es tan buena que dejó sin palabras a Meryl Streep: "Mejor me retiro. No sé cómo lo hace"
 [movies] Saltado noticia no apta para películas: Tim Curry, mítico actor de 'It' y 'The Rocky Horror Picture Show', muere a los 80 años
 [movies] Saltado noticia no apta para películas: 'Jumanji: Mundo abierto': Fecha de estreno, protagonistas, trama y todo lo que sabemos de la cuarta película de la saga de mil millones de dólares
-[movies] Saltado porque no es estreno 2026: 9 años después esta demoledora película distópica sigue siendo de la mejor ciencia ficción que hemos visto en Netflix (2017)
-[movies] Saltado porque no es estreno 2026: Durante siete años, a 'Star Wars' le ha faltado algo que ya está implícito en su nombre: se supone que eso finalmente cambiará en 2027 (2027)
-[movies] Saltado porque no es estreno 2026: Éxito de taquilla: 'Obsession' supera a Pixar y logra algo que ninguna película ha conseguido desde 2020 (2020)
-[movies] Saltado porque no es estreno 2026: Hubiera cumplido 96 años hoy: una de las grandes leyendas del cine que decidió retirarse mucho tiempo antes tras el fracaso de su última película (2003)
+[movies] Saltado noticia no apta para películas: 'Prácticamente magia 2': fecha de estreno, historia, nuevos personajes y todo lo que sabemos de la secuela de fantasía con Sandra Bullock y Nicole Kidman
+[movies] Saltado noticia no apta para películas: Hemos visto 'La constelación del perro' y nos hemos encontrado con el Ridley Scott más amable, humano y realista
+[movies] Saltado noticia no apta para películas: Luis Tosar admite que rechazó 'Juego de Tronos' porque no le interesaba: "Si me llamase Clint Eastwood, igual sí"
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
@@ -16,20 +36,12 @@ Fecha UTC: 2026-08-27T09:36:35.716128+00:00
 [movies] Saltado noticia no apta para películas: Josep Pedrerol aclara por qué cerró 'El chiringuito' en Atresmedia: "No pongo fin yo, lo pusieron ellos"
 [movies] Saltado porque no es estreno 2026: El 'food truck' de Barcelona que iba "como un cohete" tras el paso de 'Pesadilla en la cocina' y acabó cerrando: la culpa no fue de Chicote (2024)
 [movies] Saltado noticia no apta para películas: Primeras pistas sobre el 'Pasapalabra' de Mediaset: registran 8 nombres que podrían ser el título de su 'Rosco'
+[movies] Saltado noticia no apta para películas: Más de 30 años después de su estreno, TVE rescata el espíritu de 'Bricomanía' con un nuevo programa presentado por Íñigo Segurola
+[movies] Saltado noticia no apta para películas: Antoni Daimiel, mítico deportista deportivo de Movistar Plus, abandona la cadena por sorpresa
 [movies] Saltado porque no es estreno 2026: Quién era Alejandro Ponsoda: el alcalde de Polop que fue asesinado y, 19 años después, seguimos sin saber quién fue el culpable (2009)
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' confirma a Rosa Benito como su primera concursante oficial: regresa para ver si puede batir su propio récord
 [movies] Saltado noticia no apta para películas: La salida de Pedrerol de laSexta sigue teniendo consecuencias: se van dos periodistas deportivas con años de experiencia
-[movies] Saltado noticia no apta para películas: Quién es Elena Godessart: la nueva colaboradora de 'Aruser@s' que ha sido "robada" de La 1 y ha sufrido una "novatada" en su primer día
-[movies] Saltado porque no es estreno 2026: Carlos Lozano fue el presentador estrella de los 2000, pero desapareció tres años: en 2026, por fin, ha tenido su "big surprise" (2000)
-[movies] Saltado noticia no apta para películas: Rosa cuida de su madre desde que sufrió un derrame cerebral hace años: con 'Dog House' han encontrado el amor en una perrita rescatada
-[movies] Candidatos encontrados: 38 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "La hice 25 años demasiado pronto": Ridley Scott está seguro de que su fracaso en el género fantástico fue un presagio de 'El Señor de los Anillos' y 'Harry Potter'
-[movies] Saltado porque no tiene tráiler confiable: "La hice 25 años demasiado pronto": Ridley Scott está seguro de que su fracaso en el género fantástico fue un presagio de 'El Señor de los Anillos' y 'Harry Potter'
-[YouTube] No se encontró tráiler confiable para 'Harry Potter': Rupert Grint volverá a interpretar a Ron Weasley 16 años después
-[movies] Saltado porque no tiene tráiler confiable: 'Harry Potter': Rupert Grint volverá a interpretar a Ron Weasley 16 años después
-[IA] Probando proveedor mistral: 'Prácticamente magia 2': fecha de estreno, historia, nuevos personajes y todo lo
-[IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/practicamente-magia-2-estreno-trama-y-regreso-de-bullock-y-kidman-2026-08-27-0fe5db.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[movies] Candidatos encontrados: 16 | Límite: 1
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
