@@ -1,11 +1,13 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-28T11:18:29.498882+00:00
+Fecha UTC: 2026-08-28T22:15:25.885495+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
-[movies] Saltado noticia no apta para películas: Tom Hanks, sobre su infancia: "para cuando tenía siete años ya había vivido en ocho hogares diferentes"
-[movies] Saltado noticia no apta para películas: Andrew Garfield: después de Spider-Man, va a interpretar a otro héroe legendario y nadie se lo esperaba
+[movies] Saltado noticia no apta para películas: Solo un mes para ver a un Tom Cruise irreconocible en una de las películas más esperadas del año
+[movies] Saltado noticia no apta para películas: Bradley Cooper, el amigo que ayudó a Brad Pitt a superar su alcoholismo tras vivir su propio infierno con la cocaína: "Estuve muy perdido"
 [movies] Saltado porque no es estreno 2026: "Ya no había ningún reto para mí como actor": Clint Eastwood rechazó uno de los mayores westerns de nuestra historia (2024)
 [movies] Saltado porque no es estreno 2026: Más de 1 millón de espectadores en cines: la película con la que Dwayne Johnson estaba entusiasmado y terminó siendo uno de los fracasos más caros de 2022 (2022)
+[movies] Saltado noticia no apta para películas: James Cameron logró ahorrar un millón de dólares con una sencilla decisión en 'Titanic': solo contratar actores bajitos
+[movies] Saltado noticia no apta para películas: 'El ser querido' desarma a Álex de la Iglesia: "Me implica personalmente hasta el punto de pensar que se han basado en mi propia vida"
 [movies] Saltado porque no es estreno 2026: 89 años, más de 50 películas, 2 Oscar: hace siete años una de las estrellas más admiradas de Hollywood se retiró por todo lo alto antes de fallecer en 2025 (2025)
 [movies] Saltado porque no es estreno 2026: "Las IA pueden descontrolarse. Y si lo hacen, es como una bomba": Ridley Scott prepara una nueva 'Alien' sobre el personaje de Michael Fassbender (2023)
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
@@ -20,10 +22,16 @@ Fecha UTC: 2026-08-28T11:18:29.498882+00:00
 [movies] Saltado porque no es estreno 2026: Quién era Alejandro Ponsoda: el alcalde de Polop que fue asesinado y, 19 años después, seguimos sin saber quién fue el culpable (2009)
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' confirma a Rosa Benito como su primera concursante oficial: regresa para ver si puede batir su propio récord
 [movies] Saltado noticia no apta para películas: La salida de Pedrerol de laSexta sigue teniendo consecuencias: se van dos periodistas deportivas con años de experiencia
-[movies] Candidatos encontrados: 29 | Límite: 1
-[IA] Probando proveedor mistral: Anoche conquisté Tebas
+[movies] Candidatos encontrados: 27 | Límite: 1
+[IA] Probando proveedor gemini: Erupcja
+[IA] gemini falló (error): Expecting ',' delimiter: line 5 column 3 (char 5543)
+[IA] Probando proveedor groq: Erupcja
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: Erupcja
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: Erupcja
 [IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/anoche-conquiste-tebas-un-drama-intimo-sobre-amistad-y-secretos-2026-08-28-cf19eb.md
+[OK] Publicado: src/content/blog/erupcja-un-drama-romantico-atrapado-en-varsovia-tras-una-erupcion-volcanica-2026-08-28-d33f62.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
