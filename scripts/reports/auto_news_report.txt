@@ -1,47 +1,29 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-27T22:14:09.617663+00:00
+Fecha UTC: 2026-08-28T11:18:29.498882+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
-[movies] Saltado porque no es estreno 2026: Cronos (2025)
-[movies] Saltado porque no es estreno 2026: En el corazón de la bestia (2025)
-[movies] Saltado porque no es estreno 2026: Coyote vs. ACME (2025)
-[movies] Saltado porque no es estreno 2026: Oasis: Don't Look Back In Anger (2025)
-[movies] Saltado porque no es estreno 2026: En la zona gris (2025)
-[movies] Saltado porque no es estreno 2026: La bola negra (2025)
-[movies] Saltado porque no es estreno 2026: La otra madre (2025)
-[movies] Saltado porque no es estreno 2026: El hombre que desafió al rey (2025)
-[movies] Saltado porque no es estreno 2026: Jumanji: Mundo abierto (2025)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
-[movies] Saltado porque no es estreno 2026: La Odisea (2025)
-[movies] Saltado porque no es estreno 2026: La Patrulla Canina: La Dino película (2025)
-[movies] Saltado porque no es estreno 2026: El final de Oak Street (2025)
-[movies] Saltado noticia no apta para películas: El director de 'Blade Runner' y 'Alien' vuelve, por fin, a la ciencia ficción con 'La constelación del Perro'
+[movies] Saltado noticia no apta para películas: Tom Hanks, sobre su infancia: "para cuando tenía siete años ya había vivido en ocho hogares diferentes"
+[movies] Saltado noticia no apta para películas: Andrew Garfield: después de Spider-Man, va a interpretar a otro héroe legendario y nadie se lo esperaba
+[movies] Saltado porque no es estreno 2026: "Ya no había ningún reto para mí como actor": Clint Eastwood rechazó uno de los mayores westerns de nuestra historia (2024)
 [movies] Saltado porque no es estreno 2026: Más de 1 millón de espectadores en cines: la película con la que Dwayne Johnson estaba entusiasmado y terminó siendo uno de los fracasos más caros de 2022 (2022)
-[movies] Saltado noticia no apta para películas: James Cameron logró ahorrar un millón de dólares con una sencilla decisión en 'Titanic': solo contratar actores bajitos
-[movies] Saltado noticia no apta para películas: 'El ser querido' desarma a Álex de la Iglesia: "Me implica personalmente hasta el punto de pensar que se han basado en mi propia vida"
 [movies] Saltado porque no es estreno 2026: 89 años, más de 50 películas, 2 Oscar: hace siete años una de las estrellas más admiradas de Hollywood se retiró por todo lo alto antes de fallecer en 2025 (2025)
 [movies] Saltado porque no es estreno 2026: "Las IA pueden descontrolarse. Y si lo hacen, es como una bomba": Ridley Scott prepara una nueva 'Alien' sobre el personaje de Michael Fassbender (2023)
-[movies] Saltado noticia no apta para películas: 'Harry Potter': Rupert Grint volverá a interpretar a Ron Weasley 16 años después
-[movies] Saltado noticia no apta para películas: "La hice 25 años demasiado pronto": Ridley Scott está seguro de que su fracaso en el género fantástico fue un presagio de 'El Señor de los Anillos' y 'Harry Potter'
-[movies] Saltado noticia no apta para películas: Esta actriz no tiene ningún Oscar, pero es tan buena que dejó sin palabras a Meryl Streep: "Mejor me retiro. No sé cómo lo hace"
-[movies] Saltado noticia no apta para películas: Tim Curry, mítico actor de 'It' y 'The Rocky Horror Picture Show', muere a los 80 años
-[movies] Saltado noticia no apta para películas: 'Jumanji: Mundo abierto': Fecha de estreno, protagonistas, trama y todo lo que sabemos de la cuarta película de la saga de mil millones de dólares
-[movies] Saltado noticia no apta para películas: 'Prácticamente magia 2': fecha de estreno, historia, nuevos personajes y todo lo que sabemos de la secuela de fantasía con Sandra Bullock y Nicole Kidman
-[movies] Saltado noticia no apta para películas: Hemos visto 'La constelación del perro' y nos hemos encontrado con el Ridley Scott más amable, humano y realista
-[movies] Saltado noticia no apta para películas: Luis Tosar admite que rechazó 'Juego de Tronos' porque no le interesaba: "Si me llamase Clint Eastwood, igual sí"
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
 [movies] Saltado noticia no apta para películas: El hijo de Michael Douglas que pasó siete años en la cárcel: "Mi padre me hacía repartir porros entre los invitados a sus fiestas"
-[movies] Saltado noticia no apta para películas: TVE ha matado 'Ordena tu vida': su estrategia de emisión se ha cargado un formato con muchísimo potencial
-[movies] Saltado noticia no apta para películas: Josep Pedrerol aclara por qué cerró 'El chiringuito' en Atresmedia: "No pongo fin yo, lo pusieron ellos"
+[movies] Saltado porque no es estreno 2026: Así ha cambiado Chumlee, el mítico ayudante de 'La casa de empeños' que fue detenido por tenencia ilegal de armas y posesión de drogas (2009)
 [movies] Saltado porque no es estreno 2026: El 'food truck' de Barcelona que iba "como un cohete" tras el paso de 'Pesadilla en la cocina' y acabó cerrando: la culpa no fue de Chicote (2024)
-[movies] Saltado noticia no apta para películas: Primeras pistas sobre el 'Pasapalabra' de Mediaset: registran 8 nombres que podrían ser el título de su 'Rosco'
+[movies] Saltado noticia no apta para películas: Samantha Vallejo-Nágera encuentra trabajo fuera de RTVE tras despedirse de 'MasterChef'
 [movies] Saltado noticia no apta para películas: Más de 30 años después de su estreno, TVE rescata el espíritu de 'Bricomanía' con un nuevo programa presentado por Íñigo Segurola
-[movies] Saltado noticia no apta para películas: Antoni Daimiel, mítico deportista deportivo de Movistar Plus, abandona la cadena por sorpresa
+[movies] Saltado noticia no apta para películas: Antoni Daimiel, mítico periodista deportivo de Movistar Plus, abandona la cadena por sorpresa
 [movies] Saltado porque no es estreno 2026: Quién era Alejandro Ponsoda: el alcalde de Polop que fue asesinado y, 19 años después, seguimos sin saber quién fue el culpable (2009)
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' confirma a Rosa Benito como su primera concursante oficial: regresa para ver si puede batir su propio récord
 [movies] Saltado noticia no apta para películas: La salida de Pedrerol de laSexta sigue teniendo consecuencias: se van dos periodistas deportivas con años de experiencia
-[movies] Candidatos encontrados: 16 | Límite: 1
-[movies] Publicados: 0
-Total películas publicadas: 0
+[movies] Candidatos encontrados: 29 | Límite: 1
+[IA] Probando proveedor mistral: Anoche conquisté Tebas
+[IA] Artículo generado con mistral
+[OK] Publicado: src/content/blog/anoche-conquiste-tebas-un-drama-intimo-sobre-amistad-y-secretos-2026-08-28-cf19eb.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
