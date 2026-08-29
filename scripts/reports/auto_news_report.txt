@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-29T19:23:45.521047+00:00
+Fecha UTC: 2026-08-29T22:38:43.707753+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado porque no es estreno 2026: No entendí el título de esta película hasta el final y entonces todo tuvo sentido (2019)
@@ -19,13 +19,11 @@ Fecha UTC: 2026-08-29T19:23:45.521047+00:00
 [movies] Saltado noticia no apta para películas: Más de 30 años después de su estreno, TVE rescata el espíritu de 'Bricomanía' con un nuevo programa presentado por Íñigo Segurola
 [movies] Saltado noticia no apta para películas: Antoni Daimiel, mítico periodista deportivo de Movistar Plus, abandona la cadena por sorpresa
 [movies] Candidatos encontrados: 30 | Límite: 1
-[YouTube] No se encontró tráiler confiable para Es una de las mejores películas épicas de Ridley Scott y, lejos de lo esperado, dura poco más de hora y media
-[movies] Saltado porque no tiene tráiler confiable: Es una de las mejores películas épicas de Ridley Scott y, lejos de lo esperado, dura poco más de hora y media
-[IA] Probando proveedor cohere: Hace 19 años, Brad Pitt se fue a la India a rodar uno de sus clásicos más querid
-[IA] cohere falló (error): Cohere error 404: {"id":"38ed46cb-d642-4f2c-811c-6ed4dc22db2d","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Hace 19 años, Brad Pitt se fue a la India a rodar uno de sus clásicos más querid
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/brad-pitt-en-la-india-el-rodaje-que-lo-impacto-en-un-clasico-inolvidable-2026-08-29-5a4102.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[YouTube] No se encontró tráiler confiable para Robert De Niro aún lamenta este olvidable 'thriller' con Al Pacino: "Ojalá estuviesen aquí por una película de la que nos sentimos orgullosos"
+[movies] Saltado porque no tiene tráiler confiable: Robert De Niro aún lamenta este olvidable 'thriller' con Al Pacino: "Ojalá estuviesen aquí por una película de la que nos sentimos orgullosos"
+[YouTube] No se encontró tráiler confiable para Solo un mes para ver a un Tom Cruise irreconocible en una de las películas más esperadas del año
+[movies] Saltado porque no tiene tráiler confiable: Solo un mes para ver a un Tom Cruise irreconocible en una de las películas más esperadas del año
+[duplicado] Saltado por tema parecido: Toda la trama de 'La constelación del perro' se basa en una realidad falsa. La película de Ridley Scott no debería suceder de ninguna de las maneras ~= La constelación del perro
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
