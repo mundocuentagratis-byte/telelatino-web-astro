@@ -1,12 +1,15 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-29T07:00:35.672811+00:00
+Fecha UTC: 2026-08-29T13:49:15.900395+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
+[movies] Saltado noticia no apta para películas: El director de 'Blade Runner' y 'Alien' vuelve, por fin, a la ciencia ficción con 'La constelación del Perro'
+[movies] Saltado noticia no apta para películas: El histórico castillo a una hora de Madrid que sirvió de molde para el primer gran clásico de Disney
+[movies] Saltado noticia no apta para películas: Hace 19 años, Brad Pitt se fue a la India a rodar uno de sus clásicos más queridos y quedó impactado: “Nunca había visto nada igual”
+[movies] Saltado noticia no apta para películas: Es una de las mejores películas épicas de Ridley Scott y, lejos de lo esperado, dura poco más de hora y media
+[movies] Saltado noticia no apta para películas: "Steven pidió que la despidieran": la frase que Spielberg no pudo pasar por alto a una de las protagonistas de una de sus sagas más lucrativas
 [movies] Saltado noticia no apta para películas: Robert De Niro aún lamenta este olvidable 'thriller' con Al Pacino: "Ojalá estuviesen aquí por una película de la que nos sentimos orgullosos"
 [movies] Saltado noticia no apta para películas: Solo un mes para ver a un Tom Cruise irreconocible en una de las películas más esperadas del año
-[movies] Saltado porque no es estreno 2026: "Ya no había ningún reto para mí como actor": Clint Eastwood rechazó uno de los mayores westerns de nuestra historia (2024)
-[movies] Saltado porque no es estreno 2026: Más de 1 millón de espectadores en cines: la película con la que Dwayne Johnson estaba entusiasmado y terminó siendo uno de los fracasos más caros de 2022 (2022)
-[movies] Saltado porque no es estreno 2026: 89 años, más de 50 películas, 2 Oscar: hace siete años una de las estrellas más admiradas de Hollywood se retiró por todo lo alto antes de fallecer en 2025 (2025)
+[movies] Saltado noticia no apta para películas: Bradley Cooper, el amigo que ayudó a Brad Pitt a superar su alcoholismo tras vivir su propio infierno con la cocaína: "Estuve muy perdido"
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
@@ -15,21 +18,22 @@ Fecha UTC: 2026-08-29T07:00:35.672811+00:00
 [movies] Saltado porque no es estreno 2026: El 'food truck' de Barcelona que iba "como un cohete" tras el paso de 'Pesadilla en la cocina' y acabó cerrando: la culpa no fue de Chicote (2024)
 [movies] Saltado porque no es estreno 2026: Quién era Alejandro Ponsoda: el alcalde de Polop que fue asesinado y, 19 años después, seguimos sin saber quién fue el culpable (2009)
 [movies] Saltado porque no es estreno 2026: El restaurante alicantino que 'Pesadilla en la cocina' no consiguió salvar: vivió un doble traspaso antes de la emisión del programa (2024)
+[movies] Saltado porque no es estreno 2026: Los concursos vuelven a estar de moda: Antena 3 prepara la adaptación de un célebre formato donde el objetivo es ser "el peor" (2020)
 [movies] Saltado noticia no apta para películas: La concursante que duró dos horas en 'Gran Hermano', pero le pesó el resto de su vida: "No tengo donde caerme muerta"
 [movies] Saltado noticia no apta para películas: Samantha Vallejo-Nágera encuentra trabajo fuera de RTVE tras despedirse de 'MasterChef'
 [movies] Saltado noticia no apta para películas: Más de 30 años después de su estreno, TVE rescata el espíritu de 'Bricomanía' con un nuevo programa presentado por Íñigo Segurola
 [movies] Saltado noticia no apta para películas: Antoni Daimiel, mítico periodista deportivo de Movistar Plus, abandona la cadena por sorpresa
-[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' confirma a Rosa Benito como su primera concursante oficial: regresa para ver si puede batir su propio récord
-[movies] Candidatos encontrados: 28 | Límite: 1
-[YouTube] No se encontró tráiler confiable para La superviviente. El 11S fue solo el principio
-[movies] Saltado porque no tiene tráiler confiable: La superviviente. El 11S fue solo el principio
-[IA] Probando proveedor groq: "Steven pidió que la despidieran": la frase que Spielberg no pudo pasar por alto
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: "Steven pidió que la despidieran": la frase que Spielberg no pudo pasar por alto
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: "Steven pidió que la despidieran": la frase que Spielberg no pudo pasar por alto
-[IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/spielberg-despidio-a-megan-fox-de-transformers-por-sus-polemicas-declaraciones-2026-08-29-8e9ba5.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[movies] Candidatos encontrados: 24 | Límite: 1
+[YouTube] No se encontró tráiler confiable para Aprendió a conducir con 22 años y ahora nadie baja a Keanu Reeves de una moto: ahora las construye por 78.000 dólares
+[movies] Saltado porque no tiene tráiler confiable: Aprendió a conducir con 22 años y ahora nadie baja a Keanu Reeves de una moto: ahora las construye por 78.000 dólares
+[YouTube] No se encontró tráiler confiable para Con 4,3/5 estrellas: esta es la mejor película de la década, según los usuarios de nuestra comunidad
+[movies] Saltado porque no tiene tráiler confiable: Con 4,3/5 estrellas: esta es la mejor película de la década, según los usuarios de nuestra comunidad
+[YouTube] No se encontró tráiler confiable para Hollywood le cambió el nombre a John Wayne cuando él ni siquiera estaba presente: "No era lo suficientemente americano"
+[movies] Saltado porque no tiene tráiler confiable: Hollywood le cambió el nombre a John Wayne cuando él ni siquiera estaba presente: "No era lo suficientemente americano"
+[YouTube] No se encontró tráiler confiable para La escena eliminada de 'Harry Potter y la piedra filosofal' que muestra hasta qué punto estaban interesados por Harry en Hogwarts
+[movies] Saltado porque no tiene tráiler confiable: La escena eliminada de 'Harry Potter y la piedra filosofal' que muestra hasta qué punto estaban interesados por Harry en Hogwarts
+[YouTube] No se encontró tráiler confiable para Mario Casas se rinde ante Javier Bardem: "Están todos los actores y después está él, que me la cuela siempre"
+[movies] Saltado porque no tiene tráiler confiable: Mario Casas se rinde ante Javier Bardem: "Están todos los actores y después está él, que me la cuela siempre"
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
