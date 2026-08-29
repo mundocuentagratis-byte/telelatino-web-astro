@@ -1,37 +1,35 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-28T22:15:25.885495+00:00
+Fecha UTC: 2026-08-29T07:00:35.672811+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
+[movies] Saltado noticia no apta para películas: Robert De Niro aún lamenta este olvidable 'thriller' con Al Pacino: "Ojalá estuviesen aquí por una película de la que nos sentimos orgullosos"
 [movies] Saltado noticia no apta para películas: Solo un mes para ver a un Tom Cruise irreconocible en una de las películas más esperadas del año
-[movies] Saltado noticia no apta para películas: Bradley Cooper, el amigo que ayudó a Brad Pitt a superar su alcoholismo tras vivir su propio infierno con la cocaína: "Estuve muy perdido"
 [movies] Saltado porque no es estreno 2026: "Ya no había ningún reto para mí como actor": Clint Eastwood rechazó uno de los mayores westerns de nuestra historia (2024)
 [movies] Saltado porque no es estreno 2026: Más de 1 millón de espectadores en cines: la película con la que Dwayne Johnson estaba entusiasmado y terminó siendo uno de los fracasos más caros de 2022 (2022)
-[movies] Saltado noticia no apta para películas: James Cameron logró ahorrar un millón de dólares con una sencilla decisión en 'Titanic': solo contratar actores bajitos
-[movies] Saltado noticia no apta para películas: 'El ser querido' desarma a Álex de la Iglesia: "Me implica personalmente hasta el punto de pensar que se han basado en mi propia vida"
 [movies] Saltado porque no es estreno 2026: 89 años, más de 50 películas, 2 Oscar: hace siete años una de las estrellas más admiradas de Hollywood se retiró por todo lo alto antes de fallecer en 2025 (2025)
-[movies] Saltado porque no es estreno 2026: "Las IA pueden descontrolarse. Y si lo hacen, es como una bomba": Ridley Scott prepara una nueva 'Alien' sobre el personaje de Michael Fassbender (2023)
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
 [movies] Saltado noticia no apta para películas: El hijo de Michael Douglas que pasó siete años en la cárcel: "Mi padre me hacía repartir porros entre los invitados a sus fiestas"
 [movies] Saltado porque no es estreno 2026: Así ha cambiado Chumlee, el mítico ayudante de 'La casa de empeños' que fue detenido por tenencia ilegal de armas y posesión de drogas (2009)
 [movies] Saltado porque no es estreno 2026: El 'food truck' de Barcelona que iba "como un cohete" tras el paso de 'Pesadilla en la cocina' y acabó cerrando: la culpa no fue de Chicote (2024)
+[movies] Saltado porque no es estreno 2026: Quién era Alejandro Ponsoda: el alcalde de Polop que fue asesinado y, 19 años después, seguimos sin saber quién fue el culpable (2009)
+[movies] Saltado porque no es estreno 2026: El restaurante alicantino que 'Pesadilla en la cocina' no consiguió salvar: vivió un doble traspaso antes de la emisión del programa (2024)
+[movies] Saltado noticia no apta para películas: La concursante que duró dos horas en 'Gran Hermano', pero le pesó el resto de su vida: "No tengo donde caerme muerta"
 [movies] Saltado noticia no apta para películas: Samantha Vallejo-Nágera encuentra trabajo fuera de RTVE tras despedirse de 'MasterChef'
 [movies] Saltado noticia no apta para películas: Más de 30 años después de su estreno, TVE rescata el espíritu de 'Bricomanía' con un nuevo programa presentado por Íñigo Segurola
 [movies] Saltado noticia no apta para películas: Antoni Daimiel, mítico periodista deportivo de Movistar Plus, abandona la cadena por sorpresa
-[movies] Saltado porque no es estreno 2026: Quién era Alejandro Ponsoda: el alcalde de Polop que fue asesinado y, 19 años después, seguimos sin saber quién fue el culpable (2009)
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' confirma a Rosa Benito como su primera concursante oficial: regresa para ver si puede batir su propio récord
-[movies] Saltado noticia no apta para películas: La salida de Pedrerol de laSexta sigue teniendo consecuencias: se van dos periodistas deportivas con años de experiencia
-[movies] Candidatos encontrados: 27 | Límite: 1
-[IA] Probando proveedor gemini: Erupcja
-[IA] gemini falló (error): Expecting ',' delimiter: line 5 column 3 (char 5543)
-[IA] Probando proveedor groq: Erupcja
+[movies] Candidatos encontrados: 28 | Límite: 1
+[YouTube] No se encontró tráiler confiable para La superviviente. El 11S fue solo el principio
+[movies] Saltado porque no tiene tráiler confiable: La superviviente. El 11S fue solo el principio
+[IA] Probando proveedor groq: "Steven pidió que la despidieran": la frase que Spielberg no pudo pasar por alto
 [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: Erupcja
+[IA] Probando proveedor openai: "Steven pidió que la despidieran": la frase que Spielberg no pudo pasar por alto
 [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Erupcja
+[IA] Probando proveedor mistral: "Steven pidió que la despidieran": la frase que Spielberg no pudo pasar por alto
 [IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/erupcja-un-drama-romantico-atrapado-en-varsovia-tras-una-erupcion-volcanica-2026-08-28-d33f62.md
+[OK] Publicado: src/content/blog/spielberg-despidio-a-megan-fox-de-transformers-por-sus-polemicas-declaraciones-2026-08-29-8e9ba5.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
