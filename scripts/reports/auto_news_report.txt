@@ -1,9 +1,9 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-30T05:18:59.334357+00:00
+Fecha UTC: 2026-08-30T13:47:49.668152+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
-[movies] Saltado porque no es estreno 2026: No entendí el título de esta película hasta el final y entonces todo tuvo sentido (2019)
-[movies] Saltado noticia no apta para películas: La escena eliminada de 'Harry Potter y la piedra filosofal' que muestra hasta qué punto estaban interesados por Harry en Hogwarts
+[movies] Saltado porque no es estreno 2026: La adaptación del 'El Señor de los Anillos' que Tolkien no quiso que se hiciera: "No le gustaba la idea, así que se lo cargó" (2001)
+[movies] Saltado porque no es estreno 2026: 31 años de carrera y 30 millones de dólares por película: hoy cumple 54 años la que fue la actriz mejor pagada de Hollywood (2014)
 [movies] Saltado noticia no apta para películas: El histórico castillo a una hora de Madrid que sirvió de molde para el primer gran clásico de Disney
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
@@ -13,13 +13,23 @@ Fecha UTC: 2026-08-30T05:18:59.334357+00:00
 [movies] Saltado porque no es estreno 2026: Quién era Alejandro Ponsoda: el alcalde de Polop que fue asesinado y, 19 años después, seguimos sin saber quién fue el culpable (2009)
 [movies] Saltado porque no es estreno 2026: El 'food truck' de Barcelona que iba "como un cohete" tras el paso de 'Pesadilla en la cocina' y acabó cerrando: la culpa no fue de Chicote (2024)
 [movies] Saltado porque no es estreno 2026: El restaurante alicantino que 'Pesadilla en la cocina' no consiguió salvar: vivió un doble traspaso antes de la emisión del programa (2024)
+[movies] Saltado noticia no apta para películas: Así es la casa de Pablo Motos: un piso de 300 metros cuadrados muy cerca de El Retiro
+[movies] Saltado noticia no apta para películas: Durante los 25 años de emisión de 'Pasapalabra' ha habido seis presentadores: pocos recordarán a este mítico sustituto
 [movies] Saltado porque no es estreno 2026: Los concursos vuelven a estar de moda: Antena 3 prepara la adaptación de un célebre formato donde el objetivo es ser "el peor" (2020)
 [movies] Saltado noticia no apta para películas: La concursante que duró dos horas en 'Gran Hermano', pero le pesó el resto de su vida: "No tengo donde caerme muerta"
 [movies] Saltado noticia no apta para películas: Samantha Vallejo-Nágera encuentra trabajo fuera de RTVE tras despedirse de 'MasterChef'
 [movies] Saltado noticia no apta para películas: Más de 30 años después de su estreno, TVE rescata el espíritu de 'Bricomanía' con un nuevo programa presentado por Íñigo Segurola
-[movies] Saltado noticia no apta para películas: Antoni Daimiel, mítico periodista deportivo de Movistar Plus, abandona la cadena por sorpresa
 [movies] Candidatos encontrados: 30 | Límite: 1
-[movies] Saltado por tema bloqueado: Dulce sabor a muerte
+[YouTube] No se encontró tráiler confiable para "Sólo para Europa": el divertido 'trolleo' de 'Los Simpson' a la censura de la televisión de EE. UU. por el desnudo de Bart
+[movies] Saltado porque no tiene tráiler confiable: "Sólo para Europa": el divertido 'trolleo' de 'Los Simpson' a la censura de la televisión de EE. UU. por el desnudo de Bart
+[YouTube] No se encontró tráiler confiable para Con 23 años su primera banda sacó un disco, pero su fracaso les hizo romper un año después: poco después se volvería una leyenda de la música
+[movies] Saltado porque no tiene tráiler confiable: Con 23 años su primera banda sacó un disco, pero su fracaso les hizo romper un año después: poco después se volvería una leyenda de la música
+[YouTube] No se encontró tráiler confiable para Con 26 años estaba casado y trabajando en gasolineras mientras Hollywood le ignoraba: hoy es una leyenda absoluta del cine
+[movies] Saltado porque no tiene tráiler confiable: Con 26 años estaba casado y trabajando en gasolineras mientras Hollywood le ignoraba: hoy es una leyenda absoluta del cine
+[YouTube] No se encontró tráiler confiable para Esta película arrasó guardando su mayor secreto hasta el último momento: no esperaba acabar tan sorprendido y riéndome tanto
+[movies] Saltado porque no tiene tráiler confiable: Esta película arrasó guardando su mayor secreto hasta el último momento: no esperaba acabar tan sorprendido y riéndome tanto
+[YouTube] No se encontró tráiler confiable para No entendí el título de esta película hasta el final y entonces todo tuvo sentido
+[movies] Saltado porque no tiene tráiler confiable: No entendí el título de esta película hasta el final y entonces todo tuvo sentido
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
