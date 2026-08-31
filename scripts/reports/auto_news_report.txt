@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-30T22:42:54.643487+00:00
+Fecha UTC: 2026-08-31T05:26:39.417229+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado porque no es estreno 2026: La adaptación del 'El Señor de los Anillos' que Tolkien no quiso que se hiciera: "No le gustaba la idea, así que se lo cargó" (2001)
@@ -11,19 +11,17 @@ Fecha UTC: 2026-08-30T22:42:54.643487+00:00
 [movies] Saltado noticia no apta para películas: El hijo de Michael Douglas que pasó siete años en la cárcel: "Mi padre me hacía repartir porros entre los invitados a sus fiestas"
 [movies] Saltado porque no es estreno 2026: Así ha cambiado Chumlee, el mítico ayudante de 'La casa de empeños' que fue detenido por tenencia ilegal de armas y posesión de drogas (2009)
 [movies] Saltado porque no es estreno 2026: Quién era Alejandro Ponsoda: el alcalde de Polop que fue asesinado y, 19 años después, seguimos sin saber quién fue el culpable (2009)
-[movies] Saltado porque no es estreno 2026: El 'food truck' de Barcelona que iba "como un cohete" tras el paso de 'Pesadilla en la cocina' y acabó cerrando: la culpa no fue de Chicote (2024)
 [movies] Saltado porque no es estreno 2026: El restaurante alicantino que 'Pesadilla en la cocina' no consiguió salvar: vivió un doble traspaso antes de la emisión del programa (2024)
 [movies] Saltado noticia no apta para películas: Así es la casa de Pablo Motos: un piso de 300 metros cuadrados muy cerca de El Retiro
 [movies] Saltado noticia no apta para películas: Durante los 25 años de emisión de 'Pasapalabra' ha habido seis presentadores: pocos recordarán a este mítico sustituto
 [movies] Saltado porque no es estreno 2026: Los concursos vuelven a estar de moda: Antena 3 prepara la adaptación de un célebre formato donde el objetivo es ser "el peor" (2020)
 [movies] Saltado noticia no apta para películas: La concursante que duró dos horas en 'Gran Hermano', pero le pesó el resto de su vida: "No tengo donde caerme muerta"
 [movies] Saltado noticia no apta para películas: Samantha Vallejo-Nágera encuentra trabajo fuera de RTVE tras despedirse de 'MasterChef'
-[movies] Saltado noticia no apta para películas: Más de 30 años después de su estreno, TVE rescata el espíritu de 'Bricomanía' con un nuevo programa presentado por Íñigo Segurola
-[movies] Candidatos encontrados: 29 | Límite: 1
-[YouTube] No se encontró tráiler confiable para Aparentemente, esta película termina con un final feliz... hasta que piensas detenidamente en él durante cinco minutos
-[movies] Saltado porque no tiene tráiler confiable: Aparentemente, esta película termina con un final feliz... hasta que piensas detenidamente en él durante cinco minutos
-[YouTube] No se encontró tráiler confiable para Este detalle de 'Las dos torres' me molestó durante años, pero está literalmente sacado de la novela de Tolkien
-[movies] Saltado porque no tiene tráiler confiable: Este detalle de 'Las dos torres' me molestó durante años, pero está literalmente sacado de la novela de Tolkien
+[movies] Candidatos encontrados: 31 | Límite: 1
+[YouTube] No se encontró tráiler confiable para Llega al cine la primera película que trata la investigación posterior a los atentados del 17A en Cataluña
+[movies] Saltado porque no tiene tráiler confiable: Llega al cine la primera película que trata la investigación posterior a los atentados del 17A en Cataluña
+[YouTube] No se encontró tráiler confiable para Más de 30 años después de su estreno, TVE rescata el espíritu de 'Bricomanía' con un nuevo programa presentado por Íñigo Segurola
+[movies] Saltado porque no tiene tráiler confiable: Más de 30 años después de su estreno, TVE rescata el espíritu de 'Bricomanía' con un nuevo programa presentado por Íñigo Segurola
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
