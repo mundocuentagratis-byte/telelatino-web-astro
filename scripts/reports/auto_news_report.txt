@@ -1,18 +1,14 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-31T16:08:39.066124+00:00
+Fecha UTC: 2026-08-31T21:28:51.696175+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: Llega al cine la primera película que trata la investigación posterior a los atentados del 17A en Cataluña
+[movies] Saltado noticia no apta para películas: Muere Francesc Garrido, actor de 'Gran Reserva', 'Sé quién eres' y 'Mar adentro' a los 56 años
 [movies] Saltado noticia no apta para películas: Últimos 2 días para ver en Netflix los orígenes de una de las franquicias más taquilleras de la ciencia ficción
 [movies] Saltado noticia no apta para películas: Ester Expósito sobre su salto a Hollywood: "Creo que mi perfil puede incluso encajar más con la industria americana que con la española"
-[movies] Saltado noticia no apta para películas: "No seas cobarde": La crítica sexista contra Tom Cruise y sus planes para la secuela de 'Días de trueno'
 [movies] Saltado noticia no apta para películas: 'Spider-Man: Brand New Day', a punto de superar a 'Avatar 2': Se convertirá en la tercera película más taquillera de la historia
 [movies] Saltado noticia no apta para películas: Solo tres meses después de su estreno en cines, llega a Disney+: Es uno de los mayores éxitos cinematográficos de 2026
 [movies] Saltado noticia no apta para películas: Aparentemente, esta película termina con un final feliz... hasta que piensas detenidamente en él durante cinco minutos
-[movies] Saltado noticia no apta para películas: Este detalle de 'Las dos torres' me molestó durante años, pero está literalmente sacado de la novela de Tolkien
-[movies] Saltado noticia no apta para películas: La adaptación del 'El Señor de los Anillos' que Tolkien no quiso que se hiciera: "No le gustaba la idea, así que se lo cargó"
-[movies] Saltado noticia no apta para películas: "Sólo para Europa": el divertido 'trolleo' de 'Los Simpson' a la censura de la televisión de EE. UU. por el desnudo de Bart
-[movies] Saltado noticia no apta para películas: 31 años de carrera y 30 millones de dólares por película: hoy cumple 54 años la que fue la actriz mejor pagada de Hollywood
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
@@ -26,7 +22,11 @@ Fecha UTC: 2026-08-31T16:08:39.066124+00:00
 [movies] Saltado porque no es estreno 2026: Los concursos vuelven a estar de moda: Antena 3 prepara la adaptación de un célebre formato donde el objetivo es ser "el peor" (2020)
 [movies] Saltado noticia no apta para películas: La concursante que duró dos horas en 'Gran Hermano', pero le pesó el resto de su vida: "No tengo donde caerme muerta"
 [movies] Saltado noticia no apta para películas: Samantha Vallejo-Nágera encuentra trabajo fuera de RTVE tras despedirse de 'MasterChef'
-[movies] Candidatos encontrados: 21 | Límite: 1
+[movies] Candidatos encontrados: 25 | Límite: 1
+[YouTube] No se encontró tráiler confiable para "No seas cobarde": La crítica sexista contra Tom Cruise y sus planes para la secuela de 'Días de trueno'
+[movies] Saltado porque no tiene tráiler confiable: "No seas cobarde": La crítica sexista contra Tom Cruise y sus planes para la secuela de 'Días de trueno'
+[YouTube] No se encontró tráiler confiable para La adaptación del 'El Señor de los Anillos' que Tolkien no quiso que se hiciera: "No le gustaba la idea, así que se lo cargó"
+[movies] Saltado porque no tiene tráiler confiable: La adaptación del 'El Señor de los Anillos' que Tolkien no quiso que se hiciera: "No le gustaba la idea, así que se lo cargó"
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
