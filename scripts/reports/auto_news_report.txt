@@ -1,31 +1,30 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-01T13:28:39.253076+00:00
+Fecha UTC: 2026-09-01T19:23:01.391948+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: Llega al cine la primera película que trata la investigación posterior a los atentados del 17A en Cataluña
+[movies] Saltado noticia no apta para películas: Tras 'El ser querido', Javier Bardem debuta en teatro a sus 57 años junto a su maestro: "A él le debo el actor que soy"
+[movies] Saltado noticia no apta para películas: Así ha celebrado Richard Gere su 77 cumpleaños junto a su mujer, la española Alejandra Silva (43): "No hay nadie con quien prefiera pasar mi vida"
+[movies] Saltado porque no es estreno 2026: Gal Gadot critica a DC Studios tras su salida como Wonder Woman: "El caso de Henry Cavill no se manejó con elegancia" (2022)
+[movies] Saltado noticia no apta para películas: "Una distopía tan próxima que provoca escalofríos": llega a los cines un thriller rural español con una "atmósfera asfixiante" y un complejo un dilema moral
 [movies] Saltado noticia no apta para películas: Hoy llega a Netflix: una de las mejores películas bélicas de todos los tiempos que no habría sido posible sin 500 personas y 35 elefantes
 [movies] Saltado noticia no apta para películas: "A la quinta toma, ya estaba más que enamorada": Meryl Streep terminó colada de su coprotagonista en una de sus películas más famosas
+[movies] Saltado noticia no apta para películas: Hace 33 años, Steven Spielberg solo necesitó un vaso de agua y una cuerda de guitarra para crear una de las escenas más emocionantes de la historia del cine
+[movies] Saltado noticia no apta para películas: Muere Francesc Garrido, actor de 'Gran Reserva', 'Sé quién eres' y 'Mar adentro' a los 56 años
 [movies] Saltado noticia no apta para películas: Últimos 2 días para ver en Netflix los orígenes de una de las franquicias más taquilleras de la ciencia ficción
 [movies] Saltado noticia no apta para películas: "No seas cobarde": La crítica sexista contra Tom Cruise y sus planes para la secuela de 'Días de trueno'
-[movies] Saltado noticia no apta para películas: 'Spider-Man: Brand New Day', a punto de superar a 'Avatar 2': Se convertirá en la tercera película más taquillera de la historia
-[movies] Saltado noticia no apta para películas: Solo tres meses después de su estreno en cines, llega a Disney+: Es uno de los mayores éxitos cinematográficos de 2026
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
 [movies] Saltado noticia no apta para películas: El hijo de Michael Douglas que pasó siete años en la cárcel: "Mi padre me hacía repartir porros entre los invitados a sus fiestas"
 [movies] Saltado porque no es estreno 2026: Quién era Alejandro Ponsoda: el alcalde de Polop que fue asesinado y, 19 años después, seguimos sin saber quién fue el culpable (2009)
 [movies] Saltado porque no es estreno 2026: Así ha cambiado Chumlee, el mítico ayudante de 'La casa de empeños' que fue detenido por tenencia ilegal de armas y posesión de drogas (2009)
+[movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11' ya tiene fecha de estreno en Telecinco: Cuándo y a qué hora se emitirá la nueva edición del 'reality'
 [movies] Saltado noticia no apta para películas: "Era el rey de la telebasura": el cambio de vida de Jaime Bores, el "Brad Pitt español" en los 90 que ahora trabaja en hostelería
 [movies] Saltado noticia no apta para películas: Así es la casa de Pablo Motos: un piso de 300 metros cuadrados muy cerca de El Retiro
 [movies] Saltado noticia no apta para películas: Durante los 25 años de emisión de 'Pasapalabra' ha habido seis presentadores: pocos recordarán a este mítico sustituto
 [movies] Saltado porque no es estreno 2026: Los concursos vuelven a estar de moda: Antena 3 prepara la adaptación de un célebre formato donde el objetivo es ser "el peor" (2020)
-[movies] Saltado noticia no apta para películas: La concursante que duró dos horas en 'Gran Hermano', pero le pesó el resto de su vida: "No tengo donde caerme muerta"
-[movies] Candidatos encontrados: 27 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "Una distopía tan próxima que provoca escalofríos": llega a los cines un thriller rural español con una "atmósfera asfixiante" y un complejo un dilema moral
-[movies] Saltado porque no tiene tráiler confiable: "Una distopía tan próxima que provoca escalofríos": llega a los cines un thriller rural español con una "atmósfera asfixiante" y un complejo un dilema moral
-[IA] Probando proveedor gemini: Ester Expósito sobre su salto a Hollywood: "Creo que mi perfil puede incluso enc
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/ester-exposito-apunta-a-hollywood-y-a-producir-cine-mi-perfil-encaja-2026-09-01-7d68f3.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[movies] Candidatos encontrados: 21 | Límite: 1
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
