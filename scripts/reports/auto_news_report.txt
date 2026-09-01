@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-08-31T21:28:51.696175+00:00
+Fecha UTC: 2026-09-01T05:00:36.310953+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: Llega al cine la primera película que trata la investigación posterior a los atentados del 17A en Cataluña
@@ -15,18 +15,13 @@ Fecha UTC: 2026-08-31T21:28:51.696175+00:00
 [movies] Saltado noticia no apta para películas: El hijo de Michael Douglas que pasó siete años en la cárcel: "Mi padre me hacía repartir porros entre los invitados a sus fiestas"
 [movies] Saltado porque no es estreno 2026: Quién era Alejandro Ponsoda: el alcalde de Polop que fue asesinado y, 19 años después, seguimos sin saber quién fue el culpable (2009)
 [movies] Saltado porque no es estreno 2026: Así ha cambiado Chumlee, el mítico ayudante de 'La casa de empeños' que fue detenido por tenencia ilegal de armas y posesión de drogas (2009)
-[movies] Saltado porque no es estreno 2026: El restaurante alicantino que 'Pesadilla en la cocina' no consiguió salvar: vivió un doble traspaso antes de la emisión del programa (2024)
 [movies] Saltado noticia no apta para películas: "Era el rey de la telebasura": el cambio de vida de Jaime Bores, el "Brad Pitt español" en los 90 que ahora trabaja en hostelería
 [movies] Saltado noticia no apta para películas: Así es la casa de Pablo Motos: un piso de 300 metros cuadrados muy cerca de El Retiro
 [movies] Saltado noticia no apta para películas: Durante los 25 años de emisión de 'Pasapalabra' ha habido seis presentadores: pocos recordarán a este mítico sustituto
 [movies] Saltado porque no es estreno 2026: Los concursos vuelven a estar de moda: Antena 3 prepara la adaptación de un célebre formato donde el objetivo es ser "el peor" (2020)
 [movies] Saltado noticia no apta para películas: La concursante que duró dos horas en 'Gran Hermano', pero le pesó el resto de su vida: "No tengo donde caerme muerta"
 [movies] Saltado noticia no apta para películas: Samantha Vallejo-Nágera encuentra trabajo fuera de RTVE tras despedirse de 'MasterChef'
-[movies] Candidatos encontrados: 25 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "No seas cobarde": La crítica sexista contra Tom Cruise y sus planes para la secuela de 'Días de trueno'
-[movies] Saltado porque no tiene tráiler confiable: "No seas cobarde": La crítica sexista contra Tom Cruise y sus planes para la secuela de 'Días de trueno'
-[YouTube] No se encontró tráiler confiable para La adaptación del 'El Señor de los Anillos' que Tolkien no quiso que se hiciera: "No le gustaba la idea, así que se lo cargó"
-[movies] Saltado porque no tiene tráiler confiable: La adaptación del 'El Señor de los Anillos' que Tolkien no quiso que se hiciera: "No le gustaba la idea, así que se lo cargó"
+[movies] Candidatos encontrados: 26 | Límite: 1
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
