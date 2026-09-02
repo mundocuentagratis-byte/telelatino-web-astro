@@ -1,11 +1,11 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-02T12:45:26.560321+00:00
+Fecha UTC: 2026-09-02T19:23:12.244696+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
-[movies] Saltado noticia no apta para películas: "Por favor, ¿sabes actuar?": Ridley Scott recuerda el reparto de esta obra maestra estrenada hace 35 años
+[movies] Saltado porque no es estreno 2026: El viaje de Los Javis a 'La bola negra', la película que ya suena para los Oscar: "La creación es un misterio" (2017)
+[movies] Saltado noticia no apta para películas: "A él le debo el actor que soy': Javier Bardem se reencuentra con su maestro en su primera vez en teatro a los 57 años
+[movies] Saltado noticia no apta para películas: Alejandra Silva, 43 años, a su marido Richard Gere en su 77 cumpleaños: "No hay nadie con quien prefiera pasar mi vida"
 [movies] Saltado porque no es estreno 2026: Gal Gadot critica a DC Studios tras su salida como Wonder Woman: "El caso de Henry Cavill no se manejó con elegancia" (2022)
-[movies] Saltado noticia no apta para películas: Hoy llega a Netflix: una de las mejores películas bélicas de todos los tiempos que no habría sido posible sin 500 personas y 35 elefantes
-[movies] Saltado noticia no apta para películas: Últimos 2 días para ver en Netflix los orígenes de una de las franquicias más taquilleras de la ciencia ficción
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
@@ -14,25 +14,23 @@ Fecha UTC: 2026-09-02T12:45:26.560321+00:00
 [movies] Saltado noticia no apta para películas: "Era el rey de la telebasura": el cambio de vida de Jaime Bores, el "Brad Pitt español" en los 90 que ahora trabaja en hostelería
 [movies] Saltado noticia no apta para películas: La concursante de 'Supervivientes' que ha estado "dos años sin poder hablar": 15 años después, está irreconocible
 [movies] Saltado porque no es estreno 2026: Así ha cambiado Chumlee, el mítico ayudante de 'La casa de empeños' que fue detenido por tenencia ilegal de armas y posesión de drogas (2009)
+[movies] Saltado noticia no apta para películas: Dos exconcursantes de 'La isla de las tentaciones' dan el salto a un 'reality' internacional: "Es la experiencia más brutal que he vivido"
 [movies] Saltado noticia no apta para películas: "Fue una experiencia nueva": Carmen Porter confiesa el insólito momento con la Guardia Civil al finalizar 'Horizonte'
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11' ya tiene fecha de estreno en Telecinco: Cuándo y a qué hora se emitirá la nueva edición del 'reality'
 [movies] Saltado noticia no apta para películas: Así es la casa de Pablo Motos: un piso de 300 metros cuadrados muy cerca de El Retiro
-[movies] Saltado noticia no apta para películas: Durante los 25 años de emisión de 'Pasapalabra' ha habido seis presentadores: pocos recordarán a este mítico sustituto
 [movies] Candidatos encontrados: 28 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "A la quinta toma, ya estaba más que enamorada": Meryl Streep terminó colada de su coprotagonista en una de sus películas más famosas
-[movies] Saltado porque no tiene tráiler confiable: "A la quinta toma, ya estaba más que enamorada": Meryl Streep terminó colada de su coprotagonista en una de sus películas más famosas
-[YouTube] No se encontró tráiler confiable para "A él le debo el actor que soy': Javier Bardem se reencuentra con su maestro en su primera vez en teatro a los 57 años
-[movies] Saltado porque no tiene tráiler confiable: "A él le debo el actor que soy': Javier Bardem se reencuentra con su maestro en su primera vez en teatro a los 57 años
-[YouTube] No se encontró tráiler confiable para "Maravillosa, extraordinaria, emotiva y conmovedora": Con una calificación de 4,2 sobre 5, es la mejor película de Dustin Hoffman y ganó 4 premios Oscar
-[movies] Saltado porque no tiene tráiler confiable: "Maravillosa, extraordinaria, emotiva y conmovedora": Con una calificación de 4,2 sobre 5, es la mejor película de Dustin Hoffman y ganó 4 premios Oscar
-[YouTube] No se encontró tráiler confiable para 42 años de carrera y el actor más querido: Hoy cumple 62 años uno de los grandes héroes de acción del cine
-[movies] Saltado porque no tiene tráiler confiable: 42 años de carrera y el actor más querido: Hoy cumple 62 años uno de los grandes héroes de acción del cine
-[YouTube] No se encontró tráiler confiable para Alejandra Silva, 43 años, a su marido Richard Gere en su 77 cumpleaños: "No hay nadie con quien prefiera pasar mi vida"
-[movies] Saltado porque no tiene tráiler confiable: Alejandra Silva, 43 años, a su marido Richard Gere en su 77 cumpleaños: "No hay nadie con quien prefiera pasar mi vida"
-[YouTube] No se encontró tráiler confiable para Hace 33 años, Steven Spielberg solo necesitó un vaso de agua y una cuerda de guitarra para crear una de las escenas más emocionantes de la historia del cine
-[movies] Saltado porque no tiene tráiler confiable: Hace 33 años, Steven Spielberg solo necesitó un vaso de agua y una cuerda de guitarra para crear una de las escenas más emocionantes de la historia del cine
-[YouTube] No se encontró tráiler confiable para Muere Francesc Garrido, actor de 'Gran Reserva', 'Sé quién eres' y 'Mar adentro' a los 56 años
-[movies] Saltado porque no tiene tráiler confiable: Muere Francesc Garrido, actor de 'Gran Reserva', 'Sé quién eres' y 'Mar adentro' a los 56 años
+[YouTube] No se encontró tráiler confiable para "No me gusta el prejuicio de quien se ríe de los jóvenes y los mira como los atontados de TikTok": llega a los cines 'Cinco segundos', nueva película del italiano Pablo Virci
+[movies] Saltado porque no tiene tráiler confiable: "No me gusta el prejuicio de quien se ríe de los jóvenes y los mira como los atontados de TikTok": llega a los cines 'Cinco segundos', nueva película del italiano Pablo Virci
+[YouTube] No se encontró tráiler confiable para "Por favor, ¿sabes actuar?": Ridley Scott recuerda el reparto de esta obra maestra estrenada hace 35 años
+[movies] Saltado porque no tiene tráiler confiable: "Por favor, ¿sabes actuar?": Ridley Scott recuerda el reparto de esta obra maestra estrenada hace 35 años
+[YouTube] No se encontró tráiler confiable para Afirma que salvó del desastre a 'Obsession'. Ha demandado a sus compañeros después de recaudar 500 millones y no recibir beneficios
+[movies] Saltado porque no tiene tráiler confiable: Afirma que salvó del desastre a 'Obsession'. Ha demandado a sus compañeros después de recaudar 500 millones y no recibir beneficios
+[YouTube] No se encontró tráiler confiable para Clint Eastwood sabía que eran "películas problemáticas" pero las hizo igualmente: "Tienes que llevar al público en distintas direcciones"
+[movies] Saltado porque no tiene tráiler confiable: Clint Eastwood sabía que eran "películas problemáticas" pero las hizo igualmente: "Tienes que llevar al público en distintas direcciones"
+[YouTube] No se encontró tráiler confiable para Más de 23 millones de visualizaciones en solo un día: El 'thriller' de Robert De Niro se ha convertido en uno de los mayores estrenos del año
+[movies] Saltado porque no tiene tráiler confiable: Más de 23 millones de visualizaciones en solo un día: El 'thriller' de Robert De Niro se ha convertido en uno de los mayores estrenos del año
+[YouTube] No se encontró tráiler confiable para Zendaya celebra los 30 en el mejor momento de su carrera y su vida personal: "Tengo mucho por lo que estar agradecida"
+[movies] Saltado porque no tiene tráiler confiable: Zendaya celebra los 30 en el mejor momento de su carrera y su vida personal: "Tengo mucho por lo que estar agradecida"
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
