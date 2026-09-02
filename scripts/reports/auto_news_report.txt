@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-01T22:34:46.882438+00:00
+Fecha UTC: 2026-09-02T04:23:39.116729+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: Llega al cine la primera película que trata la investigación posterior a los atentados del 17A en Cataluña
@@ -25,6 +25,9 @@ Fecha UTC: 2026-09-01T22:34:46.882438+00:00
 [movies] Saltado noticia no apta para películas: Durante los 25 años de emisión de 'Pasapalabra' ha habido seis presentadores: pocos recordarán a este mítico sustituto
 [movies] Saltado porque no es estreno 2026: Los concursos vuelven a estar de moda: Antena 3 prepara la adaptación de un célebre formato donde el objetivo es ser "el peor" (2020)
 [movies] Candidatos encontrados: 21 | Límite: 1
+[duplicado] Saltado por tema parecido: Prácticamente magia 2 ~= Prácticamente magia 2: estreno, trama y regreso de Bullock y Kidman
+[YouTube] No se encontró tráiler confiable para La concursante que duró dos horas en 'Gran Hermano', pero le pesó el resto de su vida: "No tengo donde caerme muerta"
+[movies] Saltado porque no tiene tráiler confiable: La concursante que duró dos horas en 'Gran Hermano', pero le pesó el resto de su vida: "No tengo donde caerme muerta"
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
