@@ -1,11 +1,8 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-03T04:18:15.049072+00:00
+Fecha UTC: 2026-09-03T12:48:32.220956+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
-[movies] Saltado porque no es estreno 2026: El viaje de Los Javis a 'La bola negra', la película que ya suena para los Oscar: "La creación es un misterio" (2017)
-[movies] Saltado noticia no apta para películas: "A él le debo el actor que soy': Javier Bardem se reencuentra con su maestro en su primera vez en teatro a los 57 años
-[movies] Saltado noticia no apta para películas: Alejandra Silva, 43 años, a su marido Richard Gere en su 77 cumpleaños: "No hay nadie con quien prefiera pasar mi vida"
-[movies] Saltado porque no es estreno 2026: Gal Gadot critica a DC Studios tras su salida como Wonder Woman: "El caso de Henry Cavill no se manejó con elegancia" (2022)
+[movies] Saltado porque no es estreno 2026: 'La bola negra', 'El ser querido' y 'Los Domingos' son las películas españolas preseleccionadas para los Oscar 2027 (2027)
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
@@ -13,12 +10,18 @@ Fecha UTC: 2026-09-03T04:18:15.049072+00:00
 [movies] Saltado porque no es estreno 2026: Quién era Alejandro Ponsoda: el alcalde de Polop que fue asesinado y, 19 años después, seguimos sin saber quién fue el culpable (2009)
 [movies] Saltado noticia no apta para películas: "Era el rey de la telebasura": el cambio de vida de Jaime Bores, el "Brad Pitt español" en los 90 que ahora trabaja en hostelería
 [movies] Saltado noticia no apta para películas: La concursante de 'Supervivientes' que ha estado "dos años sin poder hablar": 15 años después, está irreconocible
-[movies] Saltado porque no es estreno 2026: Así ha cambiado Chumlee, el mítico ayudante de 'La casa de empeños' que fue detenido por tenencia ilegal de armas y posesión de drogas (2009)
+[movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11' ya tiene fecha de estreno en Telecinco: Cuándo y a qué hora se emitirá la nueva edición del 'reality'
+[movies] Saltado noticia no apta para películas: El público dicta sentencia a 'La Mesa': El programa de Cristina Pardo en Antena 3 sorprende, pero repite un error muy común
+[movies] Saltado noticia no apta para películas: El pueblo de Cuenca que ha ganado el 'Grand Prix 2026': Esta es la cantidad de dinero que se ha llevado de premio
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3': Fecha de estreno y lista oficial de todos los concursantes confirmados por Telecinco
 [movies] Saltado noticia no apta para películas: Dos exconcursantes de 'La isla de las tentaciones' dan el salto a un 'reality' internacional: "Es la experiencia más brutal que he vivido"
 [movies] Saltado noticia no apta para películas: "Fue una experiencia nueva": Carmen Porter confiesa el insólito momento con la Guardia Civil al finalizar 'Horizonte'
-[movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11' ya tiene fecha de estreno en Telecinco: Cuándo y a qué hora se emitirá la nueva edición del 'reality'
-[movies] Candidatos encontrados: 29 | Límite: 1
+[movies] Candidatos encontrados: 30 | Límite: 1
+[YouTube] No se encontró tráiler confiable para De 'mass media' a 'mass mierda': Danny Boyle inaugura Venecia con 'Ink', un viaje fascinante y aterrador al nacimiento del amarillismo de 'The Sun'
+[movies] Saltado porque no tiene tráiler confiable: De 'mass media' a 'mass mierda': Danny Boyle inaugura Venecia con 'Ink', un viaje fascinante y aterrador al nacimiento del amarillismo de 'The Sun'
+[duplicado] Saltado por tema parecido: El viaje de Los Javis a 'La bola negra', la película que ya suena para los Oscar: "La creación es un misterio" ~= La Bola Negra: Los Javis se Inspiran en Lorca para su Nueva Película
+[YouTube] No se encontró tráiler confiable para Este clásico ha cambiado el cine de aventuras para siempre: a Steven Spielberg le encanta, ha influido en 'Star Wars' y tiene un 100 en 'Rotten Tomatoes'
+[movies] Saltado porque no tiene tráiler confiable: Este clásico ha cambiado el cine de aventuras para siempre: a Steven Spielberg le encanta, ha influido en 'Star Wars' y tiene un 100 en 'Rotten Tomatoes'
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
