@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-02T22:35:20.457855+00:00
+Fecha UTC: 2026-09-03T04:18:15.049072+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado porque no es estreno 2026: El viaje de Los Javis a 'La bola negra', la película que ya suena para los Oscar: "La creación es un misterio" (2017)
@@ -19,13 +19,6 @@ Fecha UTC: 2026-09-02T22:35:20.457855+00:00
 [movies] Saltado noticia no apta para películas: "Fue una experiencia nueva": Carmen Porter confiesa el insólito momento con la Guardia Civil al finalizar 'Horizonte'
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11' ya tiene fecha de estreno en Telecinco: Cuándo y a qué hora se emitirá la nueva edición del 'reality'
 [movies] Candidatos encontrados: 29 | Límite: 1
-[IA] Probando proveedor groq: Gungo y los juegos cavernícolas
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: Gungo y los juegos cavernícolas
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Gungo y los juegos cavernícolas
-[IA] Artículo generado con mistral
-[OK] Publicado: src/content/blog/gungo-y-los-juegos-cavernicolas-el-estreno-de-animacion-que-rompe-moldes-2026-09-02-e95e94.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
