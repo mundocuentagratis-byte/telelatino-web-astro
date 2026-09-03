@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-03T19:17:21.568366+00:00
+Fecha UTC: 2026-09-03T22:35:11.910774+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: Llega al cine la primera película que trata la investigación posterior a los atentados del 17A en Cataluña
@@ -26,9 +26,14 @@ Fecha UTC: 2026-09-03T19:17:21.568366+00:00
 [movies] Saltado noticia no apta para películas: El pueblo de Cuenca que ha ganado el 'Grand Prix 2026': Esta es la cantidad de dinero que se ha llevado de premio
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3': Fecha de estreno y lista oficial de todos los concursantes confirmados por Telecinco
 [movies] Saltado noticia no apta para películas: Dos exconcursantes de 'La isla de las tentaciones' dan el salto a un 'reality' internacional: "Es la experiencia más brutal que he vivido"
-[movies] Candidatos encontrados: 20 | Límite: 1
-[YouTube] No se encontró tráiler confiable para El público dicta sentencia a 'La Mesa': El programa de Cristina Pardo en Antena 3 sorprende, pero repite un error muy común
-[movies] Saltado porque no tiene tráiler confiable: El público dicta sentencia a 'La Mesa': El programa de Cristina Pardo en Antena 3 sorprende, pero repite un error muy común
-[movies] Publicados: 0
-Total películas publicadas: 0
+[movies] Candidatos encontrados: 21 | Límite: 1
+[IA] Probando proveedor groq: La piel pulpo
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: La piel pulpo
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: La piel pulpo
+[IA] Artículo generado con mistral
+[OK] Publicado: src/content/blog/la-piel-pulpo-el-drama-intimo-de-dos-mellizos-en-una-isla-remota-2026-09-03-eb0145.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
