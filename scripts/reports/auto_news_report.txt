@@ -1,9 +1,17 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-04T12:42:45.170312+00:00
+Fecha UTC: 2026-09-04T18:59:44.807099+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
+[movies] Saltado noticia no apta para películas: Llega al cine la primera película que trata la investigación posterior a los atentados del 17A en Cataluña
+[movies] Saltado porque no es estreno 2026: Christopher Nolan permanece en silencio tras 'La Odisea', pero los fans le han encontrado el proyecto perfecto (2023)
+[movies] Saltado noticia no apta para películas: Siempre que veas esta escena de 'Cadena Perpetua' recordarás que tardaron 9 horas en rodarla y Morgan Freeman terminó en el hospital
+[movies] Saltado noticia no apta para películas: "Es un poco complicado para mí": A pesar del éxito de 'La Odisea', Elliot Page no logra encontrar nuevos papeles
+[movies] Saltado noticia no apta para películas: "Me emocioné hasta las lágrimas": 44 años después, Ridley Scott recuerda el rodaje de esta legendaria escena de 'Blade Runner'
+[movies] Saltado noticia no apta para películas: 'Wild Horse Nine' recibe 13 minutos de ovación totalmente merecidos: una película rabiosamente política con John Malkovich haciendo el papel de su carrera
 [movies] Saltado noticia no apta para películas: 500 expertos lo han decidido: esta es la mejor película de ciencia ficción del siglo XXI
 [movies] Saltado noticia no apta para películas: 89 años, 132 películas, 1 Oscar: es uno de los más grandes actores estadounidenses y va a rodar un western con Michael Keaton
+[movies] Saltado noticia no apta para películas: De 'mass media' a 'mass mierda': Danny Boyle inaugura Venecia con 'Ink', un viaje fascinante y aterrador al nacimiento del amarillismo de 'The Sun'
+[movies] Saltado porque no es estreno 2026: 'La bola negra', 'El ser querido' y 'Los Domingos' son las películas españolas preseleccionadas para los Oscar 2027 (2027)
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
@@ -12,21 +20,76 @@ Fecha UTC: 2026-09-04T12:42:45.170312+00:00
 [movies] Saltado noticia no apta para películas: "Era el rey de la telebasura": el cambio de vida de Jaime Bores, el "Brad Pitt español" en los 90 que ahora trabaja en hostelería
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11' ya tiene fecha de estreno en Telecinco: Cuándo y a qué hora se emitirá la nueva edición del 'reality'
 [movies] Saltado noticia no apta para películas: La concursante de 'Supervivientes' que ha estado "dos años sin poder hablar": 15 años después, está irreconocible
+[movies] Saltado noticia no apta para películas: 'Rueda la letra': fecha de estreno, horario, primeros concursantes, pruebas y todo lo que debes saber del nuevo concurso con 'El Rosco'
 [movies] Saltado noticia no apta para películas: Telecinco necesita desesperadamente la llegada de los realitites: Por primera vez en su historia es superada por Cuatro entre semana
 [movies] Saltado noticia no apta para películas: David Broncano: "Según lo que suceda en las próximas elecciones, me podría reemplazar Morante de la Puebla"
 [movies] Saltado noticia no apta para películas: Tras 20 años en antena, un canal mítico de la televisión española cambia de nombre este otoño y vuelve a sus orígenes
 [movies] Saltado noticia no apta para películas: El público dicta sentencia a 'La Mesa': El programa de Cristina Pardo en Antena 3 sorprende, pero repite un error muy común
 [movies] Saltado noticia no apta para películas: El pueblo de Cuenca que ha ganado el 'Grand Prix 2026': Esta es la cantidad de dinero que se ha llevado de premio
-[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3': Fecha de estreno y lista oficial de todos los concursantes confirmados por Telecinco
-[movies] Candidatos encontrados: 35 | Límite: 1
-[YouTube] No se encontró tráiler confiable para Burundanga
-[movies] Saltado porque no tiene tráiler confiable: Burundanga
-[movies] Saltado por tema bloqueado: Cinco segundos
-[IA] Probando proveedor cohere: Cómo robar un banco
-[IA] cohere falló (error): Cohere error 404: {"id":"f73f6e18-6e19-4219-971c-718d873a7d1f","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Cómo robar un banco
+[movies] Candidatos encontrados: 26 | Límite: 1
+[IA] Probando proveedor mistral: El olor a leche quemada
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: El olor a leche quemada
+[IA] cohere falló (error): Cohere error 404: {"id":"2cc70710-85a3-4c91-9c41-174e0d837b18","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: El olor a leche quemada
+[IA] gemini falló (error): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[IA] Probando proveedor groq: El olor a leche quemada
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: El olor a leche quemada
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[movies] Error generando artículo El olor a leche quemada: Todos los proveedores de IA fallaron. [IA] gemini falló (error): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}} | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor gemini: El temps de Montserrat
+[IA] gemini falló (error): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[IA] Probando proveedor groq: El temps de Montserrat
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: El temps de Montserrat
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: El temps de Montserrat
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: El temps de Montserrat
+[IA] cohere falló (error): Cohere error 404: {"id":"623b5430-d7b5-41bb-a6ff-e426133670dc","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[movies] Error generando artículo El temps de Montserrat: Todos los proveedores de IA fallaron. [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}} | [IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429} | [IA] cohere falló (error): Cohere error 404: {"id":"623b5430-d7b5-41bb-a6ff-e426133670dc","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor openai: Enjambre
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: Enjambre
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: Enjambre
+[IA] cohere falló (error): Cohere error 404: {"id":"2af5a975-93a7-427e-82a9-c442ef69bacc","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Enjambre
+[IA] gemini falló (error): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[IA] Probando proveedor groq: Enjambre
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[movies] Error generando artículo Enjambre: Todos los proveedores de IA fallaron. [IA] cohere falló (error): Cohere error 404: {"id":"2af5a975-93a7-427e-82a9-c442ef69bacc","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."} | [IA] gemini falló (error): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}} | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor cohere: Jim Queen
+[IA] cohere falló (error): Cohere error 404: {"id":"8713db6a-b18a-4703-be67-a2553547b6fd","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Jim Queen
+[IA] gemini falló (error): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[IA] Probando proveedor groq: Jim Queen
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: Jim Queen
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: Jim Queen
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[movies] Error generando artículo Jim Queen: Todos los proveedores de IA fallaron. [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}} | [IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[movies] Saltado por tema bloqueado: La conspiración del cuervo
+[IA] Probando proveedor groq: Linkin Park: Unshatter
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: Linkin Park: Unshatter
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: Linkin Park: Unshatter
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: Linkin Park: Unshatter
+[IA] cohere falló (error): Cohere error 404: {"id":"db868e80-6dfa-4255-8a31-4a0f3f044eb0","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Linkin Park: Unshatter
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/como-robar-un-banco-el-atraco-digital-que-veremos-en-2026-2026-09-04-f82d11.md
+[OK] Publicado: src/content/blog/linkin-park-unshatter-el-emocionante-regreso-de-una-leyenda-2026-09-04-de7482.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
