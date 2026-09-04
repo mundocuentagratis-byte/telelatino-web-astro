@@ -1,37 +1,32 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-04T04:25:52.344911+00:00
+Fecha UTC: 2026-09-04T12:42:45.170312+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
-[movies] Saltado noticia no apta para películas: Llega al cine la primera película que trata la investigación posterior a los atentados del 17A en Cataluña
-[movies] Saltado noticia no apta para películas: De 'mass media' a 'mass mierda': Danny Boyle inaugura Venecia con 'Ink', un viaje fascinante y aterrador al nacimiento del amarillismo de 'The Sun'
-[movies] Saltado noticia no apta para películas: 'La bola negra', 'El ser querido' y 'Los Domingos' son las películas españolas preseleccionadas para los Oscar 2027
-[movies] Saltado noticia no apta para películas: Este clásico ha cambiado el cine de aventuras para siempre: a Steven Spielberg le encanta, ha influido en 'Star Wars' y tiene un 100 en 'Rotten Tomatoes'
-[movies] Saltado noticia no apta para películas: Más de 23 millones de visualizaciones en solo un día: El 'thriller' de Robert De Niro se ha convertido en uno de los mayores estrenos del año
-[movies] Saltado noticia no apta para películas: El viaje de Los Javis a 'La bola negra', la película que ya suena para los Oscar: "La creación es un misterio"
-[movies] Saltado noticia no apta para películas: "No me gusta el prejuicio de quien se ríe de los jóvenes y los mira como los atontados de TikTok": llega a los cines 'Cinco segundos', nueva película del italiano Pablo Virci
-[movies] Saltado noticia no apta para películas: Afirma que salvó del desastre a 'Obsession'. Ha demandado a sus compañeros después de recaudar 500 millones y no recibir beneficios
-[movies] Saltado noticia no apta para películas: Zendaya celebra los 30 en el mejor momento de su carrera y su vida personal: "Tengo mucho por lo que estar agradecida"
-[movies] Saltado noticia no apta para películas: Clint Eastwood sabía que eran "películas problemáticas" pero las hizo igualmente: "Tienes que llevar al público en distintas direcciones"
-[movies] Saltado noticia no apta para películas: "Maravillosa, extraordinaria, emotiva y conmovedora": Con una calificación de 4,2 sobre 5, es la mejor película de Dustin Hoffman y ganó 4 premios Oscar
+[movies] Saltado noticia no apta para películas: 500 expertos lo han decidido: esta es la mejor película de ciencia ficción del siglo XXI
+[movies] Saltado noticia no apta para películas: 89 años, 132 películas, 1 Oscar: es uno de los más grandes actores estadounidenses y va a rodar un western con Michael Keaton
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
 [movies] Saltado noticia no apta para películas: El hijo de Michael Douglas que pasó siete años en la cárcel: "Mi padre me hacía repartir porros entre los invitados a sus fiestas"
 [movies] Saltado porque no es estreno 2026: Quién era Alejandro Ponsoda: el alcalde de Polop que fue asesinado y, 19 años después, seguimos sin saber quién fue el culpable (2009)
 [movies] Saltado noticia no apta para películas: "Era el rey de la telebasura": el cambio de vida de Jaime Bores, el "Brad Pitt español" en los 90 que ahora trabaja en hostelería
-[movies] Saltado noticia no apta para películas: La concursante de 'Supervivientes' que ha estado "dos años sin poder hablar": 15 años después, está irreconocible
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11' ya tiene fecha de estreno en Telecinco: Cuándo y a qué hora se emitirá la nueva edición del 'reality'
+[movies] Saltado noticia no apta para películas: La concursante de 'Supervivientes' que ha estado "dos años sin poder hablar": 15 años después, está irreconocible
+[movies] Saltado noticia no apta para películas: Telecinco necesita desesperadamente la llegada de los realitites: Por primera vez en su historia es superada por Cuatro entre semana
 [movies] Saltado noticia no apta para películas: David Broncano: "Según lo que suceda en las próximas elecciones, me podría reemplazar Morante de la Puebla"
 [movies] Saltado noticia no apta para películas: Tras 20 años en antena, un canal mítico de la televisión española cambia de nombre este otoño y vuelve a sus orígenes
+[movies] Saltado noticia no apta para películas: El público dicta sentencia a 'La Mesa': El programa de Cristina Pardo en Antena 3 sorprende, pero repite un error muy común
 [movies] Saltado noticia no apta para películas: El pueblo de Cuenca que ha ganado el 'Grand Prix 2026': Esta es la cantidad de dinero que se ha llevado de premio
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3': Fecha de estreno y lista oficial de todos los concursantes confirmados por Telecinco
-[movies] Saltado noticia no apta para películas: Dos exconcursantes de 'La isla de las tentaciones' dan el salto a un 'reality' internacional: "Es la experiencia más brutal que he vivido"
-[movies] Candidatos encontrados: 27 | Límite: 1
-[IA] Probando proveedor cohere: Black Box: Vuelo 298
-[IA] cohere falló (error): Cohere error 404: {"id":"fa88eb2a-cf94-421d-b320-4217cfc8df95","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Black Box: Vuelo 298
+[movies] Candidatos encontrados: 35 | Límite: 1
+[YouTube] No se encontró tráiler confiable para Burundanga
+[movies] Saltado porque no tiene tráiler confiable: Burundanga
+[movies] Saltado por tema bloqueado: Cinco segundos
+[IA] Probando proveedor cohere: Cómo robar un banco
+[IA] cohere falló (error): Cohere error 404: {"id":"f73f6e18-6e19-4219-971c-718d873a7d1f","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Cómo robar un banco
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/black-box-vuelo-298-un-terrorifico-viaje-hacia-lo-desconocido-2026-09-04-447ab6.md
+[OK] Publicado: src/content/blog/como-robar-un-banco-el-atraco-digital-que-veremos-en-2026-2026-09-04-f82d11.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
