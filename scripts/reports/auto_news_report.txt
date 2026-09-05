@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-04T22:20:59.944279+00:00
+Fecha UTC: 2026-09-05T04:20:40.209892+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: Llega al cine la primera película que trata la investigación posterior a los atentados del 17A en Cataluña
@@ -27,14 +27,18 @@ Fecha UTC: 2026-09-04T22:20:59.944279+00:00
 [movies] Saltado noticia no apta para películas: El público dicta sentencia a 'La Mesa': El programa de Cristina Pardo en Antena 3 sorprende, pero repite un error muy común
 [movies] Saltado noticia no apta para películas: El pueblo de Cuenca que ha ganado el 'Grand Prix 2026': Esta es la cantidad de dinero que se ha llevado de premio
 [movies] Candidatos encontrados: 26 | Límite: 1
-[IA] Probando proveedor mistral: El olor a leche quemada
+[IA] Probando proveedor groq: El temps de Montserrat
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: El temps de Montserrat
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: El temps de Montserrat
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: El olor a leche quemada
-[IA] cohere falló (error): Cohere error 404: {"id":"a9404c4a-f106-4f40-b89f-8fb5024c0d82","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: El olor a leche quemada
+[IA] Probando proveedor cohere: El temps de Montserrat
+[IA] cohere falló (error): Cohere error 404: {"id":"1bb7a528-a34f-4531-823f-4fbe4a64cc7c","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: El temps de Montserrat
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/el-olor-a-leche-quemada-un-drama-rural-que-llega-en-2026-2026-09-04-a1cb91.md
+[OK] Publicado: src/content/blog/el-temps-de-montserrat-un-viaje-intimo-a-la-vida-monastica-2026-09-05-9b5b7d.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
