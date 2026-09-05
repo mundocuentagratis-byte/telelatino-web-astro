@@ -1,44 +1,32 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-05T04:20:40.209892+00:00
+Fecha UTC: 2026-09-05T11:53:11.909036+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: Llega al cine la primera película que trata la investigación posterior a los atentados del 17A en Cataluña
+[movies] Saltado porque no es estreno 2026: "Fue duro, porque es una escena muy intensa y muy violenta": La escena que resume la "orgía estilística" de 'El ser querido' (2027)
+[movies] Saltado noticia no apta para películas: Los primeros 18 segundos de esta película ya revelan por qué sería uno de los peores fracasos de Antonio Banderas
 [movies] Saltado porque no es estreno 2026: Christopher Nolan permanece en silencio tras 'La Odisea', pero los fans le han encontrado el proyecto perfecto (2023)
-[movies] Saltado noticia no apta para películas: Siempre que veas esta escena de 'Cadena Perpetua' recordarás que tardaron 9 horas en rodarla y Morgan Freeman terminó en el hospital
 [movies] Saltado noticia no apta para películas: "Es un poco complicado para mí": A pesar del éxito de 'La Odisea', Elliot Page no logra encontrar nuevos papeles
-[movies] Saltado noticia no apta para películas: "Me emocioné hasta las lágrimas": 44 años después, Ridley Scott recuerda el rodaje de esta legendaria escena de 'Blade Runner'
-[movies] Saltado noticia no apta para películas: 'Wild Horse Nine' recibe 13 minutos de ovación totalmente merecidos: una película rabiosamente política con John Malkovich haciendo el papel de su carrera
 [movies] Saltado noticia no apta para películas: 500 expertos lo han decidido: esta es la mejor película de ciencia ficción del siglo XXI
 [movies] Saltado noticia no apta para películas: 89 años, 132 películas, 1 Oscar: es uno de los más grandes actores estadounidenses y va a rodar un western con Michael Keaton
-[movies] Saltado noticia no apta para películas: De 'mass media' a 'mass mierda': Danny Boyle inaugura Venecia con 'Ink', un viaje fascinante y aterrador al nacimiento del amarillismo de 'The Sun'
-[movies] Saltado porque no es estreno 2026: 'La bola negra', 'El ser querido' y 'Los Domingos' son las películas españolas preseleccionadas para los Oscar 2027 (2027)
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
-[movies] Saltado noticia no apta para películas: El hijo de Michael Douglas que pasó siete años en la cárcel: "Mi padre me hacía repartir porros entre los invitados a sus fiestas"
+[movies] Saltado noticia no apta para películas: 42 años de carrera y el actor más querido: Hoy cumple 62 años uno de los grandes héroes de acción del cine
 [movies] Saltado porque no es estreno 2026: Quién era Alejandro Ponsoda: el alcalde de Polop que fue asesinado y, 19 años después, seguimos sin saber quién fue el culpable (2009)
 [movies] Saltado noticia no apta para películas: "Era el rey de la telebasura": el cambio de vida de Jaime Bores, el "Brad Pitt español" en los 90 que ahora trabaja en hostelería
+[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3': Fecha de estreno y lista oficial de todos los concursantes confirmados por Telecinco
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11' ya tiene fecha de estreno en Telecinco: Cuándo y a qué hora se emitirá la nueva edición del 'reality'
-[movies] Saltado noticia no apta para películas: La concursante de 'Supervivientes' que ha estado "dos años sin poder hablar": 15 años después, está irreconocible
 [movies] Saltado noticia no apta para películas: 'Rueda la letra': fecha de estreno, horario, primeros concursantes, pruebas y todo lo que debes saber del nuevo concurso con 'El Rosco'
 [movies] Saltado noticia no apta para películas: Telecinco necesita desesperadamente la llegada de los realitites: Por primera vez en su historia es superada por Cuatro entre semana
 [movies] Saltado noticia no apta para películas: David Broncano: "Según lo que suceda en las próximas elecciones, me podría reemplazar Morante de la Puebla"
 [movies] Saltado noticia no apta para películas: Tras 20 años en antena, un canal mítico de la televisión española cambia de nombre este otoño y vuelve a sus orígenes
 [movies] Saltado noticia no apta para películas: El público dicta sentencia a 'La Mesa': El programa de Cristina Pardo en Antena 3 sorprende, pero repite un error muy común
 [movies] Saltado noticia no apta para películas: El pueblo de Cuenca que ha ganado el 'Grand Prix 2026': Esta es la cantidad de dinero que se ha llevado de premio
-[movies] Candidatos encontrados: 26 | Límite: 1
-[IA] Probando proveedor groq: El temps de Montserrat
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: El temps de Montserrat
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: El temps de Montserrat
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: El temps de Montserrat
-[IA] cohere falló (error): Cohere error 404: {"id":"1bb7a528-a34f-4531-823f-4fbe4a64cc7c","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: El temps de Montserrat
+[movies] Candidatos encontrados: 30 | Límite: 1
+[IA] Probando proveedor gemini: Enjambre
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/el-temps-de-montserrat-un-viaje-intimo-a-la-vida-monastica-2026-09-05-9b5b7d.md
+[OK] Publicado: src/content/blog/enjambre-el-thriller-rural-que-pondra-a-prueba-tu-libertad-2026-09-05-b09545.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
