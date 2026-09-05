@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-05T18:13:46.401864+00:00
+Fecha UTC: 2026-09-05T22:04:17.060243+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: La escena de 'El ser querido' que Rodrigo Sorogoyen tuvo que eliminar por un simple motivo: "La película duraría 5 minutos más"
@@ -27,22 +27,10 @@ Fecha UTC: 2026-09-05T18:13:46.401864+00:00
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 [IA] Probando proveedor cohere: Jim Queen
-[IA] cohere falló (error): Cohere error 404: {"id":"38068c07-94cb-4432-887f-3982c8eab122","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] cohere falló (error): Cohere error 404: {"id":"167632a8-fbe2-48c4-a5a6-08adcd19c5e4","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
 [IA] Probando proveedor gemini: Jim Queen
-[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 1127 (char 1425)
-[IA] Probando proveedor groq: Jim Queen
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: Jim Queen
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[movies] Error generando artículo Jim Queen: Todos los proveedores de IA fallaron. [IA] gemini falló (error): Expecting ',' delimiter: line 4 column 1127 (char 1425) | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[YouTube] No se encontró tráiler confiable para "Vamos, marica, golpéame": el tenso enfrentamiento que llevó a George Clooney a vetar para siempre a este director
-[movies] Saltado porque no tiene tráiler confiable: "Vamos, marica, golpéame": el tenso enfrentamiento que llevó a George Clooney a vetar para siempre a este director
-[movies] Saltado por tema bloqueado: 'The Basics of Philosophy' no ha gustado en la sala de prensa y lo entiendo: es profundamente depresiva que habla de la muerte de forma directa
-[movies] Saltado por tema bloqueado: El gigantesco agujero de guion de 'Dulce sabor a muerte' que hace que la película no tenga ningún sentido
-[YouTube] No se encontró tráiler confiable para El motivo por el que Luke Skywalker tiene ese nombre en 'Star Wars' es mucho más macabro de lo que imaginas
-[movies] Saltado porque no tiene tráiler confiable: El motivo por el que Luke Skywalker tiene ese nombre en 'Star Wars' es mucho más macabro de lo que imaginas
-[YouTube] No se encontró tráiler confiable para En los 90 decidió no seguir el mismo camino que el resto de estrellas y se mudó a Moscú: ahora es uno de los actores que más trabajan en Hollywood
-[movies] Saltado porque no tiene tráiler confiable: En los 90 decidió no seguir el mismo camino que el resto de estrellas y se mudó a Moscú: ahora es uno de los actores que más trabajan en Hollywood
-[movies] Publicados: 0
-Total películas publicadas: 0
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/jim-queen-la-irreverente-comedia-animada-que-sorprendio-en-cannes-2026-09-05-d569ab.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
