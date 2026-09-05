@@ -1,14 +1,14 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-05T11:53:11.909036+00:00
+Fecha UTC: 2026-09-05T15:08:37.276519+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: Llega al cine la primera película que trata la investigación posterior a los atentados del 17A en Cataluña
+[movies] Saltado noticia no apta para películas: Hoy en Netflix: hora y media de diversión sin frenos con un reparto sensacional
+[movies] Saltado noticia no apta para películas: "Vamos, marica, golpéame": el tenso enfrentamiento que llevó a George Clooney a vetar para siempre a este director
+[movies] Saltado noticia no apta para películas: En los 90 decidió no seguir el mismo camino que el resto de estrellas y se mudó a Moscú: ahora es uno de los actores que más trabajan en Hollywood
+[movies] Saltado porque no es estreno 2026: Hace 36 años, Michael J. Fox debutó en el cine con una “pésima” película de Disney: “Al menos nos echamos unas risas” (2020)
 [movies] Saltado porque no es estreno 2026: "Fue duro, porque es una escena muy intensa y muy violenta": La escena que resume la "orgía estilística" de 'El ser querido' (2027)
-[movies] Saltado noticia no apta para películas: Los primeros 18 segundos de esta película ya revelan por qué sería uno de los peores fracasos de Antonio Banderas
 [movies] Saltado porque no es estreno 2026: Christopher Nolan permanece en silencio tras 'La Odisea', pero los fans le han encontrado el proyecto perfecto (2023)
-[movies] Saltado noticia no apta para películas: "Es un poco complicado para mí": A pesar del éxito de 'La Odisea', Elliot Page no logra encontrar nuevos papeles
-[movies] Saltado noticia no apta para películas: 500 expertos lo han decidido: esta es la mejor película de ciencia ficción del siglo XXI
-[movies] Saltado noticia no apta para películas: 89 años, 132 películas, 1 Oscar: es uno de los más grandes actores estadounidenses y va a rodar un western con Michael Keaton
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
@@ -17,16 +17,25 @@ Fecha UTC: 2026-09-05T11:53:11.909036+00:00
 [movies] Saltado noticia no apta para películas: "Era el rey de la telebasura": el cambio de vida de Jaime Bores, el "Brad Pitt español" en los 90 que ahora trabaja en hostelería
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3': Fecha de estreno y lista oficial de todos los concursantes confirmados por Telecinco
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11' ya tiene fecha de estreno en Telecinco: Cuándo y a qué hora se emitirá la nueva edición del 'reality'
+[movies] Saltado noticia no apta para películas: Jesús Vázquez: "Hubo gente que me hizo perder la ilusión en la televisión, pero el tiempo pone a todo el mundo en su sitio"
+[movies] Saltado noticia no apta para películas: Sacó el primer disco de la historia de 'OT' y triunfó como presentadora, pero acabó creando su propio sello musical para vivir de la música
+[movies] Saltado noticia no apta para películas: David Trigo tiene claro en qué se gastaría el bote de 'Pasapalabra' si lo consigue
 [movies] Saltado noticia no apta para películas: 'Rueda la letra': fecha de estreno, horario, primeros concursantes, pruebas y todo lo que debes saber del nuevo concurso con 'El Rosco'
 [movies] Saltado noticia no apta para películas: Telecinco necesita desesperadamente la llegada de los realitites: Por primera vez en su historia es superada por Cuatro entre semana
 [movies] Saltado noticia no apta para películas: David Broncano: "Según lo que suceda en las próximas elecciones, me podría reemplazar Morante de la Puebla"
-[movies] Saltado noticia no apta para películas: Tras 20 años en antena, un canal mítico de la televisión española cambia de nombre este otoño y vuelve a sus orígenes
-[movies] Saltado noticia no apta para películas: El público dicta sentencia a 'La Mesa': El programa de Cristina Pardo en Antena 3 sorprende, pero repite un error muy común
-[movies] Saltado noticia no apta para películas: El pueblo de Cuenca que ha ganado el 'Grand Prix 2026': Esta es la cantidad de dinero que se ha llevado de premio
-[movies] Candidatos encontrados: 30 | Límite: 1
-[IA] Probando proveedor gemini: Enjambre
+[movies] Candidatos encontrados: 32 | Límite: 1
+[IA] Probando proveedor groq: Entrega al límite
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: Entrega al límite
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: Entrega al límite
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: Entrega al límite
+[IA] cohere falló (error): Cohere error 404: {"id":"e82a9fcb-3748-43b8-856a-8462fbeea198","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Entrega al límite
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/enjambre-el-thriller-rural-que-pondra-a-prueba-tu-libertad-2026-09-05-b09545.md
+[OK] Publicado: src/content/blog/entrega-al-limite-adrenalina-y-supervivencia-con-alan-ritchson-2026-09-05-f3ac09.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
