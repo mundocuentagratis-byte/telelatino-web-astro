@@ -1,13 +1,12 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-05T15:08:37.276519+00:00
+Fecha UTC: 2026-09-05T18:13:46.401864+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
-[movies] Saltado noticia no apta para películas: Llega al cine la primera película que trata la investigación posterior a los atentados del 17A en Cataluña
+[movies] Saltado noticia no apta para películas: La escena de 'El ser querido' que Rodrigo Sorogoyen tuvo que eliminar por un simple motivo: "La película duraría 5 minutos más"
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: hora y media de diversión sin frenos con un reparto sensacional
-[movies] Saltado noticia no apta para películas: "Vamos, marica, golpéame": el tenso enfrentamiento que llevó a George Clooney a vetar para siempre a este director
-[movies] Saltado noticia no apta para películas: En los 90 decidió no seguir el mismo camino que el resto de estrellas y se mudó a Moscú: ahora es uno de los actores que más trabajan en Hollywood
 [movies] Saltado porque no es estreno 2026: Hace 36 años, Michael J. Fox debutó en el cine con una “pésima” película de Disney: “Al menos nos echamos unas risas” (2020)
 [movies] Saltado porque no es estreno 2026: "Fue duro, porque es una escena muy intensa y muy violenta": La escena que resume la "orgía estilística" de 'El ser querido' (2027)
+[movies] Saltado noticia no apta para películas: Los primeros 18 segundos de esta película ya revelan por qué sería uno de los peores fracasos de Antonio Banderas
 [movies] Saltado porque no es estreno 2026: Christopher Nolan permanece en silencio tras 'La Odisea', pero los fans le han encontrado el proyecto perfecto (2023)
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
@@ -24,18 +23,26 @@ Fecha UTC: 2026-09-05T15:08:37.276519+00:00
 [movies] Saltado noticia no apta para películas: Telecinco necesita desesperadamente la llegada de los realitites: Por primera vez en su historia es superada por Cuatro entre semana
 [movies] Saltado noticia no apta para películas: David Broncano: "Según lo que suceda en las próximas elecciones, me podría reemplazar Morante de la Puebla"
 [movies] Candidatos encontrados: 32 | Límite: 1
-[IA] Probando proveedor groq: Entrega al límite
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: Entrega al límite
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Entrega al límite
+[IA] Probando proveedor mistral: Jim Queen
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Entrega al límite
-[IA] cohere falló (error): Cohere error 404: {"id":"e82a9fcb-3748-43b8-856a-8462fbeea198","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Entrega al límite
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/entrega-al-limite-adrenalina-y-supervivencia-con-alan-ritchson-2026-09-05-f3ac09.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[IA] Probando proveedor cohere: Jim Queen
+[IA] cohere falló (error): Cohere error 404: {"id":"38068c07-94cb-4432-887f-3982c8eab122","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Jim Queen
+[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 1127 (char 1425)
+[IA] Probando proveedor groq: Jim Queen
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: Jim Queen
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[movies] Error generando artículo Jim Queen: Todos los proveedores de IA fallaron. [IA] gemini falló (error): Expecting ',' delimiter: line 4 column 1127 (char 1425) | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[YouTube] No se encontró tráiler confiable para "Vamos, marica, golpéame": el tenso enfrentamiento que llevó a George Clooney a vetar para siempre a este director
+[movies] Saltado porque no tiene tráiler confiable: "Vamos, marica, golpéame": el tenso enfrentamiento que llevó a George Clooney a vetar para siempre a este director
+[movies] Saltado por tema bloqueado: 'The Basics of Philosophy' no ha gustado en la sala de prensa y lo entiendo: es profundamente depresiva que habla de la muerte de forma directa
+[movies] Saltado por tema bloqueado: El gigantesco agujero de guion de 'Dulce sabor a muerte' que hace que la película no tenga ningún sentido
+[YouTube] No se encontró tráiler confiable para El motivo por el que Luke Skywalker tiene ese nombre en 'Star Wars' es mucho más macabro de lo que imaginas
+[movies] Saltado porque no tiene tráiler confiable: El motivo por el que Luke Skywalker tiene ese nombre en 'Star Wars' es mucho más macabro de lo que imaginas
+[YouTube] No se encontró tráiler confiable para En los 90 decidió no seguir el mismo camino que el resto de estrellas y se mudó a Moscú: ahora es uno de los actores que más trabajan en Hollywood
+[movies] Saltado porque no tiene tráiler confiable: En los 90 decidió no seguir el mismo camino que el resto de estrellas y se mudó a Moscú: ahora es uno de los actores que más trabajan en Hollywood
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
