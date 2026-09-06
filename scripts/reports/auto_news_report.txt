@@ -1,42 +1,39 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-06T04:32:01.700013+00:00
+Fecha UTC: 2026-09-06T12:08:04.094667+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
+[movies] Saltado noticia no apta para películas: Llega al cine la primera película que trata la investigación posterior a los atentados del 17A en Cataluña
+[movies] Saltado noticia no apta para películas: Así cambia Steven Spielberg su forma de dirigir cuando trabaja con niños: "Tienes que elegir entre la mano de tu madre o tu avión"
+[movies] Saltado noticia no apta para películas: Solo 40 días para una de las películas de artes marciales del año: Una adaptación del videojuego que ha vendido más de 59 millones de unidades
+[movies] Saltado porque no es estreno 2026: 3 meses después de pasar por cines por debajo de las expectativas, se estrena la última aventura de una de las mejores franquicias de ciencia ficción (2027)
+[movies] Saltado noticia no apta para películas: 11 estrenos en Netflix: esta semana, una ácida comedia española sobre la toxicidad laboral y un thriller criminal de altos vuelos
+[movies] Saltado noticia no apta para películas: El motivo por el que Luke Skywalker tiene ese nombre en 'Star Wars' es mucho más macabro de lo que imaginas
 [movies] Saltado noticia no apta para películas: La escena de 'El ser querido' que Rodrigo Sorogoyen tuvo que eliminar por un simple motivo: "La película duraría 5 minutos más"
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: hora y media de diversión sin frenos con un reparto sensacional
-[movies] Saltado porque no es estreno 2026: Hace 36 años, Michael J. Fox debutó en el cine con una “pésima” película de Disney: “Al menos nos echamos unas risas” (2020)
-[movies] Saltado porque no es estreno 2026: "Fue duro, porque es una escena muy intensa y muy violenta": La escena que resume la "orgía estilística" de 'El ser querido' (2027)
-[movies] Saltado noticia no apta para películas: Los primeros 18 segundos de esta película ya revelan por qué sería uno de los peores fracasos de Antonio Banderas
-[movies] Saltado porque no es estreno 2026: Christopher Nolan permanece en silencio tras 'La Odisea', pero los fans le han encontrado el proyecto perfecto (2023)
+[movies] Saltado noticia no apta para películas: "Vamos, marica, golpéame": el tenso enfrentamiento que llevó a George Clooney a vetar para siempre a este director
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
 [movies] Saltado noticia no apta para películas: 42 años de carrera y el actor más querido: Hoy cumple 62 años uno de los grandes héroes de acción del cine
+[movies] Saltado noticia no apta para películas: Tras 20 años en antena, un canal mítico de la televisión española cambia de nombre este otoño y vuelve a sus orígenes
 [movies] Saltado porque no es estreno 2026: Quién era Alejandro Ponsoda: el alcalde de Polop que fue asesinado y, 19 años después, seguimos sin saber quién fue el culpable (2009)
-[movies] Saltado noticia no apta para películas: "Era el rey de la telebasura": el cambio de vida de Jaime Bores, el "Brad Pitt español" en los 90 que ahora trabaja en hostelería
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3': Fecha de estreno y lista oficial de todos los concursantes confirmados por Telecinco
-[movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11' ya tiene fecha de estreno en Telecinco: Cuándo y a qué hora se emitirá la nueva edición del 'reality'
-[movies] Saltado noticia no apta para películas: Jesús Vázquez: "Hubo gente que me hizo perder la ilusión en la televisión, pero el tiempo pone a todo el mundo en su sitio"
-[movies] Saltado noticia no apta para películas: Sacó el primer disco de la historia de 'OT' y triunfó como presentadora, pero acabó creando su propio sello musical para vivir de la música
 [movies] Saltado noticia no apta para películas: David Trigo tiene claro en qué se gastaría el bote de 'Pasapalabra' si lo consigue
-[movies] Saltado noticia no apta para películas: 'Rueda la letra': fecha de estreno, horario, primeros concursantes, pruebas y todo lo que debes saber del nuevo concurso con 'El Rosco'
-[movies] Saltado noticia no apta para películas: Telecinco necesita desesperadamente la llegada de los realitites: Por primera vez en su historia es superada por Cuatro entre semana
-[movies] Saltado noticia no apta para películas: David Broncano: "Según lo que suceda en las próximas elecciones, me podría reemplazar Morante de la Puebla"
-[movies] Candidatos encontrados: 32 | Límite: 1
+[movies] Candidatos encontrados: 37 | Límite: 1
 [IA] Probando proveedor mistral: Las 3000 maravillas
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 [IA] Probando proveedor cohere: Las 3000 maravillas
-[IA] cohere falló (error): Cohere error 404: {"id":"0e0279f2-f61c-401e-93c7-feec7c7f5d8b","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] cohere falló (error): Cohere error 404: {"id":"4c375727-df6b-4a27-b733-9ba5fff119ab","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
 [IA] Probando proveedor gemini: Las 3000 maravillas
-[IA] gemini falló (cuota): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 46.932097746s.', 'status': 'RESOURCE_EXHAUSTED
+[IA] gemini falló (error): Expecting ':' delimiter: line 6 column 1 (char 4125)
 [IA] Probando proveedor groq: Las 3000 maravillas
 [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
 [IA] Probando proveedor openai: Las 3000 maravillas
 [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[movies] Error generando artículo Las 3000 maravillas: Todos los proveedores de IA fallaron. [IA] gemini falló (cuota): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 46.932097746s.', 'status': 'RESOURCE_EXHAUSTED | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[movies] Error generando artículo Las 3000 maravillas: Todos los proveedores de IA fallaron. [IA] gemini falló (error): Expecting ':' delimiter: line 6 column 1 (char 4125) | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
 [IA] Probando proveedor gemini: Onslaught
-[IA] gemini falló (cuota): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 44.531861452s.', 'status': 'RESOURCE_EXHAUSTED
+[IA] gemini falló (error): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
 [IA] Probando proveedor groq: Onslaught
 [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
 [IA] Probando proveedor openai: Onslaught
@@ -45,9 +42,25 @@ Fecha UTC: 2026-09-06T04:32:01.700013+00:00
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 [IA] Probando proveedor cohere: Onslaught
-[IA] cohere falló (error): Cohere error 404: {"id":"b5cacc0e-3f09-4e24-a032-7c550ada3665","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] cohere falló (error): Cohere error 404: {"id":"930a0885-0abe-45f1-9bb3-5f11a25caa67","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
 [movies] Error generando artículo Onslaught: Todos los proveedores de IA fallaron. [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}} | [IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429} | [IA] cohere falló (error): Cohere error 404: {"id":"b5cacc0e-3f09-4e24-a032-7c550ada3665","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429} | [IA] cohere falló (error): Cohere error 404: {"id":"930a0885-0abe-45f1-9bb3-5f11a25caa67","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[YouTube] No se encontró tráiler confiable para "Era el rey de la telebasura": el cambio de vida de Jaime Bores, el "Brad Pitt español" en los 90 que ahora trabaja en hostelería
+[movies] Saltado porque no tiene tráiler confiable: "Era el rey de la telebasura": el cambio de vida de Jaime Bores, el "Brad Pitt español" en los 90 que ahora trabaja en hostelería
+[YouTube] No se encontró tráiler confiable para El rincón de España que es el refugio de Roberto Leal desde hace años: "Un sí rotundo"
+[movies] Saltado porque no tiene tráiler confiable: El rincón de España que es el refugio de Roberto Leal desde hace años: "Un sí rotundo"
+[YouTube] No se encontró tráiler confiable para Hace 18 años que desapareció de la televisión, pero Inma del Moral no se arrepiente de haber dicho que "no": "He seleccionado un montón"
+[movies] Saltado porque no tiene tráiler confiable: Hace 18 años que desapareció de la televisión, pero Inma del Moral no se arrepiente de haber dicho que "no": "He seleccionado un montón"
+[YouTube] No se encontró tráiler confiable para Jesús Vázquez: "Hubo gente que me hizo perder la ilusión en la televisión, pero el tiempo pone a todo el mundo en su sitio"
+[movies] Saltado porque no tiene tráiler confiable: Jesús Vázquez: "Hubo gente que me hizo perder la ilusión en la televisión, pero el tiempo pone a todo el mundo en su sitio"
+[YouTube] No se encontró tráiler confiable para La hija de Tom Cruise no quiere su apellido, pero no dejar de ser ‘nepo baby’: con 20 años ya debuta como actriz
+[movies] Saltado porque no tiene tráiler confiable: La hija de Tom Cruise no quiere su apellido, pero no dejar de ser ‘nepo baby’: con 20 años ya debuta como actriz
+[YouTube] No se encontró tráiler confiable para La pareja que salió de 'Gran Hermano' y casi nadie se acuerda de ella: más de 20 años juntos e hijos en común
+[movies] Saltado porque no tiene tráiler confiable: La pareja que salió de 'Gran Hermano' y casi nadie se acuerda de ella: más de 20 años juntos e hijos en común
+[YouTube] No se encontró tráiler confiable para Sacó el primer disco de la historia de 'OT' y triunfó como presentadora, pero acabó creando su propio sello musical para vivir de la música
+[movies] Saltado porque no tiene tráiler confiable: Sacó el primer disco de la historia de 'OT' y triunfó como presentadora, pero acabó creando su propio sello musical para vivir de la música
+[YouTube] No se encontró tráiler confiable para “Un caballero en todos los sentidos… salvo si tenías una aventura con él”: sus canciones le ayudaron a alcanzar la fama, pero nunca pasaron de ser amigos
+[movies] Saltado porque no tiene tráiler confiable: “Un caballero en todos los sentidos… salvo si tenías una aventura con él”: sus canciones le ayudaron a alcanzar la fama, pero nunca pasaron de ser amigos
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
