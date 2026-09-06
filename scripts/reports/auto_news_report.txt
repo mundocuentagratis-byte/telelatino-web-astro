@@ -1,16 +1,24 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-06T18:16:20.984754+00:00
+Fecha UTC: 2026-09-06T22:06:54.776409+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
+[movies] Saltado porque no es estreno 2026: La Bola Negra (2000)
+[movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (2000)
+[movies] Saltado porque no es estreno 2026: Oasis: Don't Look Back In Anger (2000)
+[movies] Saltado porque no es estreno 2026: En el corazón de la bestia (2000)
+[movies] Saltado porque no es estreno 2026: Prácticamente magia 2 (2000)
+[movies] Saltado porque no es estreno 2026: En la zona gris (2000)
+[movies] Saltado porque no es estreno 2026: Entrega al límite (2000)
+[movies] Saltado porque no es estreno 2026: Las 3000 maravillas (2000)
+[movies] Saltado porque no es estreno 2026: Onslaught (2000)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
-[movies] Saltado noticia no apta para películas: Llega al cine la primera película que trata la investigación posterior a los atentados del 17A en Cataluña
-[movies] Saltado noticia no apta para películas: Así cambia Steven Spielberg su forma de dirigir cuando trabaja con niños: "Tienes que elegir entre la mano de tu madre o tu avión"
-[movies] Saltado noticia no apta para películas: Solo 40 días para una de las películas de artes marciales del año: Una adaptación del videojuego que ha vendido más de 59 millones de unidades
+[movies] Saltado porque no es estreno 2026: La Odisea (2000)
+[movies] Saltado porque no es estreno 2026: Insidious: Fuera del más allá (2000)
+[movies] Saltado porque no es estreno 2026: La constelación del perro (2000)
+[movies] Saltado porque no es estreno 2026: Robert Pattinson protagoniza la película más comentada de Venecia: una potente propuesta acerca de un 'atrapa pedófilos' de los primeros 2000 (2000)
+[movies] Saltado noticia no apta para películas: 'Dulce sabor a muerte' tiene una crítica social entre todo el gore, pero para entenderla tendrás que conocer su final explicado
 [movies] Saltado porque no es estreno 2026: 3 meses después de pasar por cines por debajo de las expectativas, se estrena la última aventura de una de las mejores franquicias de ciencia ficción (2027)
 [movies] Saltado noticia no apta para películas: 11 estrenos en Netflix: esta semana, una ácida comedia española sobre la toxicidad laboral y un thriller criminal de altos vuelos
 [movies] Saltado noticia no apta para películas: El motivo por el que Luke Skywalker tiene ese nombre en 'Star Wars' es mucho más macabro de lo que imaginas
-[movies] Saltado noticia no apta para películas: La escena de 'El ser querido' que Rodrigo Sorogoyen tuvo que eliminar por un simple motivo: "La película duraría 5 minutos más"
-[movies] Saltado noticia no apta para películas: Hoy en Netflix: hora y media de diversión sin frenos con un reparto sensacional
-[movies] Saltado noticia no apta para películas: "Vamos, marica, golpéame": el tenso enfrentamiento que llevó a George Clooney a vetar para siempre a este director
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
@@ -19,10 +27,17 @@ Fecha UTC: 2026-09-06T18:16:20.984754+00:00
 [movies] Saltado porque no es estreno 2026: Quién era Alejandro Ponsoda: el alcalde de Polop que fue asesinado y, 19 años después, seguimos sin saber quién fue el culpable (2009)
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3': Fecha de estreno y lista oficial de todos los concursantes confirmados por Telecinco
 [movies] Saltado noticia no apta para películas: David Trigo tiene claro en qué se gastaría el bote de 'Pasapalabra' si lo consigue
-[movies] Candidatos encontrados: 37 | Límite: 1
-[IA] Probando proveedor gemini: Onslaught
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/onslaught-adrenalina-y-supervivencia-al-limite-de-adam-wingard-2026-09-06-4449ff.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[movies] Candidatos encontrados: 29 | Límite: 1
+[YouTube] No se encontró tráiler confiable para Andy Serkis basó su voz del personaje de Gollum en 'El señor de los anillos' en un simple gatito
+[movies] Saltado porque no tiene tráiler confiable: Andy Serkis basó su voz del personaje de Gollum en 'El señor de los anillos' en un simple gatito
+[YouTube] No se encontró tráiler confiable para Así cambia Steven Spielberg su forma de dirigir cuando trabaja con niños: "Tienes que elegir entre la mano de tu madre o tu avión"
+[movies] Saltado porque no tiene tráiler confiable: Así cambia Steven Spielberg su forma de dirigir cuando trabaja con niños: "Tienes que elegir entre la mano de tu madre o tu avión"
+[YouTube] No se encontró tráiler confiable para La escena de 'El ser querido' que Rodrigo Sorogoyen tuvo que eliminar por un simple motivo: "La película duraría 5 minutos más"
+[movies] Saltado porque no tiene tráiler confiable: La escena de 'El ser querido' que Rodrigo Sorogoyen tuvo que eliminar por un simple motivo: "La película duraría 5 minutos más"
+[YouTube] No se encontró tráiler confiable para Pausa este clásico de John Ford en el segundo 1:10:30 y descubre el gazapo más grande de una obra maestra
+[movies] Saltado porque no tiene tráiler confiable: Pausa este clásico de John Ford en el segundo 1:10:30 y descubre el gazapo más grande de una obra maestra
+[YouTube] No se encontró tráiler confiable para Solo 40 días para una de las películas de artes marciales del año: Una adaptación del videojuego que ha vendido más de 59 millones de unidades
+[movies] Saltado porque no tiene tráiler confiable: Solo 40 días para una de las películas de artes marciales del año: Una adaptación del videojuego que ha vendido más de 59 millones de unidades
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
