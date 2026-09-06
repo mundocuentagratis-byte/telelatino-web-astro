@@ -1,16 +1,11 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-06T12:08:04.094667+00:00
+Fecha UTC: 2026-09-06T15:26:43.027840+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: Llega al cine la primera película que trata la investigación posterior a los atentados del 17A en Cataluña
 [movies] Saltado noticia no apta para películas: Así cambia Steven Spielberg su forma de dirigir cuando trabaja con niños: "Tienes que elegir entre la mano de tu madre o tu avión"
-[movies] Saltado noticia no apta para películas: Solo 40 días para una de las películas de artes marciales del año: Una adaptación del videojuego que ha vendido más de 59 millones de unidades
 [movies] Saltado porque no es estreno 2026: 3 meses después de pasar por cines por debajo de las expectativas, se estrena la última aventura de una de las mejores franquicias de ciencia ficción (2027)
 [movies] Saltado noticia no apta para películas: 11 estrenos en Netflix: esta semana, una ácida comedia española sobre la toxicidad laboral y un thriller criminal de altos vuelos
-[movies] Saltado noticia no apta para películas: El motivo por el que Luke Skywalker tiene ese nombre en 'Star Wars' es mucho más macabro de lo que imaginas
-[movies] Saltado noticia no apta para películas: La escena de 'El ser querido' que Rodrigo Sorogoyen tuvo que eliminar por un simple motivo: "La película duraría 5 minutos más"
-[movies] Saltado noticia no apta para películas: Hoy en Netflix: hora y media de diversión sin frenos con un reparto sensacional
-[movies] Saltado noticia no apta para películas: "Vamos, marica, golpéame": el tenso enfrentamiento que llevó a George Clooney a vetar para siempre a este director
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
@@ -19,48 +14,15 @@ Fecha UTC: 2026-09-06T12:08:04.094667+00:00
 [movies] Saltado porque no es estreno 2026: Quién era Alejandro Ponsoda: el alcalde de Polop que fue asesinado y, 19 años después, seguimos sin saber quién fue el culpable (2009)
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3': Fecha de estreno y lista oficial de todos los concursantes confirmados por Telecinco
 [movies] Saltado noticia no apta para películas: David Trigo tiene claro en qué se gastaría el bote de 'Pasapalabra' si lo consigue
-[movies] Candidatos encontrados: 37 | Límite: 1
+[movies] Candidatos encontrados: 40 | Límite: 1
 [IA] Probando proveedor mistral: Las 3000 maravillas
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 [IA] Probando proveedor cohere: Las 3000 maravillas
-[IA] cohere falló (error): Cohere error 404: {"id":"4c375727-df6b-4a27-b733-9ba5fff119ab","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] cohere falló (error): Cohere error 404: {"id":"a2deecfc-247c-45f3-a3f6-f2996c72a0c3","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
 [IA] Probando proveedor gemini: Las 3000 maravillas
-[IA] gemini falló (error): Expecting ':' delimiter: line 6 column 1 (char 4125)
-[IA] Probando proveedor groq: Las 3000 maravillas
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: Las 3000 maravillas
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[movies] Error generando artículo Las 3000 maravillas: Todos los proveedores de IA fallaron. [IA] gemini falló (error): Expecting ':' delimiter: line 6 column 1 (char 4125) | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor gemini: Onslaught
-[IA] gemini falló (error): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
-[IA] Probando proveedor groq: Onslaught
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: Onslaught
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Onslaught
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Onslaught
-[IA] cohere falló (error): Cohere error 404: {"id":"930a0885-0abe-45f1-9bb3-5f11a25caa67","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[movies] Error generando artículo Onslaught: Todos los proveedores de IA fallaron. [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}} | [IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429} | [IA] cohere falló (error): Cohere error 404: {"id":"930a0885-0abe-45f1-9bb3-5f11a25caa67","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[YouTube] No se encontró tráiler confiable para "Era el rey de la telebasura": el cambio de vida de Jaime Bores, el "Brad Pitt español" en los 90 que ahora trabaja en hostelería
-[movies] Saltado porque no tiene tráiler confiable: "Era el rey de la telebasura": el cambio de vida de Jaime Bores, el "Brad Pitt español" en los 90 que ahora trabaja en hostelería
-[YouTube] No se encontró tráiler confiable para El rincón de España que es el refugio de Roberto Leal desde hace años: "Un sí rotundo"
-[movies] Saltado porque no tiene tráiler confiable: El rincón de España que es el refugio de Roberto Leal desde hace años: "Un sí rotundo"
-[YouTube] No se encontró tráiler confiable para Hace 18 años que desapareció de la televisión, pero Inma del Moral no se arrepiente de haber dicho que "no": "He seleccionado un montón"
-[movies] Saltado porque no tiene tráiler confiable: Hace 18 años que desapareció de la televisión, pero Inma del Moral no se arrepiente de haber dicho que "no": "He seleccionado un montón"
-[YouTube] No se encontró tráiler confiable para Jesús Vázquez: "Hubo gente que me hizo perder la ilusión en la televisión, pero el tiempo pone a todo el mundo en su sitio"
-[movies] Saltado porque no tiene tráiler confiable: Jesús Vázquez: "Hubo gente que me hizo perder la ilusión en la televisión, pero el tiempo pone a todo el mundo en su sitio"
-[YouTube] No se encontró tráiler confiable para La hija de Tom Cruise no quiere su apellido, pero no dejar de ser ‘nepo baby’: con 20 años ya debuta como actriz
-[movies] Saltado porque no tiene tráiler confiable: La hija de Tom Cruise no quiere su apellido, pero no dejar de ser ‘nepo baby’: con 20 años ya debuta como actriz
-[YouTube] No se encontró tráiler confiable para La pareja que salió de 'Gran Hermano' y casi nadie se acuerda de ella: más de 20 años juntos e hijos en común
-[movies] Saltado porque no tiene tráiler confiable: La pareja que salió de 'Gran Hermano' y casi nadie se acuerda de ella: más de 20 años juntos e hijos en común
-[YouTube] No se encontró tráiler confiable para Sacó el primer disco de la historia de 'OT' y triunfó como presentadora, pero acabó creando su propio sello musical para vivir de la música
-[movies] Saltado porque no tiene tráiler confiable: Sacó el primer disco de la historia de 'OT' y triunfó como presentadora, pero acabó creando su propio sello musical para vivir de la música
-[YouTube] No se encontró tráiler confiable para “Un caballero en todos los sentidos… salvo si tenías una aventura con él”: sus canciones le ayudaron a alcanzar la fama, pero nunca pasaron de ser amigos
-[movies] Saltado porque no tiene tráiler confiable: “Un caballero en todos los sentidos… salvo si tenías una aventura con él”: sus canciones le ayudaron a alcanzar la fama, pero nunca pasaron de ser amigos
-[movies] Publicados: 0
-Total películas publicadas: 0
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/las-3000-maravillas-comedia-sevillana-entre-otakus-y-barrios-peligrosos-2026-09-06-3415a6.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
