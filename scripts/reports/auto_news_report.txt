@@ -1,15 +1,15 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-06T22:06:54.776409+00:00
+Fecha UTC: 2026-09-07T04:31:30.974894+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: La Bola Negra (2000)
-[movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (2000)
 [movies] Saltado porque no es estreno 2026: Oasis: Don't Look Back In Anger (2000)
-[movies] Saltado porque no es estreno 2026: En el corazón de la bestia (2000)
+[movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (2000)
 [movies] Saltado porque no es estreno 2026: Prácticamente magia 2 (2000)
-[movies] Saltado porque no es estreno 2026: En la zona gris (2000)
+[movies] Saltado porque no es estreno 2026: En el corazón de la bestia (2000)
+[movies] Saltado porque no es estreno 2026: Resident Evil (2000)
 [movies] Saltado porque no es estreno 2026: Entrega al límite (2000)
-[movies] Saltado porque no es estreno 2026: Las 3000 maravillas (2000)
 [movies] Saltado porque no es estreno 2026: Onslaught (2000)
+[movies] Saltado porque no es estreno 2026: En la zona gris (2000)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado porque no es estreno 2026: La Odisea (2000)
 [movies] Saltado porque no es estreno 2026: Insidious: Fuera del más allá (2000)
@@ -28,16 +28,6 @@ Fecha UTC: 2026-09-06T22:06:54.776409+00:00
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3': Fecha de estreno y lista oficial de todos los concursantes confirmados por Telecinco
 [movies] Saltado noticia no apta para películas: David Trigo tiene claro en qué se gastaría el bote de 'Pasapalabra' si lo consigue
 [movies] Candidatos encontrados: 29 | Límite: 1
-[YouTube] No se encontró tráiler confiable para Andy Serkis basó su voz del personaje de Gollum en 'El señor de los anillos' en un simple gatito
-[movies] Saltado porque no tiene tráiler confiable: Andy Serkis basó su voz del personaje de Gollum en 'El señor de los anillos' en un simple gatito
-[YouTube] No se encontró tráiler confiable para Así cambia Steven Spielberg su forma de dirigir cuando trabaja con niños: "Tienes que elegir entre la mano de tu madre o tu avión"
-[movies] Saltado porque no tiene tráiler confiable: Así cambia Steven Spielberg su forma de dirigir cuando trabaja con niños: "Tienes que elegir entre la mano de tu madre o tu avión"
-[YouTube] No se encontró tráiler confiable para La escena de 'El ser querido' que Rodrigo Sorogoyen tuvo que eliminar por un simple motivo: "La película duraría 5 minutos más"
-[movies] Saltado porque no tiene tráiler confiable: La escena de 'El ser querido' que Rodrigo Sorogoyen tuvo que eliminar por un simple motivo: "La película duraría 5 minutos más"
-[YouTube] No se encontró tráiler confiable para Pausa este clásico de John Ford en el segundo 1:10:30 y descubre el gazapo más grande de una obra maestra
-[movies] Saltado porque no tiene tráiler confiable: Pausa este clásico de John Ford en el segundo 1:10:30 y descubre el gazapo más grande de una obra maestra
-[YouTube] No se encontró tráiler confiable para Solo 40 días para una de las películas de artes marciales del año: Una adaptación del videojuego que ha vendido más de 59 millones de unidades
-[movies] Saltado porque no tiene tráiler confiable: Solo 40 días para una de las películas de artes marciales del año: Una adaptación del videojuego que ha vendido más de 59 millones de unidades
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
