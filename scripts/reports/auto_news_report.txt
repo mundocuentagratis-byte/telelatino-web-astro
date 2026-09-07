@@ -1,44 +1,33 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-07T14:14:47.139732+00:00
+Fecha UTC: 2026-09-07T19:59:58.128929+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
-[movies] Saltado porque no es estreno 2026: La Bola Negra (2000)
-[movies] Saltado porque no es estreno 2026: Oasis: Don't Look Back In Anger (2000)
-[movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (2000)
-[movies] Saltado porque no es estreno 2026: Prácticamente magia 2 (2000)
-[movies] Saltado porque no es estreno 2026: En el corazón de la bestia (2000)
-[movies] Saltado porque no es estreno 2026: Resident Evil (2000)
-[movies] Saltado porque no es estreno 2026: Entrega al límite (2000)
-[movies] Saltado porque no es estreno 2026: Onslaught (2000)
-[movies] Saltado porque no es estreno 2026: En la zona gris (2000)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
-[movies] Saltado porque no es estreno 2026: La Odisea (2000)
-[movies] Saltado porque no es estreno 2026: Insidious: Fuera del más allá (2000)
-[movies] Saltado porque no es estreno 2026: La constelación del perro (2000)
-[movies] Saltado porque no es estreno 2026: La única saga de ciencia ficción que ha rivalizado con Star Wars cumple 60 años y sigue tan viva como siempre (2016)
-[movies] Saltado noticia no apta para películas: Sólo tienes 4 días para ver en Netflix una película de terror tan desmadrada que la amas o la odias
-[movies] Saltado noticia no apta para películas: Solo una película en toda la historia había conseguido este récord: ahora 'Spider-Man: Brand New Day' acaba de alcanzarlo
-[movies] Saltado noticia no apta para películas: 'Possible Love', posiblemente, es la mejor película del festival de Venecia 2026
 [movies] Saltado porque no es estreno 2026: Robert Pattinson protagoniza la película más comentada de Venecia: una potente propuesta acerca de un 'atrapa pedófilos' de los primeros 2000 (2000)
-[movies] Saltado noticia no apta para películas: Pausa este clásico de John Ford en el segundo 1:10:30 y descubre el gazapo más grande de una obra maestra
-[movies] Saltado noticia no apta para películas: La interpretación de Andy Serkis como Gollum es mítica, pero le mirarás con otros ojos después de conocer su preparación
 [movies] Saltado noticia no apta para películas: 'Dulce sabor a muerte' tiene una crítica social entre todo el gore, pero para entenderla tendrás que conocer su final explicado
-[movies] Saltado noticia no apta para películas: Así cambia Steven Spielberg su forma de dirigir cuando trabaja con niños: "Tienes que elegir entre la mano de tu madre o tu avión"
-[movies] Saltado noticia no apta para películas: Solo 40 días para una de las películas de artes marciales del año: Una adaptación del videojuego que ha vendido más de 59 millones de unidades
+[movies] Saltado porque no es estreno 2026: 3 meses después de pasar por cines por debajo de las expectativas, se estrena la última aventura de una de las mejores franquicias de ciencia ficción (2027)
+[movies] Saltado noticia no apta para películas: 11 estrenos en Netflix: esta semana, una ácida comedia española sobre la toxicidad laboral y un thriller criminal de altos vuelos
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
 [movies] Saltado noticia no apta para películas: 42 años de carrera y el actor más querido: Hoy cumple 62 años uno de los grandes héroes de acción del cine
+[movies] Saltado noticia no apta para películas: Tras 20 años en antena, un canal mítico de la televisión española cambia de nombre este otoño y vuelve a sus orígenes
 [movies] Saltado porque no es estreno 2026: Quién era Alejandro Ponsoda: el alcalde de Polop que fue asesinado y, 19 años después, seguimos sin saber quién fue el culpable (2009)
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3': Fecha de estreno y lista oficial de todos los concursantes confirmados por Telecinco
-[movies] Saltado noticia no apta para películas: Hace 18 años que desapareció de la televisión, pero Inma del Moral no se arrepiente de haber dicho que "no": "He seleccionado un montón"
-[movies] Saltado noticia no apta para películas: El rincón de España que es el refugio de Roberto Leal desde hace años: "Un sí rotundo"
-[movies] Saltado noticia no apta para películas: Jesús Vázquez: "Hubo gente que me hizo perder la ilusión en la televisión, pero el tiempo pone a todo el mundo en su sitio"
-[movies] Candidatos encontrados: 20 | Límite: 1
-[movies] Saltado por tema bloqueado: 'Predator' es en realidad la secuela secreta de otro éxito de Arnold Schwarzenegger: “Es el mismo personaje”
-[movies] Saltado por tema bloqueado: Dos directores grabaron en secreto a Elizabeth Holmes antes de entrar en la cárcel: Acaban de revelar su documental sobre una de las mayores estafadoras de la historia
-[movies] Saltado por tema bloqueado: El peor robo del siglo lo protagonizan los Ibáñez: llega a cines la nueva comedia familiar de Leo Harlem y Jordi Sánchez, 'Un plan perfecto'
-[YouTube] No se encontró tráiler confiable para Tras 20 años en antena, un canal mítico de la televisión española cambia de nombre este otoño y vuelve a sus orígenes
-[movies] Saltado porque no tiene tráiler confiable: Tras 20 años en antena, un canal mítico de la televisión española cambia de nombre este otoño y vuelve a sus orígenes
+[movies] Saltado noticia no apta para películas: David Trigo tiene claro en qué se gastaría el bote de 'Pasapalabra' si lo consigue
+[movies] Candidatos encontrados: 41 | Límite: 1
+[IA] Probando proveedor groq: Resident Evil
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: Resident Evil
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: Resident Evil
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: Resident Evil
+[IA] cohere falló (error): Cohere error 404: {"id":"fc77033d-ee93-4fbd-b4fd-8844d0e70e74","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Resident Evil
+[IA] gemini falló (error): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[movies] Error generando artículo Resident Evil: Todos los proveedores de IA fallaron. [IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429} | [IA] cohere falló (error): Cohere error 404: {"id":"fc77033d-ee93-4fbd-b4fd-8844d0e70e74","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."} | [IA] gemini falló (error): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
