@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-07T04:31:30.974894+00:00
+Fecha UTC: 2026-09-07T14:14:47.139732+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: La Bola Negra (2000)
 [movies] Saltado porque no es estreno 2026: Oasis: Don't Look Back In Anger (2000)
@@ -14,20 +14,31 @@ Fecha UTC: 2026-09-07T04:31:30.974894+00:00
 [movies] Saltado porque no es estreno 2026: La Odisea (2000)
 [movies] Saltado porque no es estreno 2026: Insidious: Fuera del más allá (2000)
 [movies] Saltado porque no es estreno 2026: La constelación del perro (2000)
+[movies] Saltado porque no es estreno 2026: La única saga de ciencia ficción que ha rivalizado con Star Wars cumple 60 años y sigue tan viva como siempre (2016)
+[movies] Saltado noticia no apta para películas: Sólo tienes 4 días para ver en Netflix una película de terror tan desmadrada que la amas o la odias
+[movies] Saltado noticia no apta para películas: Solo una película en toda la historia había conseguido este récord: ahora 'Spider-Man: Brand New Day' acaba de alcanzarlo
+[movies] Saltado noticia no apta para películas: 'Possible Love', posiblemente, es la mejor película del festival de Venecia 2026
 [movies] Saltado porque no es estreno 2026: Robert Pattinson protagoniza la película más comentada de Venecia: una potente propuesta acerca de un 'atrapa pedófilos' de los primeros 2000 (2000)
+[movies] Saltado noticia no apta para películas: Pausa este clásico de John Ford en el segundo 1:10:30 y descubre el gazapo más grande de una obra maestra
+[movies] Saltado noticia no apta para películas: La interpretación de Andy Serkis como Gollum es mítica, pero le mirarás con otros ojos después de conocer su preparación
 [movies] Saltado noticia no apta para películas: 'Dulce sabor a muerte' tiene una crítica social entre todo el gore, pero para entenderla tendrás que conocer su final explicado
-[movies] Saltado porque no es estreno 2026: 3 meses después de pasar por cines por debajo de las expectativas, se estrena la última aventura de una de las mejores franquicias de ciencia ficción (2027)
-[movies] Saltado noticia no apta para películas: 11 estrenos en Netflix: esta semana, una ácida comedia española sobre la toxicidad laboral y un thriller criminal de altos vuelos
-[movies] Saltado noticia no apta para películas: El motivo por el que Luke Skywalker tiene ese nombre en 'Star Wars' es mucho más macabro de lo que imaginas
+[movies] Saltado noticia no apta para películas: Así cambia Steven Spielberg su forma de dirigir cuando trabaja con niños: "Tienes que elegir entre la mano de tu madre o tu avión"
+[movies] Saltado noticia no apta para películas: Solo 40 días para una de las películas de artes marciales del año: Una adaptación del videojuego que ha vendido más de 59 millones de unidades
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
 [movies] Saltado noticia no apta para películas: 42 años de carrera y el actor más querido: Hoy cumple 62 años uno de los grandes héroes de acción del cine
-[movies] Saltado noticia no apta para películas: Tras 20 años en antena, un canal mítico de la televisión española cambia de nombre este otoño y vuelve a sus orígenes
 [movies] Saltado porque no es estreno 2026: Quién era Alejandro Ponsoda: el alcalde de Polop que fue asesinado y, 19 años después, seguimos sin saber quién fue el culpable (2009)
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3': Fecha de estreno y lista oficial de todos los concursantes confirmados por Telecinco
-[movies] Saltado noticia no apta para películas: David Trigo tiene claro en qué se gastaría el bote de 'Pasapalabra' si lo consigue
-[movies] Candidatos encontrados: 29 | Límite: 1
+[movies] Saltado noticia no apta para películas: Hace 18 años que desapareció de la televisión, pero Inma del Moral no se arrepiente de haber dicho que "no": "He seleccionado un montón"
+[movies] Saltado noticia no apta para películas: El rincón de España que es el refugio de Roberto Leal desde hace años: "Un sí rotundo"
+[movies] Saltado noticia no apta para películas: Jesús Vázquez: "Hubo gente que me hizo perder la ilusión en la televisión, pero el tiempo pone a todo el mundo en su sitio"
+[movies] Candidatos encontrados: 20 | Límite: 1
+[movies] Saltado por tema bloqueado: 'Predator' es en realidad la secuela secreta de otro éxito de Arnold Schwarzenegger: “Es el mismo personaje”
+[movies] Saltado por tema bloqueado: Dos directores grabaron en secreto a Elizabeth Holmes antes de entrar en la cárcel: Acaban de revelar su documental sobre una de las mayores estafadoras de la historia
+[movies] Saltado por tema bloqueado: El peor robo del siglo lo protagonizan los Ibáñez: llega a cines la nueva comedia familiar de Leo Harlem y Jordi Sánchez, 'Un plan perfecto'
+[YouTube] No se encontró tráiler confiable para Tras 20 años en antena, un canal mítico de la televisión española cambia de nombre este otoño y vuelve a sus orígenes
+[movies] Saltado porque no tiene tráiler confiable: Tras 20 años en antena, un canal mítico de la televisión española cambia de nombre este otoño y vuelve a sus orígenes
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
