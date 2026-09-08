@@ -1,5 +1,6 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-08T19:26:18.127376+00:00
+Fecha UTC: 2026-09-08T22:36:46.796647+00:00
+[movies] Saltado porque no es estreno 2026: La conspiración del cuervo (None)
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: Luis Zahera estuvo trabajando en las Torres Gemelas cuando se preparaba para ser actor: "Estuve demoliendo en la planta 62"
@@ -20,11 +21,11 @@ Fecha UTC: 2026-09-08T19:26:18.127376+00:00
 [movies] Saltado noticia no apta para películas: Quién es Lilit Manukyan, concursante de 'Rueda la letra': es la única ganadora del bote de 'Pasapalabra' cuya lengua materna no es el español
 [movies] Saltado noticia no apta para películas: Quién es Fran González, concursante de 'Rueda la letra': Ganó 1.542.000 euros en 'Pasapalabra', pero no le "cambió mucho la vida"
 [movies] Saltado noticia no apta para películas: Hace 18 años que desapareció de la televisión, pero Inma del Moral no se arrepiente de haber dicho que "no": "He seleccionado un montón"
-[movies] Candidatos encontrados: 30 | Límite: 1
-[movies] Saltado por tema bloqueado: "Lo vigilamos de cerca": Clint Eastwood contestó a uno de los pocos directores que ha renegado de trabajar con él
-[IA] Probando proveedor gemini: La película de ciencia ficción de Steven Spielberg que todavía estamos esperando
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/el-misterio-de-night-skies-la-pelicula-de-spielberg-que-inspiro-dos-clasicos-2026-09-08-ab81c7.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[movies] Candidatos encontrados: 29 | Límite: 1
+[YouTube] No se encontró tráiler confiable para Por todos los medios
+[movies] Saltado porque no tiene tráiler confiable: Por todos los medios
+[movies] Saltado por tema bloqueado: Sandra Bullock desvela qué le dijo su hija de 12 años para que volviera a salir con alguien tras la muerte de su marido: "solo si puede conseguir cosas"
+[movies] Saltado por tema bloqueado: ¿Quieres ser uno de los nuestros? Nace un nuevo club de SensaCine para los más cinéfilos
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
