@@ -1,19 +1,14 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-08T12:51:55.983654+00:00
-[movies] Saltado porque no es estreno 2026: La conspiración del cuervo (None)
+Fecha UTC: 2026-09-08T19:26:18.127376+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
+[movies] Saltado noticia no apta para películas: Luis Zahera estuvo trabajando en las Torres Gemelas cuando se preparaba para ser actor: "Estuve demoliendo en la planta 62"
 [movies] Saltado noticia no apta para películas: La tensión de rodar esta epopeya fue tan fuerte que le provocó dos paros cardíacos a su director: usó su experiencia con la muerte en la escena más famosa de la película
 [movies] Saltado noticia no apta para películas: Solo aparece durante 47 segundos: prácticamente nadie pudo reconocer a esta superestrella en 'Hook'
 [movies] Saltado porque no es estreno 2026: 30 años de carrera y dos sagas milmillonarias: hoy cumple 54 años uno de los actores británicos más inconfundibles (2001)
-[movies] Saltado noticia no apta para películas: La película de ciencia ficción de Steven Spielberg que todavía estamos esperando: Nunca vio la luz, pero sobrevivió en dos grandes filmes de los 80
 [movies] Saltado noticia no apta para películas: 'Bucking Fastard' es una anomalía absoluta en el Matrix del cine contemporáneo, pero te deja el alma suspendida
 [movies] Saltado noticia no apta para películas: Ni 'Pulp Fiction' ni 'Jurassic Park': Según Samuel L. Jackson, esta película "le cambió la vida", y Bruce Willis lo había predicho
 [movies] Saltado noticia no apta para películas: Este actor murió a los 24 años: no llegó a ver la película que lo convirtió en una leyenda del cine
-[movies] Saltado noticia no apta para películas: "Lo vigilamos de cerca": Clint Eastwood contestó a uno de los pocos directores que ha renegado de trabajar con él
-[movies] Saltado porque no es estreno 2026: La única saga de ciencia ficción que ha rivalizado con Star Wars cumple 60 años y sigue tan viva como siempre (2016)
-[movies] Saltado noticia no apta para películas: Sólo tienes 4 días para ver en Netflix una película de terror tan desmadrada que la amas o la odias
-[movies] Saltado noticia no apta para películas: 'Predator' es en realidad la secuela secreta de otro éxito de Arnold Schwarzenegger: “Es el mismo personaje”
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
@@ -25,17 +20,11 @@ Fecha UTC: 2026-09-08T12:51:55.983654+00:00
 [movies] Saltado noticia no apta para películas: Quién es Lilit Manukyan, concursante de 'Rueda la letra': es la única ganadora del bote de 'Pasapalabra' cuya lengua materna no es el español
 [movies] Saltado noticia no apta para películas: Quién es Fran González, concursante de 'Rueda la letra': Ganó 1.542.000 euros en 'Pasapalabra', pero no le "cambió mucho la vida"
 [movies] Saltado noticia no apta para películas: Hace 18 años que desapareció de la televisión, pero Inma del Moral no se arrepiente de haber dicho que "no": "He seleccionado un montón"
-[movies] Candidatos encontrados: 26 | Límite: 1
-[IA] Probando proveedor openai: Clayface
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Clayface
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Clayface
-[IA] cohere falló (error): Cohere error 404: {"id":"8d90597f-a806-432d-85e1-89f088b1a27f","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Clayface
+[movies] Candidatos encontrados: 30 | Límite: 1
+[movies] Saltado por tema bloqueado: "Lo vigilamos de cerca": Clint Eastwood contestó a uno de los pocos directores que ha renegado de trabajar con él
+[IA] Probando proveedor gemini: La película de ciencia ficción de Steven Spielberg que todavía estamos esperando
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/clayface-el-villano-de-batman-que-llega-al-cine-con-un-giro-inesperado-2026-09-08-e4ec61.md
+[OK] Publicado: src/content/blog/el-misterio-de-night-skies-la-pelicula-de-spielberg-que-inspiro-dos-clasicos-2026-09-08-ab81c7.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
