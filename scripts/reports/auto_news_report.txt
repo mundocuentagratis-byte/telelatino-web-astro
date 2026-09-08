@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-07T22:48:34.009260+00:00
+Fecha UTC: 2026-09-08T04:36:40.832930+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: "Es sumamente indulgente": El duro corte de Clint Eastwood a una de las películas más aclamadas de la historia del cine de guerra
@@ -16,24 +16,14 @@ Fecha UTC: 2026-09-07T22:48:34.009260+00:00
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
 [movies] Saltado noticia no apta para películas: 42 años de carrera y el actor más querido: Hoy cumple 62 años uno de los grandes héroes de acción del cine
-[movies] Saltado porque no es estreno 2026: Quién era Alejandro Ponsoda: el alcalde de Polop que fue asesinado y, 19 años después, seguimos sin saber quién fue el culpable (2009)
+[movies] Saltado noticia no apta para películas: Tras 20 años en antena, un canal mítico de la televisión española cambia de nombre este otoño y vuelve a sus orígenes
+[movies] Saltado noticia no apta para películas: La pareja que salió de 'Gran Hermano' y casi nadie se acuerda de ella: más de 20 años juntos e hijos en común
+[movies] Saltado noticia no apta para películas: "Era el rey de la telebasura": el cambio de vida de Jaime Bores, el "Brad Pitt español" en los 90 que ahora trabaja en hostelería
+[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3': Fecha de estreno y lista oficial de todos los concursantes confirmados por Telecinco
 [movies] Saltado noticia no apta para películas: Quién es Lilit Manukyan, concursante de 'Rueda la letra': es la única ganadora del bote de 'Pasapalabra' cuya lengua materna no es el español
 [movies] Saltado noticia no apta para películas: Quién es Fran González, concursante de 'Rueda la letra': Ganó 1.542.000 euros en 'Pasapalabra', pero no le "cambió mucho la vida"
-[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3': Fecha de estreno y lista oficial de todos los concursantes confirmados por Telecinco
 [movies] Saltado noticia no apta para películas: Hace 18 años que desapareció de la televisión, pero Inma del Moral no se arrepiente de haber dicho que "no": "He seleccionado un montón"
-[movies] Candidatos encontrados: 31 | Límite: 1
-[IA] Probando proveedor groq: Resident Evil
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: Resident Evil
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Resident Evil
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Resident Evil
-[IA] cohere falló (error): Cohere error 404: {"id":"57c60789-8f67-4f80-aeac-d9b8c74bab34","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Resident Evil
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/resident-evil-un-nuevo-grito-de-terror-en-la-gran-pantalla-2026-09-07-daac8d.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[movies] Candidatos encontrados: 28 | Límite: 1
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
