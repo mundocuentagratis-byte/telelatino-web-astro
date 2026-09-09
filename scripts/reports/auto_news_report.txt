@@ -1,6 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-08T22:36:46.796647+00:00
-[movies] Saltado porque no es estreno 2026: La conspiración del cuervo (None)
+Fecha UTC: 2026-09-09T04:35:27.758166+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: Luis Zahera estuvo trabajando en las Torres Gemelas cuando se preparaba para ser actor: "Estuve demoliendo en la planta 62"
@@ -16,16 +15,12 @@ Fecha UTC: 2026-09-08T22:36:46.796647+00:00
 [movies] Saltado noticia no apta para películas: 42 años de carrera y el actor más querido: Hoy cumple 62 años uno de los grandes héroes de acción del cine
 [movies] Saltado noticia no apta para películas: La pareja que salió de 'Gran Hermano' y casi nadie se acuerda de ella: más de 20 años juntos e hijos en común
 [movies] Saltado noticia no apta para películas: Tras 20 años en antena, un canal mítico de la televisión española cambia de nombre este otoño y vuelve a sus orígenes
-[movies] Saltado noticia no apta para películas: "Era el rey de la telebasura": el cambio de vida de Jaime Bores, el "Brad Pitt español" en los 90 que ahora trabaja en hostelería
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3': Fecha de estreno y lista oficial de todos los concursantes confirmados por Telecinco
+[movies] Saltado porque no es estreno 2026: Quién era Alejandro Ponsoda: el alcalde de Polop que fue asesinado y, 19 años después, seguimos sin saber quién fue el culpable (2009)
 [movies] Saltado noticia no apta para películas: Quién es Lilit Manukyan, concursante de 'Rueda la letra': es la única ganadora del bote de 'Pasapalabra' cuya lengua materna no es el español
 [movies] Saltado noticia no apta para películas: Quién es Fran González, concursante de 'Rueda la letra': Ganó 1.542.000 euros en 'Pasapalabra', pero no le "cambió mucho la vida"
 [movies] Saltado noticia no apta para películas: Hace 18 años que desapareció de la televisión, pero Inma del Moral no se arrepiente de haber dicho que "no": "He seleccionado un montón"
-[movies] Candidatos encontrados: 29 | Límite: 1
-[YouTube] No se encontró tráiler confiable para Por todos los medios
-[movies] Saltado porque no tiene tráiler confiable: Por todos los medios
-[movies] Saltado por tema bloqueado: Sandra Bullock desvela qué le dijo su hija de 12 años para que volviera a salir con alguien tras la muerte de su marido: "solo si puede conseguir cosas"
-[movies] Saltado por tema bloqueado: ¿Quieres ser uno de los nuestros? Nace un nuevo club de SensaCine para los más cinéfilos
+[movies] Candidatos encontrados: 28 | Límite: 1
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
