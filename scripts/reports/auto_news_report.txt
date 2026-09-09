@@ -1,16 +1,10 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-09T12:57:38.044955+00:00
+Fecha UTC: 2026-09-09T19:16:52.238111+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
-[movies] Saltado noticia no apta para películas: Una enfermedad que convierte a los hombres homosexuales en heteros: esta es la enloquecida propuesta de 'Jim Queen'
-[movies] Saltado noticia no apta para películas: 39 años de carrera, tres nominaciones a los Globos de Oro, tres Grammys y siete Emmys: cumple 60 años el actor más odiado de todos los tiempos
-[movies] Saltado noticia no apta para películas: "La he visto cuatro veces y cada vez me gusta más": A Quentin Tarantino le encanta este 'thriller' de acción brillantemente realizado
-[movies] Saltado noticia no apta para películas: Nunca he sido fan de la carrera de Florian Zeller, pero su nueva película con Javier Bardem y Penélope Cruz me ha descolocado
-[movies] Saltado noticia no apta para películas: Sandra Bullock desvela qué le dijo su hija de 12 años para que volviera a salir con alguien tras la muerte de su marido: "solo si puede conseguir cosas"
-[movies] Saltado noticia no apta para películas: Luis Zahera estuvo trabajando en las Torres Gemelas cuando se preparaba para ser actor: "Estuve demoliendo en la planta 62"
-[movies] Saltado noticia no apta para películas: La tensión de rodar esta epopeya fue tan fuerte que le provocó dos paros cardíacos a su director: usó su experiencia con la muerte en la escena más famosa de la película
+[movies] Saltado porque no es estreno 2026: Sandra Bullock desvela qué le dijo su hija de 12 años para que volviera a salir con alguien tras la muerte de su marido: "solo si puede conseguir cosas" (2023)
 [movies] Saltado noticia no apta para películas: Solo aparece durante 47 segundos: prácticamente nadie pudo reconocer a esta superestrella en 'Hook'
-[movies] Saltado noticia no apta para películas: ¿Quieres ser uno de los nuestros? Nace un nuevo club de SensaCine para los más cinéfilos
+[movies] Saltado porque no es estreno 2026: 30 años de carrera y dos sagas milmillonarias: hoy cumple 54 años uno de los actores británicos más inconfundibles (2001)
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
@@ -19,22 +13,23 @@ Fecha UTC: 2026-09-09T12:57:38.044955+00:00
 [movies] Saltado noticia no apta para películas: Tras 20 años en antena, un canal mítico de la televisión española cambia de nombre este otoño y vuelve a sus orígenes
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3': Fecha de estreno y lista oficial de todos los concursantes confirmados por Telecinco
 [movies] Saltado porque no es estreno 2026: Quién era Alejandro Ponsoda: el alcalde de Polop que fue asesinado y, 19 años después, seguimos sin saber quién fue el culpable (2009)
-[movies] Saltado noticia no apta para películas: Rodolfo Sancho vive un incomodo momento en 'Y ahora Sonsoles' por una pregunta sobre su hijo: "Prefiero que hablemos de mí"
 [movies] Saltado noticia no apta para películas: Cambio de programación total en TVE: la cadena altera la emisión de los programas en los próximos días
 [movies] Saltado noticia no apta para películas: La batalla legal por 'Pasapalabra' y 'El Rosco' no tiene fin: ITV Studios y Atresmedia demandarán a Mediaset por 'Rueda la letra'
 [movies] Saltado noticia no apta para películas: Por qué se ha ido Javier Alonso de 'Pasapalabra': Este es el mítico concursante que le sustituirá
 [movies] Saltado noticia no apta para películas: Quién es Lilit Manukyan, concursante de 'Rueda la letra': es la única ganadora del bote de 'Pasapalabra' cuya lengua materna no es el español
 [movies] Saltado noticia no apta para películas: Quién es Fran González, concursante de 'Rueda la letra': Ganó 1.542.000 euros en 'Pasapalabra', pero no le "cambió mucho la vida"
-[movies] Candidatos encontrados: 27 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "Murió sin un céntimo y sin saber que su película sería considerada una obra maestra" pero es uno de los directores más admirados por Coppola
-[movies] Saltado porque no tiene tráiler confiable: "Murió sin un céntimo y sin saber que su película sería considerada una obra maestra" pero es uno de los directores más admirados por Coppola
-[YouTube] No se encontró tráiler confiable para Clint Eastwood, de 96 años, sobre el gangsta rap: “No le veo absolutamente ningún valor. Lo único que hace esta música es apelar a los peores aspectos de la humanidad”
-[movies] Saltado porque no tiene tráiler confiable: Clint Eastwood, de 96 años, sobre el gangsta rap: “No le veo absolutamente ningún valor. Lo único que hace esta música es apelar a los peores aspectos de la humanidad”
-[IA] Probando proveedor cohere: En 3 meses, llega a España lo nuevo de Alan Ritchson tras 'Reacher': Una intrépi
-[IA] cohere falló (error): Cohere error 404: {"id":"15b380dd-ef12-44e4-a152-3c314709e599","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: En 3 meses, llega a España lo nuevo de Alan Ritchson tras 'Reacher': Una intrépi
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/alan-ritchson-de-reacher-a-entrega-al-limite-accion-en-cines-2026-09-09-35743d.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[movies] Candidatos encontrados: 34 | Límite: 1
+[YouTube] No se encontró tráiler confiable para "La he visto cuatro veces y cada vez me gusta más": A Quentin Tarantino le encanta este 'thriller' de acción brillantemente realizado
+[movies] Saltado porque no tiene tráiler confiable: "La he visto cuatro veces y cada vez me gusta más": A Quentin Tarantino le encanta este 'thriller' de acción brillantemente realizado
+[YouTube] No se encontró tráiler confiable para 39 años de carrera, tres nominaciones a los Globos de Oro, tres Grammys y siete Emmys: cumple 60 años el actor más odiado de todos los tiempos
+[movies] Saltado porque no tiene tráiler confiable: 39 años de carrera, tres nominaciones a los Globos de Oro, tres Grammys y siete Emmys: cumple 60 años el actor más odiado de todos los tiempos
+[movies] Saltado por tema bloqueado: La tensión de rodar esta epopeya fue tan fuerte que le provocó dos paros cardíacos a su director: usó su experiencia con la muerte en la escena más famosa de la película
+[YouTube] No se encontró tráiler confiable para Luis Zahera estuvo trabajando en las Torres Gemelas cuando se preparaba para ser actor: "Estuve demoliendo en la planta 62"
+[movies] Saltado porque no tiene tráiler confiable: Luis Zahera estuvo trabajando en las Torres Gemelas cuando se preparaba para ser actor: "Estuve demoliendo en la planta 62"
+[YouTube] No se encontró tráiler confiable para Nunca he sido fan de la carrera de Florian Zeller, pero su nueva película con Javier Bardem y Penélope Cruz me ha descolocado
+[movies] Saltado porque no tiene tráiler confiable: Nunca he sido fan de la carrera de Florian Zeller, pero su nueva película con Javier Bardem y Penélope Cruz me ha descolocado
+[YouTube] No se encontró tráiler confiable para Una enfermedad que convierte a los hombres homosexuales en heteros: esta es la enloquecida propuesta de 'Jim Queen'
+[movies] Saltado porque no tiene tráiler confiable: Una enfermedad que convierte a los hombres homosexuales en heteros: esta es la enloquecida propuesta de 'Jim Queen'
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
