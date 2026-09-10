@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-09T22:31:25.197924+00:00
+Fecha UTC: 2026-09-10T04:35:04.545429+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado porque no es estreno 2026: Brendan Fraser (57 años): "Tenía todo por demostrar. Lo tenía. Quiero decir, sabía que era un actor capaz" (2027)
