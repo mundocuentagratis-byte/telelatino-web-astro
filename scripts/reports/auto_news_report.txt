@@ -1,33 +1,39 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-10T04:35:04.545429+00:00
+Fecha UTC: 2026-09-10T12:54:33.333918+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
-[movies] Saltado porque no es estreno 2026: Brendan Fraser (57 años): "Tenía todo por demostrar. Lo tenía. Quiero decir, sabía que era un actor capaz" (2027)
+[movies] Saltado porque no es estreno 2026: La película del año costó unos 1.000 dólares, la hizo un treintañero junto a su madre y ha recaudado casi 8 millones de euros (2027)
+[movies] Saltado porque no es estreno 2026: 'Vengadores: Doomsday' se adelanta a la guerra contra 'Dune 3': Ya ha recaudado 50 millones de dólares tres meses antes de su estreno (2027)
+[movies] Saltado noticia no apta para películas: 'Biografía de Jorge Luis Borges' es la auténtica mejor película del Festival de Venecia
+[movies] Saltado noticia no apta para películas: Brendan Fraser (57 años): "Tenía todo por demostrar. Lo tenía. Quiero decir, sabía que era un actor capaz"
 [movies] Saltado porque no es estreno 2026: 25 años antes de 'La Odisea', Christopher Nolan recibió la oportunidad de su vida: "No tenía por qué hacerlo, pero lo hizo" (2027)
 [movies] Saltado porque no es estreno 2026: "Siempre he soñado con ello": es probable que Christopher Lloyd (Doc, de 'Regreso al futuro') nunca llegue interpretar al personaje que más anhela (2027)
-[movies] Saltado noticia no apta para películas: Mercedes Ron tenía claro que Ester Expósito debía ser la protagonista de 'Enfrentados: Marfil': "No podría haberlo hecho otra persona"
-[movies] Saltado noticia no apta para películas: Javier Bardem: "Nos besamos, y seguimos, y seguimos, y cuando quisimos darnos cuenta el equipo se había ido"
+[movies] Saltado porque no es estreno 2026: Mercedes Ron tenía claro que Ester Expósito debía ser la protagonista de 'Enfrentados: Marfil': "No podría haberlo hecho otra persona" (2027)
+[movies] Saltado porque no es estreno 2026: Javier Bardem: "Nos besamos, y seguimos, y seguimos, y cuando quisimos darnos cuenta el equipo se había ido" (2027)
 [movies] Saltado porque no es estreno 2026: Una enfermedad que convierte a los hombres homosexuales en heteros: esta es la enloquecida propuesta de 'Jim Queen' (2027)
 [movies] Saltado porque no es estreno 2026: 39 años de carrera, tres nominaciones a los Globos de Oro, tres Grammys y siete Emmys: cumple 60 años el actor más odiado de todos los tiempos (2027)
 [movies] Saltado porque no es estreno 2026: En 3 meses, llega a España lo nuevo de Alan Ritchson tras 'Reacher': Una intrépida película de acción a contrarreloj (2027)
-[movies] Saltado porque no es estreno 2026: Nunca he sido fan de la carrera de Florian Zeller, pero su nueva película con Javier Bardem y Penélope Cruz me ha descolocado (2027)
-[movies] Saltado porque no es estreno 2026: Clint Eastwood, de 96 años, sobre el gangsta rap: “No le veo absolutamente ningún valor. Lo único que hace esta música es apelar a los peores aspectos de la humanidad” (2027)
-[movies] Saltado porque no es estreno 2026: Sandra Bullock desvela qué le dijo su hija de 12 años para que volviera a salir con alguien tras la muerte de su marido: "solo si puede conseguir cosas" (2027)
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
 [movies] Saltado noticia no apta para películas: 42 años de carrera y el actor más querido: Hoy cumple 62 años uno de los grandes héroes de acción del cine
 [movies] Saltado noticia no apta para películas: La pareja que salió de 'Gran Hermano' y casi nadie se acuerda de ella: más de 20 años juntos e hijos en común
 [movies] Saltado noticia no apta para películas: Tras 20 años en antena, un canal mítico de la televisión española cambia de nombre este otoño y vuelve a sus orígenes
-[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3': Fecha de estreno y lista oficial de todos los concursantes confirmados por Telecinco
-[movies] Saltado porque no es estreno 2026: Quién era Alejandro Ponsoda: el alcalde de Polop que fue asesinado y, 19 años después, seguimos sin saber quién fue el culpable (2009)
-[movies] Saltado noticia no apta para películas: Cambio de última hora en Mediaset: 'Horizonte' amplia su horario hoy en Cuatro por este motivo
-[movies] Saltado noticia no apta para películas: Rodolfo Sancho vive un incomodo momento en 'Y ahora Sonsoles' por una pregunta sobre su hijo: "Prefiero que hablemos de mí"
-[movies] Saltado noticia no apta para películas: Cambio de programación total en TVE: la cadena altera la emisión de los programas en los próximos días
-[movies] Saltado noticia no apta para películas: La batalla legal por 'Pasapalabra' y 'El Rosco' no tiene fin: ITV Studios y Atresmedia demandarán a Mediaset por 'Rueda la letra'
 [movies] Saltado noticia no apta para películas: Por qué se ha ido Javier Alonso de 'Pasapalabra': Este es el mítico concursante que le sustituirá
-[movies] Saltado noticia no apta para películas: Quién es Lilit Manukyan, concursante de 'Rueda la letra': es la única ganadora del bote de 'Pasapalabra' cuya lengua materna no es el español
-[movies] Candidatos encontrados: 26 | Límite: 1
+[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3': Fecha de estreno y lista oficial de todos los concursantes confirmados por Telecinco
+[movies] Candidatos encontrados: 30 | Límite: 1
+[YouTube] No se encontró tráiler confiable para 616.000 espectadores de media vieron la entrevista de Pedro Sánchez en 'Mañaneros 360'
+[movies] Saltado porque no tiene tráiler confiable: 616.000 espectadores de media vieron la entrevista de Pedro Sánchez en 'Mañaneros 360'
+[YouTube] No se encontró tráiler confiable para Cambio de programación total en TVE: la cadena altera la emisión de los programas en los próximos días
+[movies] Saltado porque no tiene tráiler confiable: Cambio de programación total en TVE: la cadena altera la emisión de los programas en los próximos días
+[YouTube] No se encontró tráiler confiable para Cambio de última hora en Mediaset: 'Horizonte' amplia su horario hoy en Cuatro por este motivo
+[movies] Saltado porque no tiene tráiler confiable: Cambio de última hora en Mediaset: 'Horizonte' amplia su horario hoy en Cuatro por este motivo
+[YouTube] No se encontró tráiler confiable para La audiencia dicta sentencia a 'El túnel: avanza y gana': Todos lo comparan con este exitoso concurso
+[movies] Saltado porque no tiene tráiler confiable: La audiencia dicta sentencia a 'El túnel: avanza y gana': Todos lo comparan con este exitoso concurso
+[YouTube] No se encontró tráiler confiable para Por primera vez en su historia, 'La Ruleta' tendrá un "azafato": El exconcursante que cumplirá su sueño durante la baja de Laura Moure
+[movies] Saltado porque no tiene tráiler confiable: Por primera vez en su historia, 'La Ruleta' tendrá un "azafato": El exconcursante que cumplirá su sueño durante la baja de Laura Moure
+[YouTube] No se encontró tráiler confiable para Rodolfo Sancho vive un incomodo momento en 'Y ahora Sonsoles' por una pregunta sobre su hijo: "Prefiero que hablemos de mí"
+[movies] Saltado porque no tiene tráiler confiable: Rodolfo Sancho vive un incomodo momento en 'Y ahora Sonsoles' por una pregunta sobre su hijo: "Prefiero que hablemos de mí"
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
