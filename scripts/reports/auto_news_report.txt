@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-10T19:07:54.228541+00:00
+Fecha UTC: 2026-09-10T22:32:47.455843+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado porque no es estreno 2026: 'Vengadores: Doomsday' se adelanta a la guerra contra 'Dune 3': Ya ha recaudado 50 millones de dólares tres meses antes de su estreno (2023)
@@ -20,23 +20,10 @@ Fecha UTC: 2026-09-10T19:07:54.228541+00:00
 [movies] Saltado noticia no apta para películas: Cambio de última hora en Mediaset: 'Horizonte' amplia su horario hoy en Cuatro por este motivo
 [movies] Saltado noticia no apta para películas: Rodolfo Sancho vive un incomodo momento en 'Y ahora Sonsoles' por una pregunta sobre su hijo: "Prefiero que hablemos de mí"
 [movies] Candidatos encontrados: 31 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "Somos más guapos que los de 'Ocean's Eleven": 'Un plan perfecto' es un 'Atraco a las tres' del siglo XXI que consiguió a su casting ideal
-[movies] Saltado porque no tiene tráiler confiable: "Somos más guapos que los de 'Ocean's Eleven": 'Un plan perfecto' es un 'Atraco a las tres' del siglo XXI que consiguió a su casting ideal
-[YouTube] No se encontró tráiler confiable para 'Biografía de Jorge Luis Borges' es la auténtica mejor película del Festival de Venecia
-[movies] Saltado porque no tiene tráiler confiable: 'Biografía de Jorge Luis Borges' es la auténtica mejor película del Festival de Venecia
-[duplicado] Saltado por tema parecido: 25 años antes de 'La Odisea', Christopher Nolan recibió la oportunidad de su vida: "No tenía por qué hacerlo, pero lo hizo" ~= La Odisea de Christopher Nolan: El Gran Estreno del Año
-[IA] Probando proveedor groq: Brendan Fraser (57 años): "Tenía todo por demostrar. Lo tenía. Quiero decir, sab
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: Brendan Fraser (57 años): "Tenía todo por demostrar. Lo tenía. Quiero decir, sab
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Brendan Fraser (57 años): "Tenía todo por demostrar. Lo tenía. Quiero decir, sab
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Brendan Fraser (57 años): "Tenía todo por demostrar. Lo tenía. Quiero decir, sab
-[IA] cohere falló (error): Cohere error 404: {"id":"a61e2b6b-3cdc-4039-9636-d79ae08ae8a5","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Brendan Fraser (57 años): "Tenía todo por demostrar. Lo tenía. Quiero decir, sab
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/brendan-fraser-de-la-ballena-a-la-momia-4-el-regreso-de-un-icono-2026-09-10-1897bb.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[YouTube] No se encontró tráiler confiable para La película del año costó unos 1.000 dólares, la hizo un treintañero junto a su madre y ha recaudado casi 8 millones de euros
+[movies] Saltado porque no tiene tráiler confiable: La película del año costó unos 1.000 dólares, la hizo un treintañero junto a su madre y ha recaudado casi 8 millones de euros
+[YouTube] Error buscando tráiler para Mercedes Ron tenía claro que Ester Expósito debía ser la protagonista de 'Enfrentados: Marfil': "No podría haberlo hecho otra persona": ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+[movies] Saltado porque no tiene tráiler confiable: Mercedes Ron tenía claro que Ester Expósito debía ser la protagonista de 'Enfrentados: Marfil': "No podría haberlo hecho otra persona"
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
