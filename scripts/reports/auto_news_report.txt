@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-10T22:32:47.455843+00:00
+Fecha UTC: 2026-09-11T04:32:49.590315+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado porque no es estreno 2026: 'Vengadores: Doomsday' se adelanta a la guerra contra 'Dune 3': Ya ha recaudado 50 millones de dólares tres meses antes de su estreno (2023)
@@ -12,18 +12,34 @@ Fecha UTC: 2026-09-10T22:32:47.455843+00:00
 [movies] Saltado noticia no apta para películas: La pareja que salió de 'Gran Hermano' y casi nadie se acuerda de ella: más de 20 años juntos e hijos en común
 [movies] Saltado noticia no apta para películas: Tras 20 años en antena, un canal mítico de la televisión española cambia de nombre este otoño y vuelve a sus orígenes
 [movies] Saltado noticia no apta para películas: Por qué se ha ido Javier Alonso de 'Pasapalabra': Este es el mítico concursante que le sustituirá
-[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3': Fecha de estreno y lista oficial de todos los concursantes confirmados por Telecinco
+[movies] Saltado noticia no apta para películas: El rincón de España que es el refugio de Roberto Leal desde hace años: "Un sí rotundo"
 [movies] Saltado noticia no apta para películas: El director general de la productora de 'Supervivientes' sobre un hipotético desgaste de audiencia: "Si hay que parar un poco, se parará"
 [movies] Saltado noticia no apta para películas: La audiencia dicta sentencia a 'El túnel: avanza y gana': Todos lo comparan con este exitoso concurso
 [movies] Saltado noticia no apta para películas: Por primera vez en su historia, 'La Ruleta' tendrá un "azafato": El exconcursante que cumplirá su sueño durante la baja de Laura Moure
 [movies] Saltado noticia no apta para películas: 616.000 espectadores de media vieron la entrevista de Pedro Sánchez en 'Mañaneros 360'
 [movies] Saltado noticia no apta para películas: Cambio de última hora en Mediaset: 'Horizonte' amplia su horario hoy en Cuatro por este motivo
 [movies] Saltado noticia no apta para películas: Rodolfo Sancho vive un incomodo momento en 'Y ahora Sonsoles' por una pregunta sobre su hijo: "Prefiero que hablemos de mí"
-[movies] Candidatos encontrados: 31 | Límite: 1
-[YouTube] No se encontró tráiler confiable para La película del año costó unos 1.000 dólares, la hizo un treintañero junto a su madre y ha recaudado casi 8 millones de euros
-[movies] Saltado porque no tiene tráiler confiable: La película del año costó unos 1.000 dólares, la hizo un treintañero junto a su madre y ha recaudado casi 8 millones de euros
-[YouTube] Error buscando tráiler para Mercedes Ron tenía claro que Ester Expósito debía ser la protagonista de 'Enfrentados: Marfil': "No podría haberlo hecho otra persona": ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
-[movies] Saltado porque no tiene tráiler confiable: Mercedes Ron tenía claro que Ester Expósito debía ser la protagonista de 'Enfrentados: Marfil': "No podría haberlo hecho otra persona"
-[movies] Publicados: 0
-Total películas publicadas: 0
+[movies] Candidatos encontrados: 34 | Límite: 1
+[IA] Probando proveedor openai: Bad Apples
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: Bad Apples
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: Bad Apples
+[IA] cohere falló (error): Cohere error 404: {"id":"ff0c817a-553b-465e-9a40-40ab65af3906","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Bad Apples
+[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 2164 (char 2428)
+[IA] Probando proveedor groq: Bad Apples
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[movies] Error generando artículo Bad Apples: Todos los proveedores de IA fallaron. [IA] cohere falló (error): Cohere error 404: {"id":"ff0c817a-553b-465e-9a40-40ab65af3906","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."} | [IA] gemini falló (error): Expecting ',' delimiter: line 4 column 2164 (char 2428) | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor mistral: Detective Conan: El ángel caído de la carretera
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: Detective Conan: El ángel caído de la carretera
+[IA] cohere falló (error): Cohere error 404: {"id":"5e190b12-4b83-4303-8b39-f12892c2a071","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Detective Conan: El ángel caído de la carretera
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/detective-conan-el-angel-caido-de-la-carretera-estreno-2026-2026-09-11-40802f.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
