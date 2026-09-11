@@ -1,9 +1,18 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-11T04:32:49.590315+00:00
+Fecha UTC: 2026-09-11T12:50:43.340313+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
+[movies] Saltado noticia no apta para películas: A sus 88 años, esta leyenda de Hollywood con dos Oscar acaba de confirmar su nuevo trabajo: una película de ciencia ficción postapocalíptica
+[movies] Saltado noticia no apta para películas: Esta noche en TV: una de las mejores películas de aventuras de los últimos años con un contundente sobresaliente
+[movies] Saltado noticia no apta para películas: Primeras imágenes de 'Kill Current': Después de 'Matrix' y 'John Wick', Keanu Reeves es el héroe de una nueva saga de acción. que promete ser impresionante
+[movies] Saltado noticia no apta para películas: "Somos más guapos que los de 'Ocean's Eleven": 'Un plan perfecto' es un 'Atraco a las tres' del siglo XXI que consiguió a su casting ideal
+[movies] Saltado noticia no apta para películas: La película del año costó unos 1.000 dólares, la hizo un treintañero junto a su madre y ha recaudado casi 8 millones de euros
 [movies] Saltado porque no es estreno 2026: 'Vengadores: Doomsday' se adelanta a la guerra contra 'Dune 3': Ya ha recaudado 50 millones de dólares tres meses antes de su estreno (2023)
+[movies] Saltado noticia no apta para películas: 'Biografía de Jorge Luis Borges' es la auténtica mejor película del Festival de Venecia
+[movies] Saltado noticia no apta para películas: Brendan Fraser (57 años): "Tenía todo por demostrar. Lo tenía. Quiero decir, sabía que era un actor capaz"
+[movies] Saltado noticia no apta para películas: 25 años antes de 'La Odisea', Christopher Nolan recibió la oportunidad de su vida: "No tenía por qué hacerlo, pero lo hizo"
 [movies] Saltado porque no es estreno 2026: "Siempre he soñado con ello": es probable que Christopher Lloyd (Doc, de 'Regreso al futuro') nunca llegue interpretar al personaje que más anhela (2025)
+[movies] Saltado noticia no apta para películas: Mercedes Ron tenía claro que Ester Expósito debía ser la protagonista de 'Enfrentados: Marfil': "No podría haberlo hecho otra persona"
 [movies] Saltado noticia no apta para películas: Javier Bardem: "Nos besamos, y seguimos, y seguimos, y cuando quisimos darnos cuenta el equipo se había ido"
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
@@ -13,33 +22,40 @@ Fecha UTC: 2026-09-11T04:32:49.590315+00:00
 [movies] Saltado noticia no apta para películas: Tras 20 años en antena, un canal mítico de la televisión española cambia de nombre este otoño y vuelve a sus orígenes
 [movies] Saltado noticia no apta para películas: Por qué se ha ido Javier Alonso de 'Pasapalabra': Este es el mítico concursante que le sustituirá
 [movies] Saltado noticia no apta para películas: El rincón de España que es el refugio de Roberto Leal desde hace años: "Un sí rotundo"
+[movies] Saltado noticia no apta para películas: Ni Javier Bardem salva a 'La Revuelta': 'El Hormiguero' sigue siendo el líder indiscutible del 'access prime time'
+[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' suspende sus primeras nominaciones: Este es el día en el que los concursantes podrán nominar
 [movies] Saltado noticia no apta para películas: El director general de la productora de 'Supervivientes' sobre un hipotético desgaste de audiencia: "Si hay que parar un poco, se parará"
 [movies] Saltado noticia no apta para películas: La audiencia dicta sentencia a 'El túnel: avanza y gana': Todos lo comparan con este exitoso concurso
 [movies] Saltado noticia no apta para películas: Por primera vez en su historia, 'La Ruleta' tendrá un "azafato": El exconcursante que cumplirá su sueño durante la baja de Laura Moure
 [movies] Saltado noticia no apta para películas: 616.000 espectadores de media vieron la entrevista de Pedro Sánchez en 'Mañaneros 360'
-[movies] Saltado noticia no apta para películas: Cambio de última hora en Mediaset: 'Horizonte' amplia su horario hoy en Cuatro por este motivo
-[movies] Saltado noticia no apta para películas: Rodolfo Sancho vive un incomodo momento en 'Y ahora Sonsoles' por una pregunta sobre su hijo: "Prefiero que hablemos de mí"
-[movies] Candidatos encontrados: 34 | Límite: 1
+[movies] Candidatos encontrados: 27 | Límite: 1
 [IA] Probando proveedor openai: Bad Apples
 [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
 [IA] Probando proveedor mistral: Bad Apples
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 [IA] Probando proveedor cohere: Bad Apples
-[IA] cohere falló (error): Cohere error 404: {"id":"ff0c817a-553b-465e-9a40-40ab65af3906","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] cohere falló (error): Cohere error 404: {"id":"516cf403-cfae-4427-bb13-4a74b2d559b3","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
 [IA] Probando proveedor gemini: Bad Apples
-[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 2164 (char 2428)
+[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 1766 (char 2017)
 [IA] Probando proveedor groq: Bad Apples
 [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[movies] Error generando artículo Bad Apples: Todos los proveedores de IA fallaron. [IA] cohere falló (error): Cohere error 404: {"id":"ff0c817a-553b-465e-9a40-40ab65af3906","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."} | [IA] gemini falló (error): Expecting ',' delimiter: line 4 column 2164 (char 2428) | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor mistral: Detective Conan: El ángel caído de la carretera
+[movies] Error generando artículo Bad Apples: Todos los proveedores de IA fallaron. [IA] cohere falló (error): Cohere error 404: {"id":"516cf403-cfae-4427-bb13-4a74b2d559b3","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."} | [IA] gemini falló (error): Expecting ',' delimiter: line 4 column 1766 (char 2017) | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor mistral: El nido
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Detective Conan: El ángel caído de la carretera
-[IA] cohere falló (error): Cohere error 404: {"id":"5e190b12-4b83-4303-8b39-f12892c2a071","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Detective Conan: El ángel caído de la carretera
+[IA] Probando proveedor cohere: El nido
+[IA] cohere falló (error): Cohere error 404: {"id":"00ff7b6a-6c75-47a0-b128-700c0844daf6","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: El nido
+[IA] gemini falló (error): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[IA] Probando proveedor groq: El nido
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: El nido
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[movies] Error generando artículo El nido: Todos los proveedores de IA fallaron. [IA] gemini falló (error): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}} | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor gemini: El ritual de Lily
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/detective-conan-el-angel-caido-de-la-carretera-estreno-2026-2026-09-11-40802f.md
+[OK] Publicado: src/content/blog/el-ritual-de-lily-cuando-la-brujeria-se-vuelve-pesadilla-2026-09-11-d56cad.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
