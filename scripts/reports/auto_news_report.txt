@@ -1,16 +1,12 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-11T19:09:18.728660+00:00
+Fecha UTC: 2026-09-11T22:32:22.375429+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
-[movies] Saltado noticia no apta para películas: Santiago Segura sobre lo especiales que eran los domingos en su infancia: "Mi madre hacía la paella en olla exprés"
 [movies] Saltado noticia no apta para películas: Julia Ormond: "Insistí a Richard Gere en que saliéramos y él me dijo: 'Yo no puedo hacer eso'"
-[movies] Saltado noticia no apta para películas: Fernando Fernán Gómez: "Olvídese de todo eso que tiene en la cabeza de los actores americanos, esfuércese en trabajar como un español"
 [movies] Saltado porque no es estreno 2026: "Una película perfecta en todos los sentidos": el 'thriller' de 1996 que Tom Hanks considera insuperable (2004)
 [movies] Saltado noticia no apta para películas: Esta noche en TV: una de las mejores películas de aventuras de los últimos años con un contundente sobresaliente
-[movies] Saltado noticia no apta para películas: Primeras imágenes de 'Kill Current': Después de 'Matrix' y 'John Wick', Keanu Reeves es el héroe de una nueva saga de acción. que promete ser impresionante
 [movies] Saltado noticia no apta para películas: La película del año costó unos 1.000 dólares, la hizo un treintañero junto a su madre y ha recaudado casi 8 millones de euros
 [movies] Saltado porque no es estreno 2026: 'Vengadores: Doomsday' se adelanta a la guerra contra 'Dune 3': Ya ha recaudado 50 millones de dólares tres meses antes de su estreno (2023)
-[movies] Saltado noticia no apta para películas: 'Biografía de Jorge Luis Borges' es la auténtica mejor película del Festival de Venecia
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
@@ -25,27 +21,17 @@ Fecha UTC: 2026-09-11T19:09:18.728660+00:00
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' suspende sus primeras nominaciones: Este es el día en el que los concursantes podrán nominar
 [movies] Saltado noticia no apta para películas: El director general de la productora de 'Supervivientes' sobre un hipotético desgaste de audiencia: "Si hay que parar un poco, se parará"
 [movies] Saltado noticia no apta para películas: La audiencia dicta sentencia a 'El túnel: avanza y gana': Todos lo comparan con este exitoso concurso
-[movies] Candidatos encontrados: 30 | Límite: 1
+[movies] Candidatos encontrados: 35 | Límite: 1
 [IA] Probando proveedor openai: Bad Apples
 [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
 [IA] Probando proveedor mistral: Bad Apples
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 [IA] Probando proveedor cohere: Bad Apples
-[IA] cohere falló (error): Cohere error 404: {"id":"22e4d9dc-66e0-4210-93f7-5f173c709e95","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] cohere falló (error): Cohere error 404: {"id":"b9169901-14a6-4a18-a978-474fe00a1735","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
 [IA] Probando proveedor gemini: Bad Apples
-[IA] gemini falló (error): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
-[IA] Probando proveedor groq: Bad Apples
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[movies] Error generando artículo Bad Apples: Todos los proveedores de IA fallaron. [IA] cohere falló (error): Cohere error 404: {"id":"22e4d9dc-66e0-4210-93f7-5f173c709e95","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."} | [IA] gemini falló (error): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}} | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor mistral: El nido
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: El nido
-[IA] cohere falló (error): Cohere error 404: {"id":"b93beb30-4cfb-491e-8da5-f4fad108dcee","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: El nido
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/el-nido-un-thriller-de-suspense-que-rompera-esquemas-2026-09-11-1c98c7.md
+[OK] Publicado: src/content/blog/bad-apples-saoirse-ronan-y-una-comedia-de-suspense-inusual-2026-09-11-da750e.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
