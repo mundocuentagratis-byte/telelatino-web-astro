@@ -1,9 +1,11 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-12T15:39:53.287411+00:00
+Fecha UTC: 2026-09-12T18:20:30.448611+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
-[movies] Saltado porque no es estreno 2026: Debutó en un episodio cualquiera de 'Urgencias', pero ha acabado siendo protagonista de DC, Marvel y 'Star Trek'. ¿Le reconoces? (2003)
 [movies] Saltado porque no es estreno 2026: Cuatro palabras por 5 millones de dólares: Netflix hizo historia con esta película de ciencia ficción (2008)
+[movies] Saltado noticia no apta para películas: Santiago Segura sobre lo especiales que eran los domingos en su infancia: "Mi madre hacía la paella en olla exprés"
+[movies] Saltado noticia no apta para películas: Julia Ormond: "Insistí a Richard Gere en que saliéramos y él me dijo: 'Yo no puedo hacer eso'"
+[movies] Saltado porque no es estreno 2026: El estudio de 'Demon Slayer' tiene nueva película que llegará a España: Una historia sobre una bruja en el mundo moderno (2027)
 [movies] Saltado porque no es estreno 2026: "Una película perfecta en todos los sentidos": el 'thriller' de 1996 que Tom Hanks considera insuperable (2004)
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
@@ -14,10 +16,15 @@ Fecha UTC: 2026-09-12T15:39:53.287411+00:00
 [movies] Saltado noticia no apta para películas: Tras 20 años en antena, un canal mítico de la televisión española cambia de nombre este otoño y vuelve a sus orígenes
 [movies] Saltado noticia no apta para películas: El rincón de España que es el refugio de Roberto Leal desde hace años: "Un sí rotundo"
 [movies] Saltado noticia no apta para películas: 6 años después, Anna Simón volvió a 'Zapeando': en este tiempo ha sido madre y participó en un programa de RTVE que fracasó
-[movies] Candidatos encontrados: 41 | Límite: 1
-[IA] Probando proveedor gemini: Mother's Baby (La semilla)
+[movies] Candidatos encontrados: 40 | Límite: 1
+[IA] Probando proveedor mistral: Sagrado corazón
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: Sagrado corazón
+[IA] cohere falló (error): Cohere error 404: {"id":"17b9eb3e-e97a-4e14-ade1-29d9f36d9a66","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Sagrado corazón
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/mother-s-baby-la-semilla-un-thriller-que-desafia-la-maternidad-2026-09-12-889aae.md
+[OK] Publicado: src/content/blog/sagrado-corazon-un-viaje-historico-y-espiritual-en-el-cine-2026-09-12-539223.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
