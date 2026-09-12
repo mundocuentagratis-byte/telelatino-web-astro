@@ -1,12 +1,9 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-12T04:30:48.641564+00:00
+Fecha UTC: 2026-09-12T12:09:26.279111+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
-[movies] Saltado noticia no apta para películas: Julia Ormond: "Insistí a Richard Gere en que saliéramos y él me dijo: 'Yo no puedo hacer eso'"
+[movies] Saltado porque no es estreno 2026: Cuatro palabras por 5 millones de dólares: Netflix hizo historia con esta película de ciencia ficción (2008)
 [movies] Saltado porque no es estreno 2026: "Una película perfecta en todos los sentidos": el 'thriller' de 1996 que Tom Hanks considera insuperable (2004)
-[movies] Saltado noticia no apta para películas: Esta noche en TV: una de las mejores películas de aventuras de los últimos años con un contundente sobresaliente
-[movies] Saltado noticia no apta para películas: La película del año costó unos 1.000 dólares, la hizo un treintañero junto a su madre y ha recaudado casi 8 millones de euros
-[movies] Saltado porque no es estreno 2026: 'Vengadores: Doomsday' se adelanta a la guerra contra 'Dune 3': Ya ha recaudado 50 millones de dólares tres meses antes de su estreno (2023)
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
@@ -15,16 +12,18 @@ Fecha UTC: 2026-09-12T04:30:48.641564+00:00
 [movies] Saltado noticia no apta para películas: Por qué se ha ido Javier Alonso de 'Pasapalabra': Este es el mítico concursante que le sustituirá
 [movies] Saltado noticia no apta para películas: Tras 20 años en antena, un canal mítico de la televisión española cambia de nombre este otoño y vuelve a sus orígenes
 [movies] Saltado noticia no apta para películas: El rincón de España que es el refugio de Roberto Leal desde hace años: "Un sí rotundo"
-[movies] Saltado noticia no apta para películas: 'La Séptima': Estos son los 9 presentadores que se pondrán al frente de los programas del nuevo canal de la TDT
 [movies] Saltado noticia no apta para películas: 6 años después, Anna Simón volvió a 'Zapeando': en este tiempo ha sido madre y participó en un programa de RTVE que fracasó
-[movies] Saltado noticia no apta para películas: Ni Javier Bardem salva a 'La Revuelta': 'El Hormiguero' sigue siendo el líder indiscutible del 'access prime time'
-[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' suspende sus primeras nominaciones: Este es el día en el que los concursantes podrán nominar
-[movies] Saltado noticia no apta para películas: El director general de la productora de 'Supervivientes' sobre un hipotético desgaste de audiencia: "Si hay que parar un poco, se parará"
-[movies] Saltado noticia no apta para películas: La audiencia dicta sentencia a 'El túnel: avanza y gana': Todos lo comparan con este exitoso concurso
-[movies] Candidatos encontrados: 35 | Límite: 1
-[IA] Probando proveedor gemini: Forastera
+[movies] Candidatos encontrados: 42 | Límite: 1
+[IA] Probando proveedor openai: Lionel
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: Lionel
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: Lionel
+[IA] cohere falló (cuota): Cohere error 404: {"id":"aaa2fd5d-e572-46a3-b429-d3ca2a77b909","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Lionel
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/forastera-un-drama-sobrenatural-que-invita-a-la-reflexion-2026-09-12-84bd70.md
+[OK] Publicado: src/content/blog/lionel-un-viaje-familiar-de-murcia-a-francia-en-el-cine-2026-09-12-923cd8.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
