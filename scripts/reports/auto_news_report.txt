@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-12T18:20:30.448611+00:00
+Fecha UTC: 2026-09-12T22:14:58.416968+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado porque no es estreno 2026: Cuatro palabras por 5 millones de dólares: Netflix hizo historia con esta película de ciencia ficción (2008)
@@ -17,14 +17,9 @@ Fecha UTC: 2026-09-12T18:20:30.448611+00:00
 [movies] Saltado noticia no apta para películas: El rincón de España que es el refugio de Roberto Leal desde hace años: "Un sí rotundo"
 [movies] Saltado noticia no apta para películas: 6 años después, Anna Simón volvió a 'Zapeando': en este tiempo ha sido madre y participó en un programa de RTVE que fracasó
 [movies] Candidatos encontrados: 40 | Límite: 1
-[IA] Probando proveedor mistral: Sagrado corazón
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Sagrado corazón
-[IA] cohere falló (error): Cohere error 404: {"id":"17b9eb3e-e97a-4e14-ade1-29d9f36d9a66","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Sagrado corazón
+[IA] Probando proveedor gemini: Tiempo de victoria
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/sagrado-corazon-un-viaje-historico-y-espiritual-en-el-cine-2026-09-12-539223.md
+[OK] Publicado: src/content/blog/tiempo-de-victoria-el-dilema-meteorologico-del-dia-d-2026-09-12-f8fa81.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
