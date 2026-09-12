@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-11T22:32:22.375429+00:00
+Fecha UTC: 2026-09-12T04:30:48.641564+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: Julia Ormond: "Insistí a Richard Gere en que saliéramos y él me dijo: 'Yo no puedo hacer eso'"
@@ -12,8 +12,8 @@ Fecha UTC: 2026-09-11T22:32:22.375429+00:00
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
 [movies] Saltado noticia no apta para películas: 42 años de carrera y el actor más querido: Hoy cumple 62 años uno de los grandes héroes de acción del cine
 [movies] Saltado noticia no apta para películas: La pareja que salió de 'Gran Hermano' y casi nadie se acuerda de ella: más de 20 años juntos e hijos en común
-[movies] Saltado noticia no apta para películas: Tras 20 años en antena, un canal mítico de la televisión española cambia de nombre este otoño y vuelve a sus orígenes
 [movies] Saltado noticia no apta para películas: Por qué se ha ido Javier Alonso de 'Pasapalabra': Este es el mítico concursante que le sustituirá
+[movies] Saltado noticia no apta para películas: Tras 20 años en antena, un canal mítico de la televisión española cambia de nombre este otoño y vuelve a sus orígenes
 [movies] Saltado noticia no apta para películas: El rincón de España que es el refugio de Roberto Leal desde hace años: "Un sí rotundo"
 [movies] Saltado noticia no apta para películas: 'La Séptima': Estos son los 9 presentadores que se pondrán al frente de los programas del nuevo canal de la TDT
 [movies] Saltado noticia no apta para películas: 6 años después, Anna Simón volvió a 'Zapeando': en este tiempo ha sido madre y participó en un programa de RTVE que fracasó
@@ -22,16 +22,9 @@ Fecha UTC: 2026-09-11T22:32:22.375429+00:00
 [movies] Saltado noticia no apta para películas: El director general de la productora de 'Supervivientes' sobre un hipotético desgaste de audiencia: "Si hay que parar un poco, se parará"
 [movies] Saltado noticia no apta para películas: La audiencia dicta sentencia a 'El túnel: avanza y gana': Todos lo comparan con este exitoso concurso
 [movies] Candidatos encontrados: 35 | Límite: 1
-[IA] Probando proveedor openai: Bad Apples
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Bad Apples
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Bad Apples
-[IA] cohere falló (error): Cohere error 404: {"id":"b9169901-14a6-4a18-a978-474fe00a1735","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Bad Apples
+[IA] Probando proveedor gemini: Forastera
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/bad-apples-saoirse-ronan-y-una-comedia-de-suspense-inusual-2026-09-11-da750e.md
+[OK] Publicado: src/content/blog/forastera-un-drama-sobrenatural-que-invita-a-la-reflexion-2026-09-12-84bd70.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
