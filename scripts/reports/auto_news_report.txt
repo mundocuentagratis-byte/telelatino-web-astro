@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-12T22:14:58.416968+00:00
+Fecha UTC: 2026-09-13T05:01:57.903074+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado porque no es estreno 2026: Cuatro palabras por 5 millones de dólares: Netflix hizo historia con esta película de ciencia ficción (2008)
@@ -13,13 +13,48 @@ Fecha UTC: 2026-09-12T22:14:58.416968+00:00
 [movies] Saltado noticia no apta para películas: 42 años de carrera y el actor más querido: Hoy cumple 62 años uno de los grandes héroes de acción del cine
 [movies] Saltado noticia no apta para películas: La pareja que salió de 'Gran Hermano' y casi nadie se acuerda de ella: más de 20 años juntos e hijos en común
 [movies] Saltado noticia no apta para películas: Por qué se ha ido Javier Alonso de 'Pasapalabra': Este es el mítico concursante que le sustituirá
-[movies] Saltado noticia no apta para películas: Tras 20 años en antena, un canal mítico de la televisión española cambia de nombre este otoño y vuelve a sus orígenes
 [movies] Saltado noticia no apta para películas: El rincón de España que es el refugio de Roberto Leal desde hace años: "Un sí rotundo"
+[movies] Saltado noticia no apta para películas: Cambio de última hora en Mediaset: 'Horizonte' amplia su horario hoy en Cuatro por este motivo
 [movies] Saltado noticia no apta para películas: 6 años después, Anna Simón volvió a 'Zapeando': en este tiempo ha sido madre y participó en un programa de RTVE que fracasó
 [movies] Candidatos encontrados: 40 | Límite: 1
-[IA] Probando proveedor gemini: Tiempo de victoria
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/tiempo-de-victoria-el-dilema-meteorologico-del-dia-d-2026-09-12-f8fa81.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[IA] Probando proveedor gemini: Un plan perfecto
+[IA] gemini falló (cuota): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 51.94582937s.', 'status': 'RESOURCE_EXHAUSTED'
+[IA] Probando proveedor groq: Un plan perfecto
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: Un plan perfecto
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: Un plan perfecto
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: Un plan perfecto
+[IA] cohere falló (error): Cohere error 404: {"id":"8ee97eff-c348-4efe-982d-28eabc75770c","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[movies] Error generando artículo Un plan perfecto: Todos los proveedores de IA fallaron. [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}} | [IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429} | [IA] cohere falló (error): Cohere error 404: {"id":"8ee97eff-c348-4efe-982d-28eabc75770c","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[YouTube] No se encontró tráiler confiable para 'La Séptima': Estos son los 9 presentadores que se pondrán al frente de los programas del nuevo canal de la TDT
+[movies] Saltado porque no tiene tráiler confiable: 'La Séptima': Estos son los 9 presentadores que se pondrán al frente de los programas del nuevo canal de la TDT
+[YouTube] No se encontró tráiler confiable para 'Prácticamente magia 2' tiene un agujero de guion de bulto, y lo sorprendente es que nadie se diera cuenta durante la producción
+[movies] Saltado porque no tiene tráiler confiable: 'Prácticamente magia 2' tiene un agujero de guion de bulto, y lo sorprendente es que nadie se diera cuenta durante la producción
+[YouTube] No se encontró tráiler confiable para 'Prácticamente magia' se rodó como una película distinta. El estudio obligó a eliminar escenas, rodar nuevas y convertirla en lo que es ahora
+[movies] Saltado porque no tiene tráiler confiable: 'Prácticamente magia' se rodó como una película distinta. El estudio obligó a eliminar escenas, rodar nuevas y convertirla en lo que es ahora
+[YouTube] No se encontró tráiler confiable para Así es la casa de Marta Sanahuja, presentadora de 'MasterChef', en Andorra: grandes ventanales, decoración minimalista y la cocina como protagonista
+[movies] Saltado porque no tiene tráiler confiable: Así es la casa de Marta Sanahuja, presentadora de 'MasterChef', en Andorra: grandes ventanales, decoración minimalista y la cocina como protagonista
+[YouTube] No se encontró tráiler confiable para Ben Ford, chef e hijo de Harrison Ford: "Este es mi plato de recuerdos al que vuelvo, no es su mejor plato. Ha evolucionado desde entonces"
+[movies] Saltado porque no tiene tráiler confiable: Ben Ford, chef e hijo de Harrison Ford: "Este es mi plato de recuerdos al que vuelvo, no es su mejor plato. Ha evolucionado desde entonces"
+[YouTube] No se encontró tráiler confiable para Cómo ver La Séptima en tu televisión: así se sintoniza el nuevo canal de la TDT sin instalar nada
+[movies] Saltado porque no tiene tráiler confiable: Cómo ver La Séptima en tu televisión: así se sintoniza el nuevo canal de la TDT sin instalar nada
+[movies] Saltado por tema bloqueado: Debutó en un episodio cualquiera de 'Urgencias', pero ha acabado siendo protagonista de DC, Marvel y 'Star Trek'. ¿Le reconoces?
+[YouTube] No se encontró tráiler confiable para El destino de Aragorn estuvo a punto de ser muy distinto en los primeros borradores de 'El señor de los anillos', pero JRR Tolkien supo muy bien lo que hacía
+[movies] Saltado porque no tiene tráiler confiable: El destino de Aragorn estuvo a punto de ser muy distinto en los primeros borradores de 'El señor de los anillos', pero JRR Tolkien supo muy bien lo que hacía
+[YouTube] No se encontró tráiler confiable para Estaba viendo una película de Clint Eastwood cuando el propio director lo llamó para ofrecerle 'Sin perdón': "Dile que llama Clint"
+[movies] Saltado porque no tiene tráiler confiable: Estaba viendo una película de Clint Eastwood cuando el propio director lo llamó para ofrecerle 'Sin perdón': "Dile que llama Clint"
+[YouTube] No se encontró tráiler confiable para Fernando Fernán Gómez: "Olvídese de todo eso que tiene en la cabeza de los actores americanos, esfuércese en trabajar como un español"
+[movies] Saltado porque no tiene tráiler confiable: Fernando Fernán Gómez: "Olvídese de todo eso que tiene en la cabeza de los actores americanos, esfuércese en trabajar como un español"
+[YouTube] No se encontró tráiler confiable para Matías Prats al recordar su retransmisión de 9 horas en el 11S: "ningún experto nos había hablado de la posibilidad de que aquello se viniera abajo"
+[movies] Saltado porque no tiene tráiler confiable: Matías Prats al recordar su retransmisión de 9 horas en el 11S: "ningún experto nos había hablado de la posibilidad de que aquello se viniera abajo"
+[YouTube] No se encontró tráiler confiable para Mick Jagger (83 años) entrena entre 5 y 6 días a la semana y corre 12km diarios: "A la cama alrededor de las 2 am. Arriba a las 10 am"
+[movies] Saltado porque no tiene tráiler confiable: Mick Jagger (83 años) entrena entre 5 y 6 días a la semana y corre 12km diarios: "A la cama alrededor de las 2 am. Arriba a las 10 am"
+[YouTube] No se encontró tráiler confiable para Ni Javier Bardem salva a 'La Revuelta': 'El Hormiguero' sigue siendo el líder indiscutible del 'access prime time'
+[movies] Saltado porque no tiene tráiler confiable: Ni Javier Bardem salva a 'La Revuelta': 'El Hormiguero' sigue siendo el líder indiscutible del 'access prime time'
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
