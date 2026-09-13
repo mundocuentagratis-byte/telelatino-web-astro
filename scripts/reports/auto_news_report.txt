@@ -1,12 +1,10 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-13T13:18:10.330778+00:00
+Fecha UTC: 2026-09-13T18:47:06.799682+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado porque no es estreno 2026: Llevas más de 25 años escuchando a la misma persona en 'Scream' y 'Las Supernenas' sin saberlo (2016)
-[movies] Saltado noticia no apta para películas: 100.000 dólares, 110 casquillos con pólvora y 200 explosivos para medio minuto de metraje: Coppola consiguió una maravilla a la primera
-[movies] Saltado noticia no apta para películas: "La IA puede matarnos antes de 2030": 'Dune' ya contó lo que pasaría en la guerra contra la inteligencia artificial
-[movies] Saltado noticia no apta para películas: Clint Eastwood y su gran problema con el cine en el siglo XXI: “No acabo de entender esta obsesión”
-[movies] Saltado porque no es estreno 2026: Cuatro palabras por 5 millones de dólares: Netflix hizo historia con esta película de ciencia ficción (2008)
+[movies] Saltado porque no es estreno 2026: "La IA puede matarnos antes de 2030": 'Dune' ya contó lo que pasaría en la guerra contra la inteligencia artificial (2030)
+[movies] Saltado noticia no apta para películas: El destino de Aragorn estuvo a punto de ser muy distinto en los primeros borradores de 'El señor de los anillos', pero JRR Tolkien supo muy bien lo que hacía
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
@@ -15,10 +13,25 @@ Fecha UTC: 2026-09-13T13:18:10.330778+00:00
 [movies] Saltado noticia no apta para películas: Por qué se ha ido Javier Alonso de 'Pasapalabra': Este es el mítico concursante que le sustituirá
 [movies] Saltado noticia no apta para películas: El rincón de España que es el refugio de Roberto Leal desde hace años: "Un sí rotundo"
 [movies] Saltado noticia no apta para películas: Cambio de última hora en Mediaset: 'Horizonte' amplia su horario hoy en Cuatro por este motivo
-[movies] Candidatos encontrados: 41 | Límite: 1
-[IA] Probando proveedor gemini: Un plan perfecto
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/un-plan-perfecto-comedia-y-atraco-a-la-espanola-2026-09-13-8fdbb2.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[movies] Candidatos encontrados: 42 | Límite: 1
+[YouTube] No se encontró tráiler confiable para 100.000 dólares, 110 casquillos con pólvora y 200 explosivos para medio minuto de metraje: Coppola consiguió una maravilla a la primera
+[movies] Saltado porque no tiene tráiler confiable: 100.000 dólares, 110 casquillos con pólvora y 200 explosivos para medio minuto de metraje: Coppola consiguió una maravilla a la primera
+[YouTube] No se encontró tráiler confiable para 3 veces trabajaron juntos en un año y tienen 6 matrimonios entre los dos: estos dos nonagenarios son leyendas del cine y la televisión
+[movies] Saltado porque no tiene tráiler confiable: 3 veces trabajaron juntos en un año y tienen 6 matrimonios entre los dos: estos dos nonagenarios son leyendas del cine y la televisión
+[YouTube] No se encontró tráiler confiable para Clint Eastwood y su gran problema con el cine en el siglo XXI: “No acabo de entender esta obsesión”
+[movies] Saltado porque no tiene tráiler confiable: Clint Eastwood y su gran problema con el cine en el siglo XXI: “No acabo de entender esta obsesión”
+[YouTube] No se encontró tráiler confiable para El final explicado de 'Prácticamente Magia 2' deja la puerta abierta a que los hechizos vuelvan una tercera vez
+[movies] Saltado porque no tiene tráiler confiable: El final explicado de 'Prácticamente Magia 2' deja la puerta abierta a que los hechizos vuelvan una tercera vez
+[YouTube] No se encontró tráiler confiable para Es uno de mis ‘thrillers’ favoritos de este último año: 115 minutos fabulosos con momentos de apretar el puño
+[movies] Saltado porque no tiene tráiler confiable: Es uno de mis ‘thrillers’ favoritos de este último año: 115 minutos fabulosos con momentos de apretar el puño
+[YouTube] No se encontró tráiler confiable para Esta pareja salió de 'Gran Hermano', pero "jamás" irían a 'La isla de las tentaciones': "No hay necesidad"
+[movies] Saltado porque no tiene tráiler confiable: Esta pareja salió de 'Gran Hermano', pero "jamás" irían a 'La isla de las tentaciones': "No hay necesidad"
+[YouTube] No se encontró tráiler confiable para La vida de Sarah Santaolalla en Salamanca antes de ser la nueva estrella de televisión: de la emisora de la universidad a fichaje estrella de La séptima
+[movies] Saltado porque no tiene tráiler confiable: La vida de Sarah Santaolalla en Salamanca antes de ser la nueva estrella de televisión: de la emisora de la universidad a fichaje estrella de La séptima
+[YouTube] No se encontró tráiler confiable para Meryl Streep habla de su escena más difícil con Clint Eastwood: “Recortaron elegantemente una parte”
+[movies] Saltado porque no tiene tráiler confiable: Meryl Streep habla de su escena más difícil con Clint Eastwood: “Recortaron elegantemente una parte”
+[YouTube] No se encontró tráiler confiable para Tom Cruise enceró el suelo él mismo en 'Risky Business' para que el plano más famoso saliera perfecto
+[movies] Saltado porque no tiene tráiler confiable: Tom Cruise enceró el suelo él mismo en 'Risky Business' para que el plano más famoso saliera perfecto
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
