@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-15T19:41:33.595192+00:00
+Fecha UTC: 2026-09-15T22:53:09.777599+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado noticia no apta para películas: Javier Bardem, contra las campañas de los Óscar: "Me sentí como una prostituta pidiendo votos. El arte no es competitivo"
@@ -20,16 +20,6 @@ Fecha UTC: 2026-09-15T19:41:33.595192+00:00
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones' vivió el ataque de celos más delirante de toda su historia: "No lo voy a consentir. Contrólate"
 [movies] Saltado noticia no apta para películas: La taberna de Sevilla a la que siempre le fue bien, pero llamó a 'Pesadilla en la cocina' por la reforma: "Es un lavadito de cara. Está bien"
 [movies] Candidatos encontrados: 34 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "No es una película muy buena": el fracaso de los años 80 de la que Tom Hanks no guarda buenos recuerdos
-[movies] Saltado porque no tiene tráiler confiable: "No es una película muy buena": el fracaso de los años 80 de la que Tom Hanks no guarda buenos recuerdos
-[YouTube] No se encontró tráiler confiable para En 1983, un grupo de soldados usaron su tarjeta de crédito y un teléfono público para pedir apoyo en pleno combate: a Hollywood le fascinó la historia
-[movies] Saltado porque no tiene tráiler confiable: En 1983, un grupo de soldados usaron su tarjeta de crédito y un teléfono público para pedir apoyo en pleno combate: a Hollywood le fascinó la historia
-[YouTube] No se encontró tráiler confiable para Gwyneth Paltrow asegura que lo suyo con Brad Pitt fue "amor a primera vista" y no le importaron los nueve años de diferencia
-[movies] Saltado porque no tiene tráiler confiable: Gwyneth Paltrow asegura que lo suyo con Brad Pitt fue "amor a primera vista" y no le importaron los nueve años de diferencia
-[YouTube] No se encontró tráiler confiable para Michael J. Fox (65 años): "Aceptar el Parkinson no significaba tener que rendirme ante él"
-[movies] Saltado porque no tiene tráiler confiable: Michael J. Fox (65 años): "Aceptar el Parkinson no significaba tener que rendirme ante él"
-[YouTube] No se encontró tráiler confiable para Scott Eastwood, sobre su padre Clint Eastwood: "Comía mucho salmón y brócoli y le gustan mucho los postres. Claramente le ha funcionado"
-[movies] Saltado porque no tiene tráiler confiable: Scott Eastwood, sobre su padre Clint Eastwood: "Comía mucho salmón y brócoli y le gustan mucho los postres. Claramente le ha funcionado"
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
