@@ -1,14 +1,11 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-15T13:30:11.810802+00:00
+Fecha UTC: 2026-09-15T19:41:33.595192+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
+[movies] Saltado noticia no apta para películas: Javier Bardem, contra las campañas de los Óscar: "Me sentí como una prostituta pidiendo votos. El arte no es competitivo"
 [movies] Saltado porque no es estreno 2026: Esta noche gratis en TV: la explosión más larga de la historia del cine que ni Christopher Nolan ha logrado superar (2015)
 [movies] Saltado porque no es estreno 2026: "Repulsiva y despreciable": estrenada hace 48 años, es una de las películas más censuradas del mundo (2010)
 [movies] Saltado noticia no apta para películas: Entre 'Pearl Harbor' y 'Salvar al soldado Ryan', esta nueva película bélica de Netflix se perfila como uno de los mayores acontecimientos del año y está basada en una historia real
-[movies] Saltado porque no es estreno 2026: Javier Bardem: "Mi padre hizo lo que pudo y supo, pero la que se rompió el lomo fue mi madre" (2022)
-[movies] Saltado noticia no apta para películas: Seis películas del Studio Ghibli vuelven a los cines de España, pero solo en siete ciudades
-[movies] Saltado noticia no apta para películas: Peter Jackson, Robert Eggers o Danny DeVito entre los grandes nombres de la pasarela del Festival de Sitges 2026
-[movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
@@ -17,19 +14,22 @@ Fecha UTC: 2026-09-15T13:30:11.810802+00:00
 [movies] Saltado noticia no apta para películas: Por qué se ha ido Javier Alonso de 'Pasapalabra': Este es el mítico concursante que le sustituirá
 [movies] Saltado noticia no apta para películas: Cambio de última hora en Mediaset: 'Horizonte' amplia su horario hoy en Cuatro por este motivo
 [movies] Saltado noticia no apta para películas: 'La Séptima': Estos son los 9 presentadores que se pondrán al frente de los programas del nuevo canal de la TDT
+[movies] Saltado porque no es estreno 2026: Más de 1.600 millones de euros por LaLiga: Movistar Plus llega a un acuerdo con DAZN para emitir todos los partidos hasta 2032 (2032)
+[movies] Saltado noticia no apta para películas: 'La huella del crimen', el novedoso programa de Telemadrid para los amantes del 'true crime': no será la clásica reconstrucción de los casos
 [movies] Saltado noticia no apta para películas: Moisés Laguardia estaba de vacaciones cuando recibió la llamada de 'Pasapalabra': "Me quedé en shock, pero me costó poco aceptar"
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones' vivió el ataque de celos más delirante de toda su historia: "No lo voy a consentir. Contrólate"
 [movies] Saltado noticia no apta para películas: La taberna de Sevilla a la que siempre le fue bien, pero llamó a 'Pesadilla en la cocina' por la reforma: "Es un lavadito de cara. Está bien"
-[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' pierde a su primer concursante por decisión médica: Estos son los primeros nominados del 'reality'
-[movies] Candidatos encontrados: 32 | Límite: 1
-[IA] Probando proveedor mistral: "Si se hubiera desviado de su marca, habría muerto": el director de la nueva 'Re
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: "Si se hubiera desviado de su marca, habría muerto": el director de la nueva 'Re
-[IA] cohere falló (error): Cohere error 404: {"id":"b9104f11-13c7-49c3-93dc-70f7ef2a8170","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: "Si se hubiera desviado de su marca, habría muerto": el director de la nueva 'Re
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/director-de-resident-evil-revela-la-escena-mas-peligrosa-jamas-filmada-2026-09-15-123c47.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[movies] Candidatos encontrados: 34 | Límite: 1
+[YouTube] No se encontró tráiler confiable para "No es una película muy buena": el fracaso de los años 80 de la que Tom Hanks no guarda buenos recuerdos
+[movies] Saltado porque no tiene tráiler confiable: "No es una película muy buena": el fracaso de los años 80 de la que Tom Hanks no guarda buenos recuerdos
+[YouTube] No se encontró tráiler confiable para En 1983, un grupo de soldados usaron su tarjeta de crédito y un teléfono público para pedir apoyo en pleno combate: a Hollywood le fascinó la historia
+[movies] Saltado porque no tiene tráiler confiable: En 1983, un grupo de soldados usaron su tarjeta de crédito y un teléfono público para pedir apoyo en pleno combate: a Hollywood le fascinó la historia
+[YouTube] No se encontró tráiler confiable para Gwyneth Paltrow asegura que lo suyo con Brad Pitt fue "amor a primera vista" y no le importaron los nueve años de diferencia
+[movies] Saltado porque no tiene tráiler confiable: Gwyneth Paltrow asegura que lo suyo con Brad Pitt fue "amor a primera vista" y no le importaron los nueve años de diferencia
+[YouTube] No se encontró tráiler confiable para Michael J. Fox (65 años): "Aceptar el Parkinson no significaba tener que rendirme ante él"
+[movies] Saltado porque no tiene tráiler confiable: Michael J. Fox (65 años): "Aceptar el Parkinson no significaba tener que rendirme ante él"
+[YouTube] No se encontró tráiler confiable para Scott Eastwood, sobre su padre Clint Eastwood: "Comía mucho salmón y brócoli y le gustan mucho los postres. Claramente le ha funcionado"
+[movies] Saltado porque no tiene tráiler confiable: Scott Eastwood, sobre su padre Clint Eastwood: "Comía mucho salmón y brócoli y le gustan mucho los postres. Claramente le ha funcionado"
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
