@@ -1,28 +1,35 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-15T04:49:32.952891+00:00
+Fecha UTC: 2026-09-15T13:30:11.810802+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
+[movies] Saltado porque no es estreno 2026: Esta noche gratis en TV: la explosión más larga de la historia del cine que ni Christopher Nolan ha logrado superar (2015)
+[movies] Saltado porque no es estreno 2026: "Repulsiva y despreciable": estrenada hace 48 años, es una de las películas más censuradas del mundo (2010)
+[movies] Saltado noticia no apta para películas: Entre 'Pearl Harbor' y 'Salvar al soldado Ryan', esta nueva película bélica de Netflix se perfila como uno de los mayores acontecimientos del año y está basada en una historia real
 [movies] Saltado porque no es estreno 2026: Javier Bardem: "Mi padre hizo lo que pudo y supo, pero la que se rompió el lomo fue mi madre" (2022)
+[movies] Saltado noticia no apta para películas: Seis películas del Studio Ghibli vuelven a los cines de España, pero solo en siete ciudades
+[movies] Saltado noticia no apta para películas: Peter Jackson, Robert Eggers o Danny DeVito entre los grandes nombres de la pasarela del Festival de Sitges 2026
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
-[movies] Saltado noticia no apta para películas: San Diego Comic-Con Málaga 2026 abre su agenda digital para más de 300 horas de contenido: Estos son los pasos a seguir para reservar los paneles
-[movies] Saltado noticia no apta para películas: Una mujer tiene encadenada en su casa a su propia madre: esta es la premisa de la nueva propuesta de 'thriller' psicológico, 'El nido'
-[movies] Saltado noticia no apta para películas: Sólo tienes 4 días para ver en Netflix la mejor película de la directora de ‘Barbie’ y ‘Mujercitas’
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
 [movies] Saltado noticia no apta para películas: 42 años de carrera y el actor más querido: Hoy cumple 62 años uno de los grandes héroes de acción del cine
-[movies] Saltado noticia no apta para películas: Por qué se ha ido Javier Alonso de 'Pasapalabra': Este es el mítico concursante que le sustituirá
 [movies] Saltado noticia no apta para películas: Cómo ver La Séptima en tu televisión: así se sintoniza el nuevo canal de la TDT sin instalar nada
+[movies] Saltado noticia no apta para películas: Por qué se ha ido Javier Alonso de 'Pasapalabra': Este es el mítico concursante que le sustituirá
 [movies] Saltado noticia no apta para películas: Cambio de última hora en Mediaset: 'Horizonte' amplia su horario hoy en Cuatro por este motivo
-[movies] Saltado noticia no apta para películas: La pareja que salió de 'Gran Hermano' y casi nadie se acuerda de ella: más de 20 años juntos e hijos en común
+[movies] Saltado noticia no apta para películas: 'La Séptima': Estos son los 9 presentadores que se pondrán al frente de los programas del nuevo canal de la TDT
+[movies] Saltado noticia no apta para películas: Moisés Laguardia estaba de vacaciones cuando recibió la llamada de 'Pasapalabra': "Me quedé en shock, pero me costó poco aceptar"
+[movies] Saltado noticia no apta para películas: 'La isla de las tentaciones' vivió el ataque de celos más delirante de toda su historia: "No lo voy a consentir. Contrólate"
 [movies] Saltado noticia no apta para películas: La taberna de Sevilla a la que siempre le fue bien, pero llamó a 'Pesadilla en la cocina' por la reforma: "Es un lavadito de cara. Está bien"
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' pierde a su primer concursante por decisión médica: Estos son los primeros nominados del 'reality'
-[movies] Saltado noticia no apta para películas: Esta pareja salió de 'Gran Hermano', pero "jamás" irían a 'La isla de las tentaciones': "No hay necesidad"
-[movies] Saltado noticia no apta para películas: La vida de Sarah Santaolalla en Salamanca antes de ser la nueva estrella de televisión: de la emisora de la universidad a fichaje estrella de La séptima
-[movies] Candidatos encontrados: 34 | Límite: 1
-[IA] Probando proveedor gemini: La isla olvidada
+[movies] Candidatos encontrados: 32 | Límite: 1
+[IA] Probando proveedor mistral: "Si se hubiera desviado de su marca, habría muerto": el director de la nueva 'Re
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: "Si se hubiera desviado de su marca, habría muerto": el director de la nueva 'Re
+[IA] cohere falló (error): Cohere error 404: {"id":"b9104f11-13c7-49c3-93dc-70f7ef2a8170","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: "Si se hubiera desviado de su marca, habría muerto": el director de la nueva 'Re
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/la-isla-olvidada-una-aventura-animada-inspirada-en-filipinas-2026-09-15-08ca18.md
+[OK] Publicado: src/content/blog/director-de-resident-evil-revela-la-escena-mas-peligrosa-jamas-filmada-2026-09-15-123c47.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
