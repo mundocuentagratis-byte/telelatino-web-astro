@@ -1,25 +1,33 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-16T04:45:30.729051+00:00
+Fecha UTC: 2026-09-16T13:29:21.320361+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
+[movies] Saltado noticia no apta para películas: Ya en cines, "un delicado y deslumbrante cuento de fantasmas sin fantasmas": 'Forastera' afronta el duelo desde una perspectiva muy fresca
+[movies] Saltado porque no es estreno 2026: 'La bola negra' representará a España en los Oscar y las apuestas señalan que podría aparecer en varias categorías (2027)
 [movies] Saltado noticia no apta para películas: Javier Bardem, contra las campañas de los Óscar: "Me sentí como una prostituta pidiendo votos. El arte no es competitivo"
-[movies] Saltado porque no es estreno 2026: Esta noche gratis en TV: la explosión más larga de la historia del cine que ni Christopher Nolan ha logrado superar (2015)
-[movies] Saltado porque no es estreno 2026: "Repulsiva y despreciable": estrenada hace 48 años, es una de las películas más censuradas del mundo (2010)
-[movies] Saltado noticia no apta para películas: Entre 'Pearl Harbor' y 'Salvar al soldado Ryan', esta nueva película bélica de Netflix se perfila como uno de los mayores acontecimientos del año y está basada en una historia real
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado noticia no apta para películas: 42 años de carrera y el actor más querido: Hoy cumple 62 años uno de los grandes héroes de acción del cine
 [movies] Saltado porque no es estreno 2026: Para ver esta noche: es una de las mejores películas de aventuras de todos los tiempos (2009)
 [movies] Saltado noticia no apta para películas: Cómo ver La Séptima en tu televisión: así se sintoniza el nuevo canal de la TDT sin instalar nada
 [movies] Saltado noticia no apta para películas: Por qué se ha ido Javier Alonso de 'Pasapalabra': Este es el mítico concursante que le sustituirá
-[movies] Saltado noticia no apta para películas: Cambio de última hora en Mediaset: 'Horizonte' amplia su horario hoy en Cuatro por este motivo
 [movies] Saltado noticia no apta para películas: 'La Séptima': Estos son los 9 presentadores que se pondrán al frente de los programas del nuevo canal de la TDT
+[movies] Saltado noticia no apta para películas: Cambio de última hora en Mediaset: 'Horizonte' amplia su horario hoy en Cuatro por este motivo
+[movies] Saltado noticia no apta para películas: Mónica Carrillo y Matías Prats, 18 años de "matrimonio televisivo": "Gracias por tenderme la mano desde el primer día y no soltarnos"
+[movies] Saltado noticia no apta para películas: Ricardo Castella desaparece de 'La Revuelta' sin explicación: Quién es Javier Losán, el actor que ha ocupado su puesto
+[movies] Saltado noticia no apta para películas: Silvia Intxaurrondo gana el juicio contra RTVE: la presentadora de 'La hora de La 1' recupera su sueldo de más de 250.000 euros anuales
+[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' desvela a su nueva concursante y al primer salvado de la edición: Así queda la lista de nominados
 [movies] Saltado porque no es estreno 2026: Más de 1.600 millones de euros por LaLiga: Movistar Plus llega a un acuerdo con DAZN para emitir todos los partidos hasta 2032 (2032)
 [movies] Saltado noticia no apta para películas: 'La huella del crimen', el novedoso programa de Telemadrid para los amantes del 'true crime': no será la clásica reconstrucción de los casos
-[movies] Saltado noticia no apta para películas: Moisés Laguardia estaba de vacaciones cuando recibió la llamada de 'Pasapalabra': "Me quedé en shock, pero me costó poco aceptar"
-[movies] Saltado noticia no apta para películas: 'La isla de las tentaciones' vivió el ataque de celos más delirante de toda su historia: "No lo voy a consentir. Contrólate"
-[movies] Saltado noticia no apta para películas: La taberna de Sevilla a la que siempre le fue bien, pero llamó a 'Pesadilla en la cocina' por la reforma: "Es un lavadito de cara. Está bien"
-[movies] Candidatos encontrados: 34 | Límite: 1
+[movies] Candidatos encontrados: 35 | Límite: 1
+[YouTube] No se encontró tráiler confiable para Dakota Johnson (36 años): "No puedo funcionar si duermo menos de 10 horas. Puedo aguantar fácilmente 14 horas"
+[movies] Saltado porque no tiene tráiler confiable: Dakota Johnson (36 años): "No puedo funcionar si duermo menos de 10 horas. Puedo aguantar fácilmente 14 horas"
+[YouTube] No se encontró tráiler confiable para Geraldine Page, actriz de 'Hondo': "John Wayne empezó a preocuparse por los mexicanos porque estaban acampados pasando frío. Pasó el resto de la noche con ellos"
+[movies] Saltado porque no tiene tráiler confiable: Geraldine Page, actriz de 'Hondo': "John Wayne empezó a preocuparse por los mexicanos porque estaban acampados pasando frío. Pasó el resto de la noche con ellos"
+[YouTube] No se encontró tráiler confiable para Javier Calvo: "Tuve un representante que decía que debía ocultar mi homosexualidad para conseguir trabajo"
+[movies] Saltado porque no tiene tráiler confiable: Javier Calvo: "Tuve un representante que decía que debía ocultar mi homosexualidad para conseguir trabajo"
+[YouTube] No se encontró tráiler confiable para Zack Snyder se estrella con la película en la que lleva trabajando 20 años: "Lánguida y tediosa. Un tipo de fealdad que no se está preparada para afrontar"
+[movies] Saltado porque no tiene tráiler confiable: Zack Snyder se estrella con la película en la que lleva trabajando 20 años: "Lánguida y tediosa. Un tipo de fealdad que no se está preparada para afrontar"
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
