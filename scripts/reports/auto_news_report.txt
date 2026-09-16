@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-16T19:33:19.462749+00:00
+Fecha UTC: 2026-09-16T22:54:43.287323+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
 [movies] Saltado porque no es estreno 2026: Alan Rickman, el actor que interpretó a Snape, cumplió el mayor deseo de muchos niños en el set de 'Harry Potter': "Sabía lo mucho que significaba para ellos" (2016)
@@ -22,12 +22,6 @@ Fecha UTC: 2026-09-16T19:33:19.462749+00:00
 [movies] Saltado noticia no apta para películas: Silvia Intxaurrondo gana el juicio contra RTVE: la presentadora de 'La hora de La 1' recupera su sueldo de más de 250.000 euros anuales
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' desvela a su nueva concursante y al primer salvado de la edición: Así queda la lista de nominados
 [movies] Candidatos encontrados: 34 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "Incluso en 'La Odisea' hablamos de las mismas cosas": Pablo Trapero vuelve a los cines para debatir sobre el 'mal padre' con 'Sus hijos'
-[movies] Saltado porque no tiene tráiler confiable: "Incluso en 'La Odisea' hablamos de las mismas cosas": Pablo Trapero vuelve a los cines para debatir sobre el 'mal padre' con 'Sus hijos'
-[YouTube] No se encontró tráiler confiable para Gael García Bernal asegura que no puede ver 'La Odisea' porque Odiseo habla inglés e internet se le echa encima: "¿Pero el Día de Muertos sí se lo imaginaba en inglés?"
-[movies] Saltado porque no tiene tráiler confiable: Gael García Bernal asegura que no puede ver 'La Odisea' porque Odiseo habla inglés e internet se le echa encima: "¿Pero el Día de Muertos sí se lo imaginaba en inglés?"
-[YouTube] No se encontró tráiler confiable para Ya en cines, "un delicado y deslumbrante cuento de fantasmas sin fantasmas": 'Forastera' afronta el duelo desde una perspectiva muy fresca
-[movies] Saltado porque no tiene tráiler confiable: Ya en cines, "un delicado y deslumbrante cuento de fantasmas sin fantasmas": 'Forastera' afronta el duelo desde una perspectiva muy fresca
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
