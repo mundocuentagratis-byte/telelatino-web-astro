@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-17T19:49:47.486228+00:00
+Fecha UTC: 2026-09-17T22:51:11.011764+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
 [movies] Saltado porque no es estreno 2026: Resident Evil (2002)
 [movies] Saltado porque no es estreno 2026: La Bola Negra (2002)
@@ -27,16 +27,29 @@ Fecha UTC: 2026-09-17T19:49:47.486228+00:00
 [movies] Saltado noticia no apta para películas: La taberna de Sevilla a la que siempre le fue bien, pero llamó a 'Pesadilla en la cocina' por la reforma: "Es un lavadito de cara. Está bien"
 [movies] Saltado noticia no apta para películas: Despliegue militar en 'Supervivientes All Stars 3': la protesta de la comunidad garífuna vuelve a poner en jaque al 'reality'
 [movies] Candidatos encontrados: 30 | Límite: 1
-[IA] Probando proveedor openai: "Intentamos comprar los derechos y quemarla": Sylvester Stallone odiaba esta pel
+[IA] Probando proveedor gemini: "No funcionó": Hace 24 años, esta obra maestra de la ciencia ficción casi estuvo
+[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 5799 (char 6074)
+[IA] Probando proveedor groq: "No funcionó": Hace 24 años, esta obra maestra de la ciencia ficción casi estuvo
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: "No funcionó": Hace 24 años, esta obra maestra de la ciencia ficción casi estuvo
 [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: "Intentamos comprar los derechos y quemarla": Sylvester Stallone odiaba esta pel
+[IA] Probando proveedor mistral: "No funcionó": Hace 24 años, esta obra maestra de la ciencia ficción casi estuvo
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: "Intentamos comprar los derechos y quemarla": Sylvester Stallone odiaba esta pel
-[IA] cohere falló (error): Cohere error 404: {"id":"9072723b-6579-4b68-a3c0-29ee1188cf59","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: "Intentamos comprar los derechos y quemarla": Sylvester Stallone odiaba esta pel
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/sylvester-stallone-y-la-pelicula-que-casi-quema-asi-nacio-rambo-2026-09-17-744ae9.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[IA] Probando proveedor cohere: "No funcionó": Hace 24 años, esta obra maestra de la ciencia ficción casi estuvo
+[IA] cohere falló (error): Cohere error 404: {"id":"4d635894-f1c4-41ef-bb28-2af4b176261a","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[movies] Error generando artículo "No funcionó": Hace 24 años, esta obra maestra de la ciencia ficción casi estuvo protagonizada por Arnold Schwarzenegger: Todos los proveedores de IA fallaron. [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}} | [IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429} | [IA] cohere falló (error): Cohere error 404: {"id":"4d635894-f1c4-41ef-bb28-2af4b176261a","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[YouTube] No se encontró tráiler confiable para "Una de las mejores películas de aventuras": Quentin Tarantino no deja de deshacerse en elogios hacia este clásico del wéstern
+[movies] Saltado porque no tiene tráiler confiable: "Una de las mejores películas de aventuras": Quentin Tarantino no deja de deshacerse en elogios hacia este clásico del wéstern
+[YouTube] No se encontró tráiler confiable para 'La bola negra' puede ser la nueva víctima del 'review bombing': aún no se ha estrenado y ya acumula puntuaciones negativas en IMDB
+[movies] Saltado porque no tiene tráiler confiable: 'La bola negra' puede ser la nueva víctima del 'review bombing': aún no se ha estrenado y ya acumula puntuaciones negativas en IMDB
+[YouTube] No se encontró tráiler confiable para Alan Rickman, el actor que interpretó a Snape, cumplió el mayor deseo de muchos niños en el set de 'Harry Potter': "Sabía lo mucho que significaba para ellos"
+[movies] Saltado porque no tiene tráiler confiable: Alan Rickman, el actor que interpretó a Snape, cumplió el mayor deseo de muchos niños en el set de 'Harry Potter': "Sabía lo mucho que significaba para ellos"
+[YouTube] No se encontró tráiler confiable para Si lees libros de autoayuda para superar tus problemas, aprenderás cosas teóricas: si ves una buena película las enseñanzas se quedará contigo para siempre
+[movies] Saltado porque no tiene tráiler confiable: Si lees libros de autoayuda para superar tus problemas, aprenderás cosas teóricas: si ves una buena película las enseñanzas se quedará contigo para siempre
+[YouTube] No se encontró tráiler confiable para Zack Snyder: "Hay pocas películas en las que la gente entra heterosexual y sale gay, y '300' es una de ellas"
+[movies] Saltado porque no tiene tráiler confiable: Zack Snyder: "Hay pocas películas en las que la gente entra heterosexual y sale gay, y '300' es una de ellas"
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
