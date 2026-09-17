@@ -1,12 +1,18 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-17T04:48:13.955011+00:00
+Fecha UTC: 2026-09-17T13:25:20.296619+00:00
 [movies] Saltado porque no es estreno 2026: Coyote vs. ACME (None)
-[movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (None)
-[movies] Saltado porque no es estreno 2026: Alan Rickman, el actor que interpretó a Snape, cumplió el mayor deseo de muchos niños en el set de 'Harry Potter': "Sabía lo mucho que significaba para ellos" (2016)
+[movies] Saltado noticia no apta para películas: “Una de las mejores películas que combinan imagen real y animación de la historia”: llega solo a cines la increíble ‘Coyote vs. Acme’
+[movies] Saltado porque no es estreno 2026: "No vas a ir a un parque de atracciones a subirte a una montaña rusa completamente solo": a punto de llegar a los cines la versión de 'Resident Evil' del director de 'Weapons' (2022)
+[movies] Saltado noticia no apta para películas: 'La bola negra' puede ser la nueva víctima del 'review bombing': aún no se ha estrenado y ya acumula puntuaciones negativas en IMDB
+[movies] Saltado noticia no apta para películas: "Una de las mejores películas de aventuras": Quentin Tarantino no deja de deshacerse en elogios hacia este clásico del wéstern
+[movies] Saltado noticia no apta para películas: "Intentamos comprar los derechos y quemarla": Sylvester Stallone odiaba esta película, pero hoy se considera una de sus mejores
+[movies] Saltado noticia no apta para películas: Si lees libros de autoayuda para superar tus problemas, aprenderás cosas teóricas: si ves una buena película las enseñanzas se quedará contigo para siempre
+[movies] Saltado noticia no apta para películas: "No funcionó": Hace 24 años, esta obra maestra de la ciencia ficción casi estuvo protagonizada por Arnold Schwarzenegger
+[movies] Saltado noticia no apta para películas: Tom Hanks está convencido de que actuó en "una de las peores películas jamás realizadas": solo la hizo porque alguien cercano de lo pidió
+[movies] Saltado noticia no apta para películas: Alan Rickman, el actor que interpretó a Snape, cumplió el mayor deseo de muchos niños en el set de 'Harry Potter': "Sabía lo mucho que significaba para ellos"
+[movies] Saltado noticia no apta para películas: "Incluso en 'La Odisea' hablamos de las mismas cosas": Pablo Trapero vuelve a los cines para debatir sobre el 'mal padre' con 'Sus hijos'
 [movies] Saltado noticia no apta para películas: Geraldine Page, actriz de 'Hondo': "John Wayne empezó a preocuparse por los mexicanos porque estaban acampados pasando frío. Pasó el resto de la noche con ellos"
-[movies] Saltado porque no es estreno 2026: 'La bola negra' representará a España en los Oscar y las apuestas señalan que podría aparecer en varias categorías (2027)
-[movies] Saltado noticia no apta para películas: Gwyneth Paltrow asegura que lo suyo con Brad Pitt fue "amor a primera vista" y no le importaron los nueve años de diferencia
-[movies] Saltado noticia no apta para películas: "No es una película muy buena": el fracaso de los años 80 de la que Tom Hanks no guarda buenos recuerdos
+[movies] Saltado noticia no apta para películas: Javier Calvo: "Tuve un representante que decía que debía ocultar mi homosexualidad para conseguir trabajo"
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado noticia no apta para películas: 42 años de carrera y el actor más querido: Hoy cumple 62 años uno de los grandes héroes de acción del cine
@@ -15,13 +21,20 @@ Fecha UTC: 2026-09-17T04:48:13.955011+00:00
 [movies] Saltado noticia no apta para películas: Por qué se ha ido Javier Alonso de 'Pasapalabra': Este es el mítico concursante que le sustituirá
 [movies] Saltado noticia no apta para películas: 'La Séptima': Estos son los 9 presentadores que se pondrán al frente de los programas del nuevo canal de la TDT
 [movies] Saltado noticia no apta para películas: La taberna de Sevilla a la que siempre le fue bien, pero llamó a 'Pesadilla en la cocina' por la reforma: "Es un lavadito de cara. Está bien"
-[movies] Saltado noticia no apta para películas: El infierno personal de Aitor Trigos alejado de la televisión: tras semanas hospitalizado, busca refugio en un pueblo
 [movies] Saltado noticia no apta para películas: Despliegue militar en 'Supervivientes All Stars 3': la protesta de la comunidad garífuna vuelve a poner en jaque al 'reality'
-[movies] Saltado noticia no apta para películas: Mónica Carrillo y Matías Prats, 18 años de "matrimonio televisivo": "Gracias por tenderme la mano desde el primer día y no soltarnos"
-[movies] Saltado noticia no apta para películas: Ricardo Castella desaparece de 'La Revuelta' sin explicación: Quién es Javier Losán, el actor que ha ocupado su puesto
-[movies] Saltado noticia no apta para películas: Silvia Intxaurrondo gana el juicio contra RTVE: la presentadora de 'La hora de La 1' recupera su sueldo de más de 250.000 euros anuales
-[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' desvela a su nueva concursante y al primer salvado de la edición: Así queda la lista de nominados
-[movies] Candidatos encontrados: 34 | Límite: 1
+[movies] Candidatos encontrados: 33 | Límite: 1
+[YouTube] No se encontró tráiler confiable para 'La Revuelta' ya no solo es superada por 'Horizonte': 'First Dates' logra una décima más que el programa de David Broncano
+[movies] Saltado porque no tiene tráiler confiable: 'La Revuelta' ya no solo es superada por 'Horizonte': 'First Dates' logra una décima más que el programa de David Broncano
+[YouTube] No se encontró tráiler confiable para 'La isla de las tentaciones 11' vivió su primera sanción: estas son las consecuencias para Rubén por haber roto la "luz de la tentación"
+[movies] Saltado porque no tiene tráiler confiable: 'La isla de las tentaciones 11' vivió su primera sanción: estas son las consecuencias para Rubén por haber roto la "luz de la tentación"
+[YouTube] No se encontró tráiler confiable para David Cronenberg escribía el guion de esta película cada mañana antes de ir al rodaje: había tanto caos que el primer día no filmaron nada y hubo un accidente que marcó al equipo
+[movies] Saltado porque no tiene tráiler confiable: David Cronenberg escribía el guion de esta película cada mañana antes de ir al rodaje: había tanto caos que el primer día no filmaron nada y hubo un accidente que marcó al equipo
+[YouTube] No se encontró tráiler confiable para El infierno personal de Aitor Trigos alejado de la televisión: tras semanas hospitalizado, busca refugio en un pueblo
+[movies] Saltado porque no tiene tráiler confiable: El infierno personal de Aitor Trigos alejado de la televisión: tras semanas hospitalizado, busca refugio en un pueblo
+[YouTube] No se encontró tráiler confiable para María José Cano ya es centenaria en 'Saber y ganar': Estas son las otras cuatro mujeres que lo han conseguido
+[movies] Saltado porque no tiene tráiler confiable: María José Cano ya es centenaria en 'Saber y ganar': Estas son las otras cuatro mujeres que lo han conseguido
+[YouTube] No se encontró tráiler confiable para Quién es Anas Andaloussi, el nuevo colaborador de 'El Hormiguero' experto en IA: con 17 años ya ganaba 20.000 euros al mes
+[movies] Saltado porque no tiene tráiler confiable: Quién es Anas Andaloussi, el nuevo colaborador de 'El Hormiguero' experto en IA: con 17 años ya ganaba 20.000 euros al mes
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
