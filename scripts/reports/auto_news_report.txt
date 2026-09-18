@@ -1,11 +1,11 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-18T19:02:26.666429+00:00
+Fecha UTC: 2026-09-18T22:34:38.467501+00:00
 [movies] Saltado porque no es estreno 2026: La Bola Negra (None)
 [movies] Saltado porque no es estreno 2026: Prácticamente magia 2 (None)
+[movies] Saltado noticia no apta para películas: 'Tangles' es una belleza de la animación: una emocionante película sobre el alzhéimer que no se olvida de hacer reír | San Sebastián 2026
 [movies] Saltado noticia no apta para películas: Daniel Arias, el hijo menor de Imanol Arias: "Se me daban fatal las mates, y ya decía: el día que actúe y dirija, ahí estaré bien"
 [movies] Saltado porque no es estreno 2026: Una de las frases más famosas de la historia del cine: fue acuñada hace 35 años y ha llegado incluso a la política (2009)
 [movies] Saltado porque no es estreno 2026: La primera imagen de la película de fantasía más ambiciosa del momento multiplica la expectación: 'Narnia' tiene a la mejor actriz de todos los tiempos (2027)
-[movies] Saltado noticia no apta para películas: "Vino gente de toda la ciudad para vernos a Jack y a mí": Tom Cruise rodó una escena con Jack Nicholson que hizo que Los Ángeles se paralizase
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
@@ -20,10 +20,17 @@ Fecha UTC: 2026-09-18T19:02:26.666429+00:00
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' cambió de localización por las protestas garífunas y anunció a su primer expulsado: Estos son los nuevos nominados
 [movies] Saltado noticia no apta para películas: ¿Cómo fueron los últimos días de Federico García Lorca?
 [movies] Saltado noticia no apta para películas: María José Cano ya es centenaria en 'Saber y ganar': Estas son las otras cuatro mujeres que lo han conseguido
-[movies] Candidatos encontrados: 32 | Límite: 1
-[IA] Probando proveedor gemini: Mosquito Bowl: Un partido en plena guerra
+[movies] Candidatos encontrados: 33 | Límite: 1
+[IA] Probando proveedor openai: Mumbo Jumbo se hace enorme
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: Mumbo Jumbo se hace enorme
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: Mumbo Jumbo se hace enorme
+[IA] cohere falló (error): Cohere error 404: {"id":"57965955-a098-4fa8-97f3-b30e5989170c","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Mumbo Jumbo se hace enorme
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/mosquito-bowl-cuando-el-futbol-se-encontro-con-la-guerra-2026-09-18-4b5b3e.md
+[OK] Publicado: src/content/blog/mumbo-jumbo-se-hace-enorme-una-aventura-gigante-de-animacion-2026-09-18-03fb23.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
