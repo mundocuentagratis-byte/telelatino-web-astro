@@ -1,36 +1,29 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-19T12:29:37.871165+00:00
+Fecha UTC: 2026-09-19T18:36:34.530635+00:00
 [movies] Saltado porque no es estreno 2026: La Bola Negra (None)
 [movies] Saltado porque no es estreno 2026: Prácticamente magia 2 (None)
-[movies] Saltado porque no es estreno 2026: Una de las frases más famosas de la historia del cine: fue acuñada hace 35 años y ha llegado incluso a la política (2009)
-[movies] Saltado noticia no apta para películas: El mundo mitad hombre, mitad toro de 'Minotauro': un 'thriller' que convierte el mito en crítica política | San Sebastián 2026
-[movies] Saltado porque no es estreno 2026: La primera imagen de la película de fantasía más ambiciosa del momento multiplica la expectación: 'Narnia' tiene a la mejor actriz de todos los tiempos (2027)
+[movies] Saltado noticia no apta para películas: Quentin Tarantino temía pasarse de la raya con ‘Malditos bastardos’: sus amigos judíos tuvieron la última palabra
+[movies] Saltado noticia no apta para películas: 'Las ciegas hormigas': un 'thriller' crudo e íntimo con alma de cuento que desaprovecha su potencial | San Sebastián 2026
+[movies] Saltado noticia no apta para películas: 'Tangles' es una belleza de la animación: una emocionante película sobre el alzhéimer que no se olvida de hacer reír | San Sebastián 2026
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado noticia no apta para películas: 42 años de carrera y el actor más querido: Hoy cumple 62 años uno de los grandes héroes de acción del cine
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
+[movies] Saltado noticia no apta para películas: Cómo ver La Séptima en tu televisión: así se sintoniza el nuevo canal de la TDT sin instalar nada
+[movies] Saltado noticia no apta para películas: Ricardo Castella desaparece de 'La Revuelta' sin explicación: Quién es Javier Losán, el actor que ha ocupado su puesto
+[movies] Saltado noticia no apta para películas: 'La Séptima': Estos son los 9 presentadores que se pondrán al frente de los programas del nuevo canal de la TDT
+[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' desvela a su nueva concursante y al primer salvado de la edición: Así queda la lista de nominados
+[movies] Saltado porque no es estreno 2026: Fue expulsado de un 'reality' porque descubrieron que había matado a sus padres: el mayor escándalo de la televisión española ocurrió en 2009 (2009)
+[movies] Saltado porque no es estreno 2026: Alberto Izquierdo, ganador de 'Pasapalabra' y centenario de 'Saber y ganar': "Soy una especie de "juguete roto" y me da mucha rabia" (2012)
+[movies] Saltado noticia no apta para películas: Concha Galán, la famosa presentadora de los 90 que fue despedida por estar embarazada: "Me dijeron que no quedaba bien"
+[movies] Saltado noticia no apta para películas: Eva Nasarre dejó la TV por el trabajo social: décadas después lucha por la Ley de Dependencia desde su silla de ruedas
 [movies] Saltado noticia no apta para películas: Cambio de programación en Mediaset: Así quedan las mañanas de Telecinco con el regreso de Joaquín Prat
-[movies] Saltado noticia no apta para películas: Iba a ver 'La Revuelta' como público y acabó registrado por la Policía: El malentendido que obligó a detener un tren camino a Madrid
-[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' cambió de localización por las protestas garífunas y anunció a su primer expulsado: Estos son los nuevos nominados
-[movies] Saltado noticia no apta para películas: ¿Cómo fueron los últimos días de Federico García Lorca?
-[movies] Saltado noticia no apta para películas: María José Cano ya es centenaria en 'Saber y ganar': Estas son las otras cuatro mujeres que lo han conseguido
-[movies] Candidatos encontrados: 39 | Límite: 1
+[movies] Candidatos encontrados: 33 | Límite: 1
 [IA] Probando proveedor cohere: Operación Teherán
-[IA] cohere falló (error): Cohere error 404: {"id":"f01331e6-b699-49fb-a2a8-a81a11eb8af4","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] cohere falló (error): Cohere error 404: {"id":"75a5da12-ed98-4170-97fe-06479be03f58","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
 [IA] Probando proveedor gemini: Operación Teherán
-[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 4044 (char 4356)
-[IA] Probando proveedor groq: Operación Teherán
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: Operación Teherán
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Operación Teherán
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[movies] Error generando artículo Operación Teherán: Todos los proveedores de IA fallaron. [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}} | [IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor gemini: Se abre la veda 2
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/se-abre-la-veda-2-guerra-vecinal-y-caza-en-el-campo-frances-2026-09-19-44b019.md
+[OK] Publicado: src/content/blog/operacion-teheran-liam-neeson-lidera-un-thriller-de-accion-y-dilemas-morales-2026-09-19-36a9ab.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
