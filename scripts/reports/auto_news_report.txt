@@ -1,13 +1,10 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-19T04:33:01.901003+00:00
+Fecha UTC: 2026-09-19T12:29:37.871165+00:00
 [movies] Saltado porque no es estreno 2026: La Bola Negra (None)
 [movies] Saltado porque no es estreno 2026: Prácticamente magia 2 (None)
-[movies] Saltado noticia no apta para películas: 'Las ciegas hormigas': un 'thriller' crudo e íntimo con alma de cuento que desaprovecha su potencial | San Sebastián 2026
-[movies] Saltado noticia no apta para películas: 'Tangles' es una belleza de la animación: una emocionante película sobre el alzhéimer que no se olvida de hacer reír | San Sebastián 2026
 [movies] Saltado porque no es estreno 2026: Una de las frases más famosas de la historia del cine: fue acuñada hace 35 años y ha llegado incluso a la política (2009)
 [movies] Saltado noticia no apta para películas: El mundo mitad hombre, mitad toro de 'Minotauro': un 'thriller' que convierte el mito en crítica política | San Sebastián 2026
 [movies] Saltado porque no es estreno 2026: La primera imagen de la película de fantasía más ambiciosa del momento multiplica la expectación: 'Narnia' tiene a la mejor actriz de todos los tiempos (2027)
-[movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado noticia no apta para películas: 42 años de carrera y el actor más querido: Hoy cumple 62 años uno de los grandes héroes de acción del cine
@@ -17,11 +14,11 @@ Fecha UTC: 2026-09-19T04:33:01.901003+00:00
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' cambió de localización por las protestas garífunas y anunció a su primer expulsado: Estos son los nuevos nominados
 [movies] Saltado noticia no apta para películas: ¿Cómo fueron los últimos días de Federico García Lorca?
 [movies] Saltado noticia no apta para películas: María José Cano ya es centenaria en 'Saber y ganar': Estas son las otras cuatro mujeres que lo han conseguido
-[movies] Candidatos encontrados: 36 | Límite: 1
+[movies] Candidatos encontrados: 39 | Límite: 1
 [IA] Probando proveedor cohere: Operación Teherán
-[IA] cohere falló (error): Cohere error 404: {"id":"61556fd7-7b7e-4829-b034-81d25e9c4a7a","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] cohere falló (error): Cohere error 404: {"id":"f01331e6-b699-49fb-a2a8-a81a11eb8af4","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
 [IA] Probando proveedor gemini: Operación Teherán
-[IA] gemini falló (cuota): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 41.838587905s.', 'status': 'RESOURCE_EXHAUSTED
+[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 4044 (char 4356)
 [IA] Probando proveedor groq: Operación Teherán
 [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
 [IA] Probando proveedor openai: Operación Teherán
@@ -32,51 +29,8 @@ Fecha UTC: 2026-09-19T04:33:01.901003+00:00
 [movies] Error generando artículo Operación Teherán: Todos los proveedores de IA fallaron. [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}} | [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 [IA] Probando proveedor gemini: Se abre la veda 2
-[IA] gemini falló (cuota): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 38.434600751s.', 'status': 'RESOURCE_EXHAUSTED
-[IA] Probando proveedor groq: Se abre la veda 2
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: Se abre la veda 2
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Se abre la veda 2
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Se abre la veda 2
-[IA] cohere falló (error): Cohere error 404: {"id":"339e5f85-7874-496d-a162-7048eb8e9fed","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[movies] Error generando artículo Se abre la veda 2: Todos los proveedores de IA fallaron. [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}} | [IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429} | [IA] cohere falló (error): Cohere error 404: {"id":"339e5f85-7874-496d-a162-7048eb8e9fed","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[duplicado] Saltado por tema parecido: Sus hijos ~= Hijos del cielo: estreno de animación con drama y fantasía para agosto 2026
-[IA] Probando proveedor mistral: Tanit
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Tanit
-[IA] cohere falló (error): Cohere error 404: {"id":"74f89037-7e62-4ffe-a612-abf8c6c5b6ac","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Tanit
-[IA] gemini falló (cuota): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 33.31933827s.', 'status': 'RESOURCE_EXHAUSTED'
-[IA] Probando proveedor groq: Tanit
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: Tanit
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[movies] Error generando artículo Tanit: Todos los proveedores de IA fallaron. [IA] gemini falló (cuota): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 33.31933827s.', 'status': 'RESOURCE_EXHAUSTED' | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[YouTube] No se encontró tráiler confiable para "Hemos compartido novio": Jennifer Aniston y Sandra Bullock salieron con el mismo hombre con pocos meses de diferencia
-[movies] Saltado porque no tiene tráiler confiable: "Hemos compartido novio": Jennifer Aniston y Sandra Bullock salieron con el mismo hombre con pocos meses de diferencia
-[YouTube] No se encontró tráiler confiable para "Lo hubiera comido en cada comida": John Wayne no podía resistirse a este plato, pero no siempre pudo permitírselo
-[movies] Saltado porque no tiene tráiler confiable: "Lo hubiera comido en cada comida": John Wayne no podía resistirse a este plato, pero no siempre pudo permitírselo
-[YouTube] No se encontró tráiler confiable para "Vino gente de toda la ciudad para vernos a Jack y a mí": Tom Cruise rodó una escena con Jack Nicholson que hizo que Los Ángeles se paralizase
-[movies] Saltado porque no tiene tráiler confiable: "Vino gente de toda la ciudad para vernos a Jack y a mí": Tom Cruise rodó una escena con Jack Nicholson que hizo que Los Ángeles se paralizase
-[YouTube] No se encontró tráiler confiable para 'La esposa perfecta': un 'thriller' de apariencias con una fantástica Naomi Watts que es mejor ver a ciegas | San Sebastián 2026
-[movies] Saltado porque no tiene tráiler confiable: 'La esposa perfecta': un 'thriller' de apariencias con una fantástica Naomi Watts que es mejor ver a ciegas | San Sebastián 2026
-[YouTube] No se encontró tráiler confiable para 'Los miserables' no traiciona a Victor Hugo, pero su fidelidad también es su límite | San Sebastián 2026
-[movies] Saltado porque no tiene tráiler confiable: 'Los miserables' no traiciona a Victor Hugo, pero su fidelidad también es su límite | San Sebastián 2026
-[YouTube] No se encontró tráiler confiable para Daniel Arias, el hijo menor de Imanol Arias: "Se me daban fatal las mates, y ya decía: el día que actúe y dirija, ahí estaré bien"
-[movies] Saltado porque no tiene tráiler confiable: Daniel Arias, el hijo menor de Imanol Arias: "Se me daban fatal las mates, y ya decía: el día que actúe y dirija, ahí estaré bien"
-[YouTube] No se encontró tráiler confiable para Jamie Lee Curtis odia esta cinta de ciencia ficción en la que trabajó en 1999: "Es una película de mierda. La única vez que supe que algo era malo y que no podía hacer nada"
-[movies] Saltado porque no tiene tráiler confiable: Jamie Lee Curtis odia esta cinta de ciencia ficción en la que trabajó en 1999: "Es una película de mierda. La única vez que supe que algo era malo y que no podía hacer nada"
-[YouTube] No se encontró tráiler confiable para La película española era buena, pero la de Olivia Wilde es mejor: 'La invitación' es uno de los mayores placeres del año | San Sebastián 2026
-[movies] Saltado porque no tiene tráiler confiable: La película española era buena, pero la de Olivia Wilde es mejor: 'La invitación' es uno de los mayores placeres del año | San Sebastián 2026
-[YouTube] No se encontró tráiler confiable para La taberna de Sevilla a la que siempre le fue bien, pero llamó a 'Pesadilla en la cocina' por la reforma: "Es un lavadito de cara. Está bien"
-[movies] Saltado porque no tiene tráiler confiable: La taberna de Sevilla a la que siempre le fue bien, pero llamó a 'Pesadilla en la cocina' por la reforma: "Es un lavadito de cara. Está bien"
-[YouTube] No se encontró tráiler confiable para Ricardo Castella desaparece de 'La Revuelta' sin explicación: Quién es Javier Losán, el actor que ha ocupado su puesto
-[movies] Saltado porque no tiene tráiler confiable: Ricardo Castella desaparece de 'La Revuelta' sin explicación: Quién es Javier Losán, el actor que ha ocupado su puesto
-[movies] Publicados: 0
-Total películas publicadas: 0
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/se-abre-la-veda-2-guerra-vecinal-y-caza-en-el-campo-frances-2026-09-19-44b019.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
