@@ -1,9 +1,19 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-20T13:02:37.653598+00:00
+Fecha UTC: 2026-09-20T18:45:14.925748+00:00
 [movies] Saltado porque no es estreno 2026: La Bola Negra (None)
 [movies] Saltado porque no es estreno 2026: Prácticamente magia 2 (None)
+[movies] Saltado noticia no apta para películas: “Una de las mejores películas que combinan imagen real y animación de la historia”: llega solo a cines la increíble ‘Coyote vs. Acme’
+[movies] Saltado noticia no apta para películas: 'Ruega por nosotras': El horror del Patronato de Protección a la Mujer | San Sebastián 2026
+[movies] Saltado porque no es estreno 2026: Hoy en Netflix: Un fantástico thriller con 117 minutos de alta tensión repletos de grandes estrellas (2016)
+[movies] Saltado noticia no apta para películas: Puede que no te gustara el final del juicio de 'Coyote vs ACME', pero sus creadores explican por qué es así. "Te hace querer ver los cortos clásicos"
+[movies] Saltado noticia no apta para películas: Iron Man podría haber sido Tom Cruise, pero lo rechazó tras años queriendo interpretarlo. "Si hago algo, lo quiero hacer bien"
+[movies] Saltado noticia no apta para películas: Dio sus primeros pasos como actor hace más de 40 años: del hockey sobre hielo ser un rey de la acción en Hollywood
+[movies] Saltado noticia no apta para películas: 'Sacamantecas': el asesino que dio nombre a una de las leyendas más oscuras de España | San Sebastián 2026
+[movies] Saltado noticia no apta para películas: Chris Evans sobre sus primeros años de carrera: "Me presenté como un gilipollas y me dieron papeles de gilipollas"
+[movies] Saltado noticia no apta para películas: 95 minutos de duración y una de las mejores estrellas de acción: esta es una de las películas de ciencia ficción más infravaloradas del siglo
+[movies] Saltado noticia no apta para películas: Clint Eastwood no triunfó en todo lo que se propuso y tuvo una carrera que prefiere olvidar: “Ese no soy yo”
 [movies] Saltado porque no es estreno 2026: 11 estrenos en Netflix: esta semana, un adictivo 'whodunit' español de cuatro episodios y un impactante thriller basado en hechos reales (2024)
-[movies] Saltado noticia no apta para películas: La escena eliminada de ‘Coyote vs ACME’ que habría enfurecido a todos los fans de los Looney Tunes
+[movies] Saltado noticia no apta para películas: 'Ceniza en la boca': una historia sobre inmigración que Diego Luna no termina de exprimir | San Sebastián 2026
 [movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado noticia no apta para películas: 42 años de carrera y el actor más querido: Hoy cumple 62 años uno de los grandes héroes de acción del cine
@@ -18,19 +28,13 @@ Fecha UTC: 2026-09-20T13:02:37.653598+00:00
 [movies] Saltado porque no es estreno 2026: Fue expulsado de un 'reality' porque descubrieron que había matado a sus padres: el mayor escándalo de la televisión española ocurrió en 2009 (2009)
 [movies] Saltado porque no es estreno 2026: Alberto Izquierdo, ganador de 'Pasapalabra' y centenario de 'Saber y ganar': "Soy una especie de "juguete roto" y me da mucha rabia" (2012)
 [movies] Saltado noticia no apta para películas: Concha Galán, la famosa presentadora de los 90 que fue despedida por estar embarazada: "Me dijeron que no quedaba bien"
-[movies] Candidatos encontrados: 32 | Límite: 1
-[YouTube] No se encontró tráiler confiable para 'Sacamantecas': el asesino que dio nombre a una de las leyendas más oscuras de España | San Sebastián 2026
-[movies] Saltado porque no tiene tráiler confiable: 'Sacamantecas': el asesino que dio nombre a una de las leyendas más oscuras de España | San Sebastián 2026
-[YouTube] No se encontró tráiler confiable para 95 minutos de duración y una de las mejores estrellas de acción: esta es una de las películas de ciencia ficción más infravaloradas del siglo
-[movies] Saltado porque no tiene tráiler confiable: 95 minutos de duración y una de las mejores estrellas de acción: esta es una de las películas de ciencia ficción más infravaloradas del siglo
-[YouTube] No se encontró tráiler confiable para Chris Evans sobre sus primeros años de carrera: "Me presenté como un gilipollas y me dieron papeles de gilipollas"
-[movies] Saltado porque no tiene tráiler confiable: Chris Evans sobre sus primeros años de carrera: "Me presenté como un gilipollas y me dieron papeles de gilipollas"
-[YouTube] No se encontró tráiler confiable para Clint Eastwood no triunfó en todo lo que se propuso y tuvo una carrera que prefiere olvidar: “Ese no soy yo”
-[movies] Saltado porque no tiene tráiler confiable: Clint Eastwood no triunfó en todo lo que se propuso y tuvo una carrera que prefiere olvidar: “Ese no soy yo”
-[YouTube] No se encontró tráiler confiable para Dio sus primeros pasos como actor hace más de 40 años: del hockey sobre hielo ser un rey de la acción en Hollywood
-[movies] Saltado porque no tiene tráiler confiable: Dio sus primeros pasos como actor hace más de 40 años: del hockey sobre hielo ser un rey de la acción en Hollywood
-[YouTube] No se encontró tráiler confiable para El agujero de guion de ‘Coyote vs ACME’ que solo puede justificarse si la película se pone realmente meta
-[movies] Saltado porque no tiene tráiler confiable: El agujero de guion de ‘Coyote vs ACME’ que solo puede justificarse si la película se pone realmente meta
+[movies] Candidatos encontrados: 26 | Límite: 1
+[YouTube] No se encontró tráiler confiable para El sorprendente (y lógico) motivo por el que los "nickelodeons" americanos tuvieron ese nombre
+[movies] Saltado porque no tiene tráiler confiable: El sorprendente (y lógico) motivo por el que los "nickelodeons" americanos tuvieron ese nombre
+[YouTube] No se encontró tráiler confiable para Había una vez un pueblo maldito: 'Krux' y la crueldad de la guerra lejos del frente | San Sebastián 2026
+[movies] Saltado porque no tiene tráiler confiable: Había una vez un pueblo maldito: 'Krux' y la crueldad de la guerra lejos del frente | San Sebastián 2026
+[YouTube] No se encontró tráiler confiable para Todo esto pesa una medalla de oro: 'Karateka', la vibrante historia real de la española que se convirtió en olímpica | San Sebastián 2026
+[movies] Saltado porque no tiene tráiler confiable: Todo esto pesa una medalla de oro: 'Karateka', la vibrante historia real de la española que se convirtió en olímpica | San Sebastián 2026
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
