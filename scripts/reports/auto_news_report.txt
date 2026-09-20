@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-19T22:19:52.150940+00:00
+Fecha UTC: 2026-09-20T04:49:30.332144+00:00
 [movies] Saltado porque no es estreno 2026: La Bola Negra (None)
 [movies] Saltado porque no es estreno 2026: Prácticamente magia 2 (None)
 [movies] Saltado noticia no apta para películas: “Una de las mejores películas que combinan imagen real y animación de la historia”: llega solo a cines la increíble ‘Coyote vs. Acme’
@@ -13,22 +13,22 @@ Fecha UTC: 2026-09-19T22:19:52.150940+00:00
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
 [movies] Saltado noticia no apta para películas: Cómo ver La Séptima en tu televisión: así se sintoniza el nuevo canal de la TDT sin instalar nada
 [movies] Saltado noticia no apta para películas: Ricardo Castella desaparece de 'La Revuelta' sin explicación: Quién es Javier Losán, el actor que ha ocupado su puesto
-[movies] Saltado noticia no apta para películas: 'La Séptima': Estos son los 9 presentadores que se pondrán al frente de los programas del nuevo canal de la TDT
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' desvela a su nueva concursante y al primer salvado de la edición: Así queda la lista de nominados
+[movies] Saltado noticia no apta para películas: La taberna de Sevilla a la que siempre le fue bien, pero llamó a 'Pesadilla en la cocina' por la reforma: "Es un lavadito de cara. Está bien"
 [movies] Saltado porque no es estreno 2026: Fue expulsado de un 'reality' porque descubrieron que había matado a sus padres: el mayor escándalo de la televisión española ocurrió en 2009 (2009)
 [movies] Saltado porque no es estreno 2026: Alberto Izquierdo, ganador de 'Pasapalabra' y centenario de 'Saber y ganar': "Soy una especie de "juguete roto" y me da mucha rabia" (2012)
 [movies] Saltado noticia no apta para películas: Concha Galán, la famosa presentadora de los 90 que fue despedida por estar embarazada: "Me dijeron que no quedaba bien"
 [movies] Saltado noticia no apta para películas: Eva Nasarre dejó la TV por el trabajo social: décadas después lucha por la Ley de Dependencia desde su silla de ruedas
 [movies] Saltado noticia no apta para películas: Cambio de programación en Mediaset: Así quedan las mañanas de Telecinco con el regreso de Joaquín Prat
 [movies] Candidatos encontrados: 31 | Límite: 1
-[IA] Probando proveedor mistral: Tanit
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Tanit
-[IA] cohere falló (error): Cohere error 404: {"id":"28bcd900-eddd-4b0b-9888-2731e8b974e5","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Tanit
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/tanit-una-aventura-familiar-con-profundidad-emocional-en-el-cine-2026-09-19-28f6fe.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[YouTube] No se encontró tráiler confiable para 'Ceniza en la boca': una historia sobre inmigración que Diego Luna no termina de exprimir | San Sebastián 2026
+[movies] Saltado porque no tiene tráiler confiable: 'Ceniza en la boca': una historia sobre inmigración que Diego Luna no termina de exprimir | San Sebastián 2026
+[YouTube] No se encontró tráiler confiable para 'Las ciegas hormigas': un 'thriller' crudo e íntimo con alma de cuento que desaprovecha su potencial | San Sebastián 2026
+[movies] Saltado porque no tiene tráiler confiable: 'Las ciegas hormigas': un 'thriller' crudo e íntimo con alma de cuento que desaprovecha su potencial | San Sebastián 2026
+[YouTube] No se encontró tráiler confiable para Quentin Tarantino temía pasarse de la raya con ‘Malditos bastardos’: sus amigos judíos tuvieron la última palabra
+[movies] Saltado porque no tiene tráiler confiable: Quentin Tarantino temía pasarse de la raya con ‘Malditos bastardos’: sus amigos judíos tuvieron la última palabra
+[YouTube] No se encontró tráiler confiable para Steven Spielberg ya ha visto una de las mejores películas españolas del año y le "ha encantado": "Es absolutamente dolorosa"
+[movies] Saltado porque no tiene tráiler confiable: Steven Spielberg ya ha visto una de las mejores películas españolas del año y le "ha encantado": "Es absolutamente dolorosa"
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
