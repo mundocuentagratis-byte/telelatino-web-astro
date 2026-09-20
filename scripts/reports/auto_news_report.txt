@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-20T18:45:14.925748+00:00
+Fecha UTC: 2026-09-20T22:24:49.453033+00:00
 [movies] Saltado porque no es estreno 2026: La Bola Negra (None)
 [movies] Saltado porque no es estreno 2026: Prácticamente magia 2 (None)
 [movies] Saltado noticia no apta para películas: “Una de las mejores películas que combinan imagen real y animación de la historia”: llega solo a cines la increíble ‘Coyote vs. Acme’
@@ -29,12 +29,6 @@ Fecha UTC: 2026-09-20T18:45:14.925748+00:00
 [movies] Saltado porque no es estreno 2026: Alberto Izquierdo, ganador de 'Pasapalabra' y centenario de 'Saber y ganar': "Soy una especie de "juguete roto" y me da mucha rabia" (2012)
 [movies] Saltado noticia no apta para películas: Concha Galán, la famosa presentadora de los 90 que fue despedida por estar embarazada: "Me dijeron que no quedaba bien"
 [movies] Candidatos encontrados: 26 | Límite: 1
-[YouTube] No se encontró tráiler confiable para El sorprendente (y lógico) motivo por el que los "nickelodeons" americanos tuvieron ese nombre
-[movies] Saltado porque no tiene tráiler confiable: El sorprendente (y lógico) motivo por el que los "nickelodeons" americanos tuvieron ese nombre
-[YouTube] No se encontró tráiler confiable para Había una vez un pueblo maldito: 'Krux' y la crueldad de la guerra lejos del frente | San Sebastián 2026
-[movies] Saltado porque no tiene tráiler confiable: Había una vez un pueblo maldito: 'Krux' y la crueldad de la guerra lejos del frente | San Sebastián 2026
-[YouTube] No se encontró tráiler confiable para Todo esto pesa una medalla de oro: 'Karateka', la vibrante historia real de la española que se convirtió en olímpica | San Sebastián 2026
-[movies] Saltado porque no tiene tráiler confiable: Todo esto pesa una medalla de oro: 'Karateka', la vibrante historia real de la española que se convirtió en olímpica | San Sebastián 2026
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
