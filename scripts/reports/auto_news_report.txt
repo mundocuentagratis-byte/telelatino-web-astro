@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-20T22:24:49.453033+00:00
+Fecha UTC: 2026-09-21T04:49:34.428754+00:00
 [movies] Saltado porque no es estreno 2026: La Bola Negra (None)
 [movies] Saltado porque no es estreno 2026: Prácticamente magia 2 (None)
 [movies] Saltado noticia no apta para películas: “Una de las mejores películas que combinan imagen real y animación de la historia”: llega solo a cines la increíble ‘Coyote vs. Acme’
@@ -14,10 +14,10 @@ Fecha UTC: 2026-09-20T22:24:49.453033+00:00
 [movies] Saltado noticia no apta para películas: Clint Eastwood no triunfó en todo lo que se propuso y tuvo una carrera que prefiere olvidar: “Ese no soy yo”
 [movies] Saltado porque no es estreno 2026: 11 estrenos en Netflix: esta semana, un adictivo 'whodunit' español de cuatro episodios y un impactante thriller basado en hechos reales (2024)
 [movies] Saltado noticia no apta para películas: 'Ceniza en la boca': una historia sobre inmigración que Diego Luna no termina de exprimir | San Sebastián 2026
-[movies] Saltado porque no es estreno 2026: 85 años, 90 películas, 1 Oscar: Uno de los actores más grandes de la historia del cine trabaja en una película inspirada en una historia real (2016)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado noticia no apta para películas: 42 años de carrera y el actor más querido: Hoy cumple 62 años uno de los grandes héroes de acción del cine
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
+[movies] Saltado noticia no apta para películas: Javier Bardem: "Nos besamos, y seguimos, y seguimos, y cuando quisimos darnos cuenta el equipo se había ido"
 [movies] Saltado noticia no apta para películas: Cómo ver La Séptima en tu televisión: así se sintoniza el nuevo canal de la TDT sin instalar nada
 [movies] Saltado noticia no apta para películas: Ricardo Castella desaparece de 'La Revuelta' sin explicación: Quién es Javier Losán, el actor que ha ocupado su puesto
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' desvela a su nueva concursante y al primer salvado de la edición: Así queda la lista de nominados
