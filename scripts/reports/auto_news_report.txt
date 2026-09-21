@@ -1,12 +1,21 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-21T15:06:09.770919+00:00
+Fecha UTC: 2026-09-21T20:28:26.333083+00:00
 [movies] Saltado porque no es estreno 2026: La Bola Negra (None)
 [movies] Saltado porque no es estreno 2026: Prácticamente magia 2 (None)
+[movies] Saltado noticia no apta para películas: Sólo tienes 1 semana para ver en Netflix una película pequeñita pero con corazón inmenso que te emocionará
+[movies] Saltado porque no es estreno 2026: Nicolás Coronado, ex actor e hijo de José Coronado: "Un director no coge 'al hijo de' así como así; cuidan su proyecto y eligen al mejor" (2010)
+[movies] Saltado noticia no apta para películas: El próximo lunes arranca el videoclub de SensaCine con Alejandro G. Calvo: ve la película que recomendamos y luego la analizamos en directo
 [movies] Saltado porque no es estreno 2026: Y al final se hizo justicia: 'Coyote vs ACME', la película rechazada por Warner ha sido un éxito (2023)
+[movies] Saltado noticia no apta para películas: En 4 días se estrena la película española más importante del año: la preventa ya supera a 'La Odisea'
+[movies] Saltado noticia no apta para películas: Tom Cruise ha desvelado de qué hablaron él y Taylor Swift en el partido de los Chiefs: "Me estaba dando una lección de fútbol"
+[movies] Saltado noticia no apta para películas: 'Resident Evil' logra un efecto similar al de meter los dedos en la corriente eléctrica: una experiencia apta para estomágos preparados con Omeprazol
+[movies] Saltado noticia no apta para películas: "Da la sensación de estar jugando a 'Resident Evil'. Una mezcla espectacular de terror, gore y humor": el Scream Club dicta sentencia con la nueva versión de Zach Cregger
 [movies] Saltado porque no es estreno 2026: "TRAIDOREA?": se desvela el significado del enigmático mensaje que ha adornado las calles de San Sebastián en los últimos días (2024)
+[movies] Saltado noticia no apta para películas: 'Ruega por nosotras': El horror del Patronato de Protección a la Mujer | San Sebastián 2026
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Un fantástico thriller con 117 minutos de alta tensión repletos de grandes estrellas (2016)
 [movies] Saltado noticia no apta para películas: El sorprendente (y lógico) motivo por el que los "nickelodeons" americanos tuvieron ese nombre
 [movies] Saltado noticia no apta para películas: Había una vez un pueblo maldito: 'Krux' y la crueldad de la guerra lejos del frente | San Sebastián 2026
+[movies] Saltado noticia no apta para películas: Todo esto pesa una medalla de oro: 'Karateka', la vibrante historia real de la española que se convirtió en olímpica | San Sebastián 2026
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado noticia no apta para películas: 42 años de carrera y el actor más querido: Hoy cumple 62 años uno de los grandes héroes de acción del cine
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
@@ -21,23 +30,15 @@ Fecha UTC: 2026-09-21T15:06:09.770919+00:00
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' salvó a un concursante de la expulsión: Estos son los cuatro nominados definitivos
 [movies] Saltado noticia no apta para películas: El colaborador de 'La Resistencia' que fue despedido: "Empiezas con mucha ilusión y al final te decepciona"
 [movies] Saltado noticia no apta para películas: Jordi Cruz, jurado de 'MasterChef': "Disfruto más el 'Celebrity' porque no tenemos que ser tan jueces, maestros ni nada por el estilo"
-[movies] Candidatos encontrados: 32 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "Da la sensación de estar jugando a 'Resident Evil'. Una mezcla espectacular de terror, gore y humor": el Scream Club dicta sentencia con la nueva versión de Zach Cregger
-[movies] Saltado porque no tiene tráiler confiable: "Da la sensación de estar jugando a 'Resident Evil'. Una mezcla espectacular de terror, gore y humor": el Scream Club dicta sentencia con la nueva versión de Zach Cregger
-[YouTube] No se encontró tráiler confiable para 'Resident Evil' logra un efecto similar al de meter los dedos en la corriente eléctrica: una experiencia apta para estomágos preparados con Omeprazol
-[movies] Saltado porque no tiene tráiler confiable: 'Resident Evil' logra un efecto similar al de meter los dedos en la corriente eléctrica: una experiencia apta para estomágos preparados con Omeprazol
-[YouTube] No se encontró tráiler confiable para 'Ruega por nosotras': El horror del Patronato de Protección a la Mujer | San Sebastián 2026
-[movies] Saltado porque no tiene tráiler confiable: 'Ruega por nosotras': El horror del Patronato de Protección a la Mujer | San Sebastián 2026
-[YouTube] No se encontró tráiler confiable para El próximo lunes arranca el videoclub de SensaCine con Alejandro G. Calvo: ve la película que recomendamos y luego la analizamos en directo
-[movies] Saltado porque no tiene tráiler confiable: El próximo lunes arranca el videoclub de SensaCine con Alejandro G. Calvo: ve la película que recomendamos y luego la analizamos en directo
-[YouTube] No se encontró tráiler confiable para En 4 días se estrena la película española más importante del año: la preventa ya supera a 'La Odisea'
-[movies] Saltado porque no tiene tráiler confiable: En 4 días se estrena la película española más importante del año: la preventa ya supera a 'La Odisea'
-[YouTube] No se encontró tráiler confiable para Iron Man podría haber sido Tom Cruise, pero lo rechazó tras años queriendo interpretarlo. "Si hago algo, lo quiero hacer bien"
-[movies] Saltado porque no tiene tráiler confiable: Iron Man podría haber sido Tom Cruise, pero lo rechazó tras años queriendo interpretarlo. "Si hago algo, lo quiero hacer bien"
-[YouTube] No se encontró tráiler confiable para Puede que no te gustara el final del juicio de 'Coyote vs ACME', pero sus creadores explican por qué es así. "Te hace querer ver los cortos clásicos"
-[movies] Saltado porque no tiene tráiler confiable: Puede que no te gustara el final del juicio de 'Coyote vs ACME', pero sus creadores explican por qué es así. "Te hace querer ver los cortos clásicos"
-[YouTube] No se encontró tráiler confiable para Tom Cruise ha desvelado de qué hablaron él y Taylor Swift en el partido de los Chiefs: "Me estaba dando una lección de fútbol"
-[movies] Saltado porque no tiene tráiler confiable: Tom Cruise ha desvelado de qué hablaron él y Taylor Swift en el partido de los Chiefs: "Me estaba dando una lección de fútbol"
-[movies] Publicados: 0
-Total películas publicadas: 0
+[movies] Candidatos encontrados: 25 | Límite: 1
+[IA] Probando proveedor mistral: El ladrón de perros
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: El ladrón de perros
+[IA] cohere falló (error): Cohere error 404: {"id":"c17ee122-2cf2-4cc8-84b4-4b1bd87f5fb5","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: El ladrón de perros
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/descubre-el-ladron-de-perros-drama-boliviano-que-te-hara-reflexionar-2026-09-21-3bd634.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
