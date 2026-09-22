@@ -1,16 +1,10 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-22T13:24:56.367196+00:00
+Fecha UTC: 2026-09-22T19:45:24.449877+00:00
 [movies] Saltado porque no es estreno 2026: La Bola Negra (None)
-[movies] Saltado porque no es estreno 2026: Prácticamente magia 2 (None)
+[movies] Saltado porque no es estreno 2026: De Santiago Segura y Arantxa Echevarría al nuevo 'thriller' de Daniel Calparsoro: las películas que llegarán en 2027 (2027)
+[movies] Saltado noticia no apta para películas: Alfredo Landa: "Mi madre reunió a toda la familia porque me empeñaba en ser cómico y me dijo: 'Oye, que no"
 [movies] Saltado porque no es estreno 2026: "Te hice llorar en ese pasillo": el emotivo momento que vivieron los Javis tras ganar en Cannes (2027)
-[movies] Saltado noticia no apta para películas: Scarlett Johansson, sobre la llamada de Marvel que la mató en 'Vengadores': "Pensé: 'Vale, supongo que soy yo'"
-[movies] Saltado noticia no apta para películas: "Me habría hecho ganar más dinero que cualquier otra película": Michael Douglas lamenta hasta el día de hoy haber rechazado ese éxito multimillonario
 [movies] Saltado porque no es estreno 2026: "2001' va sobre la IA y plantea grandes interrogantes": la nueva película del director de 'Resident Evil' recoge el testigo de Kubrick (2001)
-[movies] Saltado noticia no apta para películas: 'El mal padre': He aquí una de las mejores películas del año | San Sebastián 2026
-[movies] Saltado noticia no apta para películas: 'Depredador' se ambientó en Brasil, pero en realidad se grabó en una exuberante selva mexicana: ahora se ha convertido en un complejo turístico
-[movies] Saltado noticia no apta para películas: "Era un cheque de Lucasfilm. La cifra rondaba los 100.000 dólares": Steven Spielberg y George Lucas le cambiaron la vida a Ke Huy Quan
-[movies] Saltado noticia no apta para películas: 'The Man I Love': el delicado e íntimo drama queer con un extraordinario Rami Malek | San Sebastián 2026
-[movies] Saltado porque no es estreno 2026: En 7 días se va de Netflix una pequeña joya estrenada en 2021: una película que emociona (2021)
 [movies] Saltado noticia no apta para películas: 42 años de carrera y el actor más querido: Hoy cumple 62 años uno de los grandes héroes de acción del cine
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
@@ -19,13 +13,40 @@ Fecha UTC: 2026-09-22T13:24:56.367196+00:00
 [movies] Saltado noticia no apta para películas: Ricardo Castella desaparece de 'La Revuelta' sin explicación: Quién es Javier Losán, el actor que ha ocupado su puesto
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' desvela a su nueva concursante y al primer salvado de la edición: Así queda la lista de nominados
 [movies] Saltado noticia no apta para películas: La taberna de Sevilla a la que siempre le fue bien, pero llamó a 'Pesadilla en la cocina' por la reforma: "Es un lavadito de cara. Está bien"
+[movies] Saltado noticia no apta para películas: Jordi González opina sobre La Séptima: "La parrilla será competitiva. Creo que funcionará, pero tampoco conseguirá un 10% de audiencia"
 [movies] Saltado noticia no apta para películas: Jorge Javier Vázquez no tiene miedo y lanza una pulla a Telecinco: "Este es el primer programa que no produce Ana Rosa Quintana"
 [movies] Saltado noticia no apta para películas: 2026 prometía ser el año de la gran guerra entre 'Pasapalabras', pero Antena 3 se está comiendo a Mediaset: 'Rueda la letra' no convence
 [movies] Saltado noticia no apta para películas: Tras conquistar América, Cristina Porta regresa a Telecinco: "Lo pasé bastante mal en 'Sálvame'. Me sentía un poco desubicada"
 [movies] Saltado noticia no apta para películas: Tras más de 16 años, este presentador deportivo abandona Mediapro: "Toca empezar otra etapa con la misma pasión"
 [movies] Saltado noticia no apta para películas: Carlos Adán, histórico ganador de 'Pasapalabra': "No podría haber aguantado 400 programas sin perder el trabajo"
-[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' salvó a un concursante de la expulsión: Estos son los cuatro nominados definitivos
-[movies] Candidatos encontrados: 25 | Límite: 1
+[movies] Candidatos encontrados: 34 | Límite: 1
+[YouTube] No se encontró tráiler confiable para "Era un cheque de Lucasfilm. La cifra rondaba los 100.000 dólares": Steven Spielberg y George Lucas le cambiaron la vida a Ke Huy Quan
+[movies] Saltado porque no tiene tráiler confiable: "Era un cheque de Lucasfilm. La cifra rondaba los 100.000 dólares": Steven Spielberg y George Lucas le cambiaron la vida a Ke Huy Quan
+[YouTube] No se encontró tráiler confiable para "Es casi imposible de ver": Martin Scorsese reconoce el "genio" de esta película estrenada hace 111 años, pero también que sigue siendo problemática
+[movies] Saltado porque no tiene tráiler confiable: "Es casi imposible de ver": Martin Scorsese reconoce el "genio" de esta película estrenada hace 111 años, pero también que sigue siendo problemática
+[YouTube] No se encontró tráiler confiable para "Me habría hecho ganar más dinero que cualquier otra película": Michael Douglas lamenta hasta el día de hoy haber rechazado ese éxito multimillonario
+[movies] Saltado porque no tiene tráiler confiable: "Me habría hecho ganar más dinero que cualquier otra película": Michael Douglas lamenta hasta el día de hoy haber rechazado ese éxito multimillonario
+[YouTube] No se encontró tráiler confiable para 'Depredador' se ambientó en Brasil, pero en realidad se grabó en una exuberante selva mexicana: ahora se ha convertido en un complejo turístico
+[movies] Saltado porque no tiene tráiler confiable: 'Depredador' se ambientó en Brasil, pero en realidad se grabó en una exuberante selva mexicana: ahora se ha convertido en un complejo turístico
+[YouTube] No se encontró tráiler confiable para 'El mal padre': He aquí una de las mejores películas del año | San Sebastián 2026
+[movies] Saltado porque no tiene tráiler confiable: 'El mal padre': He aquí una de las mejores películas del año | San Sebastián 2026
+[YouTube] No se encontró tráiler confiable para 'Esta soledad': íntimo retrato del dolor después del amor | San Sebastián 2026
+[movies] Saltado porque no tiene tráiler confiable: 'Esta soledad': íntimo retrato del dolor después del amor | San Sebastián 2026
+[IA] Probando proveedor cohere: Arnold Schwarzenegger donó 16 hectáreas y salvó un terreno en riesgo: ayudó a fi
+[IA] cohere falló (error): Cohere error 404: {"id":"df49daaf-abd8-4f3d-9c99-925073bdf5c1","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Arnold Schwarzenegger donó 16 hectáreas y salvó un terreno en riesgo: ayudó a fi
+[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 3717 (char 3991)
+[IA] Probando proveedor groq: Arnold Schwarzenegger donó 16 hectáreas y salvó un terreno en riesgo: ayudó a fi
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: Arnold Schwarzenegger donó 16 hectáreas y salvó un terreno en riesgo: ayudó a fi
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: Arnold Schwarzenegger donó 16 hectáreas y salvó un terreno en riesgo: ayudó a fi
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[movies] Error generando artículo Arnold Schwarzenegger donó 16 hectáreas y salvó un terreno en riesgo: ayudó a finalizar una ruta natural única que ahora puede disfrutar quien quiera: Todos los proveedores de IA fallaron. [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}} | [IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[YouTube] No se encontró tráiler confiable para Scarlett Johansson, sobre la llamada de Marvel que la mató en 'Vengadores': "Pensé: 'Vale, supongo que soy yo'"
+[movies] Saltado porque no tiene tráiler confiable: Scarlett Johansson, sobre la llamada de Marvel que la mató en 'Vengadores': "Pensé: 'Vale, supongo que soy yo'"
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
