@@ -1,8 +1,7 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-22T19:45:24.449877+00:00
+Fecha UTC: 2026-09-22T22:56:32.967227+00:00
 [movies] Saltado porque no es estreno 2026: La Bola Negra (None)
 [movies] Saltado porque no es estreno 2026: De Santiago Segura y Arantxa Echevarría al nuevo 'thriller' de Daniel Calparsoro: las películas que llegarán en 2027 (2027)
-[movies] Saltado noticia no apta para películas: Alfredo Landa: "Mi madre reunió a toda la familia porque me empeñaba en ser cómico y me dijo: 'Oye, que no"
 [movies] Saltado porque no es estreno 2026: "Te hice llorar en ese pasillo": el emotivo momento que vivieron los Javis tras ganar en Cannes (2027)
 [movies] Saltado porque no es estreno 2026: "2001' va sobre la IA y plantea grandes interrogantes": la nueva película del director de 'Resident Evil' recoge el testigo de Kubrick (2001)
 [movies] Saltado noticia no apta para películas: 42 años de carrera y el actor más querido: Hoy cumple 62 años uno de los grandes héroes de acción del cine
@@ -19,23 +18,25 @@ Fecha UTC: 2026-09-22T19:45:24.449877+00:00
 [movies] Saltado noticia no apta para películas: Tras conquistar América, Cristina Porta regresa a Telecinco: "Lo pasé bastante mal en 'Sálvame'. Me sentía un poco desubicada"
 [movies] Saltado noticia no apta para películas: Tras más de 16 años, este presentador deportivo abandona Mediapro: "Toca empezar otra etapa con la misma pasión"
 [movies] Saltado noticia no apta para películas: Carlos Adán, histórico ganador de 'Pasapalabra': "No podría haber aguantado 400 programas sin perder el trabajo"
-[movies] Candidatos encontrados: 34 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "Era un cheque de Lucasfilm. La cifra rondaba los 100.000 dólares": Steven Spielberg y George Lucas le cambiaron la vida a Ke Huy Quan
-[movies] Saltado porque no tiene tráiler confiable: "Era un cheque de Lucasfilm. La cifra rondaba los 100.000 dólares": Steven Spielberg y George Lucas le cambiaron la vida a Ke Huy Quan
-[YouTube] No se encontró tráiler confiable para "Es casi imposible de ver": Martin Scorsese reconoce el "genio" de esta película estrenada hace 111 años, pero también que sigue siendo problemática
-[movies] Saltado porque no tiene tráiler confiable: "Es casi imposible de ver": Martin Scorsese reconoce el "genio" de esta película estrenada hace 111 años, pero también que sigue siendo problemática
-[YouTube] No se encontró tráiler confiable para "Me habría hecho ganar más dinero que cualquier otra película": Michael Douglas lamenta hasta el día de hoy haber rechazado ese éxito multimillonario
-[movies] Saltado porque no tiene tráiler confiable: "Me habría hecho ganar más dinero que cualquier otra película": Michael Douglas lamenta hasta el día de hoy haber rechazado ese éxito multimillonario
-[YouTube] No se encontró tráiler confiable para 'Depredador' se ambientó en Brasil, pero en realidad se grabó en una exuberante selva mexicana: ahora se ha convertido en un complejo turístico
-[movies] Saltado porque no tiene tráiler confiable: 'Depredador' se ambientó en Brasil, pero en realidad se grabó en una exuberante selva mexicana: ahora se ha convertido en un complejo turístico
-[YouTube] No se encontró tráiler confiable para 'El mal padre': He aquí una de las mejores películas del año | San Sebastián 2026
-[movies] Saltado porque no tiene tráiler confiable: 'El mal padre': He aquí una de las mejores películas del año | San Sebastián 2026
-[YouTube] No se encontró tráiler confiable para 'Esta soledad': íntimo retrato del dolor después del amor | San Sebastián 2026
-[movies] Saltado porque no tiene tráiler confiable: 'Esta soledad': íntimo retrato del dolor después del amor | San Sebastián 2026
+[movies] Candidatos encontrados: 35 | Límite: 1
+[IA] Probando proveedor mistral: 'En el corazón de la bestia': 'Thriller' de supervivencia, Brad Pitt y un perro 
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: 'En el corazón de la bestia': 'Thriller' de supervivencia, Brad Pitt y un perro 
+[IA] cohere falló (error): Cohere error 404: {"id":"22fcac50-36b9-4100-ae00-844d5371f067","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: 'En el corazón de la bestia': 'Thriller' de supervivencia, Brad Pitt y un perro 
+[IA] gemini falló (cuota): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 16.126564368s.', 'status': 'RESOURCE_EXHAUSTED
+[IA] Probando proveedor groq: 'En el corazón de la bestia': 'Thriller' de supervivencia, Brad Pitt y un perro 
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: 'En el corazón de la bestia': 'Thriller' de supervivencia, Brad Pitt y un perro 
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[movies] Error generando artículo 'En el corazón de la bestia': 'Thriller' de supervivencia, Brad Pitt y un perro | San Sebastián 2026: Todos los proveedores de IA fallaron. [IA] gemini falló (cuota): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 16.126564368s.', 'status': 'RESOURCE_EXHAUSTED | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[YouTube] No se encontró tráiler confiable para Alfredo Landa: "Mi madre reunió a toda la familia porque me empeñaba en ser cómico y me dijo: 'Oye, que no"
+[movies] Saltado porque no tiene tráiler confiable: Alfredo Landa: "Mi madre reunió a toda la familia porque me empeñaba en ser cómico y me dijo: 'Oye, que no"
 [IA] Probando proveedor cohere: Arnold Schwarzenegger donó 16 hectáreas y salvó un terreno en riesgo: ayudó a fi
-[IA] cohere falló (error): Cohere error 404: {"id":"df49daaf-abd8-4f3d-9c99-925073bdf5c1","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] cohere falló (error): Cohere error 404: {"id":"0b814089-2d84-495f-9884-88bb8482517b","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
 [IA] Probando proveedor gemini: Arnold Schwarzenegger donó 16 hectáreas y salvó un terreno en riesgo: ayudó a fi
-[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 3717 (char 3991)
+[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 5298 (char 5577)
 [IA] Probando proveedor groq: Arnold Schwarzenegger donó 16 hectáreas y salvó un terreno en riesgo: ayudó a fi
 [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
 [IA] Probando proveedor openai: Arnold Schwarzenegger donó 16 hectáreas y salvó un terreno en riesgo: ayudó a fi
@@ -45,8 +46,6 @@ Fecha UTC: 2026-09-22T19:45:24.449877+00:00
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 [movies] Error generando artículo Arnold Schwarzenegger donó 16 hectáreas y salvó un terreno en riesgo: ayudó a finalizar una ruta natural única que ahora puede disfrutar quien quiera: Todos los proveedores de IA fallaron. [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}} | [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[YouTube] No se encontró tráiler confiable para Scarlett Johansson, sobre la llamada de Marvel que la mató en 'Vengadores': "Pensé: 'Vale, supongo que soy yo'"
-[movies] Saltado porque no tiene tráiler confiable: Scarlett Johansson, sobre la llamada de Marvel que la mató en 'Vengadores': "Pensé: 'Vale, supongo que soy yo'"
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
