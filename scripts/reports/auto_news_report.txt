@@ -1,51 +1,34 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-22T22:56:32.967227+00:00
+Fecha UTC: 2026-09-23T04:40:26.985233+00:00
 [movies] Saltado porque no es estreno 2026: La Bola Negra (None)
 [movies] Saltado porque no es estreno 2026: De Santiago Segura y Arantxa Echevarría al nuevo 'thriller' de Daniel Calparsoro: las películas que llegarán en 2027 (2027)
 [movies] Saltado porque no es estreno 2026: "Te hice llorar en ese pasillo": el emotivo momento que vivieron los Javis tras ganar en Cannes (2027)
 [movies] Saltado porque no es estreno 2026: "2001' va sobre la IA y plantea grandes interrogantes": la nueva película del director de 'Resident Evil' recoge el testigo de Kubrick (2001)
-[movies] Saltado noticia no apta para películas: 42 años de carrera y el actor más querido: Hoy cumple 62 años uno de los grandes héroes de acción del cine
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
-[movies] Saltado porque no es estreno 2026: Hoy en Netflix: Hace 21 años, una de las mayores batallas del cine apasionó a millones de espectadores en todo el mundo (2004)
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
 [movies] Saltado noticia no apta para películas: Cómo ver La Séptima en tu televisión: así se sintoniza el nuevo canal de la TDT sin instalar nada
 [movies] Saltado noticia no apta para películas: Ricardo Castella desaparece de 'La Revuelta' sin explicación: Quién es Javier Losán, el actor que ha ocupado su puesto
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' desvela a su nueva concursante y al primer salvado de la edición: Así queda la lista de nominados
-[movies] Saltado noticia no apta para películas: La taberna de Sevilla a la que siempre le fue bien, pero llamó a 'Pesadilla en la cocina' por la reforma: "Es un lavadito de cara. Está bien"
+[movies] Saltado noticia no apta para películas: Quién es Santi Villas, el marido de Marc Giró y hermano de Thais Villas: fue colaborador habitual de Ana Rosa Quintana
 [movies] Saltado noticia no apta para películas: Jordi González opina sobre La Séptima: "La parrilla será competitiva. Creo que funcionará, pero tampoco conseguirá un 10% de audiencia"
 [movies] Saltado noticia no apta para películas: Jorge Javier Vázquez no tiene miedo y lanza una pulla a Telecinco: "Este es el primer programa que no produce Ana Rosa Quintana"
 [movies] Saltado noticia no apta para películas: 2026 prometía ser el año de la gran guerra entre 'Pasapalabras', pero Antena 3 se está comiendo a Mediaset: 'Rueda la letra' no convence
 [movies] Saltado noticia no apta para películas: Tras conquistar América, Cristina Porta regresa a Telecinco: "Lo pasé bastante mal en 'Sálvame'. Me sentía un poco desubicada"
 [movies] Saltado noticia no apta para películas: Tras más de 16 años, este presentador deportivo abandona Mediapro: "Toca empezar otra etapa con la misma pasión"
 [movies] Saltado noticia no apta para películas: Carlos Adán, histórico ganador de 'Pasapalabra': "No podría haber aguantado 400 programas sin perder el trabajo"
-[movies] Candidatos encontrados: 35 | Límite: 1
-[IA] Probando proveedor mistral: 'En el corazón de la bestia': 'Thriller' de supervivencia, Brad Pitt y un perro 
+[movies] Candidatos encontrados: 37 | Límite: 1
+[IA] Probando proveedor groq: Arriba Tutto
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: Arriba Tutto
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: Arriba Tutto
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: 'En el corazón de la bestia': 'Thriller' de supervivencia, Brad Pitt y un perro 
-[IA] cohere falló (error): Cohere error 404: {"id":"22fcac50-36b9-4100-ae00-844d5371f067","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: 'En el corazón de la bestia': 'Thriller' de supervivencia, Brad Pitt y un perro 
-[IA] gemini falló (cuota): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 16.126564368s.', 'status': 'RESOURCE_EXHAUSTED
-[IA] Probando proveedor groq: 'En el corazón de la bestia': 'Thriller' de supervivencia, Brad Pitt y un perro 
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: 'En el corazón de la bestia': 'Thriller' de supervivencia, Brad Pitt y un perro 
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[movies] Error generando artículo 'En el corazón de la bestia': 'Thriller' de supervivencia, Brad Pitt y un perro | San Sebastián 2026: Todos los proveedores de IA fallaron. [IA] gemini falló (cuota): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 16.126564368s.', 'status': 'RESOURCE_EXHAUSTED | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[YouTube] No se encontró tráiler confiable para Alfredo Landa: "Mi madre reunió a toda la familia porque me empeñaba en ser cómico y me dijo: 'Oye, que no"
-[movies] Saltado porque no tiene tráiler confiable: Alfredo Landa: "Mi madre reunió a toda la familia porque me empeñaba en ser cómico y me dijo: 'Oye, que no"
-[IA] Probando proveedor cohere: Arnold Schwarzenegger donó 16 hectáreas y salvó un terreno en riesgo: ayudó a fi
-[IA] cohere falló (error): Cohere error 404: {"id":"0b814089-2d84-495f-9884-88bb8482517b","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Arnold Schwarzenegger donó 16 hectáreas y salvó un terreno en riesgo: ayudó a fi
-[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 5298 (char 5577)
-[IA] Probando proveedor groq: Arnold Schwarzenegger donó 16 hectáreas y salvó un terreno en riesgo: ayudó a fi
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: Arnold Schwarzenegger donó 16 hectáreas y salvó un terreno en riesgo: ayudó a fi
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Arnold Schwarzenegger donó 16 hectáreas y salvó un terreno en riesgo: ayudó a fi
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[movies] Error generando artículo Arnold Schwarzenegger donó 16 hectáreas y salvó un terreno en riesgo: ayudó a finalizar una ruta natural única que ahora puede disfrutar quien quiera: Todos los proveedores de IA fallaron. [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}} | [IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[movies] Publicados: 0
-Total películas publicadas: 0
+[IA] Probando proveedor cohere: Arriba Tutto
+[IA] cohere falló (error): Cohere error 404: {"id":"4a9f956e-a0a6-4edc-b653-d5950914529e","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Arriba Tutto
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/arriba-tutto-un-viaje-emocional-hacia-la-magia-perdida-de-la-vida-2026-09-23-ac4bfc.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
