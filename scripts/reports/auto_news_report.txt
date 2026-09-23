@@ -1,30 +1,47 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-23T13:37:01.135975+00:00
+Fecha UTC: 2026-09-23T19:40:04.651250+00:00
 [movies] Saltado porque no es estreno 2026: La Bola Negra (None)
+[movies] Saltado noticia no apta para películas: "Queríamos capturar la esencia de una amistad de toda la vida". los creadores de 'El gato con botas' regresan dispuestos a robarte el corazón con 'La isla olvidada'
+[movies] Saltado noticia no apta para películas: Todo el mundo habla de 'La bola negra' y ya "empieza a ser peligroso": "Al cine hay que ir intentando olvidarse de todo lo que has escuchado"
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
-[movies] Saltado noticia no apta para películas: 72 años y 38 películas después, 'Godzilla Minus Zero' ha conseguido un nuevo récord en la franquicia con su violencia
-[movies] Saltado noticia no apta para películas: "Digger no es lo que la gente espera": La película más esperada de Tom Cruise ha dividido a la crítica
 [movies] Saltado porque no es estreno 2026: 'El debut': Fabulosa, increíble, maravillosa, divertida y excéntrica Julianne Moore | San Sebastián 2026 (2010)
 [movies] Saltado porque no es estreno 2026: Una de las sorpresas de San Sebastián ha sido '5 minutos más': la brillante propuesta de bucles temporales de Berto Romero y Javier Ruiz Caldera (2012)
-[movies] Saltado noticia no apta para películas: La autopsia desvela la causa de la muerte de Hayden Panettiere: murió de sobredosis
-[movies] Saltado noticia no apta para películas: 'En el corazón de la bestia': 'Thriller' de supervivencia, Brad Pitt y un perro | San Sebastián 2026
-[movies] Saltado noticia no apta para películas: Arnold Schwarzenegger donó 16 hectáreas y salvó un terreno en riesgo: ayudó a finalizar una ruta natural única que ahora puede disfrutar quien quiera
-[movies] Saltado noticia no apta para películas: "Es casi imposible de ver": Martin Scorsese reconoce el "genio" de esta película estrenada hace 111 años, pero también que sigue siendo problemática
-[movies] Saltado noticia no apta para películas: 'Esta soledad': íntimo retrato del dolor después del amor | San Sebastián 2026
-[movies] Saltado porque no es estreno 2026: De Santiago Segura y Arantxa Echevarría al nuevo 'thriller' de Daniel Calparsoro: las películas que llegarán en 2027 (2027)
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
 [movies] Saltado noticia no apta para películas: Cómo ver La Séptima en tu televisión: así se sintoniza el nuevo canal de la TDT sin instalar nada
 [movies] Saltado noticia no apta para películas: Ricardo Castella desaparece de 'La Revuelta' sin explicación: Quién es Javier Losán, el actor que ha ocupado su puesto
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' desvela a su nueva concursante y al primer salvado de la edición: Así queda la lista de nominados
 [movies] Saltado noticia no apta para películas: Eva Nasarre dejó la TV por el trabajo social: décadas después lucha por la Ley de Dependencia desde su silla de ruedas
+[movies] Saltado noticia no apta para películas: Tres años después del final de 'Sálvame', Belén Esteban regresa a Telecinco
 [movies] Saltado noticia no apta para películas: Quiénes son Miguel y Mara, la nueva pareja de 'La isla de las tentaciones 11': ella ya participó como tentadora
 [movies] Saltado noticia no apta para películas: Tenso encontronazo en el plató de 'En boca de todos' que provoca el abandono de Pablo Fernández: "Eres indigno"
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' sorprendió con el salvado de la semana: Estos son los tres nominados que se juegan la expulsión
 [movies] Saltado noticia no apta para películas: Jordi González opina sobre La Séptima: "La parrilla será competitiva. Creo que funcionará, pero tampoco conseguirá un 10% de audiencia"
 [movies] Saltado noticia no apta para películas: Jorge Javier Vázquez no tiene miedo y lanza una pulla a Telecinco: "Este es el primer programa que no produce Ana Rosa Quintana"
-[movies] Saltado noticia no apta para películas: 2026 prometía ser el año de la gran guerra entre 'Pasapalabras', pero Antena 3 se está comiendo a Mediaset: 'Rueda la letra' no convence
-[movies] Candidatos encontrados: 29 | Límite: 1
+[movies] Candidatos encontrados: 36 | Límite: 1
+[YouTube] No se encontró tráiler confiable para "Digger no es lo que la gente espera": La película más esperada de Tom Cruise ha dividido a la crítica
+[movies] Saltado porque no tiene tráiler confiable: "Digger no es lo que la gente espera": La película más esperada de Tom Cruise ha dividido a la crítica
+[IA] Probando proveedor openai: 'En el corazón de la bestia': 'Thriller' de supervivencia, Brad Pitt y un perro 
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: 'En el corazón de la bestia': 'Thriller' de supervivencia, Brad Pitt y un perro 
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: 'En el corazón de la bestia': 'Thriller' de supervivencia, Brad Pitt y un perro 
+[IA] cohere falló (error): Cohere error 404: {"id":"c4ee24a5-7bab-438b-b4bc-ac673003bb2f","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: 'En el corazón de la bestia': 'Thriller' de supervivencia, Brad Pitt y un perro 
+[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 3184 (char 3453)
+[IA] Probando proveedor groq: 'En el corazón de la bestia': 'Thriller' de supervivencia, Brad Pitt y un perro 
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[movies] Error generando artículo 'En el corazón de la bestia': 'Thriller' de supervivencia, Brad Pitt y un perro | San Sebastián 2026: Todos los proveedores de IA fallaron. [IA] cohere falló (error): Cohere error 404: {"id":"c4ee24a5-7bab-438b-b4bc-ac673003bb2f","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."} | [IA] gemini falló (error): Expecting ',' delimiter: line 4 column 3184 (char 3453) | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[YouTube] No se encontró tráiler confiable para 'Sants': santoral de originalidad, extravagancia comedida y rarezas | San Sebastián 2026
+[movies] Saltado porque no tiene tráiler confiable: 'Sants': santoral de originalidad, extravagancia comedida y rarezas | San Sebastián 2026
+[movies] Saltado por tema bloqueado: 72 años y 38 películas después, 'Godzilla Minus Zero' ha conseguido un nuevo récord en la franquicia con su violencia
+[YouTube] No se encontró tráiler confiable para Brad Pitt: "Encuentro paz en la naturaleza y creo en el valor de la soledad"
+[movies] Saltado porque no tiene tráiler confiable: Brad Pitt: "Encuentro paz en la naturaleza y creo en el valor de la soledad"
+[YouTube] No se encontró tráiler confiable para George Lucas se ha gastado más de 1.000 millones en dar salida a sus 40.000 piezas de coleccionista. Su nuevo hogar acaba de abrir sus puertas
+[movies] Saltado porque no tiene tráiler confiable: George Lucas se ha gastado más de 1.000 millones en dar salida a sus 40.000 piezas de coleccionista. Su nuevo hogar acaba de abrir sus puertas
+[YouTube] No se encontró tráiler confiable para Guillermo Del Toro trabajó vendiendo casas antes de ser director: "Me levantaba a las 6 de la mañana, acababa a las 4 de la tarde, y en adelante hacía monstruos"
+[movies] Saltado porque no tiene tráiler confiable: Guillermo Del Toro trabajó vendiendo casas antes de ser director: "Me levantaba a las 6 de la mañana, acababa a las 4 de la tarde, y en adelante hacía monstruos"
 [IA] Probando proveedor groq: Javier Bardem: "Nos besamos, y seguimos, y seguimos, y cuando quisimos darnos cu
 [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
 [IA] Probando proveedor openai: Javier Bardem: "Nos besamos, y seguimos, y seguimos, y cuando quisimos darnos cu
@@ -33,11 +50,10 @@ Fecha UTC: 2026-09-23T13:37:01.135975+00:00
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 [IA] Probando proveedor cohere: Javier Bardem: "Nos besamos, y seguimos, y seguimos, y cuando quisimos darnos cu
-[IA] cohere falló (error): Cohere error 404: {"id":"b5cd318b-2b9e-4231-aed6-c59741248be3","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] cohere falló (error): Cohere error 404: {"id":"96d2f364-fee3-4fa4-b515-ec4c9028a6d8","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
 [IA] Probando proveedor gemini: Javier Bardem: "Nos besamos, y seguimos, y seguimos, y cuando quisimos darnos cu
-[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 1762 (char 2021)
-[movies] Error generando artículo Javier Bardem: "Nos besamos, y seguimos, y seguimos, y cuando quisimos darnos cuenta el equipo se había ido": Todos los proveedores de IA fallaron. [IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429} | [IA] cohere falló (error): Cohere error 404: {"id":"b5cd318b-2b9e-4231-aed6-c59741248be3","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."} | [IA] gemini falló (error): Expecting ',' delimiter: line 4 column 1762 (char 2021)
-[movies] Publicados: 0
-Total películas publicadas: 0
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/bardem-y-cruz-en-bunker-cuando-la-ficcion-se-encuentra-con-la-pasion-real-2026-09-23-4a9fd0.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
