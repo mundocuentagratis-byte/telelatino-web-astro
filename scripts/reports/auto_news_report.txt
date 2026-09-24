@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-24T19:59:42.811370+00:00
+Fecha UTC: 2026-09-24T23:12:07.429984+00:00
 [movies] Saltado porque no es estreno 2026: La Bola Negra (None)
 [movies] Saltado porque no es estreno 2026: No todo el mundo sabe enfrentarse a 'Fjord': un incómodo drama social con Sebastian Stan y Renate Reinsve | San Sebastián 2026 (2027)
 [movies] Saltado porque no es estreno 2026: Edward Zwick, director: "Brad Pitt a primera vista parece una persona tranquila, pero puede volverse impredecible si se le provoca" (2027)
