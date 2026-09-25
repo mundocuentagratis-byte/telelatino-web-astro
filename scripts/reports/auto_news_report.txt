@@ -1,31 +1,32 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-25T04:51:08.217940+00:00
+Fecha UTC: 2026-09-25T13:58:57.026891+00:00
 [movies] Saltado porque no es estreno 2026: Arriba Tutto (None)
 [movies] Saltado porque no es estreno 2026: Resident Evil (None)
+[movies] Saltado porque no es estreno 2026: J.K. Rowling puso en práctica el "Ten cuidado o terminarás en mi nivela": las personas reales tras los personajes de 'Harry Potter' (2027)
+[movies] Saltado porque no es estreno 2026: La única escena de 'La bola negra' que realmente viene de la pluma de Federico García Lorca: "Era la única que escribió" (2027)
+[movies] Saltado porque no es estreno 2026: "Nunca pensé que llegaría el día": Warner nos acaba de dar una de cal y una de arena con el regreso de este hito del cine de los 80 (2027)
+[movies] Saltado porque no es estreno 2026: Con un argumento mínimo, Mike Leigh construye una obra bellísima sobre cuestiones complejísimas: el amor, la enfermedad, la muerte y la resiliencia (2027)
+[movies] Saltado porque no es estreno 2026: Hace 27 años se empezó a construir el primer macroburdel en España: 'El castillo': un 'thriller' policial sobre el auge de la mafia proxeneta | San Sebastián 2026 (2027)
+[movies] Saltado porque no es estreno 2026: Hace 20 años ganó el Oscar más importante, pero hoy nadie habla de esta película repleta de estrellas (2027)
 [movies] Saltado porque no es estreno 2026: No todo el mundo sabe enfrentarse a 'Fjord': un incómodo drama social con Sebastian Stan y Renate Reinsve | San Sebastián 2026 (2027)
-[movies] Saltado porque no es estreno 2026: Edward Zwick, director: "Brad Pitt a primera vista parece una persona tranquila, pero puede volverse impredecible si se le provoca" (2027)
-[movies] Saltado porque no es estreno 2026: La hija de Sean Astin tenía 5 años cuando la conocimos en 'El señor de los anillos': ahora es licenciada de Harvard (2027)
-[movies] Saltado porque no es estreno 2026: Antonio Laverghetta, Doctor en Psicología, sobre la mejor película para entender la esquizofrenia: "Presenta muchos de los síntomas" (2027)
-[movies] Saltado noticia no apta para películas: 'Sants': santoral de originalidad, extravagancia comedida y rarezas | San Sebastián 2026
-[movies] Saltado porque no es estreno 2026: Guillermo Del Toro trabajó vendiendo casas antes de ser director: "Me levantaba a las 6 de la mañana, acababa a las 4 de la tarde, y en adelante hacía monstruos" (2027)
-[movies] Saltado porque no es estreno 2026: Brad Pitt: "Encuentro paz en la naturaleza y creo en el valor de la soledad" (2027)
-[movies] Saltado porque no es estreno 2026: George Lucas se ha gastado más de 1.000 millones en dar salida a sus 40.000 piezas de coleccionista. Su nuevo hogar acaba de abrir sus puertas (2027)
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' sorprendió con el salvado de la semana: Estos son los tres nominados que se juegan la expulsión
+[movies] Saltado noticia no apta para películas: Jordi González opina sobre La Séptima: "La parrilla será competitiva. Creo que funcionará, pero tampoco conseguirá un 10% de audiencia"
 [movies] Saltado noticia no apta para películas: Cómo ver La Séptima en tu televisión: así se sintoniza el nuevo canal de la TDT sin instalar nada
 [movies] Saltado noticia no apta para películas: Eva Nasarre dejó la TV por el trabajo social: décadas después lucha por la Ley de Dependencia desde su silla de ruedas
-[movies] Saltado noticia no apta para películas: Jordi González opina sobre La Séptima: "La parrilla será competitiva. Creo que funcionará, pero tampoco conseguirá un 10% de audiencia"
+[movies] Saltado noticia no apta para películas: 'El Chiringuito' sigue aumentado su plantilla en Mediaset: 4 años después, Guti vuelve al programa de Josep Pedredol
+[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' expulsó a la concursante esperada: Esta es la nueva lista de nominados
 [movies] Saltado noticia no apta para películas: El abuelo de Jesús Vázquez fue un importante jugador del Atlético de Madrid: murió a los 45 años tras un partido como entrenador
 [movies] Saltado noticia no apta para películas: El nutricionista Pablo Ojeda explica por qué abandonó un programa de Telecinco: "No me pareció ni medio ético"
 [movies] Saltado noticia no apta para películas: Marc Giró ante las graves amenazas de muerte de un 'hater': "Voy a responder, en este caso, con una denuncia"
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11' vivió su primera hoguera de confrontación: Así han abandonado Nando e Isa el 'reality'
-[movies] Saltado noticia no apta para películas: Tres años después del final de 'Sálvame', Belén Esteban regresa a Telecinco
-[movies] Saltado noticia no apta para películas: Quiénes son Miguel y Mara, la nueva pareja de 'La isla de las tentaciones 11': ella ya participó como tentadora
 [movies] Candidatos encontrados: 26 | Límite: 1
-[IA] Probando proveedor gemini: La familia Dino
+[IA] Probando proveedor cohere: La invitación
+[IA] cohere falló (error): Cohere error 404: {"id":"65165397-2a35-418a-a6f1-e7e2d6af3f61","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: La invitación
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/la-familia-dino-una-aventura-prehistorica-llena-de-corazon-en-el-cine-2026-09-25-4c3e5e.md
+[OK] Publicado: src/content/blog/la-invitacion-cuando-una-velada-casual-destapa-lo-inesperado-2026-09-25-a5f74b.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
