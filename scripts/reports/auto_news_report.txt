@@ -1,6 +1,7 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-24T23:12:07.429984+00:00
-[movies] Saltado porque no es estreno 2026: La Bola Negra (None)
+Fecha UTC: 2026-09-25T04:51:08.217940+00:00
+[movies] Saltado porque no es estreno 2026: Arriba Tutto (None)
+[movies] Saltado porque no es estreno 2026: Resident Evil (None)
 [movies] Saltado porque no es estreno 2026: No todo el mundo sabe enfrentarse a 'Fjord': un incómodo drama social con Sebastian Stan y Renate Reinsve | San Sebastián 2026 (2027)
 [movies] Saltado porque no es estreno 2026: Edward Zwick, director: "Brad Pitt a primera vista parece una persona tranquila, pero puede volverse impredecible si se le provoca" (2027)
 [movies] Saltado porque no es estreno 2026: La hija de Sean Astin tenía 5 años cuando la conocimos en 'El señor de los anillos': ahora es licenciada de Harvard (2027)
@@ -11,13 +12,20 @@ Fecha UTC: 2026-09-24T23:12:07.429984+00:00
 [movies] Saltado porque no es estreno 2026: George Lucas se ha gastado más de 1.000 millones en dar salida a sus 40.000 piezas de coleccionista. Su nuevo hogar acaba de abrir sus puertas (2027)
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
+[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' sorprendió con el salvado de la semana: Estos son los tres nominados que se juegan la expulsión
+[movies] Saltado noticia no apta para películas: Cómo ver La Séptima en tu televisión: así se sintoniza el nuevo canal de la TDT sin instalar nada
+[movies] Saltado noticia no apta para películas: Eva Nasarre dejó la TV por el trabajo social: décadas después lucha por la Ley de Dependencia desde su silla de ruedas
+[movies] Saltado noticia no apta para películas: Jordi González opina sobre La Séptima: "La parrilla será competitiva. Creo que funcionará, pero tampoco conseguirá un 10% de audiencia"
 [movies] Saltado noticia no apta para películas: El abuelo de Jesús Vázquez fue un importante jugador del Atlético de Madrid: murió a los 45 años tras un partido como entrenador
 [movies] Saltado noticia no apta para películas: El nutricionista Pablo Ojeda explica por qué abandonó un programa de Telecinco: "No me pareció ni medio ético"
 [movies] Saltado noticia no apta para películas: Marc Giró ante las graves amenazas de muerte de un 'hater': "Voy a responder, en este caso, con una denuncia"
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11' vivió su primera hoguera de confrontación: Así han abandonado Nando e Isa el 'reality'
 [movies] Saltado noticia no apta para películas: Tres años después del final de 'Sálvame', Belén Esteban regresa a Telecinco
 [movies] Saltado noticia no apta para películas: Quiénes son Miguel y Mara, la nueva pareja de 'La isla de las tentaciones 11': ella ya participó como tentadora
-[movies] Candidatos encontrados: 32 | Límite: 1
-[movies] Publicados: 0
-Total películas publicadas: 0
+[movies] Candidatos encontrados: 26 | Límite: 1
+[IA] Probando proveedor gemini: La familia Dino
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/la-familia-dino-una-aventura-prehistorica-llena-de-corazon-en-el-cine-2026-09-25-4c3e5e.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
