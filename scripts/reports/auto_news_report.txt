@@ -1,32 +1,29 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-25T13:58:57.026891+00:00
+Fecha UTC: 2026-09-25T20:01:34.688421+00:00
 [movies] Saltado porque no es estreno 2026: Arriba Tutto (None)
 [movies] Saltado porque no es estreno 2026: Resident Evil (None)
-[movies] Saltado porque no es estreno 2026: J.K. Rowling puso en práctica el "Ten cuidado o terminarás en mi nivela": las personas reales tras los personajes de 'Harry Potter' (2027)
-[movies] Saltado porque no es estreno 2026: La única escena de 'La bola negra' que realmente viene de la pluma de Federico García Lorca: "Era la única que escribió" (2027)
-[movies] Saltado porque no es estreno 2026: "Nunca pensé que llegaría el día": Warner nos acaba de dar una de cal y una de arena con el regreso de este hito del cine de los 80 (2027)
-[movies] Saltado porque no es estreno 2026: Con un argumento mínimo, Mike Leigh construye una obra bellísima sobre cuestiones complejísimas: el amor, la enfermedad, la muerte y la resiliencia (2027)
-[movies] Saltado porque no es estreno 2026: Hace 27 años se empezó a construir el primer macroburdel en España: 'El castillo': un 'thriller' policial sobre el auge de la mafia proxeneta | San Sebastián 2026 (2027)
-[movies] Saltado porque no es estreno 2026: Hace 20 años ganó el Oscar más importante, pero hoy nadie habla de esta película repleta de estrellas (2027)
-[movies] Saltado porque no es estreno 2026: No todo el mundo sabe enfrentarse a 'Fjord': un incómodo drama social con Sebastian Stan y Renate Reinsve | San Sebastián 2026 (2027)
+[movies] Saltado porque no es estreno 2026: J.K. Rowling puso en práctica el "Ten cuidado o terminarás en mi nivela": las personas reales tras los personajes de 'Harry Potter' (2001)
+[movies] Saltado noticia no apta para películas: La única escena de 'La bola negra' que realmente viene de la pluma de Federico García Lorca: "Era la única que escribió"
+[movies] Saltado noticia no apta para películas: Hace 20 años ganó el Oscar más importante, pero hoy nadie habla de esta película repleta de estrellas
+[movies] Saltado noticia no apta para películas: No todo el mundo sabe enfrentarse a 'Fjord': un incómodo drama social con Sebastian Stan y Renate Reinsve | San Sebastián 2026
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' sorprendió con el salvado de la semana: Estos son los tres nominados que se juegan la expulsión
 [movies] Saltado noticia no apta para películas: Jordi González opina sobre La Séptima: "La parrilla será competitiva. Creo que funcionará, pero tampoco conseguirá un 10% de audiencia"
 [movies] Saltado noticia no apta para películas: Cómo ver La Séptima en tu televisión: así se sintoniza el nuevo canal de la TDT sin instalar nada
 [movies] Saltado noticia no apta para películas: Eva Nasarre dejó la TV por el trabajo social: décadas después lucha por la Ley de Dependencia desde su silla de ruedas
+[movies] Saltado noticia no apta para películas: Cambio de programación en RTVE: La UEFA Nations League trastoca la parrilla de La 1 este fin de semana
 [movies] Saltado noticia no apta para películas: 'El Chiringuito' sigue aumentado su plantilla en Mediaset: 4 años después, Guti vuelve al programa de Josep Pedredol
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' expulsó a la concursante esperada: Esta es la nueva lista de nominados
 [movies] Saltado noticia no apta para películas: El abuelo de Jesús Vázquez fue un importante jugador del Atlético de Madrid: murió a los 45 años tras un partido como entrenador
 [movies] Saltado noticia no apta para películas: El nutricionista Pablo Ojeda explica por qué abandonó un programa de Telecinco: "No me pareció ni medio ético"
 [movies] Saltado noticia no apta para películas: Marc Giró ante las graves amenazas de muerte de un 'hater': "Voy a responder, en este caso, con una denuncia"
-[movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11' vivió su primera hoguera de confrontación: Así han abandonado Nando e Isa el 'reality'
-[movies] Candidatos encontrados: 26 | Límite: 1
-[IA] Probando proveedor cohere: La invitación
-[IA] cohere falló (error): Cohere error 404: {"id":"65165397-2a35-418a-a6f1-e7e2d6af3f61","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: La invitación
+[movies] Candidatos encontrados: 32 | Límite: 1
+[IA] Probando proveedor cohere: La maleta
+[IA] cohere falló (error): Cohere error 404: {"id":"f7eb4e92-53b3-4a34-a576-57571f462e87","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: La maleta
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/la-invitacion-cuando-una-velada-casual-destapa-lo-inesperado-2026-09-25-a5f74b.md
+[OK] Publicado: src/content/blog/la-maleta-un-romance-con-explosivos-giros-inesperados-2026-09-25-6e5124.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
