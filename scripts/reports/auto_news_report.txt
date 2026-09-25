@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-25T20:01:34.688421+00:00
+Fecha UTC: 2026-09-25T23:17:33.773413+00:00
 [movies] Saltado porque no es estreno 2026: Arriba Tutto (None)
 [movies] Saltado porque no es estreno 2026: Resident Evil (None)
 [movies] Saltado porque no es estreno 2026: J.K. Rowling puso en práctica el "Ten cuidado o terminarás en mi nivela": las personas reales tras los personajes de 'Harry Potter' (2001)
@@ -19,11 +19,14 @@ Fecha UTC: 2026-09-25T20:01:34.688421+00:00
 [movies] Saltado noticia no apta para películas: El nutricionista Pablo Ojeda explica por qué abandonó un programa de Telecinco: "No me pareció ni medio ético"
 [movies] Saltado noticia no apta para películas: Marc Giró ante las graves amenazas de muerte de un 'hater': "Voy a responder, en este caso, con una denuncia"
 [movies] Candidatos encontrados: 32 | Límite: 1
-[IA] Probando proveedor cohere: La maleta
-[IA] cohere falló (error): Cohere error 404: {"id":"f7eb4e92-53b3-4a34-a576-57571f462e87","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: La maleta
+[IA] Probando proveedor mistral: Rise Up (Levántate)
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: Rise Up (Levántate)
+[IA] cohere falló (error): Cohere error 404: {"id":"adaf9d45-f2a8-46aa-8e95-3adadd895051","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Rise Up (Levántate)
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/la-maleta-un-romance-con-explosivos-giros-inesperados-2026-09-25-6e5124.md
+[OK] Publicado: src/content/blog/rise-up-levantate-el-drama-de-un-campeon-de-mma-en-crisis-2026-09-25-718367.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
