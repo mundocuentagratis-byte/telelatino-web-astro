@@ -1,16 +1,10 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-26T19:12:59.804724+00:00
+Fecha UTC: 2026-09-26T22:44:37.714425+00:00
 [movies] Saltado porque no es estreno 2026: Arriba Tutto (None)
 [movies] Saltado porque no es estreno 2026: Resident Evil (None)
-[movies] Saltado noticia no apta para películas: No me había dado cuenta, pero el actor que interpretó a Gimli tuvo otros dos papeles en la saga de 'El señor de los anillos'
+[movies] Saltado porque no es estreno 2026: No me había dado cuenta, pero el actor que interpretó a Gimli tuvo otros dos papeles en la saga de 'El señor de los anillos' (2023)
 [movies] Saltado noticia no apta para películas: El agujero de guion de 'Vengadores: Endgame' en el que sigo pensando 7 años después
-[movies] Saltado noticia no apta para películas: La escena de 'La isla olvidada' que tuvieron que cortar por lo mal que cantaba uno de sus protagonistas
-[movies] Saltado noticia no apta para películas: Con 89 años, Morgan Freeman ha decidido reconectar con sus raíces: “Hablo como miembro de la tribu”
-[movies] Saltado noticia no apta para películas: 77 minutos de duración y nominada al Oscar: esta es una de las películas más preciosas del año
-[movies] Saltado noticia no apta para películas: Sorprendente, violenta y desagradable 'Josephine': una niña de ocho años es testigo de una agresión sexual | San Sebastián 2026
-[movies] Saltado noticia no apta para películas: A sus 96 años, Clint Eastwood conserva un hábito diario para su longevidad: Mucho deporte, una alimentación saludable y una técnica que también valora Hugh Jackman
 [movies] Saltado porque no es estreno 2026: J.K. Rowling puso en práctica el "Ten cuidado o terminarás en mi nivela": las personas reales tras los personajes de 'Harry Potter' (2001)
-[movies] Saltado noticia no apta para películas: La única escena de 'La bola negra' que realmente viene de la pluma de Federico García Lorca: "Era la única que escribió"
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' sorprendió con el salvado de la semana: Estos son los tres nominados que se juegan la expulsión
@@ -18,10 +12,25 @@ Fecha UTC: 2026-09-26T19:12:59.804724+00:00
 [movies] Saltado noticia no apta para películas: Eva Nasarre dejó la TV por el trabajo social: décadas después lucha por la Ley de Dependencia desde su silla de ruedas
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' salvó a un concursante de la expulsión: Estos son los cuatro nominados definitivos
 [movies] Saltado noticia no apta para películas: Cambio de programación en RTVE: La UEFA Nations League trastoca la parrilla de La 1 este fin de semana
-[movies] Candidatos encontrados: 35 | Límite: 1
-[IA] Probando proveedor gemini: Verity. La sombra de un engaño
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/verity-un-thriller-psicologico-que-te-mantendra-al-filo-del-asiento-2026-09-26-3f58cf.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[movies] Candidatos encontrados: 42 | Límite: 1
+[YouTube] No se encontró tráiler confiable para 'Tender Loving Care' gana la Concha de Oro: La última película de Mike Leigh consigue el mayor premio del Festival de San Sebastián 2026
+[movies] Saltado porque no tiene tráiler confiable: 'Tender Loving Care' gana la Concha de Oro: La última película de Mike Leigh consigue el mayor premio del Festival de San Sebastián 2026
+[YouTube] No se encontró tráiler confiable para 77 minutos de duración y nominada al Oscar: esta es una de las películas más preciosas del año
+[movies] Saltado porque no tiene tráiler confiable: 77 minutos de duración y nominada al Oscar: esta es una de las películas más preciosas del año
+[YouTube] No se encontró tráiler confiable para Con 89 años, Morgan Freeman ha decidido reconectar con sus raíces: “Hablo como miembro de la tribu”
+[movies] Saltado porque no tiene tráiler confiable: Con 89 años, Morgan Freeman ha decidido reconectar con sus raíces: “Hablo como miembro de la tribu”
+[IA] Probando proveedor mistral: La escena de 'La isla olvidada' que tuvieron que cortar por lo mal que cantaba u
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: La escena de 'La isla olvidada' que tuvieron que cortar por lo mal que cantaba u
+[IA] cohere falló (error): Cohere error 404: {"id":"4d42a707-60ad-4f7e-be65-a27a07dc00f3","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: La escena de 'La isla olvidada' que tuvieron que cortar por lo mal que cantaba u
+[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 3002 (char 3262)
+[IA] Probando proveedor groq: La escena de 'La isla olvidada' que tuvieron que cortar por lo mal que cantaba u
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: La escena de 'La isla olvidada' que tuvieron que cortar por lo mal que cantaba u
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[movies] Error generando artículo La escena de 'La isla olvidada' que tuvieron que cortar por lo mal que cantaba uno de sus protagonistas: Todos los proveedores de IA fallaron. [IA] gemini falló (error): Expecting ',' delimiter: line 4 column 3002 (char 3262) | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
