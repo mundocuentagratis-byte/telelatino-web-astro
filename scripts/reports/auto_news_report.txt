@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-25T23:17:33.773413+00:00
+Fecha UTC: 2026-09-26T04:51:56.132879+00:00
 [movies] Saltado porque no es estreno 2026: Arriba Tutto (None)
 [movies] Saltado porque no es estreno 2026: Resident Evil (None)
 [movies] Saltado porque no es estreno 2026: J.K. Rowling puso en práctica el "Ten cuidado o terminarás en mi nivela": las personas reales tras los personajes de 'Harry Potter' (2001)
@@ -10,23 +10,39 @@ Fecha UTC: 2026-09-25T23:17:33.773413+00:00
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' sorprendió con el salvado de la semana: Estos son los tres nominados que se juegan la expulsión
 [movies] Saltado noticia no apta para películas: Jordi González opina sobre La Séptima: "La parrilla será competitiva. Creo que funcionará, pero tampoco conseguirá un 10% de audiencia"
-[movies] Saltado noticia no apta para películas: Cómo ver La Séptima en tu televisión: así se sintoniza el nuevo canal de la TDT sin instalar nada
 [movies] Saltado noticia no apta para películas: Eva Nasarre dejó la TV por el trabajo social: décadas después lucha por la Ley de Dependencia desde su silla de ruedas
+[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' salvó a un concursante de la expulsión: Estos son los cuatro nominados definitivos
 [movies] Saltado noticia no apta para películas: Cambio de programación en RTVE: La UEFA Nations League trastoca la parrilla de La 1 este fin de semana
 [movies] Saltado noticia no apta para películas: 'El Chiringuito' sigue aumentado su plantilla en Mediaset: 4 años después, Guti vuelve al programa de Josep Pedredol
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' expulsó a la concursante esperada: Esta es la nueva lista de nominados
 [movies] Saltado noticia no apta para películas: El abuelo de Jesús Vázquez fue un importante jugador del Atlético de Madrid: murió a los 45 años tras un partido como entrenador
 [movies] Saltado noticia no apta para películas: El nutricionista Pablo Ojeda explica por qué abandonó un programa de Telecinco: "No me pareció ni medio ético"
 [movies] Saltado noticia no apta para películas: Marc Giró ante las graves amenazas de muerte de un 'hater': "Voy a responder, en este caso, con una denuncia"
-[movies] Candidatos encontrados: 32 | Límite: 1
-[IA] Probando proveedor mistral: Rise Up (Levántate)
+[movies] Candidatos encontrados: 31 | Límite: 1
+[IA] Probando proveedor gemini: Verity. La sombra de un engaño
+[IA] gemini falló (cuota): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 52.535109399s.', 'status': 'RESOURCE_EXHAUSTED
+[IA] Probando proveedor groq: Verity. La sombra de un engaño
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: Verity. La sombra de un engaño
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: Verity. La sombra de un engaño
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Rise Up (Levántate)
-[IA] cohere falló (error): Cohere error 404: {"id":"adaf9d45-f2a8-46aa-8e95-3adadd895051","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Rise Up (Levántate)
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/rise-up-levantate-el-drama-de-un-campeon-de-mma-en-crisis-2026-09-25-718367.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[IA] Probando proveedor cohere: Verity. La sombra de un engaño
+[IA] cohere falló (error): Cohere error 404: {"id":"1e7b3cdb-9e0d-4936-b9ce-81ac9fe0fde5","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[movies] Error generando artículo Verity. La sombra de un engaño: Todos los proveedores de IA fallaron. [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}} | [IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429} | [IA] cohere falló (error): Cohere error 404: {"id":"1e7b3cdb-9e0d-4936-b9ce-81ac9fe0fde5","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[YouTube] No se encontró tráiler confiable para "Nunca pensé que llegaría el día": Warner nos acaba de dar una de cal y una de arena con el regreso de este hito del cine de los 80
+[movies] Saltado porque no tiene tráiler confiable: "Nunca pensé que llegaría el día": Warner nos acaba de dar una de cal y una de arena con el regreso de este hito del cine de los 80
+[YouTube] No se encontró tráiler confiable para A sus 96 años, Clint Eastwood conserva un hábito diario para su longevidad que comparte con otros famosos
+[movies] Saltado porque no tiene tráiler confiable: A sus 96 años, Clint Eastwood conserva un hábito diario para su longevidad que comparte con otros famosos
+[movies] Saltado por tema bloqueado: Con un argumento mínimo, Mike Leigh construye una obra bellísima sobre cuestiones complejísimas: el amor, la enfermedad, la muerte y la resiliencia
+[YouTube] No se encontró tráiler confiable para Hace 27 años se empezó a construir el primer macroburdel en España: 'El castillo': un 'thriller' policial sobre el auge de la mafia proxeneta | San Sebastián 2026
+[movies] Saltado porque no tiene tráiler confiable: Hace 27 años se empezó a construir el primer macroburdel en España: 'El castillo': un 'thriller' policial sobre el auge de la mafia proxeneta | San Sebastián 2026
+[YouTube] No se encontró tráiler confiable para Scarlett Johansson tiene una espina clavada con Jeremy Renner tras 'Vengadores': "Me hubiera gustado ver más sobre eso"
+[movies] Saltado porque no tiene tráiler confiable: Scarlett Johansson tiene una espina clavada con Jeremy Renner tras 'Vengadores': "Me hubiera gustado ver más sobre eso"
+[YouTube] No se encontró tráiler confiable para Una de las mejores adaptaciones de Stephen King que existen cumple 32 años
+[movies] Saltado porque no tiene tráiler confiable: Una de las mejores adaptaciones de Stephen King que existen cumple 32 años
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
