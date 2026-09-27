@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-26T22:44:37.714425+00:00
+Fecha UTC: 2026-09-27T05:16:23.500995+00:00
 [movies] Saltado porque no es estreno 2026: Arriba Tutto (None)
 [movies] Saltado porque no es estreno 2026: Resident Evil (None)
 [movies] Saltado porque no es estreno 2026: No me había dado cuenta, pero el actor que interpretó a Gimli tuvo otros dos papeles en la saga de 'El señor de los anillos' (2023)
@@ -13,24 +13,14 @@ Fecha UTC: 2026-09-26T22:44:37.714425+00:00
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' salvó a un concursante de la expulsión: Estos son los cuatro nominados definitivos
 [movies] Saltado noticia no apta para películas: Cambio de programación en RTVE: La UEFA Nations League trastoca la parrilla de La 1 este fin de semana
 [movies] Candidatos encontrados: 42 | Límite: 1
-[YouTube] No se encontró tráiler confiable para 'Tender Loving Care' gana la Concha de Oro: La última película de Mike Leigh consigue el mayor premio del Festival de San Sebastián 2026
-[movies] Saltado porque no tiene tráiler confiable: 'Tender Loving Care' gana la Concha de Oro: La última película de Mike Leigh consigue el mayor premio del Festival de San Sebastián 2026
-[YouTube] No se encontró tráiler confiable para 77 minutos de duración y nominada al Oscar: esta es una de las películas más preciosas del año
-[movies] Saltado porque no tiene tráiler confiable: 77 minutos de duración y nominada al Oscar: esta es una de las películas más preciosas del año
-[YouTube] No se encontró tráiler confiable para Con 89 años, Morgan Freeman ha decidido reconectar con sus raíces: “Hablo como miembro de la tribu”
-[movies] Saltado porque no tiene tráiler confiable: Con 89 años, Morgan Freeman ha decidido reconectar con sus raíces: “Hablo como miembro de la tribu”
 [IA] Probando proveedor mistral: La escena de 'La isla olvidada' que tuvieron que cortar por lo mal que cantaba u
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 [IA] Probando proveedor cohere: La escena de 'La isla olvidada' que tuvieron que cortar por lo mal que cantaba u
-[IA] cohere falló (error): Cohere error 404: {"id":"4d42a707-60ad-4f7e-be65-a27a07dc00f3","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] cohere falló (error): Cohere error 404: {"id":"50a1972b-af7a-4623-9e7e-168d15852099","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
 [IA] Probando proveedor gemini: La escena de 'La isla olvidada' que tuvieron que cortar por lo mal que cantaba u
-[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 3002 (char 3262)
-[IA] Probando proveedor groq: La escena de 'La isla olvidada' que tuvieron que cortar por lo mal que cantaba u
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: La escena de 'La isla olvidada' que tuvieron que cortar por lo mal que cantaba u
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[movies] Error generando artículo La escena de 'La isla olvidada' que tuvieron que cortar por lo mal que cantaba uno de sus protagonistas: Todos los proveedores de IA fallaron. [IA] gemini falló (error): Expecting ',' delimiter: line 4 column 3002 (char 3262) | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[movies] Publicados: 0
-Total películas publicadas: 0
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/la-isla-olvidada-el-detalle-que-dreamworks-corto-por-un-mal-cantante-2026-09-27-141ae4.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
