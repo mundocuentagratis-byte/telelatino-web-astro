@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-27T19:45:28.632988+00:00
+Fecha UTC: 2026-09-27T23:00:35.538741+00:00
 [movies] Saltado porque no es estreno 2026: Arriba Tutto (None)
 [movies] Saltado porque no es estreno 2026: Resident Evil (None)
 [movies] Saltado noticia no apta para películas: Michael Keaton no pudo utilizar su nombre real cuando empezó a actuar. Se lo había quitado otro mítico actor
@@ -22,12 +22,6 @@ Fecha UTC: 2026-09-27T19:45:28.632988+00:00
 [movies] Saltado noticia no apta para películas: "Suministramos hasta la cerveza": El sueldo de un empleado de 'La fiebre del oro' puede parecer bajo, pero tiene sus ventajas
 [movies] Saltado noticia no apta para películas: Que fue de Sandra Polop, la concursante más joven en entrar en 'Operación Triunfo': 21 años después, tiene su propia academia de música
 [movies] Candidatos encontrados: 29 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "No podíamos tener ni un vaso de cartón": este actor se metió tanto en el personaje que obligó al mismísimo Spielberg a vivir en el Siglo XIX
-[movies] Saltado porque no tiene tráiler confiable: "No podíamos tener ni un vaso de cartón": este actor se metió tanto en el personaje que obligó al mismísimo Spielberg a vivir en el Siglo XIX
-[YouTube] No se encontró tráiler confiable para El final explicado de 'La bola negra' nos muestra por qué Los Javis han creado una obra que está emocionando a todo el mundo
-[movies] Saltado porque no tiene tráiler confiable: El final explicado de 'La bola negra' nos muestra por qué Los Javis han creado una obra que está emocionando a todo el mundo
-[YouTube] No se encontró tráiler confiable para No me había dado cuenta, pero el actor que interpretó a Gimli tuvo otros dos papeles en la saga de 'El señor de los anillos'
-[movies] Saltado porque no tiene tráiler confiable: No me había dado cuenta, pero el actor que interpretó a Gimli tuvo otros dos papeles en la saga de 'El señor de los anillos'
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
