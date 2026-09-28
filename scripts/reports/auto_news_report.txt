@@ -1,39 +1,42 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-28T05:17:26.436220+00:00
-[movies] Saltado porque no es estreno 2026: Arriba Tutto (None)
-[movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (2025)
-[movies] Saltado porque no es estreno 2026: Verity. La sombra de un engaño (2025)
-[movies] Saltado porque no es estreno 2026: La invitación (2025)
-[movies] Saltado porque no es estreno 2026: La otra madre (2025)
-[movies] Saltado porque no es estreno 2026: Digger (2025)
-[movies] Saltado porque no es estreno 2026: Entrega al límite (2025)
-[movies] Saltado porque no es estreno 2026: Hope (2025)
-[movies] Saltado porque no es estreno 2026: Mosquito Bowl: Un partido en plena guerra (2025)
+Fecha UTC: 2026-09-28T16:44:33.257878+00:00
+[movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Resident Evil (None)
-[movies] Saltado porque no es estreno 2026: Prácticamente magia 2 (2025)
-[movies] Saltado porque no es estreno 2026: Spider-Man: Brand New Day (2025)
-[movies] Saltado porque no es estreno 2026: La Odisea (2025)
-[movies] Saltado porque no es estreno 2026: Coyote vs. ACME (2025)
+[movies] Saltado noticia no apta para películas: "Recomiendo verla doscientas veces": acaba de estrenarse, pero ya es la película del año
+[movies] Saltado noticia no apta para películas: Todos los niños de los 90 crecieron con esta película, pero muchos la hemos olvidado 30 años después
+[movies] Saltado noticia no apta para películas: En 1997, Paul Newman donó tres hectáreas de su terreno: ahora es una reserva natural de 16 hectáreas, pero el actor murió antes de verlo
+[movies] Saltado noticia no apta para películas: Últimos 3 días para ver en Netflix una olvidada película de ciencia ficción con uno de los mejores monstruos de la historia
+[movies] Saltado noticia no apta para películas: Nicole Kidman: "literalmente, por con quién me casé tan joven, me vi inmersa en esto [de la fama] desde los 22 años"
+[movies] Saltado noticia no apta para películas: “Ellos me ignoran, yo les ignoro”: Por esta razón Denzel Washington no ha votado en los premios Oscar en 26 años
 [movies] Saltado noticia no apta para películas: Michael Keaton no pudo utilizar su nombre real cuando empezó a actuar. Se lo había quitado otro mítico actor
-[movies] Saltado noticia no apta para películas: Christopher Reeve, sobre la película de la que siempre se arrepintió: “No me pareció que tuviera el estilo correcto”
-[movies] Saltado noticia no apta para películas: En 1977 se juntaron cuatro de las más grandes estrellas de la música y el cine y se hicieron una foto mítica
-[movies] Saltado noticia no apta para películas: Este profesor castigaba a sus alumnos por llevar el pelo largo, y estos se vengaron montando un grupo que parodiaba su nombre
-[movies] Saltado porque no es estreno 2026: El agujero de guion de 'Vengadores: Endgame' en el que sigo pensando 7 años después (2025)
-[movies] Saltado noticia no apta para películas: La escena de 'La isla olvidada' que tuvieron que cortar por lo mal que cantaba uno de sus protagonistas
-[movies] Saltado noticia no apta para películas: Debutó hace 49 años en una película hecha para televisión donde conoció a su gran amor. Ahora ha ganado dos Óscar y es uno de los mejores actores del mundo. ¿Le reconoces?
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' sorprendió con el salvado de la semana: Estos son los tres nominados que se juegan la expulsión
 [movies] Saltado noticia no apta para películas: Jordi González opina sobre La Séptima: "La parrilla será competitiva. Creo que funcionará, pero tampoco conseguirá un 10% de audiencia"
 [movies] Saltado noticia no apta para películas: Eva Nasarre dejó la TV por el trabajo social: décadas después lucha por la Ley de Dependencia desde su silla de ruedas
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' salvó a un concursante de la expulsión: Estos son los cuatro nominados definitivos
+[movies] Saltado noticia no apta para películas: Fernando Díaz de la Guardia y su "inspiradora" vuelta a la televisión tras una parálisis facial: "Tenía cierto miedo"
+[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' sorprendió con el primer salvado de la expulsión: Esta es la lista definitiva de nominados
 [movies] Saltado noticia no apta para películas: "Me pagaron 250€ y de ahí tenía que sacar el dinero para pagar el menú, que eran 15€": dos 'influencers' desvelan cómo fue su experiencia en 'First Dates'
 [movies] Saltado noticia no apta para películas: Tras 18 años en 'Informativos Telecinco', este mítico presentador fue despedido: "Estaba muy vinculado a la anterior etapa"
 [movies] Saltado noticia no apta para películas: "Ganaba al día casi lo de toda 'La isla de las tentaciones'": Josué Bernal rechazó participar en 'Supervivientes' por este 'reality' chileno
 [movies] Saltado noticia no apta para películas: Javier Ruiz, director de La séptima: "Estoy preparado para pasar del 29.6% de audiencia, que es el récord que hemos hecho en 'Mañaneros', al 0.6%"
-[movies] Saltado noticia no apta para películas: "Suministramos hasta la cerveza": El sueldo de un empleado de 'La fiebre del oro' puede parecer bajo, pero tiene sus ventajas
-[movies] Saltado noticia no apta para películas: Que fue de Sandra Polop, la concursante más joven en entrar en 'Operación Triunfo': 21 años después, tiene su propia academia de música
-[movies] Candidatos encontrados: 17 | Límite: 1
+[movies] Candidatos encontrados: 26 | Límite: 1
+[IA] Probando proveedor groq: El mal padre
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: El mal padre
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: El mal padre
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: El mal padre
+[IA] cohere falló (error): Cohere error 404: {"id":"c603411e-f2c1-406c-bb93-0a56a64b5f4c","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: El mal padre
+[IA] gemini falló (error): Unterminated string starting at: line 4 column 11 (char 254)
+[movies] Error generando artículo El mal padre: Todos los proveedores de IA fallaron. [IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429} | [IA] cohere falló (error): Cohere error 404: {"id":"c603411e-f2c1-406c-bb93-0a56a64b5f4c","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."} | [IA] gemini falló (error): Unterminated string starting at: line 4 column 11 (char 254)
+[YouTube] No se encontró tráiler confiable para "Desde que cumplí 50 años estoy retirado": después de cinco películas y un especial navideño, este actor se despide oficialmente de su personaje de Marvel
+[movies] Saltado porque no tiene tráiler confiable: "Desde que cumplí 50 años estoy retirado": después de cinco películas y un especial navideño, este actor se despide oficialmente de su personaje de Marvel
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
