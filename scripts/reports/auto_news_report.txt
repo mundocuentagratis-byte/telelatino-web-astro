@@ -1,33 +1,47 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-29T18:04:40.818975+00:00
+Fecha UTC: 2026-09-29T23:41:11.488189+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
-[movies] Saltado porque no es estreno 2026: Resident Evil (None)
+[movies] Saltado porque no es estreno 2026: Vengadores: Endgame (Reestreno) (None)
 [movies] Saltado porque no es estreno 2026: Llega a cines la nueva sensación del thriller: ‘Verity: La sombra de un engaño’ (2027)
-[movies] Saltado porque no es estreno 2026: Brad Pitt: "Las malas actuaciones me sacan de quicio. Por eso no puedo ver porno" (2027)
+[movies] Saltado porque no es estreno 2026: Jennifer Aniston se arrepiente de no haber empezado antes con este hábito de salud: "Si hubiera sabido esto a los 20 y 30 años, pero sobre todo a los 40 y 50" (2027)
+[movies] Saltado noticia no apta para películas: Brad Pitt: "Las malas actuaciones me sacan de quicio. Por eso no puedo ver porno"
 [movies] Saltado porque no es estreno 2026: "Obviamente, no era el actor adecuado": el creador de 'Jack Reacher' se arrepiente de que ficharan a Tom Cruise para el papel (2025)
-[movies] Saltado noticia no apta para películas: Me ha encantado ver 'La bola negra' sabiendo todo esto: cada detalle que debes saber para cazar toda su genialidad en pantalla
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Quizás la mejor trilogía de aventuras desde 'Indiana Jones' con imágenes impresionantes, acción trepidante y muchísima diversión (2027)
 [movies] Saltado noticia no apta para películas: "Recomiendo verla doscientas veces": acaba de estrenarse, pero ya es la película del año
 [movies] Saltado noticia no apta para películas: Todos los niños de los 90 crecieron con esta película, pero muchos la hemos olvidado 30 años después
 [movies] Saltado porque no es estreno 2026: En 1997, Paul Newman donó tres hectáreas de su terreno: ahora es una reserva natural de 16 hectáreas, pero el actor murió antes de verlo (2027)
-[movies] Saltado porque no es estreno 2026: Últimos 3 días para ver en Netflix una olvidada película de ciencia ficción con uno de los mejores monstruos de la historia (2027)
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' sorprendió con el salvado de la semana: Estos son los tres nominados que se juegan la expulsión
 [movies] Saltado noticia no apta para películas: Jordi González opina sobre La Séptima: "La parrilla será competitiva. Creo que funcionará, pero tampoco conseguirá un 10% de audiencia"
 [movies] Saltado noticia no apta para películas: Quiénes son Miguel y Mara, la nueva pareja de 'La isla de las tentaciones 11': ella ya participó como tentadora
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' expulsó a la concursante esperada: Esta es la nueva lista de nominados
-[movies] Candidatos encontrados: 30 | Límite: 1
-[YouTube] No se encontró tráiler confiable para 'Cifras y letras' pone en juego el mayor bote de su historia: Quién es Alejandro Castillo, el matemático de 22 años que podría ganarlo
-[movies] Saltado porque no tiene tráiler confiable: 'Cifras y letras' pone en juego el mayor bote de su historia: Quién es Alejandro Castillo, el matemático de 22 años que podría ganarlo
-[YouTube] No se encontró tráiler confiable para 'La Revuelta' sale del teatro para dar voz a los manifestantes de la acampada de Sol: "Que se acabe con el rentismo y con la especulación"
-[movies] Saltado porque no tiene tráiler confiable: 'La Revuelta' sale del teatro para dar voz a los manifestantes de la acampada de Sol: "Que se acabe con el rentismo y con la especulación"
-[YouTube] No se encontró tráiler confiable para 'La isla de las tentaciones 11' vivió una de sus hogueras más duras, pero aún queda la "más desgarradora" de su historia: "Lo nunca visto"
-[movies] Saltado porque no tiene tráiler confiable: 'La isla de las tentaciones 11' vivió una de sus hogueras más duras, pero aún queda la "más desgarradora" de su historia: "Lo nunca visto"
-[YouTube] No se encontró tráiler confiable para Fernando Díaz de la Guardia y su "inspiradora" vuelta a la televisión tras una parálisis facial: "Tenía cierto miedo"
-[movies] Saltado porque no tiene tráiler confiable: Fernando Díaz de la Guardia y su "inspiradora" vuelta a la televisión tras una parálisis facial: "Tenía cierto miedo"
-[YouTube] No se encontró tráiler confiable para Macarena Rey, directora general de la productora de 'MasterChef': "Un contenido de niños programado a las 23:15 horas no tiene mucho sentido"
-[movies] Saltado porque no tiene tráiler confiable: Macarena Rey, directora general de la productora de 'MasterChef': "Un contenido de niños programado a las 23:15 horas no tiene mucho sentido"
+[movies] Candidatos encontrados: 29 | Límite: 1
+[IA] Probando proveedor mistral: Primetime
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: Primetime
+[IA] cohere falló (error): Cohere error 404: {"id":"dbc0271e-da3e-402e-b300-9b8d7dc82d21","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Primetime
+[IA] gemini falló (error): El cuerpo generado es demasiado corto o vacío
+[IA] Probando proveedor groq: Primetime
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: Primetime
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[movies] Error generando artículo Primetime: Todos los proveedores de IA fallaron. [IA] gemini falló (error): El cuerpo generado es demasiado corto o vacío | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor gemini: Me ha encantado ver 'La bola negra' sabiendo todo esto: cada detalle que debes s
+[IA] gemini falló (error): Unterminated string starting at: line 4 column 11 (char 271)
+[IA] Probando proveedor groq: Me ha encantado ver 'La bola negra' sabiendo todo esto: cada detalle que debes s
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: Me ha encantado ver 'La bola negra' sabiendo todo esto: cada detalle que debes s
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: Me ha encantado ver 'La bola negra' sabiendo todo esto: cada detalle que debes s
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: Me ha encantado ver 'La bola negra' sabiendo todo esto: cada detalle que debes s
+[IA] cohere falló (error): Cohere error 404: {"id":"f3505710-0197-49d0-81d2-c9c60de1ffdb","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[movies] Error generando artículo Me ha encantado ver 'La bola negra' sabiendo todo esto: cada detalle que debes saber para cazar toda su genialidad en pantalla: Todos los proveedores de IA fallaron. [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}} | [IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429} | [IA] cohere falló (error): Cohere error 404: {"id":"f3505710-0197-49d0-81d2-c9c60de1ffdb","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
