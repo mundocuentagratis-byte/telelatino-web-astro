@@ -1,30 +1,31 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-29T00:24:48.000657+00:00
+Fecha UTC: 2026-09-29T10:38:27.529777+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
-[movies] Saltado porque no es estreno 2026: Resident Evil (None)
+[movies] Saltado porque no es estreno 2026: Vengadores: Endgame (Reestreno) (None)
+[movies] Saltado noticia no apta para películas: Me ha encantado ver 'La bola negra' sabiendo todo esto: cada detalle que debes saber para cazar toda su genialidad en pantalla
+[movies] Saltado porque no es estreno 2026: Hoy en Netflix: Quizás la mejor trilogía de aventuras desde 'Indiana Jones' con imágenes impresionantes, acción trepidante y muchísima diversión (2017)
 [movies] Saltado noticia no apta para películas: "Recomiendo verla doscientas veces": acaba de estrenarse, pero ya es la película del año
 [movies] Saltado noticia no apta para películas: Todos los niños de los 90 crecieron con esta película, pero muchos la hemos olvidado 30 años después
 [movies] Saltado noticia no apta para películas: En 1997, Paul Newman donó tres hectáreas de su terreno: ahora es una reserva natural de 16 hectáreas, pero el actor murió antes de verlo
 [movies] Saltado noticia no apta para películas: Últimos 3 días para ver en Netflix una olvidada película de ciencia ficción con uno de los mejores monstruos de la historia
 [movies] Saltado noticia no apta para películas: Nicole Kidman: "literalmente, por con quién me casé tan joven, me vi inmersa en esto [de la fama] desde los 22 años"
+[movies] Saltado noticia no apta para películas: "Desde que cumplí 50 años estoy retirado": después de cinco películas y un especial navideño, este actor se despide oficialmente de su personaje de Marvel
 [movies] Saltado noticia no apta para películas: “Ellos me ignoran, yo les ignoro”: Por esta razón Denzel Washington no ha votado en los premios Oscar en 26 años
-[movies] Saltado noticia no apta para películas: Michael Keaton no pudo utilizar su nombre real cuando empezó a actuar. Se lo había quitado otro mítico actor
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' sorprendió con el salvado de la semana: Estos son los tres nominados que se juegan la expulsión
 [movies] Saltado noticia no apta para películas: Jordi González opina sobre La Séptima: "La parrilla será competitiva. Creo que funcionará, pero tampoco conseguirá un 10% de audiencia"
-[movies] Saltado noticia no apta para películas: Eva Nasarre dejó la TV por el trabajo social: décadas después lucha por la Ley de Dependencia desde su silla de ruedas
-[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' salvó a un concursante de la expulsión: Estos son los cuatro nominados definitivos
+[movies] Saltado noticia no apta para películas: Quiénes son Miguel y Mara, la nueva pareja de 'La isla de las tentaciones 11': ella ya participó como tentadora
+[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' expulsó a la concursante esperada: Esta es la nueva lista de nominados
+[movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11' vivió una de sus hogueras más duras, pero aún queda la "más desgarradora" de su historia: "Lo nunca visto"
 [movies] Saltado noticia no apta para películas: Fernando Díaz de la Guardia y su "inspiradora" vuelta a la televisión tras una parálisis facial: "Tenía cierto miedo"
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' sorprendió con el primer salvado de la expulsión: Esta es la lista definitiva de nominados
 [movies] Saltado noticia no apta para películas: "Me pagaron 250€ y de ahí tenía que sacar el dinero para pagar el menú, que eran 15€": dos 'influencers' desvelan cómo fue su experiencia en 'First Dates'
 [movies] Saltado noticia no apta para películas: Tras 18 años en 'Informativos Telecinco', este mítico presentador fue despedido: "Estaba muy vinculado a la anterior etapa"
-[movies] Saltado noticia no apta para películas: "Ganaba al día casi lo de toda 'La isla de las tentaciones'": Josué Bernal rechazó participar en 'Supervivientes' por este 'reality' chileno
-[movies] Saltado noticia no apta para películas: Javier Ruiz, director de La séptima: "Estoy preparado para pasar del 29.6% de audiencia, que es el récord que hemos hecho en 'Mañaneros', al 0.6%"
-[movies] Candidatos encontrados: 26 | Límite: 1
-[IA] Probando proveedor gemini: El mal padre
+[movies] Candidatos encontrados: 23 | Límite: 1
+[IA] Probando proveedor gemini: Dune: Parte tres
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/el-mal-padre-un-reencuentro-familiar-lleno-de-verdades-y-emocion-2026-09-29-21f8a9.md
+[OK] Publicado: src/content/blog/dune-parte-tres-la-epopeya-de-paul-atreides-continua-2026-09-29-d6a1f3.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
