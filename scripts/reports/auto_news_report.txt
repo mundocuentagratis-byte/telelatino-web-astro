@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-28T16:44:33.257878+00:00
+Fecha UTC: 2026-09-29T00:24:48.000657+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Resident Evil (None)
 [movies] Saltado noticia no apta para películas: "Recomiendo verla doscientas veces": acaba de estrenarse, pero ya es la película del año
@@ -22,21 +22,9 @@ Fecha UTC: 2026-09-28T16:44:33.257878+00:00
 [movies] Saltado noticia no apta para películas: "Ganaba al día casi lo de toda 'La isla de las tentaciones'": Josué Bernal rechazó participar en 'Supervivientes' por este 'reality' chileno
 [movies] Saltado noticia no apta para películas: Javier Ruiz, director de La séptima: "Estoy preparado para pasar del 29.6% de audiencia, que es el récord que hemos hecho en 'Mañaneros', al 0.6%"
 [movies] Candidatos encontrados: 26 | Límite: 1
-[IA] Probando proveedor groq: El mal padre
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: El mal padre
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: El mal padre
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: El mal padre
-[IA] cohere falló (error): Cohere error 404: {"id":"c603411e-f2c1-406c-bb93-0a56a64b5f4c","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
 [IA] Probando proveedor gemini: El mal padre
-[IA] gemini falló (error): Unterminated string starting at: line 4 column 11 (char 254)
-[movies] Error generando artículo El mal padre: Todos los proveedores de IA fallaron. [IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429} | [IA] cohere falló (error): Cohere error 404: {"id":"c603411e-f2c1-406c-bb93-0a56a64b5f4c","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."} | [IA] gemini falló (error): Unterminated string starting at: line 4 column 11 (char 254)
-[YouTube] No se encontró tráiler confiable para "Desde que cumplí 50 años estoy retirado": después de cinco películas y un especial navideño, este actor se despide oficialmente de su personaje de Marvel
-[movies] Saltado porque no tiene tráiler confiable: "Desde que cumplí 50 años estoy retirado": después de cinco películas y un especial navideño, este actor se despide oficialmente de su personaje de Marvel
-[movies] Publicados: 0
-Total películas publicadas: 0
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/el-mal-padre-un-reencuentro-familiar-lleno-de-verdades-y-emocion-2026-09-29-21f8a9.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
