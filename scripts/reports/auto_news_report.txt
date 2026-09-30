@@ -1,33 +1,48 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-09-30T14:55:31.168883+00:00
+Fecha UTC: 2026-09-30T20:47:34.144897+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Vengadores: Endgame (Reestreno) (None)
-[movies] Saltado noticia no apta para películas: Llega a cines la nueva sensación del thriller: ‘Verity: La sombra de un engaño’
-[movies] Saltado noticia no apta para películas: "Nace de la propia experiencia vital y generacional de llevar años en búsqueda permanente de piso": llega a los cines 'Nuda propiedad'
+[movies] Saltado porque no es estreno 2026: La primera película de 'Juego de Tronos' ya es una realidad: tiene fecha de estreno, pero vamos a esperar tanto que igual se nos olvida (2027)
+[movies] Saltado noticia no apta para películas: Antonio Banderas sobre el desahucio de Maricarmen: “A mi me interesa toda la realidad completa. No una realidad específica para un uso específico”
 [movies] Saltado noticia no apta para películas: 13 años después, David Fincher ha puesto fecha al final de su acuerdo con Netflix: no afecta a su película más esperada
-[movies] Saltado noticia no apta para películas: Guillermo del Toro, ante la posibilidad de adaptar 'Bioshock': "Probablemente las reuniones más desastrosas que he tenido jamás. Así que ni de coña"
-[movies] Saltado noticia no apta para películas: Brad Pitt: "Las malas actuaciones me sacan de quicio. Por eso no puedo ver porno"
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' sorprendió con el salvado de la semana: Estos son los tres nominados que se juegan la expulsión
 [movies] Saltado noticia no apta para películas: Jordi González opina sobre La Séptima: "La parrilla será competitiva. Creo que funcionará, pero tampoco conseguirá un 10% de audiencia"
 [movies] Saltado noticia no apta para películas: Quiénes son Miguel y Mara, la nueva pareja de 'La isla de las tentaciones 11': ella ya participó como tentadora
 [movies] Saltado noticia no apta para películas: Por qué se ha ido Javier Alonso de 'Pasapalabra': Este es el mítico concursante que le sustituirá
+[movies] Saltado noticia no apta para películas: 'Dog dates, amor a cuatro patas', la vuelta de tuerca a 'First Dates' que nadie vio venir
+[movies] Saltado noticia no apta para películas: Tras más de 10 años en televisión, Gol cesa sus emisiones para siempre: Así es Replay, el nuevo canal deportivo de pago
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' salvó a un nuevo concursante de la expulsión: Así queda la lista de nominados
 [movies] Saltado noticia no apta para películas: Macarena Rey, directora general de la productora de 'MasterChef': "Un contenido de niños programado a las 23:15 horas no tiene mucho sentido"
 [movies] Saltado noticia no apta para películas: 'La Revuelta' sale del teatro para dar voz a los manifestantes de la acampada de Sol: "Que se acabe con el rentismo y con la especulación"
-[movies] Saltado noticia no apta para películas: 'Cifras y letras' pone en juego el mayor bote de su historia: Quién es Alejandro Castillo, el matemático de 22 años que podría ganarlo
-[movies] Candidatos encontrados: 32 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "Debí haberla escuchado": Jennifer Lawrence se arrepintió de protagonizar la película de ciencia ficción que una amiga le advirtió que no hiciera
-[movies] Saltado porque no tiene tráiler confiable: "Debí haberla escuchado": Jennifer Lawrence se arrepintió de protagonizar la película de ciencia ficción que una amiga le advirtió que no hiciera
-[IA] Probando proveedor mistral: "Obviamente, no era el actor adecuado": el creador de 'Jack Reacher' se arrepien
+[movies] Candidatos encontrados: 36 | Límite: 1
+[YouTube] No se encontró tráiler confiable para "Cada actor tenía su propia versión de lo sucedido. Yo no les revelaba lo que otros habían dicho": llega a cines 'Verity', un triángulo amoroso de giros y suspense
+[movies] Saltado porque no tiene tráiler confiable: "Cada actor tenía su propia versión de lo sucedido. Yo no les revelaba lo que otros habían dicho": llega a cines 'Verity', un triángulo amoroso de giros y suspense
+[YouTube] No se encontró tráiler confiable para "Nace de la propia experiencia vital y generacional de llevar años en búsqueda permanente de piso": llega a los cines 'Nuda propiedad'
+[movies] Saltado porque no tiene tráiler confiable: "Nace de la propia experiencia vital y generacional de llevar años en búsqueda permanente de piso": llega a los cines 'Nuda propiedad'
+[YouTube] No se encontró tráiler confiable para Alejandro G. Calvo: "Digger' es una ópera esperpéntica dominada por el desgastante monólogo de Tom Cruise"
+[movies] Saltado porque no tiene tráiler confiable: Alejandro G. Calvo: "Digger' es una ópera esperpéntica dominada por el desgastante monólogo de Tom Cruise"
+[YouTube] No se encontró tráiler confiable para Brad Pitt: "Las malas actuaciones me sacan de quicio. Por eso no puedo ver porno"
+[movies] Saltado porque no tiene tráiler confiable: Brad Pitt: "Las malas actuaciones me sacan de quicio. Por eso no puedo ver porno"
+[YouTube] No se encontró tráiler confiable para Cómo "el feo" robó el protagonismo al bueno y al malo: es una de las mejores frases de la historia del cine western pero no la pronunció Clint Eastwood
+[movies] Saltado porque no tiene tráiler confiable: Cómo "el feo" robó el protagonismo al bueno y al malo: es una de las mejores frases de la historia del cine western pero no la pronunció Clint Eastwood
+[YouTube] No se encontró tráiler confiable para De las 400 caras fabricadas a mano para Jack Skellington a las 8.000 piezas faciales de 'ParaNorman': el arte del 'stop motion'
+[movies] Saltado porque no tiene tráiler confiable: De las 400 caras fabricadas a mano para Jack Skellington a las 8.000 piezas faciales de 'ParaNorman': el arte del 'stop motion'
+[YouTube] No se encontró tráiler confiable para El actor de Marvel que aparcó su carrera en el cine para intentar reinventar las matemáticas y demostrar que 1x1 es igual a 2
+[movies] Saltado porque no tiene tráiler confiable: El actor de Marvel que aparcó su carrera en el cine para intentar reinventar las matemáticas y demostrar que 1x1 es igual a 2
+[YouTube] No se encontró tráiler confiable para Guillermo del Toro, ante la posibilidad de adaptar 'Bioshock': "Probablemente las reuniones más desastrosas que he tenido jamás. Así que ni de coña"
+[movies] Saltado porque no tiene tráiler confiable: Guillermo del Toro, ante la posibilidad de adaptar 'Bioshock': "Probablemente las reuniones más desastrosas que he tenido jamás. Así que ni de coña"
+[YouTube] No se encontró tráiler confiable para Jennifer Aniston se arrepiente de no haber empezado antes con este hábito de salud: "Si hubiera sabido esto a los 20 y 30 años, pero sobre todo a los 40 y 50"
+[movies] Saltado porque no tiene tráiler confiable: Jennifer Aniston se arrepiente de no haber empezado antes con este hábito de salud: "Si hubiera sabido esto a los 20 y 30 años, pero sobre todo a los 40 y 50"
+[IA] Probando proveedor mistral: Llega a cines la nueva sensación del thriller: ‘Verity: La sombra de un engaño’
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: "Obviamente, no era el actor adecuado": el creador de 'Jack Reacher' se arrepien
-[IA] cohere falló (error): Cohere error 404: {"id":"477cd87f-7b46-45be-8684-78e4a8a63a68","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: "Obviamente, no era el actor adecuado": el creador de 'Jack Reacher' se arrepien
+[IA] Probando proveedor cohere: Llega a cines la nueva sensación del thriller: ‘Verity: La sombra de un engaño’
+[IA] cohere falló (error): Cohere error 404: {"id":"49086079-85f1-4d00-a75e-d9222b3932ac","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Llega a cines la nueva sensación del thriller: ‘Verity: La sombra de un engaño’
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/el-creador-de-jack-reacher-confiesa-su-sentir-sobre-el-casting-de-tom-cruise-2026-09-30-25c3b2.md
+[OK] Publicado: src/content/blog/verity-la-sombra-de-un-engano-un-thriller-sensual-llega-a-cines-2026-09-30-ad44a4.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
