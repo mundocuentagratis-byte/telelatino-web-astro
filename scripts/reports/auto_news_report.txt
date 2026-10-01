@@ -1,30 +1,46 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-01T05:45:27.827336+00:00
+Fecha UTC: 2026-10-01T15:25:56.096073+00:00
 [movies] Saltado porque no es estreno 2026: Verity: La sombra de un engaño (None)
 [movies] Saltado porque no es estreno 2026: Vengadores: Endgame (Reestreno) (None)
+[movies] Saltado noticia no apta para películas: Llega a cines la nueva sensación del thriller: ‘Verity: La sombra de un engaño’
+[movies] Saltado porque no es estreno 2026: 80 años de culto, 200 millones de lectores, 600 idiomas: el mayor fenómeno literario de todos los tiempos será una película de acción real (2015)
+[movies] Saltado noticia no apta para películas: Hoy en Netflix, una de las grandes sorpresas del cine de terror reciente: recaudó 666.666 dólares en una tarde
+[movies] Saltado porque no es estreno 2026: Así se hizo la imagen más exacta del cosmos jamás filmada: una sola escena exigió 100 horas a Christopher Nolan (2014)
+[movies] Saltado noticia no apta para películas: 'Las guerreras K-Pop 2' tendrá un estreno en cines "a gran escala": Netflix busca expandir su presencia en salas
 [movies] Saltado porque no es estreno 2026: La primera película de 'Juego de Tronos' ya es una realidad: tiene fecha de estreno, pero vamos a esperar tanto que igual se nos olvida (2027)
-[movies] Saltado noticia no apta para películas: Antonio Banderas sobre el desahucio de Maricarmen: “A mi me interesa toda la realidad completa. No una realidad específica para un uso específico”
-[movies] Saltado noticia no apta para películas: 13 años después, David Fincher ha puesto fecha al final de su acuerdo con Netflix: no afecta a su película más esperada
+[movies] Saltado noticia no apta para películas: "Nace de la propia experiencia vital y generacional de llevar años en búsqueda permanente de piso": llega a los cines 'Nuda propiedad'
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
-[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' expulsó a la concursante esperada: Esta es la nueva lista de nominados
-[movies] Saltado noticia no apta para películas: Tras 18 años en 'Informativos Telecinco', este mítico presentador fue despedido: "Estaba muy vinculado a la anterior etapa"
-[movies] Saltado noticia no apta para películas: Quiénes son Miguel y Mara, la nueva pareja de 'La isla de las tentaciones 11': ella ya participó como tentadora
 [movies] Saltado noticia no apta para películas: Por qué se ha ido Javier Alonso de 'Pasapalabra': Este es el mítico concursante que le sustituirá
+[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' expulsó a la concursante esperada: Esta es la nueva lista de nominados
+[movies] Saltado noticia no apta para películas: Quiénes son Miguel y Mara, la nueva pareja de 'La isla de las tentaciones 11': ella ya participó como tentadora
+[movies] Saltado noticia no apta para películas: 'Pesadilla en la cocina' se defiende de su última polémica: los mensajes entre Chicote y los clientes sí eran de verdad
+[movies] Saltado noticia no apta para películas: Cuatro meses después de ser cesados, varios rostros de 'Aquí la Tierra' regresan a RTVE: "Nos hace mucha ilusión compartir esta información"
+[movies] Saltado noticia no apta para películas: Dos meses después de abandono, Marc Mendoza regresa a 'Saber y ganar': Estas son las entregas que le quedan para ser centenario
+[movies] Saltado noticia no apta para películas: 'Horizonte' se salta una de sus normas "autoimpuestas" para entrevistar a Isabel Díaz Ayuso: "Vamos a centrarnos en Sol"
+[movies] Saltado noticia no apta para películas: Sandra Barneda tenía razón: 'La isla de las tentaciones 11' nos ha dejado la hoguera "más desgarradora" de la historia del 'reality'
 [movies] Saltado noticia no apta para películas: 'Dog dates, amor a cuatro patas', la vuelta de tuerca a 'First Dates' que nadie vio venir
-[movies] Saltado noticia no apta para películas: Tras más de 10 años en televisión, Gol cesa sus emisiones para siempre: Así es Replay, el nuevo canal deportivo de pago
-[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' salvó a un nuevo concursante de la expulsión: Así queda la lista de nominados
-[movies] Saltado noticia no apta para películas: Macarena Rey, directora general de la productora de 'MasterChef': "Un contenido de niños programado a las 23:15 horas no tiene mucho sentido"
-[movies] Saltado noticia no apta para películas: 'La Revuelta' sale del teatro para dar voz a los manifestantes de la acampada de Sol: "Que se acabe con el rentismo y con la especulación"
-[movies] Candidatos encontrados: 36 | Límite: 1
-[IA] Probando proveedor mistral: Nuda propiedad
+[movies] Candidatos encontrados: 32 | Límite: 1
+[YouTube] No se encontró tráiler confiable para 'Digger' puede ser uno de los mayores desastres de taquilla de 2026: Las previsiones de recaudación de la película de Tom Cruise caen en picado
+[movies] Saltado porque no tiene tráiler confiable: 'Digger' puede ser uno de los mayores desastres de taquilla de 2026: Las previsiones de recaudación de la película de Tom Cruise caen en picado
+[YouTube] No se encontró tráiler confiable para Antonio Banderas sobre el desahucio de Maricarmen: “A mi me interesa toda la realidad completa. No una realidad específica para un uso específico”
+[movies] Saltado porque no tiene tráiler confiable: Antonio Banderas sobre el desahucio de Maricarmen: “A mi me interesa toda la realidad completa. No una realidad específica para un uso específico”
+[YouTube] No se encontró tráiler confiable para Carmen Machi, actriz: "En Malasaña veo vida. Mi idea de Madrid es la de los tiempos de Tierno Galván"
+[movies] Saltado porque no tiene tráiler confiable: Carmen Machi, actriz: "En Malasaña veo vida. Mi idea de Madrid es la de los tiempos de Tierno Galván"
+[YouTube] No se encontró tráiler confiable para Danny Boyle insiste en que la secuela de '28 años después' se hará realidad: "Tendrá mucho de Cillian Murphy. Si se desnudará otra vez, eso no lo sé. Ya tiene el Oscar"
+[movies] Saltado porque no tiene tráiler confiable: Danny Boyle insiste en que la secuela de '28 años después' se hará realidad: "Tendrá mucho de Cillian Murphy. Si se desnudará otra vez, eso no lo sé. Ya tiene el Oscar"
+[IA] Probando proveedor mistral: El hijo de Javier Bardem y Penélope Cruz solo tiene 15 años, pero ha debutado en
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Nuda propiedad
-[IA] cohere falló (error): Cohere error 404: {"id":"593fd491-9981-4d97-8c90-1abcc9771d65","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Nuda propiedad
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/nuda-propiedad-cuando-el-sueno-de-la-casa-propia-se-vuelve-una-pesadilla-oscura-2026-10-01-9a2999.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[IA] Probando proveedor cohere: El hijo de Javier Bardem y Penélope Cruz solo tiene 15 años, pero ha debutado en
+[IA] cohere falló (error): Cohere error 404: {"id":"f6612c43-e588-4633-a1d6-c310fce9dec8","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: El hijo de Javier Bardem y Penélope Cruz solo tiene 15 años, pero ha debutado en
+[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 2540 (char 2798)
+[IA] Probando proveedor groq: El hijo de Javier Bardem y Penélope Cruz solo tiene 15 años, pero ha debutado en
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: El hijo de Javier Bardem y Penélope Cruz solo tiene 15 años, pero ha debutado en
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[movies] Error generando artículo El hijo de Javier Bardem y Penélope Cruz solo tiene 15 años, pero ha debutado en 'La bola negra': Todos los proveedores de IA fallaron. [IA] gemini falló (error): Expecting ',' delimiter: line 4 column 2540 (char 2798) | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
