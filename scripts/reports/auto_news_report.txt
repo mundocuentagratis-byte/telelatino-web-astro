@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-01T21:02:31.999134+00:00
+Fecha UTC: 2026-10-02T05:29:13.045595+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Vengadores: Endgame (Reestreno) (None)
 [movies] Saltado noticia no apta para películas: Llega a cines la nueva sensación del thriller: ‘Verity: La sombra de un engaño’
@@ -21,9 +21,19 @@ Fecha UTC: 2026-10-01T21:02:31.999134+00:00
 [movies] Saltado noticia no apta para películas: 'Horizonte' se salta una de sus normas "autoimpuestas" para entrevistar a Isabel Díaz Ayuso: "Vamos a centrarnos en Sol"
 [movies] Saltado noticia no apta para películas: Sandra Barneda tenía razón: 'La isla de las tentaciones 11' nos ha dejado la hoguera "más desgarradora" de la historia del 'reality'
 [movies] Saltado noticia no apta para películas: 'Dog dates, amor a cuatro patas', la vuelta de tuerca a 'First Dates' que nadie vio venir
-[movies] Candidatos encontrados: 30 | Límite: 1
-[YouTube] No se encontró tráiler confiable para Ben Affleck, sobre el asalto que sufrió a los 14 años: "El chico terminó matando a alguien con un cuchillo"
-[movies] Saltado porque no tiene tráiler confiable: Ben Affleck, sobre el asalto que sufrió a los 14 años: "El chico terminó matando a alguien con un cuchillo"
-[movies] Publicados: 0
-Total películas publicadas: 0
+[movies] Candidatos encontrados: 34 | Límite: 1
+[IA] Probando proveedor groq: La leyenda de la ballena cantora
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: La leyenda de la ballena cantora
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: La leyenda de la ballena cantora
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: La leyenda de la ballena cantora
+[IA] cohere falló (error): Cohere error 404: {"id":"c1852b9d-b179-4045-a1f0-38562bf03c89","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: La leyenda de la ballena cantora
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/la-leyenda-de-la-ballena-cantora-una-promesa-de-aventura-animada-2026-10-02-6fbfc9.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
