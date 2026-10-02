@@ -1,39 +1,29 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-02T05:29:13.045595+00:00
+Fecha UTC: 2026-10-02T14:43:33.408568+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Vengadores: Endgame (Reestreno) (None)
 [movies] Saltado noticia no apta para películas: Llega a cines la nueva sensación del thriller: ‘Verity: La sombra de un engaño’
-[movies] Saltado noticia no apta para películas: Arnold Schwarzenegger sigue entrenando a sus casi 80 años: "No importa cuánto duela, cada día gano una victoria"
-[movies] Saltado porque no es estreno 2026: 80 años de culto, 200 millones de lectores, 600 idiomas: el mayor fenómeno literario de todos los tiempos será una película de acción real (2015)
-[movies] Saltado noticia no apta para películas: Hoy en Netflix, una de las grandes sorpresas del cine de terror reciente: recaudó 666.666 dólares en una tarde
-[movies] Saltado porque no es estreno 2026: Así se hizo la imagen más exacta del cosmos jamás filmada: una sola escena exigió 100 horas a Christopher Nolan (2014)
-[movies] Saltado noticia no apta para películas: 'Las guerreras K-Pop 2' tendrá un estreno en cines "a gran escala": Netflix busca expandir su presencia en salas
-[movies] Saltado noticia no apta para películas: El hijo de Javier Bardem y Penélope Cruz solo tiene 15 años, pero ha debutado en 'La bola negra'
-[movies] Saltado noticia no apta para películas: Alejandro G. Calvo: "Digger' es una ópera esperpéntica dominada por el desgastante monólogo de Tom Cruise"
+[movies] Saltado noticia no apta para películas: La nueva opción de 'Mi cuenta' en SensaCine: filtra por tus plataformas favoritas y pide que te avisen de tus estrenos más esperados
+[movies] Saltado noticia no apta para películas: Javier Cámara tuvo que abandonar '7 vidas' para trabajar con Almodóvar: "Amparo Baró me hizo la cruz"
+[movies] Saltado porque no es estreno 2026: Karl Urban tiene, a la vez, una actualización optimista y una mala noticia sobre el futuro de Dredd: "estoy emocionado con lo que se puede hacer hoy día con el cine" (2012)
+[movies] Saltado noticia no apta para películas: 'La bola negra' es la oportunidad más clara de Netflix hasta ahora para conseguir el Oscar a mejor película, pero su triunfo está lejos de estar asegurado
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
-[movies] Saltado noticia no apta para películas: Por qué se ha ido Javier Alonso de 'Pasapalabra': Este es el mítico concursante que le sustituirá
+[movies] Saltado noticia no apta para películas: 'Cifras y letras' pone en juego el mayor bote de su historia: Quién es Alejandro Castillo, el matemático de 22 años que podría ganarlo
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' expulsó a la concursante esperada: Esta es la nueva lista de nominados
-[movies] Saltado noticia no apta para películas: Quiénes son Miguel y Mara, la nueva pareja de 'La isla de las tentaciones 11': ella ya participó como tentadora
+[movies] Saltado noticia no apta para películas: Por qué se ha ido Javier Alonso de 'Pasapalabra': Este es el mítico concursante que le sustituirá
+[movies] Saltado noticia no apta para películas: Tras 11 programas, Alejandro Castillo es eliminado por sorpresa de 'Cifras y letras': Este es el dinero acumulado que se lleva
+[movies] Saltado noticia no apta para películas: 'Horizonte' lidera por primera vez el 'access' gracias a Ayuso por delante de 'La Revuelta' y 'El Hormiguero'
+[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció a un nuevo expulsado y revolucionó sus nominaciones: Estos son los nominados provisionales
 [movies] Saltado noticia no apta para películas: 'Pesadilla en la cocina' se defiende de su última polémica: los mensajes entre Chicote y los clientes sí eran de verdad
 [movies] Saltado noticia no apta para películas: Cuatro meses después de ser cesados, varios rostros de 'Aquí la Tierra' regresan a RTVE: "Nos hace mucha ilusión compartir esta información"
 [movies] Saltado noticia no apta para películas: Dos meses después de abandono, Marc Mendoza regresa a 'Saber y ganar': Estas son las entregas que le quedan para ser centenario
-[movies] Saltado noticia no apta para películas: 'Horizonte' se salta una de sus normas "autoimpuestas" para entrevistar a Isabel Díaz Ayuso: "Vamos a centrarnos en Sol"
-[movies] Saltado noticia no apta para películas: Sandra Barneda tenía razón: 'La isla de las tentaciones 11' nos ha dejado la hoguera "más desgarradora" de la historia del 'reality'
-[movies] Saltado noticia no apta para películas: 'Dog dates, amor a cuatro patas', la vuelta de tuerca a 'First Dates' que nadie vio venir
 [movies] Candidatos encontrados: 34 | Límite: 1
-[IA] Probando proveedor groq: La leyenda de la ballena cantora
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: La leyenda de la ballena cantora
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: La leyenda de la ballena cantora
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: La leyenda de la ballena cantora
-[IA] cohere falló (error): Cohere error 404: {"id":"c1852b9d-b179-4045-a1f0-38562bf03c89","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: La leyenda de la ballena cantora
+[IA] Probando proveedor cohere: Las ciegas hormigas
+[IA] cohere falló (error): Cohere error 404: {"id":"f77e24f6-f8b4-48ae-b02f-927c8dff2b62","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Las ciegas hormigas
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/la-leyenda-de-la-ballena-cantora-una-promesa-de-aventura-animada-2026-10-02-6fbfc9.md
+[OK] Publicado: src/content/blog/las-ciegas-hormigas-un-thriller-de-supervivencia-en-la-costa-vasca-2026-10-02-9149fb.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
