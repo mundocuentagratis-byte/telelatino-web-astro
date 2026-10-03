@@ -1,25 +1,45 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-03T13:20:50.351667+00:00
+Fecha UTC: 2026-10-03T19:12:25.802839+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Vengadores: Endgame (Reestreno) (None)
+[movies] Saltado noticia no apta para películas: Llega a cines la nueva sensación del thriller: ‘Verity: La sombra de un engaño’
+[movies] Saltado noticia no apta para películas: El final de 'Verity' plante un problema gigantesco y un enorme agujero de guion que incluso los fans del libro no pueden responder
+[movies] Saltado noticia no apta para películas: 'Resident Evil' iba a tener un final completamente distinto. Por suerte, el público lo odió y Zach Cregger se inventó uno nuevo (y mejor)
+[movies] Saltado noticia no apta para películas: Al ganar su primer millón, Michael Caine tenía claro que lo iba a compartir con su madre: “Nunca más tendrás que volver a trabajar”
+[movies] Saltado noticia no apta para películas: "¿Cómo pude dejar que se me escapara?": John Wayne rechazó por orgullo el papel que hizo brillar a Clint Eastwood y se arrepintió para siempre
 [movies] Saltado noticia no apta para películas: Dwayne Johnson: "Me desahuciaron cuando tenía 14 años, nos echaron de la isla, no podíamos vivir en Hawaii"
-[movies] Saltado porque no es estreno 2026: Karl Urban tiene, a la vez, una actualización optimista y una mala noticia sobre el futuro de Dredd: "estoy emocionado con lo que se puede hacer hoy día con el cine" (2012)
-[movies] Saltado noticia no apta para películas: 'La bola negra' es la oportunidad más clara de Netflix hasta ahora para conseguir el Oscar a mejor película, pero su triunfo está lejos de estar asegurado
+[movies] Saltado noticia no apta para películas: Clint Eastwood sobre la muerte: "Probablemente sientas más miedo cuando eres joven que cuando eres mayor"
+[movies] Saltado noticia no apta para películas: "Era un poco incómodo ver a Tom Cruise": Para 'Digger', era necesario que Tom Cruise destruyera su físico de héroe de acción
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
 [movies] Saltado noticia no apta para películas: 'Cifras y letras' pone en juego el mayor bote de su historia: Quién es Alejandro Castillo, el matemático de 22 años que podría ganarlo
+[movies] Saltado noticia no apta para películas: Por qué se ha ido Javier Alonso de 'Pasapalabra': Este es el mítico concursante que le sustituirá
 [movies] Saltado noticia no apta para películas: Tras 18 años en 'Informativos Telecinco', este mítico presentador fue despedido: "Estaba muy vinculado a la anterior etapa"
-[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' sorprendió con el primer salvado de la expulsión: Esta es la lista definitiva de nominados
+[movies] Saltado noticia no apta para películas: La colaboradora de 'Crónicas Marcianas' que participó en 'Supervivientes': ahora vende pitayas
+[movies] Saltado noticia no apta para películas: Así está ahora Miquel Serra, el mítico reportero de 'Aquí hay tomate': el favorito de la Duquesa de Alba que ahora está en el programa de moda
+[movies] Saltado noticia no apta para películas: Que fue de Hilario Pino, el histórico presentador de informativos que abandonó la televisión: acabó "harto" de ser el "segundón" de laSexta
+[movies] Saltado noticia no apta para películas: Javier Granda, histórico ganador de 'Pasapalabra' en su primer día: "Es absurdo que 'Pasapalabra' y 'Rueda la letra' coincidan. Da pena todo este lío de demandas"
 [movies] Saltado noticia no apta para películas: Tras 11 programas, Alejandro Castillo es eliminado por sorpresa de 'Cifras y letras': Este es el dinero acumulado que se lleva
 [movies] Saltado noticia no apta para películas: 'Horizonte' lidera por primera vez el 'access' gracias a Ayuso por delante de 'La Revuelta' y 'El Hormiguero'
-[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció a un nuevo expulsado y revolucionó sus nominaciones: Estos son los nominados provisionales
-[movies] Saltado noticia no apta para películas: 'Pesadilla en la cocina' se defiende de su última polémica: los mensajes entre Chicote y los clientes sí eran de verdad
-[movies] Saltado noticia no apta para películas: Cuatro meses después de ser cesados, varios rostros de 'Aquí la Tierra' regresan a RTVE: "Nos hace mucha ilusión compartir esta información"
-[movies] Saltado noticia no apta para películas: Dos meses después de abandono, Marc Mendoza regresa a 'Saber y ganar': Estas son las entregas que le quedan para ser centenario
-[movies] Candidatos encontrados: 34 | Límite: 1
-[IA] Probando proveedor gemini: Lucky Strike
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/un-soldado-un-radio-el-thriller-belico-lucky-strike-en-2026-2026-10-03-982113.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[movies] Candidatos encontrados: 29 | Límite: 1
+[IA] Probando proveedor mistral: Narciso
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: Narciso
+[IA] cohere falló (error): Cohere error 404: {"id":"81a5ef8c-ef4c-4fe7-bc4e-015d5d6a3817","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Narciso
+[IA] gemini falló (error): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[IA] Probando proveedor groq: Narciso
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: Narciso
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[movies] Error generando artículo Narciso: Todos los proveedores de IA fallaron. [IA] gemini falló (error): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}} | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[YouTube] No se encontró tráiler confiable para XY9
+[movies] Saltado porque no tiene tráiler confiable: XY9
+[YouTube] No se encontró tráiler confiable para El héroe real del Titanic al que James Cameron rindió homenaje: su cuerpo nunca apareció tras el naufragio
+[movies] Saltado porque no tiene tráiler confiable: El héroe real del Titanic al que James Cameron rindió homenaje: su cuerpo nunca apareció tras el naufragio
+[YouTube] No se encontró tráiler confiable para Hace 19 años debutó en una cutrísima película de terror española. Ahora va directo al Óscar con 'La bola negra', ¿le reconoces?
+[movies] Saltado porque no tiene tráiler confiable: Hace 19 años debutó en una cutrísima película de terror española. Ahora va directo al Óscar con 'La bola negra', ¿le reconoces?
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
