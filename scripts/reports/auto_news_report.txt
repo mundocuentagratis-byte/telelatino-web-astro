@@ -1,10 +1,10 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-03T19:12:25.802839+00:00
+Fecha UTC: 2026-10-03T22:56:56.456403+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Vengadores: Endgame (Reestreno) (None)
 [movies] Saltado noticia no apta para películas: Llega a cines la nueva sensación del thriller: ‘Verity: La sombra de un engaño’
+[movies] Saltado noticia no apta para películas: Disney revoluciona la San Diego Comic-Con Málaga con varios invitados sorpresa, como David Harbour o Anthony Mackie, y un cambio del estreno de 'Doomsday'
 [movies] Saltado noticia no apta para películas: El final de 'Verity' plante un problema gigantesco y un enorme agujero de guion que incluso los fans del libro no pueden responder
-[movies] Saltado noticia no apta para películas: 'Resident Evil' iba a tener un final completamente distinto. Por suerte, el público lo odió y Zach Cregger se inventó uno nuevo (y mejor)
 [movies] Saltado noticia no apta para películas: Al ganar su primer millón, Michael Caine tenía claro que lo iba a compartir con su madre: “Nunca más tendrás que volver a trabajar”
 [movies] Saltado noticia no apta para películas: "¿Cómo pude dejar que se me escapara?": John Wayne rechazó por orgullo el papel que hizo brillar a Clint Eastwood y se arrepintió para siempre
 [movies] Saltado noticia no apta para películas: Dwayne Johnson: "Me desahuciaron cuando tenía 14 años, nos echaron de la isla, no podíamos vivir en Hawaii"
@@ -21,25 +21,31 @@ Fecha UTC: 2026-10-03T19:12:25.802839+00:00
 [movies] Saltado noticia no apta para películas: Javier Granda, histórico ganador de 'Pasapalabra' en su primer día: "Es absurdo que 'Pasapalabra' y 'Rueda la letra' coincidan. Da pena todo este lío de demandas"
 [movies] Saltado noticia no apta para películas: Tras 11 programas, Alejandro Castillo es eliminado por sorpresa de 'Cifras y letras': Este es el dinero acumulado que se lleva
 [movies] Saltado noticia no apta para películas: 'Horizonte' lidera por primera vez el 'access' gracias a Ayuso por delante de 'La Revuelta' y 'El Hormiguero'
-[movies] Candidatos encontrados: 29 | Límite: 1
+[movies] Candidatos encontrados: 30 | Límite: 1
 [IA] Probando proveedor mistral: Narciso
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 [IA] Probando proveedor cohere: Narciso
-[IA] cohere falló (error): Cohere error 404: {"id":"81a5ef8c-ef4c-4fe7-bc4e-015d5d6a3817","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] cohere falló (error): Cohere error 404: {"id":"a522732a-af30-49f6-b50c-e4fe887ab9f5","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
 [IA] Probando proveedor gemini: Narciso
-[IA] gemini falló (error): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 2615 (char 2898)
 [IA] Probando proveedor groq: Narciso
 [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
 [IA] Probando proveedor openai: Narciso
 [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[movies] Error generando artículo Narciso: Todos los proveedores de IA fallaron. [IA] gemini falló (error): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}} | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[YouTube] No se encontró tráiler confiable para XY9
-[movies] Saltado porque no tiene tráiler confiable: XY9
-[YouTube] No se encontró tráiler confiable para El héroe real del Titanic al que James Cameron rindió homenaje: su cuerpo nunca apareció tras el naufragio
-[movies] Saltado porque no tiene tráiler confiable: El héroe real del Titanic al que James Cameron rindió homenaje: su cuerpo nunca apareció tras el naufragio
-[YouTube] No se encontró tráiler confiable para Hace 19 años debutó en una cutrísima película de terror española. Ahora va directo al Óscar con 'La bola negra', ¿le reconoces?
-[movies] Saltado porque no tiene tráiler confiable: Hace 19 años debutó en una cutrísima película de terror española. Ahora va directo al Óscar con 'La bola negra', ¿le reconoces?
-[movies] Publicados: 0
-Total películas publicadas: 0
+[movies] Error generando artículo Narciso: Todos los proveedores de IA fallaron. [IA] gemini falló (error): Expecting ',' delimiter: line 4 column 2615 (char 2898) | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor groq: 'Resident Evil' iba a tener un final completamente distinto. Por suerte, el públ
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: 'Resident Evil' iba a tener un final completamente distinto. Por suerte, el públ
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: 'Resident Evil' iba a tener un final completamente distinto. Por suerte, el públ
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: 'Resident Evil' iba a tener un final completamente distinto. Por suerte, el públ
+[IA] cohere falló (error): Cohere error 404: {"id":"58592828-fa1f-42d1-8b1d-d9ef983b6333","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: 'Resident Evil' iba a tener un final completamente distinto. Por suerte, el públ
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/el-final-de-resident-evil-que-el-publico-salvo-de-ser-un-desastre-2026-10-03-20f535.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
