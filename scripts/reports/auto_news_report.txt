@@ -1,25 +1,37 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-04T05:46:04.002738+00:00
+Fecha UTC: 2026-10-04T13:55:41.896322+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Vengadores: Endgame (Reestreno) (None)
-[movies] Saltado noticia no apta para películas: Al ganar su primer millón, Michael Caine tenía claro que lo iba a compartir con su madre: “Nunca más tendrás que volver a trabajar”
+[movies] Saltado noticia no apta para películas: Llega a cines la nueva sensación del thriller: ‘Verity: La sombra de un engaño’
+[movies] Saltado noticia no apta para películas: Hace 34 años, esta obra maestra de Disney logró un hito histórico en los Oscar y solo tres películas más lo han repetido
+[movies] Saltado porque no es estreno 2026: Esta obra maestra ganadora del Oscar dura tres horas, pero se rodó en solo 57 días: "El ritmo fue una locura" (2027)
+[movies] Saltado noticia no apta para películas: Disney revoluciona la San Diego Comic-Con Málaga con varios invitados sorpresa, como David Harbour o Anthony Mackie, y un cambio del estreno de 'Doomsday'
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
+[movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
 [movies] Saltado noticia no apta para películas: 'Cifras y letras' pone en juego el mayor bote de su historia: Quién es Alejandro Castillo, el matemático de 22 años que podría ganarlo
 [movies] Saltado noticia no apta para películas: Por qué se ha ido Javier Alonso de 'Pasapalabra': Este es el mítico concursante que le sustituirá
 [movies] Saltado noticia no apta para películas: Tras 18 años en 'Informativos Telecinco', este mítico presentador fue despedido: "Estaba muy vinculado a la anterior etapa"
+[movies] Saltado noticia no apta para películas: El ganador de 'Operación Triunfo' que fue ignorado por las discográficas y acabó cobrando 1500€ por desnudarse
+[movies] Saltado noticia no apta para películas: Sarah Santaolalla: "Si tienes más de cinco casas, ¿te parece que todavía eres una víctima del sistema?"
 [movies] Saltado noticia no apta para películas: La colaboradora de 'Crónicas Marcianas' que participó en 'Supervivientes': ahora vende pitayas
-[movies] Saltado noticia no apta para películas: Así está ahora Miquel Serra, el mítico reportero de 'Aquí hay tomate': el favorito de la Duquesa de Alba que ahora está en el programa de moda
-[movies] Saltado noticia no apta para películas: Que fue de Hilario Pino, el histórico presentador de informativos que abandonó la televisión: acabó "harto" de ser el "segundón" de laSexta
-[movies] Saltado noticia no apta para películas: Javier Granda, histórico ganador de 'Pasapalabra' en su primer día: "Es absurdo que 'Pasapalabra' y 'Rueda la letra' coincidan. Da pena todo este lío de demandas"
-[movies] Saltado noticia no apta para películas: Tras 11 programas, Alejandro Castillo es eliminado por sorpresa de 'Cifras y letras': Este es el dinero acumulado que se lleva
-[movies] Saltado noticia no apta para películas: 'Horizonte' lidera por primera vez el 'access' gracias a Ayuso por delante de 'La Revuelta' y 'El Hormiguero'
-[movies] Candidatos encontrados: 35 | Límite: 1
-[IA] Probando proveedor cohere: Narciso
-[IA] cohere falló (error): Cohere error 404: {"id":"4e673c86-59ad-4633-955f-c877cc8936ff","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Narciso
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/narciso-rock-resistencia-y-dictadura-en-el-paraguay-de-1959-2026-10-04-dfaed8.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[movies] Candidatos encontrados: 37 | Límite: 1
+[YouTube] No se encontró tráiler confiable para Al ganar su primer millón, Michael Caine tenía claro que lo iba a compartir con su madre: “Nunca más tendrás que volver a trabajar”
+[movies] Saltado porque no tiene tráiler confiable: Al ganar su primer millón, Michael Caine tenía claro que lo iba a compartir con su madre: “Nunca más tendrás que volver a trabajar”
+[YouTube] No se encontró tráiler confiable para Arkano, exconcursante de 'MasterChef Celebrity': "No prosperas en el programa si no te pillas un profesor de cocina desde el principio"
+[movies] Saltado porque no tiene tráiler confiable: Arkano, exconcursante de 'MasterChef Celebrity': "No prosperas en el programa si no te pillas un profesor de cocina desde el principio"
+[YouTube] No se encontró tráiler confiable para Así es la casa de Luis Tosar y Luisa Mayol en una exclusiva zona de Madrid: mucha zona exterior, barbacoa y vecinos famosos
+[movies] Saltado porque no tiene tráiler confiable: Así es la casa de Luis Tosar y Luisa Mayol en una exclusiva zona de Madrid: mucha zona exterior, barbacoa y vecinos famosos
+[YouTube] No se encontró tráiler confiable para Así está ahora Miquel Serra, el mítico reportero de 'Aquí hay tomate': el favorito de la Duquesa de Alba que ahora está en el programa de moda
+[movies] Saltado porque no tiene tráiler confiable: Así está ahora Miquel Serra, el mítico reportero de 'Aquí hay tomate': el favorito de la Duquesa de Alba que ahora está en el programa de moda
+[YouTube] No se encontró tráiler confiable para Cuando tuvo éxito pudo marcharse sin más, pero Dolly Parton dejó una lección sobre cómo dejar a un mentor para hacerse a sí misma
+[movies] Saltado porque no tiene tráiler confiable: Cuando tuvo éxito pudo marcharse sin más, pero Dolly Parton dejó una lección sobre cómo dejar a un mentor para hacerse a sí misma
+[YouTube] No se encontró tráiler confiable para El final de 'Verity' plante un problema gigantesco y un enorme agujero de guion que incluso los fans del libro no pueden responder
+[movies] Saltado porque no tiene tráiler confiable: El final de 'Verity' plante un problema gigantesco y un enorme agujero de guion que incluso los fans del libro no pueden responder
+[YouTube] No se encontró tráiler confiable para En 1935 era la estrella juvenil más grande del cine: dejó Hollywood y se volvió embajadora
+[movies] Saltado porque no tiene tráiler confiable: En 1935 era la estrella juvenil más grande del cine: dejó Hollywood y se volvió embajadora
+[YouTube] No se encontró tráiler confiable para Que fue de Hilario Pino, el histórico presentador de informativos que abandonó la televisión: acabó "harto" de ser el "segundón" de laSexta
+[movies] Saltado porque no tiene tráiler confiable: Que fue de Hilario Pino, el histórico presentador de informativos que abandonó la televisión: acabó "harto" de ser el "segundón" de laSexta
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
