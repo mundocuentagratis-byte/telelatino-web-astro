@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-04T19:34:50.576256+00:00
+Fecha UTC: 2026-10-04T23:05:07.851956+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Vengadores: Endgame (Reestreno) (None)
 [movies] Saltado noticia no apta para películas: Hace 34 años, esta obra maestra de Disney logró un hito histórico en los Oscar y solo tres películas más lo han repetido
@@ -15,10 +15,8 @@ Fecha UTC: 2026-10-04T19:34:50.576256+00:00
 [movies] Saltado noticia no apta para películas: Sarah Santaolalla: "Si tienes más de cinco casas, ¿te parece que todavía eres una víctima del sistema?"
 [movies] Saltado noticia no apta para películas: La colaboradora de 'Crónicas Marcianas' que participó en 'Supervivientes': ahora vende pitayas
 [movies] Candidatos encontrados: 38 | Límite: 1
-[YouTube] No se encontró tráiler confiable para Hay 3 giros de guion en 'Digger'. Uno ocurre justo al final, y es, quizá el que consigue salvar la película al completo
-[movies] Saltado porque no tiene tráiler confiable: Hay 3 giros de guion en 'Digger'. Uno ocurre justo al final, y es, quizá el que consigue salvar la película al completo
-[YouTube] No se encontró tráiler confiable para Poco antes de morir, Freddie Mercury pidió ver de manera anticipada esta mítica comedia: dio su propia bendición
-[movies] Saltado porque no tiene tráiler confiable: Poco antes de morir, Freddie Mercury pidió ver de manera anticipada esta mítica comedia: dio su propia bendición
+[YouTube] No se encontró tráiler confiable para Sean Astin: “Hay personas en zonas de guerra que ven estas películas y les ayuda a procesar sus emociones y a pasar el tiempo”
+[movies] Saltado porque no tiene tráiler confiable: Sean Astin: “Hay personas en zonas de guerra que ven estas películas y les ayuda a procesar sus emociones y a pasar el tiempo”
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
