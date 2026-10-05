@@ -1,32 +1,37 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-05T05:29:54.176286+00:00
+Fecha UTC: 2026-10-05T17:06:49.198734+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Vengadores: Endgame (Reestreno) (None)
-[movies] Saltado noticia no apta para películas: Hace 34 años, esta obra maestra de Disney logró un hito histórico en los Oscar y solo tres películas más lo han repetido
-[movies] Saltado porque no es estreno 2026: Esta obra maestra ganadora del Oscar dura tres horas, pero se rodó en solo 57 días: "El ritmo fue una locura" (2027)
-[movies] Saltado noticia no apta para películas: Disney revoluciona la San Diego Comic-Con Málaga con varios invitados sorpresa, como David Harbour o Anthony Mackie, y un cambio del estreno de 'Doomsday'
+[movies] Saltado noticia no apta para películas: Sólo tienes 2 días para ver en Netflix una de las películas de acción más alucinantes del siglo XXI
+[movies] Saltado porque no es estreno 2026: El creador de 'Reacher' vetó una tercera película con Tom Cruise: "¿Qué actor justifica una inversión de 200 millones de dólares?" (2012)
+[movies] Saltado porque no es estreno 2026: Pedro Pascal lleva años siendo uno de los actores más carismáticos del mundo. Ahora podría ganar su primer Oscar (2027)
+[movies] Saltado porque no es estreno 2026: 'Avatar' ya no es la película más taquillera de todos los tiempos (2009)
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
 [movies] Saltado noticia no apta para películas: 'Cifras y letras' pone en juego el mayor bote de su historia: Quién es Alejandro Castillo, el matemático de 22 años que podría ganarlo
+[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció a un nuevo expulsado y revolucionó sus nominaciones: Estos son los nominados provisionales
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' sorprendió con el primer salvado de la expulsión: Esta es la lista definitiva de nominados
-[movies] Saltado noticia no apta para películas: Por qué se ha ido Javier Alonso de 'Pasapalabra': Este es el mítico concursante que le sustituirá
+[movies] Saltado noticia no apta para películas: Julio Escartín, histórico ganador de 'Pasapalabra': "El trabajo de concursante está muy mal pagado. He dedicado mucho tiempo para nada"
+[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' castigó a los concursantes tras un robo "histórico": Este es el primer salvado y la lista de nominados definitiva
 [movies] Saltado noticia no apta para películas: El ganador de 'Operación Triunfo' que fue ignorado por las discográficas y acabó cobrando 1500€ por desnudarse
 [movies] Saltado noticia no apta para películas: Sarah Santaolalla: "Si tienes más de cinco casas, ¿te parece que todavía eres una víctima del sistema?"
+[movies] Saltado noticia no apta para películas: Arkano, exconcursante de 'MasterChef Celebrity': "No prosperas en el programa si no te pillas un profesor de cocina desde el principio"
 [movies] Saltado noticia no apta para películas: La colaboradora de 'Crónicas Marcianas' que participó en 'Supervivientes': ahora vende pitayas
-[movies] Candidatos encontrados: 38 | Límite: 1
-[IA] Probando proveedor groq: Street Fighter
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: Street Fighter
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Street Fighter
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Street Fighter
-[IA] cohere falló (error): Cohere error 404: {"id":"d799673c-d728-45eb-a83f-087bb49cf56a","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Street Fighter
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/street-fighter-el-iconico-videojuego-salta-de-nuevo-a-la-gran-pantalla-2026-10-05-3d37b0.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[movies] Candidatos encontrados: 35 | Límite: 1
+[YouTube] No se encontró tráiler confiable para 'Digger' es el gran desastre de taquilla de 2026: Tom Cruise encaja su peor estreno en 19 años y las perdidas apuntan a 150 millones de dólares
+[movies] Saltado porque no tiene tráiler confiable: 'Digger' es el gran desastre de taquilla de 2026: Tom Cruise encaja su peor estreno en 19 años y las perdidas apuntan a 150 millones de dólares
+[YouTube] No se encontró tráiler confiable para Enric Auquer, actor, 38 años: "Vivo de alquiler en Barcelona, en un piso muy caro y muy pequeño. Vivimos con un nudo en la garganta pensando en cuándo se acaba el contrato"
+[movies] Saltado porque no tiene tráiler confiable: Enric Auquer, actor, 38 años: "Vivo de alquiler en Barcelona, en un piso muy caro y muy pequeño. Vivimos con un nudo en la garganta pensando en cuándo se acaba el contrato"
+[YouTube] No se encontró tráiler confiable para Esta es la mejor película de todos los tiempos según SensaCine
+[movies] Saltado porque no tiene tráiler confiable: Esta es la mejor película de todos los tiempos según SensaCine
+[YouTube] No se encontró tráiler confiable para Ian Gibson, hispanista y experto en Lorca, sobre 'La bola negra': "Me quedé de una pieza, pero me siento honrado. Si soy yo, Glenn Close es una actriz fantástica"
+[movies] Saltado porque no tiene tráiler confiable: Ian Gibson, hispanista y experto en Lorca, sobre 'La bola negra': "Me quedé de una pieza, pero me siento honrado. Si soy yo, Glenn Close es una actriz fantástica"
+[duplicado] Saltado por tema parecido: La adaptación del thriller de literatura vasca 'Las ciegas hormigas' ('Inurri Itsuak') llega a los cines el 9 de octubre con Urko Olazabal e Itziar Ituño como protagonistas ~= Las ciegas hormigas: Un Thriller de Supervivencia en la Costa Vasca
+[YouTube] No se encontró tráiler confiable para Las canciones de La oreja de Van Gogh dan el salto al cine: 'Puedes contar conmigo', una película romántico musical del director de 'Tres metros sobre el cielo'
+[movies] Saltado porque no tiene tráiler confiable: Las canciones de La oreja de Van Gogh dan el salto al cine: 'Puedes contar conmigo', una película romántico musical del director de 'Tres metros sobre el cielo'
+[YouTube] No se encontró tráiler confiable para Más de 120 películas, un Oscar: acaba de cumplir 80 años una de las más celebres actrices de Hollywood, pero sigue vetada por algunos sectores
+[movies] Saltado porque no tiene tráiler confiable: Más de 120 películas, un Oscar: acaba de cumplir 80 años una de las más celebres actrices de Hollywood, pero sigue vetada por algunos sectores
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
