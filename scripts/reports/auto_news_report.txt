@@ -1,15 +1,8 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-06T18:19:55.474197+00:00
+Fecha UTC: 2026-10-06T23:46:47.735683+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
-[movies] Saltado noticia no apta para películas: La adaptación del thriller de literatura vasca 'Las ciegas hormigas' ('Inurri Itsuak') llega a los cines el 9 de octubre con Urko Olazabal e Itziar Ituño como protagonistas
-[movies] Saltado noticia no apta para películas: "Una película poderosa y conmovedora": llega a cines un drama que impactó a Diego Luna cuando lo leyó y decidió llevarlo al cine
-[movies] Saltado noticia no apta para películas: Alejandro G. Iñárritu admite que 'Digger' "no es perfecta": "Es una película que provoca"
+[movies] Saltado porque no es estreno 2026: El refugio que Bruce Willis construyó en el Caribe: 3 casas, un pabellón de yoga y un barco pirata a tamaño real para los niños (2000)
 [movies] Saltado porque no es estreno 2026: Malas noticias para 'The Batman II': Su director se retira por motivos personales y el rodaje queda paralizado (2022)
-[movies] Saltado noticia no apta para películas: Mark Wahlberg, actor: "No conozco a Tom Cruise. Vamos a iglesias diferentes, yo estoy en la que tiene a Jesús"
-[movies] Saltado noticia no apta para películas: Más de 120 películas, un Oscar: acaba de cumplir 80 años una de las más celebres actrices de Hollywood, pero sigue vetada por algunos sectores
-[movies] Saltado noticia no apta para películas: Enric Auquer, actor, 38 años: "Vivo de alquiler en Barcelona, en un piso muy caro y muy pequeño. Vivimos con un nudo en la garganta pensando en cuándo se acaba el contrato"
-[movies] Saltado noticia no apta para películas: Sólo tienes 2 días para ver en Netflix una de las películas de acción más alucinantes del siglo XXI
-[movies] Saltado porque no es estreno 2026: El creador de 'Reacher' vetó una tercera película con Tom Cruise: "¿Qué actor justifica una inversión de 200 millones de dólares?" (2012)
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
@@ -19,13 +12,15 @@ Fecha UTC: 2026-10-06T18:19:55.474197+00:00
 [movies] Saltado noticia no apta para películas: El adelanto de elecciones de Pedro Sánchez da datos insólitos a la mañana: reunió al 81,3% de la audiencia
 [movies] Saltado noticia no apta para películas: Cambio de presentadores en 'Supervivientes All Stars 3': Por qué presenta Sandra Barneda hoy 'Tierra de nadie'
 [movies] Saltado noticia no apta para películas: Julio Escartín, histórico ganador de 'Pasapalabra': "El trabajo de concursante está muy mal pagado. He dedicado mucho tiempo para nada"
-[movies] Candidatos encontrados: 29 | Límite: 1
-[YouTube] No se encontró tráiler confiable para 35 años de carrera y un Oscar: cumple 51 años una de las mejores actrices de la actualidad que comenzó trabajando en una charcutería para pagarse las audiciones
-[movies] Saltado porque no tiene tráiler confiable: 35 años de carrera y un Oscar: cumple 51 años una de las mejores actrices de la actualidad que comenzó trabajando en una charcutería para pagarse las audiciones
-[YouTube] No se encontró tráiler confiable para La felicitación de David Broncano a Iker Jiménez por la audiencia de 'Horizonte': "Quizás en diciembre será ministro del Interior"
-[movies] Saltado porque no tiene tráiler confiable: La felicitación de David Broncano a Iker Jiménez por la audiencia de 'Horizonte': "Quizás en diciembre será ministro del Interior"
-[YouTube] No se encontró tráiler confiable para Quién es Elena Adsuara, la pareja de Roberto Fernández que participó en 'La isla de las tentaciones': ya estuvo con otro jugador de España
-[movies] Saltado porque no tiene tráiler confiable: Quién es Elena Adsuara, la pareja de Roberto Fernández que participó en 'La isla de las tentaciones': ya estuvo con otro jugador de España
+[movies] Candidatos encontrados: 36 | Límite: 1
+[YouTube] No se encontró tráiler confiable para "Una película poderosa y conmovedora": llega a cines un drama que impactó a Diego Luna cuando lo leyó y decidió llevarlo al cine
+[movies] Saltado porque no tiene tráiler confiable: "Una película poderosa y conmovedora": llega a cines un drama que impactó a Diego Luna cuando lo leyó y decidió llevarlo al cine
+[YouTube] No se encontró tráiler confiable para Alejandro G. Iñárritu admite que 'Digger' "no es perfecta": "Es una película que provoca"
+[movies] Saltado porque no tiene tráiler confiable: Alejandro G. Iñárritu admite que 'Digger' "no es perfecta": "Es una película que provoca"
+[YouTube] No se encontró tráiler confiable para Mark Wahlberg, actor: "No conozco a Tom Cruise. Vamos a iglesias diferentes, yo estoy en la que tiene a Jesús"
+[movies] Saltado porque no tiene tráiler confiable: Mark Wahlberg, actor: "No conozco a Tom Cruise. Vamos a iglesias diferentes, yo estoy en la que tiene a Jesús"
+[YouTube] No se encontró tráiler confiable para Sólo aparece unos minutos en 'Regreso al Futuro': pocos espectadores reconocieron a esta estrella en la saga
+[movies] Saltado porque no tiene tráiler confiable: Sólo aparece unos minutos en 'Regreso al Futuro': pocos espectadores reconocieron a esta estrella en la saga
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
