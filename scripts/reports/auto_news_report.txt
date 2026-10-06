@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-05T17:06:49.198734+00:00
+Fecha UTC: 2026-10-06T01:17:53.652671+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Vengadores: Endgame (Reestreno) (None)
 [movies] Saltado noticia no apta para películas: Sólo tienes 2 días para ver en Netflix una de las películas de acción más alucinantes del siglo XXI
@@ -19,19 +19,6 @@ Fecha UTC: 2026-10-05T17:06:49.198734+00:00
 [movies] Saltado noticia no apta para películas: Arkano, exconcursante de 'MasterChef Celebrity': "No prosperas en el programa si no te pillas un profesor de cocina desde el principio"
 [movies] Saltado noticia no apta para películas: La colaboradora de 'Crónicas Marcianas' que participó en 'Supervivientes': ahora vende pitayas
 [movies] Candidatos encontrados: 35 | Límite: 1
-[YouTube] No se encontró tráiler confiable para 'Digger' es el gran desastre de taquilla de 2026: Tom Cruise encaja su peor estreno en 19 años y las perdidas apuntan a 150 millones de dólares
-[movies] Saltado porque no tiene tráiler confiable: 'Digger' es el gran desastre de taquilla de 2026: Tom Cruise encaja su peor estreno en 19 años y las perdidas apuntan a 150 millones de dólares
-[YouTube] No se encontró tráiler confiable para Enric Auquer, actor, 38 años: "Vivo de alquiler en Barcelona, en un piso muy caro y muy pequeño. Vivimos con un nudo en la garganta pensando en cuándo se acaba el contrato"
-[movies] Saltado porque no tiene tráiler confiable: Enric Auquer, actor, 38 años: "Vivo de alquiler en Barcelona, en un piso muy caro y muy pequeño. Vivimos con un nudo en la garganta pensando en cuándo se acaba el contrato"
-[YouTube] No se encontró tráiler confiable para Esta es la mejor película de todos los tiempos según SensaCine
-[movies] Saltado porque no tiene tráiler confiable: Esta es la mejor película de todos los tiempos según SensaCine
-[YouTube] No se encontró tráiler confiable para Ian Gibson, hispanista y experto en Lorca, sobre 'La bola negra': "Me quedé de una pieza, pero me siento honrado. Si soy yo, Glenn Close es una actriz fantástica"
-[movies] Saltado porque no tiene tráiler confiable: Ian Gibson, hispanista y experto en Lorca, sobre 'La bola negra': "Me quedé de una pieza, pero me siento honrado. Si soy yo, Glenn Close es una actriz fantástica"
-[duplicado] Saltado por tema parecido: La adaptación del thriller de literatura vasca 'Las ciegas hormigas' ('Inurri Itsuak') llega a los cines el 9 de octubre con Urko Olazabal e Itziar Ituño como protagonistas ~= Las ciegas hormigas: Un Thriller de Supervivencia en la Costa Vasca
-[YouTube] No se encontró tráiler confiable para Las canciones de La oreja de Van Gogh dan el salto al cine: 'Puedes contar conmigo', una película romántico musical del director de 'Tres metros sobre el cielo'
-[movies] Saltado porque no tiene tráiler confiable: Las canciones de La oreja de Van Gogh dan el salto al cine: 'Puedes contar conmigo', una película romántico musical del director de 'Tres metros sobre el cielo'
-[YouTube] No se encontró tráiler confiable para Más de 120 películas, un Oscar: acaba de cumplir 80 años una de las más celebres actrices de Hollywood, pero sigue vetada por algunos sectores
-[movies] Saltado porque no tiene tráiler confiable: Más de 120 películas, un Oscar: acaba de cumplir 80 años una de las más celebres actrices de Hollywood, pero sigue vetada por algunos sectores
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
