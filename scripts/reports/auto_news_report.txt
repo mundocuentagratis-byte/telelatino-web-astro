@@ -1,35 +1,25 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-07T15:32:51.059822+00:00
+Fecha UTC: 2026-10-07T21:16:16.209192+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
-[movies] Saltado noticia no apta para películas: Alejandro G. Iñárritu admite que 'Digger' "no es perfecta": "Es una película que provoca"
-[movies] Saltado porque no es estreno 2026: Malas noticias para 'The Batman II': Su director se retira por motivos personales y el rodaje queda paralizado (2022)
+[movies] Saltado porque no es estreno 2026: Dónde se sitúa 'Vengadores: Doomsday' en Marvel y qué ver antes para entenderla (2028)
+[movies] Saltado noticia no apta para películas: Diego Luna: "Los proyectos que buscan complacer generalmente pasan desapercibidos"
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció a un nuevo expulsado y revolucionó sus nominaciones: Estos son los nominados provisionales
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' castigó a los concursantes tras un robo "histórico": Este es el primer salvado y la lista de nominados definitiva
 [movies] Saltado noticia no apta para películas: 'Cifras y letras' pone en juego el mayor bote de su historia: Quién es Alejandro Castillo, el matemático de 22 años que podría ganarlo
+[movies] Saltado noticia no apta para películas: 'First Dates' sale a la calle con una fiesta exclusiva: "Hay historias que empiezan con una mirada y otras bailando"
+[movies] Saltado noticia no apta para películas: 4 años después de 'La vida moderna', La Séptima vuelve a juntar a Ignatius y Héctor de Miguel 'Quequé' en un programa
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' salvó a dos concursantes de la expulsión: Así queda la lista de nominados para el jueves
-[movies] Saltado noticia no apta para películas: Quién es Elena Adsuara, la pareja de Roberto Fernández que participó en 'La isla de las tentaciones': ya estuvo con otro jugador de España
-[movies] Saltado noticia no apta para películas: La felicitación de David Broncano a Iker Jiménez por la audiencia de 'Horizonte': "Quizás en diciembre será ministro del Interior"
-[movies] Saltado noticia no apta para películas: El adelanto de elecciones de Pedro Sánchez da datos insólitos a la mañana: reunió al 81,3% de la audiencia
-[movies] Saltado noticia no apta para películas: Cambio de presentadores en 'Supervivientes All Stars 3': Por qué presenta Sandra Barneda hoy 'Tierra de nadie'
-[movies] Saltado noticia no apta para películas: Julio Escartín, histórico ganador de 'Pasapalabra': "El trabajo de concursante está muy mal pagado. He dedicado mucho tiempo para nada"
-[movies] Candidatos encontrados: 36 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "Eligió a un director menos importante": Ben Affleck perdió Matt Damon en su nueva película por culpa de 'La Odisea', pero se lo toma con humor
-[movies] Saltado porque no tiene tráiler confiable: "Eligió a un director menos importante": Ben Affleck perdió Matt Damon en su nueva película por culpa de 'La Odisea', pero se lo toma con humor
-[YouTube] No se encontró tráiler confiable para "Esa noche perdí 'Terminator": Por qué Edward Furlong, estrella de 'Terminator 2', ya no participó en la tercera película
-[movies] Saltado porque no tiene tráiler confiable: "Esa noche perdí 'Terminator": Por qué Edward Furlong, estrella de 'Terminator 2', ya no participó en la tercera película
-[YouTube] No se encontró tráiler confiable para "Tuvimos mucha suerte. Nuestro as bajo la manga era lo que Jessica Chastain aporta a su interpretación": llega a los cines 'La otra madre', con sustos cada minuto y medio
-[movies] Saltado porque no tiene tráiler confiable: "Tuvimos mucha suerte. Nuestro as bajo la manga era lo que Jessica Chastain aporta a su interpretación": llega a los cines 'La otra madre', con sustos cada minuto y medio
-[YouTube] No se encontró tráiler confiable para Diego Luna: "Los proyectos que buscan complacer generalmente pasan desapercibidos"
-[movies] Saltado porque no tiene tráiler confiable: Diego Luna: "Los proyectos que buscan complacer generalmente pasan desapercibidos"
-[YouTube] No se encontró tráiler confiable para El refugio que Bruce Willis construyó en el Caribe: 3 casas, un pabellón de yoga y un barco pirata a tamaño real para los niños
-[movies] Saltado porque no tiene tráiler confiable: El refugio que Bruce Willis construyó en el Caribe: 3 casas, un pabellón de yoga y un barco pirata a tamaño real para los niños
-[YouTube] No se encontró tráiler confiable para La adaptación de 'El Señor de los Anillos' que entusiasma a los expertos de Tolkien: dura 13 horas y se considera mucho más fiel
-[movies] Saltado porque no tiene tráiler confiable: La adaptación de 'El Señor de los Anillos' que entusiasma a los expertos de Tolkien: dura 13 horas y se considera mucho más fiel
-[YouTube] No se encontró tráiler confiable para Pedro Almodóvar, director: "Tengo una casa nueva para poner todos los cuadros que he ido comprando a lo largo de los años"
-[movies] Saltado porque no tiene tráiler confiable: Pedro Almodóvar, director: "Tengo una casa nueva para poner todos los cuadros que he ido comprando a lo largo de los años"
+[movies] Candidatos encontrados: 39 | Límite: 1
+[YouTube] No se encontró tráiler confiable para Jeremy Allen White, protagonista de 'El precio de la red': "Gran parte del trabajo de preparación fue poder existir en el complejo mundo de Aaron Sorkin"
+[movies] Saltado porque no tiene tráiler confiable: Jeremy Allen White, protagonista de 'El precio de la red': "Gran parte del trabajo de preparación fue poder existir en el complejo mundo de Aaron Sorkin"
+[YouTube] No se encontró tráiler confiable para Jim Carrey se casa con su novia Min Ah, 32 años menor: llevaban cuatro años juntos y él la describe como mi "sublime compañera"
+[movies] Saltado porque no tiene tráiler confiable: Jim Carrey se casa con su novia Min Ah, 32 años menor: llevaban cuatro años juntos y él la describe como mi "sublime compañera"
+[movies] Saltado por tema bloqueado: Juan de Val: "La familia de mi madre era muy pobre, de Jaén. Mi abuelo era republicano. Mi padre es hijo de republicanos, todos encarcelados"
+[YouTube] No se encontró tráiler confiable para Miguel Bernardeau: "Hay mensajes que me escriben diciendo: 'Acabo de ver la película. ¡Arriba España, hijo de la gran pu***!'"
+[movies] Saltado porque no tiene tráiler confiable: Miguel Bernardeau: "Hay mensajes que me escriben diciendo: 'Acabo de ver la película. ¡Arriba España, hijo de la gran pu***!'"
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
