@@ -1,19 +1,11 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-08T15:34:02.907078+00:00
+Fecha UTC: 2026-10-08T21:17:34.718105+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
-[movies] Saltado noticia no apta para películas: La adaptación del thriller de literatura vasca 'Las ciegas hormigas' ('Inurri Itsuak') llega a los cines el 9 de octubre con Urko Olazabal e Itziar Ituño como protagonistas
-[movies] Saltado noticia no apta para películas: Michael Douglas, cuando Catherine Zeta-Jones le dijo que era monógama: "Espera allí, tengo que hacer cinco llamadas rápidas"
+[movies] Saltado porque no es estreno 2026: Hoy en Netflix: Una de las películas de fantasía más taquilleras de 2025 con escenas de acción que te dejarán atrapado en el sofá (2025)
+[movies] Saltado noticia no apta para películas: John Goodman está irreconocible tras haber perdido 90 kilos a los 74 años. La clave ha sido romper una dinámica de toda la vida
 [movies] Saltado porque no es estreno 2026: Javier Ambrossi: "Hemos llegado hasta aquí sin renunciar a nada de quienes somos" (2017)
-[movies] Saltado noticia no apta para películas: Salgo con el cuerpo temblando de 'El precio del poder': un 'thriller' profundamente terrorífico por la radiografía tan precisa que hace del mundo en el que vivimos
 [movies] Saltado noticia no apta para películas: Esta noche en Netflix: Una de las mejores películas españolas de fantasía de todos los tiempos
 [movies] Saltado noticia no apta para películas: Esta película de ciencia ficción en Netflix te salva la noche del domingo: Es muy entretenida y reúne a más estrellas de Hollywood de las que puedes contar
-[movies] Saltado noticia no apta para películas: Hoy tienes una nueva oportunidad para ver uno de los 'thrillers' más perturbadores del siglo XXI: sólo dura 1 hora y media y su final te dejará en shock
-[movies] Saltado noticia no apta para películas: Scarlett Johansson sobre Robert Redford: "Era muy paciente y se tomaba el tiempo necesario para ponerme en situación"
-[movies] Saltado noticia no apta para películas: Jim Carrey se casa con su novia Min Ah, 32 años menor: llevaban cuatro años juntos y él la describe como mi "sublime compañera"
-[movies] Saltado noticia no apta para películas: Jeremy Allen White, protagonista de 'El precio de la red': "Gran parte del trabajo de preparación fue poder existir en el complejo mundo de Aaron Sorkin"
-[movies] Saltado porque no es estreno 2026: Dónde se sitúa 'Vengadores: Doomsday' en Marvel y qué ver antes para entenderla (2028)
-[movies] Saltado noticia no apta para películas: Miguel Bernardeau: "Hay mensajes que me escriben diciendo: 'Acabo de ver la película. ¡Arriba España, hijo de la gran pu***!'"
-[movies] Saltado noticia no apta para películas: Diego Luna: "Los proyectos que buscan complacer generalmente pasan desapercibidos"
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
@@ -21,13 +13,18 @@ Fecha UTC: 2026-10-08T15:34:02.907078+00:00
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' castigó a los concursantes tras un robo "histórico": Este es el primer salvado y la lista de nominados definitiva
 [movies] Saltado noticia no apta para películas: Sandra Barneda tenía razón: 'La isla de las tentaciones 11' nos ha dejado la hoguera "más desgarradora" de la historia del 'reality'
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' salvó a dos concursantes de la expulsión: Así queda la lista de nominados para el jueves
-[movies] Candidatos encontrados: 31 | Límite: 1
-[YouTube] No se encontró tráiler confiable para 'First Dates' sale a la calle con una fiesta exclusiva: "Hay historias que empiezan con una mirada y otras bailando"
-[movies] Saltado porque no tiene tráiler confiable: 'First Dates' sale a la calle con una fiesta exclusiva: "Hay historias que empiezan con una mirada y otras bailando"
-[YouTube] No se encontró tráiler confiable para 4 años después de 'La vida moderna', La Séptima vuelve a juntar a Ignatius y Héctor de Miguel 'Quequé' en un programa
-[movies] Saltado porque no tiene tráiler confiable: 4 años después de 'La vida moderna', La Séptima vuelve a juntar a Ignatius y Héctor de Miguel 'Quequé' en un programa
-[YouTube] No se encontró tráiler confiable para David Bustamante: "Podría vivir solo de los perfumes, pero eso no quiere decir que sea mi mayor fuente de ingresos"
-[movies] Saltado porque no tiene tráiler confiable: David Bustamante: "Podría vivir solo de los perfumes, pero eso no quiere decir que sea mi mayor fuente de ingresos"
+[movies] Candidatos encontrados: 38 | Límite: 1
+[movies] Saltado por tema bloqueado: Hemos escuchado muchas veces hablar del secuestro y asesinato de Miguel Ángel Blanco, pero nunca en boca de su familia
+[YouTube] No se encontró tráiler confiable para Hoy tienes una nueva oportunidad para ver uno de los 'thrillers' más perturbadores del siglo XXI: sólo dura 1 hora y media y su final te dejará en shock
+[movies] Saltado porque no tiene tráiler confiable: Hoy tienes una nueva oportunidad para ver uno de los 'thrillers' más perturbadores del siglo XXI: sólo dura 1 hora y media y su final te dejará en shock
+[YouTube] No se encontró tráiler confiable para Michael Douglas, cuando Catherine Zeta-Jones le dijo que era monógama: "Espera allí, tengo que hacer cinco llamadas rápidas"
+[movies] Saltado porque no tiene tráiler confiable: Michael Douglas, cuando Catherine Zeta-Jones le dijo que era monógama: "Espera allí, tengo que hacer cinco llamadas rápidas"
+[YouTube] No se encontró tráiler confiable para Náyades, pareja de Nacho en 'La isla de las tentaciones': "Es un Borbón, pero yo no he comido en la Casa Real ni me he aprovechado de ello"
+[movies] Saltado porque no tiene tráiler confiable: Náyades, pareja de Nacho en 'La isla de las tentaciones': "Es un Borbón, pero yo no he comido en la Casa Real ni me he aprovechado de ello"
+[YouTube] No se encontró tráiler confiable para Salgo con el cuerpo temblando de 'El precio del poder': un 'thriller' profundamente terrorífico por la radiografía tan precisa que hace del mundo en el que vivimos
+[movies] Saltado porque no tiene tráiler confiable: Salgo con el cuerpo temblando de 'El precio del poder': un 'thriller' profundamente terrorífico por la radiografía tan precisa que hace del mundo en el que vivimos
+[YouTube] No se encontró tráiler confiable para Scarlett Johansson sobre Robert Redford: "Era muy paciente y se tomaba el tiempo necesario para ponerme en situación"
+[movies] Saltado porque no tiene tráiler confiable: Scarlett Johansson sobre Robert Redford: "Era muy paciente y se tomaba el tiempo necesario para ponerme en situación"
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
