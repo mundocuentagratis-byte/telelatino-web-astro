@@ -1,30 +1,37 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-08T21:17:34.718105+00:00
-[movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
+Fecha UTC: 2026-10-09T06:06:21.913175+00:00
+[movies] Saltado porque no es estreno 2026: Las ciegas hormigas (None)
+[movies] Saltado noticia no apta para películas: Loles León (76 años), sobre su pasado en un barrio humilde de Barcelona: "Me miraban mal, pero me encaraba"
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Una de las películas de fantasía más taquilleras de 2025 con escenas de acción que te dejarán atrapado en el sofá (2025)
-[movies] Saltado noticia no apta para películas: John Goodman está irreconocible tras haber perdido 90 kilos a los 74 años. La clave ha sido romper una dinámica de toda la vida
 [movies] Saltado porque no es estreno 2026: Javier Ambrossi: "Hemos llegado hasta aquí sin renunciar a nada de quienes somos" (2017)
+[movies] Saltado noticia no apta para películas: Salgo con el cuerpo temblando de 'El precio del poder': un 'thriller' profundamente terrorífico por la radiografía tan precisa que hace del mundo en el que vivimos
 [movies] Saltado noticia no apta para películas: Esta noche en Netflix: Una de las mejores películas españolas de fantasía de todos los tiempos
 [movies] Saltado noticia no apta para películas: Esta película de ciencia ficción en Netflix te salva la noche del domingo: Es muy entretenida y reúne a más estrellas de Hollywood de las que puedes contar
+[movies] Saltado noticia no apta para películas: Hoy tienes una nueva oportunidad para ver uno de los 'thrillers' más perturbadores del siglo XXI: sólo dura 1 hora y media y su final te dejará en shock
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció a un nuevo expulsado y revolucionó sus nominaciones: Estos son los nominados provisionales
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' castigó a los concursantes tras un robo "histórico": Este es el primer salvado y la lista de nominados definitiva
-[movies] Saltado noticia no apta para películas: Sandra Barneda tenía razón: 'La isla de las tentaciones 11' nos ha dejado la hoguera "más desgarradora" de la historia del 'reality'
+[movies] Saltado noticia no apta para películas: 'La Séptima': Estos son los 9 presentadores que se pondrán al frente de los programas del nuevo canal de la TDT
+[movies] Saltado noticia no apta para películas: Cambio de presentadores en 'Supervivientes All Stars 3': Por qué presenta Sandra Barneda hoy 'Tierra de nadie'
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' salvó a dos concursantes de la expulsión: Así queda la lista de nominados para el jueves
-[movies] Candidatos encontrados: 38 | Límite: 1
-[movies] Saltado por tema bloqueado: Hemos escuchado muchas veces hablar del secuestro y asesinato de Miguel Ángel Blanco, pero nunca en boca de su familia
-[YouTube] No se encontró tráiler confiable para Hoy tienes una nueva oportunidad para ver uno de los 'thrillers' más perturbadores del siglo XXI: sólo dura 1 hora y media y su final te dejará en shock
-[movies] Saltado porque no tiene tráiler confiable: Hoy tienes una nueva oportunidad para ver uno de los 'thrillers' más perturbadores del siglo XXI: sólo dura 1 hora y media y su final te dejará en shock
-[YouTube] No se encontró tráiler confiable para Michael Douglas, cuando Catherine Zeta-Jones le dijo que era monógama: "Espera allí, tengo que hacer cinco llamadas rápidas"
-[movies] Saltado porque no tiene tráiler confiable: Michael Douglas, cuando Catherine Zeta-Jones le dijo que era monógama: "Espera allí, tengo que hacer cinco llamadas rápidas"
-[YouTube] No se encontró tráiler confiable para Náyades, pareja de Nacho en 'La isla de las tentaciones': "Es un Borbón, pero yo no he comido en la Casa Real ni me he aprovechado de ello"
-[movies] Saltado porque no tiene tráiler confiable: Náyades, pareja de Nacho en 'La isla de las tentaciones': "Es un Borbón, pero yo no he comido en la Casa Real ni me he aprovechado de ello"
-[YouTube] No se encontró tráiler confiable para Salgo con el cuerpo temblando de 'El precio del poder': un 'thriller' profundamente terrorífico por la radiografía tan precisa que hace del mundo en el que vivimos
-[movies] Saltado porque no tiene tráiler confiable: Salgo con el cuerpo temblando de 'El precio del poder': un 'thriller' profundamente terrorífico por la radiografía tan precisa que hace del mundo en el que vivimos
-[YouTube] No se encontró tráiler confiable para Scarlett Johansson sobre Robert Redford: "Era muy paciente y se tomaba el tiempo necesario para ponerme en situación"
-[movies] Saltado porque no tiene tráiler confiable: Scarlett Johansson sobre Robert Redford: "Era muy paciente y se tomaba el tiempo necesario para ponerme en situación"
+[movies] Candidatos encontrados: 35 | Límite: 1
+[duplicado] Saltado por tema parecido: El precio de la red ~= Dreams: el drama que explora el precio de los sueños y el amor
+[YouTube] No se encontró tráiler confiable para John Goodman está irreconocible tras haber perdido 90 kilos a los 74 años. La clave ha sido romper una dinámica de toda la vida
+[movies] Saltado porque no tiene tráiler confiable: John Goodman está irreconocible tras haber perdido 90 kilos a los 74 años. La clave ha sido romper una dinámica de toda la vida
+[IA] Probando proveedor mistral: ¿Qué tiene que ver Doctor Doom con Iron Man? La relación entre los dos personaje
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: ¿Qué tiene que ver Doctor Doom con Iron Man? La relación entre los dos personaje
+[IA] cohere falló (error): Cohere error 404: {"id":"ebb5c009-5b38-4f95-9c59-30a6fa80f8ae","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: ¿Qué tiene que ver Doctor Doom con Iron Man? La relación entre los dos personaje
+[IA] gemini falló (cuota): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 17h53m21.980127841s.', 'status': 'RESOURCE_EXH
+[IA] Probando proveedor groq: ¿Qué tiene que ver Doctor Doom con Iron Man? La relación entre los dos personaje
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: ¿Qué tiene que ver Doctor Doom con Iron Man? La relación entre los dos personaje
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[movies] Error generando artículo ¿Qué tiene que ver Doctor Doom con Iron Man? La relación entre los dos personajes más allá de Robert Downey Jr.: Todos los proveedores de IA fallaron. [IA] gemini falló (cuota): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 17h53m21.980127841s.', 'status': 'RESOURCE_EXH | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
