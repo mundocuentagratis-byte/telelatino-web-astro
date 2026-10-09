@@ -1,10 +1,15 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-09T15:16:03.699938+00:00
-[movies] Saltado porque no es estreno 2026: Las ciegas hormigas (None)
+Fecha UTC: 2026-10-09T20:51:24.781652+00:00
+[movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
+[movies] Saltado porque no es estreno 2026: Verity: La sombra de un engaño (None)
+[movies] Saltado noticia no apta para películas: La adaptación del thriller de literatura vasca 'Las ciegas hormigas' ('Inurri Itsuak') llega a los cines el 9 de octubre con Urko Olazabal e Itziar Ituño como protagonistas
+[movies] Saltado noticia no apta para películas: Steven Spielberg regresa a una de las grandes sagas de acción y aventuras del cine: Comenzó una franquicia de más de 5.000 millones
+[movies] Saltado noticia no apta para películas: Robert De Niro, 83 años: "Al cumplir los 40 decidí tomar como referencia a los bailarines: ellos trabajan, practican y ejercitan. La única manera de mantenerse en forma es entrenando con constancia"
+[movies] Saltado noticia no apta para películas: 'River' o cómo empezar el maratón de Sitges por todo lo alto: un 'slasher' convertido en 'survival horror' con una cuidada puesta en escena
+[movies] Saltado noticia no apta para películas: La mejor película de Schwarzenegger de los últimos 25 años que, desafortunadamente, está infravalorada
 [movies] Saltado noticia no apta para películas: ¿Qué tiene que ver Doctor Doom con Iron Man? La relación entre los dos personajes más allá de Robert Downey Jr.
-[movies] Saltado porque no es estreno 2026: Hoy en Netflix: Una de las películas de fantasía más taquilleras de 2025 con escenas de acción que te dejarán atrapado en el sofá (2025)
-[movies] Saltado noticia no apta para películas: John Goodman está irreconocible tras haber perdido 90 kilos a los 74 años. La clave ha sido romper una dinámica de toda la vida
-[movies] Saltado porque no es estreno 2026: Javier Ambrossi: "Hemos llegado hasta aquí sin renunciar a nada de quienes somos" (2017)
+[movies] Saltado noticia no apta para películas: Loles León (76 años), sobre su pasado en un barrio humilde de Barcelona: "Me miraban mal, pero me encaraba"
+[movies] Saltado noticia no apta para películas: Hemos escuchado muchas veces hablar del secuestro y asesinato de Miguel Ángel Blanco, pero nunca en boca de su familia
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
@@ -12,21 +17,20 @@ Fecha UTC: 2026-10-09T15:16:03.699938+00:00
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' castigó a los concursantes tras un robo "histórico": Este es el primer salvado y la lista de nominados definitiva
 [movies] Saltado noticia no apta para películas: 'La Séptima': Estos son los 9 presentadores que se pondrán al frente de los programas del nuevo canal de la TDT
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' salvó a dos concursantes de la expulsión: Así queda la lista de nominados para el jueves
+[movies] Saltado noticia no apta para películas: David Broncano por fin entrevistó a Shakira en 'La Revuelta', pero no salió como esperaba: "Lo que parecía ilusionante empieza a derrumbarse"
 [movies] Saltado noticia no apta para películas: Mediaset prepara otro 'reality': un 'Supervivientes' de desconocidos con "tentaciones" que rebajan el premio
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' vivió otro abandono por prescripción médica y sorprendió con la expulsión: Esta es la nueva lista de nominados
 [movies] Saltado noticia no apta para películas: Náyades, pareja de Nacho en 'La isla de las tentaciones': "Es un Borbón, pero yo no he comido en la Casa Real ni me he aprovechado de ello"
 [movies] Saltado noticia no apta para películas: David Bustamante: "Podría vivir solo de los perfumes, pero eso no quiere decir que sea mi mayor fuente de ingresos"
-[movies] Saltado noticia no apta para películas: 'First Dates' sale a la calle con una fiesta exclusiva: "Hay historias que empiezan con una mirada y otras bailando"
-[movies] Saltado noticia no apta para películas: Juan de Val: "La familia de mi madre era muy pobre, de Jaén. Mi abuelo era republicano. Mi padre es hijo de republicanos, todos encarcelados"
-[movies] Candidatos encontrados: 32 | Límite: 1
-[YouTube] No se encontró tráiler confiable para 'River' o cómo empezar el maratón de Sitges por todo lo alto: un 'slasher' convertido en 'survival horror' con una cuidada puesta en escena
-[movies] Saltado porque no tiene tráiler confiable: 'River' o cómo empezar el maratón de Sitges por todo lo alto: un 'slasher' convertido en 'survival horror' con una cuidada puesta en escena
-[YouTube] No se encontró tráiler confiable para El fenómeno de 'La bola negra' traspasa fronteras y acaba de sumar un premio más en Nueva York: "Una película de gran ambición y profundidad emocional"
-[movies] Saltado porque no tiene tráiler confiable: El fenómeno de 'La bola negra' traspasa fronteras y acaba de sumar un premio más en Nueva York: "Una película de gran ambición y profundidad emocional"
-[YouTube] No se encontró tráiler confiable para La mejor película de Schwarzenegger de los últimos 25 años que, desafortunadamente, está infravalorada
-[movies] Saltado porque no tiene tráiler confiable: La mejor película de Schwarzenegger de los últimos 25 años que, desafortunadamente, está infravalorada
-[YouTube] No se encontró tráiler confiable para Loles León (76 años), sobre su pasado en un barrio humilde de Barcelona: "Me miraban mal, pero me encaraba"
-[movies] Saltado porque no tiene tráiler confiable: Loles León (76 años), sobre su pasado en un barrio humilde de Barcelona: "Me miraban mal, pero me encaraba"
-[movies] Publicados: 0
-Total películas publicadas: 0
+[movies] Candidatos encontrados: 33 | Límite: 1
+[IA] Probando proveedor mistral: Ceniza en la boca
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: Ceniza en la boca
+[IA] cohere falló (error): Cohere error 404: {"id":"5a7da8cb-8b3c-41eb-942e-e486b2b86168","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Ceniza en la boca
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/ceniza-en-la-boca-el-drama-migratorio-de-diego-luna-que-llega-en-2026-2026-10-09-d27d36.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
