@@ -1,9 +1,14 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-10T20:02:58.451013+00:00
+Fecha UTC: 2026-10-10T23:32:30.215542+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Verity: La sombra de un engaño (None)
-[movies] Saltado noticia no apta para películas: El fenómeno de 'La bola negra' traspasa fronteras y acaba de sumar un premio más en Nueva York: "Una película de gran ambición y profundidad emocional"
-[movies] Saltado noticia no apta para películas: La mejor película de Schwarzenegger de los últimos 25 años que, desafortunadamente, está infravalorada
+[movies] Saltado porque no es estreno 2026: El papel secreto de 'El Señor de los Anillos' que le quitó el sueño al actor de Gimli: "Me despertaba sudando en la noche" (2001)
+[movies] Saltado porque no es estreno 2026: Era un proyecto secreto de Pixar, pero el chófer les pilló al vuelo: "Hermano, estáis haciendo una película sobre la comunidad negra, ¿verdad?" (2024)
+[movies] Saltado noticia no apta para películas: Juliette Binoche, tras rechazar tres veces a Steven Spielberg: "Es más un director de hombres, como Scorsese"
+[movies] Saltado noticia no apta para películas: 97 minutos de duración y una potente historia real: Tom Hanks protagoniza esta estupenda película que está en Netflix
+[movies] Saltado noticia no apta para películas: El crossover entre Marvel y DC que nunca llegamos a ver: cómo Michael Keaton fue Batman rodando con Spider-man
+[movies] Saltado noticia no apta para películas: “Otro que tacho de la lista. ¡Es demasiado bajito!”
+[movies] Saltado noticia no apta para películas: Con 13 años causaba impresión en los teatros de Londres y apareció junto a The Beatles en uno de sus mejores momentos: hoy es una leyenda de la música
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
@@ -11,21 +16,10 @@ Fecha UTC: 2026-10-10T20:02:58.451013+00:00
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' salvó a dos concursantes de la expulsión: Así queda la lista de nominados para el jueves
 [movies] Saltado noticia no apta para películas: 'La Séptima': Estos son los 9 presentadores que se pondrán al frente de los programas del nuevo canal de la TDT
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció a un nuevo expulsado y revolucionó sus nominaciones: Estos son los nominados provisionales
-[movies] Saltado noticia no apta para películas: Así es la casa de David Summers: un oasis en el norte de Madrid lleno de guitarras y en el que se casó de manera idílica
-[movies] Saltado noticia no apta para películas: Samantha Villar, tras vivir al límite en '21 días': "En las situaciones extremas vas a encontrar lo mejor y lo peor del ser humano siempre"
-[movies] Saltado noticia no apta para películas: Mediaset prepara otro 'reality': un 'Supervivientes' de desconocidos con "tentaciones" que rebajan el premio
-[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' vivió otro abandono por prescripción médica y sorprendió con la expulsión: Esta es la nueva lista de nominados
 [movies] Candidatos encontrados: 43 | Límite: 1
-[IA] Probando proveedor openai: El árbol muy muy lejano
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: El árbol muy muy lejano
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: El árbol muy muy lejano
-[IA] cohere falló (error): Cohere error 404: {"id":"4004c522-ad0b-4b51-a826-cab0b1594f83","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: El árbol muy muy lejano
+[IA] Probando proveedor gemini: Escape Room 2
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/el-arbol-muy-muy-lejano-una-aventura-fantastica-que-esperar-2026-10-10-5a06ba.md
+[OK] Publicado: src/content/blog/escape-room-2-el-retorno-inesperado-con-un-giro-de-comedia-2026-10-10-fd85cc.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
