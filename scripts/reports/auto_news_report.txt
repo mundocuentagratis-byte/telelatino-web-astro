@@ -1,46 +1,26 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-10T05:46:29.933429+00:00
+Fecha UTC: 2026-10-10T14:27:48.848695+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Verity: La sombra de un engaño (None)
-[movies] Saltado noticia no apta para películas: ¿Qué tiene que ver Doctor Doom con Iron Man? La relación entre los dos personajes más allá de Robert Downey Jr.
+[movies] Saltado noticia no apta para películas: El fenómeno de 'La bola negra' traspasa fronteras y acaba de sumar un premio más en Nueva York: "Una película de gran ambición y profundidad emocional"
+[movies] Saltado noticia no apta para películas: La mejor película de Schwarzenegger de los últimos 25 años que, desafortunadamente, está infravalorada
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' castigó a los concursantes tras un robo "histórico": Este es el primer salvado y la lista de nominados definitiva
+[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' salvó a dos concursantes de la expulsión: Así queda la lista de nominados para el jueves
 [movies] Saltado noticia no apta para películas: 'La Séptima': Estos son los 9 presentadores que se pondrán al frente de los programas del nuevo canal de la TDT
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció a un nuevo expulsado y revolucionó sus nominaciones: Estos son los nominados provisionales
-[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' salvó a dos concursantes de la expulsión: Así queda la lista de nominados para el jueves
-[movies] Saltado noticia no apta para películas: David Broncano por fin entrevistó a Shakira en 'La Revuelta', pero no salió como esperaba: "Lo que parecía ilusionante empieza a derrumbarse"
+[movies] Saltado noticia no apta para películas: Así es la casa de David Summers: un oasis en el norte de Madrid lleno de guitarras y en el que se casó de manera idílica
+[movies] Saltado noticia no apta para películas: Samantha Villar, tras vivir al límite en '21 días': "En las situaciones extremas vas a encontrar lo mejor y lo peor del ser humano siempre"
 [movies] Saltado noticia no apta para películas: Mediaset prepara otro 'reality': un 'Supervivientes' de desconocidos con "tentaciones" que rebajan el premio
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' vivió otro abandono por prescripción médica y sorprendió con la expulsión: Esta es la nueva lista de nominados
-[movies] Saltado noticia no apta para películas: Náyades, pareja de Nacho en 'La isla de las tentaciones': "Es un Borbón, pero yo no he comido en la Casa Real ni me he aprovechado de ello"
-[movies] Saltado noticia no apta para películas: David Bustamante: "Podría vivir solo de los perfumes, pero eso no quiere decir que sea mi mayor fuente de ingresos"
-[movies] Candidatos encontrados: 41 | Límite: 1
+[movies] Candidatos encontrados: 43 | Límite: 1
 [IA] Probando proveedor cohere: Doraemon: Aventuras en el mundo del arte
-[IA] cohere falló (error): Cohere error 404: {"id":"77c31027-dc22-4e70-9f53-39aa1b746425","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] cohere falló (error): Cohere error 404: {"id":"c432b6cb-ea95-41c0-9bbf-47ac19db6699","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
 [IA] Probando proveedor gemini: Doraemon: Aventuras en el mundo del arte
-[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 3294 (char 3540)
-[IA] Probando proveedor groq: Doraemon: Aventuras en el mundo del arte
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: Doraemon: Aventuras en el mundo del arte
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Doraemon: Aventuras en el mundo del arte
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[movies] Error generando artículo Doraemon: Aventuras en el mundo del arte: Todos los proveedores de IA fallaron. [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}} | [IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor groq: El confidente
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: El confidente
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: El confidente
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: El confidente
-[IA] cohere falló (error): Cohere error 404: {"id":"856c66e3-55c4-49d9-ae7c-a67672711f31","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: El confidente
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/el-confidente-un-thriller-espanol-de-daniel-calparsoro-a-tener-en-el-radar-2026-10-10-0a3e56.md
+[OK] Publicado: src/content/blog/doraemon-una-aventura-artistica-que-llegara-al-cine-2026-10-10-9a2734.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
