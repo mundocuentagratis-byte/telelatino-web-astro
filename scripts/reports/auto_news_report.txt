@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-10T14:27:48.848695+00:00
+Fecha UTC: 2026-10-10T20:02:58.451013+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Verity: La sombra de un engaño (None)
 [movies] Saltado noticia no apta para películas: El fenómeno de 'La bola negra' traspasa fronteras y acaba de sumar un premio más en Nueva York: "Una película de gran ambición y profundidad emocional"
@@ -16,11 +16,16 @@ Fecha UTC: 2026-10-10T14:27:48.848695+00:00
 [movies] Saltado noticia no apta para películas: Mediaset prepara otro 'reality': un 'Supervivientes' de desconocidos con "tentaciones" que rebajan el premio
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' vivió otro abandono por prescripción médica y sorprendió con la expulsión: Esta es la nueva lista de nominados
 [movies] Candidatos encontrados: 43 | Límite: 1
-[IA] Probando proveedor cohere: Doraemon: Aventuras en el mundo del arte
-[IA] cohere falló (error): Cohere error 404: {"id":"c432b6cb-ea95-41c0-9bbf-47ac19db6699","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Doraemon: Aventuras en el mundo del arte
+[IA] Probando proveedor openai: El árbol muy muy lejano
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: El árbol muy muy lejano
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: El árbol muy muy lejano
+[IA] cohere falló (error): Cohere error 404: {"id":"4004c522-ad0b-4b51-a826-cab0b1594f83","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: El árbol muy muy lejano
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/doraemon-una-aventura-artistica-que-llegara-al-cine-2026-10-10-9a2734.md
+[OK] Publicado: src/content/blog/el-arbol-muy-muy-lejano-una-aventura-fantastica-que-esperar-2026-10-10-5a06ba.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
