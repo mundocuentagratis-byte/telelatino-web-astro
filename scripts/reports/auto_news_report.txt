@@ -1,39 +1,31 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-11T20:14:02.937281+00:00
+Fecha UTC: 2026-10-12T05:49:39.656180+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Verity: La sombra de un engaño (None)
-[movies] Saltado noticia no apta para películas: La adaptación del thriller de literatura vasca 'Las ciegas hormigas' ('Inurri Itsuak') llega a los cines el 9 de octubre con Urko Olazabal e Itziar Ituño como protagonistas
 [movies] Saltado noticia no apta para películas: En 1975, el público de Alemania pudo ver 'Casablanca' correctamente por primera vez. Hasta entonces, habían ocultado la trama
-[movies] Saltado noticia no apta para películas: Clint Eastwood tuvo que huir a España para convertirse en una leyenda del cine
-[movies] Saltado noticia no apta para películas: El director de ‘Nosferatu’ quiere hacer de nuevo la película de terror más perfeccionista del año: “Colaboramos con dos profesores de Oxford”
+[movies] Saltado noticia no apta para películas: Aaron Sorkin tenía muy claro que el final de 'El precio de la red' tenía que ser un evento estadounidense que cambió la historia
+[movies] Saltado noticia no apta para películas: Tom Cruise aprendió en 'La guerra de los mundos' una habilidad que no le ha vuelto a servir para nada más
 [movies] Saltado porque no es estreno 2026: El papel secreto de 'El Señor de los Anillos' que le quitó el sueño al actor de Gimli: "Me despertaba sudando en la noche" (2001)
 [movies] Saltado porque no es estreno 2026: Era un proyecto secreto de Pixar, pero el chófer les pilló al vuelo: "Hermano, estáis haciendo una película sobre la comunidad negra, ¿verdad?" (2024)
 [movies] Saltado noticia no apta para películas: 97 minutos de duración y una potente historia real: Tom Hanks protagoniza esta estupenda película que está en Netflix
-[movies] Saltado noticia no apta para películas: El crossover entre Marvel y DC que nunca llegamos a ver: cómo Michael Keaton fue Batman rodando con Spider-man
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
 [movies] Saltado porque no es estreno 2026: "Obviamente, no era el actor adecuado": el creador de 'Jack Reacher' se arrepiente de que ficharan a Tom Cruise para el papel (2025)
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' castigó a los concursantes tras un robo "histórico": Este es el primer salvado y la lista de nominados definitiva
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' salvó a dos concursantes de la expulsión: Así queda la lista de nominados para el jueves
-[movies] Saltado noticia no apta para películas: 'La Séptima': Estos son los 9 presentadores que se pondrán al frente de los programas del nuevo canal de la TDT
 [movies] Saltado noticia no apta para películas: David Broncano por fin entrevistó a Shakira en 'La Revuelta', pero no salió como esperaba: "Lo que parecía ilusionante empieza a derrumbarse"
+[movies] Saltado noticia no apta para películas: 'La Séptima': Estos son los 9 presentadores que se pondrán al frente de los programas del nuevo canal de la TDT
 [movies] Saltado noticia no apta para películas: El primer concursante de 'Pasapalabra' que ganó un millón de euros no tiene televisión en casa: "Perdería el tiempo viéndola"
 [movies] Saltado noticia no apta para películas: Si te gusta 'La isla de las tentaciones', este 'reality' de Netflix te parecerá aún mejor
 [movies] Saltado noticia no apta para películas: El 5 de noviembre vas a tener que resintonizar tu televisión
 [movies] Saltado noticia no apta para películas: Fue la aprendiz de Chumlee durante trece episodios en 'La casa de empeños', pero protagonizó una polémica despedida
 [movies] Saltado noticia no apta para películas: Quién es Sara Rincón, la reportera de laSexta que ha fichado La Séptima: "Fascinada y agradecida de poder formar parte de este hogar"
 [movies] Saltado noticia no apta para películas: Así es la casa de David Summers: un oasis en el norte de Madrid lleno de guitarras y en el que se casó de manera idílica
-[movies] Candidatos encontrados: 34 | Límite: 1
-[movies] Saltado por tema bloqueado: Miss Jobson
-[movies] Saltado por tema bloqueado: Perla
-[YouTube] No se encontró tráiler confiable para Petros Eni
-[movies] Saltado porque no tiene tráiler confiable: Petros Eni
-[IA] Probando proveedor cohere: Su propio infierno
-[IA] cohere falló (error): Cohere error 404: {"id":"c2c5e390-33df-4844-a308-8153086813cc","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Su propio infierno
+[movies] Candidatos encontrados: 36 | Límite: 1
+[IA] Probando proveedor gemini: Godzilla Minus Zero
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/su-propio-infierno-un-thriller-de-nicolas-winding-refn-para-2026-2026-10-11-eac52e.md
+[OK] Publicado: src/content/blog/godzilla-minus-zero-la-epica-secuela-del-kaiju-que-impacto-2026-10-12-76ed7c.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
