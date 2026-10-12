@@ -1,13 +1,16 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-12T05:49:39.656180+00:00
+Fecha UTC: 2026-10-12T17:50:10.154675+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Verity: La sombra de un engaño (None)
+[movies] Saltado noticia no apta para películas: Una obra maestra absoluta: un 86% de la prensa y 4,2/5 estrellas de los espectadores
+[movies] Saltado noticia no apta para películas: Hace 25 años rodó un corto mientras era camarero, pero ahora es la mayor estrella del mundo, ¿le reconoces?
+[movies] Saltado porque no es estreno 2026: Una de las películas más vistas de la historia de Netflix es este 'thriller' español que te encogerá el estómago (2023)
+[movies] Saltado noticia no apta para películas: Keanu Reeves fue gerente en un restaurante antes de ser actor: "De repente me di cuenta de que esto no era lo que quería hacer con mi vida, así que dimití"
+[movies] Saltado noticia no apta para películas: El patrimonio de 34 millones de dólares en casas de Matt Damon: un refugio en la naturaleza y su casa en Los Angeles
+[movies] Saltado noticia no apta para películas: Jack Nicholson fue incapaz de terminar una de las mejores trilogías del cine de fantasía: “Demasiados finales”
 [movies] Saltado noticia no apta para películas: En 1975, el público de Alemania pudo ver 'Casablanca' correctamente por primera vez. Hasta entonces, habían ocultado la trama
 [movies] Saltado noticia no apta para películas: Aaron Sorkin tenía muy claro que el final de 'El precio de la red' tenía que ser un evento estadounidense que cambió la historia
 [movies] Saltado noticia no apta para películas: Tom Cruise aprendió en 'La guerra de los mundos' una habilidad que no le ha vuelto a servir para nada más
-[movies] Saltado porque no es estreno 2026: El papel secreto de 'El Señor de los Anillos' que le quitó el sueño al actor de Gimli: "Me despertaba sudando en la noche" (2001)
-[movies] Saltado porque no es estreno 2026: Era un proyecto secreto de Pixar, pero el chófer les pilló al vuelo: "Hermano, estáis haciendo una película sobre la comunidad negra, ¿verdad?" (2024)
-[movies] Saltado noticia no apta para películas: 97 minutos de duración y una potente historia real: Tom Hanks protagoniza esta estupenda película que está en Netflix
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
@@ -16,16 +19,19 @@ Fecha UTC: 2026-10-12T05:49:39.656180+00:00
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' salvó a dos concursantes de la expulsión: Así queda la lista de nominados para el jueves
 [movies] Saltado noticia no apta para películas: David Broncano por fin entrevistó a Shakira en 'La Revuelta', pero no salió como esperaba: "Lo que parecía ilusionante empieza a derrumbarse"
 [movies] Saltado noticia no apta para películas: 'La Séptima': Estos son los 9 presentadores que se pondrán al frente de los programas del nuevo canal de la TDT
+[movies] Saltado noticia no apta para películas: Arturo Valls (51 años): "Mi objetivo siempre había sido una jubilación prematura, pero ahora me veo bajando el ritmo y siendo más selectivo"
 [movies] Saltado noticia no apta para películas: El primer concursante de 'Pasapalabra' que ganó un millón de euros no tiene televisión en casa: "Perdería el tiempo viéndola"
 [movies] Saltado noticia no apta para películas: Si te gusta 'La isla de las tentaciones', este 'reality' de Netflix te parecerá aún mejor
 [movies] Saltado noticia no apta para películas: El 5 de noviembre vas a tener que resintonizar tu televisión
 [movies] Saltado noticia no apta para películas: Fue la aprendiz de Chumlee durante trece episodios en 'La casa de empeños', pero protagonizó una polémica despedida
 [movies] Saltado noticia no apta para películas: Quién es Sara Rincón, la reportera de laSexta que ha fichado La Séptima: "Fascinada y agradecida de poder formar parte de este hogar"
-[movies] Saltado noticia no apta para películas: Así es la casa de David Summers: un oasis en el norte de Madrid lleno de guitarras y en el que se casó de manera idílica
-[movies] Candidatos encontrados: 36 | Límite: 1
-[IA] Probando proveedor gemini: Godzilla Minus Zero
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/godzilla-minus-zero-la-epica-secuela-del-kaiju-que-impacto-2026-10-12-76ed7c.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[movies] Candidatos encontrados: 33 | Límite: 1
+[YouTube] No se encontró tráiler confiable para "No tenemos esas reacciones de Gollum": una de las reacciones más dramáticas de 'El señor de los anillos' fue regrabada en el salón de Peter Jackson
+[movies] Saltado porque no tiene tráiler confiable: "No tenemos esas reacciones de Gollum": una de las reacciones más dramáticas de 'El señor de los anillos' fue regrabada en el salón de Peter Jackson
+[YouTube] No se encontró tráiler confiable para Carlos Gónzález ('La bola negra'): "[Los Javis] en set no son amigos. Hay amor, hay respeto, pero son dos directores"
+[movies] Saltado porque no tiene tráiler confiable: Carlos Gónzález ('La bola negra'): "[Los Javis] en set no son amigos. Hay amor, hay respeto, pero son dos directores"
+[YouTube] No se encontró tráiler confiable para Todas las películas que ves se basan en la misma estructura de guion, pero la ficción actual tiene un gran problema: la pereza al aplicarla
+[movies] Saltado porque no tiene tráiler confiable: Todas las películas que ves se basan en la misma estructura de guion, pero la ficción actual tiene un gran problema: la pereza al aplicarla
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
