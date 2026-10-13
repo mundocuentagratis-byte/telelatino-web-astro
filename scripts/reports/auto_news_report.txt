@@ -1,37 +1,42 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-12T17:50:10.154675+00:00
+Fecha UTC: 2026-10-13T02:00:38.066978+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Verity: La sombra de un engaño (None)
-[movies] Saltado noticia no apta para películas: Una obra maestra absoluta: un 86% de la prensa y 4,2/5 estrellas de los espectadores
-[movies] Saltado noticia no apta para películas: Hace 25 años rodó un corto mientras era camarero, pero ahora es la mayor estrella del mundo, ¿le reconoces?
 [movies] Saltado porque no es estreno 2026: Una de las películas más vistas de la historia de Netflix es este 'thriller' español que te encogerá el estómago (2023)
-[movies] Saltado noticia no apta para películas: Keanu Reeves fue gerente en un restaurante antes de ser actor: "De repente me di cuenta de que esto no era lo que quería hacer con mi vida, así que dimití"
-[movies] Saltado noticia no apta para películas: El patrimonio de 34 millones de dólares en casas de Matt Damon: un refugio en la naturaleza y su casa en Los Angeles
-[movies] Saltado noticia no apta para películas: Jack Nicholson fue incapaz de terminar una de las mejores trilogías del cine de fantasía: “Demasiados finales”
+[movies] Saltado noticia no apta para películas: Carlos Gónzález ('La bola negra'): "[Los Javis] en set no son amigos. Hay amor, hay respeto, pero son dos directores"
+[movies] Saltado noticia no apta para películas: Todas las películas que ves se basan en la misma estructura de guion, pero la ficción actual tiene un gran problema: la pereza al aplicarla
 [movies] Saltado noticia no apta para películas: En 1975, el público de Alemania pudo ver 'Casablanca' correctamente por primera vez. Hasta entonces, habían ocultado la trama
 [movies] Saltado noticia no apta para películas: Aaron Sorkin tenía muy claro que el final de 'El precio de la red' tenía que ser un evento estadounidense que cambió la historia
-[movies] Saltado noticia no apta para películas: Tom Cruise aprendió en 'La guerra de los mundos' una habilidad que no le ha vuelto a servir para nada más
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
-[movies] Saltado porque no es estreno 2026: "Obviamente, no era el actor adecuado": el creador de 'Jack Reacher' se arrepiente de que ficharan a Tom Cruise para el papel (2025)
-[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' castigó a los concursantes tras un robo "histórico": Este es el primer salvado y la lista de nominados definitiva
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' salvó a dos concursantes de la expulsión: Así queda la lista de nominados para el jueves
 [movies] Saltado noticia no apta para películas: David Broncano por fin entrevistó a Shakira en 'La Revuelta', pero no salió como esperaba: "Lo que parecía ilusionante empieza a derrumbarse"
 [movies] Saltado noticia no apta para películas: 'La Séptima': Estos son los 9 presentadores que se pondrán al frente de los programas del nuevo canal de la TDT
+[movies] Saltado noticia no apta para películas: Cambio de presentadores en 'Supervivientes All Stars 3': Por qué presenta Sandra Barneda hoy 'Tierra de nadie'
 [movies] Saltado noticia no apta para películas: Arturo Valls (51 años): "Mi objetivo siempre había sido una jubilación prematura, pero ahora me veo bajando el ritmo y siendo más selectivo"
 [movies] Saltado noticia no apta para películas: El primer concursante de 'Pasapalabra' que ganó un millón de euros no tiene televisión en casa: "Perdería el tiempo viéndola"
 [movies] Saltado noticia no apta para películas: Si te gusta 'La isla de las tentaciones', este 'reality' de Netflix te parecerá aún mejor
 [movies] Saltado noticia no apta para películas: El 5 de noviembre vas a tener que resintonizar tu televisión
 [movies] Saltado noticia no apta para películas: Fue la aprendiz de Chumlee durante trece episodios en 'La casa de empeños', pero protagonizó una polémica despedida
 [movies] Saltado noticia no apta para películas: Quién es Sara Rincón, la reportera de laSexta que ha fichado La Séptima: "Fascinada y agradecida de poder formar parte de este hogar"
-[movies] Candidatos encontrados: 33 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "No tenemos esas reacciones de Gollum": una de las reacciones más dramáticas de 'El señor de los anillos' fue regrabada en el salón de Peter Jackson
-[movies] Saltado porque no tiene tráiler confiable: "No tenemos esas reacciones de Gollum": una de las reacciones más dramáticas de 'El señor de los anillos' fue regrabada en el salón de Peter Jackson
-[YouTube] No se encontró tráiler confiable para Carlos Gónzález ('La bola negra'): "[Los Javis] en set no son amigos. Hay amor, hay respeto, pero son dos directores"
-[movies] Saltado porque no tiene tráiler confiable: Carlos Gónzález ('La bola negra'): "[Los Javis] en set no son amigos. Hay amor, hay respeto, pero son dos directores"
-[YouTube] No se encontró tráiler confiable para Todas las películas que ves se basan en la misma estructura de guion, pero la ficción actual tiene un gran problema: la pereza al aplicarla
-[movies] Saltado porque no tiene tráiler confiable: Todas las películas que ves se basan en la misma estructura de guion, pero la ficción actual tiene un gran problema: la pereza al aplicarla
+[movies] Candidatos encontrados: 38 | Límite: 1
+[YouTube] No se encontró tráiler confiable para "Parecía que Leonardo DiCaprio estaba abusando de mí": Natalie Portman fue despedida de una de las historias de amor más épicas por su diferencia de edad con su compañero
+[movies] Saltado porque no tiene tráiler confiable: "Parecía que Leonardo DiCaprio estaba abusando de mí": Natalie Portman fue despedida de una de las historias de amor más épicas por su diferencia de edad con su compañero
+[YouTube] No se encontró tráiler confiable para El patrimonio de 34 millones de dólares en casas de Matt Damon: un refugio en la naturaleza y su casa en Los Angeles
+[movies] Saltado porque no tiene tráiler confiable: El patrimonio de 34 millones de dólares en casas de Matt Damon: un refugio en la naturaleza y su casa en Los Angeles
+[YouTube] No se encontró tráiler confiable para Hace 25 años rodó un corto mientras era camarero, pero ahora es la mayor estrella del mundo, ¿le reconoces?
+[movies] Saltado porque no tiene tráiler confiable: Hace 25 años rodó un corto mientras era camarero, pero ahora es la mayor estrella del mundo, ¿le reconoces?
+[YouTube] No se encontró tráiler confiable para Jack Nicholson fue incapaz de terminar una de las mejores trilogías del cine de fantasía: “Demasiados finales”
+[movies] Saltado porque no tiene tráiler confiable: Jack Nicholson fue incapaz de terminar una de las mejores trilogías del cine de fantasía: “Demasiados finales”
+[YouTube] No se encontró tráiler confiable para Keanu Reeves fue gerente en un restaurante antes de ser actor: "De repente me di cuenta de que esto no era lo que quería hacer con mi vida, así que dimití"
+[movies] Saltado porque no tiene tráiler confiable: Keanu Reeves fue gerente en un restaurante antes de ser actor: "De repente me di cuenta de que esto no era lo que quería hacer con mi vida, así que dimití"
+[YouTube] No se encontró tráiler confiable para Robert De Niro, 83 años: "Al cumplir los 40 decidí tomar como referencia a los bailarines: ellos trabajan, practican y ejercitan. La única manera de mantenerse en forma es entrenando con constancia"
+[movies] Saltado porque no tiene tráiler confiable: Robert De Niro, 83 años: "Al cumplir los 40 decidí tomar como referencia a los bailarines: ellos trabajan, practican y ejercitan. La única manera de mantenerse en forma es entrenando con constancia"
+[YouTube] No se encontró tráiler confiable para Tom Cruise aprendió en 'La guerra de los mundos' una habilidad que no le ha vuelto a servir para nada más
+[movies] Saltado porque no tiene tráiler confiable: Tom Cruise aprendió en 'La guerra de los mundos' una habilidad que no le ha vuelto a servir para nada más
+[YouTube] No se encontró tráiler confiable para Una obra maestra absoluta: un 86% de la prensa y 4,2/5 estrellas de los espectadores
+[movies] Saltado porque no tiene tráiler confiable: Una obra maestra absoluta: un 86% de la prensa y 4,2/5 estrellas de los espectadores
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
