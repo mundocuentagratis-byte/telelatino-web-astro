@@ -1,14 +1,15 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-13T11:43:12.187563+00:00
+Fecha UTC: 2026-10-13T19:14:19.281767+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
-[movies] Saltado porque no es estreno 2026: Verity: La sombra de un engaño (None)
-[movies] Saltado porque no es estreno 2026: ¿Qué harías si te quedaras atrapado en el interior de una ballena? ‘Whalefall’ llega a los cines el 16 de octubre (2023)
+[movies] Saltado noticia no apta para películas: ¿Qué harías si te quedaras atrapado en el interior de una ballena? ‘Whalefall’ llega a los cines el 16 de octubre
+[movies] Saltado porque no es estreno 2026: 79 años después, se han atrevido a hacer una nueva versión del infravalorado wéstern de John Wayne: No está a la altura del original (2024)
+[movies] Saltado porque no es estreno 2026: Ben Affleck confiesa que 'Liga de la Justicia' fue "el peor momento" de su carrera: "Vi cómo no hay que hacer una película, con el estudio en desacuerdo con el director. Es un error garrafal" (2025)
+[movies] Saltado noticia no apta para películas: Sólo tienes 2 días para ver en Netflix una inolvidable y espectacular película de aventuras en el espacio
+[movies] Saltado noticia no apta para películas: 'The Incomer' es uno de mis grandes descubrimientos de este año: una lección de humanidad preciosa
 [movies] Saltado porque no es estreno 2026: Por qué hay una larga lista de gente en Hollywood que no quiere volver a trabajar con Kevin Costner: "No hubo puñetazos, pero se enfrentaron hasta que tuvieron que separarlos" (2025)
-[movies] Saltado porque no es estreno 2026: Una obra maestra absoluta: un 86% de la prensa y 4,2/5 estrellas de los espectadores (2023)
+[movies] Saltado noticia no apta para películas: Una obra maestra absoluta: un 86% de la prensa y 4,2/5 estrellas de los espectadores
+[movies] Saltado noticia no apta para películas: Hace 25 años rodó un corto mientras era camarero, pero ahora es la mayor estrella del mundo, ¿le reconoces?
 [movies] Saltado porque no es estreno 2026: Una de las películas más vistas de la historia de Netflix es este 'thriller' español que te encogerá el estómago (2023)
-[movies] Saltado porque no es estreno 2026: Todas las películas que ves se basan en la misma estructura de guion, pero la ficción actual tiene un gran problema: la pereza al aplicarla (2023)
-[movies] Saltado noticia no apta para películas: Keanu Reeves fue gerente en un restaurante antes de ser actor: "De repente me di cuenta de que esto no era lo que quería hacer con mi vida, así que dimití"
-[movies] Saltado porque no es estreno 2026: El patrimonio de 34 millones de dólares en casas de Matt Damon: un refugio en la naturaleza y su casa en Los Angeles (2023)
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
@@ -16,19 +17,15 @@ Fecha UTC: 2026-10-13T11:43:12.187563+00:00
 [movies] Saltado noticia no apta para películas: David Broncano por fin entrevistó a Shakira en 'La Revuelta', pero no salió como esperaba: "Lo que parecía ilusionante empieza a derrumbarse"
 [movies] Saltado noticia no apta para películas: 'La Séptima': Estos son los 9 presentadores que se pondrán al frente de los programas del nuevo canal de la TDT
 [movies] Saltado noticia no apta para películas: Cambio de presentadores en 'Supervivientes All Stars 3': Por qué presenta Sandra Barneda hoy 'Tierra de nadie'
+[movies] Saltado noticia no apta para películas: María Patiño vuelve a la televisión tras casi un año: "No sé por qué he tenido que pagar este peaje"
+[movies] Saltado noticia no apta para películas: "¿Por qué no graban programas nuevos?": Erundino Alonso no entiende las reposiciones "hasta el infinito" de 'El Cazador' en RTVE
+[movies] Saltado porque no es estreno 2026: Netflix se hace con los derechos del Mundial 2030 para emitirlo de manera exclusiva: en España podrá verse gratis un partido de cada jornada (2030)
+[movies] Saltado noticia no apta para películas: José Pablo López, presidente de RTVE: "El caché de David Broncano en 'La Revuelta' es acorde con lo que se paga en este tipo de formatos"
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11' vivió la mayor lección de un novio en la historia del 'reality'
 [movies] Saltado noticia no apta para películas: Arturo Valls (51 años): "Mi objetivo siempre había sido una jubilación prematura, pero ahora me veo bajando el ritmo y siendo más selectivo"
-[movies] Saltado noticia no apta para películas: El primer concursante de 'Pasapalabra' que ganó un millón de euros no tiene televisión en casa: "Perdería el tiempo viéndola"
-[movies] Saltado noticia no apta para películas: Si te gusta 'La isla de las tentaciones', este 'reality' de Netflix te parecerá aún mejor
-[movies] Saltado noticia no apta para películas: El 5 de noviembre vas a tener que resintonizar tu televisión
-[movies] Saltado noticia no apta para películas: Fue la aprendiz de Chumlee durante trece episodios en 'La casa de empeños', pero protagonizó una polémica despedida
-[movies] Candidatos encontrados: 38 | Límite: 1
-[YouTube] No se encontró tráiler confiable para 'The Incomer' es uno de mis grandes descubrimientos de este año: una lección de humanidad precios
-[movies] Saltado porque no tiene tráiler confiable: 'The Incomer' es uno de mis grandes descubrimientos de este año: una lección de humanidad precios
-[YouTube] No se encontró tráiler confiable para Solo 200 páginas de más de 6500: quién es Aegon el Conquistador y por qué tiene una película en el universo 'Juego de Tronos'
-[movies] Saltado porque no tiene tráiler confiable: Solo 200 páginas de más de 6500: quién es Aegon el Conquistador y por qué tiene una película en el universo 'Juego de Tronos'
-[YouTube] No se encontró tráiler confiable para Willem Dafoe, actor de 71 años: "Nunca soy tan feliz como cuando lavo los platos, limpio el estiércol de los animales o haciendo tareas sencillas"
-[movies] Saltado porque no tiene tráiler confiable: Willem Dafoe, actor de 71 años: "Nunca soy tan feliz como cuando lavo los platos, limpio el estiércol de los animales o haciendo tareas sencillas"
+[movies] Candidatos encontrados: 34 | Límite: 1
+[YouTube] No se encontró tráiler confiable para El guiño a 'Titanic' que Javier Calvo y Javier Ambrossi metieron en 'La bola negra' y es una de las grandes frases de la película
+[movies] Saltado porque no tiene tráiler confiable: El guiño a 'Titanic' que Javier Calvo y Javier Ambrossi metieron en 'La bola negra' y es una de las grandes frases de la película
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
