@@ -1,11 +1,13 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-13T23:44:15.602431+00:00
+Fecha UTC: 2026-10-14T04:47:42.009674+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
-[movies] Saltado porque no es estreno 2026: Guillermo Del Toro rechazó 'Harry Potter' para hacer su propio cuento de hadas oscuro: ahora cumple 20 años (2006)
-[movies] Saltado porque no es estreno 2026: 79 años después, se han atrevido a hacer una nueva versión del infravalorado wéstern de John Wayne: No está a la altura del original (2024)
+[movies] Saltado noticia no apta para películas: ¿Qué harías si te quedaras atrapado en el interior de una ballena? ‘Whalefall’ llega a los cines el 16 de octubre
 [movies] Saltado porque no es estreno 2026: Ben Affleck confiesa que 'Liga de la Justicia' fue "el peor momento" de su carrera: "Vi cómo no hay que hacer una película, con el estudio en desacuerdo con el director. Es un error garrafal" (2025)
 [movies] Saltado noticia no apta para películas: Sólo tienes 2 días para ver en Netflix una inolvidable y espectacular película de aventuras en el espacio
+[movies] Saltado noticia no apta para películas: 'The Incomer' es uno de mis grandes descubrimientos de este año: una lección de humanidad preciosa
+[movies] Saltado noticia no apta para películas: Willem Dafoe, actor de 71 años: "Nunca soy tan feliz como cuando lavo los platos, limpio el estiércol de los animales o haciendo tareas sencillas"
 [movies] Saltado porque no es estreno 2026: Por qué hay una larga lista de gente en Hollywood que no quiere volver a trabajar con Kevin Costner: "No hubo puñetazos, pero se enfrentaron hasta que tuvieron que separarlos" (2025)
+[movies] Saltado noticia no apta para películas: Una obra maestra absoluta: un 86% de la prensa y 4,2/5 estrellas de los espectadores
 [movies] Saltado porque no es estreno 2026: Una de las películas más vistas de la historia de Netflix es este 'thriller' español que te encogerá el estómago (2023)
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
@@ -14,17 +16,13 @@ Fecha UTC: 2026-10-13T23:44:15.602431+00:00
 [movies] Saltado noticia no apta para películas: David Broncano por fin entrevistó a Shakira en 'La Revuelta', pero no salió como esperaba: "Lo que parecía ilusionante empieza a derrumbarse"
 [movies] Saltado noticia no apta para películas: 'La Séptima': Estos son los 9 presentadores que se pondrán al frente de los programas del nuevo canal de la TDT
 [movies] Saltado noticia no apta para películas: Cambio de presentadores en 'Supervivientes All Stars 3': Por qué presenta Sandra Barneda hoy 'Tierra de nadie'
-[movies] Saltado noticia no apta para películas: María Patiño vuelve a la televisión tras casi un año: "No sé por qué he tenido que pagar este peaje"
-[movies] Saltado noticia no apta para películas: "¿Por qué no graban programas nuevos?": Erundino Alonso no entiende las reposiciones "hasta el infinito" de 'El Cazador' en RTVE
 [movies] Saltado porque no es estreno 2026: Netflix se hace con los derechos del Mundial 2030 para emitirlo de manera exclusiva: en España podrá verse gratis un partido de cada jornada (2030)
 [movies] Saltado noticia no apta para películas: José Pablo López, presidente de RTVE: "El caché de David Broncano en 'La Revuelta' es acorde con lo que se paga en este tipo de formatos"
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11' vivió la mayor lección de un novio en la historia del 'reality'
 [movies] Saltado noticia no apta para películas: Arturo Valls (51 años): "Mi objetivo siempre había sido una jubilación prematura, pero ahora me veo bajando el ritmo y siendo más selectivo"
-[movies] Candidatos encontrados: 39 | Límite: 1
-[YouTube] No se encontró tráiler confiable para Por primera vez en 55 años, la película más censurada se estrena en España tal y como quería su director: Tan blasfema e impactante que el Vaticano la condenó
-[movies] Saltado porque no tiene tráiler confiable: Por primera vez en 55 años, la película más censurada se estrena en España tal y como quería su director: Tan blasfema e impactante que el Vaticano la condenó
-[YouTube] No se encontró tráiler confiable para ¿Qué harías si te quedaras atrapado en el interior de una ballena? ‘Whalefall’ llega a los cines el 16 de octubre
-[movies] Saltado porque no tiene tráiler confiable: ¿Qué harías si te quedaras atrapado en el interior de una ballena? ‘Whalefall’ llega a los cines el 16 de octubre
+[movies] Saltado noticia no apta para películas: El primer concursante de 'Pasapalabra' que ganó un millón de euros no tiene televisión en casa: "Perdería el tiempo viéndola"
+[movies] Saltado noticia no apta para películas: Si te gusta 'La isla de las tentaciones', este 'reality' de Netflix te parecerá aún mejor
+[movies] Candidatos encontrados: 37 | Límite: 1
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
