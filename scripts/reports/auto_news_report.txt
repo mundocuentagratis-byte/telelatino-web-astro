@@ -1,15 +1,11 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-14T13:40:25.610227+00:00
+Fecha UTC: 2026-10-14T20:12:00.559698+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
-[movies] Saltado noticia no apta para películas: Así es 'Narnia: El sobrino del mago, la aventura de fantasía que desafía el modelo de Netflix: Una superproducción que sí tendrá un estreno de verdad en cines
-[movies] Saltado noticia no apta para películas: 26 años después de 'Gladiator', Russell Crowe, a sus 62 años, se somete a una transformación física para regresar a la lucha contra Roma en una nueva película histórica
+[movies] Saltado porque no es estreno 2026: Andrew Garfield, 43 años, sobre 'El hombre que desafió al rey': "Cada día me despertaba, como todos, pensando: '¿Acaso las personas que quiero que rindan cuentas lo están haciendo hoy? No" (2027)
+[movies] Saltado noticia no apta para películas: Así es 'Narnia: El sobrino del mago', la aventura de fantasía que desafía el modelo de Netflix: Una superproducción que sí tendrá un estreno de verdad en cines
 [movies] Saltado porque no es estreno 2026: Ben Affleck acaba de estrenar su peor película como director: "¿Le estaban apuntando con un arma para obligarle a hacer este bodrio? (2012)
-[movies] Saltado porque no es estreno 2026: Richard Gere busca la casa de sus sueños en España: está enamorado de un pequeño pueblo gallego con una de las rentas per cápita más altas del país (2025)
+[movies] Saltado noticia no apta para películas: Richard Gere busca la casa de sus sueños en España: está enamorado de un pequeño pueblo gallego con una de las rentas per cápita más altas del país
 [movies] Saltado porque no es estreno 2026: Guillermo Del Toro rechazó 'Harry Potter' para hacer su propio cuento de hadas oscuro: ahora cumple 20 años (2006)
-[movies] Saltado porque no es estreno 2026: El guiño a 'Titanic' que Javier Calvo y Javier Ambrossi metieron en 'La bola negra' y es una de las grandes frases de la película (2017)
-[movies] Saltado porque no es estreno 2026: 79 años después, se han atrevido a hacer una nueva versión del infravalorado wéstern de John Wayne: No está a la altura del original (2024)
-[movies] Saltado porque no es estreno 2026: Ben Affleck confiesa que 'Liga de la Justicia' fue "el peor momento" de su carrera: "Vi cómo no hay que hacer una película, con el estudio en desacuerdo con el director. Es un error garrafal" (2025)
-[movies] Saltado noticia no apta para películas: Sólo tienes 2 días para ver en Netflix una inolvidable y espectacular película de aventuras en el espacio
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
@@ -17,18 +13,29 @@ Fecha UTC: 2026-10-14T13:40:25.610227+00:00
 [movies] Saltado noticia no apta para películas: David Broncano por fin entrevistó a Shakira en 'La Revuelta', pero no salió como esperaba: "Lo que parecía ilusionante empieza a derrumbarse"
 [movies] Saltado noticia no apta para películas: Así es Arianna Aragón, hija de Rody Aragón e hijastra de Carlos Sobera: una actriz que trabajó junto a su padrastro
 [movies] Saltado porque no es estreno 2026: El mexicano de Rota que intentó reflotar 'Pesadilla en la cocina', pero no pudo ser: un accidente doméstico obligó al dueño a vender (2023)
+[movies] Saltado noticia no apta para películas: Loles León desvela por qué fue despedida de 'Amigas y conocidas', de RTVE: "Tuve una pelea con el director en los pasillos de Prado del Rey"
+[movies] Saltado noticia no apta para películas: Iker Jiménez, presentador de 'Horizonte': "Los temas de conspiración ahora son los temas que más han subido porque calan"
+[movies] Saltado noticia no apta para películas: Ver de nuevo a Christian Gálvez al frente de 'El Rosco' deja claro que uno de los grandes errores de 'Rueda la letra' es Carlos Sobera
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' sorprendió con una nueva expulsión: Esta es la concursante que se medirá en la repesca con María Jesús
 [movies] Saltado noticia no apta para películas: María Patiño vuelve a la televisión tras casi un año: "No sé por qué he tenido que pagar este peaje"
 [movies] Saltado noticia no apta para películas: "¿Por qué no graban programas nuevos?": Erundino Alonso no entiende las reposiciones "hasta el infinito" de 'El Cazador' en RTVE
-[movies] Saltado porque no es estreno 2026: Netflix se hace con los derechos del Mundial 2030 para emitirlo de manera exclusiva: en España podrá verse gratis un partido de cada jornada (2030)
-[movies] Saltado noticia no apta para películas: José Pablo López, presidente de RTVE: "El caché de David Broncano en 'La Revuelta' es acorde con lo que se paga en este tipo de formatos"
-[movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11' vivió la mayor lección de un novio en la historia del 'reality'
-[movies] Candidatos encontrados: 37 | Límite: 1
-[IA] Probando proveedor cohere: Whalefall
-[IA] cohere falló (error): Cohere error 404: {"id":"b7f999a0-39b5-4061-bea3-f519ea264d17","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Whalefall
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/whalefall-supervivencia-extrema-en-el-corazon-de-una-ballena-2026-10-14-97985c.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[movies] Candidatos encontrados: 41 | Límite: 1
+[YouTube] No se encontró tráiler confiable para "He aprendido la lección": Josh Hartnett (48), estrella de 'Bajo la superficie', dejó escapar nada menos que dos películas de un director de cine consagrado
+[movies] Saltado porque no tiene tráiler confiable: "He aprendido la lección": Josh Hartnett (48), estrella de 'Bajo la superficie', dejó escapar nada menos que dos películas de un director de cine consagrado
+[YouTube] No se encontró tráiler confiable para "¡Vámonos de aquí, ese unicornio rosa nos va a matar a todos!": me lo he pasado realmente bien con 'Buddy', una propuesta radical
+[movies] Saltado porque no tiene tráiler confiable: "¡Vámonos de aquí, ese unicornio rosa nos va a matar a todos!": me lo he pasado realmente bien con 'Buddy', una propuesta radical
+[YouTube] No se encontró tráiler confiable para 'Whalefall' me atrapó en una sensación claustrofóbica constante durante las casi 2 horas que dura
+[movies] Saltado porque no tiene tráiler confiable: 'Whalefall' me atrapó en una sensación claustrofóbica constante durante las casi 2 horas que dura
+[YouTube] No se encontró tráiler confiable para 25 años después, Liv Tyler vuelve a colocarse la corona de la princesa Arwen de 'El señor de los anillos'
+[movies] Saltado porque no tiene tráiler confiable: 25 años después, Liv Tyler vuelve a colocarse la corona de la princesa Arwen de 'El señor de los anillos'
+[YouTube] No se encontró tráiler confiable para 26 años después de 'Gladiator', Russell Crowe, a sus 62 años, se somete a una transformación física para regresar a la lucha contra Roma en una nueva película histórica
+[movies] Saltado porque no tiene tráiler confiable: 26 años después de 'Gladiator', Russell Crowe, a sus 62 años, se somete a una transformación física para regresar a la lucha contra Roma en una nueva película histórica
+[YouTube] No se encontró tráiler confiable para José Mota (61 años): "Siempre cobré por hacer chistes, pero con una regla en la mano"
+[movies] Saltado porque no tiene tráiler confiable: José Mota (61 años): "Siempre cobré por hacer chistes, pero con una regla en la mano"
+[YouTube] No se encontró tráiler confiable para Sylvester Stallone opina sobre 'Yo soy Rocky': "se cumple el 50.º aniversario y es como si estuviera viendo un avatar de mí mismo"
+[movies] Saltado porque no tiene tráiler confiable: Sylvester Stallone opina sobre 'Yo soy Rocky': "se cumple el 50.º aniversario y es como si estuviera viendo un avatar de mí mismo"
+[YouTube] No se encontró tráiler confiable para ¿Puede la tecnología devolvernos a quienes amamos?: Hirokazu Koreeda se atreve con la ciencia ficción en 'Kakeru (Sheep in the Box)'
+[movies] Saltado porque no tiene tráiler confiable: ¿Puede la tecnología devolvernos a quienes amamos?: Hirokazu Koreeda se atreve con la ciencia ficción en 'Kakeru (Sheep in the Box)'
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
