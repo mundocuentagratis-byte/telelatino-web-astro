@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-14T20:12:00.559698+00:00
+Fecha UTC: 2026-10-14T23:14:07.235297+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Andrew Garfield, 43 años, sobre 'El hombre que desafió al rey': "Cada día me despertaba, como todos, pensando: '¿Acaso las personas que quiero que rindan cuentas lo están haciendo hoy? No" (2027)
 [movies] Saltado noticia no apta para películas: Así es 'Narnia: El sobrino del mago', la aventura de fantasía que desafía el modelo de Netflix: Una superproducción que sí tendrá un estreno de verdad en cines
@@ -20,22 +20,6 @@ Fecha UTC: 2026-10-14T20:12:00.559698+00:00
 [movies] Saltado noticia no apta para películas: María Patiño vuelve a la televisión tras casi un año: "No sé por qué he tenido que pagar este peaje"
 [movies] Saltado noticia no apta para películas: "¿Por qué no graban programas nuevos?": Erundino Alonso no entiende las reposiciones "hasta el infinito" de 'El Cazador' en RTVE
 [movies] Candidatos encontrados: 41 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "He aprendido la lección": Josh Hartnett (48), estrella de 'Bajo la superficie', dejó escapar nada menos que dos películas de un director de cine consagrado
-[movies] Saltado porque no tiene tráiler confiable: "He aprendido la lección": Josh Hartnett (48), estrella de 'Bajo la superficie', dejó escapar nada menos que dos películas de un director de cine consagrado
-[YouTube] No se encontró tráiler confiable para "¡Vámonos de aquí, ese unicornio rosa nos va a matar a todos!": me lo he pasado realmente bien con 'Buddy', una propuesta radical
-[movies] Saltado porque no tiene tráiler confiable: "¡Vámonos de aquí, ese unicornio rosa nos va a matar a todos!": me lo he pasado realmente bien con 'Buddy', una propuesta radical
-[YouTube] No se encontró tráiler confiable para 'Whalefall' me atrapó en una sensación claustrofóbica constante durante las casi 2 horas que dura
-[movies] Saltado porque no tiene tráiler confiable: 'Whalefall' me atrapó en una sensación claustrofóbica constante durante las casi 2 horas que dura
-[YouTube] No se encontró tráiler confiable para 25 años después, Liv Tyler vuelve a colocarse la corona de la princesa Arwen de 'El señor de los anillos'
-[movies] Saltado porque no tiene tráiler confiable: 25 años después, Liv Tyler vuelve a colocarse la corona de la princesa Arwen de 'El señor de los anillos'
-[YouTube] No se encontró tráiler confiable para 26 años después de 'Gladiator', Russell Crowe, a sus 62 años, se somete a una transformación física para regresar a la lucha contra Roma en una nueva película histórica
-[movies] Saltado porque no tiene tráiler confiable: 26 años después de 'Gladiator', Russell Crowe, a sus 62 años, se somete a una transformación física para regresar a la lucha contra Roma en una nueva película histórica
-[YouTube] No se encontró tráiler confiable para José Mota (61 años): "Siempre cobré por hacer chistes, pero con una regla en la mano"
-[movies] Saltado porque no tiene tráiler confiable: José Mota (61 años): "Siempre cobré por hacer chistes, pero con una regla en la mano"
-[YouTube] No se encontró tráiler confiable para Sylvester Stallone opina sobre 'Yo soy Rocky': "se cumple el 50.º aniversario y es como si estuviera viendo un avatar de mí mismo"
-[movies] Saltado porque no tiene tráiler confiable: Sylvester Stallone opina sobre 'Yo soy Rocky': "se cumple el 50.º aniversario y es como si estuviera viendo un avatar de mí mismo"
-[YouTube] No se encontró tráiler confiable para ¿Puede la tecnología devolvernos a quienes amamos?: Hirokazu Koreeda se atreve con la ciencia ficción en 'Kakeru (Sheep in the Box)'
-[movies] Saltado porque no tiene tráiler confiable: ¿Puede la tecnología devolvernos a quienes amamos?: Hirokazu Koreeda se atreve con la ciencia ficción en 'Kakeru (Sheep in the Box)'
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
