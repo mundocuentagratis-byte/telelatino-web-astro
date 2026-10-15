@@ -1,10 +1,12 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-15T19:52:22.128197+00:00
+Fecha UTC: 2026-10-15T23:03:33.617425+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
+[movies] Saltado noticia no apta para películas: ¿Qué harías si te quedaras atrapado en el interior de una ballena? ‘Whalefall’ llega a los cines el 16 de octubre
 [movies] Saltado porque no es estreno 2026: Sylvester Stallone (80 años): "Siempre he rechazado la frase 'Envejece con gracia'. ¿Cómo se envejece con gracia? Cuanto mayor me hago, más intento abrazar a mi niño interior" (2022)
+[movies] Saltado noticia no apta para películas: Penélope Cruz besó a la directora de su nueva película y el momento se ha quedado en el filme: "Me quedé tan sorprendida que giré la cabeza y miré directamente a la cámara"
+[movies] Saltado noticia no apta para películas: Ben Affleck, 54 años, sobre perder a sus padres en dos meses: "[Cuando mueren] los valoras de forma diferente y piensas en tu propia mortalidad"
 [movies] Saltado noticia no apta para películas: Uno de los medios de cine más respetados de Estados Unidos dicta sentencia sobre 'La bola negra': "Podría ganar el primer Oscar para Netflix. La única candidata capaz de desbancar a 'La Odisea"
-[movies] Saltado noticia no apta para películas: Mark Ruffalo compró 20 héctáreas de terreno en Nueva York y lleva casi 20 años luchando contra el 'fracking', una técnica prohibida en España
-[movies] Saltado noticia no apta para películas: "Lo más divertido que he hecho en mi vida en el mundo del cine": Arnold Schwarzenegger renunció al 99,85% de sus honorarios por su proyecto favorito
+[movies] Saltado noticia no apta para películas: El 'biopic' de uno de los mayores genios de la historia de la música: 'Chopin', al descubierto
 [movies] Saltado noticia no apta para películas: Rechazó 2 millones de dólares de Disney para cobrar solo 100.000 más regalías: tres décadas después está claro que fue una jugada maestra
 [movies] Saltado noticia no apta para películas: 'Hechizo: Bienvenidos a Hexe' ('Hexed'): fecha de estreno, de qué va y qué saber sobre la nueva película de Disney
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
@@ -15,31 +17,10 @@ Fecha UTC: 2026-10-15T19:52:22.128197+00:00
 [movies] Saltado noticia no apta para películas: Así es Arianna Aragón, hija de Rody Aragón e hijastra de Carlos Sobera: una actriz que trabajó junto a su padrastro
 [movies] Saltado noticia no apta para películas: Si te gusta 'La isla de las tentaciones', este 'reality' de Netflix te parecerá aún mejor
 [movies] Saltado noticia no apta para películas: Loles León desvela por qué fue despedida de 'Amigas y conocidas', de RTVE: "Tuve una pelea con el director en los pasillos de Prado del Rey"
-[movies] Candidatos encontrados: 42 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "Crees que tal vez, al otro lado, habrá un mundo cubierto de nieve que te necesita": la nueva adaptación de 'Las crónicas de Narnia' está en buenas manos
-[movies] Saltado porque no tiene tráiler confiable: "Crees que tal vez, al otro lado, habrá un mundo cubierto de nieve que te necesita": la nueva adaptación de 'Las crónicas de Narnia' está en buenas manos
-[YouTube] No se encontró tráiler confiable para Austin Abrams de 'Whalefall': “Era una posibilidad aterradora y, para mí, eso es precisamente lo emocionante”
-[movies] Saltado porque no tiene tráiler confiable: Austin Abrams de 'Whalefall': “Era una posibilidad aterradora y, para mí, eso es precisamente lo emocionante”
-[YouTube] No se encontró tráiler confiable para Ben Affleck, 54 años, sobre perder a sus padres en dos meses: "[Cuando mueren] los valoras de forma diferente y piensas en tu propia mortalidad"
-[movies] Saltado porque no tiene tráiler confiable: Ben Affleck, 54 años, sobre perder a sus padres en dos meses: "[Cuando mueren] los valoras de forma diferente y piensas en tu propia mortalidad"
-[YouTube] No se encontró tráiler confiable para El 'biopic' de uno de los mayores genios de la historia de la música: 'Chopin', al descubierto
-[movies] Saltado porque no tiene tráiler confiable: El 'biopic' de uno de los mayores genios de la historia de la música: 'Chopin', al descubierto
-[YouTube] No se encontró tráiler confiable para Iker Jiménez, presentador de 'Horizonte': "Los temas de conspiración ahora son los temas que más han subido porque calan"
-[movies] Saltado porque no tiene tráiler confiable: Iker Jiménez, presentador de 'Horizonte': "Los temas de conspiración ahora son los temas que más han subido porque calan"
-[YouTube] No se encontró tráiler confiable para La víctima que menos esperabas del caos político de los últimos meses es el especial de José Mota en Nochevieja: lo ha tenido que reescribir tres veces
-[movies] Saltado porque no tiene tráiler confiable: La víctima que menos esperabas del caos político de los últimos meses es el especial de José Mota en Nochevieja: lo ha tenido que reescribir tres veces
-[IA] Probando proveedor groq: Penélope Cruz besó a la directora de su nueva película y el momento se ha quedad
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: Penélope Cruz besó a la directora de su nueva película y el momento se ha quedad
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Penélope Cruz besó a la directora de su nueva película y el momento se ha quedad
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Penélope Cruz besó a la directora de su nueva película y el momento se ha quedad
-[IA] cohere falló (error): Cohere error 404: {"id":"541ec2d1-3ede-4000-91b0-5c8c168b7d94","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Penélope Cruz besó a la directora de su nueva película y el momento se ha quedad
+[movies] Candidatos encontrados: 39 | Límite: 1
+[IA] Probando proveedor gemini: "Lo más divertido que he hecho en mi vida en el mundo del cine": Arnold Schwarze
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/penelope-cruz-y-el-beso-improvisado-que-dejo-a-olivia-wilde-sin-palabras-en-la-invitacio-2026-10-15-f907bf.md
+[OK] Publicado: src/content/blog/arnold-schwarzenegger-y-su-debut-como-director-el-cine-de-la-pasion-2026-10-15-3afc63.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
