@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-14T23:14:07.235297+00:00
+Fecha UTC: 2026-10-15T04:30:03.131445+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Andrew Garfield, 43 años, sobre 'El hombre que desafió al rey': "Cada día me despertaba, como todos, pensando: '¿Acaso las personas que quiero que rindan cuentas lo están haciendo hoy? No" (2027)
 [movies] Saltado noticia no apta para películas: Así es 'Narnia: El sobrino del mago', la aventura de fantasía que desafía el modelo de Netflix: Una superproducción que sí tendrá un estreno de verdad en cines
@@ -9,10 +9,10 @@ Fecha UTC: 2026-10-14T23:14:07.235297+00:00
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
-[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' salvó a dos concursantes de la expulsión: Así queda la lista de nominados para el jueves
 [movies] Saltado noticia no apta para películas: David Broncano por fin entrevistó a Shakira en 'La Revuelta', pero no salió como esperaba: "Lo que parecía ilusionante empieza a derrumbarse"
+[movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11' vivió la mayor lección de un novio en la historia del 'reality'
 [movies] Saltado noticia no apta para películas: Así es Arianna Aragón, hija de Rody Aragón e hijastra de Carlos Sobera: una actriz que trabajó junto a su padrastro
-[movies] Saltado porque no es estreno 2026: El mexicano de Rota que intentó reflotar 'Pesadilla en la cocina', pero no pudo ser: un accidente doméstico obligó al dueño a vender (2023)
+[movies] Saltado noticia no apta para películas: Si te gusta 'La isla de las tentaciones', este 'reality' de Netflix te parecerá aún mejor
 [movies] Saltado noticia no apta para películas: Loles León desvela por qué fue despedida de 'Amigas y conocidas', de RTVE: "Tuve una pelea con el director en los pasillos de Prado del Rey"
 [movies] Saltado noticia no apta para películas: Iker Jiménez, presentador de 'Horizonte': "Los temas de conspiración ahora son los temas que más han subido porque calan"
 [movies] Saltado noticia no apta para películas: Ver de nuevo a Christian Gálvez al frente de 'El Rosco' deja claro que uno de los grandes errores de 'Rueda la letra' es Carlos Sobera
@@ -20,6 +20,19 @@ Fecha UTC: 2026-10-14T23:14:07.235297+00:00
 [movies] Saltado noticia no apta para películas: María Patiño vuelve a la televisión tras casi un año: "No sé por qué he tenido que pagar este peaje"
 [movies] Saltado noticia no apta para películas: "¿Por qué no graban programas nuevos?": Erundino Alonso no entiende las reposiciones "hasta el infinito" de 'El Cazador' en RTVE
 [movies] Candidatos encontrados: 41 | Límite: 1
+[IA] Probando proveedor cohere: Chopin
+[IA] cohere falló (error): Cohere error 404: {"id":"efde347e-aa40-45cf-8e7f-c741ace94011","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Chopin
+[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 3349 (char 3605)
+[IA] Probando proveedor groq: Chopin
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: Chopin
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: Chopin
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[movies] Error generando artículo Chopin: Todos los proveedores de IA fallaron. [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}} | [IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
