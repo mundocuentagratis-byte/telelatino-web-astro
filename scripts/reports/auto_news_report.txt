@@ -1,9 +1,11 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-16T13:13:34.768353+00:00
+Fecha UTC: 2026-10-16T19:33:41.264521+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: La otra madre (None)
+[movies] Saltado porque no es estreno 2026: Clint Eastwood compró un rancho de 54 hectáreas en California en 1995 y luego donó el terreno para crear una reserva natural (2024)
 [movies] Saltado porque no es estreno 2026: Solo un mes para el regreso de la saga distópica de 3.000 millones de dólares: resucitó 8 años después y ahora vuelve con otra precuela (2012)
-[movies] Saltado noticia no apta para películas: José Coronado (69 años), actor: "Mi padre era ingeniero y me aconsejó y trabajó para que yo fuese a la universidad"
+[movies] Saltado noticia no apta para películas: Guitarricadelafuente ('La bola negra'): "[Los Javis] estaban pensando en Miguel para hacer de Rafael, y me dijeron: '¿Te atrae?"
+[movies] Saltado noticia no apta para películas: Sylvester Stallone, 80 años, se arrepiente enormemente de haber realizado sus propias escenas de riesgo: "Terminé con nueve operaciones de espalda"
 [movies] Saltado porque no es estreno 2026: Sylvester Stallone (80 años): "Siempre he rechazado la frase 'Envejece con gracia'. ¿Cómo se envejece con gracia? Cuanto mayor me hago, más intento abrazar a mi niño interior" (2022)
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado noticia no apta para películas: Carlos Gónzález ('La bola negra'): "[Los Javis] en set no son amigos. Hay amor, hay respeto, pero son dos directores"
@@ -12,12 +14,12 @@ Fecha UTC: 2026-10-16T13:13:34.768353+00:00
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11' vivió la mayor lección de un novio en la historia del 'reality'
 [movies] Saltado noticia no apta para películas: Así es Arianna Aragón, hija de Rody Aragón e hijastra de Carlos Sobera: una actriz que trabajó junto a su padrastro
 [movies] Saltado noticia no apta para películas: Si te gusta 'La isla de las tentaciones', este 'reality' de Netflix te parecerá aún mejor
+[movies] Saltado noticia no apta para películas: Juan del Val, "destronado" como Premio Planeta: "Vuestra bilis no ha servido para nada, salvo para hacerme más fuerte"
+[movies] Saltado noticia no apta para películas: Quién fue Rafael Bueno Latorre, el hombre que tuvo en jaque a todo el sistema penitenciario español
+[movies] Saltado noticia no apta para películas: Tras más de 30 años en RTVE, una de las caras más conocidas de 'El Tiempo' se jubila: "Es uno de sus últimos telediarios, así que gracias"
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' sorprendió con la concursante repescada y la expulsada: Esta es la nueva lista de nominados
 [movies] Saltado noticia no apta para películas: Marc Giró: "No voy a hacer una carta abierta a los partidos que están apoltronados en el regazo del PP porque eso ya lo hace Nacho Abad cada día"
 [movies] Saltado noticia no apta para películas: La víctima que menos esperabas del caos político de los últimos meses es el especial de José Mota en Nochevieja: lo ha tenido que reescribir tres veces
-[movies] Saltado noticia no apta para películas: Pepe Macías, el 'Hombre Mágico' de 'La Revuelta': "Buscaban algo que diera un poquito de mal rollo, pero que pudiera ser gracioso"
-[movies] Saltado noticia no apta para películas: Por qué Nataly, tentadora de Rubén, ha abandonado 'La isla de las tentaciones 11': "Lo he estado pensando durante un par de días"
-[movies] Saltado noticia no apta para películas: Loles León desvela por qué fue despedida de 'Amigas y conocidas', de RTVE: "Tuve una pelea con el director en los pasillos de Prado del Rey"
 [movies] Candidatos encontrados: 37 | Límite: 1
 [IA] Probando proveedor groq: Cars: 20 aniversario
 [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
@@ -27,19 +29,10 @@ Fecha UTC: 2026-10-16T13:13:34.768353+00:00
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 [IA] Probando proveedor cohere: Cars: 20 aniversario
-[IA] cohere falló (error): Cohere error 404: {"id":"2a0739a2-ebd2-45cd-a72d-ba73b804a615","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] cohere falló (error): Cohere error 404: {"id":"e23994ac-538e-4635-8e6c-09398aee2669","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
 [IA] Probando proveedor gemini: Cars: 20 aniversario
-[IA] gemini falló (error): Unterminated string starting at: line 4 column 11 (char 270)
-[movies] Error generando artículo Cars: 20 aniversario: Todos los proveedores de IA fallaron. [IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429} | [IA] cohere falló (error): Cohere error 404: {"id":"2a0739a2-ebd2-45cd-a72d-ba73b804a615","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."} | [IA] gemini falló (error): Unterminated string starting at: line 4 column 11 (char 270)
-[IA] Probando proveedor mistral: El mal hijo
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: El mal hijo
-[IA] cohere falló (error): Cohere error 404: {"id":"f8f5de84-7c1d-4beb-8fc8-3822b35525fc","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: El mal hijo
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/el-mal-hijo-un-drama-familiar-lleno-de-secretos-que-vera-la-luz-en-2026-2026-10-16-b9ee90.md
+[OK] Publicado: src/content/blog/cars-20-aniversario-un-regreso-emocionante-a-la-gran-pantalla-2026-10-16-d5e34e.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
