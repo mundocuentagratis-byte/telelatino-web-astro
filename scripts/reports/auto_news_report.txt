@@ -1,15 +1,10 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-16T04:24:47.615007+00:00
+Fecha UTC: 2026-10-16T13:13:34.768353+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: La otra madre (None)
-[movies] Saltado noticia no apta para películas: ¿Qué harías si te quedaras atrapado en el interior de una ballena? ‘Whalefall’ llega a los cines el 16 de octubre
+[movies] Saltado porque no es estreno 2026: Solo un mes para el regreso de la saga distópica de 3.000 millones de dólares: resucitó 8 años después y ahora vuelve con otra precuela (2012)
+[movies] Saltado noticia no apta para películas: José Coronado (69 años), actor: "Mi padre era ingeniero y me aconsejó y trabajó para que yo fuese a la universidad"
 [movies] Saltado porque no es estreno 2026: Sylvester Stallone (80 años): "Siempre he rechazado la frase 'Envejece con gracia'. ¿Cómo se envejece con gracia? Cuanto mayor me hago, más intento abrazar a mi niño interior" (2022)
-[movies] Saltado noticia no apta para películas: Penélope Cruz besó a la directora de su nueva película y el momento se ha quedado en el filme: "Me quedé tan sorprendida que giré la cabeza y miré directamente a la cámara"
-[movies] Saltado noticia no apta para películas: Ben Affleck, 54 años, sobre perder a sus padres en dos meses: "[Cuando mueren] los valoras de forma diferente y piensas en tu propia mortalidad"
-[movies] Saltado noticia no apta para películas: Uno de los medios de cine más respetados de Estados Unidos dicta sentencia sobre 'La bola negra': "Podría ganar el primer Oscar para Netflix. La única candidata capaz de desbancar a 'La Odisea"
-[movies] Saltado noticia no apta para películas: El 'biopic' de uno de los mayores genios de la historia de la música: 'Chopin', al descubierto
-[movies] Saltado noticia no apta para películas: Rechazó 2 millones de dólares de Disney para cobrar solo 100.000 más regalías: tres décadas después está claro que fue una jugada maestra
-[movies] Saltado noticia no apta para películas: 'Hechizo: Bienvenidos a Hexe' ('Hexed'): fecha de estreno, de qué va y qué saber sobre la nueva película de Disney
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado noticia no apta para películas: Carlos Gónzález ('La bola negra'): "[Los Javis] en set no son amigos. Hay amor, hay respeto, pero son dos directores"
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
@@ -17,11 +12,34 @@ Fecha UTC: 2026-10-16T04:24:47.615007+00:00
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11' vivió la mayor lección de un novio en la historia del 'reality'
 [movies] Saltado noticia no apta para películas: Así es Arianna Aragón, hija de Rody Aragón e hijastra de Carlos Sobera: una actriz que trabajó junto a su padrastro
 [movies] Saltado noticia no apta para películas: Si te gusta 'La isla de las tentaciones', este 'reality' de Netflix te parecerá aún mejor
+[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' sorprendió con la concursante repescada y la expulsada: Esta es la nueva lista de nominados
+[movies] Saltado noticia no apta para películas: Marc Giró: "No voy a hacer una carta abierta a los partidos que están apoltronados en el regazo del PP porque eso ya lo hace Nacho Abad cada día"
+[movies] Saltado noticia no apta para películas: La víctima que menos esperabas del caos político de los últimos meses es el especial de José Mota en Nochevieja: lo ha tenido que reescribir tres veces
+[movies] Saltado noticia no apta para películas: Pepe Macías, el 'Hombre Mágico' de 'La Revuelta': "Buscaban algo que diera un poquito de mal rollo, pero que pudiera ser gracioso"
+[movies] Saltado noticia no apta para películas: Por qué Nataly, tentadora de Rubén, ha abandonado 'La isla de las tentaciones 11': "Lo he estado pensando durante un par de días"
 [movies] Saltado noticia no apta para películas: Loles León desvela por qué fue despedida de 'Amigas y conocidas', de RTVE: "Tuve una pelea con el director en los pasillos de Prado del Rey"
 [movies] Candidatos encontrados: 37 | Límite: 1
-[IA] Probando proveedor gemini: Boiúna: La leyenda del Amazonas
+[IA] Probando proveedor groq: Cars: 20 aniversario
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: Cars: 20 aniversario
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: Cars: 20 aniversario
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: Cars: 20 aniversario
+[IA] cohere falló (error): Cohere error 404: {"id":"2a0739a2-ebd2-45cd-a72d-ba73b804a615","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Cars: 20 aniversario
+[IA] gemini falló (error): Unterminated string starting at: line 4 column 11 (char 270)
+[movies] Error generando artículo Cars: 20 aniversario: Todos los proveedores de IA fallaron. [IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429} | [IA] cohere falló (error): Cohere error 404: {"id":"2a0739a2-ebd2-45cd-a72d-ba73b804a615","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."} | [IA] gemini falló (error): Unterminated string starting at: line 4 column 11 (char 270)
+[IA] Probando proveedor mistral: El mal hijo
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: El mal hijo
+[IA] cohere falló (error): Cohere error 404: {"id":"f8f5de84-7c1d-4beb-8fc8-3822b35525fc","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: El mal hijo
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/boiuna-la-leyenda-del-amazonas-un-thriller-de-supervivencia-en-la-jungla-2026-10-16-84ba61.md
+[OK] Publicado: src/content/blog/el-mal-hijo-un-drama-familiar-lleno-de-secretos-que-vera-la-luz-en-2026-2026-10-16-b9ee90.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
