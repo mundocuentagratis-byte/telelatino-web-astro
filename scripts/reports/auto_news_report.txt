@@ -1,6 +1,7 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-15T23:03:33.617425+00:00
+Fecha UTC: 2026-10-16T04:24:47.615007+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
+[movies] Saltado porque no es estreno 2026: La otra madre (None)
 [movies] Saltado noticia no apta para películas: ¿Qué harías si te quedaras atrapado en el interior de una ballena? ‘Whalefall’ llega a los cines el 16 de octubre
 [movies] Saltado porque no es estreno 2026: Sylvester Stallone (80 años): "Siempre he rechazado la frase 'Envejece con gracia'. ¿Cómo se envejece con gracia? Cuanto mayor me hago, más intento abrazar a mi niño interior" (2022)
 [movies] Saltado noticia no apta para películas: Penélope Cruz besó a la directora de su nueva película y el momento se ha quedado en el filme: "Me quedé tan sorprendida que giré la cabeza y miré directamente a la cámara"
@@ -10,17 +11,17 @@ Fecha UTC: 2026-10-15T23:03:33.617425+00:00
 [movies] Saltado noticia no apta para películas: Rechazó 2 millones de dólares de Disney para cobrar solo 100.000 más regalías: tres décadas después está claro que fue una jugada maestra
 [movies] Saltado noticia no apta para películas: 'Hechizo: Bienvenidos a Hexe' ('Hexed'): fecha de estreno, de qué va y qué saber sobre la nueva película de Disney
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
-[movies] Saltado porque no es estreno 2026: La familia de Paul Walker se posiciona ante la posibilidad de que el fallecido actor regrese en la nueva película de 'Fast & Furious': "lo que Meadow quiere que se haga" (2014)
+[movies] Saltado noticia no apta para películas: Carlos Gónzález ('La bola negra'): "[Los Javis] en set no son amigos. Hay amor, hay respeto, pero son dos directores"
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
 [movies] Saltado noticia no apta para películas: David Broncano por fin entrevistó a Shakira en 'La Revuelta', pero no salió como esperaba: "Lo que parecía ilusionante empieza a derrumbarse"
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11' vivió la mayor lección de un novio en la historia del 'reality'
 [movies] Saltado noticia no apta para películas: Así es Arianna Aragón, hija de Rody Aragón e hijastra de Carlos Sobera: una actriz que trabajó junto a su padrastro
 [movies] Saltado noticia no apta para películas: Si te gusta 'La isla de las tentaciones', este 'reality' de Netflix te parecerá aún mejor
 [movies] Saltado noticia no apta para películas: Loles León desvela por qué fue despedida de 'Amigas y conocidas', de RTVE: "Tuve una pelea con el director en los pasillos de Prado del Rey"
-[movies] Candidatos encontrados: 39 | Límite: 1
-[IA] Probando proveedor gemini: "Lo más divertido que he hecho en mi vida en el mundo del cine": Arnold Schwarze
+[movies] Candidatos encontrados: 37 | Límite: 1
+[IA] Probando proveedor gemini: Boiúna: La leyenda del Amazonas
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/arnold-schwarzenegger-y-su-debut-como-director-el-cine-de-la-pasion-2026-10-15-3afc63.md
+[OK] Publicado: src/content/blog/boiuna-la-leyenda-del-amazonas-un-thriller-de-supervivencia-en-la-jungla-2026-10-16-84ba61.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
