@@ -1,12 +1,19 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-16T19:33:41.264521+00:00
+Fecha UTC: 2026-10-16T22:48:11.951363+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: La otra madre (None)
+[movies] Saltado noticia no apta para películas: ¿Qué harías si te quedaras atrapado en el interior de una ballena? ‘Whalefall’ llega a los cines el 16 de octubre
+[movies] Saltado porque no es estreno 2026: Zendaya regresa a la ciencia ficción tras 'Dune' con uno de los mejores directores actuales del género (2028)
 [movies] Saltado porque no es estreno 2026: Clint Eastwood compró un rancho de 54 hectáreas en California en 1995 y luego donó el terreno para crear una reserva natural (2024)
+[movies] Saltado noticia no apta para películas: 'Batman 2' copia a 'Liga de la Justicia' para estar terminada a tiempo: Lo de Zack Snyder fue un desastre, pero esta vez parece una jugada ganadora
+[movies] Saltado noticia no apta para películas: Jessica Lange, 77 años: "Me han dicho que ahora contratan a actores por la cantidad de seguidores que tiene en redes sociales. Eso es una locura"
 [movies] Saltado porque no es estreno 2026: Solo un mes para el regreso de la saga distópica de 3.000 millones de dólares: resucitó 8 años después y ahora vuelve con otra precuela (2012)
+[movies] Saltado noticia no apta para películas: 'Wildwood' no es una fantasía medieval fascinante: es la mejor película de animación stop-motion de la historia
+[movies] Saltado noticia no apta para películas: La película de ciencia ficción y aventuras que resucitó una franquicia que parecía muerta se emite hoy en televisión
+[movies] Saltado noticia no apta para películas: José Coronado (69 años), actor: "Mi padre era ingeniero y me aconsejó y trabajó para que yo fuese a la universidad"
+[movies] Saltado noticia no apta para películas: Directa al número 1: una nueva película se convierte en el referente absoluto en Amazon Prime
 [movies] Saltado noticia no apta para películas: Guitarricadelafuente ('La bola negra'): "[Los Javis] estaban pensando en Miguel para hacer de Rafael, y me dijeron: '¿Te atrae?"
 [movies] Saltado noticia no apta para películas: Sylvester Stallone, 80 años, se arrepiente enormemente de haber realizado sus propias escenas de riesgo: "Terminé con nueve operaciones de espalda"
-[movies] Saltado porque no es estreno 2026: Sylvester Stallone (80 años): "Siempre he rechazado la frase 'Envejece con gracia'. ¿Cómo se envejece con gracia? Cuanto mayor me hago, más intento abrazar a mi niño interior" (2022)
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado noticia no apta para películas: Carlos Gónzález ('La bola negra'): "[Los Javis] en set no son amigos. Hay amor, hay respeto, pero son dos directores"
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
@@ -20,19 +27,10 @@ Fecha UTC: 2026-10-16T19:33:41.264521+00:00
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' sorprendió con la concursante repescada y la expulsada: Esta es la nueva lista de nominados
 [movies] Saltado noticia no apta para películas: Marc Giró: "No voy a hacer una carta abierta a los partidos que están apoltronados en el regazo del PP porque eso ya lo hace Nacho Abad cada día"
 [movies] Saltado noticia no apta para películas: La víctima que menos esperabas del caos político de los últimos meses es el especial de José Mota en Nochevieja: lo ha tenido que reescribir tres veces
-[movies] Candidatos encontrados: 37 | Límite: 1
-[IA] Probando proveedor groq: Cars: 20 aniversario
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: Cars: 20 aniversario
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Cars: 20 aniversario
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Cars: 20 aniversario
-[IA] cohere falló (error): Cohere error 404: {"id":"e23994ac-538e-4635-8e6c-09398aee2669","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Cars: 20 aniversario
+[movies] Candidatos encontrados: 30 | Límite: 1
+[IA] Probando proveedor gemini: Kakeru
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/cars-20-aniversario-un-regreso-emocionante-a-la-gran-pantalla-2026-10-16-d5e34e.md
+[OK] Publicado: src/content/blog/kakeru-el-dilema-androide-de-hirokazu-kore-eda-sobre-el-duelo-2026-10-16-1deefb.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
