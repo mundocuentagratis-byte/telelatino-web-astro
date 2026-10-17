@@ -1,8 +1,10 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-17T15:31:27.507847+00:00
+Fecha UTC: 2026-10-17T18:27:28.826953+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: La otra madre (None)
 [movies] Saltado noticia no apta para películas: ¿Qué harías si te quedaras atrapado en el interior de una ballena? ‘Whalefall’ llega a los cines el 16 de octubre
+[movies] Saltado noticia no apta para películas: El mayor error de 'Street Fighter' no está en el guion: la elección de canciones no tiene ningún sentido
+[movies] Saltado noticia no apta para películas: 'Batman Forever' iba a tener una escena grotesca con un murciélago gigante. La cortaron a última hora, pero los fans están pidiendo un director's cut para incluirla
 [movies] Saltado noticia no apta para películas: "Que no la cagase": Hans Zimmer tuvo que romper con Christopher Nolan para trabajar con Dennis Villeneuve, pero con una condición
 [movies] Saltado noticia no apta para películas: El momento que terminó con la amistad entre Julia Roberts y Michael Douglas: "Crucé la línea con la actriz joven más solicitada de Hollywood"
 [movies] Saltado noticia no apta para películas: Debutó hace 41 años en un morrocotudo fracaso cuando era adolescente. Ahora es uno de los actores más carismáticos de Hollywood. ¿Le reconoces?
@@ -11,9 +13,7 @@ Fecha UTC: 2026-10-17T15:31:27.507847+00:00
 [movies] Saltado noticia no apta para películas: El fracaso de 'Digger' va a tener consecuencias nefastas en el cine, según Ben Affleck: "Un montón de películas malas y sin originalidad"
 [movies] Saltado porque no es estreno 2026: Clint Eastwood compró un rancho de 54 hectáreas en California en 1995 y luego donó el terreno para crear una reserva natural (2024)
 [movies] Saltado noticia no apta para películas: Crítica de 'La invitación': Penélope Cruz protagoniza una versión más picante de la película española que apunta a Oscar
-[movies] Saltado porque no es estreno 2026: Solo un mes para el regreso de la saga distópica de 3.000 millones de dólares: resucitó 8 años después y ahora vuelve con otra precuela (2012)
-[movies] Saltado noticia no apta para películas: 'Wildwood' no es una fantasía medieval fascinante: es la mejor película de animación stop-motion de la historia
-[movies] Saltado noticia no apta para películas: La película de ciencia ficción y aventuras que resucitó una franquicia que parecía muerta se emite hoy en televisión
+[movies] Saltado noticia no apta para películas: 'Batman 2' copia a 'Liga de la Justicia' para estar terminada a tiempo: Lo de Zack Snyder fue un desastre, pero esta vez parece una jugada ganadora
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
 [movies] Saltado noticia no apta para películas: Ver de nuevo a Christian Gálvez al frente de 'El Rosco' deja claro que uno de los grandes errores de 'Rueda la letra' es Carlos Sobera
@@ -21,16 +21,19 @@ Fecha UTC: 2026-10-17T15:31:27.507847+00:00
 [movies] Saltado noticia no apta para películas: Así es Arianna Aragón, hija de Rody Aragón e hijastra de Carlos Sobera: una actriz que trabajó junto a su padrastro
 [movies] Saltado noticia no apta para películas: Si te gusta 'La isla de las tentaciones', este 'reality' de Netflix te parecerá aún mejor
 [movies] Saltado noticia no apta para películas: Tras más de 30 años en RTVE, una de las caras más conocidas de 'El Tiempo' se jubila: "Es uno de sus últimos telediarios, así que gracias"
-[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' sorprendió con la concursante repescada y la expulsada: Esta es la nueva lista de nominados
-[movies] Candidatos encontrados: 36 | Límite: 1
-[IA] Probando proveedor mistral: Parkour en Gaza
+[movies] Candidatos encontrados: 35 | Límite: 1
+[IA] Probando proveedor groq: Wildwood
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: Wildwood
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: Wildwood
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Parkour en Gaza
-[IA] cohere falló (error): Cohere error 404: {"id":"58bc1d9f-3b79-48f6-a81e-ef9b3ad1e4c7","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Parkour en Gaza
+[IA] Probando proveedor cohere: Wildwood
+[IA] cohere falló (error): Cohere error 404: {"id":"89fe6d4b-090e-480d-8dcf-256353896da2","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Wildwood
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/parkour-en-gaza-el-documental-que-salta-fronteras-y-almas-2026-10-17-0ad8db.md
+[OK] Publicado: src/content/blog/wildwood-una-aventura-animada-que-te-transportara-a-un-bosque-magico-2026-10-17-17acce.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
