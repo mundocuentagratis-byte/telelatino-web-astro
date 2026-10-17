@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-17T12:10:12.144555+00:00
+Fecha UTC: 2026-10-17T15:31:27.507847+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: La otra madre (None)
 [movies] Saltado noticia no apta para películas: ¿Qué harías si te quedaras atrapado en el interior de una ballena? ‘Whalefall’ llega a los cines el 16 de octubre
@@ -20,15 +20,17 @@ Fecha UTC: 2026-10-17T12:10:12.144555+00:00
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11' vivió la mayor lección de un novio en la historia del 'reality'
 [movies] Saltado noticia no apta para películas: Así es Arianna Aragón, hija de Rody Aragón e hijastra de Carlos Sobera: una actriz que trabajó junto a su padrastro
 [movies] Saltado noticia no apta para películas: Si te gusta 'La isla de las tentaciones', este 'reality' de Netflix te parecerá aún mejor
-[movies] Saltado noticia no apta para películas: "El profesor de gimnasia me apoyó más que cualquier otro profesor": Verónica Romero ('OT') recuerda el sambenito que le pusieron
-[movies] Saltado noticia no apta para películas: Juan del Val, "destronado" como Premio Planeta: "Vuestra bilis no ha servido para nada, salvo para hacerme más fuerte"
-[movies] Saltado noticia no apta para películas: Quién fue Rafael Bueno Latorre, el hombre que tuvo en jaque a todo el sistema penitenciario español
 [movies] Saltado noticia no apta para películas: Tras más de 30 años en RTVE, una de las caras más conocidas de 'El Tiempo' se jubila: "Es uno de sus últimos telediarios, así que gracias"
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' sorprendió con la concursante repescada y la expulsada: Esta es la nueva lista de nominados
-[movies] Candidatos encontrados: 33 | Límite: 1
-[IA] Probando proveedor gemini: Narnia: El sobrino del mago
+[movies] Candidatos encontrados: 36 | Límite: 1
+[IA] Probando proveedor mistral: Parkour en Gaza
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: Parkour en Gaza
+[IA] cohere falló (error): Cohere error 404: {"id":"58bc1d9f-3b79-48f6-a81e-ef9b3ad1e4c7","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Parkour en Gaza
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/narnia-el-sobrino-del-mago-el-origen-del-mundo-magico-2026-10-17-d83621.md
+[OK] Publicado: src/content/blog/parkour-en-gaza-el-documental-que-salta-fronteras-y-almas-2026-10-17-0ad8db.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
