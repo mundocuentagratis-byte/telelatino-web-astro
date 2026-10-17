@@ -1,19 +1,16 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-17T18:27:28.826953+00:00
+Fecha UTC: 2026-10-17T22:16:29.573806+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: La otra madre (None)
 [movies] Saltado noticia no apta para películas: ¿Qué harías si te quedaras atrapado en el interior de una ballena? ‘Whalefall’ llega a los cines el 16 de octubre
+[movies] Saltado noticia no apta para películas: Ian Gibson, experto en Lorca, ha visto 'La bola negra' y le parece "extraordinaria": "Me pasó un poco como a Carlos Boyero, que se perdió un poco con las tres historias"
 [movies] Saltado noticia no apta para películas: El mayor error de 'Street Fighter' no está en el guion: la elección de canciones no tiene ningún sentido
+[movies] Saltado noticia no apta para películas: 45 segundos en esta película de fantasía le convirtieron en un ídolo adolescente, pero se volvió en su contra: "Hubo un momento en mi vida en el que pensaba: ‘No quiero hablar de eso"
 [movies] Saltado noticia no apta para películas: 'Batman Forever' iba a tener una escena grotesca con un murciélago gigante. La cortaron a última hora, pero los fans están pidiendo un director's cut para incluirla
 [movies] Saltado noticia no apta para películas: "Que no la cagase": Hans Zimmer tuvo que romper con Christopher Nolan para trabajar con Dennis Villeneuve, pero con una condición
-[movies] Saltado noticia no apta para películas: El momento que terminó con la amistad entre Julia Roberts y Michael Douglas: "Crucé la línea con la actriz joven más solicitada de Hollywood"
 [movies] Saltado noticia no apta para películas: Debutó hace 41 años en un morrocotudo fracaso cuando era adolescente. Ahora es uno de los actores más carismáticos de Hollywood. ¿Le reconoces?
 [movies] Saltado noticia no apta para películas: 6 semanas de ensayos y 100 vatios de potencia: así se consiguió una de las escenas más escalofriantes del cine
 [movies] Saltado porque no es estreno 2026: Zendaya regresa a la ciencia ficción tras 'Dune' con uno de los mejores directores actuales del género (2028)
-[movies] Saltado noticia no apta para películas: El fracaso de 'Digger' va a tener consecuencias nefastas en el cine, según Ben Affleck: "Un montón de películas malas y sin originalidad"
-[movies] Saltado porque no es estreno 2026: Clint Eastwood compró un rancho de 54 hectáreas en California en 1995 y luego donó el terreno para crear una reserva natural (2024)
-[movies] Saltado noticia no apta para películas: Crítica de 'La invitación': Penélope Cruz protagoniza una versión más picante de la película española que apunta a Oscar
-[movies] Saltado noticia no apta para películas: 'Batman 2' copia a 'Liga de la Justicia' para estar terminada a tiempo: Lo de Zack Snyder fue un desastre, pero esta vez parece una jugada ganadora
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
 [movies] Saltado noticia no apta para películas: Ver de nuevo a Christian Gálvez al frente de 'El Rosco' deja claro que uno de los grandes errores de 'Rueda la letra' es Carlos Sobera
@@ -21,19 +18,23 @@ Fecha UTC: 2026-10-17T18:27:28.826953+00:00
 [movies] Saltado noticia no apta para películas: Así es Arianna Aragón, hija de Rody Aragón e hijastra de Carlos Sobera: una actriz que trabajó junto a su padrastro
 [movies] Saltado noticia no apta para películas: Si te gusta 'La isla de las tentaciones', este 'reality' de Netflix te parecerá aún mejor
 [movies] Saltado noticia no apta para películas: Tras más de 30 años en RTVE, una de las caras más conocidas de 'El Tiempo' se jubila: "Es uno de sus últimos telediarios, así que gracias"
-[movies] Candidatos encontrados: 35 | Límite: 1
-[IA] Probando proveedor groq: Wildwood
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: Wildwood
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Wildwood
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Wildwood
-[IA] cohere falló (error): Cohere error 404: {"id":"89fe6d4b-090e-480d-8dcf-256353896da2","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Wildwood
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/wildwood-una-aventura-animada-que-te-transportara-a-un-bosque-magico-2026-10-17-17acce.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[movies] Candidatos encontrados: 37 | Límite: 1
+[YouTube] No se encontró tráiler confiable para "El profesor de gimnasia me apoyó más que cualquier otro profesor": Verónica Romero ('OT') recuerda el sambenito que le pusieron
+[movies] Saltado porque no tiene tráiler confiable: "El profesor de gimnasia me apoyó más que cualquier otro profesor": Verónica Romero ('OT') recuerda el sambenito que le pusieron
+[YouTube] No se encontró tráiler confiable para Dos artesanos pasaron 3 años y medio uniendo anilla por anilla hasta perder la sensibilidad en los dedos por el realismo absoluto de 'El señor de los anillos'
+[movies] Saltado porque no tiene tráiler confiable: Dos artesanos pasaron 3 años y medio uniendo anilla por anilla hasta perder la sensibilidad en los dedos por el realismo absoluto de 'El señor de los anillos'
+[YouTube] No se encontró tráiler confiable para El fracaso de 'Digger' va a tener consecuencias nefastas en el cine, según Ben Affleck: "Un montón de películas malas y sin originalidad"
+[movies] Saltado porque no tiene tráiler confiable: El fracaso de 'Digger' va a tener consecuencias nefastas en el cine, según Ben Affleck: "Un montón de películas malas y sin originalidad"
+[YouTube] No se encontró tráiler confiable para El momento que terminó con la amistad entre Julia Roberts y Michael Douglas: "Crucé la línea con la actriz joven más solicitada de Hollywood"
+[movies] Saltado porque no tiene tráiler confiable: El momento que terminó con la amistad entre Julia Roberts y Michael Douglas: "Crucé la línea con la actriz joven más solicitada de Hollywood"
+[YouTube] No se encontró tráiler confiable para El pueblo asturiano en el que Lujan Argüelles pasó su infancia: "Soñaba con salir de allí para vivir"
+[movies] Saltado porque no tiene tráiler confiable: El pueblo asturiano en el que Lujan Argüelles pasó su infancia: "Soñaba con salir de allí para vivir"
+[YouTube] No se encontró tráiler confiable para Hace 6 años se conocieron en 'First Dates', hoy en día siguen juntos: ella dijo a sus padres que se iba a trabajar
+[movies] Saltado porque no tiene tráiler confiable: Hace 6 años se conocieron en 'First Dates', hoy en día siguen juntos: ella dijo a sus padres que se iba a trabajar
+[YouTube] No se encontró tráiler confiable para Juan del Val, "destronado" como Premio Planeta: "Vuestra bilis no ha servido para nada, salvo para hacerme más fuerte"
+[movies] Saltado porque no tiene tráiler confiable: Juan del Val, "destronado" como Premio Planeta: "Vuestra bilis no ha servido para nada, salvo para hacerme más fuerte"
+[YouTube] No se encontró tráiler confiable para Quién fue Rafael Bueno Latorre, el hombre que tuvo en jaque a todo el sistema penitenciario español
+[movies] Saltado porque no tiene tráiler confiable: Quién fue Rafael Bueno Latorre, el hombre que tuvo en jaque a todo el sistema penitenciario español
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
