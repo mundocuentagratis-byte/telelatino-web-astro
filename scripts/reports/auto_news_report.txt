@@ -1,42 +1,34 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-17T04:18:50.808119+00:00
+Fecha UTC: 2026-10-17T12:10:12.144555+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: La otra madre (None)
 [movies] Saltado noticia no apta para películas: ¿Qué harías si te quedaras atrapado en el interior de una ballena? ‘Whalefall’ llega a los cines el 16 de octubre
+[movies] Saltado noticia no apta para películas: "Que no la cagase": Hans Zimmer tuvo que romper con Christopher Nolan para trabajar con Dennis Villeneuve, pero con una condición
+[movies] Saltado noticia no apta para películas: El momento que terminó con la amistad entre Julia Roberts y Michael Douglas: "Crucé la línea con la actriz joven más solicitada de Hollywood"
+[movies] Saltado noticia no apta para películas: Debutó hace 41 años en un morrocotudo fracaso cuando era adolescente. Ahora es uno de los actores más carismáticos de Hollywood. ¿Le reconoces?
+[movies] Saltado noticia no apta para películas: 6 semanas de ensayos y 100 vatios de potencia: así se consiguió una de las escenas más escalofriantes del cine
 [movies] Saltado porque no es estreno 2026: Zendaya regresa a la ciencia ficción tras 'Dune' con uno de los mejores directores actuales del género (2028)
+[movies] Saltado noticia no apta para películas: El fracaso de 'Digger' va a tener consecuencias nefastas en el cine, según Ben Affleck: "Un montón de películas malas y sin originalidad"
 [movies] Saltado porque no es estreno 2026: Clint Eastwood compró un rancho de 54 hectáreas en California en 1995 y luego donó el terreno para crear una reserva natural (2024)
-[movies] Saltado noticia no apta para películas: 'Batman 2' copia a 'Liga de la Justicia' para estar terminada a tiempo: Lo de Zack Snyder fue un desastre, pero esta vez parece una jugada ganadora
-[movies] Saltado noticia no apta para películas: Jessica Lange, 77 años: "Me han dicho que ahora contratan a actores por la cantidad de seguidores que tiene en redes sociales. Eso es una locura"
+[movies] Saltado noticia no apta para películas: Crítica de 'La invitación': Penélope Cruz protagoniza una versión más picante de la película española que apunta a Oscar
 [movies] Saltado porque no es estreno 2026: Solo un mes para el regreso de la saga distópica de 3.000 millones de dólares: resucitó 8 años después y ahora vuelve con otra precuela (2012)
 [movies] Saltado noticia no apta para películas: 'Wildwood' no es una fantasía medieval fascinante: es la mejor película de animación stop-motion de la historia
 [movies] Saltado noticia no apta para películas: La película de ciencia ficción y aventuras que resucitó una franquicia que parecía muerta se emite hoy en televisión
-[movies] Saltado noticia no apta para películas: José Coronado (69 años), actor: "Mi padre era ingeniero y me aconsejó y trabajó para que yo fuese a la universidad"
-[movies] Saltado noticia no apta para películas: Directa al número 1: una nueva película se convierte en el referente absoluto en Amazon Prime
-[movies] Saltado noticia no apta para películas: Guitarricadelafuente ('La bola negra'): "[Los Javis] estaban pensando en Miguel para hacer de Rafael, y me dijeron: '¿Te atrae?"
-[movies] Saltado noticia no apta para películas: Sylvester Stallone, 80 años, se arrepiente enormemente de haber realizado sus propias escenas de riesgo: "Terminé con nueve operaciones de espalda"
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
 [movies] Saltado noticia no apta para películas: Ver de nuevo a Christian Gálvez al frente de 'El Rosco' deja claro que uno de los grandes errores de 'Rueda la letra' es Carlos Sobera
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11' vivió la mayor lección de un novio en la historia del 'reality'
 [movies] Saltado noticia no apta para películas: Así es Arianna Aragón, hija de Rody Aragón e hijastra de Carlos Sobera: una actriz que trabajó junto a su padrastro
 [movies] Saltado noticia no apta para películas: Si te gusta 'La isla de las tentaciones', este 'reality' de Netflix te parecerá aún mejor
+[movies] Saltado noticia no apta para películas: "El profesor de gimnasia me apoyó más que cualquier otro profesor": Verónica Romero ('OT') recuerda el sambenito que le pusieron
 [movies] Saltado noticia no apta para películas: Juan del Val, "destronado" como Premio Planeta: "Vuestra bilis no ha servido para nada, salvo para hacerme más fuerte"
 [movies] Saltado noticia no apta para películas: Quién fue Rafael Bueno Latorre, el hombre que tuvo en jaque a todo el sistema penitenciario español
 [movies] Saltado noticia no apta para películas: Tras más de 30 años en RTVE, una de las caras más conocidas de 'El Tiempo' se jubila: "Es uno de sus últimos telediarios, así que gracias"
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' sorprendió con la concursante repescada y la expulsada: Esta es la nueva lista de nominados
-[movies] Saltado noticia no apta para películas: Marc Giró: "No voy a hacer una carta abierta a los partidos que están apoltronados en el regazo del PP porque eso ya lo hace Nacho Abad cada día"
-[movies] Saltado noticia no apta para películas: La víctima que menos esperabas del caos político de los últimos meses es el especial de José Mota en Nochevieja: lo ha tenido que reescribir tres veces
-[movies] Candidatos encontrados: 31 | Límite: 1
-[IA] Probando proveedor openai: La voz quebrada
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: La voz quebrada
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: La voz quebrada
-[IA] cohere falló (error): Cohere error 404: {"id":"99146c68-4c8d-4d4f-bd77-4b63316cb5ff","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: La voz quebrada
+[movies] Candidatos encontrados: 33 | Límite: 1
+[IA] Probando proveedor gemini: Narnia: El sobrino del mago
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/la-voz-quebrada-el-ultimo-amor-de-lorca-revela-sus-secretos-en-el-cine-2026-10-17-093921.md
+[OK] Publicado: src/content/blog/narnia-el-sobrino-del-mago-el-origen-del-mundo-magico-2026-10-17-d83621.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
