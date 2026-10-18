@@ -1,21 +1,44 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-18T18:37:16.329089+00:00
+Fecha UTC: 2026-10-18T22:25:12.318910+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: La otra madre (None)
-[movies] Saltado noticia no apta para películas: Peter Jackson se planteó usar la hipnosis para olvidar su trabajo en 'El Señor de los Anillos': "Hablé con un mentalista"
+[movies] Saltado noticia no apta para películas: Mónica Cruz, sobre sus sobrinos, hijos de Penélope Cruz y Javier Bardem: "Apuntaba maneras desde pequeñito. Desde chiquititos se les ve por dónde van a tirar"
+[movies] Saltado noticia no apta para películas: 88 minutos de duración y una terrorífica historia de ciencia ficción: Disney+ estrenó discretamente una estupenda película que ya nadie recuerda
+[movies] Saltado noticia no apta para películas: Cuando rodaban 'Star Wars' no tenían ni un duro. Por eso los sables láser se crearon a partir de un objeto de lo más inesperado
 [movies] Saltado noticia no apta para películas: 13 millones de dólares volvieron a Demi Moore la actriz mejor pagada y sólo una persona podía superarla: Demi Moore
-[movies] Saltado noticia no apta para películas: 'Sanguine' de Marion Le Corroller se corona como Mejor Película de la 59ª edición del Festival de Sitges
-[movies] Saltado noticia no apta para películas: El mayor error de 'Street Fighter' no está en el guion: la elección de canciones no tiene ningún sentido
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
 [movies] Saltado noticia no apta para películas: Quién fue Rafael Bueno Latorre, el hombre que tuvo en jaque a todo el sistema penitenciario español
 [movies] Saltado noticia no apta para películas: Ver de nuevo a Christian Gálvez al frente de 'El Rosco' deja claro que uno de los grandes errores de 'Rueda la letra' es Carlos Sobera
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11' vivió la mayor lección de un novio en la historia del 'reality'
 [movies] Saltado noticia no apta para películas: Si te gusta 'La isla de las tentaciones', este 'reality' de Netflix te parecerá aún mejor
-[movies] Candidatos encontrados: 42 | Límite: 1
-[IA] Probando proveedor gemini: Nightborn
+[movies] Candidatos encontrados: 47 | Límite: 1
+[IA] Probando proveedor openai: Wicker
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: Wicker
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: Wicker
+[IA] cohere falló (error): Cohere error 404: {"id":"fe3eed6d-0ef9-487b-9241-26f0c8140d5b","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Wicker
+[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 3072 (char 3389)
+[IA] Probando proveedor groq: Wicker
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[movies] Error generando artículo Wicker: Todos los proveedores de IA fallaron. [IA] cohere falló (error): Cohere error 404: {"id":"fe3eed6d-0ef9-487b-9241-26f0c8140d5b","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."} | [IA] gemini falló (error): Expecting ',' delimiter: line 4 column 3072 (char 3389) | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[YouTube] No se encontró tráiler confiable para 'Sanguine' de Marion Le Corroller se corona como Mejor Película de la 59ª edición del Festival de Sitges
+[movies] Saltado porque no tiene tráiler confiable: 'Sanguine' de Marion Le Corroller se corona como Mejor Película de la 59ª edición del Festival de Sitges
+[IA] Probando proveedor groq: Antes de 'Vengadores: Doomsday, Chris Evans se ríe de su propia imagen en una ác
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: Antes de 'Vengadores: Doomsday, Chris Evans se ríe de su propia imagen en una ác
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: Antes de 'Vengadores: Doomsday, Chris Evans se ríe de su propia imagen en una ác
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: Antes de 'Vengadores: Doomsday, Chris Evans se ríe de su propia imagen en una ác
+[IA] cohere falló (error): Cohere error 404: {"id":"09e58c82-26cc-46db-a5a5-e164e64a06ca","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Antes de 'Vengadores: Doomsday, Chris Evans se ríe de su propia imagen en una ác
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/nightborn-el-terror-psicologico-nordico-que-llega-en-2026-2026-10-18-844410.md
+[OK] Publicado: src/content/blog/chris-evans-antes-de-vengadores-se-burla-de-su-imagen-en-sacrifice-2026-10-18-1fec2b.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
