@@ -1,30 +1,21 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-18T12:35:53.937999+00:00
+Fecha UTC: 2026-10-18T18:37:16.329089+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: La otra madre (None)
-[movies] Saltado noticia no apta para películas: ¿Qué harías si te quedaras atrapado en el interior de una ballena? ‘Whalefall’ llega a los cines el 16 de octubre
 [movies] Saltado noticia no apta para películas: Peter Jackson se planteó usar la hipnosis para olvidar su trabajo en 'El Señor de los Anillos': "Hablé con un mentalista"
 [movies] Saltado noticia no apta para películas: 13 millones de dólares volvieron a Demi Moore la actriz mejor pagada y sólo una persona podía superarla: Demi Moore
 [movies] Saltado noticia no apta para películas: 'Sanguine' de Marion Le Corroller se corona como Mejor Película de la 59ª edición del Festival de Sitges
 [movies] Saltado noticia no apta para películas: El mayor error de 'Street Fighter' no está en el guion: la elección de canciones no tiene ningún sentido
-[movies] Saltado noticia no apta para películas: 45 segundos en esta película de fantasía le convirtieron en un ídolo adolescente, pero se volvió en su contra: "Hubo un momento en mi vida en el que pensaba: ‘No quiero hablar de eso"
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
 [movies] Saltado noticia no apta para películas: Quién fue Rafael Bueno Latorre, el hombre que tuvo en jaque a todo el sistema penitenciario español
 [movies] Saltado noticia no apta para películas: Ver de nuevo a Christian Gálvez al frente de 'El Rosco' deja claro que uno de los grandes errores de 'Rueda la letra' es Carlos Sobera
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11' vivió la mayor lección de un novio en la historia del 'reality'
 [movies] Saltado noticia no apta para películas: Si te gusta 'La isla de las tentaciones', este 'reality' de Netflix te parecerá aún mejor
-[movies] Candidatos encontrados: 39 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "Es como 'American Psycho' con tacitas de té:" Maika Monroe se desmelena en este 'thriller' gótico con muy mala baba
-[movies] Saltado porque no tiene tráiler confiable: "Es como 'American Psycho' con tacitas de té:" Maika Monroe se desmelena en este 'thriller' gótico con muy mala baba
-[YouTube] No se encontró tráiler confiable para 'Batman Forever' iba a tener una escena grotesca con un murciélago gigante. La cortaron a última hora, pero los fans están pidiendo un director's cut para incluirla
-[movies] Saltado porque no tiene tráiler confiable: 'Batman Forever' iba a tener una escena grotesca con un murciélago gigante. La cortaron a última hora, pero los fans están pidiendo un director's cut para incluirla
-[YouTube] No se encontró tráiler confiable para Ian Gibson, experto en Lorca, ha visto 'La bola negra' y le parece "extraordinaria": "Me pasó un poco como a Carlos Boyero, que se perdió un poco con las tres historias"
-[movies] Saltado porque no tiene tráiler confiable: Ian Gibson, experto en Lorca, ha visto 'La bola negra' y le parece "extraordinaria": "Me pasó un poco como a Carlos Boyero, que se perdió un poco con las tres historias"
-[YouTube] No se encontró tráiler confiable para Maribel Verdú: "Tengo tres pisos, sí, pero es que llevo trabajando más de treinta años. ¿Qué tiene que ver que seas un privilegiado para sentir empatía?"
-[movies] Saltado porque no tiene tráiler confiable: Maribel Verdú: "Tengo tres pisos, sí, pero es que llevo trabajando más de treinta años. ¿Qué tiene que ver que seas un privilegiado para sentir empatía?"
-[YouTube] No se encontró tráiler confiable para Miguel Ríos: "Felipe González me dijo: 'Miguel, lo más práctico es que pienses que has ganado la mitad de lo que has ganado'"
-[movies] Saltado porque no tiene tráiler confiable: Miguel Ríos: "Felipe González me dijo: 'Miguel, lo más práctico es que pienses que has ganado la mitad de lo que has ganado'"
-[movies] Publicados: 0
-Total películas publicadas: 0
+[movies] Candidatos encontrados: 42 | Límite: 1
+[IA] Probando proveedor gemini: Nightborn
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/nightborn-el-terror-psicologico-nordico-que-llega-en-2026-2026-10-18-844410.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
