@@ -1,37 +1,42 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-19T15:34:25.685389+00:00
+Fecha UTC: 2026-10-19T21:02:49.320595+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: La otra madre (None)
-[movies] Saltado noticia no apta para películas: Para muchos, la mejor película en ‘stop motion’ de la historia: ‘Wildwood’ llega a los cines el 23 de octubre
+[movies] Saltado porque no es estreno 2026: Un sólido 93% y casi 300 millones en taquilla: llega a Netflix la película de terror que sacudió el género en 2025 (2025)
 [movies] Saltado noticia no apta para películas: Tienes sólo 1 día para ver en Netflix una de las grandes obras maestras de Clint Eastwood
-[movies] Saltado noticia no apta para películas: "No tengo escapatoria, necesito rodarla": llega a los cines una mezcla de humor, romance y acción, 'La maleta'
-[movies] Saltado noticia no apta para películas: 'La bola negra' vence a Santiago Segura: 'Torrente presidente' pierde el título de película más taquillera de 2026
-[movies] Saltado noticia no apta para películas: "Fue un ángel sobre mi hombro y todavía no lo supero": Sean Penn solo tiene agradecimientos para esta gran estrella de Hollywood
-[movies] Saltado noticia no apta para películas: Karl Urban sobre su trabajo con Peter Jackson en 'El Señor de los Anillos': "Pude aplicar gran parte de lo que aprendí allí a 'The Boys"
 [movies] Saltado porque no es estreno 2026: Hace 44 años causó gritos y polémica en su debut español. Ahora es uno de los actores internacionales más queridos del mundo, ¿le reconoces? (2019)
 [movies] Saltado porque no es estreno 2026: James McAvoy sigue recibiendo cheques de esta película 10 años después: "Casi nunca veo nada de nada. Recibes alguna regalía de un par de cientos de libras o de 25 céntimos" (2016)
-[movies] Saltado noticia no apta para películas: Ian McKellen vuelve a ser Magneto 12 años después en 'Vengadores: Doomsday', pero aunque "es injusto comparar", le hace más ilusión 'El Señor de los Anillos'
-[movies] Saltado noticia no apta para películas: Antes de 'Vengadores: Doomsday, Chris Evans se ríe de su propia imagen en una ácida sátira
-[movies] Saltado noticia no apta para películas: El quebradero de cabeza que volvió loco a Steven Spielberg: de dónde salió realmente el logo de 'Jurassic Park'
-[movies] Saltado noticia no apta para películas: En los años 50 permitieron que se exhibieran películas nudistas, siempre que no tuvieran lugar en la Luna
-[movies] Saltado noticia no apta para películas: Mónica Cruz, sobre el debut de su sobrino, hijo de Penélope Cruz y Javier Bardem: "Apuntaba maneras desde pequeñito. Se les ve por dónde van a tirar"
-[movies] Saltado porque no es estreno 2026: Llegó en 2023 a Disney+ casi de tapadillo, pero es una película de 88 minutos de duración que merece la pena tu tiempo (2023)
-[movies] Saltado noticia no apta para películas: Cuando rodaban 'Star Wars' no tenían ni un duro. Por eso los sables láser se crearon a partir de un objeto de lo más inesperado
-[movies] Saltado noticia no apta para películas: Hay un motivo por el que 'Street Fighter' termina con la canción que menos te esperas. "Es bastante increíble, simplemente funciona"
-[movies] Saltado noticia no apta para películas: Brian Duffield de 'Whalefall': “Una de nuestras expertas en ballenas estaba bastante decepcionada porque no habíamos incluido úlceras ni parásitos”
 [movies] Saltado porque no es estreno 2026: En 2003, Angelina Jolie compró 39 hectáreas de bosque en Camboya: lo convirtió en una reserva y dio trabajo a decenas de personas (2003)
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
 [movies] Saltado noticia no apta para películas: Quién fue Rafael Bueno Latorre, el hombre que tuvo en jaque a todo el sistema penitenciario español
 [movies] Saltado noticia no apta para películas: Ver de nuevo a Christian Gálvez al frente de 'El Rosco' deja claro que uno de los grandes errores de 'Rueda la letra' es Carlos Sobera
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11' vivió la mayor lección de un novio en la historia del 'reality'
 [movies] Saltado porque no es estreno 2026: La taberna de Valencia que cerró tras el paso de 'Pesadilla en la cocina', pero que triunfó en una nueva ubicación (2024)
-[movies] Candidatos encontrados: 37 | Límite: 1
-[YouTube] No se encontró tráiler confiable para Ambrossi: "Yo siento que me estamparon la bola negra en toda la cara... Al ir a un colegio del Opus Dei como niño gay, te la dan y si no la quieres te la comes con patatas"
-[movies] Saltado porque no tiene tráiler confiable: Ambrossi: "Yo siento que me estamparon la bola negra en toda la cara... Al ir a un colegio del Opus Dei como niño gay, te la dan y si no la quieres te la comes con patatas"
-[YouTube] No se encontró tráiler confiable para Por qué Juan Gómez ha abandonado 'Saber y ganar': Se queda a 2.000 euros de ser Magnífico
-[movies] Saltado porque no tiene tráiler confiable: Por qué Juan Gómez ha abandonado 'Saber y ganar': Se queda a 2.000 euros de ser Magnífico
-[YouTube] No se encontró tráiler confiable para Qué fue de Les Gold, el propietario de 'Empeños a lo bestia' que daban por muerto pero continua expandiendo su negocio
-[movies] Saltado porque no tiene tráiler confiable: Qué fue de Les Gold, el propietario de 'Empeños a lo bestia' que daban por muerto pero continua expandiendo su negocio
+[movies] Saltado noticia no apta para películas: Por qué Juan Gómez ha abandonado 'Saber y ganar': Se queda a 2.000 euros de ser Magnífico
+[movies] Saltado noticia no apta para películas: Qué fue de Les Gold, el propietario de 'Empeños a lo bestia' que daban por muerto pero continua expandiendo su negocio
+[movies] Saltado noticia no apta para películas: Miguel Ríos: "Felipe González me dijo: 'Miguel, lo más práctico es que pienses que has ganado la mitad de lo que has ganado'"
+[movies] Saltado noticia no apta para películas: Hace 6 años se conocieron en 'First Dates', hoy en día siguen juntos: ella dijo a sus padres que se iba a trabajar
+[movies] Saltado noticia no apta para películas: El pueblo asturiano en el que Lujan Argüelles pasó su infancia: "Soñaba con salir de allí para vivir"
+[movies] Candidatos encontrados: 41 | Límite: 1
+[YouTube] No se encontró tráiler confiable para "Fue un ángel sobre mi hombro y todavía no lo supero": Sean Penn solo tiene agradecimientos para esta gran estrella de Hollywood
+[movies] Saltado porque no tiene tráiler confiable: "Fue un ángel sobre mi hombro y todavía no lo supero": Sean Penn solo tiene agradecimientos para esta gran estrella de Hollywood
+[YouTube] No se encontró tráiler confiable para "No tengo escapatoria, necesito rodarla": llega a los cines una mezcla de humor, romance y acción, 'La maleta'
+[movies] Saltado porque no tiene tráiler confiable: "No tengo escapatoria, necesito rodarla": llega a los cines una mezcla de humor, romance y acción, 'La maleta'
+[YouTube] No se encontró tráiler confiable para 'La bola negra' vence a Santiago Segura: 'Torrente presidente' pierde el título de película más taquillera de 2026
+[movies] Saltado porque no tiene tráiler confiable: 'La bola negra' vence a Santiago Segura: 'Torrente presidente' pierde el título de película más taquillera de 2026
+[YouTube] No se encontró tráiler confiable para 15 años después, la secuela de aventuras de Steven Spielberg de 373 millones sale adelante con el director de 'El Señor de los Anillos'
+[movies] Saltado porque no tiene tráiler confiable: 15 años después, la secuela de aventuras de Steven Spielberg de 373 millones sale adelante con el director de 'El Señor de los Anillos'
+[YouTube] No se encontró tráiler confiable para 500 millones de dólares y 600 días de trabajo de posproducción: Solo 18 días para la saga épica de los artistas de 'Interstellar'
+[movies] Saltado porque no tiene tráiler confiable: 500 millones de dólares y 600 días de trabajo de posproducción: Solo 18 días para la saga épica de los artistas de 'Interstellar'
+[YouTube] No se encontró tráiler confiable para Brad Pitt se enamoró de una casa única en la Costa Brava: su solución fue llevársela, pieza a pieza, a California
+[movies] Saltado porque no tiene tráiler confiable: Brad Pitt se enamoró de una casa única en la Costa Brava: su solución fue llevársela, pieza a pieza, a California
+[YouTube] No se encontró tráiler confiable para Jennifer Aniston, actriz: "Habría dado cualquier cosa si alguien me hubiera dicho: 'Congela tus óvulos, hazte un favor'. Simplemente no se te ocurre. Así que aquí estoy hoy, el tren ya pasó"
+[movies] Saltado porque no tiene tráiler confiable: Jennifer Aniston, actriz: "Habría dado cualquier cosa si alguien me hubiera dicho: 'Congela tus óvulos, hazte un favor'. Simplemente no se te ocurre. Así que aquí estoy hoy, el tren ya pasó"
+[YouTube] No se encontró tráiler confiable para Karl Urban sobre su trabajo con Peter Jackson en 'El Señor de los Anillos': "Pude aplicar gran parte de lo que aprendí allí a 'The Boys"
+[movies] Saltado porque no tiene tráiler confiable: Karl Urban sobre su trabajo con Peter Jackson en 'El Señor de los Anillos': "Pude aplicar gran parte de lo que aprendí allí a 'The Boys"
+[duplicado] Saltado por tema parecido: Las 3 películas que no te puedes perder en la Fiesta del cine ~= Una noche al año: el estreno romántico que no te puedes perder
+[YouTube] No se encontró tráiler confiable para Para muchos, la mejor película en ‘stop motion’ de la historia: ‘Wildwood’ llega a los cines el 23 de octubre
+[movies] Saltado porque no tiene tráiler confiable: Para muchos, la mejor película en ‘stop motion’ de la historia: ‘Wildwood’ llega a los cines el 23 de octubre
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
