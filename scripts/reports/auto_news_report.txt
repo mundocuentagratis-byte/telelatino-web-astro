@@ -1,11 +1,8 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-20T20:00:57.169467+00:00
+Fecha UTC: 2026-10-20T23:10:25.649309+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
-[movies] Saltado porque no es estreno 2026: La otra madre (None)
 [movies] Saltado porque no es estreno 2026: El guion de la décima y última película de Quentin Tarantino ya está terminado, pero aquí te explicamos por qué aún tardará años en estrenarse (2019)
-[movies] Saltado porque no es estreno 2026: Un sólido 93% y casi 300 millones en taquilla: llega a Netflix la película de terror que sacudió el género en 2025 (2025)
-[movies] Saltado noticia no apta para películas: Tienes sólo 1 día para ver en Netflix una de las grandes obras maestras de Clint Eastwood
-[movies] Saltado noticia no apta para películas: Javier Ambrossi: "Siempre era el maricón que no hacía bien el deporte. Esto es un lugar en el que cuando escribo digo: 'Ostras, sé lo que hago"
+[movies] Saltado noticia no apta para películas: "No hagas esa película. No te conviene": Bruce Willis dio dos consejos a Ben Affleck hace 30 años, pero los dos fueron equivocados
 [movies] Saltado noticia no apta para películas: Carlos Gónzález ('La bola negra'): "[Los Javis] en set no son amigos. Hay amor, hay respeto, pero son dos directores"
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
 [movies] Saltado noticia no apta para películas: Quién fue Rafael Bueno Latorre, el hombre que tuvo en jaque a todo el sistema penitenciario español
@@ -18,12 +15,11 @@ Fecha UTC: 2026-10-20T20:00:57.169467+00:00
 [movies] Saltado noticia no apta para películas: Por qué Juan Gómez ha abandonado 'Saber y ganar': Se queda a 2.000 euros de ser Magnífico
 [movies] Saltado noticia no apta para películas: Qué fue de Les Gold, el propietario de 'Empeños a lo bestia' que daban por muerto pero continua expandiendo su negocio
 [movies] Candidatos encontrados: 41 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "No hagas esa película. No te conviene": Bruce Willis dio dos consejos a Ben Affleck hace 30 años, pero los dos fueron equivocados
-[movies] Saltado porque no tiene tráiler confiable: "No hagas esa película. No te conviene": Bruce Willis dio dos consejos a Ben Affleck hace 30 años, pero los dos fueron equivocados
-[YouTube] No se encontró tráiler confiable para "¿Cómo escribir una película sobre una mujer que deja a sus hijos atrás, sin juzgarla por ello?": llega a cines 'Los niños están bien', la película que emocionó al público del Festival de Málaga
-[movies] Saltado porque no tiene tráiler confiable: "¿Cómo escribir una película sobre una mujer que deja a sus hijos atrás, sin juzgarla por ello?": llega a cines 'Los niños están bien', la película que emocionó al público del Festival de Málaga
-[YouTube] No se encontró tráiler confiable para Javier Bardem: "Un hombre de verdad cuida a su madre como la persona más preciada de su mundo... hasta el día en que muere"
-[movies] Saltado porque no tiene tráiler confiable: Javier Bardem: "Un hombre de verdad cuida a su madre como la persona más preciada de su mundo... hasta el día en que muere"
-[movies] Publicados: 0
-Total películas publicadas: 0
+[IA] Probando proveedor cohere: You Can See Everything
+[IA] cohere falló (error): Cohere error 404: {"id":"cf396091-2e14-4368-a925-1cdb032872b7","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: You Can See Everything
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/you-can-see-everything-un-viaje-psicologico-al-limite-2026-10-20-bc5fbc.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
