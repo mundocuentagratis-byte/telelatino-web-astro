@@ -1,46 +1,32 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-21T04:37:14.157454+00:00
+Fecha UTC: 2026-10-21T13:45:26.152571+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: El guion de la décima y última película de Quentin Tarantino ya está terminado, pero aquí te explicamos por qué aún tardará años en estrenarse (2019)
 [movies] Saltado noticia no apta para películas: "No hagas esa película. No te conviene": Bruce Willis dio dos consejos a Ben Affleck hace 30 años, pero los dos fueron equivocados
 [movies] Saltado noticia no apta para películas: Carlos Gónzález ('La bola negra'): "[Los Javis] en set no son amigos. Hay amor, hay respeto, pero son dos directores"
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
 [movies] Saltado noticia no apta para películas: Quién fue Rafael Bueno Latorre, el hombre que tuvo en jaque a todo el sistema penitenciario español
-[movies] Saltado porque no es estreno 2026: La taberna de Valencia que cerró tras el paso de 'Pesadilla en la cocina', pero que triunfó en una nueva ubicación (2024)
+[movies] Saltado noticia no apta para películas: Ver de nuevo a Christian Gálvez al frente de 'El Rosco' deja claro que uno de los grandes errores de 'Rueda la letra' es Carlos Sobera
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11' vivió la mayor lección de un novio en la historia del 'reality'
+[movies] Saltado porque no es estreno 2026: La taberna de Valencia que cerró tras el paso de 'Pesadilla en la cocina', pero que triunfó en una nueva ubicación (2024)
 [movies] Saltado noticia no apta para películas: La audiencia dicta sentencia a 'El Telediario de nuestras vidas': el histórico especial de RTVE que será recordado por esto
 [movies] Saltado noticia no apta para películas: El tenso cara a cara entre Náyades y Paula termina provocando lo que menos esperábamos en 'La isla de las tentaciones 11'
 [movies] Saltado noticia no apta para películas: Manuel Campo Vidal, histórico presentador: "Madrid no puede crecer a costa de vaciar al resto. Las ciudades están en deuda con los pueblos"
 [movies] Saltado noticia no apta para películas: Por qué Juan Gómez ha abandonado 'Saber y ganar': Se queda a 2.000 euros de ser Magnífico
 [movies] Saltado noticia no apta para películas: Qué fue de Les Gold, el propietario de 'Empeños a lo bestia' que daban por muerto pero continua expandiendo su negocio
 [movies] Candidatos encontrados: 42 | Límite: 1
-[IA] Probando proveedor gemini: 'Vengadores: Doomsday' se estrena en 59 días, pero ya ha hecho historia en Españ
-[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 5061 (char 5329)
-[IA] Probando proveedor groq: 'Vengadores: Doomsday' se estrena en 59 días, pero ya ha hecho historia en Españ
+[IA] Probando proveedor groq: Ali G: Kién es yo?
 [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: 'Vengadores: Doomsday' se estrena en 59 días, pero ya ha hecho historia en Españ
+[IA] Probando proveedor openai: Ali G: Kién es yo?
 [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: 'Vengadores: Doomsday' se estrena en 59 días, pero ya ha hecho historia en Españ
+[IA] Probando proveedor mistral: Ali G: Kién es yo?
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: 'Vengadores: Doomsday' se estrena en 59 días, pero ya ha hecho historia en Españ
-[IA] cohere falló (error): Cohere error 404: {"id":"c68a51bc-9f14-46c3-8b29-39d2f651b2cf","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[movies] Error generando artículo 'Vengadores: Doomsday' se estrena en 59 días, pero ya ha hecho historia en España: Todos los proveedores de IA fallaron. [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}} | [IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429} | [IA] cohere falló (error): Cohere error 404: {"id":"c68a51bc-9f14-46c3-8b29-39d2f651b2cf","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[YouTube] No se encontró tráiler confiable para Brays Efe no entiende que le confundan con Carlos González en 'La bola negra': "No nos parecemos nada. Él tiene 10 años menos que yo"
-[movies] Saltado porque no tiene tráiler confiable: Brays Efe no entiende que le confundan con Carlos González en 'La bola negra': "No nos parecemos nada. Él tiene 10 años menos que yo"
-[YouTube] No se encontró tráiler confiable para Emma Suárez sobre trabajar con Pedro Almodóvar: "Empecé sintiendo ilusión, pero en un momento dado sentí que ponía cierta distancia"
-[movies] Saltado porque no tiene tráiler confiable: Emma Suárez sobre trabajar con Pedro Almodóvar: "Empecé sintiendo ilusión, pero en un momento dado sentí que ponía cierta distancia"
-[YouTube] No se encontró tráiler confiable para Guillermo del Toro acaba llorando mientras habla del futuro: "Nunca pensé que todo lo que se había ganado se iba a volver a perder"
-[movies] Saltado porque no tiene tráiler confiable: Guillermo del Toro acaba llorando mientras habla del futuro: "Nunca pensé que todo lo que se había ganado se iba a volver a perder"
-[YouTube] No se encontró tráiler confiable para La película que quiere cambiar la historia de los Oscar: estuvo oculta durante tres años y ahora bate récords
-[movies] Saltado porque no tiene tráiler confiable: La película que quiere cambiar la historia de los Oscar: estuvo oculta durante tres años y ahora bate récords
-[YouTube] No se encontró tráiler confiable para Más de 60 películas, 3 nominaciones al Oscar: hoy cumple 68 años un icono del cine de fantasía que lleva casi dos décadas viviendo en España
-[movies] Saltado porque no tiene tráiler confiable: Más de 60 películas, 3 nominaciones al Oscar: hoy cumple 68 años un icono del cine de fantasía que lleva casi dos décadas viviendo en España
-[YouTube] No se encontró tráiler confiable para Ni siquiera un ganador del Oscar puede escapar de Marvel: Michael Douglas pidió que mataran a su personaje para no hacer más películas con ellos, pero no le dejaron
-[movies] Saltado porque no tiene tráiler confiable: Ni siquiera un ganador del Oscar puede escapar de Marvel: Michael Douglas pidió que mataran a su personaje para no hacer más películas con ellos, pero no le dejaron
-[YouTube] No se encontró tráiler confiable para Ver de nuevo a Christian Gálvez al frente de 'El Rosco' deja claro que uno de los grandes errores de 'Rueda la letra' es Carlos Sobera
-[movies] Saltado porque no tiene tráiler confiable: Ver de nuevo a Christian Gálvez al frente de 'El Rosco' deja claro que uno de los grandes errores de 'Rueda la letra' es Carlos Sobera
-[movies] Publicados: 0
-Total películas publicadas: 0
+[IA] Probando proveedor cohere: Ali G: Kién es yo?
+[IA] cohere falló (error): Cohere error 404: {"id":"6e78c367-62cc-424d-b2cf-7465bcef50df","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Ali G: Kién es yo?
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/ali-g-kien-es-yo-el-regreso-del-irreverente-guru-del-humor-2026-10-21-7b05c5.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
