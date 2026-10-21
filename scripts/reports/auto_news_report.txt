@@ -1,32 +1,56 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-21T13:45:26.152571+00:00
+Fecha UTC: 2026-10-21T20:07:40.809298+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
-[movies] Saltado porque no es estreno 2026: El guion de la décima y última película de Quentin Tarantino ya está terminado, pero aquí te explicamos por qué aún tardará años en estrenarse (2019)
-[movies] Saltado noticia no apta para películas: "No hagas esa película. No te conviene": Bruce Willis dio dos consejos a Ben Affleck hace 30 años, pero los dos fueron equivocados
+[movies] Saltado porque no es estreno 2026: Wildwood (2028)
+[movies] Saltado porque no es estreno 2026: Hope (2028)
+[movies] Saltado porque no es estreno 2026: Sentido y sensibilidad (2028)
+[movies] Saltado porque no es estreno 2026: Wicker (2028)
+[movies] Saltado porque no es estreno 2026: Godzilla Minus Zero (2028)
+[movies] Saltado porque no es estreno 2026: Ali G: Kién es yo? (2028)
+[movies] Saltado porque no es estreno 2026: You Can See Everything (2028)
+[movies] Saltado porque no es estreno 2026: La otra madre (2028)
+[movies] Saltado noticia no apta para películas: Para muchos, la mejor película en ‘stop motion’ de la historia: ‘Wildwood’ llega a los cines el 23 de octubre
+[movies] Saltado noticia no apta para películas: Denzel Washington se ha quedado sin su película épica de Netflix, así que ha vuelto al 'thriller' policíaco: Trabajará con el director de 'Misión Imposible'
+[movies] Saltado porque no es estreno 2026: Dwayne Johnson, irreconocible para su nueva película: Ha adelgazado para transformarse en un hombre de 70 años (2027)
+[movies] Saltado noticia no apta para películas: Ben Affleck sigue enfadado con David Fincher por lanzar un rumor sobre él: “No llevó tanto tiempo discutir sobre si iba a salir desnudo en la película”
+[movies] Saltado noticia no apta para películas: "Una delicada y precisa fábula sobre el descubrimiento del dolor": se estrena en cines 'Moscas', alabada por la crítica
+[movies] Saltado porque no es estreno 2026: 'El Langui' conquista su primer oro en el Campeonato Internacional de boccia en Olbia: "con ganas de seguir sumando puntos para los Juegos Paralímpicos de Los Ángeles 2028" (2024)
+[movies] Saltado noticia no apta para películas: Crítica 'Sentido y sensibilidad': una nueva versión 'arty' con la que he derramado mis buenas lágrimas en la sala
+[movies] Saltado noticia no apta para películas: George Lucas le dio un consejo al director de uno de los mayores fracasos de 'Star Wars': "No olvides que esto es para niños de doce años"
+[movies] Saltado porque no es estreno 2026: En 2017 George Lucas compró un castillo y más de 100 hectáreas de terreno en Europa: ahora acoge retiros de lujo por 235.000 euros a la semana (2017)
 [movies] Saltado noticia no apta para películas: Carlos Gónzález ('La bola negra'): "[Los Javis] en set no son amigos. Hay amor, hay respeto, pero son dos directores"
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
 [movies] Saltado noticia no apta para películas: Quién fue Rafael Bueno Latorre, el hombre que tuvo en jaque a todo el sistema penitenciario español
-[movies] Saltado noticia no apta para películas: Ver de nuevo a Christian Gálvez al frente de 'El Rosco' deja claro que uno de los grandes errores de 'Rueda la letra' es Carlos Sobera
-[movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11' vivió la mayor lección de un novio en la historia del 'reality'
 [movies] Saltado porque no es estreno 2026: La taberna de Valencia que cerró tras el paso de 'Pesadilla en la cocina', pero que triunfó en una nueva ubicación (2024)
+[movies] Saltado noticia no apta para películas: Rosa López sobre el 25 aniversario de 'Operación Triunfo': "No tiene ningún sentido que a los artistas de 'OT 1' nos llamen solo cada año"
+[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció al concursante salvado: Así queda la lista de nominados para la gala del jueves
+[movies] Saltado noticia no apta para películas: Hoy se estrena en Netflix el 'reality' que recupera uno de los experimentos psicológicos más controvertidos de la historia
 [movies] Saltado noticia no apta para películas: La audiencia dicta sentencia a 'El Telediario de nuestras vidas': el histórico especial de RTVE que será recordado por esto
 [movies] Saltado noticia no apta para películas: El tenso cara a cara entre Náyades y Paula termina provocando lo que menos esperábamos en 'La isla de las tentaciones 11'
 [movies] Saltado noticia no apta para películas: Manuel Campo Vidal, histórico presentador: "Madrid no puede crecer a costa de vaciar al resto. Las ciudades están en deuda con los pueblos"
-[movies] Saltado noticia no apta para películas: Por qué Juan Gómez ha abandonado 'Saber y ganar': Se queda a 2.000 euros de ser Magnífico
-[movies] Saltado noticia no apta para películas: Qué fue de Les Gold, el propietario de 'Empeños a lo bestia' que daban por muerto pero continua expandiendo su negocio
-[movies] Candidatos encontrados: 42 | Límite: 1
-[IA] Probando proveedor groq: Ali G: Kién es yo?
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: Ali G: Kién es yo?
+[movies] Candidatos encontrados: 29 | Límite: 1
+[IA] Probando proveedor openai: SuperThings: La película
 [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Ali G: Kién es yo?
+[IA] Probando proveedor mistral: SuperThings: La película
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Ali G: Kién es yo?
-[IA] cohere falló (error): Cohere error 404: {"id":"6e78c367-62cc-424d-b2cf-7465bcef50df","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Ali G: Kién es yo?
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/ali-g-kien-es-yo-el-regreso-del-irreverente-guru-del-humor-2026-10-21-7b05c5.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[IA] Probando proveedor cohere: SuperThings: La película
+[IA] cohere falló (error): Cohere error 404: {"id":"6a98dcc8-e1a6-41f0-91ff-437cb55bcf39","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: SuperThings: La película
+[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 2648 (char 2933)
+[IA] Probando proveedor groq: SuperThings: La película
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[movies] Error generando artículo SuperThings: La película: Todos los proveedores de IA fallaron. [IA] cohere falló (error): Cohere error 404: {"id":"6a98dcc8-e1a6-41f0-91ff-437cb55bcf39","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."} | [IA] gemini falló (error): Expecting ',' delimiter: line 4 column 2648 (char 2933) | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[YouTube] No se encontró tráiler confiable para "Lleva al público a través de un intenso recorrido hacia un lugar muy oscuro": llega a cines 'Clayface', la propuesta de terror de DC
+[movies] Saltado porque no tiene tráiler confiable: "Lleva al público a través de un intenso recorrido hacia un lugar muy oscuro": llega a cines 'Clayface', la propuesta de terror de DC
+[YouTube] No se encontró tráiler confiable para '200 vidas, Paco Rabal', un documental inédito contado con la propia voz del gran actor a partir de más de 80 cintas de casete
+[movies] Saltado porque no tiene tráiler confiable: '200 vidas, Paco Rabal', un documental inédito contado con la propia voz del gran actor a partir de más de 80 cintas de casete
+[YouTube] No se encontró tráiler confiable para Julia Roberts sobre Javier Bardem: "Lo adoro y lo admiro profundamente. ¡Pero también da miedo!"
+[movies] Saltado porque no tiene tráiler confiable: Julia Roberts sobre Javier Bardem: "Lo adoro y lo admiro profundamente. ¡Pero también da miedo!"
+[YouTube] No se encontró tráiler confiable para Malas noticias para 'John Wick 5': Keanu Reeves se apunta a otro 'thriller' de acción con el director de 'Aquaman'
+[movies] Saltado porque no tiene tráiler confiable: Malas noticias para 'John Wick 5': Keanu Reeves se apunta a otro 'thriller' de acción con el director de 'Aquaman'
+[YouTube] No se encontró tráiler confiable para “Ese puto bolígrafo”: esta película de James Bond dependía de que aprendiera a hacer un truco y se buscó un mago para hacerlo
+[movies] Saltado porque no tiene tráiler confiable: “Ese puto bolígrafo”: esta película de James Bond dependía de que aprendiera a hacer un truco y se buscó un mago para hacerlo
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
