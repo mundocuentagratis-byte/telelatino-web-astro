@@ -1,25 +1,21 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-22T04:36:09.563900+00:00
+Fecha UTC: 2026-10-22T13:45:18.493050+00:00
 [movies] Saltado porque no es estreno 2026: Wildwood (None)
+[movies] Saltado noticia no apta para películas: 3.000.000 de ejemplares vendidos: Netflix acaba de anunciar el rodaje de la adaptación de este 'bestseller'
 [movies] Saltado porque no es estreno 2026: Shane Gero, biólogo experto en ballenas, sobre 'Whalefall': "Los estómagos no han evolucionado para mantener con vida lo que contienen" (2023)
 [movies] Saltado noticia no apta para películas: Denzel Washington se ha quedado sin su película épica de Netflix, así que ha vuelto al 'thriller' policíaco: Trabajará con el director de 'Misión Imposible'
 [movies] Saltado porque no es estreno 2026: Dwayne Johnson, irreconocible para su nueva película: Ha adelgazado para transformarse en un hombre de 70 años (2027)
 [movies] Saltado noticia no apta para películas: "Una delicada y precisa fábula sobre el descubrimiento del dolor": se estrena en cines 'Moscas', alabada por la crítica
-[movies] Saltado porque no es estreno 2026: 'El Langui' conquista su primer oro en el Campeonato Internacional de boccia en Olbia: "con ganas de seguir sumando puntos para los Juegos Paralímpicos de Los Ángeles 2028" (2024)
-[movies] Saltado noticia no apta para películas: '200 vidas, Paco Rabal', un documental inédito contado con la propia voz del gran actor a partir de más de 80 cintas de casete
-[movies] Saltado noticia no apta para películas: Crítica 'Sentido y sensibilidad': una nueva versión 'arty' con la que he derramado mis buenas lágrimas en la sala
-[movies] Saltado porque no es estreno 2026: En 2017 George Lucas compró un castillo y más de 100 hectáreas de terreno en Europa: ahora acoge retiros de lujo por 235.000 euros a la semana (2017)
 [movies] Saltado noticia no apta para películas: Carlos Gónzález ('La bola negra'): "[Los Javis] en set no son amigos. Hay amor, hay respeto, pero son dos directores"
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
 [movies] Saltado noticia no apta para películas: Quién fue Rafael Bueno Latorre, el hombre que tuvo en jaque a todo el sistema penitenciario español
+[movies] Saltado noticia no apta para películas: Ver de nuevo a Christian Gálvez al frente de 'El Rosco' deja claro que uno de los grandes errores de 'Rueda la letra' es Carlos Sobera
 [movies] Saltado porque no es estreno 2026: La taberna de Valencia que cerró tras el paso de 'Pesadilla en la cocina', pero que triunfó en una nueva ubicación (2024)
 [movies] Saltado noticia no apta para películas: A qué se dedican los siete hijos de Karlos Arguiñano: solo uno de ellos no está dentro del negocio familiar
-[movies] Saltado noticia no apta para películas: Rosa López sobre el 25 aniversario de 'Operación Triunfo': "No tiene ningún sentido que a los artistas de 'OT 1' nos llamen solo cada año"
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció al concursante salvado: Así queda la lista de nominados para la gala del jueves
 [movies] Saltado noticia no apta para películas: Hoy se estrena en Netflix el 'reality' que recupera uno de los experimentos psicológicos más controvertidos de la historia
 [movies] Saltado noticia no apta para películas: La audiencia dicta sentencia a 'El Telediario de nuestras vidas': el histórico especial de RTVE que será recordado por esto
-[movies] Saltado noticia no apta para películas: El tenso cara a cara entre Náyades y Paula termina provocando lo que menos esperábamos en 'La isla de las tentaciones 11'
-[movies] Candidatos encontrados: 41 | Límite: 1
+[movies] Candidatos encontrados: 47 | Límite: 1
 [IA] Probando proveedor groq: Drive – The Pretenders
 [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
 [IA] Probando proveedor openai: Drive – The Pretenders
@@ -28,16 +24,10 @@ Fecha UTC: 2026-10-22T04:36:09.563900+00:00
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 [IA] Probando proveedor cohere: Drive – The Pretenders
-[IA] cohere falló (error): Cohere error 404: {"id":"79d54545-6698-4871-9fcd-b697b19cc9c9","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] cohere falló (error): Cohere error 404: {"id":"03eb4703-d6b9-4981-b201-c676da737cb0","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
 [IA] Probando proveedor gemini: Drive – The Pretenders
-[IA] gemini falló (error): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
-[movies] Error generando artículo Drive – The Pretenders: Todos los proveedores de IA fallaron. [IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429} | [IA] cohere falló (error): Cohere error 404: {"id":"79d54545-6698-4871-9fcd-b697b19cc9c9","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."} | [IA] gemini falló (error): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
-[YouTube] No se encontró tráiler confiable para "Todo el mundo le decía que no era la elección adecuada": Tom Cruise hizo una de las mejores interpretaciones de su vida tras ser rechazado por una autora bestseller
-[movies] Saltado porque no tiene tráiler confiable: "Todo el mundo le decía que no era la elección adecuada": Tom Cruise hizo una de las mejores interpretaciones de su vida tras ser rechazado por una autora bestseller
-[YouTube] No se encontró tráiler confiable para Ben Affleck sigue enfadado con David Fincher por lanzar un rumor sobre él: “No llevó tanto tiempo discutir sobre si iba a salir desnudo en la película”
-[movies] Saltado porque no tiene tráiler confiable: Ben Affleck sigue enfadado con David Fincher por lanzar un rumor sobre él: “No llevó tanto tiempo discutir sobre si iba a salir desnudo en la película”
-[duplicado] Saltado por tema parecido: George Lucas le dio un consejo al director de uno de los mayores fracasos de 'Star Wars': "No olvides que esto es para niños de doce años" ~= Las películas de Star Wars que llegarán en los próximos años
-[movies] Publicados: 0
-Total películas publicadas: 0
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/drive-the-pretenders-cuando-el-amor-acelera-en-la-pista-2026-10-22-e4c9b9.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
