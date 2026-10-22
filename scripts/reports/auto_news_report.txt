@@ -1,6 +1,6 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-21T23:15:27.718789+00:00
-[movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
+Fecha UTC: 2026-10-22T04:36:09.563900+00:00
+[movies] Saltado porque no es estreno 2026: Wildwood (None)
 [movies] Saltado porque no es estreno 2026: Shane Gero, biólogo experto en ballenas, sobre 'Whalefall': "Los estómagos no han evolucionado para mantener con vida lo que contienen" (2023)
 [movies] Saltado noticia no apta para películas: Denzel Washington se ha quedado sin su película épica de Netflix, así que ha vuelto al 'thriller' policíaco: Trabajará con el director de 'Misión Imposible'
 [movies] Saltado porque no es estreno 2026: Dwayne Johnson, irreconocible para su nueva película: Ha adelgazado para transformarse en un hombre de 70 años (2027)
@@ -19,17 +19,25 @@ Fecha UTC: 2026-10-21T23:15:27.718789+00:00
 [movies] Saltado noticia no apta para películas: Hoy se estrena en Netflix el 'reality' que recupera uno de los experimentos psicológicos más controvertidos de la historia
 [movies] Saltado noticia no apta para películas: La audiencia dicta sentencia a 'El Telediario de nuestras vidas': el histórico especial de RTVE que será recordado por esto
 [movies] Saltado noticia no apta para películas: El tenso cara a cara entre Náyades y Paula termina provocando lo que menos esperábamos en 'La isla de las tentaciones 11'
-[movies] Candidatos encontrados: 38 | Límite: 1
-[IA] Probando proveedor openai: SuperThings: La película
+[movies] Candidatos encontrados: 41 | Límite: 1
+[IA] Probando proveedor groq: Drive – The Pretenders
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: Drive – The Pretenders
 [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: SuperThings: La película
+[IA] Probando proveedor mistral: Drive – The Pretenders
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: SuperThings: La película
-[IA] cohere falló (error): Cohere error 404: {"id":"06e0df91-373b-436f-b6f5-4bec197153dc","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: SuperThings: La película
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/superthings-la-pelicula-una-aventura-en-kaboom-city-en-2026-2026-10-21-a59eac.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[IA] Probando proveedor cohere: Drive – The Pretenders
+[IA] cohere falló (error): Cohere error 404: {"id":"79d54545-6698-4871-9fcd-b697b19cc9c9","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Drive – The Pretenders
+[IA] gemini falló (error): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[movies] Error generando artículo Drive – The Pretenders: Todos los proveedores de IA fallaron. [IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429} | [IA] cohere falló (error): Cohere error 404: {"id":"79d54545-6698-4871-9fcd-b697b19cc9c9","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."} | [IA] gemini falló (error): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[YouTube] No se encontró tráiler confiable para "Todo el mundo le decía que no era la elección adecuada": Tom Cruise hizo una de las mejores interpretaciones de su vida tras ser rechazado por una autora bestseller
+[movies] Saltado porque no tiene tráiler confiable: "Todo el mundo le decía que no era la elección adecuada": Tom Cruise hizo una de las mejores interpretaciones de su vida tras ser rechazado por una autora bestseller
+[YouTube] No se encontró tráiler confiable para Ben Affleck sigue enfadado con David Fincher por lanzar un rumor sobre él: “No llevó tanto tiempo discutir sobre si iba a salir desnudo en la película”
+[movies] Saltado porque no tiene tráiler confiable: Ben Affleck sigue enfadado con David Fincher por lanzar un rumor sobre él: “No llevó tanto tiempo discutir sobre si iba a salir desnudo en la película”
+[duplicado] Saltado por tema parecido: George Lucas le dio un consejo al director de uno de los mayores fracasos de 'Star Wars': "No olvides que esto es para niños de doce años" ~= Las películas de Star Wars que llegarán en los próximos años
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
