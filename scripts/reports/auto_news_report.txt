@@ -1,18 +1,15 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-22T20:02:54.577814+00:00
+Fecha UTC: 2026-10-22T23:19:34.601930+00:00
 [movies] Saltado porque no es estreno 2026: Wildwood (None)
 [movies] Saltado noticia no apta para películas: Para muchos, la mejor película en ‘stop motion’ de la historia: ‘Wildwood’ llega a los cines el 23 de octubre
 [movies] Saltado noticia no apta para películas: Ty Burrell reaparece seis años después de 'Modern Family': su nueva sitcom es un reboot que ya salió mal hace una década
+[movies] Saltado noticia no apta para películas: Jesús Bonilla, tras 10 años "divinamente retirado": "Antonio Resines no puede parar porque le encanta. Es como una droga"
 [movies] Saltado noticia no apta para películas: Batman está presente durante los eventos de 'Clayface', confirma el jefe de DC Studios: "Esta es la introducción a la Gotham de acción real"
 [movies] Saltado porque no es estreno 2026: Esta película fue un fracaso e hizo perder 70 millones a su estudio, pero en España está triunfando: lleva tres semanas en el top 3 de Netflix (2027)
-[movies] Saltado porque no es estreno 2026: Jason Statham vuelve en la secuela de una de sus películas más populares: 2027 arranca con 'The Beekeeper 2' en cines (2027)
-[movies] Saltado noticia no apta para películas: Chris Pratt confirma que Star-Lord volverá a Marvel: "No puedo decir cuándo será, pero no se va a ninguna parte"
-[movies] Saltado noticia no apta para películas: Luis Zahera, protagonista de 'Leones en invierno': "Creo que las mujeres transitan mejor la violencia que los hombres"
+[movies] Saltado noticia no apta para películas: Jason Statham vuelve en la secuela de una de sus películas más populares: 2027 arranca con 'The Beekeeper 2' en cines
 [movies] Saltado noticia no apta para películas: Calendario de futuros estrenos de Disney y Pixar: Todas las películas del estudio en 2026 y en adelante
-[movies] Saltado noticia no apta para películas: Una estrella fue acusada de usar IA en su vídeo y tuvo que demostrar que no lo hizo: es una muestra de que vivimos con un nuevo tipo de miedo
 [movies] Saltado noticia no apta para películas: El Festival Internacional de Cine de Gijón proyectará los tres primeros episodios de '¿Qué es el cine?'
-[movies] Saltado noticia no apta para películas: Los Javis han cometido un error estrepitoso en el cartel de 'La bola negra'. Nadie se dio cuenta hasta que ya fue demasiado tarde
-[movies] Saltado noticia no apta para películas: "Una obra maestra": Leonardo DiCaprio, Matt Damon y Ben Affleck adoran esta película de culto "perfecta" de los años 80
+[movies] Saltado noticia no apta para películas: Tarantino es uno de los directores más violentos, pero con 'Kill Bill' nos demostró que la venganza no es nada gloriosa
 [movies] Saltado noticia no apta para películas: Carlos Gónzález ('La bola negra'): "[Los Javis] en set no son amigos. Hay amor, hay respeto, pero son dos directores"
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
 [movies] Saltado noticia no apta para películas: Quién fue Rafael Bueno Latorre, el hombre que tuvo en jaque a todo el sistema penitenciario español
@@ -22,23 +19,18 @@ Fecha UTC: 2026-10-22T20:02:54.577814+00:00
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció al concursante salvado: Así queda la lista de nominados para la gala del jueves
 [movies] Saltado noticia no apta para películas: Hoy se estrena en Netflix el 'reality' que recupera uno de los experimentos psicológicos más controvertidos de la historia
 [movies] Saltado noticia no apta para películas: La audiencia dicta sentencia a 'El Telediario de nuestras vidas': el histórico especial de RTVE que será recordado por esto
-[movies] Candidatos encontrados: 41 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "El 'stop-motion' nos exige algo distinto: nos pide que nos tomemos nuestro tiempo y que invirtamos energía en algo": se estrena en cines 'Wildwood', una joya de la animación
-[movies] Saltado porque no tiene tráiler confiable: "El 'stop-motion' nos exige algo distinto: nos pide que nos tomemos nuestro tiempo y que invirtamos energía en algo": se estrena en cines 'Wildwood', una joya de la animación
-[YouTube] No se encontró tráiler confiable para Christopher Lloyd cumple 88 años: "Hicieron falta dos películas más de 'Regreso al futuro' para que Michael [J. Fox] y yo llegáramos a conocernos de verdad y entabláramos una amistad"
-[movies] Saltado porque no tiene tráiler confiable: Christopher Lloyd cumple 88 años: "Hicieron falta dos películas más de 'Regreso al futuro' para que Michael [J. Fox] y yo llegáramos a conocernos de verdad y entabláramos una amistad"
-[YouTube] No se encontró tráiler confiable para David Bustamante sobre 'Operación Triunfo': "Nos hicimos millonarios con 19 años. Miré el banco y nunca había visto tanto dinero en mi vida"
-[movies] Saltado porque no tiene tráiler confiable: David Bustamante sobre 'Operación Triunfo': "Nos hicimos millonarios con 19 años. Miré el banco y nunca había visto tanto dinero en mi vida"
-[YouTube] No se encontró tráiler confiable para Guitarricadelafuente ('La bola negra'), sobre Penélope Cruz: "Para cualquier español que haya crecido viéndola en el cine, ella es una leyenda"
-[movies] Saltado porque no tiene tráiler confiable: Guitarricadelafuente ('La bola negra'), sobre Penélope Cruz: "Para cualquier español que haya crecido viéndola en el cine, ella es una leyenda"
-[YouTube] No se encontró tráiler confiable para Jesús Bonilla, tras 10 años "divinamente retirado": "Antonio Resines no puede parar porque le encanta. Es como una droga"
-[movies] Saltado porque no tiene tráiler confiable: Jesús Bonilla, tras 10 años "divinamente retirado": "Antonio Resines no puede parar porque le encanta. Es como una droga"
-[YouTube] No se encontró tráiler confiable para Le llevó 15 años pero Michael Douglas consiguió cumplir el sueño de su padre, aunque a un precio: “No vas a salir en la película”
-[movies] Saltado porque no tiene tráiler confiable: Le llevó 15 años pero Michael Douglas consiguió cumplir el sueño de su padre, aunque a un precio: “No vas a salir en la película”
-[YouTube] No se encontró tráiler confiable para Rosa López sobre el 25 aniversario de 'Operación Triunfo': "No tiene ningún sentido que a los artistas de 'OT 1' nos llamen solo cada año"
-[movies] Saltado porque no tiene tráiler confiable: Rosa López sobre el 25 aniversario de 'Operación Triunfo': "No tiene ningún sentido que a los artistas de 'OT 1' nos llamen solo cada año"
-[YouTube] No se encontró tráiler confiable para Tarantino es uno de los directores más violentos, pero con 'Kill Bill' nos demostró que la venganza no es nada gloriosa
-[movies] Saltado porque no tiene tráiler confiable: Tarantino es uno de los directores más violentos, pero con 'Kill Bill' nos demostró que la venganza no es nada gloriosa
+[movies] Candidatos encontrados: 44 | Límite: 1
+[YouTube] No se encontró tráiler confiable para "Una obra maestra": Leonardo DiCaprio, Matt Damon y Ben Affleck adoran esta película de culto "perfecta" de los años 80
+[movies] Saltado porque no tiene tráiler confiable: "Una obra maestra": Leonardo DiCaprio, Matt Damon y Ben Affleck adoran esta película de culto "perfecta" de los años 80
+[YouTube] No se encontró tráiler confiable para Chris Pratt confirma que Star-Lord volverá a Marvel: "No puedo decir cuándo será, pero no se va a ninguna parte"
+[movies] Saltado porque no tiene tráiler confiable: Chris Pratt confirma que Star-Lord volverá a Marvel: "No puedo decir cuándo será, pero no se va a ninguna parte"
+[YouTube] No se encontró tráiler confiable para Denzel Washington: "Los sueños sin metas son solo sueños y, a la larga, alimentan la decepción"
+[movies] Saltado porque no tiene tráiler confiable: Denzel Washington: "Los sueños sin metas son solo sueños y, a la larga, alimentan la decepción"
+[YouTube] No se encontró tráiler confiable para Los Javis han cometido un error estrepitoso en el cartel de 'La bola negra'. Nadie se dio cuenta hasta que ya fue demasiado tarde
+[movies] Saltado porque no tiene tráiler confiable: Los Javis han cometido un error estrepitoso en el cartel de 'La bola negra'. Nadie se dio cuenta hasta que ya fue demasiado tarde
+[movies] Saltado por tema bloqueado: Luis Zahera, protagonista de 'Leones en invierno': "Creo que las mujeres transitan mejor la violencia que los hombres"
+[YouTube] No se encontró tráiler confiable para Una estrella fue acusada de usar IA en su vídeo y tuvo que demostrar que no lo hizo: es una muestra de que vivimos con un nuevo tipo de miedo
+[movies] Saltado porque no tiene tráiler confiable: Una estrella fue acusada de usar IA en su vídeo y tuvo que demostrar que no lo hizo: es una muestra de que vivimos con un nuevo tipo de miedo
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
