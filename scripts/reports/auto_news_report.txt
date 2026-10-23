@@ -1,6 +1,7 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-22T23:19:34.601930+00:00
-[movies] Saltado porque no es estreno 2026: Wildwood (None)
+Fecha UTC: 2026-10-23T04:42:27.039465+00:00
+[movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
+[movies] Saltado porque no es estreno 2026: Street Fighter (None)
 [movies] Saltado noticia no apta para películas: Para muchos, la mejor película en ‘stop motion’ de la historia: ‘Wildwood’ llega a los cines el 23 de octubre
 [movies] Saltado noticia no apta para películas: Ty Burrell reaparece seis años después de 'Modern Family': su nueva sitcom es un reboot que ya salió mal hace una década
 [movies] Saltado noticia no apta para películas: Jesús Bonilla, tras 10 años "divinamente retirado": "Antonio Resines no puede parar porque le encanta. Es como una droga"
@@ -13,24 +14,17 @@ Fecha UTC: 2026-10-22T23:19:34.601930+00:00
 [movies] Saltado noticia no apta para películas: Carlos Gónzález ('La bola negra'): "[Los Javis] en set no son amigos. Hay amor, hay respeto, pero son dos directores"
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
 [movies] Saltado noticia no apta para películas: Quién fue Rafael Bueno Latorre, el hombre que tuvo en jaque a todo el sistema penitenciario español
-[movies] Saltado noticia no apta para películas: Ver de nuevo a Christian Gálvez al frente de 'El Rosco' deja claro que uno de los grandes errores de 'Rueda la letra' es Carlos Sobera
 [movies] Saltado porque no es estreno 2026: La taberna de Valencia que cerró tras el paso de 'Pesadilla en la cocina', pero que triunfó en una nueva ubicación (2024)
-[movies] Saltado noticia no apta para películas: A qué se dedican los siete hijos de Karlos Arguiñano: solo uno de ellos no está dentro del negocio familiar
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció al concursante salvado: Así queda la lista de nominados para la gala del jueves
+[movies] Saltado noticia no apta para películas: A qué se dedican los siete hijos de Karlos Arguiñano: solo uno de ellos no está dentro del negocio familiar
 [movies] Saltado noticia no apta para películas: Hoy se estrena en Netflix el 'reality' que recupera uno de los experimentos psicológicos más controvertidos de la historia
 [movies] Saltado noticia no apta para películas: La audiencia dicta sentencia a 'El Telediario de nuestras vidas': el histórico especial de RTVE que será recordado por esto
-[movies] Candidatos encontrados: 44 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "Una obra maestra": Leonardo DiCaprio, Matt Damon y Ben Affleck adoran esta película de culto "perfecta" de los años 80
-[movies] Saltado porque no tiene tráiler confiable: "Una obra maestra": Leonardo DiCaprio, Matt Damon y Ben Affleck adoran esta película de culto "perfecta" de los años 80
-[YouTube] No se encontró tráiler confiable para Chris Pratt confirma que Star-Lord volverá a Marvel: "No puedo decir cuándo será, pero no se va a ninguna parte"
-[movies] Saltado porque no tiene tráiler confiable: Chris Pratt confirma que Star-Lord volverá a Marvel: "No puedo decir cuándo será, pero no se va a ninguna parte"
-[YouTube] No se encontró tráiler confiable para Denzel Washington: "Los sueños sin metas son solo sueños y, a la larga, alimentan la decepción"
-[movies] Saltado porque no tiene tráiler confiable: Denzel Washington: "Los sueños sin metas son solo sueños y, a la larga, alimentan la decepción"
-[YouTube] No se encontró tráiler confiable para Los Javis han cometido un error estrepitoso en el cartel de 'La bola negra'. Nadie se dio cuenta hasta que ya fue demasiado tarde
-[movies] Saltado porque no tiene tráiler confiable: Los Javis han cometido un error estrepitoso en el cartel de 'La bola negra'. Nadie se dio cuenta hasta que ya fue demasiado tarde
-[movies] Saltado por tema bloqueado: Luis Zahera, protagonista de 'Leones en invierno': "Creo que las mujeres transitan mejor la violencia que los hombres"
-[YouTube] No se encontró tráiler confiable para Una estrella fue acusada de usar IA en su vídeo y tuvo que demostrar que no lo hizo: es una muestra de que vivimos con un nuevo tipo de miedo
-[movies] Saltado porque no tiene tráiler confiable: Una estrella fue acusada de usar IA en su vídeo y tuvo que demostrar que no lo hizo: es una muestra de que vivimos con un nuevo tipo de miedo
-[movies] Publicados: 0
-Total películas publicadas: 0
+[movies] Candidatos encontrados: 38 | Límite: 1
+[IA] Probando proveedor cohere: 200 vidas, Paco Rabal
+[IA] cohere falló (error): Cohere error 404: {"id":"c2410aa7-8f20-477f-92ce-feff93a1b2fb","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: 200 vidas, Paco Rabal
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/200-vidas-paco-rabal-un-viaje-intimo-a-la-leyenda-del-cine-2026-10-23-143b3c.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
