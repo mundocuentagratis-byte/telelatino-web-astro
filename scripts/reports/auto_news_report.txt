@@ -1,13 +1,21 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-23T13:22:18.924076+00:00
+Fecha UTC: 2026-10-23T19:57:34.538969+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Street Fighter (None)
+[movies] Saltado noticia no apta para películas: Para muchos, la mejor película en ‘stop motion’ de la historia: ‘Wildwood’ llega a los cines el 23 de octubre
+[movies] Saltado noticia no apta para películas: Vuelve a los cines españoles una obra maestra del suspense: fue una gran influencia para las películas de James Bond
+[movies] Saltado noticia no apta para películas: Jordi Mollà: "No he pasado más miedo en mi vida que teniendo delante a Tommy Lee Jones en una escena"
+[movies] Saltado noticia no apta para películas: Stephen King odia esta película basada en su obra: "No la apruebo. No quería que se hiciera"
+[movies] Saltado noticia no apta para películas: Olvídate de ‘Avatar’ y ‘Los Vengadores’. Con una puntuación de 4,4 sobre 5, esta obra maestra atemporal fue la película más taquillera de todos los tiempos durante 36 años
+[movies] Saltado noticia no apta para películas: Netflix ha cambiado radicalmente en una semana: su nuevo futuro pasa por Greta Gerwig y no por estancarse en un modelo
+[movies] Saltado noticia no apta para películas: Los hijos de Clint Eastwood y Tom Hanks, en la II Guerra Mundial. Ha pasado volando por los cines y merece la pena recuperarla
 [movies] Saltado porque no es estreno 2026: Karra Elejalde: "No hay mineral, vegetal ni animal más agresivo para el planeta que el ser humano" (2025)
+[movies] Saltado noticia no apta para películas: El argentino Nicolás Vázquez recibió una videollamada por sorpresa de Sylvester Stallone: "Gracias, Sly. Por Rocky, por tu generosidad"
 [movies] Saltado porque no es estreno 2026: Esta noche en Netflix: esta épica histórica de 2024 costó 250 millones de dólares estadounidenses (2024)
 [movies] Saltado noticia no apta para películas: Hace 17 años, Clint Eastwood tuvo que desmentir que un famoso cómico fuera su padre: "Mi madre se puso histérica"
-[movies] Saltado porque no es estreno 2026: Esta película fue un fracaso e hizo perder 70 millones a su estudio, pero en España está triunfando: lleva tres semanas en el top 3 de Netflix (2027)
-[movies] Saltado porque no es estreno 2026: Jason Statham vuelve en la secuela de una de sus películas más populares: 2027 arranca con 'The Beekeeper 2' en cines (2027)
-[movies] Saltado noticia no apta para películas: Calendario de futuros estrenos de Disney y Pixar: Todas las películas del estudio en 2026 y en adelante
+[movies] Saltado noticia no apta para películas: Denzel Washington: "Los sueños sin metas son solo sueños y, a la larga, alimentan la decepción"
+[movies] Saltado noticia no apta para películas: Ty Burrell reaparece seis años después de 'Modern Family': su nueva sitcom es un reboot que ya salió mal hace una década
+[movies] Saltado noticia no apta para películas: Jesús Bonilla, tras 10 años "divinamente retirado": "Antonio Resines no puede parar porque le encanta. Es como una droga"
 [movies] Saltado noticia no apta para películas: Carlos Gónzález ('La bola negra'): "[Los Javis] en set no son amigos. Hay amor, hay respeto, pero son dos directores"
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
 [movies] Saltado noticia no apta para películas: Quién fue Rafael Bueno Latorre, el hombre que tuvo en jaque a todo el sistema penitenciario español
@@ -18,15 +26,24 @@ Fecha UTC: 2026-10-23T13:22:18.924076+00:00
 [movies] Saltado noticia no apta para películas: David Bustamante sobre 'Operación Triunfo': "Nos hicimos millonarios con 19 años. Miré el banco y nunca había visto tanto dinero en mi vida"
 [movies] Saltado noticia no apta para películas: A qué se dedican los siete hijos de Karlos Arguiñano: solo uno de ellos no está dentro del negocio familiar
 [movies] Saltado noticia no apta para películas: Rosa López sobre el 25 aniversario de 'Operación Triunfo': "No tiene ningún sentido que a los artistas de 'OT 1' nos llamen solo cada año"
-[movies] Candidatos encontrados: 37 | Límite: 1
-[IA] Probando proveedor mistral: Blue Heron
+[movies] Candidatos encontrados: 27 | Límite: 1
+[IA] Probando proveedor gemini: El poder del Rosario
+[IA] gemini falló (error): Expecting ',' delimiter: line 5 column 3 (char 5237)
+[IA] Probando proveedor groq: El poder del Rosario
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: El poder del Rosario
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: El poder del Rosario
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Blue Heron
-[IA] cohere falló (error): Cohere error 404: {"id":"4d026b6a-ed85-40fe-8c3d-23ef4e912cfb","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Blue Heron
+[IA] Probando proveedor cohere: El poder del Rosario
+[IA] cohere falló (error): Cohere error 404: {"id":"c3b48eb4-ca06-4f36-b77d-438cd45f07d2","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[movies] Error generando artículo El poder del Rosario: Todos los proveedores de IA fallaron. [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}} | [IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429} | [IA] cohere falló (error): Cohere error 404: {"id":"c3b48eb4-ca06-4f36-b77d-438cd45f07d2","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[movies] Saltado por tema bloqueado: El samurái y el prisionero
+[IA] Probando proveedor gemini: Karateka
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/blue-heron-un-drama-intimo-sobre-memoria-y-lazos-familiares-2026-10-23-3535ad.md
+[OK] Publicado: src/content/blog/karateka-la-inspiradora-historia-de-sandra-sanchez-llega-al-cine-2026-10-23-514695.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
