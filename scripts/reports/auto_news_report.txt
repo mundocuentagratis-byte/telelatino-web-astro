@@ -1,30 +1,32 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-23T04:42:27.039465+00:00
+Fecha UTC: 2026-10-23T13:22:18.924076+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Street Fighter (None)
-[movies] Saltado noticia no apta para películas: Para muchos, la mejor película en ‘stop motion’ de la historia: ‘Wildwood’ llega a los cines el 23 de octubre
-[movies] Saltado noticia no apta para películas: Ty Burrell reaparece seis años después de 'Modern Family': su nueva sitcom es un reboot que ya salió mal hace una década
-[movies] Saltado noticia no apta para películas: Jesús Bonilla, tras 10 años "divinamente retirado": "Antonio Resines no puede parar porque le encanta. Es como una droga"
-[movies] Saltado noticia no apta para películas: Batman está presente durante los eventos de 'Clayface', confirma el jefe de DC Studios: "Esta es la introducción a la Gotham de acción real"
+[movies] Saltado porque no es estreno 2026: Karra Elejalde: "No hay mineral, vegetal ni animal más agresivo para el planeta que el ser humano" (2025)
+[movies] Saltado porque no es estreno 2026: Esta noche en Netflix: esta épica histórica de 2024 costó 250 millones de dólares estadounidenses (2024)
+[movies] Saltado noticia no apta para películas: Hace 17 años, Clint Eastwood tuvo que desmentir que un famoso cómico fuera su padre: "Mi madre se puso histérica"
 [movies] Saltado porque no es estreno 2026: Esta película fue un fracaso e hizo perder 70 millones a su estudio, pero en España está triunfando: lleva tres semanas en el top 3 de Netflix (2027)
-[movies] Saltado noticia no apta para películas: Jason Statham vuelve en la secuela de una de sus películas más populares: 2027 arranca con 'The Beekeeper 2' en cines
+[movies] Saltado porque no es estreno 2026: Jason Statham vuelve en la secuela de una de sus películas más populares: 2027 arranca con 'The Beekeeper 2' en cines (2027)
 [movies] Saltado noticia no apta para películas: Calendario de futuros estrenos de Disney y Pixar: Todas las películas del estudio en 2026 y en adelante
-[movies] Saltado noticia no apta para películas: El Festival Internacional de Cine de Gijón proyectará los tres primeros episodios de '¿Qué es el cine?'
-[movies] Saltado noticia no apta para películas: Tarantino es uno de los directores más violentos, pero con 'Kill Bill' nos demostró que la venganza no es nada gloriosa
 [movies] Saltado noticia no apta para películas: Carlos Gónzález ('La bola negra'): "[Los Javis] en set no son amigos. Hay amor, hay respeto, pero son dos directores"
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
 [movies] Saltado noticia no apta para películas: Quién fue Rafael Bueno Latorre, el hombre que tuvo en jaque a todo el sistema penitenciario español
 [movies] Saltado porque no es estreno 2026: La taberna de Valencia que cerró tras el paso de 'Pesadilla en la cocina', pero que triunfó en una nueva ubicación (2024)
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció al concursante salvado: Así queda la lista de nominados para la gala del jueves
+[movies] Saltado noticia no apta para películas: David Broncano a Pedro Sánchez en 'La Revuelta': "Nosotros para el presidente no tenemos ningún regalo porque así empezó lo de Zapatero"
+[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' asustó con un desmayo en plena apnea y anunció al expulsado de la semana: Esta es la nueva lista de nominados
+[movies] Saltado noticia no apta para películas: David Bustamante sobre 'Operación Triunfo': "Nos hicimos millonarios con 19 años. Miré el banco y nunca había visto tanto dinero en mi vida"
 [movies] Saltado noticia no apta para películas: A qué se dedican los siete hijos de Karlos Arguiñano: solo uno de ellos no está dentro del negocio familiar
-[movies] Saltado noticia no apta para películas: Hoy se estrena en Netflix el 'reality' que recupera uno de los experimentos psicológicos más controvertidos de la historia
-[movies] Saltado noticia no apta para películas: La audiencia dicta sentencia a 'El Telediario de nuestras vidas': el histórico especial de RTVE que será recordado por esto
-[movies] Candidatos encontrados: 38 | Límite: 1
-[IA] Probando proveedor cohere: 200 vidas, Paco Rabal
-[IA] cohere falló (error): Cohere error 404: {"id":"c2410aa7-8f20-477f-92ce-feff93a1b2fb","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: 200 vidas, Paco Rabal
+[movies] Saltado noticia no apta para películas: Rosa López sobre el 25 aniversario de 'Operación Triunfo': "No tiene ningún sentido que a los artistas de 'OT 1' nos llamen solo cada año"
+[movies] Candidatos encontrados: 37 | Límite: 1
+[IA] Probando proveedor mistral: Blue Heron
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: Blue Heron
+[IA] cohere falló (error): Cohere error 404: {"id":"4d026b6a-ed85-40fe-8c3d-23ef4e912cfb","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Blue Heron
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/200-vidas-paco-rabal-un-viaje-intimo-a-la-leyenda-del-cine-2026-10-23-143b3c.md
+[OK] Publicado: src/content/blog/blue-heron-un-drama-intimo-sobre-memoria-y-lazos-familiares-2026-10-23-3535ad.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
