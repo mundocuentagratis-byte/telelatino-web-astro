@@ -1,18 +1,12 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-24T18:46:55.204335+00:00
+Fecha UTC: 2026-10-24T22:27:17.716736+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Street Fighter (None)
-[movies] Saltado noticia no apta para películas: Para muchos, la mejor película en ‘stop motion’ de la historia: ‘Wildwood’ llega a los cines el 23 de octubre
+[movies] Saltado porque no es estreno 2026: Hace 11 años, esta película fue el mayor éxito cinematográfico: Casi 3 horas de acción explosiva de ciencia ficción (2023)
 [movies] Saltado noticia no apta para películas: He tardado más de tres décadas en pillar este comentario del Teniente Dan, el mejor guiño oculto de 'Forrest Gump'
-[movies] Saltado noticia no apta para películas: Siete años después, la protagonista de una de las peores películas del siglo XXI reconoce que fue un "desperdicio" de talento: "¡No lo soporto!"
-[movies] Saltado porque no es estreno 2026: Las mejores adaptaciones del universo de Jane Austen para ver acurrucada en el sofá (2006)
+[movies] Saltado noticia no apta para películas: Guitarricadelafuente está emocionando al mundo con la canción principal de 'La bola negra': "Me inspiraron las palabras de la última carta que Federico le escribió a Rafael"
 [movies] Saltado noticia no apta para películas: Esta película es tan terrible que su precuela la supera en todos los ámbitos: una película de 99 minutos que funciona como un tiro
-[movies] Saltado noticia no apta para películas: "Una falta absoluta de comprensión": Tom Cruise criticó fuertemente a esta actriz, pero tuvo que disculparse
-[movies] Saltado noticia no apta para películas: Una de las mejores películas de fantasía de todos los tiempos: fracasó en taquilla, pero ahora es de culto y una nueva versión ya está en camino
 [movies] Saltado porque no es estreno 2026: Tom Cruise y Emily Blunt presentaron tres veces en 24 horas a lo largo de todo el planeta una de las mejores películas de ciencia-ficción de la historia (2006)
-[movies] Saltado noticia no apta para películas: "El Brando de nuestra generación": Kurt Russell y Robert Redford coinciden en que es la mejor actriz desde Marlon Brando
-[movies] Saltado noticia no apta para películas: 'Clayface' dará un respiro a DC si se cumplen las previsiones: son mejores que la de 'Supergirl'
-[movies] Saltado noticia no apta para películas: Vuelve a los cines españoles una obra maestra del suspense: fue una gran influencia para las películas de James Bond
 [movies] Saltado noticia no apta para películas: Carlos Gónzález ('La bola negra'): "[Los Javis] en set no son amigos. Hay amor, hay respeto, pero son dos directores"
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
 [movies] Saltado noticia no apta para películas: Quién fue Rafael Bueno Latorre, el hombre que tuvo en jaque a todo el sistema penitenciario español
@@ -23,19 +17,25 @@ Fecha UTC: 2026-10-24T18:46:55.204335+00:00
 [movies] Saltado noticia no apta para películas: Las faltas de respeto en este programa de 'First Dates' fueron tan grandes que Carlos Sobera tuvo que intervenir
 [movies] Saltado porque no es estreno 2026: Miguel Puertas, experto en producción audiovisual, sobre la emisión del Mundial 2030 en Netflix: "No estamos asistiendo al final de la televisión deportiva, sino a una transformación profunda" (2030)
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' asustó con un desmayo en plena apnea y anunció al expulsado de la semana: Esta es la nueva lista de nominados
-[movies] Candidatos encontrados: 29 | Límite: 1
-[IA] Probando proveedor groq: Ozzy & Black Sabbath: Back To The Beginning
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: Ozzy & Black Sabbath: Back To The Beginning
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Ozzy & Black Sabbath: Back To The Beginning
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Ozzy & Black Sabbath: Back To The Beginning
-[IA] cohere falló (error): Cohere error 404: {"id":"9b29a4cf-ed0a-42a5-b301-8cac24168e5e","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Ozzy & Black Sabbath: Back To The Beginning
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/ozzy-black-sabbath-el-concierto-final-llega-a-la-gran-pantalla-2026-10-24-3ed53e.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[movies] Candidatos encontrados: 36 | Límite: 1
+[YouTube] No se encontró tráiler confiable para "El Brando de nuestra generación": Kurt Russell y Robert Redford coinciden en que es la mejor actriz desde Marlon Brando
+[movies] Saltado porque no tiene tráiler confiable: "El Brando de nuestra generación": Kurt Russell y Robert Redford coinciden en que es la mejor actriz desde Marlon Brando
+[YouTube] No se encontró tráiler confiable para "Una falta absoluta de comprensión": Tom Cruise criticó fuertemente a esta actriz, pero tuvo que disculparse
+[movies] Saltado porque no tiene tráiler confiable: "Una falta absoluta de comprensión": Tom Cruise criticó fuertemente a esta actriz, pero tuvo que disculparse
+[YouTube] No se encontró tráiler confiable para 'Clayface' dará un respiro a DC si se cumplen las previsiones: son mejores que la de 'Supergirl'
+[movies] Saltado porque no tiene tráiler confiable: 'Clayface' dará un respiro a DC si se cumplen las previsiones: son mejores que la de 'Supergirl'
+[YouTube] No se encontró tráiler confiable para Clint Eastwood: "No entiendo a Sylvester Stallone. He oído que va a hacer 'Rocky' otra vez. Tengo la impresión de que lo está haciendo solo por cobrar un cheque"
+[movies] Saltado porque no tiene tráiler confiable: Clint Eastwood: "No entiendo a Sylvester Stallone. He oído que va a hacer 'Rocky' otra vez. Tengo la impresión de que lo está haciendo solo por cobrar un cheque"
+[YouTube] No se encontró tráiler confiable para David Broncano a Pedro Sánchez en 'La Revuelta': "Nosotros para el presidente no tenemos ningún regalo porque así empezó lo de Zapatero"
+[movies] Saltado porque no tiene tráiler confiable: David Broncano a Pedro Sánchez en 'La Revuelta': "Nosotros para el presidente no tenemos ningún regalo porque así empezó lo de Zapatero"
+[YouTube] No se encontró tráiler confiable para Hace más de medio siglo que logró su primer papel gracias a un "enchufe" en 'La casa de la pradera'. Ahora tiene tres premios Oscar
+[movies] Saltado porque no tiene tráiler confiable: Hace más de medio siglo que logró su primer papel gracias a un "enchufe" en 'La casa de la pradera'. Ahora tiene tres premios Oscar
+[YouTube] No se encontró tráiler confiable para Las mejores adaptaciones del universo de Jane Austen para ver acurrucada en el sofá
+[movies] Saltado porque no tiene tráiler confiable: Las mejores adaptaciones del universo de Jane Austen para ver acurrucada en el sofá
+[YouTube] No se encontró tráiler confiable para Siete años después, la protagonista de una de las peores películas del siglo XXI reconoce que fue un "desperdicio" de talento: "¡No lo soporto!"
+[movies] Saltado porque no tiene tráiler confiable: Siete años después, la protagonista de una de las peores películas del siglo XXI reconoce que fue un "desperdicio" de talento: "¡No lo soporto!"
+[YouTube] No se encontró tráiler confiable para Una de las mejores películas de fantasía de todos los tiempos: fracasó en taquilla, pero ahora es de culto y una nueva versión ya está en camino
+[movies] Saltado porque no tiene tráiler confiable: Una de las mejores películas de fantasía de todos los tiempos: fracasó en taquilla, pero ahora es de culto y una nueva versión ya está en camino
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
