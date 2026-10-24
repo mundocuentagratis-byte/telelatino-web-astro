@@ -1,31 +1,36 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-24T04:30:31.768817+00:00
+Fecha UTC: 2026-10-24T12:39:06.953709+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Street Fighter (None)
 [movies] Saltado noticia no apta para películas: Para muchos, la mejor película en ‘stop motion’ de la historia: ‘Wildwood’ llega a los cines el 23 de octubre
+[movies] Saltado noticia no apta para películas: Esta película es tan terrible que su precuela la supera en todos los ámbitos: una película de 99 minutos que funciona como un tiro
+[movies] Saltado noticia no apta para películas: "Una falta absoluta de comprensión": Tom Cruise criticó fuertemente a esta actriz, pero tuvo que disculparse
+[movies] Saltado porque no es estreno 2026: Tom Cruise y Emily Blunt presentaron tres veces en 24 horas a lo largo de todo el planeta una de las mejores películas de ciencia-ficción de la historia (2006)
 [movies] Saltado noticia no apta para películas: "El Brando de nuestra generación": Kurt Russell y Robert Redford coinciden en que es la mejor actriz desde Marlon Brando
 [movies] Saltado noticia no apta para películas: 'Clayface' dará un respiro a DC si se cumplen las previsiones: son mejores que la de 'Supergirl'
+[movies] Saltado noticia no apta para películas: Vuelve a los cines españoles una obra maestra del suspense: fue una gran influencia para las películas de James Bond
 [movies] Saltado noticia no apta para películas: Jordi Mollà: "No he pasado más miedo en mi vida que teniendo delante a Tommy Lee Jones en una escena"
+[movies] Saltado noticia no apta para películas: Stephen King odia esta película basada en su obra: "No la apruebo. No quería que se hiciera"
+[movies] Saltado noticia no apta para películas: Olvídate de ‘Avatar’ y ‘Los Vengadores’. Con una puntuación de 4,4 sobre 5, esta obra maestra atemporal fue la película más taquillera de todos los tiempos durante 36 años
 [movies] Saltado noticia no apta para películas: Netflix ha cambiado radicalmente en una semana: su nuevo futuro pasa por Greta Gerwig y no por estancarse en un modelo
-[movies] Saltado porque no es estreno 2026: Karra Elejalde: "No hay mineral, vegetal ni animal más agresivo para el planeta que el ser humano" (2025)
-[movies] Saltado porque no es estreno 2026: Esta noche en Netflix: esta épica histórica de 2024 costó 250 millones de dólares estadounidenses (2024)
+[movies] Saltado noticia no apta para películas: Los hijos de Clint Eastwood y Tom Hanks, en la II Guerra Mundial. Ha pasado volando por los cines y merece la pena recuperarla
 [movies] Saltado noticia no apta para películas: Carlos Gónzález ('La bola negra'): "[Los Javis] en set no son amigos. Hay amor, hay respeto, pero son dos directores"
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
 [movies] Saltado noticia no apta para películas: Quién fue Rafael Bueno Latorre, el hombre que tuvo en jaque a todo el sistema penitenciario español
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció al concursante salvado: Así queda la lista de nominados para la gala del jueves
 [movies] Saltado porque no es estreno 2026: La taberna de Valencia que cerró tras el paso de 'Pesadilla en la cocina', pero que triunfó en una nueva ubicación (2024)
+[movies] Saltado noticia no apta para películas: Las faltas de respeto en este programa de 'First Dates' fueron tan grandes que Carlos Sobera tuvo que intervenir
 [movies] Saltado porque no es estreno 2026: Miguel Puertas, experto en producción audiovisual, sobre la emisión del Mundial 2030 en Netflix: "No estamos asistiendo al final de la televisión deportiva, sino a una transformación profunda" (2030)
 [movies] Saltado noticia no apta para películas: David Broncano a Pedro Sánchez en 'La Revuelta': "Nosotros para el presidente no tenemos ningún regalo porque así empezó lo de Zapatero"
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' asustó con un desmayo en plena apnea y anunció al expulsado de la semana: Esta es la nueva lista de nominados
 [movies] Saltado noticia no apta para películas: David Bustamante sobre 'Operación Triunfo': "Nos hicimos millonarios con 19 años. Miré el banco y nunca había visto tanto dinero en mi vida"
 [movies] Saltado noticia no apta para películas: A qué se dedican los siete hijos de Karlos Arguiñano: solo uno de ellos no está dentro del negocio familiar
-[movies] Saltado noticia no apta para películas: Rosa López sobre el 25 aniversario de 'Operación Triunfo': "No tiene ningún sentido que a los artistas de 'OT 1' nos llamen solo cada año"
-[movies] Candidatos encontrados: 34 | Límite: 1
-[IA] Probando proveedor cohere: El poder del Rosario
-[IA] cohere falló (error): Cohere error 404: {"id":"e0adc812-070d-4a54-b3b6-9a912e5e07fd","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: El poder del Rosario
+[movies] Candidatos encontrados: 29 | Límite: 1
+[IA] Probando proveedor cohere: Los niños están bien
+[IA] cohere falló (error): Cohere error 404: {"id":"ed7e9f7d-273a-49f0-b4b5-6c354b1e7a13","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Los niños están bien
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/el-poder-del-rosario-un-drama-de-fe-y-esperanza-en-la-gran-pantalla-2026-10-24-0dfa79.md
+[OK] Publicado: src/content/blog/los-ninos-estan-bien-un-drama-familiar-lleno-de-misterio-2026-10-24-5e4125.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
