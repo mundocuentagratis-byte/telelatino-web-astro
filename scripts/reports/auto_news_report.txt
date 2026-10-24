@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-23T23:07:22.121728+00:00
+Fecha UTC: 2026-10-24T04:30:31.768817+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Street Fighter (None)
 [movies] Saltado noticia no apta para películas: Para muchos, la mejor película en ‘stop motion’ de la historia: ‘Wildwood’ llega a los cines el 23 de octubre
@@ -12,8 +12,8 @@ Fecha UTC: 2026-10-23T23:07:22.121728+00:00
 [movies] Saltado noticia no apta para películas: Carlos Gónzález ('La bola negra'): "[Los Javis] en set no son amigos. Hay amor, hay respeto, pero son dos directores"
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
 [movies] Saltado noticia no apta para películas: Quién fue Rafael Bueno Latorre, el hombre que tuvo en jaque a todo el sistema penitenciario español
-[movies] Saltado porque no es estreno 2026: La taberna de Valencia que cerró tras el paso de 'Pesadilla en la cocina', pero que triunfó en una nueva ubicación (2024)
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció al concursante salvado: Así queda la lista de nominados para la gala del jueves
+[movies] Saltado porque no es estreno 2026: La taberna de Valencia que cerró tras el paso de 'Pesadilla en la cocina', pero que triunfó en una nueva ubicación (2024)
 [movies] Saltado porque no es estreno 2026: Miguel Puertas, experto en producción audiovisual, sobre la emisión del Mundial 2030 en Netflix: "No estamos asistiendo al final de la televisión deportiva, sino a una transformación profunda" (2030)
 [movies] Saltado noticia no apta para películas: David Broncano a Pedro Sánchez en 'La Revuelta': "Nosotros para el presidente no tenemos ningún regalo porque así empezó lo de Zapatero"
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' asustó con un desmayo en plena apnea y anunció al expulsado de la semana: Esta es la nueva lista de nominados
@@ -21,41 +21,11 @@ Fecha UTC: 2026-10-23T23:07:22.121728+00:00
 [movies] Saltado noticia no apta para películas: A qué se dedican los siete hijos de Karlos Arguiñano: solo uno de ellos no está dentro del negocio familiar
 [movies] Saltado noticia no apta para películas: Rosa López sobre el 25 aniversario de 'Operación Triunfo': "No tiene ningún sentido que a los artistas de 'OT 1' nos llamen solo cada año"
 [movies] Candidatos encontrados: 34 | Límite: 1
-[IA] Probando proveedor gemini: El poder del Rosario
-[IA] gemini falló (error): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
-[IA] Probando proveedor groq: El poder del Rosario
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: El poder del Rosario
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: El poder del Rosario
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 [IA] Probando proveedor cohere: El poder del Rosario
-[IA] cohere falló (error): Cohere error 404: {"id":"43363b34-829a-4f35-909c-4983498dda2c","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[movies] Error generando artículo El poder del Rosario: Todos los proveedores de IA fallaron. [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}} | [IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429} | [IA] cohere falló (error): Cohere error 404: {"id":"43363b34-829a-4f35-909c-4983498dda2c","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor mistral: Los niños están bien
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Los niños están bien
-[IA] cohere falló (error): Cohere error 404: {"id":"fe86382f-5a31-480e-be9f-568c7fd32df4","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Los niños están bien
-[IA] gemini falló (error): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
-[IA] Probando proveedor groq: Los niños están bien
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: Los niños están bien
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[movies] Error generando artículo Los niños están bien: Todos los proveedores de IA fallaron. [IA] gemini falló (error): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}} | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor openai: Moscas
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Moscas
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Moscas
-[IA] cohere falló (error): Cohere error 404: {"id":"9e031d80-8843-48e7-842c-ce5b105c43b7","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Moscas
+[IA] cohere falló (error): Cohere error 404: {"id":"e0adc812-070d-4a54-b3b6-9a912e5e07fd","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: El poder del Rosario
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/moscas-un-drama-inesperado-que-rompe-esquemas-en-el-cine-2026-10-23-1a96ab.md
+[OK] Publicado: src/content/blog/el-poder-del-rosario-un-drama-de-fe-y-esperanza-en-la-gran-pantalla-2026-10-24-0dfa79.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
