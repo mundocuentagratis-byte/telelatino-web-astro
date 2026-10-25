@@ -1,22 +1,37 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-25T04:33:40.293072+00:00
+Fecha UTC: 2026-10-25T13:13:52.572482+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Street Fighter (None)
+[movies] Saltado noticia no apta para películas: Para muchos, la mejor película en ‘stop motion’ de la historia: ‘Wildwood’ llega a los cines el 23 de octubre
+[movies] Saltado porque no es estreno 2026: Hace 41 años, nadie entendía que el título de esta película de Star Wars en realidad estaba revelando el final (2017)
+[movies] Saltado porque no es estreno 2026: "Una de las peores decisiones que he tomado": Uma Thurman rechazó, antes de 'Kill Bill', una de las mejores sagas de fantasía de todos los tiempos (2004)
+[movies] Saltado noticia no apta para películas: 13 estrenos en Netflix: esta semana, un emotivo documental para los fans de 'Friends' y el primer thriller de Daniel Sánchez-Arévalo
+[movies] Saltado noticia no apta para películas: Hace más de medio siglo que logró su primer papel gracias a un "enchufe" en 'La casa de la pradera'. Ahora tiene tres premios Oscar
 [movies] Saltado porque no es estreno 2026: Hace 11 años, esta película fue el mayor éxito cinematográfico: Casi 3 horas de acción explosiva de ciencia ficción (2023)
 [movies] Saltado noticia no apta para películas: He tardado más de tres décadas en pillar este comentario del Teniente Dan, el mejor guiño oculto de 'Forrest Gump'
-[movies] Saltado noticia no apta para películas: Guitarricadelafuente está emocionando al mundo con la canción principal de 'La bola negra': "Me inspiraron las palabras de la última carta que Federico le escribió a Rafael"
+[movies] Saltado noticia no apta para películas: Siete años después, la protagonista de una de las peores películas del siglo XXI reconoce que fue un "desperdicio" de talento: "¡No lo soporto!"
+[movies] Saltado porque no es estreno 2026: Las mejores adaptaciones del universo de Jane Austen para ver acurrucada en el sofá (2006)
 [movies] Saltado noticia no apta para películas: Esta película es tan terrible que su precuela la supera en todos los ámbitos: una película de 99 minutos que funciona como un tiro
+[movies] Saltado noticia no apta para películas: "Una falta absoluta de comprensión": Tom Cruise criticó fuertemente a esta actriz, pero tuvo que disculparse
+[movies] Saltado noticia no apta para películas: Una de las mejores películas de fantasía de todos los tiempos: fracasó en taquilla, pero ahora es de culto y una nueva versión ya está en camino
 [movies] Saltado porque no es estreno 2026: Tom Cruise y Emily Blunt presentaron tres veces en 24 horas a lo largo de todo el planeta una de las mejores películas de ciencia-ficción de la historia (2006)
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció al concursante salvado: Así queda la lista de nominados para la gala del jueves
-[movies] Saltado noticia no apta para películas: Miguel Ríos: "Felipe González me dijo: 'Miguel, lo más práctico es que pienses que has ganado la mitad de lo que has ganado'"
-[movies] Saltado noticia no apta para películas: El tenso cara a cara entre Náyades y Paula termina provocando lo que menos esperábamos en 'La isla de las tentaciones 11'
-[movies] Saltado noticia no apta para películas: La pesadilla de Rosa López tras su paso por 'Operación Triunfo' que truncó su carrera musical
+[movies] Saltado noticia no apta para películas: A qué se dedican los siete hijos de Karlos Arguiñano: solo uno de ellos no está dentro del negocio familiar
 [movies] Saltado noticia no apta para películas: Por qué Aida Bao no presenta 'Cosas nuestras': Esta será su sustituta durante su baja temporal
+[movies] Saltado noticia no apta para películas: España se queda a las puertas de ganar Eurovisión Junior 2026: Lucas Paulano queda 2º
+[movies] Saltado noticia no apta para películas: La pesadilla de Rosa López tras su paso por 'Operación Triunfo' que truncó su carrera musical
 [movies] Saltado noticia no apta para películas: Las faltas de respeto en este programa de 'First Dates' fueron tan grandes que Carlos Sobera tuvo que intervenir
 [movies] Saltado porque no es estreno 2026: Miguel Puertas, experto en producción audiovisual, sobre la emisión del Mundial 2030 en Netflix: "No estamos asistiendo al final de la televisión deportiva, sino a una transformación profunda" (2030)
-[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' asustó con un desmayo en plena apnea y anunció al expulsado de la semana: Esta es la nueva lista de nominados
-[movies] Candidatos encontrados: 37 | Límite: 1
-[movies] Publicados: 0
-Total películas publicadas: 0
+[movies] Candidatos encontrados: 28 | Límite: 1
+[IA] Probando proveedor mistral: The Beekeeper 2
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: The Beekeeper 2
+[IA] cohere falló (error): Cohere error 404: {"id":"476658df-aecc-4a9d-99b3-0ea24fa0012f","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: The Beekeeper 2
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/the-beekeeper-2-jason-statham-vuelve-al-nido-del-peligro-2026-10-25-cf32bd.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
