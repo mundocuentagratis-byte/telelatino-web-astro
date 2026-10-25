@@ -1,23 +1,31 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-25T18:59:38.695046+00:00
+Fecha UTC: 2026-10-25T22:31:59.957190+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Street Fighter (None)
+[movies] Saltado porque no es estreno 2026: Por qué hay una larga lista de gente en Hollywood que no quiere volver a trabajar con Kevin Costner: "No hubo puñetazos, pero se enfrentaron hasta que tuvieron que separarlos" (2025)
+[movies] Saltado noticia no apta para películas: 32 años después, los niños que crecieron en los 90 con esta película la siguen recordando por su "encanto innegable"
+[movies] Saltado porque no es estreno 2026: Hace 41 años, nadie entendía que el título de esta película de Star Wars en realidad estaba revelando el final (2017)
+[movies] Saltado porque no es estreno 2026: "Una de las peores decisiones que he tomado": Uma Thurman rechazó, antes de 'Kill Bill', una de las mejores sagas de fantasía de todos los tiempos (2004)
+[movies] Saltado noticia no apta para películas: 13 estrenos en Netflix: esta semana, un emotivo documental para los fans de 'Friends' y el primer thriller de Daniel Sánchez-Arévalo
 [movies] Saltado porque no es estreno 2026: Hace 11 años, esta película fue el mayor éxito cinematográfico: Casi 3 horas de acción explosiva de ciencia ficción (2023)
 [movies] Saltado noticia no apta para películas: He tardado más de tres décadas en pillar este comentario del Teniente Dan, el mejor guiño oculto de 'Forrest Gump'
-[movies] Saltado noticia no apta para películas: Guitarricadelafuente está emocionando al mundo con la canción principal de 'La bola negra': "Me inspiraron las palabras de la última carta que Federico le escribió a Rafael"
-[movies] Saltado noticia no apta para películas: Esta película es tan terrible que su precuela la supera en todos los ámbitos: una película de 99 minutos que funciona como un tiro
-[movies] Saltado porque no es estreno 2026: Tom Cruise y Emily Blunt presentaron tres veces en 24 horas a lo largo de todo el planeta una de las mejores películas de ciencia-ficción de la historia (2006)
-[movies] Saltado noticia no apta para películas: Carlos Gónzález ('La bola negra'): "[Los Javis] en set no son amigos. Hay amor, hay respeto, pero son dos directores"
+[movies] Saltado porque no es estreno 2026: Siete años después, la protagonista de una de las peores películas del siglo XXI reconoce que fue un "desperdicio" de talento: "¡No lo soporto!" (2019)
 [movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
-[movies] Saltado noticia no apta para películas: Quién fue Rafael Bueno Latorre, el hombre que tuvo en jaque a todo el sistema penitenciario español
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció al concursante salvado: Así queda la lista de nominados para la gala del jueves
-[movies] Saltado porque no es estreno 2026: La taberna de Valencia que cerró tras el paso de 'Pesadilla en la cocina', pero que triunfó en una nueva ubicación (2024)
-[movies] Saltado noticia no apta para películas: La pesadilla de Rosa López tras su paso por 'Operación Triunfo' que truncó su carrera musical
+[movies] Saltado noticia no apta para películas: A qué se dedican los siete hijos de Karlos Arguiñano: solo uno de ellos no está dentro del negocio familiar
 [movies] Saltado noticia no apta para películas: Por qué Aida Bao no presenta 'Cosas nuestras': Esta será su sustituta durante su baja temporal
+[movies] Saltado noticia no apta para películas: La colaboradora de Telecinco que ganó 'Top Chef VIP' de Estados Unidos tras su paso por otros realities
+[movies] Saltado noticia no apta para películas: España se queda a las puertas de ganar Eurovisión Junior 2026: Lucas Paulano queda 2º
+[movies] Saltado noticia no apta para películas: La pesadilla de Rosa López tras su paso por 'Operación Triunfo' que truncó su carrera musical
 [movies] Saltado noticia no apta para películas: Las faltas de respeto en este programa de 'First Dates' fueron tan grandes que Carlos Sobera tuvo que intervenir
-[movies] Saltado porque no es estreno 2026: Miguel Puertas, experto en producción audiovisual, sobre la emisión del Mundial 2030 en Netflix: "No estamos asistiendo al final de la televisión deportiva, sino a una transformación profunda" (2030)
-[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' asustó con un desmayo en plena apnea y anunció al expulsado de la semana: Esta es la nueva lista de nominados
-[movies] Candidatos encontrados: 36 | Límite: 1
-[movies] Publicados: 0
-Total películas publicadas: 0
+[movies] Candidatos encontrados: 32 | Límite: 1
+[YouTube] No se encontró tráiler confiable para Guitarricadelafuente está emocionando al mundo con la canción principal de 'La bola negra': "Me inspiraron las palabras de la última carta que Federico le escribió a Rafael"
+[movies] Saltado porque no tiene tráiler confiable: Guitarricadelafuente está emocionando al mundo con la canción principal de 'La bola negra': "Me inspiraron las palabras de la última carta que Federico le escribió a Rafael"
+[IA] Probando proveedor cohere: Hoy en TV: una película de fantasía excepcional y la mejor de la carrera de Arno
+[IA] cohere falló (error): Cohere error 404: {"id":"bd559de7-5cca-43f8-b368-aa1f4f9f1bc6","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Hoy en TV: una película de fantasía excepcional y la mejor de la carrera de Arno
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/conan-el-barbaro-la-pelicula-que-catapulto-a-arnold-schwarzenegger-2026-10-25-b7a882.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
