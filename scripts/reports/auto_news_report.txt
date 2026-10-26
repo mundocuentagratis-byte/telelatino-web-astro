@@ -1,16 +1,19 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-25T22:31:59.957190+00:00
+Fecha UTC: 2026-10-26T04:38:58.800896+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Street Fighter (None)
+[movies] Saltado noticia no apta para películas: Para muchos, la mejor película en ‘stop motion’ de la historia: ‘Wildwood’ llega a los cines el 23 de octubre
+[movies] Saltado noticia no apta para películas: "Pensó que podría luchar contra Arnold Schwarzenegger": Jean Claude Van Damme fue despedido de 'Depredador' por un ataque de furia
 [movies] Saltado porque no es estreno 2026: Por qué hay una larga lista de gente en Hollywood que no quiere volver a trabajar con Kevin Costner: "No hubo puñetazos, pero se enfrentaron hasta que tuvieron que separarlos" (2025)
+[movies] Saltado noticia no apta para películas: Hoy en TV: una película de fantasía excepcional y la mejor de la carrera de Arnold Schwarzenegger
+[movies] Saltado noticia no apta para películas: Hoy en tv: una película taquillera de casi 3 horas de duración que despide a la perfección a un icono de la acción
 [movies] Saltado noticia no apta para películas: 32 años después, los niños que crecieron en los 90 con esta película la siguen recordando por su "encanto innegable"
 [movies] Saltado porque no es estreno 2026: Hace 41 años, nadie entendía que el título de esta película de Star Wars en realidad estaba revelando el final (2017)
 [movies] Saltado porque no es estreno 2026: "Una de las peores decisiones que he tomado": Uma Thurman rechazó, antes de 'Kill Bill', una de las mejores sagas de fantasía de todos los tiempos (2004)
 [movies] Saltado noticia no apta para películas: 13 estrenos en Netflix: esta semana, un emotivo documental para los fans de 'Friends' y el primer thriller de Daniel Sánchez-Arévalo
+[movies] Saltado noticia no apta para películas: Hace más de medio siglo que logró su primer papel gracias a un "enchufe" en 'La casa de la pradera'. Ahora tiene tres premios Oscar
 [movies] Saltado porque no es estreno 2026: Hace 11 años, esta película fue el mayor éxito cinematográfico: Casi 3 horas de acción explosiva de ciencia ficción (2023)
 [movies] Saltado noticia no apta para películas: He tardado más de tres décadas en pillar este comentario del Teniente Dan, el mejor guiño oculto de 'Forrest Gump'
-[movies] Saltado porque no es estreno 2026: Siete años después, la protagonista de una de las peores películas del siglo XXI reconoce que fue un "desperdicio" de talento: "¡No lo soporto!" (2019)
-[movies] Saltado noticia no apta para películas: Gary Sinise, actor y Premio al Servicio Civil Sobresaliente: cada año lleva a 1.000 hijos de soldados fallecidos a Disney
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció al concursante salvado: Así queda la lista de nominados para la gala del jueves
 [movies] Saltado noticia no apta para películas: A qué se dedican los siete hijos de Karlos Arguiñano: solo uno de ellos no está dentro del negocio familiar
 [movies] Saltado noticia no apta para películas: Por qué Aida Bao no presenta 'Cosas nuestras': Esta será su sustituta durante su baja temporal
@@ -18,14 +21,7 @@ Fecha UTC: 2026-10-25T22:31:59.957190+00:00
 [movies] Saltado noticia no apta para películas: España se queda a las puertas de ganar Eurovisión Junior 2026: Lucas Paulano queda 2º
 [movies] Saltado noticia no apta para películas: La pesadilla de Rosa López tras su paso por 'Operación Triunfo' que truncó su carrera musical
 [movies] Saltado noticia no apta para películas: Las faltas de respeto en este programa de 'First Dates' fueron tan grandes que Carlos Sobera tuvo que intervenir
-[movies] Candidatos encontrados: 32 | Límite: 1
-[YouTube] No se encontró tráiler confiable para Guitarricadelafuente está emocionando al mundo con la canción principal de 'La bola negra': "Me inspiraron las palabras de la última carta que Federico le escribió a Rafael"
-[movies] Saltado porque no tiene tráiler confiable: Guitarricadelafuente está emocionando al mundo con la canción principal de 'La bola negra': "Me inspiraron las palabras de la última carta que Federico le escribió a Rafael"
-[IA] Probando proveedor cohere: Hoy en TV: una película de fantasía excepcional y la mejor de la carrera de Arno
-[IA] cohere falló (error): Cohere error 404: {"id":"bd559de7-5cca-43f8-b368-aa1f4f9f1bc6","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Hoy en TV: una película de fantasía excepcional y la mejor de la carrera de Arno
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/conan-el-barbaro-la-pelicula-que-catapulto-a-arnold-schwarzenegger-2026-10-25-b7a882.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[movies] Candidatos encontrados: 29 | Límite: 1
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
