@@ -1,37 +1,61 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-26T15:09:08.430451+00:00
+Fecha UTC: 2026-10-26T21:01:15.410981+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Street Fighter (None)
-[movies] Saltado noticia no apta para películas: Una historia real de superación y empoderamiento femenino: ‘Karateka’ llega a los cines el 30 de octubre
-[movies] Saltado noticia no apta para películas: Debutó hace 47 años en una película basada en el caso de Gay Future. Ahora ha sido James Bond y es uno de los actores más famosos del mundo. ¿Le reconoces?
-[movies] Saltado noticia no apta para películas: 26 de octubre: tal día como hoy en 1985 Marty McFly viajó en el tiempo, pero la conexión con 'Los Goonies' es un rumor de internet
-[movies] Saltado noticia no apta para películas: Crítica de 'Clayface': una de las propuestas más singulares y arriesgadas que ha parido el cine de superhéroes reciente
 [movies] Saltado noticia no apta para películas: Inma Cuesta (46 años): "Ahora soy una privilegiada, pero vengo de una familia humilde. Quién me va a decir que no puedo protestar por la crisis de la vivienda"
 [movies] Saltado noticia no apta para películas: "Algunas películas deberían dejarse como están": Robert Redford no quería en absoluto una nueva versión de este clásico del cine
-[movies] Saltado noticia no apta para películas: "Pensó que podría luchar contra Arnold Schwarzenegger": Jean Claude Van Damme fue despedido de 'Depredador' por un ataque de furia
-[movies] Saltado porque no es estreno 2026: Por qué hay una larga lista de gente en Hollywood que no quiere volver a trabajar con Kevin Costner: "No hubo puñetazos, pero se enfrentaron hasta que tuvieron que separarlos" (2025)
-[movies] Saltado noticia no apta para películas: Hoy en TV: una película de fantasía excepcional y la mejor de la carrera de Arnold Schwarzenegger
-[movies] Saltado noticia no apta para películas: Hoy en tv: una película taquillera de casi 3 horas de duración que despide a la perfección a un icono de la acción
-[movies] Saltado noticia no apta para películas: 32 años después, los niños que crecieron en los 90 con esta película la siguen recordando por su "encanto innegable"
-[movies] Saltado porque no es estreno 2026: Hace 41 años, nadie entendía que el título de esta película de Star Wars en realidad estaba revelando el final (2017)
 [movies] Saltado noticia no apta para películas: Por qué Aida Bao no presenta 'Cosas nuestras': Esta será su sustituta durante su baja temporal
 [movies] Saltado noticia no apta para películas: A qué se dedican los siete hijos de Karlos Arguiñano: solo uno de ellos no está dentro del negocio familiar
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció al concursante salvado: Así queda la lista de nominados para la gala del jueves
+[movies] Saltado noticia no apta para películas: La vida de Jordi Cruz, presentador de 'Art Attack', con 50 años: se reinventó para adaptarse a la manera de consumir contenidos fuera de la televisión
 [movies] Saltado noticia no apta para películas: Tras más de 10 años en Mediaset, este mítico colaborador de 'El programa de Ana Rosa' ficha por La Séptima: "Toca decir adiós"
 [movies] Saltado noticia no apta para películas: La colaboradora de Telecinco que ganó 'Top Chef VIP' de Estados Unidos tras su paso por otros realities
 [movies] Saltado noticia no apta para películas: España se queda a las puertas de ganar Eurovisión Junior 2026: Lucas Paulano queda 2º
 [movies] Saltado noticia no apta para películas: La pesadilla de Rosa López tras su paso por 'Operación Triunfo' que truncó su carrera musical
-[movies] Candidatos encontrados: 29 | Límite: 1
-[IA] Probando proveedor openai: Fiesta Pagäna
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Fiesta Pagäna
+[movies] Candidatos encontrados: 39 | Límite: 1
+[IA] Probando proveedor mistral: Un amor posible
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Fiesta Pagäna
-[IA] cohere falló (error): Cohere error 404: {"id":"3b2e42ec-6ff1-4d08-8c22-dc16e5d4a6ed","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Fiesta Pagäna
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/fiesta-pagana-cuando-el-rock-espanol-se-encontro-con-la-magia-celta-2026-10-26-49dbda.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[IA] Probando proveedor cohere: Un amor posible
+[IA] cohere falló (error): Cohere error 404: {"id":"df5297ef-14c2-4ccd-b799-179e00d1e0f1","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Un amor posible
+[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 2481 (char 2721)
+[IA] Probando proveedor groq: Un amor posible
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: Un amor posible
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[movies] Error generando artículo Un amor posible: Todos los proveedores de IA fallaron. [IA] gemini falló (error): Expecting ',' delimiter: line 4 column 2481 (char 2721) | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[YouTube] No se encontró tráiler confiable para "Aragorn siempre será Viggo": El sustituto de Viggo Mortensen en 'El Señor de los Anillos' habla sobre la presión de interpretar a Aragorn
+[movies] Saltado porque no tiene tráiler confiable: "Aragorn siempre será Viggo": El sustituto de Viggo Mortensen en 'El Señor de los Anillos' habla sobre la presión de interpretar a Aragorn
+[YouTube] No se encontró tráiler confiable para "Pensó que podría luchar contra Arnold Schwarzenegger": Jean Claude Van Damme fue despedido de 'Depredador' por un ataque de furia
+[movies] Saltado porque no tiene tráiler confiable: "Pensó que podría luchar contra Arnold Schwarzenegger": Jean Claude Van Damme fue despedido de 'Depredador' por un ataque de furia
+[YouTube] No se encontró tráiler confiable para "Una de las producciones más ambiciosas y colosales del cine indio reciente": Llega a cines 'Ramayana: El nacimiento de una leyenda"
+[movies] Saltado porque no tiene tráiler confiable: "Una de las producciones más ambiciosas y colosales del cine indio reciente": Llega a cines 'Ramayana: El nacimiento de una leyenda"
+[IA] Probando proveedor groq: 'Dune 3' bate el récord de preventa de 'La odisea', pero su verdadera enemiga es
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: 'Dune 3' bate el récord de preventa de 'La odisea', pero su verdadera enemiga es
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: 'Dune 3' bate el récord de preventa de 'La odisea', pero su verdadera enemiga es
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: 'Dune 3' bate el récord de preventa de 'La odisea', pero su verdadera enemiga es
+[IA] cohere falló (error): Cohere error 404: {"id":"3105b5b5-e6f9-4e8f-8289-c3e1ccd8e2d9","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: 'Dune 3' bate el récord de preventa de 'La odisea', pero su verdadera enemiga es
+[IA] gemini falló (error): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[movies] Error generando artículo 'Dune 3' bate el récord de preventa de 'La odisea', pero su verdadera enemiga es 'Vengadores: Doomsday': Todos los proveedores de IA fallaron. [IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429} | [IA] cohere falló (error): Cohere error 404: {"id":"3105b5b5-e6f9-4e8f-8289-c3e1ccd8e2d9","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."} | [IA] gemini falló (error): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[YouTube] No se encontró tráiler confiable para 26 de octubre: tal día como hoy en 1985 Marty McFly viajó en el tiempo, pero la conexión con 'Los Goonies' es un rumor de internet
+[movies] Saltado porque no tiene tráiler confiable: 26 de octubre: tal día como hoy en 1985 Marty McFly viajó en el tiempo, pero la conexión con 'Los Goonies' es un rumor de internet
+[YouTube] No se encontró tráiler confiable para Crítica de 'Clayface': una de las propuestas más singulares y arriesgadas que ha parido el cine de superhéroes reciente
+[movies] Saltado porque no tiene tráiler confiable: Crítica de 'Clayface': una de las propuestas más singulares y arriesgadas que ha parido el cine de superhéroes reciente
+[YouTube] No se encontró tráiler confiable para Debutó hace 47 años en una película basada en el caso de Gay Future. Ahora ha sido James Bond y es uno de los actores más famosos del mundo. ¿Le reconoces?
+[movies] Saltado porque no tiene tráiler confiable: Debutó hace 47 años en una película basada en el caso de Gay Future. Ahora ha sido James Bond y es uno de los actores más famosos del mundo. ¿Le reconoces?
+[YouTube] No se encontró tráiler confiable para Javier Calvo (35 años): "Los fascistas dicen que el arte no es importante, pero aún así querían destruirlo. Esta es nuestra forma de combatir la intolerancia"
+[movies] Saltado porque no tiene tráiler confiable: Javier Calvo (35 años): "Los fascistas dicen que el arte no es importante, pero aún así querían destruirlo. Esta es nuestra forma de combatir la intolerancia"
+[YouTube] No se encontró tráiler confiable para Solo 4 días para la película de terror más esperada:"Me transportó a la sensación de ver 'Godzilla' o 'Tiburón' por primera vez"
+[movies] Saltado porque no tiene tráiler confiable: Solo 4 días para la película de terror más esperada:"Me transportó a la sensación de ver 'Godzilla' o 'Tiburón' por primera vez"
+[YouTube] No se encontró tráiler confiable para Una historia real de superación y empoderamiento femenino: ‘Karateka’ llega a los cines el 30 de octubre
+[movies] Saltado porque no tiene tráiler confiable: Una historia real de superación y empoderamiento femenino: ‘Karateka’ llega a los cines el 30 de octubre
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
