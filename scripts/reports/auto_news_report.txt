@@ -1,32 +1,31 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-27T14:24:35.061050+00:00
+Fecha UTC: 2026-10-27T20:40:43.937372+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
-[movies] Saltado porque no es estreno 2026: Street Fighter (None)
-[movies] Saltado porque no es estreno 2026: Esta película de 2023 fue un bombazo por no parecerse a nada del género: detalles como este lo demuestran (2023)
+[movies] Saltado porque no es estreno 2026: Clayface (None)
+[movies] Saltado noticia no apta para películas: Una historia real de superación y empoderamiento femenino: ‘Karateka’ llega a los cines el 30 de octubre
+[movies] Saltado porque no es estreno 2026: La película 'Call of Duty' del creador de 'Yellowstone' tratará sobre "el coste de la guerra": "No son personajes de cómic" (2028)
+[movies] Saltado noticia no apta para películas: Antes de 'Dune 3', vuelve a los cines españoles la otra 'Dune': Fue el mayor fracaso de David Lynch y "una tristeza gigantesca" en su vida
+[movies] Saltado porque no es estreno 2026: Clint Eastwood casi deja la actuación tras sentir vergüenza con esta película: “Necesito buscarme otro trabajo” (2015)
+[movies] Saltado porque no es estreno 2026: Esta película de terror de 2023 fue un bombazo por no parecerse a nada del género: detalles como este lo demuestran (2023)
 [movies] Saltado porque no es estreno 2026: "¿Cuándo tú tienes una inestabilidad laboral, qué tipo de estabilidad de afectos puedes tener?": 'Esta soledad', la nueva película de Javi Giner ('Yo, adicto') (2025)
+[movies] Saltado noticia no apta para películas: "Ojalá lo hubiera conocido toda la vida": Ben Affleck explica cuánto influyó en él trabajar con Robin Williams
 [movies] Saltado porque no es estreno 2026: A 'El Señor de los Anillos' le ha salido competencia: solo 3 meses después de 'The Hunt For Gollum', llega otro espectáculo de fantasía de 200 millones (2027)
-[movies] Saltado noticia no apta para películas: Solo 4 días para la película de terror más esperada:"Me transportó a la sensación de ver 'Godzilla' o 'Tiburón' por primera vez"
-[movies] Saltado noticia no apta para películas: "Aragorn siempre será Viggo": El sustituto de Viggo Mortensen en 'El Señor de los Anillos' habla sobre la presión de interpretar a Aragorn
-[movies] Saltado noticia no apta para películas: 'Dune 3' bate el récord de preventa de 'La odisea', pero su verdadera enemiga es 'Vengadores: Doomsday'
 [movies] Saltado noticia no apta para películas: Por qué Aida Bao no presenta 'Cosas nuestras': Esta será su sustituta durante su baja temporal
 [movies] Saltado noticia no apta para películas: A qué se dedican los siete hijos de Karlos Arguiñano: solo uno de ellos no está dentro del negocio familiar
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció al concursante salvado: Así queda la lista de nominados para la gala del jueves
 [movies] Saltado porque no es estreno 2026: Miguel Puertas, experto en producción audiovisual, sobre la emisión del Mundial 2030 en Netflix: "No estamos asistiendo al final de la televisión deportiva, sino a una transformación profunda" (2030)
 [movies] Saltado porque no es estreno 2026: Casi 2 millones de euros por comprar la Academia de 'OT 1': es el tercer intento de venta en 10 años (2001)
-[movies] Saltado noticia no apta para películas: La colaboradora de Telecinco que ganó 'Top Chef VIP' de Estados Unidos tras su paso por otros realities
-[movies] Candidatos encontrados: 38 | Límite: 1
-[IA] Probando proveedor groq: Un amor posible
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: Un amor posible
+[movies] Candidatos encontrados: 37 | Límite: 1
+[IA] Probando proveedor openai: 'La isla de las tentaciones 11' vive su hoguera de confrontación más tensa hasta
 [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Un amor posible
+[IA] Probando proveedor mistral: 'La isla de las tentaciones 11' vive su hoguera de confrontación más tensa hasta
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Un amor posible
-[IA] cohere falló (error): Cohere error 404: {"id":"51bb72c1-463c-4bfd-a4b5-7ee3539de568","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Un amor posible
+[IA] Probando proveedor cohere: 'La isla de las tentaciones 11' vive su hoguera de confrontación más tensa hasta
+[IA] cohere falló (error): Cohere error 404: {"id":"ef7a6a21-5c01-49b7-a4a7-be3fa833fa82","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: 'La isla de las tentaciones 11' vive su hoguera de confrontación más tensa hasta
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/un-amor-posible-un-drama-social-que-desafia-la-realidad-2026-10-27-5b3b4a.md
+[OK] Publicado: src/content/blog/la-isla-de-las-tentaciones-11-un-climax-dramatico-que-captura-la-pantalla-2026-10-27-8b7670.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
