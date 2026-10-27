@@ -1,26 +1,20 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-27T04:56:54.403512+00:00
+Fecha UTC: 2026-10-27T14:24:35.061050+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Street Fighter (None)
-[movies] Saltado noticia no apta para películas: Una historia real de superación y empoderamiento femenino: ‘Karateka’ llega a los cines el 30 de octubre
-[movies] Saltado noticia no apta para películas: Ray Nicholson, hijo de Jack Nicholson: "Cuando empecé a tomar clases de actuación, me comparaba con una trayectoria de cinco décadas y tres premios Óscar"
+[movies] Saltado porque no es estreno 2026: Esta película de 2023 fue un bombazo por no parecerse a nada del género: detalles como este lo demuestran (2023)
+[movies] Saltado porque no es estreno 2026: "¿Cuándo tú tienes una inestabilidad laboral, qué tipo de estabilidad de afectos puedes tener?": 'Esta soledad', la nueva película de Javi Giner ('Yo, adicto') (2025)
+[movies] Saltado porque no es estreno 2026: A 'El Señor de los Anillos' le ha salido competencia: solo 3 meses después de 'The Hunt For Gollum', llega otro espectáculo de fantasía de 200 millones (2027)
+[movies] Saltado noticia no apta para películas: Solo 4 días para la película de terror más esperada:"Me transportó a la sensación de ver 'Godzilla' o 'Tiburón' por primera vez"
 [movies] Saltado noticia no apta para películas: "Aragorn siempre será Viggo": El sustituto de Viggo Mortensen en 'El Señor de los Anillos' habla sobre la presión de interpretar a Aragorn
 [movies] Saltado noticia no apta para películas: 'Dune 3' bate el récord de preventa de 'La odisea', pero su verdadera enemiga es 'Vengadores: Doomsday'
-[movies] Saltado noticia no apta para películas: "Una de las producciones más ambiciosas y colosales del cine indio reciente": Llega a cines 'Ramayana: El nacimiento de una leyenda"
-[movies] Saltado noticia no apta para películas: Debutó hace 47 años en una película basada en el caso de Gay Future. Ahora ha sido James Bond y es uno de los actores más famosos del mundo. ¿Le reconoces?
-[movies] Saltado noticia no apta para películas: 26 de octubre: tal día como hoy en 1985 Marty McFly viajó en el tiempo, pero la conexión con 'Los Goonies' es un rumor de internet
-[movies] Saltado noticia no apta para películas: Crítica de 'Clayface': una de las propuestas más singulares y arriesgadas que ha parido el cine de superhéroes reciente
-[movies] Saltado noticia no apta para películas: Inma Cuesta (46 años): "Ahora soy una privilegiada, pero vengo de una familia humilde. Quién me va a decir que no puedo protestar por la crisis de la vivienda"
-[movies] Saltado noticia no apta para películas: "Algunas películas deberían dejarse como están": Robert Redford no quería en absoluto una nueva versión de este clásico del cine
 [movies] Saltado noticia no apta para películas: Por qué Aida Bao no presenta 'Cosas nuestras': Esta será su sustituta durante su baja temporal
 [movies] Saltado noticia no apta para películas: A qué se dedican los siete hijos de Karlos Arguiñano: solo uno de ellos no está dentro del negocio familiar
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció al concursante salvado: Así queda la lista de nominados para la gala del jueves
-[movies] Saltado noticia no apta para películas: La vida de Jordi Cruz, presentador de 'Art Attack', con 50 años: se reinventó para adaptarse a la manera de consumir contenidos fuera de la televisión
-[movies] Saltado noticia no apta para películas: Tras más de 10 años en Mediaset, este mítico colaborador de 'El programa de Ana Rosa' ficha por La Séptima: "Toca decir adiós"
+[movies] Saltado porque no es estreno 2026: Miguel Puertas, experto en producción audiovisual, sobre la emisión del Mundial 2030 en Netflix: "No estamos asistiendo al final de la televisión deportiva, sino a una transformación profunda" (2030)
+[movies] Saltado porque no es estreno 2026: Casi 2 millones de euros por comprar la Academia de 'OT 1': es el tercer intento de venta en 10 años (2001)
 [movies] Saltado noticia no apta para películas: La colaboradora de Telecinco que ganó 'Top Chef VIP' de Estados Unidos tras su paso por otros realities
-[movies] Saltado noticia no apta para películas: España se queda a las puertas de ganar Eurovisión Junior 2026: Lucas Paulano queda 2º
-[movies] Saltado noticia no apta para películas: La pesadilla de Rosa López tras su paso por 'Operación Triunfo' que truncó su carrera musical
-[movies] Candidatos encontrados: 31 | Límite: 1
+[movies] Candidatos encontrados: 38 | Límite: 1
 [IA] Probando proveedor groq: Un amor posible
 [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
 [IA] Probando proveedor openai: Un amor posible
@@ -29,11 +23,10 @@ Fecha UTC: 2026-10-27T04:56:54.403512+00:00
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 [IA] Probando proveedor cohere: Un amor posible
-[IA] cohere falló (error): Cohere error 404: {"id":"44ef86eb-2742-4379-9b70-e1bee2b8a359","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] cohere falló (error): Cohere error 404: {"id":"51bb72c1-463c-4bfd-a4b5-7ee3539de568","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
 [IA] Probando proveedor gemini: Un amor posible
-[IA] gemini falló (error): El cuerpo generado es demasiado corto o vacío
-[movies] Error generando artículo Un amor posible: Todos los proveedores de IA fallaron. [IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429} | [IA] cohere falló (error): Cohere error 404: {"id":"44ef86eb-2742-4379-9b70-e1bee2b8a359","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."} | [IA] gemini falló (error): El cuerpo generado es demasiado corto o vacío
-[movies] Publicados: 0
-Total películas publicadas: 0
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/un-amor-posible-un-drama-social-que-desafia-la-realidad-2026-10-27-5b3b4a.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
