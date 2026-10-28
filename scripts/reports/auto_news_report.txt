@@ -1,50 +1,30 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-28T05:31:46.680789+00:00
+Fecha UTC: 2026-10-28T15:04:44.481368+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
-[movies] Saltado porque no es estreno 2026: Wicker (2023)
-[movies] Saltado porque no es estreno 2026: Hope (2023)
-[movies] Saltado porque no es estreno 2026: Drive – The Pretenders (2023)
-[movies] Saltado porque no es estreno 2026: Leviticus (2023)
-[movies] Saltado porque no es estreno 2026: Un amor posible (2023)
-[movies] Saltado porque no es estreno 2026: Karateka (2023)
-[movies] Saltado porque no es estreno 2026: Fiesta Pagäna (2023)
-[movies] Saltado porque no es estreno 2026: The Beekeeper 2 (2023)
-[movies] Saltado porque no es estreno 2026: Street Fighter (None)
-[movies] Saltado porque no es estreno 2026: You Can See Everything (2023)
-[movies] Saltado porque no es estreno 2026: La otra madre (2023)
-[movies] Saltado porque no es estreno 2026: Whalefall (2023)
+[movies] Saltado porque no es estreno 2026: Clayface (None)
+[movies] Saltado noticia no apta para películas: Una historia real de superación y empoderamiento femenino: ‘Karateka’ llega a los cines el 30 de octubre
+[movies] Saltado noticia no apta para películas: "Arruinó mi vida económica, familiar y profesional". El desastre de un actor de 'Compañeros' que echa la culpa al Gobierno
+[movies] Saltado noticia no apta para películas: Su padre es una de las estrellas más famosas del mundo: este actor está a punto de interpretar su primer papel importante en el cine
+[movies] Saltado noticia no apta para películas: "¿Y ahora nos traen a este mindundi?": Michael J. Fox recuerda que no fue bien recibido por todo el mundo en 'Regreso al Futuro'
+[movies] Saltado noticia no apta para películas: "Mi reacción inmediata fue de pánico y claustrofobia": Alexander Skarsgård se transforma en el hombre de mimbre perfecto para Olivia Colman
 [movies] Saltado porque no es estreno 2026: Antes de 'Dune 3' y 'Vengadores' se estrena otra de las películas más esperadas del año: solo quedan 10 días y ya se habla de obra maestra (2023)
-[movies] Saltado noticia no apta para películas: Sandra Sánchez (45 años), la protagonista real de 'Karateka': “Me ha tocado vivir momentos que ojalá nadie tuviera que vivir”
+[movies] Saltado porque no es estreno 2026: Sandra Sánchez (45 años), la protagonista real de 'Karateka': "Me ha tocado vivir momentos que ojalá nadie tuviera que vivir" (2020)
 [movies] Saltado porque no es estreno 2026: La película 'Call of Duty' del creador de 'Yellowstone' tratará sobre "el coste de la guerra": "No son personajes de cómic" (2028)
 [movies] Saltado porque no es estreno 2026: Esta película de terror de 2023 fue un bombazo por no parecerse a nada del género: detalles como este lo demuestran (2023)
 [movies] Saltado porque no es estreno 2026: "¿Cuándo tú tienes una inestabilidad laboral, qué tipo de estabilidad de afectos puedes tener?": 'Esta soledad', la nueva película de Javi Giner ('Yo, adicto') (2025)
-[movies] Saltado porque no es estreno 2026: A 'El Señor de los Anillos' le ha salido competencia: solo 3 meses después de 'The Hunt For Gollum', llega otro espectáculo de fantasía de 200 millones (2027)
 [movies] Saltado noticia no apta para películas: Por qué Aida Bao no presenta 'Cosas nuestras': Esta será su sustituta durante su baja temporal
 [movies] Saltado noticia no apta para películas: A qué se dedican los siete hijos de Karlos Arguiñano: solo uno de ellos no está dentro del negocio familiar
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció al concursante salvado: Así queda la lista de nominados para la gala del jueves
 [movies] Saltado porque no es estreno 2026: Miguel Puertas, experto en producción audiovisual, sobre la emisión del Mundial 2030 en Netflix: "No estamos asistiendo al final de la televisión deportiva, sino a una transformación profunda" (2030)
+[movies] Saltado noticia no apta para películas: La nueva vida de Cristina Saavedra, la presentadora que abandonó laSexta por proyectos de cooperación: "Los días vuelven a ser especiales"
+[movies] Saltado noticia no apta para películas: Por qué no sigue Marc Mendoza en 'Saber y Ganar': Esto es lo que ha ganado tras convertirse en centenario
+[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anuncia al concursante salvado de la expulsión semanal: Estos son los dos nominados para la gala del jueves
+[movies] Saltado noticia no apta para películas: Karlos Arguiñano: "Tomo café a diario con mis amigos y cuando puedo, compartimos un buen paseo, una buena comilona"
+[movies] Saltado noticia no apta para películas: Carlos Franganillo, sobre su etapa como corresponsal: "Yo tengo la suerte de que mi mujer se adapta con enorme facilidad"
 [movies] Saltado porque no es estreno 2026: Casi 2 millones de euros por comprar la Academia de 'OT 1': es el tercer intento de venta en 10 años (2001)
-[movies] Candidatos encontrados: 29 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "Ojalá lo hubiera conocido toda la vida": Ben Affleck explica cuánto influyó en él trabajar con Robin Williams
-[movies] Saltado porque no tiene tráiler confiable: "Ojalá lo hubiera conocido toda la vida": Ben Affleck explica cuánto influyó en él trabajar con Robin Williams
-[YouTube] No se encontró tráiler confiable para Antes de 'Dune 3', vuelve a los cines españoles la otra 'Dune': Fue el mayor fracaso de David Lynch y "una tristeza gigantesca" en su vida
-[movies] Saltado porque no tiene tráiler confiable: Antes de 'Dune 3', vuelve a los cines españoles la otra 'Dune': Fue el mayor fracaso de David Lynch y "una tristeza gigantesca" en su vida
-[YouTube] No se encontró tráiler confiable para Carlos Franganillo, sobre su etapa como corresponsal: "Yo tengo la suerte de que mi mujer se adapta con enorme facilidad"
-[movies] Saltado porque no tiene tráiler confiable: Carlos Franganillo, sobre su etapa como corresponsal: "Yo tengo la suerte de que mi mujer se adapta con enorme facilidad"
-[YouTube] No se encontró tráiler confiable para Clint Eastwood casi deja la actuación tras sentir vergüenza con esta película: “Necesito buscarme otro trabajo”
-[movies] Saltado porque no tiene tráiler confiable: Clint Eastwood casi deja la actuación tras sentir vergüenza con esta película: “Necesito buscarme otro trabajo”
-[YouTube] No se encontró tráiler confiable para Karlos Arguiñano: "Tomo café a diario con mis amigos y cuando puedo, compartimos un buen paseo, una buena comilona"
-[movies] Saltado porque no tiene tráiler confiable: Karlos Arguiñano: "Tomo café a diario con mis amigos y cuando puedo, compartimos un buen paseo, una buena comilona"
-[YouTube] No se encontró tráiler confiable para La vida de Jordi Cruz, presentador de 'Art Attack', con 50 años: se reinventó para adaptarse a la manera de consumir contenidos fuera de la televisión
-[movies] Saltado porque no tiene tráiler confiable: La vida de Jordi Cruz, presentador de 'Art Attack', con 50 años: se reinventó para adaptarse a la manera de consumir contenidos fuera de la televisión
-[YouTube] No se encontró tráiler confiable para Maribel Verdú (56 años), sobre su infancia: "Para merendar me comía un exquisito bocadillo de leche condensada con rodajas de plátano que me hacía mi madre"
-[movies] Saltado porque no tiene tráiler confiable: Maribel Verdú (56 años), sobre su infancia: "Para merendar me comía un exquisito bocadillo de leche condensada con rodajas de plátano que me hacía mi madre"
-[YouTube] No se encontró tráiler confiable para Ray Nicholson, hijo de Jack Nicholson: "Cuando empecé a tomar clases de actuación, me comparaba con una trayectoria de cinco décadas y tres premios Óscar"
-[movies] Saltado porque no tiene tráiler confiable: Ray Nicholson, hijo de Jack Nicholson: "Cuando empecé a tomar clases de actuación, me comparaba con una trayectoria de cinco décadas y tres premios Óscar"
-[YouTube] No se encontró tráiler confiable para Scarlett Johansson sobre Javier Bardem: "Ninguna queja, era una jornada de trabajo fácil. No tienes que preocuparte por el vestuario"
-[movies] Saltado porque no tiene tráiler confiable: Scarlett Johansson sobre Javier Bardem: "Ninguna queja, era una jornada de trabajo fácil. No tienes que preocuparte por el vestuario"
-[YouTube] No se encontró tráiler confiable para Tras más de 10 años en Mediaset, este mítico colaborador de 'El programa de Ana Rosa' ficha por La Séptima: "Toca decir adiós"
-[movies] Saltado porque no tiene tráiler confiable: Tras más de 10 años en Mediaset, este mítico colaborador de 'El programa de Ana Rosa' ficha por La Séptima: "Toca decir adiós"
+[movies] Candidatos encontrados: 31 | Límite: 1
+[YouTube] No se encontró tráiler confiable para “Cierra la boca y haz la película”: Colin Farrell intentó escapar de la película que cambió su carrera
+[movies] Saltado porque no tiene tráiler confiable: “Cierra la boca y haz la película”: Colin Farrell intentó escapar de la película que cambió su carrera
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
