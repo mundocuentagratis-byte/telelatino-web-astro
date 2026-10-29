@@ -1,39 +1,41 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-29T05:40:10.463991+00:00
+Fecha UTC: 2026-10-29T15:12:20.923603+00:00
 [movies] Saltado porque no es estreno 2026: Karateka (None)
 [movies] Saltado porque no es estreno 2026: Clayface (None)
 [movies] Saltado noticia no apta para películas: Una historia real de superación y empoderamiento femenino: ‘Karateka’ llega a los cines el 30 de octubre
+[movies] Saltado noticia no apta para películas: José Mota (61 años): "Me preocupa la escalada de odio que hay en el mundo, pero no pierdo la esperanza de que la sociedad vuelva a resurgir"
+[movies] Saltado porque no es estreno 2026: "Todo en ella es increíble": A Morgan Freeman le encanta esta película de 2001 y cree que es "una obra de arte" (2001)
+[movies] Saltado noticia no apta para películas: Hace 16 años debutó en televisión concursando en 'Cántame cómo pasó'. Ahora puede soñar con el Oscar gracias a 'La bola negra'
 [movies] Saltado noticia no apta para películas: Alan Ritchson abandona la película de acción de Netflix 'Maelstrom': Keanu Reeves es su sustituto
 [movies] Saltado noticia no apta para películas: 39 años de carrera y 1 Oscar: cumple 59 años una de las últimas grandes estrellas de Hollywood
-[movies] Saltado noticia no apta para películas: Seleccionado en más de 60 festivales y ganador de 26 premios: Ya en Movistar Plus+ el corto 'Ser un hombre'
+[movies] Saltado noticia no apta para películas: Seleccionado en más de 100 festivales y ganador de más de 50 premios: Ya en Movistar Plus+ el corto 'Ser un hombre'
 [movies] Saltado noticia no apta para películas: 'Dune 3' ha hecho un cambio gigantesco con respecto al libro: El final de 'Dune 2' ya dio pistas sobre lo que se proponía Denis Villeneuve
 [movies] Saltado noticia no apta para películas: Christopher Nolan no comprendió del todo la grandeza de Al Pacino hasta que intentó darle notas: “Ya lo he hecho”
-[movies] Saltado noticia no apta para películas: Llega a los cines otro regalo para los más pequeños, una película "llena de humor, muy dinámica y con un estilo diferente": 'Gungo y los juegos cavernícolas'
-[movies] Saltado noticia no apta para películas: “Cierra la boca y haz la película”: Colin Farrell intentó escapar de la película que cambió su carrera
-[movies] Saltado noticia no apta para películas: "Arruinó mi vida económica, familiar y profesional". El desastre de un actor de 'Compañeros' que echa la culpa al Gobierno
-[movies] Saltado noticia no apta para películas: Su padre es una de las estrellas más famosas del mundo: este actor está a punto de interpretar su primer papel importante en el cine
 [movies] Saltado noticia no apta para películas: Por qué Aida Bao no presenta 'Cosas nuestras': Esta será su sustituta durante su baja temporal
 [movies] Saltado noticia no apta para películas: A qué se dedican los siete hijos de Karlos Arguiñano: solo uno de ellos no está dentro del negocio familiar
-[movies] Saltado porque no es estreno 2026: Miguel Puertas, experto en producción audiovisual, sobre la emisión del Mundial 2030 en Netflix: "No estamos asistiendo al final de la televisión deportiva, sino a una transformación profunda" (2030)
+[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anuncia al concursante salvado de la expulsión semanal: Estos son los dos nominados para la gala del jueves
+[movies] Saltado noticia no apta para películas: Muere Jordi Rosell, director y productor de 'Operación Triunfo' o 'Supervivientes', a los 63 años: "Hacía televisión desde el corazón"
 [movies] Saltado porque no es estreno 2026: Eurovisión 2027 comunica a los 36 países participantes y deja la puerta abierta a España: "RTVE tiene hasta diciembre para confirmar su decisión" (2027)
 [movies] Saltado noticia no apta para películas: La nueva vida de Cristina Saavedra, la presentadora que abandonó laSexta por proyectos de cooperación: "Los días vuelven a ser especiales"
 [movies] Saltado noticia no apta para películas: Por qué no sigue Marc Mendoza en 'Saber y Ganar': Esto es lo que ha ganado tras convertirse en centenario
-[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anuncia al concursante salvado de la expulsión semanal: Estos son los dos nominados para la gala del jueves
 [movies] Saltado noticia no apta para películas: Karlos Arguiñano: "Tomo café a diario con mis amigos y cuando puedo, compartimos un buen paseo, una buena comilona"
-[movies] Saltado noticia no apta para películas: Carlos Franganillo, sobre su etapa como corresponsal: "Yo tengo la suerte de que mi mujer se adapta con enorme facilidad"
-[movies] Candidatos encontrados: 28 | Límite: 1
-[IA] Probando proveedor groq: Colisión
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: Colisión
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Colisión
+[movies] Candidatos encontrados: 30 | Límite: 1
+[IA] Probando proveedor mistral: Tiempos de ilusión
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Colisión
-[IA] cohere falló (error): Cohere error 404: {"id":"5d6efeb6-3aca-4f1b-9209-1bfedb7d5962","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Colisión
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/colision-daniel-sanchez-arevalo-vuelve-con-un-thriller-de-impacto-2026-10-29-1c10d2.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[IA] Probando proveedor cohere: Tiempos de ilusión
+[IA] cohere falló (error): Cohere error 404: {"id":"9077a5de-3c51-4d9f-af24-66c53d16f754","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Tiempos de ilusión
+[IA] gemini falló (error): Expecting ',' delimiter: line 5 column 3 (char 5609)
+[IA] Probando proveedor groq: Tiempos de ilusión
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: Tiempos de ilusión
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[movies] Error generando artículo Tiempos de ilusión: Todos los proveedores de IA fallaron. [IA] gemini falló (error): Expecting ',' delimiter: line 5 column 3 (char 5609) | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[YouTube] No se encontró tráiler confiable para De aspirar al Oscar a desaparecer de miles de cines: ¿qué ha pasado con la última película de Jenna Ortega?
+[movies] Saltado porque no tiene tráiler confiable: De aspirar al Oscar a desaparecer de miles de cines: ¿qué ha pasado con la última película de Jenna Ortega?
+[YouTube] No se encontró tráiler confiable para Llega a los cines otro regalo para los más pequeños, una película "llena de humor, muy dinámica y con un estilo diferente": 'Gungo y los juegos cavernícolas'
+[movies] Saltado porque no tiene tráiler confiable: Llega a los cines otro regalo para los más pequeños, una película "llena de humor, muy dinámica y con un estilo diferente": 'Gungo y los juegos cavernícolas'
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
