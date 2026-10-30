@@ -1,29 +1,36 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-30T05:39:17.347420+00:00
-[movies] Saltado porque no es estreno 2026: Karateka (None)
+Fecha UTC: 2026-10-30T15:04:14.521708+00:00
+[movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Clayface (None)
 [movies] Saltado noticia no apta para películas: Una historia real de superación y empoderamiento femenino: ‘Karateka’ llega a los cines el 30 de octubre
+[movies] Saltado noticia no apta para películas: Hollywood abandonó hace 60 años esta manera de rodar, pero ahora ha vuelto y está en todos lados: una manera más barata para conseguir lo mismo
+[movies] Saltado noticia no apta para películas: Las películas anteriores han recaudado más de 500 millones de dólares: Una de las franquicias cinematográficas más populares de los últimos años tendrá una secuela
+[movies] Saltado noticia no apta para películas: 41 estrenos de Netflix en noviembre de 2026: este mes, el nuevo 'true crime' de los creadores de 'El caso Asunta' y cine de alto nivel
+[movies] Saltado noticia no apta para películas: Guitarricadelafuente: "Mi abuelo tuvo que vivir lo que Sebastián. Tuvo que alistarse en el ejército. Fue inscrito por el partido Franco y obligado a ir a la guerra"
 [movies] Saltado noticia no apta para películas: Muere Patrick Stewart, mítico actor de 'Star Trek' y 'X-Men', a los 86 años
 [movies] Saltado noticia no apta para películas: Costó 1,5 millones y solo ha recaudado 181.000 dólares: La IA llega al cine, pero todavía tiene un camino difícil por delante
-[movies] Saltado noticia no apta para películas: John Wayne (†72): "Nuestro llamado "robo" fue supervivencia. Había un gran número de personas que necesitaban nuevas tierras, y los indios estaban egoístamente intentando quedárselas para ellos solos"
 [movies] Saltado noticia no apta para películas: Javier Giner regresa con 'Esta soledad', su primera película tras 'Yo, adicto': "Estoy escondido detrás de todos los personajes"
 [movies] Saltado noticia no apta para películas: Luis Tosar: "estaba esperando para cumplir los 16 y poder presentarme voluntario a las COES"
-[movies] Saltado noticia no apta para películas: De aspirar al Oscar a desaparecer de miles de cines: ¿qué ha pasado con la última película de Jenna Ortega?
-[movies] Saltado noticia no apta para películas: José Mota (61 años): "Me preocupa la escalada de odio que hay en el mundo, pero no pierdo la esperanza de que la sociedad vuelva a resurgir"
-[movies] Saltado porque no es estreno 2026: "Todo en ella es increíble": A Morgan Freeman le encanta esta película de 2001 y cree que es "una obra de arte" (2001)
 [movies] Saltado noticia no apta para películas: Por qué Aida Bao no presenta 'Cosas nuestras': Esta será su sustituta durante su baja temporal
 [movies] Saltado noticia no apta para películas: A qué se dedican los siete hijos de Karlos Arguiñano: solo uno de ellos no está dentro del negocio familiar
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anuncia al concursante salvado de la expulsión semanal: Estos son los dos nominados para la gala del jueves
+[movies] Saltado noticia no apta para películas: Isabel Gemio (65 años): "Mis padres eran campesinos en Extremadura. Vivían en un cortijo con mis primos y mis tíos y ahí nací yo"
+[movies] Saltado noticia no apta para películas: Un sindicato de RTVE sobre Manu Sánchez en 'El perro andaluz': "Tiene una manera de tratar a los trabajadores más propias del empresario más autoritario"
+[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció a su nuevo concursante expulsado: Estos son los nominados para la expulsión sorpresa del domingo
 [movies] Saltado noticia no apta para películas: Rafa Mora, propietario de 9 pisos con 43 años: "Estamos en 6.000 euros mensuales en alquileres. Me beneficia que haya mucha demanda y poca oferta"
 [movies] Saltado noticia no apta para películas: Muere Jordi Rosell, director y productor de 'Operación Triunfo' o 'Supervivientes', a los 63 años: "Hacía televisión desde el corazón"
 [movies] Saltado porque no es estreno 2026: Eurovisión 2027 comunica a los 36 países participantes y deja la puerta abierta a España: "RTVE tiene hasta diciembre para confirmar su decisión" (2027)
-[movies] Saltado noticia no apta para películas: La nueva vida de Cristina Saavedra, la presentadora que abandonó laSexta por proyectos de cooperación: "Los días vuelven a ser especiales"
-[movies] Saltado noticia no apta para películas: Por qué no sigue Marc Mendoza en 'Saber y Ganar': Esto es lo que ha ganado tras convertirse en centenario
-[movies] Candidatos encontrados: 30 | Límite: 1
-[YouTube] No se encontró tráiler confiable para A sus 88 años, ha participado en 130 películas y ha ganado 2 Óscar... Esta leyenda de Hollywood sigue en activo y batió un récord hace 5 años
-[movies] Saltado porque no tiene tráiler confiable: A sus 88 años, ha participado en 130 películas y ha ganado 2 Óscar... Esta leyenda de Hollywood sigue en activo y batió un récord hace 5 años
-[YouTube] No se encontró tráiler confiable para Hace 16 años debutó en televisión concursando en 'Cántame cómo pasó'. Ahora puede soñar con el Oscar gracias a 'La bola negra'
-[movies] Saltado porque no tiene tráiler confiable: Hace 16 años debutó en televisión concursando en 'Cántame cómo pasó'. Ahora puede soñar con el Oscar gracias a 'La bola negra'
-[movies] Publicados: 0
-Total películas publicadas: 0
+[movies] Candidatos encontrados: 31 | Límite: 1
+[IA] Probando proveedor openai: BTS World Tour 'ARIRANG' In São Paulo: Live Viewing
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: BTS World Tour 'ARIRANG' In São Paulo: Live Viewing
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: BTS World Tour 'ARIRANG' In São Paulo: Live Viewing
+[IA] cohere falló (error): Cohere error 404: {"id":"0877256a-3ea4-4fb8-9fd2-38ee5c0a6f8b","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: BTS World Tour 'ARIRANG' In São Paulo: Live Viewing
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/bts-world-tour-arirang-la-gira-por-sudamerica-llega-al-cine-2026-10-30-7a7959.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
