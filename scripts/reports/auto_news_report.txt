@@ -1,16 +1,11 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-30T15:04:14.521708+00:00
+Fecha UTC: 2026-10-30T20:43:49.927942+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Clayface (None)
 [movies] Saltado noticia no apta para películas: Una historia real de superación y empoderamiento femenino: ‘Karateka’ llega a los cines el 30 de octubre
-[movies] Saltado noticia no apta para películas: Hollywood abandonó hace 60 años esta manera de rodar, pero ahora ha vuelto y está en todos lados: una manera más barata para conseguir lo mismo
-[movies] Saltado noticia no apta para películas: Las películas anteriores han recaudado más de 500 millones de dólares: Una de las franquicias cinematográficas más populares de los últimos años tendrá una secuela
+[movies] Saltado noticia no apta para películas: Jennifer Lawrence se enfrentó a miembros del equipo no autorizados durante una escena de desnudo: "No está bien"
+[movies] Saltado noticia no apta para películas: Margot Robbie quizá no quiere volver como Harley Quinn, pero James Gunn "haría todo lo posible" por devolverla al Universo DC
 [movies] Saltado noticia no apta para películas: 41 estrenos de Netflix en noviembre de 2026: este mes, el nuevo 'true crime' de los creadores de 'El caso Asunta' y cine de alto nivel
-[movies] Saltado noticia no apta para películas: Guitarricadelafuente: "Mi abuelo tuvo que vivir lo que Sebastián. Tuvo que alistarse en el ejército. Fue inscrito por el partido Franco y obligado a ir a la guerra"
-[movies] Saltado noticia no apta para películas: Muere Patrick Stewart, mítico actor de 'Star Trek' y 'X-Men', a los 86 años
-[movies] Saltado noticia no apta para películas: Costó 1,5 millones y solo ha recaudado 181.000 dólares: La IA llega al cine, pero todavía tiene un camino difícil por delante
-[movies] Saltado noticia no apta para películas: Javier Giner regresa con 'Esta soledad', su primera película tras 'Yo, adicto': "Estoy escondido detrás de todos los personajes"
-[movies] Saltado noticia no apta para películas: Luis Tosar: "estaba esperando para cumplir los 16 y poder presentarme voluntario a las COES"
 [movies] Saltado noticia no apta para películas: Por qué Aida Bao no presenta 'Cosas nuestras': Esta será su sustituta durante su baja temporal
 [movies] Saltado noticia no apta para películas: A qué se dedican los siete hijos de Karlos Arguiñano: solo uno de ellos no está dentro del negocio familiar
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anuncia al concursante salvado de la expulsión semanal: Estos son los dos nominados para la gala del jueves
@@ -20,17 +15,32 @@ Fecha UTC: 2026-10-30T15:04:14.521708+00:00
 [movies] Saltado noticia no apta para películas: Rafa Mora, propietario de 9 pisos con 43 años: "Estamos en 6.000 euros mensuales en alquileres. Me beneficia que haya mucha demanda y poca oferta"
 [movies] Saltado noticia no apta para películas: Muere Jordi Rosell, director y productor de 'Operación Triunfo' o 'Supervivientes', a los 63 años: "Hacía televisión desde el corazón"
 [movies] Saltado porque no es estreno 2026: Eurovisión 2027 comunica a los 36 países participantes y deja la puerta abierta a España: "RTVE tiene hasta diciembre para confirmar su decisión" (2027)
-[movies] Candidatos encontrados: 31 | Límite: 1
-[IA] Probando proveedor openai: BTS World Tour 'ARIRANG' In São Paulo: Live Viewing
+[movies] Candidatos encontrados: 36 | Límite: 1
+[IA] Probando proveedor gemini: El mundo es ANSÍ
+[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 1382 (char 1644)
+[IA] Probando proveedor groq: El mundo es ANSÍ
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: El mundo es ANSÍ
 [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: BTS World Tour 'ARIRANG' In São Paulo: Live Viewing
+[IA] Probando proveedor mistral: El mundo es ANSÍ
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: BTS World Tour 'ARIRANG' In São Paulo: Live Viewing
-[IA] cohere falló (error): Cohere error 404: {"id":"0877256a-3ea4-4fb8-9fd2-38ee5c0a6f8b","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: BTS World Tour 'ARIRANG' In São Paulo: Live Viewing
+[IA] Probando proveedor cohere: El mundo es ANSÍ
+[IA] cohere falló (error): Cohere error 404: {"id":"873b2f2e-7359-4f62-a825-de0da442f93f","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[movies] Error generando artículo El mundo es ANSÍ: Todos los proveedores de IA fallaron. [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}} | [IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429} | [IA] cohere falló (error): Cohere error 404: {"id":"873b2f2e-7359-4f62-a825-de0da442f93f","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor groq: Esta soledad
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: Esta soledad
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: Esta soledad
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: Esta soledad
+[IA] cohere falló (error): Cohere error 404: {"id":"2cbf4f81-f8ed-48aa-89a3-369e180b86c2","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Esta soledad
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/bts-world-tour-arirang-la-gira-por-sudamerica-llega-al-cine-2026-10-30-7a7959.md
+[OK] Publicado: src/content/blog/esta-soledad-un-drama-romantico-que-resuena-con-la-generacion-actual-2026-10-30-3691e3.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
