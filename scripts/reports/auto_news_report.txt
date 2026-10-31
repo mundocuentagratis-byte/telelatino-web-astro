@@ -1,10 +1,9 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-30T20:43:49.927942+00:00
+Fecha UTC: 2026-10-31T05:29:58.911388+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Clayface (None)
-[movies] Saltado noticia no apta para películas: Una historia real de superación y empoderamiento femenino: ‘Karateka’ llega a los cines el 30 de octubre
-[movies] Saltado noticia no apta para películas: Jennifer Lawrence se enfrentó a miembros del equipo no autorizados durante una escena de desnudo: "No está bien"
-[movies] Saltado noticia no apta para películas: Margot Robbie quizá no quiere volver como Harley Quinn, pero James Gunn "haría todo lo posible" por devolverla al Universo DC
+[movies] Saltado noticia no apta para películas: Hollywood abandonó hace 60 años esta manera de rodar, pero ahora ha vuelto y está en todos lados: una manera más barata para conseguir lo mismo
+[movies] Saltado noticia no apta para películas: Las películas anteriores han recaudado más de 500 millones de dólares: Una de las franquicias cinematográficas más populares de los últimos años tendrá una secuela
 [movies] Saltado noticia no apta para películas: 41 estrenos de Netflix en noviembre de 2026: este mes, el nuevo 'true crime' de los creadores de 'El caso Asunta' y cine de alto nivel
 [movies] Saltado noticia no apta para películas: Por qué Aida Bao no presenta 'Cosas nuestras': Esta será su sustituta durante su baja temporal
 [movies] Saltado noticia no apta para películas: A qué se dedican los siete hijos de Karlos Arguiñano: solo uno de ellos no está dentro del negocio familiar
@@ -15,9 +14,7 @@ Fecha UTC: 2026-10-30T20:43:49.927942+00:00
 [movies] Saltado noticia no apta para películas: Rafa Mora, propietario de 9 pisos con 43 años: "Estamos en 6.000 euros mensuales en alquileres. Me beneficia que haya mucha demanda y poca oferta"
 [movies] Saltado noticia no apta para películas: Muere Jordi Rosell, director y productor de 'Operación Triunfo' o 'Supervivientes', a los 63 años: "Hacía televisión desde el corazón"
 [movies] Saltado porque no es estreno 2026: Eurovisión 2027 comunica a los 36 países participantes y deja la puerta abierta a España: "RTVE tiene hasta diciembre para confirmar su decisión" (2027)
-[movies] Candidatos encontrados: 36 | Límite: 1
-[IA] Probando proveedor gemini: El mundo es ANSÍ
-[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 1382 (char 1644)
+[movies] Candidatos encontrados: 35 | Límite: 1
 [IA] Probando proveedor groq: El mundo es ANSÍ
 [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
 [IA] Probando proveedor openai: El mundo es ANSÍ
@@ -26,21 +23,10 @@ Fecha UTC: 2026-10-30T20:43:49.927942+00:00
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 [IA] Probando proveedor cohere: El mundo es ANSÍ
-[IA] cohere falló (error): Cohere error 404: {"id":"873b2f2e-7359-4f62-a825-de0da442f93f","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[movies] Error generando artículo El mundo es ANSÍ: Todos los proveedores de IA fallaron. [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}} | [IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429} | [IA] cohere falló (error): Cohere error 404: {"id":"873b2f2e-7359-4f62-a825-de0da442f93f","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor groq: Esta soledad
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: Esta soledad
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Esta soledad
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Esta soledad
-[IA] cohere falló (error): Cohere error 404: {"id":"2cbf4f81-f8ed-48aa-89a3-369e180b86c2","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Esta soledad
+[IA] cohere falló (error): Cohere error 404: {"id":"d285782b-97ff-4264-b929-9c451b3e87b8","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: El mundo es ANSÍ
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/esta-soledad-un-drama-romantico-que-resuena-con-la-generacion-actual-2026-10-30-3691e3.md
+[OK] Publicado: src/content/blog/el-mundo-es-ansi-un-encuentro-con-pio-baroja-que-trasciende-el-tiempo-2026-10-31-083ace.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
