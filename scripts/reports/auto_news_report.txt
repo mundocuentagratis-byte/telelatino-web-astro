@@ -1,29 +1,48 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-01T05:55:18.932654+00:00
+Fecha UTC: 2026-11-01T15:03:37.824577+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
+[movies] Saltado porque no es estreno 2026: Godzilla Minus Zero (2049)
+[movies] Saltado porque no es estreno 2026: Fiesta Pagäna (2049)
+[movies] Saltado porque no es estreno 2026: George Michael: The Faith Tour (2049)
+[movies] Saltado porque no es estreno 2026: Ruega por nosotras (2049)
+[movies] Saltado porque no es estreno 2026: Un amor posible (2049)
+[movies] Saltado porque no es estreno 2026: Ramayana: El nacimiento de una leyenda (2049)
+[movies] Saltado porque no es estreno 2026: Dune: Parte tres (2049)
+[movies] Saltado porque no es estreno 2026: Scrooge y los fantasmas de la Navidad (2049)
+[movies] Saltado porque no es estreno 2026: El gato con sombrero (2049)
 [movies] Saltado porque no es estreno 2026: Clayface (None)
-[movies] Saltado noticia no apta para películas: Hoy en TV: una de las películas de superhéroes más divertidas y con más personalidad que sólo dura 1 hora y media
-[movies] Saltado noticia no apta para películas: "Primero tengo que demostrar mi valía": Clint Eastwood renunció al 99% de su salario para hacer la película más importante de su vida
+[movies] Saltado porque no es estreno 2026: Puedes verlo todo (2049)
+[movies] Saltado porque no es estreno 2026: Wildwood (2049)
+[movies] Saltado porque no es estreno 2026: Street Fighter (2049)
+[movies] Saltado porque no es estreno 2026: Una historia real de superación y empoderamiento femenino: ‘Karateka’ llega a los cines el 30 de octubre (2025)
+[movies] Saltado porque no es estreno 2026: "Y extender nuestro reino hasta Cataluña": la versión latina y española de este lema del Team Rocket en 'Pokémon' que no recordábamos (2025)
+[movies] Saltado noticia no apta para películas: Meryl Streep (77 años): "A medida que pasa el tiempo, la vida se vuelve más rica, más triste e increíblemente más llena"
+[movies] Saltado porque no es estreno 2026: 13 estrenos en Netflix: esta semana, el regreso de un thriller adictivo y la impecable película que el público premió en Venecia (2015)
+[movies] Saltado porque no es estreno 2026: "Ya no lo admiro, lo desprecio": durante 38 años Mickey Rourke no ha escondido que no soporta a uno de los mejores actores de la historia (2025)
+[movies] Saltado porque no es estreno 2026: 62 años después de la película original, este 'remake' llegó al número 1 en 100 países: un 'thriller' con Denzel Washington imprescindible (2025)
+[movies] Saltado porque no es estreno 2026: "Me despidieron tras una semana y con razón": la película de la que echaron a Martin Scorsese por ser demasiado lento (2025)
+[movies] Saltado porque no es estreno 2026: Hoy en TV: una de las películas de superhéroes más divertidas y con más personalidad que sólo dura 1 hora y media (2025)
+[movies] Saltado porque no es estreno 2026: "Primero tengo que demostrar mi valía": Clint Eastwood renunció al 99% de su salario para hacer la película más importante de su vida (2025)
+[movies] Saltado porque no es estreno 2026: El nuevo proyecto de Steven Spielberg es un 'thriller' de ciencia ficción: Jennifer Lawrence protagoniza lo nuevo de uno de los mejores directores de terror (2025)
+[movies] Saltado noticia no apta para películas: Fue un fracaso en taquilla con Margot Robbie como protagonista, pero Stephen King cree que se convertirá en un clásico dentro de 20 años
 [movies] Saltado noticia no apta para películas: Por qué Aida Bao no presenta 'Cosas nuestras': Esta será su sustituta durante su baja temporal
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anuncia al concursante salvado de la expulsión semanal: Estos son los dos nominados para la gala del jueves
-[movies] Saltado porque no es estreno 2026: Miguel Puertas, experto en producción audiovisual, sobre la emisión del Mundial 2030 en Netflix: "No estamos asistiendo al final de la televisión deportiva, sino a una transformación profunda" (2030)
+[movies] Saltado noticia no apta para películas: La pesadilla de Rosa López tras su paso por 'Operación Triunfo' que truncó su carrera musical
 [movies] Saltado porque no es estreno 2026: Lydia Lozano, 65 años: "Soy una apasionada de 'Supervivientes' y me pusieron sobre la mesa un cheque en blanco, pero lo mío es verlo en televisión" (2019)
 [movies] Saltado noticia no apta para películas: La nueva vida "en paz" de Coto Matamoros a sus 69 años: vive alejado de la televisión en el municipio más rico de Galicia
 [movies] Saltado noticia no apta para películas: María Escario fue despedida del 'Telediario' por teléfono: "Estaba poniendo la toalla en la playa cuando Somoano me llamó para despedirme. Me quedé en shock"
 [movies] Saltado noticia no apta para películas: Isabel Gemio (65 años): "Mis padres eran campesinos en Extremadura. Vivían en un cortijo con mis primos y mis tíos y ahí nací yo"
 [movies] Saltado noticia no apta para películas: Un sindicato de RTVE sobre Manu Sánchez en 'El perro andaluz': "Tiene una manera de tratar a los trabajadores más propias del empresario más autoritario"
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció a su nuevo concursante expulsado: Estos son los nominados para la expulsión sorpresa del domingo
-[movies] Candidatos encontrados: 37 | Límite: 1
-[IA] Probando proveedor openai: Ruega por nosotras
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Ruega por nosotras
+[movies] Candidatos encontrados: 17 | Límite: 1
+[IA] Probando proveedor mistral: Tiempos de ilusión
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Ruega por nosotras
-[IA] cohere falló (error): Cohere error 404: {"id":"07af8d7f-5d37-4f9c-bfba-b5787ddf09d6","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Ruega por nosotras
+[IA] Probando proveedor cohere: Tiempos de ilusión
+[IA] cohere falló (error): Cohere error 404: {"id":"c98c281a-0fdf-45b9-8f6a-90ee36eeaf03","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Tiempos de ilusión
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/ruega-por-nosotras-un-drama-profundo-sobre-la-injusticia-historica-2026-11-01-1121e9.md
+[OK] Publicado: src/content/blog/tiempos-de-ilusion-el-nuevo-drama-de-nakache-y-toledano-en-2026-2026-11-01-083387.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
