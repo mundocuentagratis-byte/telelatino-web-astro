@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-10-31T23:21:28.689188+00:00
+Fecha UTC: 2026-11-01T05:55:18.932654+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Clayface (None)
 [movies] Saltado noticia no apta para películas: Hoy en TV: una de las películas de superhéroes más divertidas y con más personalidad que sólo dura 1 hora y media
@@ -14,18 +14,16 @@ Fecha UTC: 2026-10-31T23:21:28.689188+00:00
 [movies] Saltado noticia no apta para películas: Un sindicato de RTVE sobre Manu Sánchez en 'El perro andaluz': "Tiene una manera de tratar a los trabajadores más propias del empresario más autoritario"
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció a su nuevo concursante expulsado: Estos son los nominados para la expulsión sorpresa del domingo
 [movies] Candidatos encontrados: 37 | Límite: 1
-[IA] Probando proveedor groq: Ramayana: El nacimiento de una leyenda
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: Ramayana: El nacimiento de una leyenda
+[IA] Probando proveedor openai: Ruega por nosotras
 [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Ramayana: El nacimiento de una leyenda
+[IA] Probando proveedor mistral: Ruega por nosotras
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Ramayana: El nacimiento de una leyenda
-[IA] cohere falló (error): Cohere error 404: {"id":"ee8a7cbc-769c-409e-94b8-152cce89be73","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Ramayana: El nacimiento de una leyenda
+[IA] Probando proveedor cohere: Ruega por nosotras
+[IA] cohere falló (error): Cohere error 404: {"id":"07af8d7f-5d37-4f9c-bfba-b5787ddf09d6","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Ruega por nosotras
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/ramayana-el-nacimiento-de-una-leyenda-un-epico-viaje-al-cine-2026-10-31-cdc1bd.md
+[OK] Publicado: src/content/blog/ruega-por-nosotras-un-drama-profundo-sobre-la-injusticia-historica-2026-11-01-1121e9.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
