@@ -1,31 +1,29 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-02T18:16:29.519787+00:00
+Fecha UTC: 2026-11-03T02:15:02.275474+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Clayface (None)
-[movies] Saltado noticia no apta para películas: Incluso antes del estreno del 'remake': La nueva versión de la película de acción de los 90 con Sylvester Stallone tendrá una secuela
-[movies] Saltado porque no es estreno 2026: El día que George Clooney regaló 14 maletines con 1 millón de dólares cada uno de sus amigos: "Adiós hipoteca" (2013)
-[movies] Saltado noticia no apta para películas: Dura 98 minutos y es una de las mejores películas de terror y ciencia ficción de la historia: el origen de un personaje que todavía perdura
-[movies] Saltado noticia no apta para películas: "Entrar en el siglo XIX, si se aborda desde el naturalismo, supone ciertos riesgos": llega a los cines un 'thriller' de época basado en hechos reales
-[movies] Saltado noticia no apta para películas: 23 años después, continúa siendo una de las cimas dramáticas más lúcidas, tristes y necesarias del cine contemporáneo del siglo XXI
-[movies] Saltado noticia no apta para películas: En 1982, Clint Eastwood donó 30.000 dólares para rescatar soldados estadounidenses desaparecidos porque "no podría dormir por la noche": la misión fue un rotundo fracaso
+[movies] Saltado noticia no apta para películas: Una historia real de superación y empoderamiento femenino: ‘Karateka’ llega a los cines el 30 de octubre
 [movies] Saltado noticia no apta para películas: Costó 600.000 dólares, recaudó cuatro veces más y tiene un 90%: la joya oculta con la que Elizabeth Olsen debutó como protagonista
 [movies] Saltado porque no es estreno 2026: ¿Será abandonada la mayor epopeya del wéstern de nuestro tiempo? Esta obra colosal solo continuará con una condición (2024)
 [movies] Saltado porque no es estreno 2026: "Era el blanco de las bromas": hay una razón por la que Orlando Bloom era objeto de las burlas de sus compañeros en 'El señor de los anillos' (2027)
 [movies] Saltado noticia no apta para películas: Hace 45 años ganó el Oscar más importante, pero hoy está casi olvidada: Con esta película, un icono absoluto de Hollywood hizo su debut como director
 [movies] Saltado noticia no apta para películas: "Y extender nuestro reino hasta Cataluña": la versión latina y española de este lema del Team Rocket en 'Pokémon' que no recordábamos
+[movies] Saltado noticia no apta para películas: Meryl Streep (77 años): "A medida que pasa el tiempo, la vida se vuelve más rica, más triste e increíblemente más llena"
+[movies] Saltado porque no es estreno 2026: 13 estrenos en Netflix: esta semana, el regreso de un thriller adictivo y la impecable película que el público premió en Venecia (2015)
+[movies] Saltado noticia no apta para películas: "Ya no lo admiro, lo desprecio": durante 38 años Mickey Rourke no ha escondido que no soporta a uno de los mejores actores de la historia
+[movies] Saltado noticia no apta para películas: 62 años después de la película original, este 'remake' llegó al número 1 en 100 países: un 'thriller' con Denzel Washington imprescindible
+[movies] Saltado noticia no apta para películas: "Me despidieron tras una semana y con razón": la película de la que echaron a Martin Scorsese por ser demasiado lento
+[movies] Saltado noticia no apta para películas: Hoy en TV: una de las películas de superhéroes más divertidas y con más personalidad que sólo dura 1 hora y media
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anuncia al concursante salvado de la expulsión semanal: Estos son los dos nominados para la gala del jueves
-[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció a su nuevo concursante expulsado: Estos son los nominados para la expulsión sorpresa del domingo
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11' vive su hoguera de confrontación más tensa hasta la fecha: Así se fueron Miguel y Mara
-[movies] Saltado noticia no apta para películas: Rubén, de 'La isla de las tentaciones 11': "Mi trabajo es muy intenso. Soy embriólogo, especialista en reproducción asistida"
-[movies] Saltado noticia no apta para películas: La Séptima y su parrilla: programas, presentadores y horarios del nuevo canal de TDT
+[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció a su nuevo concursante expulsado: Estos son los nominados para la expulsión sorpresa del domingo
+[movies] Saltado noticia no apta para películas: Hace 19 años le vimos por primera vez en un concurso autonómico, ahora es uno de los presentadores con mayor éxito en España
 [movies] Saltado porque no es estreno 2026: Lydia Lozano, 65 años: "Soy una apasionada de 'Supervivientes' y me pusieron sobre la mesa un cheque en blanco, pero lo mío es verlo en televisión" (2019)
 [movies] Saltado noticia no apta para películas: La nueva vida "en paz" de Coto Matamoros a sus 69 años: vive alejado de la televisión en el municipio más rico de Galicia
-[movies] Candidatos encontrados: 30 | Límite: 1
-[IA] Probando proveedor cohere: El gato con sombrero
-[IA] cohere falló (error): Cohere error 404: {"id":"1d33dae7-1f07-4508-a783-0697386f8ca8","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: El gato con sombrero
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/el-gato-con-sombrero-regresa-el-caos-animado-de-dr-seuss-2026-11-02-efeb7b.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[movies] Saltado noticia no apta para películas: María Escario fue despedida del 'Telediario' por teléfono: "Estaba poniendo la toalla en la playa cuando Somoano me llamó para despedirme. Me quedé en shock"
+[movies] Saltado noticia no apta para películas: Isabel Gemio (65 años): "Mis padres eran campesinos en Extremadura. Vivían en un cortijo con mis primos y mis tíos y ahí nací yo"
+[movies] Saltado noticia no apta para películas: Un sindicato de RTVE sobre Manu Sánchez en 'El perro andaluz': "Tiene una manera de tratar a los trabajadores más propias del empresario más autoritario"
+[movies] Candidatos encontrados: 28 | Límite: 1
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
