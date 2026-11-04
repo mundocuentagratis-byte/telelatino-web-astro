@@ -1,31 +1,27 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-04T00:35:30.609574+00:00
+Fecha UTC: 2026-11-04T12:04:41.792599+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
-[movies] Saltado porque no es estreno 2026: Clayface (None)
-[movies] Saltado noticia no apta para películas: Los Javis: "Una persona sola no podría hacer lo que hemos hecho en 'La bola negra'. Hemos seleccionado los miles de extras uno a uno"
-[movies] Saltado noticia no apta para películas: 68 fallecidos, dos barcos y un cambio sustancial: la historia real de 'Contra el huracán', el exitazo de Netflix
-[movies] Saltado noticia no apta para películas: Milo Quifes: "Dejé la carrera de Biología y me puse a trabajar de recepcionista y de camarero"
-[movies] Saltado noticia no apta para películas: Christopher Lloyd: "Cada vez que veo 'Regreso al futuro III' y contemplo esa escena, todavía siento una punzada en el corazón"
-[movies] Saltado noticia no apta para películas: Pausa 'Parque Jurásico' a los 43 minutos y 52 segundos y mira con atención la pantalla de este ordenador
-[movies] Saltado noticia no apta para películas: "Tuve que luchar todos los días": Hace 26 años, Russell Crowe "se convirtió en un hombre" mientras filmaba la que sería su mejor película
-[movies] Saltado noticia no apta para películas: Incluso antes del estreno del 'remake': La nueva versión de la película de acción de los 90 con Sylvester Stallone tendrá una secuela
-[movies] Saltado porque no es estreno 2026: El día que George Clooney regaló 14 maletines con 1 millón de dólares cada uno de sus amigos: "Adiós hipoteca" (2013)
-[movies] Saltado noticia no apta para películas: Dura 98 minutos y es una de las mejores películas de terror y ciencia ficción de la historia: el origen de un personaje que todavía perdura
-[movies] Saltado noticia no apta para películas: "Entrar en el siglo XIX, si se aborda desde el naturalismo, supone ciertos riesgos": llega a los cines un 'thriller' de época basado en hechos reales
-[movies] Saltado noticia no apta para películas: 23 años después, continúa siendo una de las cimas dramáticas más lúcidas, tristes y necesarias del cine contemporáneo del siglo XXI
-[movies] Saltado noticia no apta para películas: En 1982, Clint Eastwood donó 30.000 dólares para rescatar soldados estadounidenses desaparecidos porque "no podría dormir por la noche": la misión fue un rotundo fracaso
-[movies] Saltado noticia no apta para películas: Costó 600.000 dólares, recaudó cuatro veces más y tiene un 90%: la joya oculta con la que Elizabeth Olsen debutó como protagonista
-[movies] Saltado porque no es estreno 2026: ¿Será abandonada la mayor epopeya del wéstern de nuestro tiempo? Esta obra colosal solo continuará con una condición (2024)
-[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anuncia al concursante salvado de la expulsión semanal: Estos son los dos nominados para la gala del jueves
-[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció a su nuevo concursante expulsado: Estos son los nominados para la expulsión sorpresa del domingo
-[movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11' vive su hoguera de confrontación más tensa hasta la fecha: Así se fueron Miguel y Mara
+[movies] Saltado porque no es estreno 2026: Puedes verlo todo (None)
+[movies] Saltado porque no es estreno 2026: Más de 90 papeles, un Óscar: hoy cumple 57 años el chico que se arriesgó a plantar a Hollywood y le salió bien (2000)
+[movies] Saltado noticia no apta para películas: Kelly Stewart-Harcourt, la hija antropóloga de James Stewart que a sus 75 años debuta como productora en el 'biopic' de su padre
+[movies] Saltado noticia no apta para películas: Christopher Lloyd: "La fortuna de mis padres era heredada. De niño, me dejaba maravillado la opulencia de nuestra mansión, propia de la Edad Dorada"
+[movies] Saltado porque no es estreno 2026: El día en que 'Godzilla Minus One' dio una lección magistral a Hollywood (2027)
+[movies] Saltado noticia no apta para películas: Mark Wahlberg (55 años): "Me levanto a las 3:30 de la mañana. Entreno duro todos los días. Es parte de mi personalidad"
+[movies] Saltado porque no es estreno 2026: "Es realmente perturbadora": la película española que siempre recomienda el director del gran fenómeno de terror del año (2027)
+[movies] Saltado noticia no apta para películas: Michael Douglas sobre Jack Nicholson: "Ha desaparecido. Lo sé. Pero está bien. Está por su casa paseando en pantuflas. Son cosas que pasan"
 [movies] Saltado noticia no apta para películas: La Séptima y su parrilla: programas, presentadores y horarios del nuevo canal de TDT
+[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anuncia al concursante salvado de la expulsión semanal: Estos son los dos nominados para la gala del jueves
+[movies] Saltado noticia no apta para películas: Rubén, de 'La isla de las tentaciones 11': "Mi trabajo es muy intenso. Soy embriólogo, especialista en reproducción asistida"
+[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció a su nuevo concursante expulsado: Estos son los nominados para la expulsión sorpresa del domingo
+[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' salvó a un concursante de la expulsión: Así queda la lista de nominados
+[movies] Saltado noticia no apta para películas: David Bustamante, sobre su hija Daniella: "No soy un padre ‘maleducador’. Estoy orgulloso de la mujer en la que se ha convertido"
+[movies] Saltado noticia no apta para películas: Cuatro cada vez más cerca de Telecinco: el canal principal de Mediaset encadena mínimos históricos mientras su "hermana menor" no para de crecer
 [movies] Saltado noticia no apta para películas: Europa da la razón a Mediaset y anula el registro de 'Pasapalabra' para ITV Studios: "Actuó con intenciones deshonestas"
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11' vivió una nueva infidelidad: Solo queda una chica sin caer en la tentación
-[movies] Saltado noticia no apta para películas: Rubén, de 'La isla de las tentaciones 11': "Mi trabajo es muy intenso. Soy embriólogo, especialista en reproducción asistida"
-[movies] Saltado noticia no apta para películas: Hace 19 años le vimos por primera vez en un concurso autonómico, ahora es uno de los presentadores con mayor éxito en España
-[movies] Saltado porque no es estreno 2026: Lydia Lozano, 65 años: "Soy una apasionada de 'Supervivientes' y me pusieron sobre la mesa un cheque en blanco, pero lo mío es verlo en televisión" (2019)
-[movies] Candidatos encontrados: 28 | Límite: 1
-[movies] Publicados: 0
-Total películas publicadas: 0
+[movies] Candidatos encontrados: 31 | Límite: 1
+[IA] Probando proveedor gemini: Sacamantecas
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/sacamantecas-el-thriller-historico-que-desvela-al-primer-asesino-en-serie-de-espana-2026-11-04-56fd1d.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
