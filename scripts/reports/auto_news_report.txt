@@ -1,14 +1,16 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-04T12:04:41.792599+00:00
+Fecha UTC: 2026-11-04T19:43:38.798145+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Puedes verlo todo (None)
-[movies] Saltado porque no es estreno 2026: Más de 90 papeles, un Óscar: hoy cumple 57 años el chico que se arriesgó a plantar a Hollywood y le salió bien (2000)
+[movies] Saltado noticia no apta para películas: Tom Hanks: "Algo que aprendí de mis 20, 30, 40 y 50: Si estás pasando por un momento maravilloso, recuerda que esto también pasará"
+[movies] Saltado noticia no apta para películas: Menos taquilla, más competición y el ascenso de la IA: Disney ha tenido que tomar medidas urgentes y no va a ser la única
+[movies] Saltado porque no es estreno 2026: Florence Pugh (30 años): "Viví en España de pequeña. Recuerdo el jazmín, la madreselva, la sal del mar y el olor de puerto" (2025)
 [movies] Saltado noticia no apta para películas: Kelly Stewart-Harcourt, la hija antropóloga de James Stewart que a sus 75 años debuta como productora en el 'biopic' de su padre
 [movies] Saltado noticia no apta para películas: Christopher Lloyd: "La fortuna de mis padres era heredada. De niño, me dejaba maravillado la opulencia de nuestra mansión, propia de la Edad Dorada"
-[movies] Saltado porque no es estreno 2026: El día en que 'Godzilla Minus One' dio una lección magistral a Hollywood (2027)
-[movies] Saltado noticia no apta para películas: Mark Wahlberg (55 años): "Me levanto a las 3:30 de la mañana. Entreno duro todos los días. Es parte de mi personalidad"
+[movies] Saltado porque no es estreno 2026: El día en que 'Godzilla Minus One' dio una lección magistral a Hollywood (2023)
+[movies] Saltado porque no es estreno 2026: Mark Wahlberg (55 años): "Me levanto a las 3:30 de la mañana. Entreno duro todos los días. Es parte de mi personalidad" (2027)
 [movies] Saltado porque no es estreno 2026: "Es realmente perturbadora": la película española que siempre recomienda el director del gran fenómeno de terror del año (2027)
-[movies] Saltado noticia no apta para películas: Michael Douglas sobre Jack Nicholson: "Ha desaparecido. Lo sé. Pero está bien. Está por su casa paseando en pantuflas. Son cosas que pasan"
+[movies] Saltado noticia no apta para películas: Carles Torrens, director de 'Apocalipsis Z: Nuevo Mundo': "Yo ya tengo mi mochila de supervivencia por si llega una catástrofe"
 [movies] Saltado noticia no apta para películas: La Séptima y su parrilla: programas, presentadores y horarios del nuevo canal de TDT
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anuncia al concursante salvado de la expulsión semanal: Estos son los dos nominados para la gala del jueves
 [movies] Saltado noticia no apta para películas: Rubén, de 'La isla de las tentaciones 11': "Mi trabajo es muy intenso. Soy embriólogo, especialista en reproducción asistida"
@@ -19,9 +21,12 @@ Fecha UTC: 2026-11-04T12:04:41.792599+00:00
 [movies] Saltado noticia no apta para películas: Europa da la razón a Mediaset y anula el registro de 'Pasapalabra' para ITV Studios: "Actuó con intenciones deshonestas"
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11' vivió una nueva infidelidad: Solo queda una chica sin caer en la tentación
 [movies] Candidatos encontrados: 31 | Límite: 1
-[IA] Probando proveedor gemini: Sacamantecas
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/sacamantecas-el-thriller-historico-que-desvela-al-primer-asesino-en-serie-de-espana-2026-11-04-56fd1d.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[YouTube] No se encontró tráiler confiable para 30 años de carrera para que le dieran al fin un Oscar, y cuando lo recibió hizo historia: nadie se fue más rápido del escenario
+[movies] Saltado porque no tiene tráiler confiable: 30 años de carrera para que le dieran al fin un Oscar, y cuando lo recibió hizo historia: nadie se fue más rápido del escenario
+[YouTube] No se encontró tráiler confiable para Más de 90 papeles, un Óscar: hoy cumple 57 años el chico que se arriesgó a plantar a Hollywood y le salió bien
+[movies] Saltado porque no tiene tráiler confiable: Más de 90 papeles, un Óscar: hoy cumple 57 años el chico que se arriesgó a plantar a Hollywood y le salió bien
+[YouTube] No se encontró tráiler confiable para Paris Jackson reclama 600 millones de dólares del patrimonio de su padre: "Más de 17 años después de su fallecimiento, el fideicomiso familiar sigue sin contar con fondos"
+[movies] Saltado porque no tiene tráiler confiable: Paris Jackson reclama 600 millones de dólares del patrimonio de su padre: "Más de 17 años después de su fallecimiento, el fideicomiso familiar sigue sin contar con fondos"
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
