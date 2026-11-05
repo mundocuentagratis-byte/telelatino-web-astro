@@ -1,7 +1,13 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-05T12:14:49.322584+00:00
+Fecha UTC: 2026-11-05T21:58:34.462139+00:00
 [movies] Saltado porque no es estreno 2026: Sacamantecas (None)
 [movies] Saltado porque no es estreno 2026: Puedes verlo todo (None)
+[movies] Saltado noticia no apta para películas: Patricia López Arnaiz, protagonista de 'Sacamantecas': "El machismo y la violencia sexual contra las mujeres atraviesan todas las capas culturales y sociales"
+[movies] Saltado noticia no apta para películas: ‘Cazafantasmas’ tiene su origen en una historia real: una de sus estrellas tiene una conexión muy personal con la película
+[movies] Saltado noticia no apta para películas: "He hecho películas con muchos VFX que te hacen una promesa y decepciona. Esta es una de las excepcionales": llega a los cines un hito de la industria cinematográfica
+[movies] Saltado noticia no apta para películas: Hace 49 años, George Lucas dejó abandonado el set de rodaje de Tatooine. El año que viene un eclipse lo convertirá en un lugar mágico para fans de 'Star Wars'
+[movies] Saltado noticia no apta para películas: El cine de terror tiene un gran problema de sangre, pero por suerte parece haber una solución
+[movies] Saltado noticia no apta para películas: Dafne Keen: "Me ofrecían cocaína en las fiestas de fin de rodaje. Era muy pequeña, como 11 o 12 años"
 [movies] Saltado noticia no apta para películas: Kirk Douglas, en 1973, sobre John Wayne: "No hemos estado de acuerdo en muchas cosas, pero me parece uno de los actores más profesionales con los que he trabajado"
 [movies] Saltado noticia no apta para películas: Crítica de 'Godzilla minus zero': los efectos visuales igualan -e incluso superan- a cualquier 'blockbuster' occidental
 [movies] Saltado noticia no apta para películas: "A algunas niñas que se orinaban les frotaban la vagina con ortigas para que no volvieran a hacerlo": 'Ruega por nosotras' rescata la historia silenciada del Patronato de Protección a la Mujer
@@ -9,33 +15,17 @@ Fecha UTC: 2026-11-05T12:14:49.322584+00:00
 [movies] Saltado porque no es estreno 2026: Carlos González ('La bola negra'): "Sobre la Guerra Civil, aprendí escuchando a mi padre, pero lamento no haber escuchado más a mi abuelo" (2017)
 [movies] Saltado porque no es estreno 2026: Quentin Tarantino: "Sigo sintiendo que la gente piensa que soy un director que solo escribe basura para sí mismo" (2027)
 [movies] Saltado noticia no apta para películas: Jenna Ortega: "Ser latina es algo de lo que estoy muy orgullosa. Nunca crecí con ningún tipo de vergüenza ni miedo a mi cultura"
-[movies] Saltado noticia no apta para películas: Después de más de 50 adaptaciones, llega a los cines la versión más épica de esta mítica epopeya
-[movies] Saltado porque no es estreno 2026: Chris Hemsworth se arrepintió de esta película de Thor: "Me sentí un poco decepcionado. No creo haber desarrollado al personaje de ninguna manera" (2022)
-[movies] Saltado noticia no apta para películas: Se estrena una película de animación que "logra a la perfección el equilibrio entre temas profundos y un humor apto para todos los niños"
-[movies] Saltado noticia no apta para películas: "Por desgracia, lo que pasa es todo real": este viernes llega la película española más esperada tras 'La bola negra'; una historia sobrecogedora que merece ser contada
-[movies] Saltado noticia no apta para películas: Tom Hanks: "Algo que aprendí de mis 20, 30, 40 y 50: Si estás pasando por un momento maravilloso, recuerda que esto también pasará"
-[movies] Saltado noticia no apta para películas: Menos taquilla, más competición y el ascenso de la IA: Disney ha tenido que tomar medidas urgentes y no va a ser la única
-[movies] Saltado porque no es estreno 2026: Florence Pugh (30 años): "Viví en España de pequeña. Recuerdo el jazmín, la madreselva, la sal del mar y el olor de puerto" (2025)
-[movies] Saltado noticia no apta para películas: Paris Jackson reclama 600 millones de dólares del patrimonio de su padre: "Más de 17 años después de su fallecimiento, el fideicomiso familiar sigue sin contar con fondos"
 [movies] Saltado noticia no apta para películas: La Séptima y su parrilla: programas, presentadores y horarios del nuevo canal de TDT
 [movies] Saltado noticia no apta para películas: Rubén, de 'La isla de las tentaciones 11': "Mi trabajo es muy intenso. Soy embriólogo, especialista en reproducción asistida"
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció a su nuevo concursante expulsado: Estos son los nominados para la expulsión sorpresa del domingo
 [movies] Saltado noticia no apta para películas: Un sindicato de RTVE sobre Manu Sánchez en 'El perro andaluz': "Tiene una manera de tratar a los trabajadores más propias del empresario más autoritario"
+[movies] Saltado noticia no apta para películas: Gabriel Rufián en 'Cara al Show': "En mi primer trabajo me pegó un compañero, Me hizo una llave que me dejó sin respirar. Tenía diecinueve años"
+[movies] Saltado noticia no apta para películas: Este es el único programa de La Séptima que no será en directo ni tendrá pausa publicitaria
+[movies] Saltado noticia no apta para películas: La revolución de RTVE para 'Cine de barrio': Jorge Ponce presentará su primera entrega en La 2
 [movies] Saltado noticia no apta para películas: Ramón Espinar abandona 'En boca de todos', el programa de Nacho Abad: "Una vez que se encendía la cámara ya no estaba a gusto"
 [movies] Saltado noticia no apta para películas: Carlos Alsina tras ganar el Premio Ondas: "Creo que este es mi último año en Onda Cero y luego ya se verá lo que viene. Terminar así es el mejor colofón"
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' salvó a un concursante de la expulsión: Así queda la lista de nominados
-[movies] Saltado noticia no apta para películas: David Bustamante, sobre su hija Daniella: "No soy un padre ‘maleducador’. Estoy orgulloso de la mujer en la que se ha convertido"
-[movies] Saltado noticia no apta para películas: Cuatro cada vez más cerca de Telecinco: el canal principal de Mediaset encadena mínimos históricos mientras su "hermana menor" no para de crecer
-[movies] Saltado noticia no apta para películas: Europa da la razón a Mediaset y anula el registro de 'Pasapalabra' para ITV Studios: "Actuó con intenciones deshonestas"
 [movies] Candidatos encontrados: 30 | Límite: 1
-[IA] Probando proveedor mistral: La oveja Shaun: Misión calabaza
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: La oveja Shaun: Misión calabaza
-[IA] cohere falló (error): Cohere error 404: {"id":"594ad260-e722-4333-bf17-7943b25dcd22","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: La oveja Shaun: Misión calabaza
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/la-oveja-shaun-mision-calabaza-una-aventura-de-halloween-en-cine-2026-11-05-f4a652.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
