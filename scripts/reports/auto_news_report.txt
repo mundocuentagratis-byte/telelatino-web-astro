@@ -1,14 +1,7 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-06T15:54:32.409278+00:00
+Fecha UTC: 2026-11-06T21:29:10.499538+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Puedes verlo todo (None)
-[movies] Saltado noticia no apta para películas: Miley Cyrus donó 1 millón de dólares por un objetivo compartido con su madre: 97 apartamentos destinados a combatir la violencia de género
-[movies] Saltado noticia no apta para películas: Las prótesis de Gimli le dejaron casi ciego en el rodaje, así que decidió hacer sus escenas de lucha atizando a los especialistas de verdad
-[movies] Saltado noticia no apta para películas: "Esta película, al menos, intenta [ser antipantallas], pero ahora mismo quitar una pantalla es súper complicado": Arturo Valls se transforma en 'El gato con sombrero'
-[movies] Saltado noticia no apta para películas: Crítica de 'Ruega por nosotras': La brutal historia real del infierno de las mujeres encerradas por desafiar la moral franquista
-[movies] Saltado noticia no apta para películas: “Lo sé, eso es lo que todos dijimos”: Michael Douglas cree que Cher no debería haber ganado el Oscar hace 38 años
-[movies] Saltado noticia no apta para películas: Russel Brand ha sido declarado culpable de cuatro cargos de violación y agresiones sexuales y le espera una condena significativa
-[movies] Saltado noticia no apta para películas: Nicolas Cage sobre Ryan Gosling recogiendo el testigo de Motorista fantasma: "Ryan sabe lo que pienso de él"
 [movies] Saltado noticia no apta para películas: Penélope Cruz, sobre su amistad con Salma Hayek: "Me recogió en el aeropuerto y me dijo: 'No vas a irte a un hotel. Te vienes a mi casa, porque esto es duro al inicio. Te vas a sentir muy sola"
 [movies] Saltado noticia no apta para películas: Patricia López Arnaiz, protagonista de 'Sacamantecas': "El machismo y la violencia sexual contra las mujeres atraviesan todas las capas culturales y sociales"
 [movies] Saltado noticia no apta para películas: ‘Cazafantasmas’ tiene su origen en una historia real: una de sus estrellas tiene una conexión muy personal con la película
@@ -16,26 +9,31 @@ Fecha UTC: 2026-11-06T15:54:32.409278+00:00
 [movies] Saltado noticia no apta para películas: Hace 49 años, George Lucas dejó abandonado el set de rodaje de Tatooine. El año que viene un eclipse lo convertirá en un lugar mágico para fans de 'Star Wars'
 [movies] Saltado noticia no apta para películas: El cine de terror tiene un gran problema de sangre, pero por suerte parece haber una solución
 [movies] Saltado porque no es estreno 2026: Dafne Keen: "Me ofrecían cocaína en las fiestas de fin de rodaje. Era muy pequeña, como 11 o 12 años" (2015)
+[movies] Saltado noticia no apta para películas: Kirk Douglas, en 1973, sobre John Wayne: "No hemos estado de acuerdo en muchas cosas, pero me parece uno de los actores más profesionales con los que he trabajado"
+[movies] Saltado noticia no apta para películas: Crítica de 'Godzilla minus zero': los efectos visuales igualan -e incluso superan- a cualquier 'blockbuster' occidental
+[movies] Saltado noticia no apta para películas: "Odio a Keanu Reeves": Este director es posiblemente el único en Hollywood que no soporta a la estrella de 'John Wick'
+[movies] Saltado porque no es estreno 2026: Carlos González ('La bola negra'): "Sobre la Guerra Civil, aprendí escuchando a mi padre, pero lamento no haber escuchado más a mi abuelo" (2017)
+[movies] Saltado porque no es estreno 2026: Quentin Tarantino: "Sigo sintiendo que la gente piensa que soy un director que solo escribe basura para sí mismo" (2027)
+[movies] Saltado noticia no apta para películas: Jenna Ortega: "Ser latina es algo de lo que estoy muy orgullosa. Nunca crecí con ningún tipo de vergüenza ni miedo a mi cultura"
 [movies] Saltado noticia no apta para películas: La Séptima y su parrilla: programas, presentadores y horarios del nuevo canal de TDT
 [movies] Saltado noticia no apta para películas: Rubén, de 'La isla de las tentaciones 11': "Mi trabajo es muy intenso. Soy embriólogo, especialista en reproducción asistida"
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció a su nuevo concursante expulsado: Estos son los nominados para la expulsión sorpresa del domingo
 [movies] Saltado noticia no apta para películas: Un sindicato de RTVE sobre Manu Sánchez en 'El perro andaluz': "Tiene una manera de tratar a los trabajadores más propias del empresario más autoritario"
-[movies] Saltado noticia no apta para películas: La Séptima supera sus expectativas en su primer día, pero el programa que más me llama la atención de su parrilla todavía no se ha estrenado
-[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció a la nueva concursante expulsada y sus últimos nominados: Estos son los primeros finalistas
 [movies] Saltado noticia no apta para películas: Gabriel Rufián en 'Cara al Show': "En mi primer trabajo me pegó un compañero, Me hizo una llave que me dejó sin respirar. Tenía diecinueve años"
 [movies] Saltado noticia no apta para películas: Este es el único programa de La Séptima que no será en directo ni tendrá pausa publicitaria
 [movies] Saltado noticia no apta para películas: La revolución de RTVE para 'Cine de barrio': Jorge Ponce presentará su primera entrega en La 2
 [movies] Saltado noticia no apta para películas: Ramón Espinar abandona 'En boca de todos', el programa de Nacho Abad: "Una vez que se encendía la cámara ya no estaba a gusto"
-[movies] Candidatos encontrados: 33 | Límite: 1
-[movies] Saltado por tema bloqueado: El contrato. Un pacto con el diablo
-[IA] Probando proveedor mistral: El misterio de Lucy Lost
+[movies] Saltado noticia no apta para películas: Carlos Alsina tras ganar el Premio Ondas: "Creo que este es mi último año en Onda Cero y luego ya se verá lo que viene. Terminar así es el mejor colofón"
+[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' salvó a un concursante de la expulsión: Así queda la lista de nominados
+[movies] Candidatos encontrados: 34 | Límite: 1
+[IA] Probando proveedor mistral: En nombre de otro
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: El misterio de Lucy Lost
-[IA] cohere falló (error): Cohere error 404: {"id":"c14201fe-d134-48c6-a312-c19e761c3911","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: El misterio de Lucy Lost
+[IA] Probando proveedor cohere: En nombre de otro
+[IA] cohere falló (error): Cohere error 404: {"id":"53512849-cbbf-48da-bb4f-bb8bf8967ae4","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: En nombre de otro
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/el-misterio-de-lucy-lost-una-aventura-animada-que-desafia-los-prejuicios-2026-11-06-6c2907.md
+[OK] Publicado: src/content/blog/en-nombre-de-otro-el-thriller-de-oriol-paulo-que-nos-dejara-a-oscuras-2026-11-06-49bb69.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
