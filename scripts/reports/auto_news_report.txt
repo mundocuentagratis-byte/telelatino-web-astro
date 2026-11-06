@@ -1,20 +1,18 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-05T21:58:34.462139+00:00
-[movies] Saltado porque no es estreno 2026: Sacamantecas (None)
+Fecha UTC: 2026-11-06T06:31:19.933937+00:00
+[movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Puedes verlo todo (None)
+[movies] Saltado noticia no apta para películas: Nicolas Cage sobre Ryan Gosling recogiendo el testigo de Motorista fantasma: "Ryan sabe lo que pienso de él"
+[movies] Saltado noticia no apta para películas: Penélope Cruz, sobre su amistad con Salma Hayek: "Me recogió en el aeropuerto y me dijo: 'No vas a irte a un hotel. Te vienes a mi casa, porque esto es duro al inicio. Te vas a sentir muy sola"
 [movies] Saltado noticia no apta para películas: Patricia López Arnaiz, protagonista de 'Sacamantecas': "El machismo y la violencia sexual contra las mujeres atraviesan todas las capas culturales y sociales"
 [movies] Saltado noticia no apta para películas: ‘Cazafantasmas’ tiene su origen en una historia real: una de sus estrellas tiene una conexión muy personal con la película
 [movies] Saltado noticia no apta para películas: "He hecho películas con muchos VFX que te hacen una promesa y decepciona. Esta es una de las excepcionales": llega a los cines un hito de la industria cinematográfica
 [movies] Saltado noticia no apta para películas: Hace 49 años, George Lucas dejó abandonado el set de rodaje de Tatooine. El año que viene un eclipse lo convertirá en un lugar mágico para fans de 'Star Wars'
 [movies] Saltado noticia no apta para películas: El cine de terror tiene un gran problema de sangre, pero por suerte parece haber una solución
-[movies] Saltado noticia no apta para películas: Dafne Keen: "Me ofrecían cocaína en las fiestas de fin de rodaje. Era muy pequeña, como 11 o 12 años"
+[movies] Saltado porque no es estreno 2026: Dafne Keen: "Me ofrecían cocaína en las fiestas de fin de rodaje. Era muy pequeña, como 11 o 12 años" (2015)
 [movies] Saltado noticia no apta para películas: Kirk Douglas, en 1973, sobre John Wayne: "No hemos estado de acuerdo en muchas cosas, pero me parece uno de los actores más profesionales con los que he trabajado"
-[movies] Saltado noticia no apta para películas: Crítica de 'Godzilla minus zero': los efectos visuales igualan -e incluso superan- a cualquier 'blockbuster' occidental
-[movies] Saltado noticia no apta para películas: "A algunas niñas que se orinaban les frotaban la vagina con ortigas para que no volvieran a hacerlo": 'Ruega por nosotras' rescata la historia silenciada del Patronato de Protección a la Mujer
-[movies] Saltado noticia no apta para películas: "Odio a Keanu Reeves": Este director es posiblemente el único en Hollywood que no soporta a la estrella de 'John Wick'
 [movies] Saltado porque no es estreno 2026: Carlos González ('La bola negra'): "Sobre la Guerra Civil, aprendí escuchando a mi padre, pero lamento no haber escuchado más a mi abuelo" (2017)
 [movies] Saltado porque no es estreno 2026: Quentin Tarantino: "Sigo sintiendo que la gente piensa que soy un director que solo escribe basura para sí mismo" (2027)
-[movies] Saltado noticia no apta para películas: Jenna Ortega: "Ser latina es algo de lo que estoy muy orgullosa. Nunca crecí con ningún tipo de vergüenza ni miedo a mi cultura"
 [movies] Saltado noticia no apta para películas: La Séptima y su parrilla: programas, presentadores y horarios del nuevo canal de TDT
 [movies] Saltado noticia no apta para películas: Rubén, de 'La isla de las tentaciones 11': "Mi trabajo es muy intenso. Soy embriólogo, especialista en reproducción asistida"
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció a su nuevo concursante expulsado: Estos son los nominados para la expulsión sorpresa del domingo
@@ -25,7 +23,12 @@ Fecha UTC: 2026-11-05T21:58:34.462139+00:00
 [movies] Saltado noticia no apta para películas: Ramón Espinar abandona 'En boca de todos', el programa de Nacho Abad: "Una vez que se encendía la cámara ya no estaba a gusto"
 [movies] Saltado noticia no apta para películas: Carlos Alsina tras ganar el Premio Ondas: "Creo que este es mi último año en Onda Cero y luego ya se verá lo que viene. Terminar así es el mejor colofón"
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' salvó a un concursante de la expulsión: Así queda la lista de nominados
-[movies] Candidatos encontrados: 30 | Límite: 1
-[movies] Publicados: 0
-Total películas publicadas: 0
+[movies] Candidatos encontrados: 36 | Límite: 1
+[IA] Probando proveedor cohere: Cecilia: Una luz de mañana
+[IA] cohere falló (error): Cohere error 404: {"id":"08d4ff90-923f-42f4-a46d-18c403e00bcb","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Cecilia: Una luz de mañana
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/cecilia-una-luz-de-manana-el-documental-que-revela-a-la-leyenda-2026-11-06-c9d1ec.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
