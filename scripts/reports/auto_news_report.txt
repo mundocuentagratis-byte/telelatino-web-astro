@@ -1,7 +1,20 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-07T05:53:08.776204+00:00
+Fecha UTC: 2026-11-07T14:54:28.476845+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
+[movies] Saltado porque no es estreno 2026: Los Juegos del Hambre: Amanecer en la cosecha (2003)
+[movies] Saltado porque no es estreno 2026: Scrooge y los fantasmas de la Navidad (2003)
+[movies] Saltado porque no es estreno 2026: Mosquito Bowl: Un partido en plena guerra (2003)
+[movies] Saltado porque no es estreno 2026: Dune: Parte tres (2003)
+[movies] Saltado porque no es estreno 2026: Everest: La otra cara (2003)
+[movies] Saltado porque no es estreno 2026: Entrega al límite (2003)
+[movies] Saltado porque no es estreno 2026: En nombre de otro (2003)
+[movies] Saltado porque no es estreno 2026: El confidente (2003)
+[movies] Saltado porque no es estreno 2026: Yo soy Rocky (2003)
 [movies] Saltado porque no es estreno 2026: Puedes verlo todo (None)
+[movies] Saltado porque no es estreno 2026: Clayface (2003)
+[movies] Saltado porque no es estreno 2026: Wildwood (2003)
+[movies] Saltado porque no es estreno 2026: Wicker (2003)
+[movies] Saltado porque no es estreno 2026: Street Fighter (2003)
 [movies] Saltado porque no es estreno 2026: Llega a los cines de España 'Puella Magi Madoka Magica La película. La noche de Walpurgis: El ascenso' (2011)
 [movies] Saltado noticia no apta para películas: Ben Affleck habla español en su nuevo 'thriller' de acción de Netflix: Aprendió el idioma cuando tenía 13 años
 [movies] Saltado noticia no apta para películas: Confirmado el destino de Keanu Reeves en la saga ‘John Wick’: La nueva película contará los orígenes del protagonista
@@ -13,19 +26,17 @@ Fecha UTC: 2026-11-07T05:53:08.776204+00:00
 [movies] Saltado noticia no apta para películas: Nicolas Cage sobre Ryan Gosling recogiendo el testigo de Motorista fantasma: "Ryan sabe lo que pienso de él"
 [movies] Saltado noticia no apta para películas: Penélope Cruz, sobre su amistad con Salma Hayek: "Me recogió en el aeropuerto y me dijo: 'No vas a irte a un hotel. Te vienes a mi casa, porque esto es duro al inicio. Te vas a sentir muy sola"
 [movies] Saltado noticia no apta para películas: Patricia López Arnaiz, protagonista de 'Sacamantecas': "El machismo y la violencia sexual contra las mujeres atraviesan todas las capas culturales y sociales"
+[movies] Saltado noticia no apta para películas: La Séptima y su parrilla: programas, presentadores y horarios del nuevo canal de TDT
+[movies] Saltado noticia no apta para películas: Rubén, de 'La isla de las tentaciones 11': "Mi trabajo es muy intenso. Soy embriólogo, especialista en reproducción asistida"
+[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció a su nuevo concursante expulsado: Estos son los nominados para la expulsión sorpresa del domingo
+[movies] Saltado noticia no apta para películas: Un sindicato de RTVE sobre Manu Sánchez en 'El perro andaluz': "Tiene una manera de tratar a los trabajadores más propias del empresario más autoritario"
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció a la nueva concursante expulsada y sus últimos nominados: Estos son los primeros finalistas
 [movies] Saltado noticia no apta para películas: Este es el único programa de La Séptima que no será en directo ni tendrá pausa publicitaria
-[movies] Candidatos encontrados: 44 | Límite: 1
-[IA] Probando proveedor openai: Everest: La otra cara
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Everest: La otra cara
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Everest: La otra cara
-[IA] cohere falló (error): Cohere error 404: {"id":"220a4318-b522-45d5-9738-4eefc34835fe","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Everest: La otra cara
+[movies] Candidatos encontrados: 27 | Límite: 1
+[movies] Saltado por tema bloqueado: Los miserables
+[IA] Probando proveedor gemini: Por qué no escribo nada
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/everest-la-otra-cara-desafio-extremo-en-la-cima-del-mundo-2026-11-07-9ac0c7.md
+[OK] Publicado: src/content/blog/el-silencio-roto-de-carmen-laforet-llega-a-cines-con-por-que-no-escribo-nada-2026-11-07-286c90.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
