@@ -1,45 +1,35 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-07T20:12:40.210470+00:00
+Fecha UTC: 2026-11-08T05:55:50.979158+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
-[movies] Saltado porque no es estreno 2026: Los Juegos del Hambre: Amanecer en la cosecha (2003)
-[movies] Saltado porque no es estreno 2026: Scrooge y los fantasmas de la Navidad (2003)
-[movies] Saltado porque no es estreno 2026: Mosquito Bowl: Un partido en plena guerra (2003)
-[movies] Saltado porque no es estreno 2026: Dune: Parte tres (2003)
-[movies] Saltado porque no es estreno 2026: Everest: La otra cara (2003)
-[movies] Saltado porque no es estreno 2026: Entrega al límite (2003)
-[movies] Saltado porque no es estreno 2026: En nombre de otro (2003)
-[movies] Saltado porque no es estreno 2026: El confidente (2003)
-[movies] Saltado porque no es estreno 2026: Yo soy Rocky (2003)
 [movies] Saltado porque no es estreno 2026: Puedes verlo todo (None)
-[movies] Saltado porque no es estreno 2026: Clayface (2003)
-[movies] Saltado porque no es estreno 2026: Wildwood (2003)
-[movies] Saltado porque no es estreno 2026: Wicker (2003)
-[movies] Saltado porque no es estreno 2026: Street Fighter (2003)
-[movies] Saltado porque no es estreno 2026: En 2003, nadie quería contratar a Robert Downey Jr., que acababa de salir de la cárcel: con esta película volvió al cine 'mainstream' (2003)
+[movies] Saltado noticia no apta para películas: "Warner Bros. empezó una caza masiva": Rupert Grint confiesa el robo del rodaje de 'Harry Potter' que tuvo que devolver a escondidas
+[movies] Saltado noticia no apta para películas: Carlos Bardem: "Me encontré a mi madre con una mano agarrada a Jack Nicholson y con la otra a Harrison Ford. Encantada de la vida"
+[movies] Saltado porque no es estreno 2026: Un pueblo de Burgos de 261 habitantes a dos horas de Madrid es el destino perfecto para los fans del 'western' de todo el mundo (2015)
+[movies] Saltado porque no es estreno 2026: Esta película se estrenó hace 50 años y ha influenciado a la mayoría de directores que conoces hoy en día, pero pocos la recuerdan (2009)
+[movies] Saltado porque no es estreno 2026: En Netflix: Una de las mejores sagas de ciencia ficción de los últimos años de la que ya se está rodando una nueva secuela (2027)
+[movies] Saltado noticia no apta para películas: Es una de las mejores películas del siglo XXI: Clint Eastwood nos destrozó hace 22 años con el final de este filme
+[movies] Saltado noticia no apta para películas: Meryl Streep (77 años): "Cuando nado mis 55 largos, intento recordar en orden las películas en las que he participado"
+[movies] Saltado porque no es estreno 2026: En 2003, nadie quería contratar a Robert Downey Jr., que acababa de salir de la cárcel: con esta película volvió al cine 'mainstream' (2004)
 [movies] Saltado porque no es estreno 2026: Muere a los 52 años Sebastián Lelio, director de 'Una mujer fantástica' y gran figura del cine latinoamericano (2013)
 [movies] Saltado porque no es estreno 2026: "Políticamente incorrecta y posiblemente racista": la fuerte reacción que provocó el veto en Hollywood de un fenómeno de 75 millones (2014)
 [movies] Saltado noticia no apta para películas: El mapa de 'Star Wars' que muestra los países que apoyarían al Imperio y a los Rebeldes: Europa está dividida
 [movies] Saltado noticia no apta para películas: Así ha cambiado la Emperatriz Infantil de 'La historia interminable': se apartó de Hollywood después de que le ofrecieran desnudos siendo una niña
 [movies] Saltado porque no es estreno 2026: Llega a los cines de España 'Puella Magi Madoka Magica La película. La noche de Walpurgis: El ascenso' (2011)
-[movies] Saltado noticia no apta para películas: Ben Affleck habla español en su nuevo 'thriller' de acción de Netflix: Aprendió el idioma cuando tenía 13 años
-[movies] Saltado noticia no apta para películas: Confirmado el destino de Keanu Reeves en la saga ‘John Wick’: La nueva película contará los orígenes del protagonista
-[movies] Saltado noticia no apta para películas: La gran saga de ciencia ficción de nuestra época vuelve a los cines por su gran final: Solo hay un cine en España en el que puedes hace la maratón
-[movies] Saltado noticia no apta para películas: Pedro Almodóvar, sobre 'La bola negra': "Los grandes éxitos del cine español últimamente son de otras características. Tienen un tufo televisivo familiar"
-[movies] Saltado noticia no apta para películas: Miley Cyrus donó 1 millón de dólares por un objetivo compartido con su madre: 97 apartamentos destinados a combatir la violencia de género
-[movies] Saltado noticia no apta para películas: Las prótesis de Gimli le dejaron casi ciego en el rodaje, así que decidió hacer sus escenas de lucha atizando a los especialistas de verdad
-[movies] Saltado noticia no apta para películas: "Esta película, al menos, intenta [ser antipantallas], pero ahora mismo quitar una pantalla es súper complicado": Arturo Valls se transforma en 'El gato con sombrero'
-[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' anunció a la nueva concursante expulsada y sus últimos nominados: Estos son los primeros finalistas
-[movies] Candidatos encontrados: 29 | Límite: 1
-[IA] Probando proveedor openai: Subijana, más allá de un bigote
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Subijana, más allá de un bigote
+[movies] Saltado noticia no apta para películas: El concursante más breve de 'Supervivientes': abandonó antes de pisar la playa y 6 años después casi gana 'Tu cara me suena'
+[movies] Saltado noticia no apta para películas: Alberto Sanfrutos, primer 'Magnífico' de 'Saber y ganar': "Rechacé 'Pasapalabra'. Te lo tienes que preparar como unas oposiciones y a mí nunca me ha gustado estudiar"
+[movies] Saltado noticia no apta para películas: Jesús Vázquez: "Arrancaron mi foto del pasillo de Mediaset al día siguiente de terminar el programa. Son datos"
+[movies] Saltado noticia no apta para películas: Eva Arguiñano, sobre su infancia con su hermano Karlos: "De niños nunca conocimos el lujo, pero tuvimos la infancia más feliz del mundo"
+[movies] Saltado noticia no apta para películas: Durante décadas, perpetraron humillaciones, abusos y torturas a mujeres y niñas inocentes: hoy en tv un documental que hace justicia
+[movies] Saltado noticia no apta para películas: El Gran Wyoming (71 años): "Mi sueño era jubilarme y quiero cumplirlo pronto no vaya a ser que los de Vox lleguen al gobierno y me quiten la pensión"
+[movies] Candidatos encontrados: 38 | Límite: 1
+[IA] Probando proveedor mistral: Los Juegos del Hambre: Amanecer en la cosecha
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Subijana, más allá de un bigote
-[IA] cohere falló (error): Cohere error 404: {"id":"5517aa5d-762c-438a-9944-1ae0c392e1e0","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Subijana, más allá de un bigote
+[IA] Probando proveedor cohere: Los Juegos del Hambre: Amanecer en la cosecha
+[IA] cohere falló (error): Cohere error 404: {"id":"a4f863f1-7c49-43e0-a4bd-b9d0cdfd3a75","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Los Juegos del Hambre: Amanecer en la cosecha
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/subijana-un-retrato-intimo-del-chef-de-la-nueva-cocina-vasca-2026-11-07-0e175e.md
+[OK] Publicado: src/content/blog/los-juegos-del-hambre-amanecer-en-la-cosecha-el-cruel-regreso-a-panem-2026-11-08-27fc47.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
