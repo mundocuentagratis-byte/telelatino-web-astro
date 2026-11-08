@@ -1,35 +1,39 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-08T05:55:50.979158+00:00
+Fecha UTC: 2026-11-08T15:06:48.697473+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Puedes verlo todo (None)
+[movies] Saltado noticia no apta para películas: Jack Nicholson rechazó 'El Padrino' para protagonizar una de las películas más olvidadas de su carrera: "Indios deberían interpretar a indios e italianos debían interpretar a italianos"
 [movies] Saltado noticia no apta para películas: "Warner Bros. empezó una caza masiva": Rupert Grint confiesa el robo del rodaje de 'Harry Potter' que tuvo que devolver a escondidas
 [movies] Saltado noticia no apta para películas: Carlos Bardem: "Me encontré a mi madre con una mano agarrada a Jack Nicholson y con la otra a Harrison Ford. Encantada de la vida"
 [movies] Saltado porque no es estreno 2026: Un pueblo de Burgos de 261 habitantes a dos horas de Madrid es el destino perfecto para los fans del 'western' de todo el mundo (2015)
 [movies] Saltado porque no es estreno 2026: Esta película se estrenó hace 50 años y ha influenciado a la mayoría de directores que conoces hoy en día, pero pocos la recuerdan (2009)
+[movies] Saltado noticia no apta para películas: "El número de cadáveres fue alto, las bajas son numerosas": así son los mejores créditos finales de la historia
 [movies] Saltado porque no es estreno 2026: En Netflix: Una de las mejores sagas de ciencia ficción de los últimos años de la que ya se está rodando una nueva secuela (2027)
 [movies] Saltado noticia no apta para películas: Es una de las mejores películas del siglo XXI: Clint Eastwood nos destrozó hace 22 años con el final de este filme
 [movies] Saltado noticia no apta para películas: Meryl Streep (77 años): "Cuando nado mis 55 largos, intento recordar en orden las películas en las que he participado"
 [movies] Saltado porque no es estreno 2026: En 2003, nadie quería contratar a Robert Downey Jr., que acababa de salir de la cárcel: con esta película volvió al cine 'mainstream' (2004)
-[movies] Saltado porque no es estreno 2026: Muere a los 52 años Sebastián Lelio, director de 'Una mujer fantástica' y gran figura del cine latinoamericano (2013)
 [movies] Saltado porque no es estreno 2026: "Políticamente incorrecta y posiblemente racista": la fuerte reacción que provocó el veto en Hollywood de un fenómeno de 75 millones (2014)
 [movies] Saltado noticia no apta para películas: El mapa de 'Star Wars' que muestra los países que apoyarían al Imperio y a los Rebeldes: Europa está dividida
 [movies] Saltado noticia no apta para películas: Así ha cambiado la Emperatriz Infantil de 'La historia interminable': se apartó de Hollywood después de que le ofrecieran desnudos siendo una niña
-[movies] Saltado porque no es estreno 2026: Llega a los cines de España 'Puella Magi Madoka Magica La película. La noche de Walpurgis: El ascenso' (2011)
+[movies] Saltado noticia no apta para películas: Candela Peña: "No soy colaboradora de televisión. Yo voy porque estoy enamorada de David, de Grison, de Jorge Ponce y de Ricardo"
 [movies] Saltado noticia no apta para películas: El concursante más breve de 'Supervivientes': abandonó antes de pisar la playa y 6 años después casi gana 'Tu cara me suena'
 [movies] Saltado noticia no apta para películas: Alberto Sanfrutos, primer 'Magnífico' de 'Saber y ganar': "Rechacé 'Pasapalabra'. Te lo tienes que preparar como unas oposiciones y a mí nunca me ha gustado estudiar"
 [movies] Saltado noticia no apta para películas: Jesús Vázquez: "Arrancaron mi foto del pasillo de Mediaset al día siguiente de terminar el programa. Son datos"
 [movies] Saltado noticia no apta para películas: Eva Arguiñano, sobre su infancia con su hermano Karlos: "De niños nunca conocimos el lujo, pero tuvimos la infancia más feliz del mundo"
 [movies] Saltado noticia no apta para películas: Durante décadas, perpetraron humillaciones, abusos y torturas a mujeres y niñas inocentes: hoy en tv un documental que hace justicia
-[movies] Saltado noticia no apta para películas: El Gran Wyoming (71 años): "Mi sueño era jubilarme y quiero cumplirlo pronto no vaya a ser que los de Vox lleguen al gobierno y me quiten la pensión"
 [movies] Candidatos encontrados: 38 | Límite: 1
-[IA] Probando proveedor mistral: Los Juegos del Hambre: Amanecer en la cosecha
+[IA] Probando proveedor groq: Wild Horse Nine
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: Wild Horse Nine
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: Wild Horse Nine
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Los Juegos del Hambre: Amanecer en la cosecha
-[IA] cohere falló (error): Cohere error 404: {"id":"a4f863f1-7c49-43e0-a4bd-b9d0cdfd3a75","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Los Juegos del Hambre: Amanecer en la cosecha
+[IA] Probando proveedor cohere: Wild Horse Nine
+[IA] cohere falló (error): Cohere error 404: {"id":"3ce86b8c-c7f1-4468-ae8e-a67a1cf0c763","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Wild Horse Nine
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/los-juegos-del-hambre-amanecer-en-la-cosecha-el-cruel-regreso-a-panem-2026-11-08-27fc47.md
+[OK] Publicado: src/content/blog/wild-horse-nine-intriga-de-la-cia-en-la-enigmatica-isla-de-pascua-2026-11-08-958b44.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
