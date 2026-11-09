@@ -1,47 +1,43 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-08T20:26:42.595227+00:00
+Fecha UTC: 2026-11-09T06:13:49.192056+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Puedes verlo todo (None)
+[movies] Saltado noticia no apta para películas: Por fin llega a los cines ‘Wild Horse Nine’, merecedora de 13 minutos de ovación en Venecia
+[movies] Saltado noticia no apta para películas: Esta noche en casa: si te gustaron ‘Braveheart’ o ‘El último mohicano’ no debes perderte esta nueva epopeya basada en un icónico personaje
+[movies] Saltado noticia no apta para películas: Un juicio de 14 años: la película de George Clooney que fue demandada por alejarse demasiado de la realidad
+[movies] Saltado noticia no apta para películas: Jack Nicholson rechazó 'El Padrino' para protagonizar una de las películas más olvidadas de su carrera: "Indios deberían interpretar a indios e italianos debían interpretar a italianos"
 [movies] Saltado noticia no apta para películas: "Warner Bros. empezó una caza masiva": Rupert Grint confiesa el robo del rodaje de 'Harry Potter' que tuvo que devolver a escondidas
 [movies] Saltado noticia no apta para películas: Carlos Bardem: "Me encontré a mi madre con una mano agarrada a Jack Nicholson y con la otra a Harrison Ford. Encantada de la vida"
 [movies] Saltado porque no es estreno 2026: Un pueblo de Burgos de 261 habitantes a dos horas de Madrid es el destino perfecto para los fans del 'western' de todo el mundo (2015)
 [movies] Saltado porque no es estreno 2026: Esta película se estrenó hace 50 años y ha influenciado a la mayoría de directores que conoces hoy en día, pero pocos la recuerdan (2009)
-[movies] Saltado porque no es estreno 2026: En Netflix: Una de las mejores sagas de ciencia ficción de los últimos años de la que ya se está rodando una nueva secuela (2027)
-[movies] Saltado noticia no apta para películas: Es una de las mejores películas del siglo XXI: Clint Eastwood nos destrozó hace 22 años con el final de este filme
-[movies] Saltado noticia no apta para películas: Meryl Streep (77 años): "Cuando nado mis 55 largos, intento recordar en orden las películas en las que he participado"
-[movies] Saltado porque no es estreno 2026: En 2003, nadie quería contratar a Robert Downey Jr., que acababa de salir de la cárcel: con esta película volvió al cine 'mainstream' (2004)
-[movies] Saltado porque no es estreno 2026: Muere a los 52 años Sebastián Lelio, director de 'Una mujer fantástica' y gran figura del cine latinoamericano (2013)
-[movies] Saltado porque no es estreno 2026: "Políticamente incorrecta y posiblemente racista": la fuerte reacción que provocó el veto en Hollywood de un fenómeno de 75 millones (2014)
-[movies] Saltado noticia no apta para películas: El mapa de 'Star Wars' que muestra los países que apoyarían al Imperio y a los Rebeldes: Europa está dividida
-[movies] Saltado noticia no apta para películas: Así ha cambiado la Emperatriz Infantil de 'La historia interminable': se apartó de Hollywood después de que le ofrecieran desnudos siendo una niña
-[movies] Saltado porque no es estreno 2026: Llega a los cines de España 'Puella Magi Madoka Magica La película. La noche de Walpurgis: El ascenso' (2011)
+[movies] Saltado noticia no apta para películas: "El número de cadáveres fue alto, las bajas son numerosas": así son los mejores créditos finales de la historia
+[movies] Saltado noticia no apta para películas: La pareja de 'Operación Triunfo' que casi nadie conoció, pero tuvo dos hijos
+[movies] Saltado noticia no apta para películas: Candela Peña: "No soy colaboradora de televisión. Yo voy porque estoy enamorada de David, de Grison, de Jorge Ponce y de Ricardo"
 [movies] Saltado noticia no apta para películas: El concursante más breve de 'Supervivientes': abandonó antes de pisar la playa y 6 años después casi gana 'Tu cara me suena'
 [movies] Saltado noticia no apta para películas: Alberto Sanfrutos, primer 'Magnífico' de 'Saber y ganar': "Rechacé 'Pasapalabra'. Te lo tienes que preparar como unas oposiciones y a mí nunca me ha gustado estudiar"
 [movies] Saltado noticia no apta para películas: Jesús Vázquez: "Arrancaron mi foto del pasillo de Mediaset al día siguiente de terminar el programa. Son datos"
 [movies] Saltado noticia no apta para películas: Eva Arguiñano, sobre su infancia con su hermano Karlos: "De niños nunca conocimos el lujo, pero tuvimos la infancia más feliz del mundo"
-[movies] Saltado noticia no apta para películas: Durante décadas, perpetraron humillaciones, abusos y torturas a mujeres y niñas inocentes: hoy en tv un documental que hace justicia
-[movies] Saltado noticia no apta para películas: El Gran Wyoming (71 años): "Mi sueño era jubilarme y quiero cumplirlo pronto no vaya a ser que los de Vox lleguen al gobierno y me quiten la pensión"
-[movies] Candidatos encontrados: 38 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "El número de cadáveres fue alto, las bajas son numerosas": así son los mejores créditos finales de la historia
-[movies] Saltado porque no tiene tráiler confiable: "El número de cadáveres fue alto, las bajas son numerosas": así son los mejores créditos finales de la historia
-[YouTube] No se encontró tráiler confiable para 'La isla de las tentaciones 11' vivió una nueva infidelidad: Solo queda una chica sin caer en la tentación
-[movies] Saltado porque no tiene tráiler confiable: 'La isla de las tentaciones 11' vivió una nueva infidelidad: Solo queda una chica sin caer en la tentación
-[YouTube] No se encontró tráiler confiable para Este es el único programa de La Séptima que no será en directo ni tendrá pausa publicitaria
-[movies] Saltado porque no tiene tráiler confiable: Este es el único programa de La Séptima que no será en directo ni tendrá pausa publicitaria
-[YouTube] No se encontró tráiler confiable para La Séptima y su parrilla: programas, presentadores y horarios del nuevo canal de TDT
-[movies] Saltado porque no tiene tráiler confiable: La Séptima y su parrilla: programas, presentadores y horarios del nuevo canal de TDT
+[movies] Candidatos encontrados: 39 | Límite: 1
+[movies] Saltado por tema bloqueado: Durante décadas, perpetraron humillaciones, abusos y torturas a mujeres y niñas inocentes: hoy en tv un documental que hace justicia
+[YouTube] No se encontró tráiler confiable para En 1993, un mes antes de 'Jurassic Park', se estrenó otra película de dinosaurios que costó 75 veces menos y nadie sabe que existe
+[movies] Saltado porque no tiene tráiler confiable: En 1993, un mes antes de 'Jurassic Park', se estrenó otra película de dinosaurios que costó 75 veces menos y nadie sabe que existe
+[YouTube] No se encontró tráiler confiable para Hubo gente que se fue del cine, pero merece cada milésima de tu tiempo: una inspiradora pero cruda película con puntuación perfecta
+[movies] Saltado porque no tiene tráiler confiable: Hubo gente que se fue del cine, pero merece cada milésima de tu tiempo: una inspiradora pero cruda película con puntuación perfecta
+[YouTube] No se encontró tráiler confiable para Penélope Cruz, sobre su amistad con Salma Hayek: "Me recogió en el aeropuerto y me dijo: 'No vas a irte a un hotel. Te vienes a mi casa, porque esto es duro al inicio. Te vas a sentir muy sola"
+[movies] Saltado porque no tiene tráiler confiable: Penélope Cruz, sobre su amistad con Salma Hayek: "Me recogió en el aeropuerto y me dijo: 'No vas a irte a un hotel. Te vienes a mi casa, porque esto es duro al inicio. Te vas a sentir muy sola"
+[IA] Probando proveedor cohere: Rubén, de 'La isla de las tentaciones 11': "Mi trabajo es muy intenso. Soy embri
+[IA] cohere falló (error): Cohere error 404: {"id":"a596477e-af65-4006-8dc8-67ebaba8bd27","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Rubén, de 'La isla de las tentaciones 11': "Mi trabajo es muy intenso. Soy embri
+[IA] gemini falló (cuota): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash, description: Generate content requests per day limit exceeded on Fr
+[IA] Probando proveedor groq: Rubén, de 'La isla de las tentaciones 11': "Mi trabajo es muy intenso. Soy embri
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
 [IA] Probando proveedor openai: Rubén, de 'La isla de las tentaciones 11': "Mi trabajo es muy intenso. Soy embri
 [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
 [IA] Probando proveedor mistral: Rubén, de 'La isla de las tentaciones 11': "Mi trabajo es muy intenso. Soy embri
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Rubén, de 'La isla de las tentaciones 11': "Mi trabajo es muy intenso. Soy embri
-[IA] cohere falló (error): Cohere error 404: {"id":"c517e331-f023-41fa-9f07-98f7053cb989","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Rubén, de 'La isla de las tentaciones 11': "Mi trabajo es muy intenso. Soy embri
-[IA] gemini falló (error): Expecting ',' delimiter: line 5 column 3 (char 7217)
-[IA] Probando proveedor groq: Rubén, de 'La isla de las tentaciones 11': "Mi trabajo es muy intenso. Soy embri
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[movies] Error generando artículo Rubén, de 'La isla de las tentaciones 11': "Mi trabajo es muy intenso. Soy embriólogo, especialista en reproducción asistida": Todos los proveedores de IA fallaron. [IA] cohere falló (error): Cohere error 404: {"id":"c517e331-f023-41fa-9f07-98f7053cb989","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."} | [IA] gemini falló (error): Expecting ',' delimiter: line 5 column 3 (char 7217) | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[movies] Error generando artículo Rubén, de 'La isla de las tentaciones 11': "Mi trabajo es muy intenso. Soy embriólogo, especialista en reproducción asistida": Todos los proveedores de IA fallaron. [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}} | [IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
