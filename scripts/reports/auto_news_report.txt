@@ -1,26 +1,34 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-10T02:43:07.455882+00:00
+Fecha UTC: 2026-11-10T12:33:18.778847+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Puedes verlo todo (None)
+[movies] Saltado noticia no apta para películas: Por fin llega a los cines ‘Wild Horse Nine’, merecedora de 13 minutos de ovación en Venecia
+[movies] Saltado noticia no apta para películas: Russell Brand ingresa en prisión: una pena de 10 años y seis meses de prisión por violación y agresión sexual
 [movies] Saltado porque no es estreno 2026: "La película final era terrible”: la cinta que horrorizó a la antigua presidenta de DC y generó una crisis en el estudio (2017)
+[movies] Saltado noticia no apta para películas: Javier Ambrossi: “Mi madre me tuvo con 18 años. La separación de mis padres me afectó muchísimo. De hecho, todas las movidas mentales que tengo vienen de ahí”
 [movies] Saltado noticia no apta para películas: Es una de las mejores escenas de batalla del cine: hace 8 años, su intensidad dejó a los espectadores sin palabras
-[movies] Saltado noticia no apta para películas: La pareja de 'Operación Triunfo' que casi nadie conoció, pero tuvo dos hijos
 [movies] Saltado noticia no apta para películas: El concursante más breve de 'Supervivientes': abandonó antes de pisar la playa y 6 años después casi gana 'Tu cara me suena'
-[movies] Saltado noticia no apta para películas: Alberto Sanfrutos, primer 'Magnífico' de 'Saber y ganar': "Rechacé 'Pasapalabra'. Te lo tienes que preparar como unas oposiciones y a mí nunca me ha gustado estudiar"
-[movies] Saltado noticia no apta para películas: Jesús Vázquez: "Arrancaron mi foto del pasillo de Mediaset al día siguiente de terminar el programa. Son datos"
-[movies] Candidatos encontrados: 48 | Límite: 1
-[IA] Probando proveedor groq: En busca del saco mágico
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: En busca del saco mágico
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: En busca del saco mágico
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: En busca del saco mágico
-[IA] cohere falló (error): Cohere error 404: {"id":"6564c72c-a7ac-4e91-bbeb-1f9df95ba9fe","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: En busca del saco mágico
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/en-busca-del-saco-magico-schwarzenegger-y-ritchson-en-una-aventura-navidena-2026-11-10-f87d7b.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[movies] Candidatos encontrados: 47 | Límite: 1
+[duplicado] Saltado por tema parecido: El cielo es para siempre ~= Hijos del cielo: estreno de animación con drama y fantasía para agosto 2026
+[YouTube] No se encontró tráiler confiable para David Broncano sobre el veto de Vox al público de ‘La Revuelta’: “Nos ha parecido bien porque no nos gustaría que te excusases en que te había abucheado”
+[movies] Saltado porque no tiene tráiler confiable: David Broncano sobre el veto de Vox al público de ‘La Revuelta’: “Nos ha parecido bien porque no nos gustaría que te excusases en que te había abucheado”
+[YouTube] No se encontró tráiler confiable para Esta noche en casa: si te gustaron ‘Braveheart’ o ‘El último mohicano’ no debes perderte esta epopeya basada en un icónico personaje
+[movies] Saltado porque no tiene tráiler confiable: Esta noche en casa: si te gustaron ‘Braveheart’ o ‘El último mohicano’ no debes perderte esta epopeya basada en un icónico personaje
+[YouTube] No se encontró tráiler confiable para Esta película tiene un ritmo tan vertiginoso que se filmaron 1.500 rollos de celuloide, el triple del metraje habitual en un largometraje de dos horas
+[movies] Saltado porque no tiene tráiler confiable: Esta película tiene un ritmo tan vertiginoso que se filmaron 1.500 rollos de celuloide, el triple del metraje habitual en un largometraje de dos horas
+[YouTube] No se encontró tráiler confiable para Hace 18 años solo era un niño y se subió por primera vez a un escenario en el West End de Londres. Ahora es la mayor estrella del mundo, ¿le reconoces?
+[movies] Saltado porque no tiene tráiler confiable: Hace 18 años solo era un niño y se subió por primera vez a un escenario en el West End de Londres. Ahora es la mayor estrella del mundo, ¿le reconoces?
+[YouTube] No se encontró tráiler confiable para Hace más de 40 años se estrenó una de las mejores películas basada en hechos reales: ganó 8 premios Oscar y dura 3 horas que merecen todo tu tiempo
+[movies] Saltado porque no tiene tráiler confiable: Hace más de 40 años se estrenó una de las mejores películas basada en hechos reales: ganó 8 premios Oscar y dura 3 horas que merecen todo tu tiempo
+[YouTube] No se encontró tráiler confiable para José Mota (61 años): "Tú vas a Wall Street en Nueva York y hay viejas del estor. Cambia el visillo, pero la cotillez es la misma"
+[movies] Saltado porque no tiene tráiler confiable: José Mota (61 años): "Tú vas a Wall Street en Nueva York y hay viejas del estor. Cambia el visillo, pero la cotillez es la misma"
+[YouTube] No se encontró tráiler confiable para Kirk Douglas, en 1973, sobre John Wayne: "No hemos estado de acuerdo en muchas cosas, pero me parece uno de los actores más profesionales con los que he trabajado"
+[movies] Saltado porque no tiene tráiler confiable: Kirk Douglas, en 1973, sobre John Wayne: "No hemos estado de acuerdo en muchas cosas, pero me parece uno de los actores más profesionales con los que he trabajado"
+[YouTube] No se encontró tráiler confiable para La pareja de 'Operación Triunfo' que casi nadie conoció, pero tuvo dos hijos
+[movies] Saltado porque no tiene tráiler confiable: La pareja de 'Operación Triunfo' que casi nadie conoció, pero tuvo dos hijos
+[YouTube] No se encontró tráiler confiable para Ni una semana de su estreno y La Séptima logra el sorpaso a laSexta: La entrevista de Javier Ruiz a Pedro Sánchez supera los 2 millones de espectadores
+[movies] Saltado porque no tiene tráiler confiable: Ni una semana de su estreno y La Séptima logra el sorpaso a laSexta: La entrevista de Javier Ruiz a Pedro Sánchez supera los 2 millones de espectadores
+[movies] Saltado por tema bloqueado: Rubén, de 'La isla de las tentaciones 11': "Mi trabajo es muy intenso. Soy embriólogo, especialista en reproducción asistida"
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
