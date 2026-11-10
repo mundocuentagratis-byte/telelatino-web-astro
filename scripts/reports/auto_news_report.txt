@@ -1,34 +1,34 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-10T12:33:18.778847+00:00
-[movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
-[movies] Saltado porque no es estreno 2026: Puedes verlo todo (None)
-[movies] Saltado noticia no apta para películas: Por fin llega a los cines ‘Wild Horse Nine’, merecedora de 13 minutos de ovación en Venecia
-[movies] Saltado noticia no apta para películas: Russell Brand ingresa en prisión: una pena de 10 años y seis meses de prisión por violación y agresión sexual
-[movies] Saltado porque no es estreno 2026: "La película final era terrible”: la cinta que horrorizó a la antigua presidenta de DC y generó una crisis en el estudio (2017)
-[movies] Saltado noticia no apta para películas: Javier Ambrossi: “Mi madre me tuvo con 18 años. La separación de mis padres me afectó muchísimo. De hecho, todas las movidas mentales que tengo vienen de ahí”
-[movies] Saltado noticia no apta para películas: Es una de las mejores escenas de batalla del cine: hace 8 años, su intensidad dejó a los espectadores sin palabras
-[movies] Saltado noticia no apta para películas: El concursante más breve de 'Supervivientes': abandonó antes de pisar la playa y 6 años después casi gana 'Tu cara me suena'
-[movies] Candidatos encontrados: 47 | Límite: 1
-[duplicado] Saltado por tema parecido: El cielo es para siempre ~= Hijos del cielo: estreno de animación con drama y fantasía para agosto 2026
-[YouTube] No se encontró tráiler confiable para David Broncano sobre el veto de Vox al público de ‘La Revuelta’: “Nos ha parecido bien porque no nos gustaría que te excusases en que te había abucheado”
-[movies] Saltado porque no tiene tráiler confiable: David Broncano sobre el veto de Vox al público de ‘La Revuelta’: “Nos ha parecido bien porque no nos gustaría que te excusases en que te había abucheado”
-[YouTube] No se encontró tráiler confiable para Esta noche en casa: si te gustaron ‘Braveheart’ o ‘El último mohicano’ no debes perderte esta epopeya basada en un icónico personaje
-[movies] Saltado porque no tiene tráiler confiable: Esta noche en casa: si te gustaron ‘Braveheart’ o ‘El último mohicano’ no debes perderte esta epopeya basada en un icónico personaje
-[YouTube] No se encontró tráiler confiable para Esta película tiene un ritmo tan vertiginoso que se filmaron 1.500 rollos de celuloide, el triple del metraje habitual en un largometraje de dos horas
-[movies] Saltado porque no tiene tráiler confiable: Esta película tiene un ritmo tan vertiginoso que se filmaron 1.500 rollos de celuloide, el triple del metraje habitual en un largometraje de dos horas
-[YouTube] No se encontró tráiler confiable para Hace 18 años solo era un niño y se subió por primera vez a un escenario en el West End de Londres. Ahora es la mayor estrella del mundo, ¿le reconoces?
-[movies] Saltado porque no tiene tráiler confiable: Hace 18 años solo era un niño y se subió por primera vez a un escenario en el West End de Londres. Ahora es la mayor estrella del mundo, ¿le reconoces?
-[YouTube] No se encontró tráiler confiable para Hace más de 40 años se estrenó una de las mejores películas basada en hechos reales: ganó 8 premios Oscar y dura 3 horas que merecen todo tu tiempo
-[movies] Saltado porque no tiene tráiler confiable: Hace más de 40 años se estrenó una de las mejores películas basada en hechos reales: ganó 8 premios Oscar y dura 3 horas que merecen todo tu tiempo
-[YouTube] No se encontró tráiler confiable para José Mota (61 años): "Tú vas a Wall Street en Nueva York y hay viejas del estor. Cambia el visillo, pero la cotillez es la misma"
-[movies] Saltado porque no tiene tráiler confiable: José Mota (61 años): "Tú vas a Wall Street en Nueva York y hay viejas del estor. Cambia el visillo, pero la cotillez es la misma"
-[YouTube] No se encontró tráiler confiable para Kirk Douglas, en 1973, sobre John Wayne: "No hemos estado de acuerdo en muchas cosas, pero me parece uno de los actores más profesionales con los que he trabajado"
-[movies] Saltado porque no tiene tráiler confiable: Kirk Douglas, en 1973, sobre John Wayne: "No hemos estado de acuerdo en muchas cosas, pero me parece uno de los actores más profesionales con los que he trabajado"
-[YouTube] No se encontró tráiler confiable para La pareja de 'Operación Triunfo' que casi nadie conoció, pero tuvo dos hijos
-[movies] Saltado porque no tiene tráiler confiable: La pareja de 'Operación Triunfo' que casi nadie conoció, pero tuvo dos hijos
-[YouTube] No se encontró tráiler confiable para Ni una semana de su estreno y La Séptima logra el sorpaso a laSexta: La entrevista de Javier Ruiz a Pedro Sánchez supera los 2 millones de espectadores
-[movies] Saltado porque no tiene tráiler confiable: Ni una semana de su estreno y La Séptima logra el sorpaso a laSexta: La entrevista de Javier Ruiz a Pedro Sánchez supera los 2 millones de espectadores
-[movies] Saltado por tema bloqueado: Rubén, de 'La isla de las tentaciones 11': "Mi trabajo es muy intenso. Soy embriólogo, especialista en reproducción asistida"
+Fecha UTC: 2026-11-10T21:48:33.169145+00:00
+[movies] Saltado porque no es estreno 2026: Los Juegos del Hambre: Amanecer en la cosecha (None)
+[movies] Saltado noticia no apta para películas: Martin McDonagh: "Wild Horse Nine' es la película más política que he hecho, pero también una historia de amor entre estos dos hombres"
+[movies] Saltado noticia no apta para películas: "Es muy fuerte. Vergonzoso": Fernando Tejero reacciona a las palabras de Macarena Gómez sobre la desigualdad en el cine
+[movies] Saltado noticia no apta para películas: El debut en el culturismo del hijo de Arnold Schwarzenegger, Joseph Baena (29 años): "Quedé entre los cinco primeros"
+[movies] Saltado noticia no apta para películas: Taiwán no sabía cómo traducir el título de esta película, así que simplemente le pusieron '1995: Fantastic' porque... es maravillosa
+[movies] Saltado noticia no apta para películas: 'GH VIP 9': esta es la lista oficial de todos los concursantes confirmados por Telecinco
+[movies] Saltado noticia no apta para películas: Ni una semana de su estreno y La Séptima logra el sorpaso a laSexta: La entrevista de Javier Ruiz a Pedro Sánchez supera los 2 millones de espectadores
+[movies] Saltado noticia no apta para películas: David Broncano sobre el veto de Vox al público de ‘La Revuelta’: “Nos ha parecido bien porque no nos gustaría que te excusases en que te había abucheado”
+[movies] Saltado noticia no apta para películas: Juan del Val (56 años), sobre sus estudios: "Mis 11 primos hermanos por parte de madre son todos ingenieros. Yo nunca pisé la universidad"
+[movies] Saltado noticia no apta para películas: La pareja de 'Operación Triunfo' que casi nadie conoció, pero tuvo dos hijos
+[movies] Saltado noticia no apta para películas: Candela Peña: "No soy colaboradora de televisión. Yo voy porque estoy enamorada de David, de Grison, de Jorge Ponce y de Ricardo"
+[movies] Candidatos encontrados: 44 | Límite: 1
+[YouTube] No se encontró tráiler confiable para El nuevo jefe de DC Studios, Jeremy Latcham, ya dejó clara su filosofía sobre el cine de superhéroes: "No sé si a mi abuela le gustaría eso"
+[movies] Saltado porque no tiene tráiler confiable: El nuevo jefe de DC Studios, Jeremy Latcham, ya dejó clara su filosofía sobre el cine de superhéroes: "No sé si a mi abuela le gustaría eso"
+[YouTube] No se encontró tráiler confiable para El regreso al cine de Juan José Ballesta en 'Clanes de Dios': una película hiperviolenta sobre las guerras entre clanes
+[movies] Saltado porque no tiene tráiler confiable: El regreso al cine de Juan José Ballesta en 'Clanes de Dios': una película hiperviolenta sobre las guerras entre clanes
+[YouTube] No se encontró tráiler confiable para Javier Calvo y Javier Ambrossi sobre la proyección de 'La bola negra' en Cannes: "Fue una pesadilla"
+[movies] Saltado porque no tiene tráiler confiable: Javier Calvo y Javier Ambrossi sobre la proyección de 'La bola negra' en Cannes: "Fue una pesadilla"
+[YouTube] No se encontró tráiler confiable para Levon Hawke, el hijo de 24 años de Ethan Hawke y Uma Thurman, que acaba da fichar para protagonizar una película junto a Anthony Hopkins
+[movies] Saltado porque no tiene tráiler confiable: Levon Hawke, el hijo de 24 años de Ethan Hawke y Uma Thurman, que acaba da fichar para protagonizar una película junto a Anthony Hopkins
+[YouTube] No se encontró tráiler confiable para Llega a los cines la reinvención de unos personajes que nacieron hace 214 años: ya no son niños perdidos, ahora son agentes del mundo mágico
+[movies] Saltado porque no tiene tráiler confiable: Llega a los cines la reinvención de unos personajes que nacieron hace 214 años: ya no son niños perdidos, ahora son agentes del mundo mágico
+[YouTube] No se encontró tráiler confiable para Matt Damon: "Estoy muy orgulloso de tener una esposa argentina. He viajado mucho con ella, que tiene una familia numerosa en la Argentina, un país que amo"
+[movies] Saltado porque no tiene tráiler confiable: Matt Damon: "Estoy muy orgulloso de tener una esposa argentina. He viajado mucho con ella, que tiene una familia numerosa en la Argentina, un país que amo"
+[YouTube] No se encontró tráiler confiable para Por fin llega a los cines ‘Wild Horse Nine’, merecedora de 13 minutos de ovación en Venecia
+[movies] Saltado porque no tiene tráiler confiable: Por fin llega a los cines ‘Wild Horse Nine’, merecedora de 13 minutos de ovación en Venecia
+[YouTube] No se encontró tráiler confiable para Reese Witherspoon fue la actriz más rica del mundo, pero su imperio audiovisual se ha desplomado: de 900 a 50 millones
+[movies] Saltado porque no tiene tráiler confiable: Reese Witherspoon fue la actriz más rica del mundo, pero su imperio audiovisual se ha desplomado: de 900 a 50 millones
+[movies] Saltado por tema bloqueado: Russell Brand ingresa en prisión: una pena de 10 años y seis meses de prisión por violación y agresión sexual
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
