@@ -1,25 +1,14 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-09T18:43:42.395224+00:00
+Fecha UTC: 2026-11-10T02:43:07.455882+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Puedes verlo todo (None)
-[movies] Saltado porque no es estreno 2026: Por fin llega a los cines ‘Wild Horse Nine’, merecedora de 13 minutos de ovación en Venecia (2021)
-[movies] Saltado porque no es estreno 2026: Javier Ambrossi: “Mi madre me tuvo con 18 años. La separación de mis padres me afectó muchísimo. De hecho, todas las movidas mentales que tengo vienen de ahí” (2021)
-[movies] Saltado porque no es estreno 2026: Es una de las mejores escenas de batalla del cine: hace 8 años, su intensidad dejó a los espectadores sin palabras (2021)
-[movies] Saltado porque no es estreno 2026: Hace 18 años solo era un niño y se subió por primera vez a un escenario en el West End de Londres. Ahora es la mayor estrella del mundo, ¿le reconoces? (2021)
-[movies] Saltado porque no es estreno 2026: Hace más de 40 años se estrenó una de las mejores películas basada en hechos reales: ganó 8 premios Oscar y dura 3 horas que merecen todo tu tiempo (2021)
-[movies] Saltado porque no es estreno 2026: José Mota (61 años): "Tú vas a Wall Street en Nueva York y hay viejas del estor. Cambia el visillo, pero la cotillez es la misma" (2021)
-[movies] Saltado porque no es estreno 2026: Esta película tiene un ritmo tan vertiginoso que se filmaron 1.500 rollos de celuloide, el triple del metraje habitual en un largometraje de dos horas (2021)
-[movies] Saltado porque no es estreno 2026: Esta noche en casa: si te gustaron ‘Braveheart’ o ‘El último mohicano’ no debes perderte esta epopeya basada en un icónico personaje (2021)
-[movies] Saltado porque no es estreno 2026: Un juicio de 14 años: la película de George Clooney que fue demandada por alejarse demasiado de la realidad (2021)
+[movies] Saltado porque no es estreno 2026: "La película final era terrible”: la cinta que horrorizó a la antigua presidenta de DC y generó una crisis en el estudio (2017)
+[movies] Saltado noticia no apta para películas: Es una de las mejores escenas de batalla del cine: hace 8 años, su intensidad dejó a los espectadores sin palabras
 [movies] Saltado noticia no apta para películas: La pareja de 'Operación Triunfo' que casi nadie conoció, pero tuvo dos hijos
 [movies] Saltado noticia no apta para películas: El concursante más breve de 'Supervivientes': abandonó antes de pisar la playa y 6 años después casi gana 'Tu cara me suena'
 [movies] Saltado noticia no apta para películas: Alberto Sanfrutos, primer 'Magnífico' de 'Saber y ganar': "Rechacé 'Pasapalabra'. Te lo tienes que preparar como unas oposiciones y a mí nunca me ha gustado estudiar"
 [movies] Saltado noticia no apta para películas: Jesús Vázquez: "Arrancaron mi foto del pasillo de Mediaset al día siguiente de terminar el programa. Son datos"
-[movies] Candidatos encontrados: 41 | Límite: 1
-[IA] Probando proveedor cohere: En busca del saco mágico
-[IA] cohere falló (error): Cohere error 404: {"id":"4e5af198-a4d7-4eb1-9b73-d21a8176dd21","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: En busca del saco mágico
-[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 1332 (char 1603)
+[movies] Candidatos encontrados: 48 | Límite: 1
 [IA] Probando proveedor groq: En busca del saco mágico
 [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
 [IA] Probando proveedor openai: En busca del saco mágico
@@ -27,25 +16,11 @@ Fecha UTC: 2026-11-09T18:43:42.395224+00:00
 [IA] Probando proveedor mistral: En busca del saco mágico
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[movies] Error generando artículo En busca del saco mágico: Todos los proveedores de IA fallaron. [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}} | [IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[YouTube] No se encontró tráiler confiable para Candela Peña: "No soy colaboradora de televisión. Yo voy porque estoy enamorada de David, de Grison, de Jorge Ponce y de Ricardo"
-[movies] Saltado porque no tiene tráiler confiable: Candela Peña: "No soy colaboradora de televisión. Yo voy porque estoy enamorada de David, de Grison, de Jorge Ponce y de Ricardo"
-[YouTube] No se encontró tráiler confiable para Juan del Val (56 años), sobre sus estudios: "Mis 11 primos hermanos por parte de madre son todos ingenieros. Yo nunca pisé la universidad"
-[movies] Saltado porque no tiene tráiler confiable: Juan del Val (56 años), sobre sus estudios: "Mis 11 primos hermanos por parte de madre son todos ingenieros. Yo nunca pisé la universidad"
-[IA] Probando proveedor cohere: Rubén, de 'La isla de las tentaciones 11': "Mi trabajo es muy intenso. Soy embri
-[IA] cohere falló (error): Cohere error 404: {"id":"3bb646cc-a186-4a74-b220-39a7bae8dd23","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Rubén, de 'La isla de las tentaciones 11': "Mi trabajo es muy intenso. Soy embri
-[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 2327 (char 2633)
-[IA] Probando proveedor groq: Rubén, de 'La isla de las tentaciones 11': "Mi trabajo es muy intenso. Soy embri
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: Rubén, de 'La isla de las tentaciones 11': "Mi trabajo es muy intenso. Soy embri
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Rubén, de 'La isla de las tentaciones 11': "Mi trabajo es muy intenso. Soy embri
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[movies] Error generando artículo Rubén, de 'La isla de las tentaciones 11': "Mi trabajo es muy intenso. Soy embriólogo, especialista en reproducción asistida": Todos los proveedores de IA fallaron. [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}} | [IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[movies] Publicados: 0
-Total películas publicadas: 0
+[IA] Probando proveedor cohere: En busca del saco mágico
+[IA] cohere falló (error): Cohere error 404: {"id":"6564c72c-a7ac-4e91-bbeb-1f9df95ba9fe","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: En busca del saco mágico
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/en-busca-del-saco-magico-schwarzenegger-y-ritchson-en-una-aventura-navidena-2026-11-10-f87d7b.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
