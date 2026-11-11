@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-10T21:48:33.169145+00:00
+Fecha UTC: 2026-11-11T06:04:51.304957+00:00
 [movies] Saltado porque no es estreno 2026: Los Juegos del Hambre: Amanecer en la cosecha (None)
 [movies] Saltado noticia no apta para películas: Martin McDonagh: "Wild Horse Nine' es la película más política que he hecho, pero también una historia de amor entre estos dos hombres"
 [movies] Saltado noticia no apta para películas: "Es muy fuerte. Vergonzoso": Fernando Tejero reacciona a las palabras de Macarena Gómez sobre la desigualdad en el cine
@@ -10,25 +10,12 @@ Fecha UTC: 2026-11-10T21:48:33.169145+00:00
 [movies] Saltado noticia no apta para películas: David Broncano sobre el veto de Vox al público de ‘La Revuelta’: “Nos ha parecido bien porque no nos gustaría que te excusases en que te había abucheado”
 [movies] Saltado noticia no apta para películas: Juan del Val (56 años), sobre sus estudios: "Mis 11 primos hermanos por parte de madre son todos ingenieros. Yo nunca pisé la universidad"
 [movies] Saltado noticia no apta para películas: La pareja de 'Operación Triunfo' que casi nadie conoció, pero tuvo dos hijos
-[movies] Saltado noticia no apta para películas: Candela Peña: "No soy colaboradora de televisión. Yo voy porque estoy enamorada de David, de Grison, de Jorge Ponce y de Ricardo"
 [movies] Candidatos encontrados: 44 | Límite: 1
-[YouTube] No se encontró tráiler confiable para El nuevo jefe de DC Studios, Jeremy Latcham, ya dejó clara su filosofía sobre el cine de superhéroes: "No sé si a mi abuela le gustaría eso"
-[movies] Saltado porque no tiene tráiler confiable: El nuevo jefe de DC Studios, Jeremy Latcham, ya dejó clara su filosofía sobre el cine de superhéroes: "No sé si a mi abuela le gustaría eso"
-[YouTube] No se encontró tráiler confiable para El regreso al cine de Juan José Ballesta en 'Clanes de Dios': una película hiperviolenta sobre las guerras entre clanes
-[movies] Saltado porque no tiene tráiler confiable: El regreso al cine de Juan José Ballesta en 'Clanes de Dios': una película hiperviolenta sobre las guerras entre clanes
-[YouTube] No se encontró tráiler confiable para Javier Calvo y Javier Ambrossi sobre la proyección de 'La bola negra' en Cannes: "Fue una pesadilla"
-[movies] Saltado porque no tiene tráiler confiable: Javier Calvo y Javier Ambrossi sobre la proyección de 'La bola negra' en Cannes: "Fue una pesadilla"
-[YouTube] No se encontró tráiler confiable para Levon Hawke, el hijo de 24 años de Ethan Hawke y Uma Thurman, que acaba da fichar para protagonizar una película junto a Anthony Hopkins
-[movies] Saltado porque no tiene tráiler confiable: Levon Hawke, el hijo de 24 años de Ethan Hawke y Uma Thurman, que acaba da fichar para protagonizar una película junto a Anthony Hopkins
-[YouTube] No se encontró tráiler confiable para Llega a los cines la reinvención de unos personajes que nacieron hace 214 años: ya no son niños perdidos, ahora son agentes del mundo mágico
-[movies] Saltado porque no tiene tráiler confiable: Llega a los cines la reinvención de unos personajes que nacieron hace 214 años: ya no son niños perdidos, ahora son agentes del mundo mágico
-[YouTube] No se encontró tráiler confiable para Matt Damon: "Estoy muy orgulloso de tener una esposa argentina. He viajado mucho con ella, que tiene una familia numerosa en la Argentina, un país que amo"
-[movies] Saltado porque no tiene tráiler confiable: Matt Damon: "Estoy muy orgulloso de tener una esposa argentina. He viajado mucho con ella, que tiene una familia numerosa en la Argentina, un país que amo"
-[YouTube] No se encontró tráiler confiable para Por fin llega a los cines ‘Wild Horse Nine’, merecedora de 13 minutos de ovación en Venecia
-[movies] Saltado porque no tiene tráiler confiable: Por fin llega a los cines ‘Wild Horse Nine’, merecedora de 13 minutos de ovación en Venecia
-[YouTube] No se encontró tráiler confiable para Reese Witherspoon fue la actriz más rica del mundo, pero su imperio audiovisual se ha desplomado: de 900 a 50 millones
-[movies] Saltado porque no tiene tráiler confiable: Reese Witherspoon fue la actriz más rica del mundo, pero su imperio audiovisual se ha desplomado: de 900 a 50 millones
-[movies] Saltado por tema bloqueado: Russell Brand ingresa en prisión: una pena de 10 años y seis meses de prisión por violación y agresión sexual
-[movies] Publicados: 0
-Total películas publicadas: 0
+[IA] Probando proveedor cohere: The Beast
+[IA] cohere falló (error): Cohere error 404: {"id":"3c52cab5-db59-421f-ab44-a8d2f1d4398a","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: The Beast
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/the-beast-samuel-l-jackson-y-joel-kinnaman-en-una-huida-explosiva-2026-11-11-40f504.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
