@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-11T06:04:51.304957+00:00
+Fecha UTC: 2026-11-11T16:06:26.898025+00:00
 [movies] Saltado porque no es estreno 2026: Los Juegos del Hambre: Amanecer en la cosecha (None)
 [movies] Saltado noticia no apta para películas: Martin McDonagh: "Wild Horse Nine' es la película más política que he hecho, pero también una historia de amor entre estos dos hombres"
 [movies] Saltado noticia no apta para películas: "Es muy fuerte. Vergonzoso": Fernando Tejero reacciona a las palabras de Macarena Gómez sobre la desigualdad en el cine
@@ -10,12 +10,8 @@ Fecha UTC: 2026-11-11T06:04:51.304957+00:00
 [movies] Saltado noticia no apta para películas: David Broncano sobre el veto de Vox al público de ‘La Revuelta’: “Nos ha parecido bien porque no nos gustaría que te excusases en que te había abucheado”
 [movies] Saltado noticia no apta para películas: Juan del Val (56 años), sobre sus estudios: "Mis 11 primos hermanos por parte de madre son todos ingenieros. Yo nunca pisé la universidad"
 [movies] Saltado noticia no apta para películas: La pareja de 'Operación Triunfo' que casi nadie conoció, pero tuvo dos hijos
+[movies] Saltado noticia no apta para películas: Candela Peña: "No soy colaboradora de televisión. Yo voy porque estoy enamorada de David, de Grison, de Jorge Ponce y de Ricardo"
 [movies] Candidatos encontrados: 44 | Límite: 1
-[IA] Probando proveedor cohere: The Beast
-[IA] cohere falló (error): Cohere error 404: {"id":"3c52cab5-db59-421f-ab44-a8d2f1d4398a","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: The Beast
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/the-beast-samuel-l-jackson-y-joel-kinnaman-en-una-huida-explosiva-2026-11-11-40f504.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
