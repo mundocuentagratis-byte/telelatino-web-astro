@@ -1,17 +1,25 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-12T07:03:08.812850+00:00
-[movies] Saltado porque no es estreno 2026: Los Juegos del Hambre: Amanecer en la cosecha (None)
+Fecha UTC: 2026-11-12T16:47:43.709551+00:00
+[movies] Saltado porque no es estreno 2026: Wild Horse Nine (None)
+[movies] Saltado noticia no apta para películas: Por fin llega a los cines ‘Wild Horse Nine’, merecedora de 13 minutos de ovación en Venecia
+[movies] Saltado noticia no apta para películas: Javier Calvo y Javier Ambrossi sobre la proyección de 'La bola negra' en Cannes: "Fue una pesadilla"
 [movies] Saltado noticia no apta para películas: Martin McDonagh: "Wild Horse Nine' es la película más política que he hecho, pero también una historia de amor entre estos dos hombres"
 [movies] Saltado noticia no apta para películas: "Es muy fuerte. Vergonzoso": Fernando Tejero reacciona a las palabras de Macarena Gómez sobre la desigualdad en el cine
+[movies] Saltado noticia no apta para películas: Levon Hawke, el hijo de 24 años de Ethan Hawke y Uma Thurman, que acaba da fichar para protagonizar una película junto a Anthony Hopkins
+[movies] Saltado noticia no apta para películas: Llega a los cines la reinvención de unos personajes que nacieron hace 214 años: ya no son niños perdidos, ahora son agentes del mundo mágico
+[movies] Saltado noticia no apta para películas: Reese Witherspoon fue la actriz más rica del mundo, pero su imperio audiovisual se ha desplomado: de 900 a 50 millones
+[movies] Saltado noticia no apta para películas: El regreso al cine de Juan José Ballesta en 'Clanes de Dios': una película hiperviolenta sobre las guerras entre clanes
+[movies] Saltado noticia no apta para películas: El nuevo jefe de DC Studios, Jeremy Latcham, ya dejó clara su filosofía sobre el cine de superhéroes: "No sé si a mi abuela le gustaría eso"
 [movies] Saltado noticia no apta para películas: El debut en el culturismo del hijo de Arnold Schwarzenegger, Joseph Baena (29 años): "Quedé entre los cinco primeros"
 [movies] Saltado noticia no apta para películas: Taiwán no sabía cómo traducir el título de esta película, así que simplemente le pusieron '1995: Fantastic' porque... es maravillosa
+[movies] Saltado noticia no apta para películas: Russell Brand ingresa en prisión: una pena de 10 años y seis meses de prisión por violación y agresión sexual
 [movies] Saltado porque no es estreno 2026: Quién es Sara Bluma, la DJ de origen argelino que ha conquistado el corazón de Can Yaman: comenzó su carrera en Ibiza (2025)
 [movies] Saltado noticia no apta para películas: 'GH VIP 9': esta es la lista oficial de todos los concursantes confirmados por Telecinco
 [movies] Saltado noticia no apta para películas: Ni una semana de su estreno y La Séptima logra el sorpaso a laSexta: La entrevista de Javier Ruiz a Pedro Sánchez supera los 2 millones de espectadores
 [movies] Saltado noticia no apta para películas: David Broncano sobre el veto de Vox al público de ‘La Revuelta’: “Nos ha parecido bien porque no nos gustaría que te excusases en que te había abucheado”
 [movies] Saltado noticia no apta para películas: Juan del Val (56 años), sobre sus estudios: "Mis 11 primos hermanos por parte de madre son todos ingenieros. Yo nunca pisé la universidad"
 [movies] Saltado noticia no apta para películas: La pareja de 'Operación Triunfo' que casi nadie conoció, pero tuvo dos hijos
-[movies] Candidatos encontrados: 43 | Límite: 1
+[movies] Candidatos encontrados: 35 | Límite: 1
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
