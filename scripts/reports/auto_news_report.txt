@@ -1,16 +1,17 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-11T22:40:33.960631+00:00
+Fecha UTC: 2026-11-12T07:03:08.812850+00:00
 [movies] Saltado porque no es estreno 2026: Los Juegos del Hambre: Amanecer en la cosecha (None)
 [movies] Saltado noticia no apta para películas: Martin McDonagh: "Wild Horse Nine' es la película más política que he hecho, pero también una historia de amor entre estos dos hombres"
 [movies] Saltado noticia no apta para películas: "Es muy fuerte. Vergonzoso": Fernando Tejero reacciona a las palabras de Macarena Gómez sobre la desigualdad en el cine
 [movies] Saltado noticia no apta para películas: El debut en el culturismo del hijo de Arnold Schwarzenegger, Joseph Baena (29 años): "Quedé entre los cinco primeros"
 [movies] Saltado noticia no apta para películas: Taiwán no sabía cómo traducir el título de esta película, así que simplemente le pusieron '1995: Fantastic' porque... es maravillosa
+[movies] Saltado porque no es estreno 2026: Quién es Sara Bluma, la DJ de origen argelino que ha conquistado el corazón de Can Yaman: comenzó su carrera en Ibiza (2025)
 [movies] Saltado noticia no apta para películas: 'GH VIP 9': esta es la lista oficial de todos los concursantes confirmados por Telecinco
 [movies] Saltado noticia no apta para películas: Ni una semana de su estreno y La Séptima logra el sorpaso a laSexta: La entrevista de Javier Ruiz a Pedro Sánchez supera los 2 millones de espectadores
 [movies] Saltado noticia no apta para películas: David Broncano sobre el veto de Vox al público de ‘La Revuelta’: “Nos ha parecido bien porque no nos gustaría que te excusases en que te había abucheado”
 [movies] Saltado noticia no apta para películas: Juan del Val (56 años), sobre sus estudios: "Mis 11 primos hermanos por parte de madre son todos ingenieros. Yo nunca pisé la universidad"
 [movies] Saltado noticia no apta para películas: La pareja de 'Operación Triunfo' que casi nadie conoció, pero tuvo dos hijos
-[movies] Candidatos encontrados: 44 | Límite: 1
+[movies] Candidatos encontrados: 43 | Límite: 1
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
