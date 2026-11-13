@@ -1,11 +1,11 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-13T12:07:24.150009+00:00
+Fecha UTC: 2026-11-13T19:36:51.900468+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Godzilla Minus Zero (None)
-[movies] Saltado noticia no apta para películas: Por fin llega a los cines ‘Wild Horse Nine’, merecedora de 13 minutos de ovación en Venecia
+[movies] Saltado porque no es estreno 2026: Jamie Dornan lloró al convertirse en el nuevo Aragorn en 'El Señor de los Anillos': "Espero que hayamos hecho un buen trabajo" (2027)
+[movies] Saltado porque no es estreno 2026: Así es la nueva versión de uno de los ladrones más famosos del cine con un ganador del Oscar como director y protagonista (2023)
+[movies] Saltado noticia no apta para películas: 'La momia 4' prepara un reencuentro histórico: ya son seis los actores originales que regresan
 [movies] Saltado noticia no apta para películas: Una de las grandes películas de ciencia ficción de 2026 acaba de firmar un resultado histórico de taquilla y marca un nuevo récord para su saga
-[movies] Saltado porque no es estreno 2026: Henry Cavill no descarta volver a ser Superman tras los cambios en DC Studios: "Nunca digas nunca" (2027)
-[movies] Saltado noticia no apta para películas: El director de 'Constantine' critica a James Gunn por bloquear 'Constantine 2': "La gente que estaba en DC fue un impedimento para que la hiciéramos"
 [movies] Saltado noticia no apta para películas: 26 años después de 'Gladiator', Russell Crowe, a sus 62 años, se somete a una transformación física para regresar a la lucha contra Roma en una nueva película histórica
 [movies] Saltado noticia no apta para películas: Kirk Douglas, en 1973, sobre John Wayne: "No hemos estado de acuerdo en muchas cosas, pero me parece uno de los actores más profesionales con los que he trabajado"
 [movies] Saltado noticia no apta para películas: Penélope Cruz, sobre su amistad con Salma Hayek: "Me recogió en el aeropuerto y me dijo: 'No vas a irte a un hotel. Te vienes a mi casa, porque esto es duro al inicio. Te vas a sentir muy sola"
@@ -13,17 +13,22 @@ Fecha UTC: 2026-11-13T12:07:24.150009+00:00
 [movies] Saltado noticia no apta para películas: Durante décadas, perpetraron humillaciones, abusos y torturas a mujeres y niñas inocentes: hoy en tv un documental que hace justicia
 [movies] Saltado noticia no apta para películas: Este es el único programa de La Séptima que no será en directo ni tendrá pausa publicitaria
 [movies] Saltado porque no es estreno 2026: Quién es Sara Bluma, la DJ de origen argelino que ha conquistado el corazón de Can Yaman: comenzó su carrera en Ibiza (2025)
+[movies] Saltado noticia no apta para películas: Marta Prats, hija de Matías Prats: “Le dije a mi padre que no iba a seguir sus pasos, lo tenía claro desde el primer momento”
+[movies] Saltado noticia no apta para películas: Pedro Sánchez, sobre la polémica entrevista de Santiago Abascal en 'La Revuelta': "Parece que el problema lo ha tenido David Broncano"
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' proclamó a su ganador en una emocionante final: Este es el dinero que se lleva de premio
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11': Así terminaron las hogueras finales todas las parejas del ‘reality’
 [movies] Saltado noticia no apta para películas: Ni una semana de su estreno y La Séptima logra el sorpaso a laSexta: La entrevista de Javier Ruiz a Pedro Sánchez supera los 2 millones de espectadores
-[movies] Saltado noticia no apta para películas: David Broncano sobre el veto de Vox al público de ‘La Revuelta’: “Nos ha parecido bien porque no nos gustaría que te excusases en que te había abucheado”
-[movies] Saltado noticia no apta para películas: Juan del Val (56 años), sobre sus estudios: "Mis 11 primos hermanos por parte de madre son todos ingenieros. Yo nunca pisé la universidad"
-[movies] Candidatos encontrados: 37 | Límite: 1
-[IA] Probando proveedor cohere: El tren fluvial
-[IA] cohere falló (error): Cohere error 404: {"id":"478b1b6a-62db-4c21-ae9d-da6cc673005f","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: El tren fluvial
+[movies] Candidatos encontrados: 41 | Límite: 1
+[IA] Probando proveedor openai: BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING
+[IA] cohere falló (error): Cohere error 404: {"id":"59a5e0ea-626a-48dc-b699-70a3603a507c","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/el-tren-fluvial-un-viaje-de-suenos-y-libertad-en-la-pantalla-grande-2026-11-13-e05317.md
+[OK] Publicado: src/content/blog/bts-en-la-gran-pantalla-tour-arirang-llega-a-cines-2026-11-13-8e74e6.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
