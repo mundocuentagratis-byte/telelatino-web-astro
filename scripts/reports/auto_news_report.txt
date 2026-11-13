@@ -1,34 +1,29 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-13T01:04:04.102057+00:00
-[movies] Saltado porque no es estreno 2026: Wild Horse Nine (None)
+Fecha UTC: 2026-11-13T12:07:24.150009+00:00
+[movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
+[movies] Saltado porque no es estreno 2026: Godzilla Minus Zero (None)
 [movies] Saltado noticia no apta para películas: Por fin llega a los cines ‘Wild Horse Nine’, merecedora de 13 minutos de ovación en Venecia
+[movies] Saltado noticia no apta para películas: Una de las grandes películas de ciencia ficción de 2026 acaba de firmar un resultado histórico de taquilla y marca un nuevo récord para su saga
 [movies] Saltado porque no es estreno 2026: Henry Cavill no descarta volver a ser Superman tras los cambios en DC Studios: "Nunca digas nunca" (2027)
 [movies] Saltado noticia no apta para películas: El director de 'Constantine' critica a James Gunn por bloquear 'Constantine 2': "La gente que estaba en DC fue un impedimento para que la hiciéramos"
-[movies] Saltado noticia no apta para películas: Una de las películas favoritas de Javier Ambrossi es este 'thriller' psicológico con Kristen Stewart: "Es muy inspirador para nosotros"
-[movies] Saltado noticia no apta para películas: Jennifer Lawrence se arrepintió al instante de llevar a su madre a ver ‘Los juegos del hambre’: “Imagina un día en el que esté delante de la cámara y eso no se me pase por la cabeza”
-[movies] Saltado noticia no apta para películas: Pasó de ser un 'thriller' de acción olvidable a una de las mejores películas de la historia: en parte, gracias a la genialidad de Robin Williams
-[movies] Saltado noticia no apta para películas: La historia de "una joven que no se detiene ante nada": llega a los cines un neo-western muy musical con Matthew McConaughey, 'Los rivales de Amziah King'
-[movies] Saltado noticia no apta para películas: Carlos Gónzález ('La bola negra'): "[Los Javis] en set no son amigos. Hay amor, hay respeto, pero son dos directores"
+[movies] Saltado noticia no apta para películas: 26 años después de 'Gladiator', Russell Crowe, a sus 62 años, se somete a una transformación física para regresar a la lucha contra Roma en una nueva película histórica
+[movies] Saltado noticia no apta para películas: Kirk Douglas, en 1973, sobre John Wayne: "No hemos estado de acuerdo en muchas cosas, pero me parece uno de los actores más profesionales con los que he trabajado"
+[movies] Saltado noticia no apta para películas: Penélope Cruz, sobre su amistad con Salma Hayek: "Me recogió en el aeropuerto y me dijo: 'No vas a irte a un hotel. Te vienes a mi casa, porque esto es duro al inicio. Te vas a sentir muy sola"
 [movies] Saltado noticia no apta para películas: 'GH VIP 9': esta es la lista oficial de todos los concursantes confirmados por Telecinco
-[movies] Saltado noticia no apta para películas: Este es el único programa de La Séptima que no será en directo ni tendrá pausa publicitaria
 [movies] Saltado noticia no apta para películas: Durante décadas, perpetraron humillaciones, abusos y torturas a mujeres y niñas inocentes: hoy en tv un documental que hace justicia
+[movies] Saltado noticia no apta para películas: Este es el único programa de La Séptima que no será en directo ni tendrá pausa publicitaria
 [movies] Saltado porque no es estreno 2026: Quién es Sara Bluma, la DJ de origen argelino que ha conquistado el corazón de Can Yaman: comenzó su carrera en Ibiza (2025)
+[movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' proclamó a su ganador en una emocionante final: Este es el dinero que se lleva de premio
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11': Así terminaron las hogueras finales todas las parejas del ‘reality’
 [movies] Saltado noticia no apta para películas: Ni una semana de su estreno y La Séptima logra el sorpaso a laSexta: La entrevista de Javier Ruiz a Pedro Sánchez supera los 2 millones de espectadores
 [movies] Saltado noticia no apta para películas: David Broncano sobre el veto de Vox al público de ‘La Revuelta’: “Nos ha parecido bien porque no nos gustaría que te excusases en que te había abucheado”
 [movies] Saltado noticia no apta para películas: Juan del Val (56 años), sobre sus estudios: "Mis 11 primos hermanos por parte de madre son todos ingenieros. Yo nunca pisé la universidad"
-[movies] Saltado noticia no apta para películas: La pareja de 'Operación Triunfo' que casi nadie conoció, pero tuvo dos hijos
-[movies] Candidatos encontrados: 34 | Límite: 1
-[YouTube] No se encontró tráiler confiable para "Una de las mayores sorpresas del año": mañana llega a los cines este thriller de atracos que entusiasma en sus primeras reacciones
-[movies] Saltado porque no tiene tráiler confiable: "Una de las mayores sorpresas del año": mañana llega a los cines este thriller de atracos que entusiasma en sus primeras reacciones
-[YouTube] No se encontró tráiler confiable para "Una obra excelente con una banda sonora maravillosa": Es, oficialmente, el mejor largometraje de animación del año y ya llega a los cines españoles
-[movies] Saltado porque no tiene tráiler confiable: "Una obra excelente con una banda sonora maravillosa": Es, oficialmente, el mejor largometraje de animación del año y ya llega a los cines españoles
-[YouTube] No se encontró tráiler confiable para Esta actriz hizo su nueva película sin avisar a su representante y pensó que podía acabar con su carrera: ahora podría hacer historia en los Oscar
-[movies] Saltado porque no tiene tráiler confiable: Esta actriz hizo su nueva película sin avisar a su representante y pensó que podía acabar con su carrera: ahora podría hacer historia en los Oscar
-[YouTube] No se encontró tráiler confiable para Hayden Christensen subió al piso de arriba de su casa y se encontró con un ladrón: este le reconoció y la situación se volvió rocambolesca
-[movies] Saltado porque no tiene tráiler confiable: Hayden Christensen subió al piso de arriba de su casa y se encontró con un ladrón: este le reconoció y la situación se volvió rocambolesca
-[YouTube] No se encontró tráiler confiable para Javier Bardem debuta en teatro en una sala de barrio de 120 butacas: "Estoy ilusionado como un niño con zapatos nuevos"
-[movies] Saltado porque no tiene tráiler confiable: Javier Bardem debuta en teatro en una sala de barrio de 120 butacas: "Estoy ilusionado como un niño con zapatos nuevos"
-[movies] Publicados: 0
-Total películas publicadas: 0
+[movies] Candidatos encontrados: 37 | Límite: 1
+[IA] Probando proveedor cohere: El tren fluvial
+[IA] cohere falló (error): Cohere error 404: {"id":"478b1b6a-62db-4c21-ae9d-da6cc673005f","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: El tren fluvial
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/el-tren-fluvial-un-viaje-de-suenos-y-libertad-en-la-pantalla-grande-2026-11-13-e05317.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
