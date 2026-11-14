@@ -1,53 +1,85 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-14T00:53:09.170929+00:00
+Fecha UTC: 2026-11-14T11:25:33.409579+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
+[movies] Saltado porque no es estreno 2026: Los Juegos del Hambre: Amanecer en la cosecha (2025)
+[movies] Saltado porque no es estreno 2026: En busca del saco mágico (2025)
+[movies] Saltado porque no es estreno 2026: Fast Forever (2025)
+[movies] Saltado porque no es estreno 2026: Yo soy Rocky (2025)
+[movies] Saltado porque no es estreno 2026: Dune: Parte tres (2025)
+[movies] Saltado porque no es estreno 2026: En nombre de otro (2025)
+[movies] Saltado porque no es estreno 2026: Hechos probados (2025)
+[movies] Saltado porque no es estreno 2026: Everest: La otra cara (2025)
+[movies] Saltado porque no es estreno 2026: Entrega al límite (2025)
 [movies] Saltado porque no es estreno 2026: Godzilla Minus Zero (None)
-[movies] Saltado porque no es estreno 2026: Por fin llega a los cines ‘Wild Horse Nine’, merecedora de 13 minutos de ovación en Venecia (2027)
-[movies] Saltado porque no es estreno 2026: Hace 40 años Steven Spielberg decidió a conciencia no hacer una secuela de 'E.T.': ahora Netflix ha estrenado algo muy parecido a lo que podría haber sido (2027)
-[movies] Saltado porque no es estreno 2026: Penélope Cruz sobre trabajar con Javier Bardem: "No es algo que queramos hacer todo el tiempo. Sería demasiado arriesgado" (2027)
-[movies] Saltado porque no es estreno 2026: Así es la nueva versión de uno de los ladrones más famosos del cine con un ganador del Oscar como director y protagonista (2027)
-[movies] Saltado porque no es estreno 2026: 'La momia 4' prepara un reencuentro histórico: ya son seis los actores originales que regresan (2027)
-[movies] Saltado porque no es estreno 2026: Volver a ver una película como si fuera la primera vez: esta cadena de cines quiere llevar a cabo un experimento osado (2027)
-[movies] Saltado porque no es estreno 2026: 'La bola negra' encabeza la lista de las más nominadas en los premios Forqué: conoce la lista completa de nominaciones (2027)
-[movies] Saltado noticia no apta para películas: "Rodar con uno de los mejores directores de acción de todos los tiempos fue fantástico": acaba de llegar a cines una película de atracos en total sintonía con la actualidad
-[movies] Saltado noticia no apta para películas: "El único lugar en la Tierra donde me siento bien": Hugh Grant encontró su remanso de paz en un pueblo del sur de Francia
-[movies] Saltado porque no es estreno 2026: Una de las grandes películas de ciencia ficción de 2026 acaba de firmar un resultado histórico de taquilla y marca un nuevo récord para su saga (2027)
+[movies] Saltado porque no es estreno 2026: El gato con sombrero (2025)
+[movies] Saltado porque no es estreno 2026: Ramayana: El nacimiento de una leyenda (2025)
+[movies] Saltado porque no es estreno 2026: Puedes verlo todo (2025)
+[movies] Saltado porque no es estreno 2026: Wildwood (2025)
+[movies] Saltado porque no es estreno 2026: Por fin llega a los cines ‘Wild Horse Nine’, merecedora de 13 minutos de ovación en Venecia (2025)
+[movies] Saltado porque no es estreno 2026: Esta película de fantasía medieval tiene un 94%: se hizo solo con 30.000 dólares y puso de acuerdo a toda la crítica (2025)
+[movies] Saltado porque no es estreno 2026: "La mejor película bélica que he visto": Orson Welles se rindió ante este monumento del género que lo sigue siendo 48 años después (2025)
+[movies] Saltado porque no es estreno 2026: Hace 42 años Stephen King agradeció que cambiaran el final de una de sus obras: "Nunca había recibido tantos mensajes de odio" (2025)
+[movies] Saltado porque no es estreno 2026: Clint Eastwood lleva años negándose a hablar de este tema cuando trabaja en una nueva película: "No quiero saberlo" (2025)
+[movies] Saltado porque no es estreno 2026: "Una película magnífica": este 'thriller' de Netflix son dos horas de pura tensión y fue uno de sus estrenos top del 2025 (2025)
+[movies] Saltado porque no es estreno 2026: Hace 40 años Steven Spielberg decidió a conciencia no hacer una secuela de 'E.T.': ahora Netflix ha estrenado algo muy parecido a lo que podría haber sido (2025)
+[movies] Saltado porque no es estreno 2026: Penélope Cruz sobre trabajar con Javier Bardem: "No es algo que queramos hacer todo el tiempo. Sería demasiado arriesgado" (2025)
+[movies] Saltado porque no es estreno 2026: “Nunca me di cuenta”: Los fans de 'Star Wars' aún se quedan perplejos al ver correctamente a C-3PO después de décadas (2025)
+[movies] Saltado porque no es estreno 2026: Jamie Dornan lloró al convertirse en el nuevo Aragorn en 'El Señor de los Anillos': "Espero que hayamos hecho un buen trabajo" (2025)
+[movies] Saltado porque no es estreno 2026: Christopher Lee estaba harto de hacer este personaje, pero lo aceptaba una y otra vez para que la gente no se quedara sin trabajo (2025)
+[movies] Saltado porque no es estreno 2026: Así es la nueva versión de uno de los ladrones más famosos del cine con un ganador del Oscar como director y protagonista (2025)
+[movies] Saltado noticia no apta para películas: 'La momia 4' prepara un reencuentro histórico: ya son seis los actores originales que regresan
+[movies] Saltado noticia no apta para películas: Volver a ver una película como si fuera la primera vez: esta cadena de cines quiere llevar a cabo un experimento osado
+[movies] Saltado porque no es estreno 2026: 'La bola negra' encabeza la lista de las más nominadas en los premios Forqué: conoce la lista completa de nominaciones (2025)
+[movies] Saltado porque no es estreno 2026: "Rodar con uno de los mejores directores de acción de todos los tiempos fue fantástico": acaba de llegar a cines una película de atracos en total sintonía con la actualidad (2025)
 [movies] Saltado noticia no apta para películas: 26 años después de 'Gladiator', Russell Crowe, a sus 62 años, se somete a una transformación física para regresar a la lucha contra Roma en una nueva película histórica
 [movies] Saltado noticia no apta para películas: Kirk Douglas, en 1973, sobre John Wayne: "No hemos estado de acuerdo en muchas cosas, pero me parece uno de los actores más profesionales con los que he trabajado"
 [movies] Saltado noticia no apta para películas: Penélope Cruz, sobre su amistad con Salma Hayek: "Me recogió en el aeropuerto y me dijo: 'No vas a irte a un hotel. Te vienes a mi casa, porque esto es duro al inicio. Te vas a sentir muy sola"
 [movies] Saltado noticia no apta para películas: 'GH VIP 9': esta es la lista oficial de todos los concursantes confirmados por Telecinco
 [movies] Saltado noticia no apta para películas: Durante décadas, perpetraron humillaciones, abusos y torturas a mujeres y niñas inocentes: hoy en tv un documental que hace justicia
-[movies] Saltado noticia no apta para películas: Este es el único programa de La Séptima que no será en directo ni tendrá pausa publicitaria
 [movies] Saltado porque no es estreno 2026: Quién es Sara Bluma, la DJ de origen argelino que ha conquistado el corazón de Can Yaman: comenzó su carrera en Ibiza (2025)
+[movies] Saltado noticia no apta para películas: Candela Peña: "No soy colaboradora de televisión. Yo voy porque estoy enamorada de David, de Grison, de Jorge Ponce y de Ricardo"
+[movies] Saltado noticia no apta para películas: 8 años después de su inesperada salida, este mítico colaborador regresa a ‘El chiringuito’
 [movies] Saltado noticia no apta para películas: Marta Prats, hija de Matías Prats: “Le dije a mi padre que no iba a seguir sus pasos, lo tenía claro desde el primer momento”
-[movies] Saltado noticia no apta para películas: Pedro Sánchez, sobre la polémica entrevista de Santiago Abascal en 'La Revuelta': "Parece que el problema lo ha tenido David Broncano"
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' proclamó a su ganador en una emocionante final: Este es el dinero que se lleva de premio
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11': Así terminaron las hogueras finales todas las parejas del ‘reality’
-[movies] Saltado noticia no apta para películas: Ni una semana de su estreno y La Séptima logra el sorpaso a laSexta: La entrevista de Javier Ruiz a Pedro Sánchez supera los 2 millones de espectadores
-[movies] Candidatos encontrados: 36 | Límite: 1
-[IA] Probando proveedor cohere: Documental : Muguruza FM 40 Tour
-[IA] cohere falló (error): Cohere error 404: {"id":"a7c37a57-4740-40ae-9efe-5bf2eb9682a6","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Documental : Muguruza FM 40 Tour
-[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 3065 (char 3330)
-[IA] Probando proveedor groq: Documental : Muguruza FM 40 Tour
+[movies] Candidatos encontrados: 21 | Límite: 1
+[IA] Probando proveedor mistral: Gummy
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: Gummy
+[IA] cohere falló (error): Cohere error 404: {"id":"ee42d6e5-6c9d-4011-9881-23916c8dbb3a","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Gummy
+[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 3380 (char 3657)
+[IA] Probando proveedor groq: Gummy
 [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: Documental : Muguruza FM 40 Tour
+[IA] Probando proveedor openai: Gummy
 [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Documental : Muguruza FM 40 Tour
+[movies] Error generando artículo Gummy: Todos los proveedores de IA fallaron. [IA] gemini falló (error): Expecting ',' delimiter: line 4 column 3380 (char 3657) | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor cohere: Jaleos
+[IA] cohere falló (error): Cohere error 404: {"id":"7a961e5c-6632-4204-a2a8-d196bd171f76","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Jaleos
+[IA] gemini falló (error): Extra data: line 9 column 1 (char 7075)
+[IA] Probando proveedor groq: Jaleos
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: Jaleos
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: Jaleos
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[movies] Error generando artículo Documental : Muguruza FM 40 Tour: Todos los proveedores de IA fallaron. [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}} | [IA] mistral falló (cuota): API error occurred: Status 429
+[movies] Error generando artículo Jaleos: Todos los proveedores de IA fallaron. [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}} | [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor openai: Fast Forever
+[IA] Probando proveedor groq: La Carn
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: La Carn
 [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Fast Forever
+[IA] Probando proveedor mistral: La Carn
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Fast Forever
-[IA] cohere falló (error): Cohere error 404: {"id":"9091154f-a40c-4e73-a56d-da40a8a49335","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Fast Forever
+[IA] Probando proveedor cohere: La Carn
+[IA] cohere falló (error): Cohere error 404: {"id":"0c81cb64-f92a-470d-b4a4-1764ab49ac93","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: La Carn
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/fast-forever-el-epico-final-de-una-era-de-velocidad-en-el-cine-2026-11-14-7433f2.md
+[OK] Publicado: src/content/blog/la-carn-cuando-el-arte-desafia-la-conexion-digital-en-el-cine-2026-11-14-552a44.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
