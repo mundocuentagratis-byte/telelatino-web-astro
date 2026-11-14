@@ -1,35 +1,14 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-14T17:58:06.014334+00:00
+Fecha UTC: 2026-11-14T23:53:15.891558+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
-[movies] Saltado porque no es estreno 2026: Los Juegos del Hambre: Amanecer en la cosecha (2025)
-[movies] Saltado porque no es estreno 2026: En busca del saco mágico (2025)
-[movies] Saltado porque no es estreno 2026: Fast Forever (2025)
-[movies] Saltado porque no es estreno 2026: Yo soy Rocky (2025)
-[movies] Saltado porque no es estreno 2026: Dune: Parte tres (2025)
-[movies] Saltado porque no es estreno 2026: En nombre de otro (2025)
-[movies] Saltado porque no es estreno 2026: Hechos probados (2025)
-[movies] Saltado porque no es estreno 2026: Everest: La otra cara (2025)
-[movies] Saltado porque no es estreno 2026: Entrega al límite (2025)
 [movies] Saltado porque no es estreno 2026: Godzilla Minus Zero (None)
-[movies] Saltado porque no es estreno 2026: El gato con sombrero (2025)
-[movies] Saltado porque no es estreno 2026: Ramayana: El nacimiento de una leyenda (2025)
-[movies] Saltado porque no es estreno 2026: Puedes verlo todo (2025)
-[movies] Saltado porque no es estreno 2026: Wildwood (2025)
-[movies] Saltado porque no es estreno 2026: Por fin llega a los cines ‘Wild Horse Nine’, merecedora de 13 minutos de ovación en Venecia (2025)
-[movies] Saltado porque no es estreno 2026: Hace 27 años, esta película con Tom Hanks fue un éxito enorme de 250 millones: Ahora tendrá una nueva versión y todo se mantiene en secreto (2025)
-[movies] Saltado porque no es estreno 2026: "Era lo más repugnante, asqueroso y misógino que podíamos imaginar": Robert De Niro, Jack Nicholson y Nicolas Cage la rechazaron, pero ahora es una película de culto (2025)
-[movies] Saltado porque no es estreno 2026: Esta película de fantasía medieval tiene un 94%: se hizo solo con 30.000 dólares y puso de acuerdo a toda la crítica (2025)
+[movies] Saltado porque no es estreno 2026: Número 1 en 102 países: la película de Matthew McConaughey que fue un éxito absoluto el año pasado (2025)
 [movies] Saltado porque no es estreno 2026: Hace 42 años Stephen King agradeció que cambiaran el final de una de sus obras: "Nunca había recibido tantos mensajes de odio" (2025)
 [movies] Saltado porque no es estreno 2026: "Una película magnífica": este 'thriller' de Netflix son dos horas de pura tensión y fue uno de sus estrenos top del 2025 (2025)
-[movies] Saltado porque no es estreno 2026: Hace 40 años Steven Spielberg decidió a conciencia no hacer una secuela de 'E.T.': ahora Netflix ha estrenado algo muy parecido a lo que podría haber sido (2025)
-[movies] Saltado porque no es estreno 2026: Penélope Cruz sobre trabajar con Javier Bardem: "No es algo que queramos hacer todo el tiempo. Sería demasiado arriesgado" (2025)
-[movies] Saltado porque no es estreno 2026: “Nunca me di cuenta”: Los fans de 'Star Wars' aún se quedan perplejos al ver correctamente a C-3PO después de décadas (2025)
-[movies] Saltado porque no es estreno 2026: Jamie Dornan lloró al convertirse en el nuevo Aragorn en 'El Señor de los Anillos': "Espero que hayamos hecho un buen trabajo" (2025)
-[movies] Saltado porque no es estreno 2026: Christopher Lee estaba harto de hacer este personaje, pero lo aceptaba una y otra vez para que la gente no se quedara sin trabajo (2025)
+[movies] Saltado noticia no apta para películas: Hace 40 años Steven Spielberg decidió a conciencia no hacer una secuela de 'E.T.': ahora Netflix ha estrenado algo muy parecido a lo que podría haber sido
+[movies] Saltado porque no es estreno 2026: Penélope Cruz sobre trabajar con Javier Bardem: "No es algo que queramos hacer todo el tiempo. Sería demasiado arriesgado" (2027)
+[movies] Saltado noticia no apta para películas: “Nunca me di cuenta”: Los fans de 'Star Wars' aún se quedan perplejos al ver correctamente a C-3PO después de décadas
 [movies] Saltado porque no es estreno 2026: Así es la nueva versión de uno de los ladrones más famosos del cine con un ganador del Oscar como director y protagonista (2023)
-[movies] Saltado noticia no apta para películas: 'La momia 4' prepara un reencuentro histórico: ya son seis los actores originales que regresan
-[movies] Saltado porque no es estreno 2026: Volver a ver una película como si fuera la primera vez: esta cadena de cines quiere llevar a cabo un experimento osado (2025)
-[movies] Saltado porque no es estreno 2026: 'La bola negra' encabeza la lista de las más nominadas en los premios Forqué: conoce la lista completa de nominaciones (2025)
 [movies] Saltado noticia no apta para películas: 26 años después de 'Gladiator', Russell Crowe, a sus 62 años, se somete a una transformación física para regresar a la lucha contra Roma en una nueva película histórica
 [movies] Saltado noticia no apta para películas: Kirk Douglas, en 1973, sobre John Wayne: "No hemos estado de acuerdo en muchas cosas, pero me parece uno de los actores más profesionales con los que he trabajado"
 [movies] Saltado noticia no apta para películas: Penélope Cruz, sobre su amistad con Salma Hayek: "Me recogió en el aeropuerto y me dijo: 'No vas a irte a un hotel. Te vienes a mi casa, porque esto es duro al inicio. Te vas a sentir muy sola"
@@ -38,15 +17,19 @@ Fecha UTC: 2026-11-14T17:58:06.014334+00:00
 [movies] Saltado porque no es estreno 2026: Quién es Sara Bluma, la DJ de origen argelino que ha conquistado el corazón de Can Yaman: comenzó su carrera en Ibiza (2025)
 [movies] Saltado noticia no apta para películas: Candela Peña: "No soy colaboradora de televisión. Yo voy porque estoy enamorada de David, de Grison, de Jorge Ponce y de Ricardo"
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' proclamó a su ganador en una emocionante final: Este es el dinero que se lleva de premio
-[movies] Candidatos encontrados: 27 | Límite: 1
-[IA] Probando proveedor mistral: Gummy
+[movies] Candidatos encontrados: 50 | Límite: 1
+[IA] Probando proveedor groq: Hechos probados
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: Hechos probados
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: Hechos probados
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Gummy
-[IA] cohere falló (error): Cohere error 404: {"id":"bf8cda79-55a8-4d3e-9602-3993d8f69958","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Gummy
+[IA] Probando proveedor cohere: Hechos probados
+[IA] cohere falló (error): Cohere error 404: {"id":"1aa88201-7c96-460f-aaf9-f488ae151e55","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Hechos probados
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/gummy-el-thriller-de-terror-que-invertira-tus-miedos-2026-11-14-bd3cbb.md
+[OK] Publicado: src/content/blog/hechos-probados-cuando-el-drama-judicial-encuentra-a-la-familia-2026-11-14-9e01c4.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
