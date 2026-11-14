@@ -1,11 +1,17 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-13T19:36:51.900468+00:00
+Fecha UTC: 2026-11-14T00:53:09.170929+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Godzilla Minus Zero (None)
-[movies] Saltado porque no es estreno 2026: Jamie Dornan lloró al convertirse en el nuevo Aragorn en 'El Señor de los Anillos': "Espero que hayamos hecho un buen trabajo" (2027)
-[movies] Saltado porque no es estreno 2026: Así es la nueva versión de uno de los ladrones más famosos del cine con un ganador del Oscar como director y protagonista (2023)
-[movies] Saltado noticia no apta para películas: 'La momia 4' prepara un reencuentro histórico: ya son seis los actores originales que regresan
-[movies] Saltado noticia no apta para películas: Una de las grandes películas de ciencia ficción de 2026 acaba de firmar un resultado histórico de taquilla y marca un nuevo récord para su saga
+[movies] Saltado porque no es estreno 2026: Por fin llega a los cines ‘Wild Horse Nine’, merecedora de 13 minutos de ovación en Venecia (2027)
+[movies] Saltado porque no es estreno 2026: Hace 40 años Steven Spielberg decidió a conciencia no hacer una secuela de 'E.T.': ahora Netflix ha estrenado algo muy parecido a lo que podría haber sido (2027)
+[movies] Saltado porque no es estreno 2026: Penélope Cruz sobre trabajar con Javier Bardem: "No es algo que queramos hacer todo el tiempo. Sería demasiado arriesgado" (2027)
+[movies] Saltado porque no es estreno 2026: Así es la nueva versión de uno de los ladrones más famosos del cine con un ganador del Oscar como director y protagonista (2027)
+[movies] Saltado porque no es estreno 2026: 'La momia 4' prepara un reencuentro histórico: ya son seis los actores originales que regresan (2027)
+[movies] Saltado porque no es estreno 2026: Volver a ver una película como si fuera la primera vez: esta cadena de cines quiere llevar a cabo un experimento osado (2027)
+[movies] Saltado porque no es estreno 2026: 'La bola negra' encabeza la lista de las más nominadas en los premios Forqué: conoce la lista completa de nominaciones (2027)
+[movies] Saltado noticia no apta para películas: "Rodar con uno de los mejores directores de acción de todos los tiempos fue fantástico": acaba de llegar a cines una película de atracos en total sintonía con la actualidad
+[movies] Saltado noticia no apta para películas: "El único lugar en la Tierra donde me siento bien": Hugh Grant encontró su remanso de paz en un pueblo del sur de Francia
+[movies] Saltado porque no es estreno 2026: Una de las grandes películas de ciencia ficción de 2026 acaba de firmar un resultado histórico de taquilla y marca un nuevo récord para su saga (2027)
 [movies] Saltado noticia no apta para películas: 26 años después de 'Gladiator', Russell Crowe, a sus 62 años, se somete a una transformación física para regresar a la lucha contra Roma en una nueva película histórica
 [movies] Saltado noticia no apta para películas: Kirk Douglas, en 1973, sobre John Wayne: "No hemos estado de acuerdo en muchas cosas, pero me parece uno de los actores más profesionales con los que he trabajado"
 [movies] Saltado noticia no apta para películas: Penélope Cruz, sobre su amistad con Salma Hayek: "Me recogió en el aeropuerto y me dijo: 'No vas a irte a un hotel. Te vienes a mi casa, porque esto es duro al inicio. Te vas a sentir muy sola"
@@ -18,17 +24,30 @@ Fecha UTC: 2026-11-13T19:36:51.900468+00:00
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' proclamó a su ganador en una emocionante final: Este es el dinero que se lleva de premio
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11': Así terminaron las hogueras finales todas las parejas del ‘reality’
 [movies] Saltado noticia no apta para películas: Ni una semana de su estreno y La Séptima logra el sorpaso a laSexta: La entrevista de Javier Ruiz a Pedro Sánchez supera los 2 millones de espectadores
-[movies] Candidatos encontrados: 41 | Límite: 1
-[IA] Probando proveedor openai: BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING
+[movies] Candidatos encontrados: 36 | Límite: 1
+[IA] Probando proveedor cohere: Documental : Muguruza FM 40 Tour
+[IA] cohere falló (error): Cohere error 404: {"id":"a7c37a57-4740-40ae-9efe-5bf2eb9682a6","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Documental : Muguruza FM 40 Tour
+[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 3065 (char 3330)
+[IA] Probando proveedor groq: Documental : Muguruza FM 40 Tour
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: Documental : Muguruza FM 40 Tour
 [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING
+[IA] Probando proveedor mistral: Documental : Muguruza FM 40 Tour
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING
-[IA] cohere falló (error): Cohere error 404: {"id":"59a5e0ea-626a-48dc-b699-70a3603a507c","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING
+[movies] Error generando artículo Documental : Muguruza FM 40 Tour: Todos los proveedores de IA fallaron. [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}} | [IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor openai: Fast Forever
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: Fast Forever
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: Fast Forever
+[IA] cohere falló (error): Cohere error 404: {"id":"9091154f-a40c-4e73-a56d-da40a8a49335","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Fast Forever
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/bts-en-la-gran-pantalla-tour-arirang-llega-a-cines-2026-11-13-8e74e6.md
+[OK] Publicado: src/content/blog/fast-forever-el-epico-final-de-una-era-de-velocidad-en-el-cine-2026-11-14-7433f2.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
