@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-14T23:53:15.891558+00:00
+Fecha UTC: 2026-11-15T06:18:47.531857+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Godzilla Minus Zero (None)
 [movies] Saltado porque no es estreno 2026: Número 1 en 102 países: la película de Matthew McConaughey que fue un éxito absoluto el año pasado (2025)
@@ -9,27 +9,20 @@ Fecha UTC: 2026-11-14T23:53:15.891558+00:00
 [movies] Saltado porque no es estreno 2026: Penélope Cruz sobre trabajar con Javier Bardem: "No es algo que queramos hacer todo el tiempo. Sería demasiado arriesgado" (2027)
 [movies] Saltado noticia no apta para películas: “Nunca me di cuenta”: Los fans de 'Star Wars' aún se quedan perplejos al ver correctamente a C-3PO después de décadas
 [movies] Saltado porque no es estreno 2026: Así es la nueva versión de uno de los ladrones más famosos del cine con un ganador del Oscar como director y protagonista (2023)
-[movies] Saltado noticia no apta para películas: 26 años después de 'Gladiator', Russell Crowe, a sus 62 años, se somete a una transformación física para regresar a la lucha contra Roma en una nueva película histórica
 [movies] Saltado noticia no apta para películas: Kirk Douglas, en 1973, sobre John Wayne: "No hemos estado de acuerdo en muchas cosas, pero me parece uno de los actores más profesionales con los que he trabajado"
 [movies] Saltado noticia no apta para películas: Penélope Cruz, sobre su amistad con Salma Hayek: "Me recogió en el aeropuerto y me dijo: 'No vas a irte a un hotel. Te vienes a mi casa, porque esto es duro al inicio. Te vas a sentir muy sola"
+[movies] Saltado noticia no apta para películas: Christopher Lloyd: "La fortuna de mis padres era heredada. De niño, me dejaba maravillado la opulencia de nuestra mansión, propia de la Edad Dorada"
 [movies] Saltado noticia no apta para películas: 'GH VIP 9': esta es la lista oficial de todos los concursantes confirmados por Telecinco
-[movies] Saltado noticia no apta para películas: Durante décadas, perpetraron humillaciones, abusos y torturas a mujeres y niñas inocentes: hoy en tv un documental que hace justicia
 [movies] Saltado porque no es estreno 2026: Quién es Sara Bluma, la DJ de origen argelino que ha conquistado el corazón de Can Yaman: comenzó su carrera en Ibiza (2025)
 [movies] Saltado noticia no apta para películas: Candela Peña: "No soy colaboradora de televisión. Yo voy porque estoy enamorada de David, de Grison, de Jorge Ponce y de Ricardo"
+[movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11': Así terminaron las hogueras finales todas las parejas del ‘reality’
 [movies] Saltado noticia no apta para películas: 'Supervivientes All Stars 3' proclamó a su ganador en una emocionante final: Este es el dinero que se lleva de premio
 [movies] Candidatos encontrados: 50 | Límite: 1
-[IA] Probando proveedor groq: Hechos probados
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: Hechos probados
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Hechos probados
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Hechos probados
-[IA] cohere falló (error): Cohere error 404: {"id":"1aa88201-7c96-460f-aaf9-f488ae151e55","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Hechos probados
+[IA] Probando proveedor cohere: Jaleos
+[IA] cohere falló (error): Cohere error 404: {"id":"e1bb6ff1-2d6f-4fc0-8dbb-005013747352","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Jaleos
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/hechos-probados-cuando-el-drama-judicial-encuentra-a-la-familia-2026-11-14-9e01c4.md
+[OK] Publicado: src/content/blog/jaleos-isaki-lacuesta-desvela-el-flamenco-y-su-historia-oculta-2026-11-15-7f8e92.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
