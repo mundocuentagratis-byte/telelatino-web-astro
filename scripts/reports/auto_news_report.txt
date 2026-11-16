@@ -1,15 +1,10 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-15T21:01:09.269813+00:00
+Fecha UTC: 2026-11-16T06:18:05.633157+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Godzilla Minus Zero (None)
 [movies] Saltado noticia no apta para películas: Por fin llega a los cines ‘Wild Horse Nine’, merecedora de 13 minutos de ovación en Venecia
-[movies] Saltado noticia no apta para películas: Jane Erin, la única hija de Jim Carrey: fue a un colegio público, concursó en 'American Idol' y ahora es madre de tres hijos
-[movies] Saltado noticia no apta para películas: Hace 34 años Demi Moore incomodó a Tom Cruise en el rodaje de su única película juntos: "Creo que se sintió bastante avergonzado"
-[movies] Saltado noticia no apta para películas: Hace 59 años fue el botones de una película y no apareció ni en los títulos de crédito: ahora es una de las grandes estrellas de cine
-[movies] Saltado noticia no apta para películas: Alejo Sauras, sobre Ana de Armas: "cada vez que la veo pienso: 'Lo conseguiste"
-[movies] Saltado noticia no apta para películas: "Les deseo que los agarre la peste": Esta película de fantasía marcó la infancia de toda una generación, pero su propio autor la detestaba
+[movies] Saltado noticia no apta para películas: Hoy en tv: el final de la saga de fantasía más épica de todos los tiempos
 [movies] Saltado porque no es estreno 2026: Número 1 en 102 países: la película de Matthew McConaughey que fue un éxito absoluto el año pasado (2025)
-[movies] Saltado noticia no apta para películas: Recaudó 360 millones y es la gran olvidada de Pixar: la joya de los 90 que consolidó el éxito del estudio pero jamás tuvo secuela
 [movies] Saltado noticia no apta para películas: Kirk Douglas, en 1973, sobre John Wayne: "No hemos estado de acuerdo en muchas cosas, pero me parece uno de los actores más profesionales con los que he trabajado"
 [movies] Saltado noticia no apta para películas: Penélope Cruz, sobre su amistad con Salma Hayek: "Me recogió en el aeropuerto y me dijo: 'No vas a irte a un hotel. Te vienes a mi casa, porque esto es duro al inicio. Te vas a sentir muy sola"
 [movies] Saltado noticia no apta para películas: Christopher Lloyd: "La fortuna de mis padres era heredada. De niño, me dejaba maravillado la opulencia de nuestra mansión, propia de la Edad Dorada"
@@ -23,12 +18,12 @@ Fecha UTC: 2026-11-15T21:01:09.269813+00:00
 [movies] Saltado noticia no apta para películas: Lorenzo Milá (66 años), sobre su rechazo a presentar 'Gran Hermano': "Era seguidor, pero el 'show business' va poco conmigo"
 [movies] Saltado noticia no apta para películas: 8 años después de su inesperada salida, este mítico colaborador regresa a ‘El chiringuito’
 [movies] Saltado noticia no apta para películas: Marta Prats, hija de Matías Prats: “Le dije a mi padre que no iba a seguir sus pasos, lo tenía claro desde el primer momento”
-[movies] Candidatos encontrados: 40 | Límite: 1
-[IA] Probando proveedor cohere: La violinista
-[IA] cohere falló (error): Cohere error 404: {"id":"13276016-0d83-41ca-b4df-30fa11b2fb0c","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: La violinista
+[movies] Candidatos encontrados: 45 | Límite: 1
+[IA] Probando proveedor cohere: Muguruza FM 40 Tour
+[IA] cohere falló (error): Cohere error 404: {"id":"86d41193-4c78-42c9-99bf-107897b45dca","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Muguruza FM 40 Tour
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/la-violinista-un-emotivo-drama-animado-que-llega-en-2026-2026-11-15-27f3e5.md
+[OK] Publicado: src/content/blog/muguruza-fm-40-tour-la-gira-final-de-una-leyenda-en-la-gran-pantalla-2026-11-16-f47a9d.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
