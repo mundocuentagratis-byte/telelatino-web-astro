@@ -1,10 +1,10 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-17T02:55:55.114472+00:00
+Fecha UTC: 2026-11-17T13:14:02.084716+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Godzilla Minus Zero (None)
-[movies] Saltado noticia no apta para películas: Acaba de llegar a cines, pero en 10 días estará disponible en Netflix: la adaptación de la novela de Fernando Aramburu sobre una tragedia real que protagonizan Belén Cuesta y Karra Elejalde
-[movies] Saltado porque no es estreno 2026: Así cambiaron sus cuerpos para interpretar a estos personajes (2014)
-[movies] Saltado porque no es estreno 2026: Robin Wright, sobre su reencuentro con Tom Hanks 30 años después de 'Forrest Gump': "Era exactamente igual, como si no hubiera pasado el tiempo" (2024)
+[movies] Saltado noticia no apta para películas: Ya está en cines una de las candidatas favoritas a los Oscar: un ejercicio de cine deslumbrante que merece la pena ver en grande
+[movies] Saltado noticia no apta para películas: Robert Pattinson es el nuevo James Bond: Y ya hay un vídeo de su versión del agente 007
+[movies] Saltado noticia no apta para películas: Acaba de llegar a cines la adaptación de la novela de Fernando Aramburu sobre una tragedia real que protagonizan Belén Cuesta y Karra Elejalde
 [movies] Saltado noticia no apta para películas: Kirk Douglas, en 1973, sobre John Wayne: "No hemos estado de acuerdo en muchas cosas, pero me parece uno de los actores más profesionales con los que he trabajado"
 [movies] Saltado noticia no apta para películas: Penélope Cruz, sobre su amistad con Salma Hayek: "Me recogió en el aeropuerto y me dijo: 'No vas a irte a un hotel. Te vienes a mi casa, porque esto es duro al inicio. Te vas a sentir muy sola"
 [movies] Saltado noticia no apta para películas: Christopher Lloyd: "La fortuna de mis padres era heredada. De niño, me dejaba maravillado la opulencia de nuestra mansión, propia de la Edad Dorada"
@@ -12,15 +12,17 @@ Fecha UTC: 2026-11-17T02:55:55.114472+00:00
 [movies] Saltado porque no es estreno 2026: Quién es Sara Bluma, la DJ de origen argelino que ha conquistado el corazón de Can Yaman: comenzó su carrera en Ibiza (2025)
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11': Así terminaron las hogueras finales todas las parejas del ‘reality’
 [movies] Saltado noticia no apta para películas: La Fiscalía pide a Gustavo González, ex de 'Sálvame', 447 años de cárcel por descubrimiento y revelación de secretos de famosos
+[movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11': Así estaban las parejas seis meses después de pasar por el 'reality' de Telecinco
 [movies] Saltado noticia no apta para películas: Un año después de su baja médica, Andreu Buenafuente regresa a RTVE con un "homenaje activo y emocionante al arte de hacer reír"
 [movies] Saltado noticia no apta para películas: El patrimonio de Pedro Piqueras (71 años): varias casas en España, otra en Budapest y su residencia en Madrid con "cinco gallinas y una huerta"
 [movies] Saltado noticia no apta para películas: El concursante de 'Supervivientes' al que no le dejaron "hacer nada": "Estuve en un barco, no llegué a pisar la isla aquella"
 [movies] Saltado noticia no apta para películas: Risto Mejide se pasó de la raya con Esther Aranda y dio lugar a uno de los momentos más bochornosos del concurso
-[movies] Saltado noticia no apta para películas: Siempre se nos olvida que existió, pero este programa fue el primero en generar polémica en la televisión de España
-[movies] Candidatos encontrados: 46 | Límite: 1
-[IA] Probando proveedor gemini: Rammstein - Live in Mexico City
+[movies] Candidatos encontrados: 45 | Límite: 1
+[IA] Probando proveedor cohere: Ratones al ataque: Operación Navidad
+[IA] cohere falló (error): Cohere error 404: {"id":"6d5a9472-01a7-403a-934f-5243dc9f4039","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Ratones al ataque: Operación Navidad
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/rammstein-en-el-cine-la-explosion-del-foro-sol-en-pantalla-grande-2026-11-17-752b40.md
+[OK] Publicado: src/content/blog/ratones-al-ataque-operacion-navidad-el-caos-festivo-animado-2026-11-17-1fa664.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
