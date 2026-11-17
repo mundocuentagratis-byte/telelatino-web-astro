@@ -1,10 +1,9 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-17T13:14:02.084716+00:00
-[movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
-[movies] Saltado porque no es estreno 2026: Godzilla Minus Zero (None)
-[movies] Saltado noticia no apta para películas: Ya está en cines una de las candidatas favoritas a los Oscar: un ejercicio de cine deslumbrante que merece la pena ver en grande
-[movies] Saltado noticia no apta para películas: Robert Pattinson es el nuevo James Bond: Y ya hay un vídeo de su versión del agente 007
-[movies] Saltado noticia no apta para películas: Acaba de llegar a cines la adaptación de la novela de Fernando Aramburu sobre una tragedia real que protagonizan Belén Cuesta y Karra Elejalde
+Fecha UTC: 2026-11-17T23:30:18.298267+00:00
+[movies] Saltado porque no es estreno 2026: Los Juegos del Hambre: Amanecer en la cosecha (None)
+[movies] Saltado porque no es estreno 2026: Luis Tosar hace 4 años sobre los desahucios: "Esa realidad no ha terminado y seguramente se pondrá más peluda en los próximos tiempos" (2022)
+[movies] Saltado noticia no apta para películas: "Habría sido increíble poder hablar con Philip Seymour Hoffman en 'Sinsajo": La película de 'Los juegos del hambre' que visitarían Joseph Zada y Mckenna Grace si pudieran viajar al pasado
+[movies] Saltado noticia no apta para películas: "Sigo enamorado de Daniel Craig": Ralph Fiennes reacciona a la elección de Robert Pattinson como James Bond
 [movies] Saltado noticia no apta para películas: Kirk Douglas, en 1973, sobre John Wayne: "No hemos estado de acuerdo en muchas cosas, pero me parece uno de los actores más profesionales con los que he trabajado"
 [movies] Saltado noticia no apta para películas: Penélope Cruz, sobre su amistad con Salma Hayek: "Me recogió en el aeropuerto y me dijo: 'No vas a irte a un hotel. Te vienes a mi casa, porque esto es duro al inicio. Te vas a sentir muy sola"
 [movies] Saltado noticia no apta para películas: Christopher Lloyd: "La fortuna de mis padres era heredada. De niño, me dejaba maravillado la opulencia de nuestra mansión, propia de la Edad Dorada"
@@ -12,17 +11,22 @@ Fecha UTC: 2026-11-17T13:14:02.084716+00:00
 [movies] Saltado porque no es estreno 2026: Quién es Sara Bluma, la DJ de origen argelino que ha conquistado el corazón de Can Yaman: comenzó su carrera en Ibiza (2025)
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11': Así terminaron las hogueras finales todas las parejas del ‘reality’
 [movies] Saltado noticia no apta para películas: La Fiscalía pide a Gustavo González, ex de 'Sálvame', 447 años de cárcel por descubrimiento y revelación de secretos de famosos
+[movies] Saltado noticia no apta para películas: Paz Herrera (66 años), histórica concursante de televisión: "'Pasapalabra' es el concurso más popular, pero 'Saber y ganar' tiene prestigio. Es incomparable la audiencia que los ve"
+[movies] Saltado noticia no apta para películas: Carmen Machi elige entre '7 vidas' y 'Aída': "Sin despreciar a la otra, pero en una fui tan sumamente feliz. Marcó un antes y un después en mi vida"
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11': Así estaban las parejas seis meses después de pasar por el 'reality' de Telecinco
 [movies] Saltado noticia no apta para películas: Un año después de su baja médica, Andreu Buenafuente regresa a RTVE con un "homenaje activo y emocionante al arte de hacer reír"
 [movies] Saltado noticia no apta para películas: El patrimonio de Pedro Piqueras (71 años): varias casas en España, otra en Budapest y su residencia en Madrid con "cinco gallinas y una huerta"
-[movies] Saltado noticia no apta para películas: El concursante de 'Supervivientes' al que no le dejaron "hacer nada": "Estuve en un barco, no llegué a pisar la isla aquella"
-[movies] Saltado noticia no apta para películas: Risto Mejide se pasó de la raya con Esther Aranda y dio lugar a uno de los momentos más bochornosos del concurso
 [movies] Candidatos encontrados: 45 | Límite: 1
-[IA] Probando proveedor cohere: Ratones al ataque: Operación Navidad
-[IA] cohere falló (error): Cohere error 404: {"id":"6d5a9472-01a7-403a-934f-5243dc9f4039","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Ratones al ataque: Operación Navidad
+[IA] Probando proveedor openai: Victorian Psycho
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: Victorian Psycho
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: Victorian Psycho
+[IA] cohere falló (error): Cohere error 404: {"id":"96ed3e16-c942-4e21-9a6e-e6d8ce193d69","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Victorian Psycho
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/ratones-al-ataque-operacion-navidad-el-caos-festivo-animado-2026-11-17-1fa664.md
+[OK] Publicado: src/content/blog/victorian-psycho-un-thriller-historico-de-terror-en-2026-2026-11-17-efbf94.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
