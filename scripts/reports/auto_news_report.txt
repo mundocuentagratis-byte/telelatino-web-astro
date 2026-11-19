@@ -1,39 +1,31 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-19T01:52:41.804727+00:00
+Fecha UTC: 2026-11-19T12:56:23.710793+00:00
 [movies] Saltado porque no es estreno 2026: Los Juegos del Hambre: Amanecer en la cosecha (None)
-[movies] Saltado noticia no apta para películas: John Wayne hizo todo lo posible para que se rodara esta película bélica repleta de estrellas: "La historia más estadounidense que he oído jamás"
+[movies] Saltado noticia no apta para películas: El artífice de una de las mejores películas españolas de los últimos años, ‘Casa en llamas’, regresa a cines con una historia basada en hechos reales, ‘El director’
+[movies] Saltado noticia no apta para películas: Primero fue Joy Division: ahora el director Grant Gee se atreve con la legendaria figura del jazz Bill Evans
+[movies] Saltado noticia no apta para películas: “No se ha olvidado de nosotros”: hace cinco años, Arnold Schwarzenegger pagó 250.000 dólares dar el mejor regalo de Navidad a 25 veteranos de guerra
+[movies] Saltado noticia no apta para películas: Las películas más taquilleras de la historia del cine
 [movies] Saltado noticia no apta para películas: Kirk Douglas, en 1973, sobre John Wayne: "No hemos estado de acuerdo en muchas cosas, pero me parece uno de los actores más profesionales con los que he trabajado"
 [movies] Saltado noticia no apta para películas: Penélope Cruz, sobre su amistad con Salma Hayek: "Me recogió en el aeropuerto y me dijo: 'No vas a irte a un hotel. Te vienes a mi casa, porque esto es duro al inicio. Te vas a sentir muy sola"
 [movies] Saltado noticia no apta para películas: Christopher Lloyd: "La fortuna de mis padres era heredada. De niño, me dejaba maravillado la opulencia de nuestra mansión, propia de la Edad Dorada"
 [movies] Saltado noticia no apta para películas: 'GH VIP 9': fecha de estreno y lista oficial de todos los concursantes confirmados por Telecinco
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11': Así terminaron las hogueras finales todas las parejas del ‘reality’
 [movies] Saltado porque no es estreno 2026: Quién es Sara Bluma, la DJ de origen argelino que ha conquistado el corazón de Can Yaman: comenzó su carrera en Ibiza (2025)
-[movies] Saltado noticia no apta para películas: La Fiscalía pide a Gustavo González, ex de 'Sálvame', 447 años de cárcel por descubrimiento y revelación de secretos de famosos
-[movies] Saltado noticia no apta para películas: Mamen Márquez, profesora de 'Operación Triunfo' y vocal coach: "Ver la evolución de Aitana es algo que no se puede explicar con palabras, es verla y llorar"
-[movies] Saltado noticia no apta para películas: Canal Sur aparta de manera "preventiva" a Manolo Sarriá, presentador de 'Atrápame si puedes', tras una denuncia por presunto acoso sexual
+[movies] Saltado porque no es estreno 2026: El restaurante de Viladecans que mejoró tras el paso de 'Pesadilla en la cocina', pero el dueño asegura que "no es gracias a Chicote" (2022)
+[movies] Saltado noticia no apta para películas: El estreno de 'GH VIP 9' desveló el papel real de Belén Esteban y señaló a sus primeros nominados sin validez
 [movies] Saltado noticia no apta para películas: Paz Herrera (66 años), histórica concursante de televisión: "'Pasapalabra' es el concurso más popular, pero 'Saber y ganar' tiene prestigio. Es incomparable la audiencia que los ve"
-[movies] Saltado noticia no apta para películas: Carmen Machi elige entre '7 vidas' y 'Aída': "Sin despreciar a la otra, pero en una fui tan sumamente feliz. Marcó un antes y un después en mi vida"
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11': Así estaban las parejas seis meses después de pasar por el 'reality' de Telecinco
-[movies] Saltado noticia no apta para películas: Un año después de su baja médica, Andreu Buenafuente regresa a RTVE con un "homenaje activo y emocionante al arte de hacer reír"
-[movies] Candidatos encontrados: 41 | Límite: 1
-[YouTube] No se encontró tráiler confiable para Eduard Fernández (62 años), protagonista de 'El mal padre': "En el cine hay que mantener los egos a raya. Hay que estar blando, juguetón y trabajador"
-[movies] Saltado porque no tiene tráiler confiable: Eduard Fernández (62 años), protagonista de 'El mal padre': "En el cine hay que mantener los egos a raya. Hay que estar blando, juguetón y trabajador"
-[YouTube] No se encontró tráiler confiable para El artífice de una de las mejores películas españolas de los últimos años, ‘Casa en llamas’, regresa a cines con una historia basada en hechos reales, ‘El director’
-[movies] Saltado porque no tiene tráiler confiable: El artífice de una de las mejores películas españolas de los últimos años, ‘Casa en llamas’, regresa a cines con una historia basada en hechos reales, ‘El director’
-[YouTube] No se encontró tráiler confiable para Escondido en 'Indiana Jones y el Templo Maldito': Dan Aykroyd tiene un cameo obvio y ahora no me creo que no lo haya visto antes
-[movies] Saltado porque no tiene tráiler confiable: Escondido en 'Indiana Jones y el Templo Maldito': Dan Aykroyd tiene un cameo obvio y ahora no me creo que no lo haya visto antes
-[YouTube] No se encontró tráiler confiable para Ian McKellen arruinó sin saberlo el sueño de Christopher Lee y este se lo dijo sin tapujos: “Pensé que era broma, pero quizás no”
-[movies] Saltado porque no tiene tráiler confiable: Ian McKellen arruinó sin saberlo el sueño de Christopher Lee y este se lo dijo sin tapujos: “Pensé que era broma, pero quizás no”
-[YouTube] No se encontró tráiler confiable para Las películas más taquilleras de la historia del cine
-[movies] Saltado porque no tiene tráiler confiable: Las películas más taquilleras de la historia del cine
-[YouTube] No se encontró tráiler confiable para Los Javis hablan de su ruptura: "No me gusta ser un tema de conversación"
-[movies] Saltado porque no tiene tráiler confiable: Los Javis hablan de su ruptura: "No me gusta ser un tema de conversación"
-[YouTube] No se encontró tráiler confiable para Primero fue Joy Division: ahora el director Grant Gee se atreve con la legendaria figura del jazz Bill Evans
-[movies] Saltado porque no tiene tráiler confiable: Primero fue Joy Division: ahora el director Grant Gee se atreve con la legendaria figura del jazz Bill Evans
-[YouTube] No se encontró tráiler confiable para Santiago Segura (61 años): "Mi madre de alguna forma era una mujer moderna. Me hizo ilusión llevarla a un restaurante de alta cocina y disfrutó tanto"
-[movies] Saltado porque no tiene tráiler confiable: Santiago Segura (61 años): "Mi madre de alguna forma era una mujer moderna. Me hizo ilusión llevarla a un restaurante de alta cocina y disfrutó tanto"
-[YouTube] No se encontró tráiler confiable para “No se ha olvidado de nosotros”: hace cinco años, Arnold Schwarzenegger pagó 250.000 dólares dar el mejor regalo de Navidad a 25 veteranos de guerra
-[movies] Saltado porque no tiene tráiler confiable: “No se ha olvidado de nosotros”: hace cinco años, Arnold Schwarzenegger pagó 250.000 dólares dar el mejor regalo de Navidad a 25 veteranos de guerra
-[movies] Publicados: 0
-Total películas publicadas: 0
+[movies] Candidatos encontrados: 40 | Límite: 1
+[IA] Probando proveedor openai: Citas: La película
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: Citas: La película
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: Citas: La película
+[IA] cohere falló (error): Cohere error 404: {"id":"a2909273-f00a-4e67-9a77-9654b5bc8806","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Citas: La película
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/citas-la-pelicula-amor-y-enredos-en-el-corazon-de-barcelona-2026-11-19-eb9a55.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
