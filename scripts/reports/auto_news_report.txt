@@ -1,19 +1,7 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-18T17:14:08.343066+00:00
-[movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
-[movies] Saltado noticia no apta para películas: El artífice de una de las mejores películas españolas de los últimos años, ‘Casa en llamas’, regresa a cines con una historia basada en hechos reales, ‘El director’
-[movies] Saltado noticia no apta para películas: “No se ha olvidado de nosotros”: hace cinco años, Arnold Schwarzenegger pagó 250.000 dólares dar el mejor regalo de Navidad a 25 veteranos de guerra
-[movies] Saltado noticia no apta para películas: Santiago Segura (61 años): "Mi madre de alguna forma era una mujer moderna. Me hizo ilusión llevarla a un restaurante de alta cocina y disfrutó tanto"
-[movies] Saltado noticia no apta para películas: Las películas más taquilleras de la historia del cine
-[movies] Saltado noticia no apta para películas: Ian McKellen arruinó sin saberlo el sueño de Christopher Lee y este se lo dijo sin tapujos: “Pensé que era broma, pero quizás no”
-[movies] Saltado noticia no apta para películas: Escondido en 'Indiana Jones y el Templo Maldito': Dan Aykroyd tiene un cameo obvio y ahora no me creo que no lo haya visto antes
-[movies] Saltado noticia no apta para películas: Los Javis hablan de su ruptura: "No me gusta ser un tema de conversación"
-[movies] Saltado noticia no apta para películas: Alan Rickman odió la música de 'Harry Potter': "Adquiere una magnitud que no se corresponde con la horrible banda sonora de John Williams"
-[movies] Saltado porque no es estreno 2026: Luis Tosar hace 4 años sobre los desahucios: "Esa realidad no ha terminado y seguramente se pondrá más peluda en los próximos tiempos" (2022)
-[movies] Saltado noticia no apta para películas: Una película puede darle la vuelta a la taquilla este 2026: comienza la cuenta atrás para su estreno
-[movies] Saltado noticia no apta para películas: "Habría sido increíble poder hablar con Philip Seymour Hoffman en 'Sinsajo": La película de 'Los juegos del hambre' que visitarían Joseph Zada y Mckenna Grace si pudieran viajar al pasado
-[movies] Saltado noticia no apta para películas: "Sigo enamorado de Daniel Craig": Ralph Fiennes reacciona a la elección de Robert Pattinson como James Bond
-[movies] Saltado noticia no apta para películas: De ‘Los domingos’ a ‘Ruega por nosotras’. El cine español está conquistando al atreverse a hablar, por fin, de religión
+Fecha UTC: 2026-11-19T01:52:41.804727+00:00
+[movies] Saltado porque no es estreno 2026: Los Juegos del Hambre: Amanecer en la cosecha (None)
+[movies] Saltado noticia no apta para películas: John Wayne hizo todo lo posible para que se rodara esta película bélica repleta de estrellas: "La historia más estadounidense que he oído jamás"
 [movies] Saltado noticia no apta para películas: Kirk Douglas, en 1973, sobre John Wayne: "No hemos estado de acuerdo en muchas cosas, pero me parece uno de los actores más profesionales con los que he trabajado"
 [movies] Saltado noticia no apta para películas: Penélope Cruz, sobre su amistad con Salma Hayek: "Me recogió en el aeropuerto y me dijo: 'No vas a irte a un hotel. Te vienes a mi casa, porque esto es duro al inicio. Te vas a sentir muy sola"
 [movies] Saltado noticia no apta para películas: Christopher Lloyd: "La fortuna de mis padres era heredada. De niño, me dejaba maravillado la opulencia de nuestra mansión, propia de la Edad Dorada"
@@ -21,12 +9,31 @@ Fecha UTC: 2026-11-18T17:14:08.343066+00:00
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11': Así terminaron las hogueras finales todas las parejas del ‘reality’
 [movies] Saltado porque no es estreno 2026: Quién es Sara Bluma, la DJ de origen argelino que ha conquistado el corazón de Can Yaman: comenzó su carrera en Ibiza (2025)
 [movies] Saltado noticia no apta para películas: La Fiscalía pide a Gustavo González, ex de 'Sálvame', 447 años de cárcel por descubrimiento y revelación de secretos de famosos
+[movies] Saltado noticia no apta para películas: Mamen Márquez, profesora de 'Operación Triunfo' y vocal coach: "Ver la evolución de Aitana es algo que no se puede explicar con palabras, es verla y llorar"
 [movies] Saltado noticia no apta para películas: Canal Sur aparta de manera "preventiva" a Manolo Sarriá, presentador de 'Atrápame si puedes', tras una denuncia por presunto acoso sexual
 [movies] Saltado noticia no apta para películas: Paz Herrera (66 años), histórica concursante de televisión: "'Pasapalabra' es el concurso más popular, pero 'Saber y ganar' tiene prestigio. Es incomparable la audiencia que los ve"
 [movies] Saltado noticia no apta para películas: Carmen Machi elige entre '7 vidas' y 'Aída': "Sin despreciar a la otra, pero en una fui tan sumamente feliz. Marcó un antes y un después en mi vida"
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11': Así estaban las parejas seis meses después de pasar por el 'reality' de Telecinco
 [movies] Saltado noticia no apta para películas: Un año después de su baja médica, Andreu Buenafuente regresa a RTVE con un "homenaje activo y emocionante al arte de hacer reír"
-[movies] Candidatos encontrados: 32 | Límite: 1
+[movies] Candidatos encontrados: 41 | Límite: 1
+[YouTube] No se encontró tráiler confiable para Eduard Fernández (62 años), protagonista de 'El mal padre': "En el cine hay que mantener los egos a raya. Hay que estar blando, juguetón y trabajador"
+[movies] Saltado porque no tiene tráiler confiable: Eduard Fernández (62 años), protagonista de 'El mal padre': "En el cine hay que mantener los egos a raya. Hay que estar blando, juguetón y trabajador"
+[YouTube] No se encontró tráiler confiable para El artífice de una de las mejores películas españolas de los últimos años, ‘Casa en llamas’, regresa a cines con una historia basada en hechos reales, ‘El director’
+[movies] Saltado porque no tiene tráiler confiable: El artífice de una de las mejores películas españolas de los últimos años, ‘Casa en llamas’, regresa a cines con una historia basada en hechos reales, ‘El director’
+[YouTube] No se encontró tráiler confiable para Escondido en 'Indiana Jones y el Templo Maldito': Dan Aykroyd tiene un cameo obvio y ahora no me creo que no lo haya visto antes
+[movies] Saltado porque no tiene tráiler confiable: Escondido en 'Indiana Jones y el Templo Maldito': Dan Aykroyd tiene un cameo obvio y ahora no me creo que no lo haya visto antes
+[YouTube] No se encontró tráiler confiable para Ian McKellen arruinó sin saberlo el sueño de Christopher Lee y este se lo dijo sin tapujos: “Pensé que era broma, pero quizás no”
+[movies] Saltado porque no tiene tráiler confiable: Ian McKellen arruinó sin saberlo el sueño de Christopher Lee y este se lo dijo sin tapujos: “Pensé que era broma, pero quizás no”
+[YouTube] No se encontró tráiler confiable para Las películas más taquilleras de la historia del cine
+[movies] Saltado porque no tiene tráiler confiable: Las películas más taquilleras de la historia del cine
+[YouTube] No se encontró tráiler confiable para Los Javis hablan de su ruptura: "No me gusta ser un tema de conversación"
+[movies] Saltado porque no tiene tráiler confiable: Los Javis hablan de su ruptura: "No me gusta ser un tema de conversación"
+[YouTube] No se encontró tráiler confiable para Primero fue Joy Division: ahora el director Grant Gee se atreve con la legendaria figura del jazz Bill Evans
+[movies] Saltado porque no tiene tráiler confiable: Primero fue Joy Division: ahora el director Grant Gee se atreve con la legendaria figura del jazz Bill Evans
+[YouTube] No se encontró tráiler confiable para Santiago Segura (61 años): "Mi madre de alguna forma era una mujer moderna. Me hizo ilusión llevarla a un restaurante de alta cocina y disfrutó tanto"
+[movies] Saltado porque no tiene tráiler confiable: Santiago Segura (61 años): "Mi madre de alguna forma era una mujer moderna. Me hizo ilusión llevarla a un restaurante de alta cocina y disfrutó tanto"
+[YouTube] No se encontró tráiler confiable para “No se ha olvidado de nosotros”: hace cinco años, Arnold Schwarzenegger pagó 250.000 dólares dar el mejor regalo de Navidad a 25 veteranos de guerra
+[movies] Saltado porque no tiene tráiler confiable: “No se ha olvidado de nosotros”: hace cinco años, Arnold Schwarzenegger pagó 250.000 dólares dar el mejor regalo de Navidad a 25 veteranos de guerra
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
