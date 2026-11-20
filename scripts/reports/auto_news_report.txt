@@ -1,48 +1,43 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-19T23:02:12.976722+00:00
-[movies] Saltado porque no es estreno 2026: Los Juegos del Hambre: Amanecer en la cosecha (None)
+Fecha UTC: 2026-11-20T07:04:18.101745+00:00
+[movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
+[movies] Saltado porque no es estreno 2026: Yo soy Rocky (2027)
+[movies] Saltado porque no es estreno 2026: El niño (2027)
+[movies] Saltado porque no es estreno 2026: Dune: Parte tres (2027)
+[movies] Saltado porque no es estreno 2026: Ahora los suegros son ellos (2027)
+[movies] Saltado porque no es estreno 2026: Hechizo: Bienvenidos a Hexe (2027)
+[movies] Saltado porque no es estreno 2026: Puedes verlo todo (2027)
+[movies] Saltado porque no es estreno 2026: Club Kid (2027)
+[movies] Saltado porque no es estreno 2026: En nombre de otro (2027)
+[movies] Saltado porque no es estreno 2026: Fast Forever (2027)
+[movies] Saltado porque no es estreno 2026: Scrooge y los fantasmas de la Navidad (None)
+[movies] Saltado porque no es estreno 2026: El gato con sombrero (2027)
+[movies] Saltado porque no es estreno 2026: Godzilla Minus Zero (2027)
+[movies] Saltado porque no es estreno 2026: Ramayana: El nacimiento de una leyenda (2027)
 [movies] Saltado porque no es estreno 2026: El artífice de una de las mejores películas españolas de los últimos años, ‘Casa en llamas’, regresa a cines con una historia basada en hechos reales, ‘El director’ (2027)
+[movies] Saltado porque no es estreno 2026: Guitarricadelafuente: "Mi madre es médica. Se acaba de jubilar. Pero, en el fondo, siempre quiso ser cómica de stand-up" (2022)
 [movies] Saltado porque no es estreno 2026: Crítica de 'Los juegos del hambre: Amanecer en la cosecha': Una precuela entretenida que vive demasiado de la nostalgia (2027)
 [movies] Saltado porque no es estreno 2026: “¿Qué exactamente esta sarta de gilipolleces inventadas?”: La película del 'GTA' con Daniel Radcliffe que fue denunciada por Rockstar (2027)
-[movies] Saltado porque no es estreno 2026: La película de ciencia ficción de 540 millones con Brad Pitt tendrá secuela: 13 años después, su protagonista confirma que están trabajando en el guion (2027)
-[movies] Saltado porque no es estreno 2026: Tras más de 40 adaptaciones, la historia de Pinocho ahora es un ‘slasher’: por fin se estrena en salas de cine en España (2027)
 [movies] Saltado porque no es estreno 2026: "Una película para quienes aman el cine": solo dos meses para el primer gran estreno de 2027 (2027)
 [movies] Saltado porque no es estreno 2026: Ya he visto 'Puedes verlo todo' y sí: es la gran maravilla de 2026 de la que todo el mundo habla (2027)
 [movies] Saltado porque no es estreno 2026: Antes de rodar su obra maestra bélica, Tarantino decidió despedir a dos actrices: “No te debo una mierda” (2027)
-[movies] Saltado porque no es estreno 2026: Es uno de los personajes más 'random' de 'Star Wars', pero cuenta con una legión de fans: las malas prótesis tienen algo que ver (2027)
+[movies] Saltado porque no es estreno 2026: Es uno de los personajes más 'random' de 'Star Wars', pero cuenta con una legión de fans: las malas prótesis tienen algo que ver (2002)
 [movies] Saltado porque no es estreno 2026: Hacer de Pennywise y Nosferatu le dio un superpoder inesperado: usar voces de monstruos cuando sus hijos se portan mal (2027)
-[movies] Saltado porque no es estreno 2026: Paco León: "Hubo un pensamiento que me ayudó mucho para poderme reír de Nicolas Cage y Pedro Pascal: Esta gente no sabe hijo de quién soy" (2027)
 [movies] Saltado noticia no apta para películas: Kirk Douglas, en 1973, sobre John Wayne: "No hemos estado de acuerdo en muchas cosas, pero me parece uno de los actores más profesionales con los que he trabajado"
 [movies] Saltado noticia no apta para películas: Penélope Cruz, sobre su amistad con Salma Hayek: "Me recogió en el aeropuerto y me dijo: 'No vas a irte a un hotel. Te vienes a mi casa, porque esto es duro al inicio. Te vas a sentir muy sola"
 [movies] Saltado noticia no apta para películas: Christopher Lloyd: "La fortuna de mis padres era heredada. De niño, me dejaba maravillado la opulencia de nuestra mansión, propia de la Edad Dorada"
 [movies] Saltado noticia no apta para películas: 'GH VIP 9': fecha de estreno y lista oficial de todos los concursantes confirmados por Telecinco
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11': Así terminaron las hogueras finales todas las parejas del ‘reality’
-[movies] Saltado porque no es estreno 2026: Quién es Sara Bluma, la DJ de origen argelino que ha conquistado el corazón de Can Yaman: comenzó su carrera en Ibiza (2025)
-[movies] Saltado porque no es estreno 2026: El restaurante de Viladecans que mejoró tras el paso de 'Pesadilla en la cocina', pero el dueño asegura que "no es gracias a Chicote" (2022)
+[movies] Saltado noticia no apta para películas: Pedro Sánchez, sobre la polémica entrevista de Santiago Abascal en 'La Revuelta': "Parece que el problema lo ha tenido David Broncano"
+[movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11': Así estaban las parejas seis meses después de pasar por el 'reality' de Telecinco
 [movies] Saltado noticia no apta para películas: Paz Herrera (66 años), histórica concursante de televisión: "'Pasapalabra' es el concurso más popular, pero 'Saber y ganar' tiene prestigio. Es incomparable la audiencia que los ve"
-[movies] Candidatos encontrados: 38 | Límite: 1
-[IA] Probando proveedor openai: 'Dune: Parte tres': fecha de estreno, rodaje, regresos y nuevos personajes, la h
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: 'Dune: Parte tres': fecha de estreno, rodaje, regresos y nuevos personajes, la h
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: 'Dune: Parte tres': fecha de estreno, rodaje, regresos y nuevos personajes, la h
-[IA] cohere falló (error): Cohere error 404: {"id":"2cf2899c-5b4f-4455-8f44-dd2a4132b728","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: 'Dune: Parte tres': fecha de estreno, rodaje, regresos y nuevos personajes, la h
-[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 6106 (char 6417)
-[IA] Probando proveedor groq: 'Dune: Parte tres': fecha de estreno, rodaje, regresos y nuevos personajes, la h
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[movies] Error generando artículo 'Dune: Parte tres': fecha de estreno, rodaje, regresos y nuevos personajes, la historia y todo lo que sabemos de la tercera película de la saga: Todos los proveedores de IA fallaron. [IA] cohere falló (error): Cohere error 404: {"id":"2cf2899c-5b4f-4455-8f44-dd2a4132b728","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."} | [IA] gemini falló (error): Expecting ',' delimiter: line 4 column 6106 (char 6417) | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[YouTube] No se encontró tráiler confiable para Canal Sur aparta de manera "preventiva" a Manolo Sarriá, presentador de 'Atrápame si puedes', tras una denuncia por presunto acoso sexual
-[movies] Saltado porque no tiene tráiler confiable: Canal Sur aparta de manera "preventiva" a Manolo Sarriá, presentador de 'Atrápame si puedes', tras una denuncia por presunto acoso sexual
-[YouTube] No se encontró tráiler confiable para El estreno de 'GH VIP 9' desveló el papel real de Belén Esteban y señaló a sus primeros nominados sin validez
-[movies] Saltado porque no tiene tráiler confiable: El estreno de 'GH VIP 9' desveló el papel real de Belén Esteban y señaló a sus primeros nominados sin validez
-[YouTube] No se encontró tráiler confiable para Jordi Évole, sobre las entrevistas de Jordi Wild a los candidatos electorales: "Es muy meritorio lo que ha hecho y cómo lo ha hecho"
-[movies] Saltado porque no tiene tráiler confiable: Jordi Évole, sobre las entrevistas de Jordi Wild a los candidatos electorales: "Es muy meritorio lo que ha hecho y cómo lo ha hecho"
-[YouTube] No se encontró tráiler confiable para Mamen Márquez, profesora de 'Operación Triunfo' y vocal coach: "Ver la evolución de Aitana es algo que no se puede explicar con palabras, es verla y llorar"
-[movies] Saltado porque no tiene tráiler confiable: Mamen Márquez, profesora de 'Operación Triunfo' y vocal coach: "Ver la evolución de Aitana es algo que no se puede explicar con palabras, es verla y llorar"
-[YouTube] No se encontró tráiler confiable para Àngels Barceló (63 años), sobre su salida de la SER: "Soy una persona incómoda para la derecha y a mucha honra"
-[movies] Saltado porque no tiene tráiler confiable: Àngels Barceló (63 años), sobre su salida de la SER: "Soy una persona incómoda para la derecha y a mucha honra"
-[movies] Publicados: 0
-Total películas publicadas: 0
+[movies] Candidatos encontrados: 30 | Límite: 1
+[movies] Saltado por tema bloqueado: Adolescencia, sexo y muerte en Campamento Miasma
+[IA] Probando proveedor cohere: Al oeste, en Zapata
+[IA] cohere falló (error): Cohere error 404: {"id":"c63ca996-68dc-4159-9f64-48eabdf06513","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Al oeste, en Zapata
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/al-oeste-en-zapata-la-cruda-supervivencia-llega-a-la-pantalla-grande-2026-11-20-114e65.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
