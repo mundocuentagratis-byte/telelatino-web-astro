@@ -1,43 +1,34 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-20T07:04:18.101745+00:00
+Fecha UTC: 2026-11-20T16:56:45.587479+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
-[movies] Saltado porque no es estreno 2026: Yo soy Rocky (2027)
-[movies] Saltado porque no es estreno 2026: El niño (2027)
-[movies] Saltado porque no es estreno 2026: Dune: Parte tres (2027)
-[movies] Saltado porque no es estreno 2026: Ahora los suegros son ellos (2027)
-[movies] Saltado porque no es estreno 2026: Hechizo: Bienvenidos a Hexe (2027)
-[movies] Saltado porque no es estreno 2026: Puedes verlo todo (2027)
-[movies] Saltado porque no es estreno 2026: Club Kid (2027)
-[movies] Saltado porque no es estreno 2026: En nombre de otro (2027)
-[movies] Saltado porque no es estreno 2026: Fast Forever (2027)
 [movies] Saltado porque no es estreno 2026: Scrooge y los fantasmas de la Navidad (None)
-[movies] Saltado porque no es estreno 2026: El gato con sombrero (2027)
-[movies] Saltado porque no es estreno 2026: Godzilla Minus Zero (2027)
-[movies] Saltado porque no es estreno 2026: Ramayana: El nacimiento de una leyenda (2027)
-[movies] Saltado porque no es estreno 2026: El artífice de una de las mejores películas españolas de los últimos años, ‘Casa en llamas’, regresa a cines con una historia basada en hechos reales, ‘El director’ (2027)
-[movies] Saltado porque no es estreno 2026: Guitarricadelafuente: "Mi madre es médica. Se acaba de jubilar. Pero, en el fondo, siempre quiso ser cómica de stand-up" (2022)
-[movies] Saltado porque no es estreno 2026: Crítica de 'Los juegos del hambre: Amanecer en la cosecha': Una precuela entretenida que vive demasiado de la nostalgia (2027)
-[movies] Saltado porque no es estreno 2026: “¿Qué exactamente esta sarta de gilipolleces inventadas?”: La película del 'GTA' con Daniel Radcliffe que fue denunciada por Rockstar (2027)
+[movies] Saltado noticia no apta para películas: El artífice de una de las mejores películas españolas de los últimos años, ‘Casa en llamas’, regresa a cines con una historia basada en hechos reales, ‘El director’
+[movies] Saltado noticia no apta para películas: Carys Douglas, hija de Michael Douglas: "Tener un padre mayor es un regalo enorme, sin embargo, a veces desearía que no tuviera 82 años"
+[movies] Saltado porque no es estreno 2026: Warner quiere seguir haciendo secuelas de ‘Matrix’, pero se han topado con un obstáculo: sus creadoras reclaman lo que es suyo (2029)
+[movies] Saltado noticia no apta para películas: "Un viaje cinematográfico que recupera las voces de quienes vivieron el flamenco a ambos lados de una frontera": se estrena 'Bailar la muerte'
+[movies] Saltado porque no es estreno 2026: 46 millones de visualizaciones en 3 días: esta película de Netflix hizo historia con el mejor fin de semana de todos los tiempos (2019)
+[movies] Saltado noticia no apta para películas: "¿Cómo vas a informar libremente sobre el problema de la vivienda si tu dueño tiene intereses en el mundo inmobiliario?": se estrena en cines 'El director'
+[movies] Saltado noticia no apta para películas: Guitarricadelafuente: "Mi madre es médica. Se acaba de jubilar. Pero, en el fondo, siempre quiso ser cómica de stand-up"
+[movies] Saltado noticia no apta para películas: Crítica de 'Los juegos del hambre: Amanecer en la cosecha': Una precuela entretenida que vive demasiado de la nostalgia
 [movies] Saltado porque no es estreno 2026: "Una película para quienes aman el cine": solo dos meses para el primer gran estreno de 2027 (2027)
-[movies] Saltado porque no es estreno 2026: Ya he visto 'Puedes verlo todo' y sí: es la gran maravilla de 2026 de la que todo el mundo habla (2027)
-[movies] Saltado porque no es estreno 2026: Antes de rodar su obra maestra bélica, Tarantino decidió despedir a dos actrices: “No te debo una mierda” (2027)
-[movies] Saltado porque no es estreno 2026: Es uno de los personajes más 'random' de 'Star Wars', pero cuenta con una legión de fans: las malas prótesis tienen algo que ver (2002)
-[movies] Saltado porque no es estreno 2026: Hacer de Pennywise y Nosferatu le dio un superpoder inesperado: usar voces de monstruos cuando sus hijos se portan mal (2027)
+[movies] Saltado noticia no apta para películas: Ya he visto 'Puedes verlo todo' y sí: es la gran maravilla de 2026 de la que todo el mundo habla
 [movies] Saltado noticia no apta para películas: Kirk Douglas, en 1973, sobre John Wayne: "No hemos estado de acuerdo en muchas cosas, pero me parece uno de los actores más profesionales con los que he trabajado"
 [movies] Saltado noticia no apta para películas: Penélope Cruz, sobre su amistad con Salma Hayek: "Me recogió en el aeropuerto y me dijo: 'No vas a irte a un hotel. Te vienes a mi casa, porque esto es duro al inicio. Te vas a sentir muy sola"
 [movies] Saltado noticia no apta para películas: Christopher Lloyd: "La fortuna de mis padres era heredada. De niño, me dejaba maravillado la opulencia de nuestra mansión, propia de la Edad Dorada"
 [movies] Saltado noticia no apta para películas: 'GH VIP 9': fecha de estreno y lista oficial de todos los concursantes confirmados por Telecinco
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11': Así terminaron las hogueras finales todas las parejas del ‘reality’
-[movies] Saltado noticia no apta para películas: Pedro Sánchez, sobre la polémica entrevista de Santiago Abascal en 'La Revuelta': "Parece que el problema lo ha tenido David Broncano"
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11': Así estaban las parejas seis meses después de pasar por el 'reality' de Telecinco
-[movies] Saltado noticia no apta para películas: Paz Herrera (66 años), histórica concursante de televisión: "'Pasapalabra' es el concurso más popular, pero 'Saber y ganar' tiene prestigio. Es incomparable la audiencia que los ve"
-[movies] Candidatos encontrados: 30 | Límite: 1
-[movies] Saltado por tema bloqueado: Adolescencia, sexo y muerte en Campamento Miasma
-[IA] Probando proveedor cohere: Al oeste, en Zapata
-[IA] cohere falló (error): Cohere error 404: {"id":"c63ca996-68dc-4159-9f64-48eabdf06513","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Al oeste, en Zapata
+[movies] Saltado porque no es estreno 2026: Quién es Sara Bluma, la DJ de origen argelino que ha conquistado el corazón de Can Yaman: comenzó su carrera en Ibiza (2025)
+[movies] Saltado noticia no apta para películas: Más de 10 millones de espectadores siguieron el cara a cara entre Sánchez y Feijóo, pero no es el más visto de la televisión española
+[movies] Saltado noticia no apta para películas: Jordi Évole, sobre las entrevistas de Jordi Wild a los candidatos electorales: "Es muy meritorio lo que ha hecho y cómo lo ha hecho"
+[movies] Saltado noticia no apta para películas: Àngels Barceló (63 años), sobre su salida de la SER: "Soy una persona incómoda para la derecha y a mucha honra"
+[movies] Saltado noticia no apta para películas: El estreno de 'GH VIP 9' desveló el papel real de Belén Esteban y señaló a sus primeros nominados sin validez
+[movies] Saltado noticia no apta para películas: Mamen Márquez, profesora de 'Operación Triunfo' y vocal coach: "Ver la evolución de Aitana es algo que no se puede explicar con palabras, es verla y llorar"
+[movies] Candidatos encontrados: 38 | Límite: 1
+[movies] Saltado por tema bloqueado: Bailar la muerte
+[IA] Probando proveedor gemini: Club Kid
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/al-oeste-en-zapata-la-cruda-supervivencia-llega-a-la-pantalla-grande-2026-11-20-114e65.md
+[OK] Publicado: src/content/blog/club-kid-cuando-la-vida-nocturna-choca-con-la-paternidad-2026-11-20-91ae33.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
