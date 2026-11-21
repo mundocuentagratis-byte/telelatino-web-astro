@@ -1,12 +1,15 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-21T12:34:14.164456+00:00
+Fecha UTC: 2026-11-21T21:38:28.495334+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Scrooge y los fantasmas de la Navidad (None)
+[movies] Saltado porque no es estreno 2026: "Me equivoqué": Ridley Scott admitió el gran error de su regreso más esperado a la ciencia ficción y trató de enmendarlo años más tarde (2017)
+[movies] Saltado porque no es estreno 2026: Hoy en Disney+: Una de las mejores películas de aventura histórica de los últimos 25 años (2005)
+[movies] Saltado porque no es estreno 2026: Costó 200 millones de dólares e iba a iniciar una trilogía, pero era el rival más débil: se convirtió en uno de los mayores fracasos de la ciencia ficción (2017)
+[movies] Saltado porque no es estreno 2026: Para ver esta noche: la película de catástrofes más realista jamás realizada (2011)
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: hace 37 años, todos los adolescentes de los 90 soñaban viendo esta película de fantasía de Tim Burton
 [movies] Saltado noticia no apta para películas: Hoy en Netflix: Una de las mejores películas de aventuras y ciencia ficción de los últimos años es un viaje lleno de encanto y diversión
-[movies] Saltado noticia no apta para películas: La película wéstern por la que siempre felicitan a Clint Eastwood y aún le llena de orgullo: "Fue el primer guion que realmente me gustó"
 [movies] Saltado noticia no apta para películas: Ron Howard aclara que solo habrá secuela de 'El Grinch' con Jim Carrey "a menos que creamos tener un gran guion"
-[movies] Saltado porque no es estreno 2026: Marvel ya planeaba introducir al Doctor Muerte de Robert Downey Jr. antes del despido de Jonathan Majors (2023)
+[movies] Saltado noticia no apta para películas: Ashton Kutcher roza el club de los milmillonarios a sus 48 años: invirtió 435 millones en el rival de ChatGPT y ahora vale 7000
 [movies] Saltado noticia no apta para películas: Kirk Douglas, en 1973, sobre John Wayne: "No hemos estado de acuerdo en muchas cosas, pero me parece uno de los actores más profesionales con los que he trabajado"
 [movies] Saltado noticia no apta para películas: Penélope Cruz, sobre su amistad con Salma Hayek: "Me recogió en el aeropuerto y me dijo: 'No vas a irte a un hotel. Te vienes a mi casa, porque esto es duro al inicio. Te vas a sentir muy sola"
 [movies] Saltado noticia no apta para películas: Christopher Lloyd: "La fortuna de mis padres era heredada. De niño, me dejaba maravillado la opulencia de nuestra mansión, propia de la Edad Dorada"
@@ -14,13 +17,33 @@ Fecha UTC: 2026-11-21T12:34:14.164456+00:00
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11': Así estaban las parejas seis meses después de pasar por el 'reality' de Telecinco
 [movies] Saltado porque no es estreno 2026: El restaurante de Viladecans que mejoró tras el paso de 'Pesadilla en la cocina', pero el dueño asegura que "no es gracias a Chicote" (2022)
 [movies] Saltado noticia no apta para películas: El estreno de 'GH VIP 9' desveló el papel real de Belén Esteban y señaló a sus primeros nominados sin validez
+[movies] Saltado noticia no apta para películas: Íñigo Segurola fue el jardinero de 'Bricomanía' durante 23 años: ahora tiene un increíble paraíso vegetal de 20.000 metros
+[movies] Saltado noticia no apta para películas: La nueva vida de Federico Rebecchi, 11 años después de ‘GH VIP’: ahora es abogado en Nueva York
 [movies] Saltado noticia no apta para películas: Más de 10 millones de espectadores siguieron el cara a cara entre Sánchez y Feijóo, pero no es el más visto de la televisión española
 [movies] Saltado noticia no apta para películas: Jordi Évole, sobre las entrevistas de Jordi Wild a los candidatos electorales: "Es muy meritorio lo que ha hecho y cómo lo ha hecho"
-[movies] Saltado noticia no apta para películas: Mamen Márquez, profesora de 'Operación Triunfo' y vocal coach: "Ver la evolución de Aitana es algo que no se puede explicar con palabras, es verla y llorar"
 [movies] Candidatos encontrados: 41 | Límite: 1
-[IA] Probando proveedor gemini: Hechizo: Bienvenidos a Hexe
+[IA] Probando proveedor mistral: Iron Boy
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: Iron Boy
+[IA] cohere falló (error): Cohere error 404: {"id":"8c7a88be-fdad-46dc-b116-a0b9cf0854f7","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Iron Boy
+[IA] gemini falló (error): Expecting ',' delimiter: line 5 column 3 (char 4634)
+[IA] Probando proveedor groq: Iron Boy
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: Iron Boy
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[movies] Error generando artículo Iron Boy: Todos los proveedores de IA fallaron. [IA] gemini falló (error): Expecting ',' delimiter: line 5 column 3 (char 4634) | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor openai: Noche y día, de Virginia Woolf
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: Noche y día, de Virginia Woolf
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: Noche y día, de Virginia Woolf
+[IA] cohere falló (error): Cohere error 404: {"id":"fa8c6d01-e255-44f5-be10-af60f0811d5a","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Noche y día, de Virginia Woolf
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/hechizo-bienvenidos-a-hexe-magia-misterio-y-aventura-familiar-2026-11-21-042813.md
+[OK] Publicado: src/content/blog/noche-y-dia-virginia-woolf-cobra-vida-en-la-gran-pantalla-de-2026-2026-11-21-9f332d.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
