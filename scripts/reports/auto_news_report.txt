@@ -1,35 +1,26 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-21T01:27:51.094707+00:00
+Fecha UTC: 2026-11-21T12:34:14.164456+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Scrooge y los fantasmas de la Navidad (None)
-[movies] Saltado porque no es estreno 2026: El artífice de una de las mejores películas españolas de los últimos años, ‘Casa en llamas’, regresa a cines con una historia basada en hechos reales, ‘El director’ (2027)
-[movies] Saltado porque no es estreno 2026: Ron Howard aclara que solo habrá secuela de 'El Grinch' con Jim Carrey "a menos que creamos tener un gran guion" (2027)
-[movies] Saltado porque no es estreno 2026: Ashton Kutcher roza el club de los milmillonarios a sus 48 años: invirtió 435 millones en el rival de ChatGPT y ahora vale 7000 (2027)
-[movies] Saltado noticia no apta para películas: Así conecta 'Los juegos del hambre: Amanecer con la cosecha' con los regresos de Jennifer Lawrence y Josh Hutcherson como Katniss y Peeta
-[movies] Saltado porque no es estreno 2026: Batió todos los récords y es la película más taquillera del año: Solo 14 días para su regreso a los cines españoles con una versión extendida (2027)
-[movies] Saltado porque no es estreno 2026: El fundador y presidente de Amazon, Jeff Bezos, estuvo involucrado en la elección del nuevo James Bond: "Como ya es tan famoso, pensamos que tal vez deberíamos haber elegido a alguien menos conocido" (2027)
+[movies] Saltado noticia no apta para películas: Hoy en Netflix: hace 37 años, todos los adolescentes de los 90 soñaban viendo esta película de fantasía de Tim Burton
+[movies] Saltado noticia no apta para películas: Hoy en Netflix: Una de las mejores películas de aventuras y ciencia ficción de los últimos años es un viaje lleno de encanto y diversión
+[movies] Saltado noticia no apta para películas: La película wéstern por la que siempre felicitan a Clint Eastwood y aún le llena de orgullo: "Fue el primer guion que realmente me gustó"
+[movies] Saltado noticia no apta para películas: Ron Howard aclara que solo habrá secuela de 'El Grinch' con Jim Carrey "a menos que creamos tener un gran guion"
 [movies] Saltado porque no es estreno 2026: Marvel ya planeaba introducir al Doctor Muerte de Robert Downey Jr. antes del despido de Jonathan Majors (2023)
-[movies] Saltado porque no es estreno 2026: Warner quiere seguir haciendo secuelas de ‘Matrix’, pero se han topado con un obstáculo: sus creadoras reclaman lo que es suyo (2029)
-[movies] Saltado porque no es estreno 2026: 46 millones de visualizaciones en 3 días: esta película de Netflix hizo historia con el mejor fin de semana de todos los tiempos (2027)
-[movies] Saltado porque no es estreno 2026: "¿Cómo vas a informar libremente sobre el problema de la vivienda si tu dueño tiene intereses en el mundo inmobiliario?": se estrena en cines 'El director' (2027)
-[movies] Saltado porque no es estreno 2026: Ray Nicholson tuvo miedo de decirle a su padre, Jack Nicholson, que quería ser actor: “Mi formación me enseñó que papá no es Dios. No es lo único que existe en esta industria” (2027)
 [movies] Saltado noticia no apta para películas: Kirk Douglas, en 1973, sobre John Wayne: "No hemos estado de acuerdo en muchas cosas, pero me parece uno de los actores más profesionales con los que he trabajado"
 [movies] Saltado noticia no apta para películas: Penélope Cruz, sobre su amistad con Salma Hayek: "Me recogió en el aeropuerto y me dijo: 'No vas a irte a un hotel. Te vienes a mi casa, porque esto es duro al inicio. Te vas a sentir muy sola"
 [movies] Saltado noticia no apta para películas: Christopher Lloyd: "La fortuna de mis padres era heredada. De niño, me dejaba maravillado la opulencia de nuestra mansión, propia de la Edad Dorada"
-[movies] Saltado noticia no apta para películas: 'GH VIP 9': fecha de estreno y lista oficial de todos los concursantes confirmados por Telecinco
-[movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11': Así terminaron las hogueras finales todas las parejas del ‘reality’
+[movies] Saltado noticia no apta para películas: Àngels Barceló (63 años), sobre su salida de la SER: "Soy una persona incómoda para la derecha y a mucha honra"
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11': Así estaban las parejas seis meses después de pasar por el 'reality' de Telecinco
-[movies] Saltado porque no es estreno 2026: Quién es Sara Bluma, la DJ de origen argelino que ha conquistado el corazón de Can Yaman: comenzó su carrera en Ibiza (2025)
+[movies] Saltado porque no es estreno 2026: El restaurante de Viladecans que mejoró tras el paso de 'Pesadilla en la cocina', pero el dueño asegura que "no es gracias a Chicote" (2022)
+[movies] Saltado noticia no apta para películas: El estreno de 'GH VIP 9' desveló el papel real de Belén Esteban y señaló a sus primeros nominados sin validez
 [movies] Saltado noticia no apta para películas: Más de 10 millones de espectadores siguieron el cara a cara entre Sánchez y Feijóo, pero no es el más visto de la televisión española
 [movies] Saltado noticia no apta para películas: Jordi Évole, sobre las entrevistas de Jordi Wild a los candidatos electorales: "Es muy meritorio lo que ha hecho y cómo lo ha hecho"
-[movies] Saltado noticia no apta para películas: Àngels Barceló (63 años), sobre su salida de la SER: "Soy una persona incómoda para la derecha y a mucha honra"
-[movies] Saltado noticia no apta para películas: El estreno de 'GH VIP 9' desveló el papel real de Belén Esteban y señaló a sus primeros nominados sin validez
 [movies] Saltado noticia no apta para películas: Mamen Márquez, profesora de 'Operación Triunfo' y vocal coach: "Ver la evolución de Aitana es algo que no se puede explicar con palabras, es verla y llorar"
-[movies] Candidatos encontrados: 36 | Límite: 1
-[movies] Saltado por tema bloqueado: Con Hasan en Gaza
-[IA] Probando proveedor gemini: Diarios de Ozu
+[movies] Candidatos encontrados: 41 | Límite: 1
+[IA] Probando proveedor gemini: Hechizo: Bienvenidos a Hexe
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/diarios-de-ozu-un-viaje-intimo-al-genio-cinematografico-2026-11-21-a42bda.md
+[OK] Publicado: src/content/blog/hechizo-bienvenidos-a-hexe-magia-misterio-y-aventura-familiar-2026-11-21-042813.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
