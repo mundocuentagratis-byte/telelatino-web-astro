@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-21T21:38:28.495334+00:00
+Fecha UTC: 2026-11-22T06:38:12.235520+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Scrooge y los fantasmas de la Navidad (None)
 [movies] Saltado porque no es estreno 2026: "Me equivoqué": Ridley Scott admitió el gran error de su regreso más esperado a la ciencia ficción y trató de enmendarlo años más tarde (2017)
@@ -15,35 +15,21 @@ Fecha UTC: 2026-11-21T21:38:28.495334+00:00
 [movies] Saltado noticia no apta para películas: Christopher Lloyd: "La fortuna de mis padres era heredada. De niño, me dejaba maravillado la opulencia de nuestra mansión, propia de la Edad Dorada"
 [movies] Saltado noticia no apta para películas: Àngels Barceló (63 años), sobre su salida de la SER: "Soy una persona incómoda para la derecha y a mucha honra"
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11': Así estaban las parejas seis meses después de pasar por el 'reality' de Telecinco
-[movies] Saltado porque no es estreno 2026: El restaurante de Viladecans que mejoró tras el paso de 'Pesadilla en la cocina', pero el dueño asegura que "no es gracias a Chicote" (2022)
 [movies] Saltado noticia no apta para películas: El estreno de 'GH VIP 9' desveló el papel real de Belén Esteban y señaló a sus primeros nominados sin validez
+[movies] Saltado noticia no apta para películas: El concursante de 'Supervivientes' al que no le dejaron "hacer nada": "Estuve en un barco, no llegué a pisar la isla aquella"
 [movies] Saltado noticia no apta para películas: Íñigo Segurola fue el jardinero de 'Bricomanía' durante 23 años: ahora tiene un increíble paraíso vegetal de 20.000 metros
 [movies] Saltado noticia no apta para películas: La nueva vida de Federico Rebecchi, 11 años después de ‘GH VIP’: ahora es abogado en Nueva York
 [movies] Saltado noticia no apta para películas: Más de 10 millones de espectadores siguieron el cara a cara entre Sánchez y Feijóo, pero no es el más visto de la televisión española
 [movies] Saltado noticia no apta para películas: Jordi Évole, sobre las entrevistas de Jordi Wild a los candidatos electorales: "Es muy meritorio lo que ha hecho y cómo lo ha hecho"
 [movies] Candidatos encontrados: 41 | Límite: 1
-[IA] Probando proveedor mistral: Iron Boy
+[IA] Probando proveedor mistral: Hermanas
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Iron Boy
-[IA] cohere falló (error): Cohere error 404: {"id":"8c7a88be-fdad-46dc-b116-a0b9cf0854f7","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Iron Boy
-[IA] gemini falló (error): Expecting ',' delimiter: line 5 column 3 (char 4634)
-[IA] Probando proveedor groq: Iron Boy
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: Iron Boy
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[movies] Error generando artículo Iron Boy: Todos los proveedores de IA fallaron. [IA] gemini falló (error): Expecting ',' delimiter: line 5 column 3 (char 4634) | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor openai: Noche y día, de Virginia Woolf
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Noche y día, de Virginia Woolf
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Noche y día, de Virginia Woolf
-[IA] cohere falló (error): Cohere error 404: {"id":"fa8c6d01-e255-44f5-be10-af60f0811d5a","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Noche y día, de Virginia Woolf
+[IA] Probando proveedor cohere: Hermanas
+[IA] cohere falló (error): Cohere error 404: {"id":"aadad5da-5016-4c8d-8385-3ff83b1adda7","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Hermanas
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/noche-y-dia-virginia-woolf-cobra-vida-en-la-gran-pantalla-de-2026-2026-11-21-9f332d.md
+[OK] Publicado: src/content/blog/hermanas-cuando-la-justicia-rompe-lazos-familiares-en-el-cine-2026-11-22-6fc4f5.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
