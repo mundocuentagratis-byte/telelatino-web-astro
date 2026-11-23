@@ -1,54 +1,43 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-23T00:48:47.692336+00:00
+Fecha UTC: 2026-11-23T14:30:32.056841+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
-[movies] Saltado porque no es estreno 2026: Yo soy Rocky (2025)
-[movies] Saltado porque no es estreno 2026: Hechizo: Bienvenidos a Hexe (2025)
-[movies] Saltado porque no es estreno 2026: El niño (2025)
-[movies] Saltado porque no es estreno 2026: Ahora los suegros son ellos (2025)
-[movies] Saltado porque no es estreno 2026: Dune: Parte tres (2025)
-[movies] Saltado porque no es estreno 2026: Puedes verlo todo (2025)
-[movies] Saltado porque no es estreno 2026: Club Kid (2025)
-[movies] Saltado porque no es estreno 2026: Las nuevas desventuras de Cliff Booth (2025)
-[movies] Saltado porque no es estreno 2026: Hermanas (2025)
 [movies] Saltado porque no es estreno 2026: Scrooge y los fantasmas de la Navidad (None)
-[movies] Saltado porque no es estreno 2026: El gato con sombrero (2025)
-[movies] Saltado porque no es estreno 2026: Godzilla Minus Zero (2025)
-[movies] Saltado porque no es estreno 2026: Ramayana: El nacimiento de una leyenda (2025)
-[movies] Saltado porque no es estreno 2026: El artífice de una de las mejores películas españolas de los últimos años, ‘Casa en llamas’, regresa a cines con una historia basada en hechos reales, ‘El director’ (2025)
-[movies] Saltado porque no es estreno 2026: Un fallo técnico en el rodaje de esta icónica película de terror de los 90 provocó que la policía acabara interviniendo (2025)
-[movies] Saltado porque no es estreno 2026: "Es uno de mis actores menos favoritos": esta leyenda de Hollywood no se anduvo con rodeos a la hora de decir que odiaba a Paul Newman (2025)
-[movies] Saltado porque no es estreno 2026: 95 papeles, 49 años en activo y un Oscar: cumple 67 años una 'nepo baby' que se ha ganado su carrera (2025)
-[movies] Saltado porque no es estreno 2026: Top 10 de cineastas que pegan un volantazo y hacen cosas raras fuera de carta (2025)
 [movies] Saltado porque no es estreno 2026: No olvidemos la película evento que había preparado Marvel como su gran estreno para 2025 y que ya nunca veremos (2022)
-[movies] Saltado porque no es estreno 2026: Tarantino odió una icónica película de los 90: "Está tan dentro de su culo que no quiero volver a ver una película suya" (2025)
+[movies] Saltado noticia no apta para películas: Tarantino odió una icónica película de los 90: "Está tan dentro de su culo que no quiero volver a ver una película suya"
 [movies] Saltado porque no es estreno 2026: 15 estrenos en Netflix: esta semana, tres poderosas historias basadas en hechos reales (2025)
-[movies] Saltado porque no es estreno 2026: "Me equivoqué": Ridley Scott admitió el gran error de su regreso más esperado a la ciencia ficción y trató de enmendarlo años más tarde (2025)
-[movies] Saltado porque no es estreno 2026: Hoy en Disney+: Una de las mejores películas de aventura histórica de los últimos 25 años (2025)
-[movies] Saltado porque no es estreno 2026: Costó 200 millones de dólares e iba a iniciar una trilogía, pero era el rival más débil: se convirtió en uno de los mayores fracasos de la ciencia ficción (2017)
-[movies] Saltado porque no es estreno 2026: 9 cosas que podrían haber sido muy diferentes en la saga de 'Harry Potter' (2025)
-[movies] Saltado porque no es estreno 2026: Hace 50 años, esta película llevó a su director a juicio por obscenidad: Es una de las películas eróticas más notorias de todos los tiempos (2025)
-[movies] Saltado porque no es estreno 2026: Para ver esta noche: la película de catástrofes más realista jamás realizada (2025)
+[movies] Saltado porque no es estreno 2026: "Me equivoqué": Ridley Scott admitió el gran error de su regreso más esperado a la ciencia ficción y trató de enmendarlo años más tarde (2017)
+[movies] Saltado porque no es estreno 2026: Hoy en Disney+: Una de las mejores películas de aventura histórica de los últimos 25 años (2005)
 [movies] Saltado noticia no apta para películas: Kirk Douglas, en 1973, sobre John Wayne: "No hemos estado de acuerdo en muchas cosas, pero me parece uno de los actores más profesionales con los que he trabajado"
 [movies] Saltado noticia no apta para películas: Penélope Cruz, sobre su amistad con Salma Hayek: "Me recogió en el aeropuerto y me dijo: 'No vas a irte a un hotel. Te vienes a mi casa, porque esto es duro al inicio. Te vas a sentir muy sola"
 [movies] Saltado noticia no apta para películas: Christopher Lloyd: "La fortuna de mis padres era heredada. De niño, me dejaba maravillado la opulencia de nuestra mansión, propia de la Edad Dorada"
 [movies] Saltado noticia no apta para películas: Àngels Barceló (63 años), sobre su salida de la SER: "Soy una persona incómoda para la derecha y a mucha honra"
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11': Así estaban las parejas seis meses después de pasar por el 'reality' de Telecinco
-[movies] Saltado noticia no apta para películas: El estreno de 'GH VIP 9' desveló el papel real de Belén Esteban y señaló a sus primeros nominados sin validez
 [movies] Saltado noticia no apta para películas: La Fiscalía pide a Gustavo González, ex de 'Sálvame', 447 años de cárcel por descubrimiento y revelación de secretos de famosos
-[movies] Saltado noticia no apta para películas: El ganador de 'La Voz' que intentó representar a España en Eurovisión y ahora es el cantante de este mítico grupo de rock
-[movies] Saltado noticia no apta para películas: Íñigo Segurola fue el jardinero de 'Bricomanía' durante 23 años: ahora tiene un increíble paraíso vegetal de 20.000 metros
-[movies] Saltado noticia no apta para películas: La nueva vida de Federico Rebecchi, 11 años después de ‘GH VIP’: ahora es abogado en Nueva York
-[movies] Candidatos encontrados: 25 | Límite: 1
-[IA] Probando proveedor openai: Ooh La La! ¿Quién lo hubiera pensado?
+[movies] Saltado noticia no apta para películas: El estreno de 'GH VIP 9' desveló el papel real de Belén Esteban y señaló a sus primeros nominados sin validez
+[movies] Candidatos encontrados: 50 | Límite: 1
+[IA] Probando proveedor groq: Las nuevas desventuras de Cliff Booth
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: Las nuevas desventuras de Cliff Booth
 [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Ooh La La! ¿Quién lo hubiera pensado?
+[IA] Probando proveedor mistral: Las nuevas desventuras de Cliff Booth
 [IA] mistral falló (cuota): API error occurred: Status 429
 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Ooh La La! ¿Quién lo hubiera pensado?
-[IA] cohere falló (error): Cohere error 404: {"id":"e28e6871-f87f-42c0-8eaf-8f6fd360a46d","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Ooh La La! ¿Quién lo hubiera pensado?
+[IA] Probando proveedor cohere: Las nuevas desventuras de Cliff Booth
+[IA] cohere falló (error): Cohere error 404: {"id":"e0634be1-30d6-443b-b34d-e47488718d22","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Las nuevas desventuras de Cliff Booth
+[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 3901 (char 4146)
+[movies] Error generando artículo Las nuevas desventuras de Cliff Booth: Todos los proveedores de IA fallaron. [IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429} | [IA] cohere falló (error): Cohere error 404: {"id":"e0634be1-30d6-443b-b34d-e47488718d22","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."} | [IA] gemini falló (error): Expecting ',' delimiter: line 4 column 3901 (char 4146)
+[YouTube] No se encontró tráiler confiable para Oro sin ley
+[movies] Saltado porque no tiene tráiler confiable: Oro sin ley
+[IA] Probando proveedor mistral: Para vivir: El implacable tiempo de Pablo Milanés
+[IA] mistral falló (cuota): API error occurred: Status 429
+{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+[IA] Probando proveedor cohere: Para vivir: El implacable tiempo de Pablo Milanés
+[IA] cohere falló (error): Cohere error 404: {"id":"b03f8db1-c036-4fcb-bdc6-9ae8ebab7e56","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Para vivir: El implacable tiempo de Pablo Milanés
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/ooh-la-la-quien-lo-hubiera-pensado-risas-garantizadas-con-adn-2026-11-23-8c35d5.md
+[OK] Publicado: src/content/blog/para-vivir-un-viaje-intimo-al-alma-de-pablo-milanes-en-cines-2026-11-23-0fe1ce.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
