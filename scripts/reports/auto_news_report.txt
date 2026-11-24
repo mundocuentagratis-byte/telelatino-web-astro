@@ -1,43 +1,26 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-23T14:30:32.056841+00:00
+Fecha UTC: 2026-11-24T02:54:17.070650+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Scrooge y los fantasmas de la Navidad (None)
-[movies] Saltado porque no es estreno 2026: No olvidemos la película evento que había preparado Marvel como su gran estreno para 2025 y que ya nunca veremos (2022)
-[movies] Saltado noticia no apta para películas: Tarantino odió una icónica película de los 90: "Está tan dentro de su culo que no quiero volver a ver una película suya"
-[movies] Saltado porque no es estreno 2026: 15 estrenos en Netflix: esta semana, tres poderosas historias basadas en hechos reales (2025)
-[movies] Saltado porque no es estreno 2026: "Me equivoqué": Ridley Scott admitió el gran error de su regreso más esperado a la ciencia ficción y trató de enmendarlo años más tarde (2017)
-[movies] Saltado porque no es estreno 2026: Hoy en Disney+: Una de las mejores películas de aventura histórica de los últimos 25 años (2005)
+[movies] Saltado porque no es estreno 2026: Arnold Schwarzenegger: "Todos necesitamos levantar cargas más pesadas al menos una o dos veces por semana" (2027)
+[movies] Saltado noticia no apta para películas: Tiene 37 años y es una obra maestra bélica: El retrato más brutal de la guerra de Vietnam
+[movies] Saltado porque no es estreno 2026: Hoy en Netflix: Una de las mejores películas de ación de los últimos años (2025)
+[movies] Saltado porque no es estreno 2026: Tres años después, Marvel cumple con su promesa: Es uno de los pocos personajes buenos que han aparecido tras 'Endgame' y vuelve en 'Vengadores: Doomsday' (2025)
+[movies] Saltado porque no es estreno 2026: 89 minutos de puro entretenimiento desternillante: una comedia que nunca pasa de moda (2027)
+[movies] Saltado porque no es estreno 2026: "Aunque pasen cosas terribles, es una película que tiene mucha luz": la nueva película de Daniel Monzón, 'Ruega por nosotras', es otro éxito del cine español (2027)
+[movies] Saltado porque no es estreno 2026: Vin Diesel se despide de 'Fast & Furious' y anuncia su nueva saga de acción junto al director de la próxima película de 'John Wick' (2027)
+[movies] Saltado porque no es estreno 2026: Clint Eastwood trajo su propio revolver a España para rodar 'Por un puñado de dólares' en Almería: "Entonces los aeropuertos eran otra cosa" (2027)
 [movies] Saltado noticia no apta para películas: Kirk Douglas, en 1973, sobre John Wayne: "No hemos estado de acuerdo en muchas cosas, pero me parece uno de los actores más profesionales con los que he trabajado"
 [movies] Saltado noticia no apta para películas: Penélope Cruz, sobre su amistad con Salma Hayek: "Me recogió en el aeropuerto y me dijo: 'No vas a irte a un hotel. Te vienes a mi casa, porque esto es duro al inicio. Te vas a sentir muy sola"
 [movies] Saltado noticia no apta para películas: Christopher Lloyd: "La fortuna de mis padres era heredada. De niño, me dejaba maravillado la opulencia de nuestra mansión, propia de la Edad Dorada"
 [movies] Saltado noticia no apta para películas: Àngels Barceló (63 años), sobre su salida de la SER: "Soy una persona incómoda para la derecha y a mucha honra"
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11': Así estaban las parejas seis meses después de pasar por el 'reality' de Telecinco
-[movies] Saltado noticia no apta para películas: La Fiscalía pide a Gustavo González, ex de 'Sálvame', 447 años de cárcel por descubrimiento y revelación de secretos de famosos
 [movies] Saltado noticia no apta para películas: El estreno de 'GH VIP 9' desveló el papel real de Belén Esteban y señaló a sus primeros nominados sin validez
-[movies] Candidatos encontrados: 50 | Límite: 1
-[IA] Probando proveedor groq: Las nuevas desventuras de Cliff Booth
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: Las nuevas desventuras de Cliff Booth
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Las nuevas desventuras de Cliff Booth
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Las nuevas desventuras de Cliff Booth
-[IA] cohere falló (error): Cohere error 404: {"id":"e0634be1-30d6-443b-b34d-e47488718d22","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[movies] Saltado noticia no apta para películas: La Fiscalía pide a Gustavo González, ex de 'Sálvame', 447 años de cárcel por descubrimiento y revelación de secretos de famosos
+[movies] Candidatos encontrados: 43 | Límite: 1
 [IA] Probando proveedor gemini: Las nuevas desventuras de Cliff Booth
-[IA] gemini falló (error): Expecting ',' delimiter: line 4 column 3901 (char 4146)
-[movies] Error generando artículo Las nuevas desventuras de Cliff Booth: Todos los proveedores de IA fallaron. [IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429} | [IA] cohere falló (error): Cohere error 404: {"id":"e0634be1-30d6-443b-b34d-e47488718d22","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."} | [IA] gemini falló (error): Expecting ',' delimiter: line 4 column 3901 (char 4146)
-[YouTube] No se encontró tráiler confiable para Oro sin ley
-[movies] Saltado porque no tiene tráiler confiable: Oro sin ley
-[IA] Probando proveedor mistral: Para vivir: El implacable tiempo de Pablo Milanés
-[IA] mistral falló (cuota): API error occurred: Status 429
-{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-[IA] Probando proveedor cohere: Para vivir: El implacable tiempo de Pablo Milanés
-[IA] cohere falló (error): Cohere error 404: {"id":"b03f8db1-c036-4fcb-bdc6-9ae8ebab7e56","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Para vivir: El implacable tiempo de Pablo Milanés
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/para-vivir-un-viaje-intimo-al-alma-de-pablo-milanes-en-cines-2026-11-23-0fe1ce.md
+[OK] Publicado: src/content/blog/las-nuevas-desventuras-de-cliff-booth-fincher-y-pitt-en-el-hollywood-de-los-70-2026-11-24-2d8791.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
