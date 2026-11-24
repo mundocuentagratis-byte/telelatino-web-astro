@@ -1,26 +1,34 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-24T02:54:17.070650+00:00
+Fecha UTC: 2026-11-24T14:47:46.504097+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Scrooge y los fantasmas de la Navidad (None)
+[movies] Saltado porque no es estreno 2026: "Aprendí a amar al personaje y a mirarlo con humanidad, sin justificarle": llega a cines 'Un hombre en un puente', que viene avalada por grandes elogios (2027)
+[movies] Saltado porque no es estreno 2026: La novela original ha sido leída 140 millones de veces: Ya en Amazon Prime una película que se ha colado en las listas de éxitos (2027)
+[movies] Saltado porque no es estreno 2026: Zack Snyder está rehaciendo uno de los mayores clásicos de la ciencia ficción de todos los tiempos y la cosa se pone aún mejor (2028)
+[movies] Saltado noticia no apta para películas: "Tuve que pagar un divorcio. Esto es la pura verdad. Cuando hice 'Armageddon' necesitaba dinero": la razón por la que Billy Bob Thornton hizo la película
 [movies] Saltado porque no es estreno 2026: Arnold Schwarzenegger: "Todos necesitamos levantar cargas más pesadas al menos una o dos veces por semana" (2027)
-[movies] Saltado noticia no apta para películas: Tiene 37 años y es una obra maestra bélica: El retrato más brutal de la guerra de Vietnam
+[movies] Saltado porque no es estreno 2026: Tiene 37 años y es una obra maestra bélica: El retrato más brutal de la guerra de Vietnam (2027)
 [movies] Saltado porque no es estreno 2026: Hoy en Netflix: Una de las mejores películas de ación de los últimos años (2025)
 [movies] Saltado porque no es estreno 2026: Tres años después, Marvel cumple con su promesa: Es uno de los pocos personajes buenos que han aparecido tras 'Endgame' y vuelve en 'Vengadores: Doomsday' (2025)
-[movies] Saltado porque no es estreno 2026: 89 minutos de puro entretenimiento desternillante: una comedia que nunca pasa de moda (2027)
-[movies] Saltado porque no es estreno 2026: "Aunque pasen cosas terribles, es una película que tiene mucha luz": la nueva película de Daniel Monzón, 'Ruega por nosotras', es otro éxito del cine español (2027)
-[movies] Saltado porque no es estreno 2026: Vin Diesel se despide de 'Fast & Furious' y anuncia su nueva saga de acción junto al director de la próxima película de 'John Wick' (2027)
-[movies] Saltado porque no es estreno 2026: Clint Eastwood trajo su propio revolver a España para rodar 'Por un puñado de dólares' en Almería: "Entonces los aeropuertos eran otra cosa" (2027)
+[movies] Saltado noticia no apta para películas: Carys Douglas, hija de Michael Douglas: "Tener un padre mayor es un regalo enorme, sin embargo, a veces desearía que no tuviera 82 años"
 [movies] Saltado noticia no apta para películas: Kirk Douglas, en 1973, sobre John Wayne: "No hemos estado de acuerdo en muchas cosas, pero me parece uno de los actores más profesionales con los que he trabajado"
 [movies] Saltado noticia no apta para películas: Penélope Cruz, sobre su amistad con Salma Hayek: "Me recogió en el aeropuerto y me dijo: 'No vas a irte a un hotel. Te vienes a mi casa, porque esto es duro al inicio. Te vas a sentir muy sola"
-[movies] Saltado noticia no apta para películas: Christopher Lloyd: "La fortuna de mis padres era heredada. De niño, me dejaba maravillado la opulencia de nuestra mansión, propia de la Edad Dorada"
 [movies] Saltado noticia no apta para películas: Àngels Barceló (63 años), sobre su salida de la SER: "Soy una persona incómoda para la derecha y a mucha honra"
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11': Así estaban las parejas seis meses después de pasar por el 'reality' de Telecinco
-[movies] Saltado noticia no apta para películas: El estreno de 'GH VIP 9' desveló el papel real de Belén Esteban y señaló a sus primeros nominados sin validez
 [movies] Saltado noticia no apta para películas: La Fiscalía pide a Gustavo González, ex de 'Sálvame', 447 años de cárcel por descubrimiento y revelación de secretos de famosos
-[movies] Candidatos encontrados: 43 | Límite: 1
-[IA] Probando proveedor gemini: Las nuevas desventuras de Cliff Booth
+[movies] Saltado noticia no apta para películas: El estreno de 'GH VIP 9' desveló el papel real de Belén Esteban y señaló a sus primeros nominados sin validez
+[movies] Saltado noticia no apta para películas: Emilio Aragón (67 años), sobre su padre Miliki: "Nunca fue farandulero. Él iba, hacía su trabajo y venía a casa"
+[movies] Saltado noticia no apta para películas: David Bustamante (44 años): “Los cinco nos criamos en un piso de 70 metros y soñábamos con tener un chalé. En cuanto me cambió la vida les compré uno a mis padres”
+[movies] Saltado noticia no apta para películas: Cristina Porta, sobre Andrea (pareja de Náyades): "Estoy hablando de una persona que hace realities, no le he faltado el respeto a nadie"
+[movies] Saltado noticia no apta para películas: El ganador de 'La Voz' que intentó representar a España en Eurovisión y ahora es el cantante de este mítico grupo de rock
+[movies] Saltado noticia no apta para películas: Íñigo Segurola fue el jardinero de 'Bricomanía' durante 23 años: ahora tiene un increíble paraíso vegetal de 20.000 metros
+[movies] Candidatos encontrados: 36 | Límite: 1
+[movies] Saltado por tema bloqueado: Recuerdo tu nombre
+[IA] Probando proveedor cohere: Rose
+[IA] cohere falló (error): Cohere error 404: {"id":"31fd3a5e-a9db-42e9-813e-7d7f767dc1c5","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Rose
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/las-nuevas-desventuras-de-cliff-booth-fincher-y-pitt-en-el-hollywood-de-los-70-2026-11-24-2d8791.md
+[OK] Publicado: src/content/blog/rose-sandra-huller-en-un-cautivador-drama-historico-de-identidades-2026-11-24-0aea46.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
