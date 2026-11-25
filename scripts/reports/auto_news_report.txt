@@ -1,15 +1,9 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-24T14:47:46.504097+00:00
+Fecha UTC: 2026-11-25T00:37:15.632951+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
-[movies] Saltado porque no es estreno 2026: Scrooge y los fantasmas de la Navidad (None)
-[movies] Saltado porque no es estreno 2026: "Aprendí a amar al personaje y a mirarlo con humanidad, sin justificarle": llega a cines 'Un hombre en un puente', que viene avalada por grandes elogios (2027)
-[movies] Saltado porque no es estreno 2026: La novela original ha sido leída 140 millones de veces: Ya en Amazon Prime una película que se ha colado en las listas de éxitos (2027)
+[movies] Saltado porque no es estreno 2026: La película de acción real de 'Naruto' se fija en 'Shogun' para el Tercer Hokage de la Aldea Oculta de la Hoja (2027)
+[movies] Saltado porque no es estreno 2026: El dilema visual que divide a los fans de Marvel: No hay consenso en si 'Vengadores: Doomsday' se ve peor que 'Endgame' (2019)
 [movies] Saltado porque no es estreno 2026: Zack Snyder está rehaciendo uno de los mayores clásicos de la ciencia ficción de todos los tiempos y la cosa se pone aún mejor (2028)
-[movies] Saltado noticia no apta para películas: "Tuve que pagar un divorcio. Esto es la pura verdad. Cuando hice 'Armageddon' necesitaba dinero": la razón por la que Billy Bob Thornton hizo la película
-[movies] Saltado porque no es estreno 2026: Arnold Schwarzenegger: "Todos necesitamos levantar cargas más pesadas al menos una o dos veces por semana" (2027)
-[movies] Saltado porque no es estreno 2026: Tiene 37 años y es una obra maestra bélica: El retrato más brutal de la guerra de Vietnam (2027)
-[movies] Saltado porque no es estreno 2026: Hoy en Netflix: Una de las mejores películas de ación de los últimos años (2025)
-[movies] Saltado porque no es estreno 2026: Tres años después, Marvel cumple con su promesa: Es uno de los pocos personajes buenos que han aparecido tras 'Endgame' y vuelve en 'Vengadores: Doomsday' (2025)
 [movies] Saltado noticia no apta para películas: Carys Douglas, hija de Michael Douglas: "Tener un padre mayor es un regalo enorme, sin embargo, a veces desearía que no tuviera 82 años"
 [movies] Saltado noticia no apta para películas: Kirk Douglas, en 1973, sobre John Wayne: "No hemos estado de acuerdo en muchas cosas, pero me parece uno de los actores más profesionales con los que he trabajado"
 [movies] Saltado noticia no apta para películas: Penélope Cruz, sobre su amistad con Salma Hayek: "Me recogió en el aeropuerto y me dijo: 'No vas a irte a un hotel. Te vienes a mi casa, porque esto es duro al inicio. Te vas a sentir muy sola"
@@ -17,18 +11,16 @@ Fecha UTC: 2026-11-24T14:47:46.504097+00:00
 [movies] Saltado noticia no apta para películas: 'La isla de las tentaciones 11': Así estaban las parejas seis meses después de pasar por el 'reality' de Telecinco
 [movies] Saltado noticia no apta para películas: La Fiscalía pide a Gustavo González, ex de 'Sálvame', 447 años de cárcel por descubrimiento y revelación de secretos de famosos
 [movies] Saltado noticia no apta para películas: El estreno de 'GH VIP 9' desveló el papel real de Belén Esteban y señaló a sus primeros nominados sin validez
+[movies] Saltado noticia no apta para películas: "Los invitados estaban tirándose de los pelos": Era una de las respuestas más fáciles de 'Pasapalabra', pero David Trigo no consiguió resolverla
+[movies] Saltado noticia no apta para películas: TVE triunfa con su debate a ocho y Feijóo firma una doble victoria en audiencias frente a Pedro Sánchez: le supera con Franganillo y con Griso
 [movies] Saltado noticia no apta para películas: Emilio Aragón (67 años), sobre su padre Miliki: "Nunca fue farandulero. Él iba, hacía su trabajo y venía a casa"
 [movies] Saltado noticia no apta para películas: David Bustamante (44 años): “Los cinco nos criamos en un piso de 70 metros y soñábamos con tener un chalé. En cuanto me cambió la vida les compré uno a mis padres”
 [movies] Saltado noticia no apta para películas: Cristina Porta, sobre Andrea (pareja de Náyades): "Estoy hablando de una persona que hace realities, no le he faltado el respeto a nadie"
-[movies] Saltado noticia no apta para películas: El ganador de 'La Voz' que intentó representar a España en Eurovisión y ahora es el cantante de este mítico grupo de rock
-[movies] Saltado noticia no apta para películas: Íñigo Segurola fue el jardinero de 'Bricomanía' durante 23 años: ahora tiene un increíble paraíso vegetal de 20.000 metros
-[movies] Candidatos encontrados: 36 | Límite: 1
-[movies] Saltado por tema bloqueado: Recuerdo tu nombre
-[IA] Probando proveedor cohere: Rose
-[IA] cohere falló (error): Cohere error 404: {"id":"31fd3a5e-a9db-42e9-813e-7d7f767dc1c5","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Rose
+[movies] Candidatos encontrados: 41 | Límite: 1
+[movies] Saltado por tema bloqueado: Sucia: ¿Por qué no hiciste nada?
+[IA] Probando proveedor gemini: Willow y las guardianas de los cuatro elementos
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/rose-sandra-huller-en-un-cautivador-drama-historico-de-identidades-2026-11-24-0aea46.md
+[OK] Publicado: src/content/blog/willow-y-las-guardianas-una-aventura-familiar-con-magia-y-naturaleza-2026-11-25-5fe3e7.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
