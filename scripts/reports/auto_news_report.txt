@@ -1,9 +1,16 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-25T00:37:15.632951+00:00
+Fecha UTC: 2026-11-25T14:13:59.253723+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
-[movies] Saltado porque no es estreno 2026: La película de acción real de 'Naruto' se fija en 'Shogun' para el Tercer Hokage de la Aldea Oculta de la Hoja (2027)
 [movies] Saltado porque no es estreno 2026: El dilema visual que divide a los fans de Marvel: No hay consenso en si 'Vengadores: Doomsday' se ve peor que 'Endgame' (2019)
+[movies] Saltado noticia no apta para películas: Christopher Lloyd: "Mi amistad con Michael J. Fox] nunca ha terminado. Es un amor para toda la vida"
+[movies] Saltado noticia no apta para películas: Una de las pocas películas de acción que ha ganado el Oscar a Mejor película: 30 años después, ha perdido parte de su prestigio
+[movies] Saltado noticia no apta para películas: Richard Gere, al conocer a Brooke Adams en 1978: "Me enamoré perdidamente antes de hacer nuestra película"
+[movies] Saltado noticia no apta para películas: "Aprendí a amar al personaje y a mirarlo con humanidad, sin justificarle": llega a cines 'Un hombre en un puente', que viene avalada por grandes elogios
+[movies] Saltado noticia no apta para películas: La novela original ha sido leída 140 millones de veces: Ya en Amazon Prime una película que se ha colado en las listas de éxitos
 [movies] Saltado porque no es estreno 2026: Zack Snyder está rehaciendo uno de los mayores clásicos de la ciencia ficción de todos los tiempos y la cosa se pone aún mejor (2028)
+[movies] Saltado porque no es estreno 2026: "Tuve que pagar un divorcio. Esto es la pura verdad. Cuando hice 'Armageddon' necesitaba dinero": la razón por la que Billy Bob Thornton hizo la película (2016)
+[movies] Saltado porque no es estreno 2026: Arnold Schwarzenegger: "Todos necesitamos levantar cargas más pesadas al menos una o dos veces por semana" (2027)
+[movies] Saltado noticia no apta para películas: Tiene 37 años y es una obra maestra bélica: El retrato más brutal de la guerra de Vietnam
 [movies] Saltado noticia no apta para películas: Carys Douglas, hija de Michael Douglas: "Tener un padre mayor es un regalo enorme, sin embargo, a veces desearía que no tuviera 82 años"
 [movies] Saltado noticia no apta para películas: Kirk Douglas, en 1973, sobre John Wayne: "No hemos estado de acuerdo en muchas cosas, pero me parece uno de los actores más profesionales con los que he trabajado"
 [movies] Saltado noticia no apta para películas: Penélope Cruz, sobre su amistad con Salma Hayek: "Me recogió en el aeropuerto y me dijo: 'No vas a irte a un hotel. Te vienes a mi casa, porque esto es duro al inicio. Te vas a sentir muy sola"
@@ -16,11 +23,7 @@ Fecha UTC: 2026-11-25T00:37:15.632951+00:00
 [movies] Saltado noticia no apta para películas: Emilio Aragón (67 años), sobre su padre Miliki: "Nunca fue farandulero. Él iba, hacía su trabajo y venía a casa"
 [movies] Saltado noticia no apta para películas: David Bustamante (44 años): “Los cinco nos criamos en un piso de 70 metros y soñábamos con tener un chalé. En cuanto me cambió la vida les compré uno a mis padres”
 [movies] Saltado noticia no apta para películas: Cristina Porta, sobre Andrea (pareja de Náyades): "Estoy hablando de una persona que hace realities, no le he faltado el respeto a nadie"
-[movies] Candidatos encontrados: 41 | Límite: 1
-[movies] Saltado por tema bloqueado: Sucia: ¿Por qué no hiciste nada?
-[IA] Probando proveedor gemini: Willow y las guardianas de los cuatro elementos
-[IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/willow-y-las-guardianas-una-aventura-familiar-con-magia-y-naturaleza-2026-11-25-5fe3e7.md
-[movies] Publicados: 1
-Total películas publicadas: 1
+[movies] Candidatos encontrados: 34 | Límite: 1
+[movies] Publicados: 0
+Total películas publicadas: 0
 === Fin Movies ===
