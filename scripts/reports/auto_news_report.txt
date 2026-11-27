@@ -1,30 +1,26 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-26T13:50:24.508202+00:00
+Fecha UTC: 2026-11-27T00:33:11.954271+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
-[movies] Saltado porque no es estreno 2026: Claudio Molina Gómez, historiador, sobre la escena de Penélope Cruz en 'La bola negra': "Pura representación real. Se dedicaban a entretener y subir la moral de soldados y una España en decadencia" (2027)
+[movies] Saltado noticia no apta para películas: Crítica de 'Club Kid': 'Un papá genial' con ketamina que ha sido la película revelación del 2026
+[movies] Saltado noticia no apta para películas: Los Oscars han marcado una línea roja para la Inteligencia Artificial: una película aspiraba a competir pero ha sido vetada
+[movies] Saltado noticia no apta para películas: Claudio Molina Gómez, historiador, sobre la escena de Penélope Cruz en 'La bola negra': "Pura representación real. Se dedicaban a entretener y subir la moral de soldados y una España en decadencia"
 [movies] Saltado porque no es estreno 2026: Clint Eastwood, de 96 años, sobre el Hollywood moderno: "Vivimos en una generación demasiado sensible. Todo el mundo anda con pies de plomo" (2008)
-[movies] Saltado porque no es estreno 2026: "[Por qué escribo sobre el duelo] es algo que he descubierto 20 años después": llega a cines un drama luminoso sin diálogos (2027)
+[movies] Saltado noticia no apta para películas: "[Por qué escribo sobre el duelo] es algo que he descubierto 20 años después": llega a cines un drama luminoso sin diálogos
 [movies] Saltado porque no es estreno 2026: “De pequeño interpretaba a Lobezno”: Adam Driver finalmente acepta el icónico papel de Marvel después de años de rechazo (2028)
 [movies] Saltado porque no es estreno 2026: Tras 'La bola negra', ya está en Netflix la otra esperada película bélica de 2026: un episodio poco conocido de la Segunda Guerra Mundial (2028)
 [movies] Saltado noticia no apta para películas: Michelle Rodriguez, actriz de 'Fast and Furious': "Dejen de robarles los superhéroes a los blancos. Inventen los suyos"
-[movies] Saltado porque no es estreno 2026: Mónica Bardem, hermana de Javier Bardem, sobre Penélope Cruz: "Es mejor cuñada que actriz. Es un amor de mujer" (2027)
-[movies] Saltado porque no es estreno 2026: Había ganado un Oscar y era actor de éxito, pero sintió el impulso de alistarse en el ejército: durante años estuvo sirviendo y también trabajando en Hollywood (2027)
-[movies] Saltado porque no es estreno 2026: "Quería preguntarme qué impide a estos personajes reaccionar ante el abuso dentro de la familia": 'Hermanas', la nueva película de Emma Suárez y Elena Anaya (2027)
-[movies] Saltado porque no es estreno 2026: En 2008, John Malkovich vio una fotografía que le mostró que había sido estafado: “Era todo lo que había ganado en mi vida” (2008)
-[movies] Saltado porque no es estreno 2026: "Sucedió de una manera muy natural": Javier Bardem sobre cómo ha sido su debut en el teatro a sus 57 años (2027)
+[movies] Saltado noticia no apta para películas: Chris Evans nunca llegó a dejar Marvel, sino que su regreso se planeó durante años: Tuvo múltiples reuniones en secreto
 [movies] Saltado noticia no apta para películas: Carys Douglas, hija de Michael Douglas: "Tener un padre mayor es un regalo enorme, sin embargo, a veces desearía que no tuviera 82 años"
 [movies] Saltado noticia no apta para películas: Kirk Douglas, en 1973, sobre John Wayne: "No hemos estado de acuerdo en muchas cosas, pero me parece uno de los actores más profesionales con los que he trabajado"
 [movies] Saltado noticia no apta para películas: Penélope Cruz, sobre su amistad con Salma Hayek: "Me recogió en el aeropuerto y me dijo: 'No vas a irte a un hotel. Te vienes a mi casa, porque esto es duro al inicio. Te vas a sentir muy sola"
+[movies] Saltado noticia no apta para películas: Por qué Moisés Laguardia ha abandonado 'Pasapalabra': Este es el dinero que ha ganado tras 54 programas
+[movies] Saltado noticia no apta para películas: Isabel Díaz Ayuso vuelve a 'El Hormiguero': Pablo Motos desvela sus próximos invitados
+[movies] Saltado noticia no apta para películas: Silvia Abril, Manuel Carrasco y Jesús Vázquez serán los presentadores de las Campanadas 2026-2027 en RTVE
 [movies] Saltado noticia no apta para películas: 'GH VIP 9' anunció el futuro de Belén Esteban como concursante y vivió sus primeras nominaciones: Esta es la lista de nominados
 [movies] Saltado noticia no apta para películas: La montaña favorita de Jesús Calleja (61 años): "No es Alaska, está en España. Es espectacular y maravillosa. Aquí empezó todo"
-[movies] Saltado noticia no apta para películas: 'El Escondite' ya tiene fecha de estreno en RTVE: El debut de Grison como presentador para hacer frente al nuevo 'reality' de Telecinco
-[movies] Saltado noticia no apta para películas: "Los invitados estaban tirándose de los pelos": Era una de las respuestas más fáciles de 'Pasapalabra', pero David Trigo no consiguió resolverla
-[movies] Saltado noticia no apta para películas: TVE triunfa con su debate a ocho y Feijóo firma una doble victoria en audiencias frente a Pedro Sánchez: le supera con Franganillo y con Griso
-[movies] Candidatos encontrados: 41 | Límite: 1
-[YouTube] No se encontró tráiler confiable para Christian Bale lo hizo tan bien en esta escena de 'American Psycho' que le acabaron llamando "el robo-actor"
-[movies] Saltado porque no tiene tráiler confiable: Christian Bale lo hizo tan bien en esta escena de 'American Psycho' que le acabaron llamando "el robo-actor"
-[YouTube] No se encontró tráiler confiable para Freddie Mercury, en los años 70: "No seré una estrella de rock. Seré una leyenda"
-[movies] Saltado porque no tiene tráiler confiable: Freddie Mercury, en los años 70: "No seré una estrella de rock. Seré una leyenda"
+[movies] Candidatos encontrados: 39 | Límite: 1
+[YouTube] No se encontró tráiler confiable para El arco de Aragorn en 'El señor de los anillos' golpeó a la cámara y se hizo evidente en la escena: Peter Jackson tuvo que solucionarlo en la versión 4K
+[movies] Saltado porque no tiene tráiler confiable: El arco de Aragorn en 'El señor de los anillos' golpeó a la cámara y se hizo evidente en la escena: Peter Jackson tuvo que solucionarlo en la versión 4K
 [movies] Publicados: 0
 Total películas publicadas: 0
 === Fin Movies ===
