@@ -1,26 +1,32 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-27T00:33:11.954271+00:00
+Fecha UTC: 2026-11-27T13:47:55.199483+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
-[movies] Saltado noticia no apta para películas: Crítica de 'Club Kid': 'Un papá genial' con ketamina que ha sido la película revelación del 2026
-[movies] Saltado noticia no apta para películas: Los Oscars han marcado una línea roja para la Inteligencia Artificial: una película aspiraba a competir pero ha sido vetada
-[movies] Saltado noticia no apta para películas: Claudio Molina Gómez, historiador, sobre la escena de Penélope Cruz en 'La bola negra': "Pura representación real. Se dedicaban a entretener y subir la moral de soldados y una España en decadencia"
+[movies] Saltado porque no es estreno 2026: Los Juegos del Hambre: Amanecer en la cosecha (None)
 [movies] Saltado porque no es estreno 2026: Clint Eastwood, de 96 años, sobre el Hollywood moderno: "Vivimos en una generación demasiado sensible. Todo el mundo anda con pies de plomo" (2008)
-[movies] Saltado noticia no apta para películas: "[Por qué escribo sobre el duelo] es algo que he descubierto 20 años después": llega a cines un drama luminoso sin diálogos
 [movies] Saltado porque no es estreno 2026: “De pequeño interpretaba a Lobezno”: Adam Driver finalmente acepta el icónico papel de Marvel después de años de rechazo (2028)
 [movies] Saltado porque no es estreno 2026: Tras 'La bola negra', ya está en Netflix la otra esperada película bélica de 2026: un episodio poco conocido de la Segunda Guerra Mundial (2028)
-[movies] Saltado noticia no apta para películas: Michelle Rodriguez, actriz de 'Fast and Furious': "Dejen de robarles los superhéroes a los blancos. Inventen los suyos"
-[movies] Saltado noticia no apta para películas: Chris Evans nunca llegó a dejar Marvel, sino que su regreso se planeó durante años: Tuvo múltiples reuniones en secreto
 [movies] Saltado noticia no apta para películas: Carys Douglas, hija de Michael Douglas: "Tener un padre mayor es un regalo enorme, sin embargo, a veces desearía que no tuviera 82 años"
 [movies] Saltado noticia no apta para películas: Kirk Douglas, en 1973, sobre John Wayne: "No hemos estado de acuerdo en muchas cosas, pero me parece uno de los actores más profesionales con los que he trabajado"
 [movies] Saltado noticia no apta para películas: Penélope Cruz, sobre su amistad con Salma Hayek: "Me recogió en el aeropuerto y me dijo: 'No vas a irte a un hotel. Te vienes a mi casa, porque esto es duro al inicio. Te vas a sentir muy sola"
+[movies] Saltado porque no es estreno 2026: Un restaurante de Barcelona desveló la multa que te pone 'Pesadilla en la cocina' si te arrepientes de participar (2025)
+[movies] Saltado noticia no apta para películas: 'GH VIP 9' anunció al primer salvado de la semana: Así queda la lista de nominados
 [movies] Saltado noticia no apta para películas: Por qué Moisés Laguardia ha abandonado 'Pasapalabra': Este es el dinero que ha ganado tras 54 programas
 [movies] Saltado noticia no apta para películas: Isabel Díaz Ayuso vuelve a 'El Hormiguero': Pablo Motos desvela sus próximos invitados
 [movies] Saltado noticia no apta para películas: Silvia Abril, Manuel Carrasco y Jesús Vázquez serán los presentadores de las Campanadas 2026-2027 en RTVE
 [movies] Saltado noticia no apta para películas: 'GH VIP 9' anunció el futuro de Belén Esteban como concursante y vivió sus primeras nominaciones: Esta es la lista de nominados
-[movies] Saltado noticia no apta para películas: La montaña favorita de Jesús Calleja (61 años): "No es Alaska, está en España. Es espectacular y maravillosa. Aquí empezó todo"
-[movies] Candidatos encontrados: 39 | Límite: 1
-[YouTube] No se encontró tráiler confiable para El arco de Aragorn en 'El señor de los anillos' golpeó a la cámara y se hizo evidente en la escena: Peter Jackson tuvo que solucionarlo en la versión 4K
-[movies] Saltado porque no tiene tráiler confiable: El arco de Aragorn en 'El señor de los anillos' golpeó a la cámara y se hizo evidente en la escena: Peter Jackson tuvo que solucionarlo en la versión 4K
-[movies] Publicados: 0
-Total películas publicadas: 0
+[movies] Candidatos encontrados: 52 | Límite: 1
+[IA] Probando proveedor groq: Artificial
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: Artificial
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: Artificial
+[IA] mistral falló (cuota): API error occurred: Status 402
+{"object":"error","message":"You need a subscription to access this API.","type":"billing_no_api_budget_configured","param":null,"code":"2314","raw_status_code":402}
+[IA] Probando proveedor cohere: Artificial
+[IA] cohere falló (error): Cohere error 404: {"id":"03f920bf-2388-4c2f-838d-9790c2784aa2","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Artificial
+[IA] Artículo generado con gemini
+[OK] Publicado: src/content/blog/artificial-la-fascinante-mirada-al-corazon-de-openai-por-guadagnino-2026-11-27-661cd1.md
+[movies] Publicados: 1
+Total películas publicadas: 1
 === Fin Movies ===
