@@ -1,5 +1,5 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-28T00:05:47.851367+00:00
+Fecha UTC: 2026-11-28T07:39:43.849857+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Los Juegos del Hambre: Amanecer en la cosecha (None)
 [movies] Saltado noticia no apta para películas: Miguel Bernardeau: "[Los Javis] son gente muy valiosa. Son mis Federicos literalmente"
@@ -23,25 +23,30 @@ Fecha UTC: 2026-11-28T00:05:47.851367+00:00
 [movies] Saltado noticia no apta para películas: Silvia Abril, Manuel Carrasco y Jesús Vázquez serán los presentadores de las Campanadas 2026-2027 en RTVE
 [movies] Saltado noticia no apta para películas: 'GH VIP 9' anunció el futuro de Belén Esteban como concursante y vivió sus primeras nominaciones: Esta es la lista de nominados
 [movies] Candidatos encontrados: 44 | Límite: 1
-[movies] Saltado por tema bloqueado: Corren las liebres
 [IA] Probando proveedor mistral: El pezón de Elena
 [IA] mistral falló (cuota): API error occurred: Status 402
 {"object":"error","message":"You need a subscription to access this API.","type":"billing_no_api_budget_configured","param":null,"code":"2314","raw_status_code":402}
 [IA] Probando proveedor cohere: El pezón de Elena
-[IA] cohere falló (error): Cohere error 404: {"id":"00aeb6b0-3625-43f9-9744-f0211735c085","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] cohere falló (error): Cohere error 404: {"id":"e526ccf3-9223-4faa-8a24-d183379b8911","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
 [IA] Probando proveedor gemini: El pezón de Elena
-[IA] gemini falló (error): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[IA] gemini falló (cuota): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash, description: Generate content requests per day limit exceeded on Fr
 [IA] Probando proveedor groq: El pezón de Elena
 [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
 [IA] Probando proveedor openai: El pezón de Elena
 [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[movies] Error generando artículo El pezón de Elena: Todos los proveedores de IA fallaron. [IA] gemini falló (error): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}} | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[movies] Saltado por tema bloqueado: Entre fronteras
-[IA] Probando proveedor cohere: Fatherland
-[IA] cohere falló (error): Cohere error 404: {"id":"6491005c-100e-41ae-b0b3-a32423b7a4db","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Fatherland
+[movies] Error generando artículo El pezón de Elena: Todos los proveedores de IA fallaron. [IA] gemini falló (cuota): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash, description: Generate content requests per day limit exceeded on Fr | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[YouTube] No se encontró tráiler confiable para Gatibu, agur esan barik
+[movies] Saltado porque no tiene tráiler confiable: Gatibu, agur esan barik
+[IA] Probando proveedor openai: Hora y veinte
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[IA] Probando proveedor mistral: Hora y veinte
+[IA] mistral falló (cuota): API error occurred: Status 402
+{"object":"error","message":"You need a subscription to access this API.","type":"billing_no_api_budget_configured","param":null,"code":"2314","raw_status_code":402}
+[IA] Probando proveedor cohere: Hora y veinte
+[IA] cohere falló (error): Cohere error 404: {"id":"c6469390-e8e3-45db-9904-59d0ebffdb5d","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Hora y veinte
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/fatherland-el-retorno-de-thomas-mann-a-una-alemania-dividida-2026-11-28-1d8b63.md
+[OK] Publicado: src/content/blog/hora-y-veinte-el-thriller-psicologico-de-marc-romero-que-llega-en-2026-2026-11-28-0c883f.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
