@@ -1,32 +1,47 @@
 === TELELATINO Movies ===
-Fecha UTC: 2026-11-27T13:47:55.199483+00:00
+Fecha UTC: 2026-11-28T00:05:47.851367+00:00
 [movies] Saltado porque no es estreno 2026: Vengadores: Doomsday (None)
 [movies] Saltado porque no es estreno 2026: Los Juegos del Hambre: Amanecer en la cosecha (None)
-[movies] Saltado porque no es estreno 2026: Clint Eastwood, de 96 años, sobre el Hollywood moderno: "Vivimos en una generación demasiado sensible. Todo el mundo anda con pies de plomo" (2008)
-[movies] Saltado porque no es estreno 2026: “De pequeño interpretaba a Lobezno”: Adam Driver finalmente acepta el icónico papel de Marvel después de años de rechazo (2028)
-[movies] Saltado porque no es estreno 2026: Tras 'La bola negra', ya está en Netflix la otra esperada película bélica de 2026: un episodio poco conocido de la Segunda Guerra Mundial (2028)
+[movies] Saltado noticia no apta para películas: Miguel Bernardeau: "[Los Javis] son gente muy valiosa. Son mis Federicos literalmente"
+[movies] Saltado noticia no apta para películas: Martin Scorsese acaba de cumplir 84 años, pero a los 35 estuvo a punto de morir: "Llegué a pesar unos 49 kilos. No fue solo a causa de los fármacos"
+[movies] Saltado noticia no apta para películas: Hace 75 años dio sus primeros pasos en el cine y hoy es famoso en todo el mundo: ¿lo reconoces?
+[movies] Saltado noticia no apta para películas: 'El señor de los anillos' afirma que "las espadas ya no sirven" en el Puente de Khazad-Dûm, pero se contradice en 'Las dos Torres'
+[movies] Saltado noticia no apta para películas: Su última película está siendo criticada por usar IA, pero David Fincher ve un futuro cercano donde lo hace casi todo con ella
+[movies] Saltado noticia no apta para películas: Paz Vega, sobre dirigir la adaptación de 'Ana no': "Es importante que haya parte de ti, pero respetando la visión del autor"
+[movies] Saltado noticia no apta para películas: El nuevo proyecto de Antonio Banderas es un cortijo del siglo XVIII en Antequera para celebrar tu boda de ensueño
+[movies] Saltado noticia no apta para películas: Las hijas de Michael J. Fox ya son mayores: la estrella de 'Regreso al Futuro' posa con sus gemelas y su hija menor en un evento
+[movies] Saltado noticia no apta para películas: En 1993 fue uno de los hijos de Robin Williams en 'La señora Doubtfire'; hoy, a sus 46 años, rescata animales exóticos en California
+[movies] Saltado noticia no apta para películas: Crítica de 'Club Kid': 'Un papá genial' con ketamina que ha sido la película revelación del 2026
 [movies] Saltado noticia no apta para películas: Carys Douglas, hija de Michael Douglas: "Tener un padre mayor es un regalo enorme, sin embargo, a veces desearía que no tuviera 82 años"
 [movies] Saltado noticia no apta para películas: Kirk Douglas, en 1973, sobre John Wayne: "No hemos estado de acuerdo en muchas cosas, pero me parece uno de los actores más profesionales con los que he trabajado"
 [movies] Saltado noticia no apta para películas: Penélope Cruz, sobre su amistad con Salma Hayek: "Me recogió en el aeropuerto y me dijo: 'No vas a irte a un hotel. Te vienes a mi casa, porque esto es duro al inicio. Te vas a sentir muy sola"
 [movies] Saltado porque no es estreno 2026: Un restaurante de Barcelona desveló la multa que te pone 'Pesadilla en la cocina' si te arrepientes de participar (2025)
+[movies] Saltado noticia no apta para películas: Martín Escolar es eliminado de 'Saber y ganar' a cinco entregas de ser centenario: Este es el dinero que se lleva por 95 programas
 [movies] Saltado noticia no apta para películas: 'GH VIP 9' anunció al primer salvado de la semana: Así queda la lista de nominados
 [movies] Saltado noticia no apta para películas: Por qué Moisés Laguardia ha abandonado 'Pasapalabra': Este es el dinero que ha ganado tras 54 programas
 [movies] Saltado noticia no apta para películas: Isabel Díaz Ayuso vuelve a 'El Hormiguero': Pablo Motos desvela sus próximos invitados
 [movies] Saltado noticia no apta para películas: Silvia Abril, Manuel Carrasco y Jesús Vázquez serán los presentadores de las Campanadas 2026-2027 en RTVE
 [movies] Saltado noticia no apta para películas: 'GH VIP 9' anunció el futuro de Belén Esteban como concursante y vivió sus primeras nominaciones: Esta es la lista de nominados
-[movies] Candidatos encontrados: 52 | Límite: 1
-[IA] Probando proveedor groq: Artificial
-[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
-[IA] Probando proveedor openai: Artificial
-[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
-[IA] Probando proveedor mistral: Artificial
+[movies] Candidatos encontrados: 44 | Límite: 1
+[movies] Saltado por tema bloqueado: Corren las liebres
+[IA] Probando proveedor mistral: El pezón de Elena
 [IA] mistral falló (cuota): API error occurred: Status 402
 {"object":"error","message":"You need a subscription to access this API.","type":"billing_no_api_budget_configured","param":null,"code":"2314","raw_status_code":402}
-[IA] Probando proveedor cohere: Artificial
-[IA] cohere falló (error): Cohere error 404: {"id":"03f920bf-2388-4c2f-838d-9790c2784aa2","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
-[IA] Probando proveedor gemini: Artificial
+[IA] Probando proveedor cohere: El pezón de Elena
+[IA] cohere falló (error): Cohere error 404: {"id":"00aeb6b0-3625-43f9-9744-f0211735c085","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: El pezón de Elena
+[IA] gemini falló (error): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[IA] Probando proveedor groq: El pezón de Elena
+[IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+[IA] Probando proveedor openai: El pezón de Elena
+[IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[movies] Error generando artículo El pezón de Elena: Todos los proveedores de IA fallaron. [IA] gemini falló (error): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}} | [IA] groq falló (error): Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}} | [IA] openai falló (cuota): Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+[movies] Saltado por tema bloqueado: Entre fronteras
+[IA] Probando proveedor cohere: Fatherland
+[IA] cohere falló (error): Cohere error 404: {"id":"6491005c-100e-41ae-b0b3-a32423b7a4db","message":"model 'command-r' was removed on September 15, 2025. See https://docs.cohere.com/docs/models#command for a list of models you can use instead."}
+[IA] Probando proveedor gemini: Fatherland
 [IA] Artículo generado con gemini
-[OK] Publicado: src/content/blog/artificial-la-fascinante-mirada-al-corazon-de-openai-por-guadagnino-2026-11-27-661cd1.md
+[OK] Publicado: src/content/blog/fatherland-el-retorno-de-thomas-mann-a-una-alemania-dividida-2026-11-28-1d8b63.md
 [movies] Publicados: 1
 Total películas publicadas: 1
 === Fin Movies ===
